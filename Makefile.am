@@ -14,13 +14,6 @@ TARGETS_COMMON = $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG2).dix $(BASENAME).$
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes
 
-$(BASENAME).$(LANG1).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1).dix.xml > $(BASENAME).$(LANG1).dix
-$(BASENAME).$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG2).dix.xml > $(BASENAME).$(LANG2).dix
-$(BASENAME).$(LANG1)-$(LANG2).dix:
-	xmllint --xinclude $(BASENAME).$(LANG1)-$(LANG2).dix.xml > $(BASENAME).$(LANG1)-$(LANG2).dix
-     
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	lt-comp lr $(BASENAME).$(LANG1).dix $@
@@ -81,9 +74,9 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG2).dix \
-	   $(BASENAME).$(LANG1).dix.xml \
-	   $(BASENAME).$(LANG2).dix.xml \
-	   $(BASENAME).$(PREFIX1).dix.xml \
+	   $(BASENAME).$(LANG1).dix \
+	   $(BASENAME).$(LANG2).dix \
+	   $(BASENAME).$(PREFIX1).dix \
            $(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
            $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \

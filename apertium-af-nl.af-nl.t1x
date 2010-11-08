@@ -754,6 +754,7 @@
 
           <when>
             <test> 
+              <and>
                 <equal>
                   <clip pos="2" side="tl" part="temps"/>
                   <lit-tag v="pp"/>
@@ -766,6 +767,7 @@
                   <clip pos="1" side="sl" part="temps"/>
                   <lit-tag v="past"/>
                 </equal>
+              </and>
             </test>
             <out>
               <chunk name="verb">

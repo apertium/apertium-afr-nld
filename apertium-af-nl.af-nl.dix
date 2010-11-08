@@ -2,7 +2,115 @@
 <dictionary>
   <alphabet/>
   <!-- Symbol definitions -->
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="apertium-af-nl.symbols.xml"/>
+  <!-- -*- nxml -*- --><sdefs>
+    <sdef n="n" c="Noun"/>
+    <sdef n="m" c="Masculine"/>
+    <sdef n="f" c="Feminine"/>
+    <sdef n="nt" c="Neuter"/>
+    <sdef n="mf" c="Masculine-Feminine"/>
+    <sdef n="sg" c="Singular"/>
+    <sdef n="pl" c="Plural"/>
+    <sdef n="prn" c="Pronoun"/>
+    <sdef n="pr" c="Preposition"/>
+
+    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub" c="Subordinating conjunction"/>
+    <sdef n="cnjadv" c="Adverbial conjunction"/>
+
+    <sdef n="vbser" c="The verb 'to be'"/>
+    <sdef n="vblex" c="Lexical verb"/>	
+    <sdef n="vaux" c="Auxilliary verb"/>	
+    <sdef n="vbhaver" c="The verb 'to have'"/>
+    <sdef n="vbmod" c="Modal verb"/>
+    <sdef n="pri" c="Present indicative"/>
+    <sdef n="past" c="Past tense"/>
+    <sdef n="pres" c="Present tense"/>
+    <sdef n="inf" c="Infinitive"/>
+
+    <sdef n="aff" c="Affirmative"/>
+    <sdef n="int" c="Interrogative"/>
+    <sdef n="neg" c="Negative"/>
+
+    <sdef n="p1" c="First person"/>
+    <sdef n="p2" c="Second person"/>
+    <sdef n="p3" c="Third person"/>
+    <sdef n="impers" c="Impersonal"/>
+ 
+    <sdef n="tn" c="Tonico"/>
+    <sdef n="adj" c="Adjective"/>
+    <sdef n="sint" c="Synthetic adjective"/>
+    <sdef n="comp" c="Comparative"/>
+    <sdef n="sup" c="Superlative"/>
+    <sdef n="attr" c="Attributive"/>
+    <sdef n="pred" c="Predicative"/>
+
+    <sdef n="detnt" c="Neuter determiner"/>
+    <sdef n="predet" c="Pre determiner"/>
+    <sdef n="atn"/>
+    <sdef n="qnt"/>
+    <sdef n="ord" c="Ordinal"/>
+    <sdef n="obj" c="Object"/>
+    <sdef n="subj" c="Subject"/>
+    <sdef n="pro" c="Proclitic"/>
+    <sdef n="acr" c="Acronym"/>
+    <sdef n="ant" c="Antroponym"/>
+    <sdef n="al" c="Other / Otros"/>
+    <sdef n="np" c="Proper noun"/>
+    <sdef n="adv" c="Adverb"/>
+    <sdef n="preadv" c="Pre-adverb"/>
+    <sdef n="rel" c="Relative"/>
+    <sdef n="nn" c="Noun noun"/>
+    <sdef n="an" c="Adjective noun"/>
+    <sdef n="aa" c="Adjective adjective"/>
+    <sdef n="ind" c="Indefinite"/>    
+    <sdef n="itg" c="Interrogative"/>
+    <sdef n="det" c="Determiner"/>
+    <sdef n="dem" c="Demonstrative"/>
+    <sdef n="def" c="Definite"/>
+    <sdef n="ger" c="Gerund"/>
+    <sdef n="pp" c="Participle"/>
+    <sdef n="ifi" c="Pretério perfecto o indefinido"/>
+    <sdef n="pii" c="Pretério imperfecto de indicativo"/>
+    <sdef n="fti" c="Future indicative"/>
+    <sdef n="cni" c="Conditional"/>
+    <sdef n="prs" c="Present subjunctive"/>
+    <sdef n="pis" c="Pretério imperfecto de subjunctivo"/>
+    <sdef n="imp" c="Imperfect"/>
+    <sdef n="pos" c="Possessive"/>
+    <sdef n="gen" c="Genitive"/>
+    <sdef n="nom" c="Nominative"/>
+    <sdef n="sp" c="Singular / Plural"/>
+    <sdef n="ref" c="Reflexive"/>
+    <sdef n="num" c="Numeral / Number"/>
+    <sdef n="ij" c="Interjection"/>
+
+    <sdef n="atp" c="Attachable prefix"/>
+
+    <sdef n="uns" c="Unstressed prefix"/>
+
+    <sdef n="sent" c="End of sentence"/>
+    <sdef n="cm" c="Comma"/>
+    <sdef n="lpar" c="Left parenthesis"/>
+    <sdef n="rpar" c="Right parenthesis"/>
+    <sdef n="lquest" c="Left question-mark"/>
+    <sdef n="web"/>
+    <sdef n="subs"/>
+    <sdef n="pprs"/>    
+    <sdef n="guio" c="Hyphen"/> 
+    <sdef n="enc"/>
+    <sdef n="vbdo"/>
+    <sdef n="unc"/>
+    <sdef n="sep"/>
+    <sdef n="pron"/>
+    <sdef n="percent"/>
+    <sdef n="apos" c="Apostrophe"/>
+
+    <sdef n="pref" c="Prefix"/>
+
+    <sdef n="loc" c="Location"/>
+    <sdef n="per" c="Person"/>
+    <sdef n="org" c="Organisation"/>
+  </sdefs>
 
   <section id="main" type="standard">
     <!-- TOETS: De trein vertrekt om elf uur -->
@@ -12,6 +120,8 @@
     <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
     <e><p><l>elf<s n="num"/></l><r>elf<s n="num"/></r></p></e>
     <e><p><l>uur<s n="n"/></l><r>elf<s n="n"/></r></p></e>
+    <e><p><l>vir<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/></l><r>naar<s n="pr"/></r></p></e>
 
     <!-- Getalle -->
     <e><p><l>een<s n="num"/></l><r>een<s n="num"/></r></p></e>
@@ -25,11 +135,14 @@
     <e><p><l>nege<s n="num"/></l><r>negen<s n="num"/></r></p></e>
     <e><p><l>tien<s n="num"/></l><r>tien<s n="num"/></r></p></e>
 
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+
     <!-- woorde van wikipedia (iw-word.sh) -->
     <e><p><l>reg<s n="n"/></l><r>recht<s n="n"/></r></p></e>
     <e><p><l>atmosfeer<s n="n"/></l><r>aardatmosfeer<s n="n"/></r></p></e>
     <e><p><l>koerant<s n="n"/></l><r>krant<s n="n"/></r></p></e>
     <e><p><l>vrou<s n="n"/></l><r>vrouw<s n="n"/></r></p></e>
+    <e><p><l>boek<s n="n"/></l><r>boek<s n="n"/></r></p></e>
     <e><p><l>krag<s n="n"/></l><r>kracht<s n="n"/></r></p></e>
     <e><p><l>woordeboek<s n="n"/></l><r>woordenboek<s n="n"/></r></p></e>
     <e><p><l>gemiese<s n="n"/></l><r>chemisch<s n="n"/></r></p></e>
@@ -137,10 +250,8 @@
     <e><p><l>ons<s n="det"/></l><r>wij<s n="det"/></r></p></e>
     <e><p><l>hierdie<s n="det"/></l><r>deze<s n="det"/></r></p></e>
 
-    <e><p><l>vir<s n="n"/></l><r>voor<s n="n"/></r></p></e>
     <e><p><l>as<s n="n"/></l><r>als<s n="n"/></r></p></e>
     <e><p><l>nie<s n="n"/></l><r>niet<s n="n"/></r></p></e>
-    <e><p><l>na<s n="pr"/></l><r>naar<s n="pr"/></r></p></e>
 
     <e><p><l>asseblief<s n="n"/></l><r>alstublieft<s n="n"/></r></p></e>
     <e><p><l>waarskynlik<s n="n"/></l><r>waarschijnlijk<s n="n"/></r></p></e>
@@ -151,6 +262,12 @@
     <e><p><l>saam<s n="n"/></l><r>samen<s n="n"/></r></p></e>
     <e><p><l>vry<s n="n"/></l><r>vrij<s n="n"/></r></p></e>
     -->
+
+    <e><p><l>wees<s n="vbser"/></l><r>zijn<s n="vbser"/></r></p></e>
+    
+    <!-- SECTION: Punctuation -->
+
+    <e><re>.</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
   </section>
 
 </dictionary>
