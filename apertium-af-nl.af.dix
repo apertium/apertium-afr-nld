@@ -3044,36 +3044,7 @@
     <!-- Nombres proprios: Organisations -->
 
     <e lm="Amnesty International"><i>Amnesty<b/>International</i><par n="Amnesty_International__np"/></e> 
-    <e lm="Organisasie van Nie-gebonde Lande">
-      <i>Organisasie<b/>van<b/>Nie-gebonde<b/>Lande</i>
-      <par n="Amnesty_International__np"/>
-    </e>
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Amnesty_International__np"/></e><!-- something different maybe ? -->
-
-    <e lm="Departement van Gesondheid"><i>Departement<b/>van<b/>Gesondheid</i><par n="Amnesty_International__np"/></e> 
-    <e lm="Departement van Arbeid"><i>Departement<b/>van<b/>Arbeid</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Behuising"><i>Departement<b/>van<b/>Behuising</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Binnelandse Sake"><i>Departement<b/>van<b/>Binnelandse<b/>Sake</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Buitelandse Sake"><i>Departement<b/>van<b/>Buitelandse<b/>Sake</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Grondsake"><i>Departement<b/>van<b/>Grondsake</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Handel en Nywerheid"><i>Departement<b/>van<b/>Handel<b/>en<b/>Nywerheid</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Justisie"><i>Departement<b/>van<b/>Justisie</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Justisie en Staatkundige Ontwikkeling">
-      <i>Departement<b/>van<b/>Justisie<b/>en<b/>Staatkundige</i>
-      <par n="Amnesty_International__np"/>
-    </e>
-    <e lm="Departement van Kommunikasie"><i>Departement<b/>van<b/>Kommunikasie</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Kuns en Kultuur"><i>Departement<b/>van<b/>Kuns<b/>en<b/>Kultuur</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Landbou"><i>Departement<b/>van<b/>Landbou</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Maatskaplike Ontwikkeling"><i>Departement<b/>van<b/>Maatskaplike<b/>Ontwikkeling</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Minerale en Energie"><i>Departement<b/>van<b/>Minerale<b/>en<b/>Energie</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Omgewingsake en Toerisme"><i>Departement<b/>van<b/>Omgewingsake<b/>en<b/>Toerisme</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Onderwys"><i>Departement<b/>van<b/>Onderwys</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Openbare Werke"><i>Departement<b/>van<b/>Openbare<b/>Werke</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Plaaslike Bestuur"><i>Departement<b/>van<b/>Plaaslike<b/>Bestuur</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Vervoer"><i>Departement<b/>van<b/>Vervoer</i><par n="Amnesty_International__np"/></e>
-    <e lm="Departement van Waterwese en Bosbou"><i>Departement<b/>van<b/>Waterwese<b/>en<b/>Bosbou</i><par n="Amnesty_International__np"/></e>
-
 
 
     <!-- Verbs -->
@@ -4988,7 +4959,6 @@
     
     <e lm="Portugal"><i>Portugal</i><par n="Engeland__np"/></e>
     <e lm="Suid-Amerika"><i>Suid-Amerika</i><par n="Engeland__np"/></e>
-    <e lm="Peter I"><i>Peter<b/>I</i><par n="Engeland__np"/></e>
     <e lm="Genesis"><i>Genesis</i><par n="Engeland__np"/></e>
     <e lm="Stephen"><i>Stephen</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hezbollah"><i>Hezbollah</i><par n="Amnesty_International__np"/></e>
@@ -4996,8 +4966,6 @@
     <e lm="Jesus"><i>Jesus</i><par n="van_der_Merwe__np"/></e>
     <e lm="Mercurius"><i>Mercurius</i><par n="Engeland__np"/></e>
     <e lm="Verenigde Koninkryk van Groot-Brittanje en Noord-Ierland"><i>Verenigde<b/>Koninkryk<b/>van<b/>Groot-Brittanje<b/>en<b/>Noord-Ierland</i><par n="Engeland__np"/></e>
-    <e lm="Departement van Justisie en Grondwetlike Ontwikkeling"><i>Departement<b/>van<b/>Justisie<b/>en<b/>Grondwetlike<b/>Ontwikkeling</i><par n="Engeland__np"/></e>
-    <e lm="Departement van Justisie en Staatkundige Ontwikkeling"><i>Departement<b/>van<b/>Justisie<b/>en<b/>Staatkundige<b/>Ontwikkeling</i><par n="Engeland__np"/></e>
     <e lm="IAWK"><i>IAWK</i><par n="Amnesty_International__np"/></e>
     <e lm="NATO"><i>NATO</i><par n="Amnesty_International__np"/></e>
     <e lm="Linux"><i>Linux</i><par n="van_der_Merwe__np"/></e>

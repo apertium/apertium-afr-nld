@@ -4180,6 +4180,9 @@
     <e lm="zwakte"><i>zwakte</i><par n="fase__n_f"/></e>
     <e lm="zwangerschap"><i>zwangerschap</i><par n="map__n_f"/></e>
 
+    <e lm="huis"><i>hui</i><par n="rij/s__n_nt"/></e>
+
+
     <!-- SECTION: Bijvoegelijke naamwoorden -->
 
     <e lm="oud"><i>oud</i><par n="oud__adj"/></e>

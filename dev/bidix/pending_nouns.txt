@@ -1,6 +1,6 @@
-  10291 ^@deur<n>$
+  10297 ^@deur<n>$
    2793 ^@franse<n>$
-   1822 ^@dood<n><unc>$
+   1821 ^@dood<n><unc>$
    1707 ^@ontstaan<n>$
    1512 ^@km<n><acr>$
    1471 ^@inwoner<n>$
@@ -10,7 +10,7 @@
    1216 ^@mag<n>$
    1190 ^@vlag<n>$
    1135 ^@m<n><acr>$
-   1031 ^@engels<n>$
+   1032 ^@engels<n>$
     954 ^@afrikaans<n>$
     944 ^@opsig<n>$
     910 ^@beweging<n>$
@@ -19,7 +19,7 @@
     881 ^@noorde<n><unc>$
     853 ^@veroorsaak<n>$
     816 ^@minister<n>$
-    814 ^@suide<n><unc>$
+    812 ^@suide<n><unc>$
     806 ^@vlak<n>$
     805 ^@weste<n>$
     795 ^@room<n>$
@@ -31,7 +31,6 @@
     663 ^@koninkryk<n>$
     655 ^@munisipaliteit<n>$
     648 ^@park<n>$
-    638 ^@gebou<n>$
     627 ^@nederlands<n>$
     615 ^@liggaam<n>$
     611 ^@unie<n>$
@@ -71,14 +70,14 @@
     356 ^@alfabet<n>$
     355 ^@versameling<n>$
     354 ^@tsaar<n>$
+    339 ^@steun<n><unc>$
     339 ^@filosofie<n>$
-    337 ^@steun<n><unc>$
     334 ^@honderd<n>$
     333 ^@natuur<n>$
     332 ^@cm<n><acr>$
-    331 ^@wetenskaplike<n>$
     330 ^@taak<n>$
     330 ^@kompetisie<n>$
+    329 ^@wetenskaplike<n>$
     329 ^@reël<n>$
     329 ^@gesag<n><unc>$
     327 ^@toekenning<n>$
@@ -98,8 +97,8 @@
     284 ^@net<n>$
     281 ^@internet<n><unc>$
     277 ^@vriend<n>$
-    276 ^@rooi<n>$
     275 ^@samelewing<n>$
+    274 ^@rooi<n>$
     274 ^@produksie<n>$
     272 ^@uitgawe<n>$
     270 ^@suidwes<n><unc>$
@@ -134,14 +133,13 @@
     217 ^@komitee<n>$
     216 ^@gewes<n>$
     215 ^@groen<n>$
-    214 ^@stasie<n>$
     214 ^@geskenk<n>$
     212 ^@publiek<n><unc>$
     210 ^@vryheidsoorlog<n>$
     210 ^@hout<n>$
-    209 ^@pos<n>$
     209 ^@letterkunde<n><unc>$
     208 ^@skade<n><unc>$
+    208 ^@pos<n>$
     208 ^@legende<n>$
     204 ^@organisme<n>$
     202 ^@bloed<n><unc>$
@@ -218,7 +216,7 @@
     134 ^@staatspresident<n>$
     134 ^@inboorling<n>$
     134 ^@geduur<n>$
-    133 ^@draai<n>$
+    134 ^@draai<n>$
     131 ^@toeristebestemming<n>$
     131 ^@besigheid<n>$
     129 ^@toerusting<n>$
@@ -253,10 +251,10 @@
     115 ^@bediener<n>$
     114 ^@opvoeding<n>$
     114 ^@klem<n>$
+    114 ^@fokus<n>$
     113 ^@ys<n><unc>$
     113 ^@siel<n>$
     112 ^@statistiek<n>$
-    112 ^@fokus<n>$
     111 ^@habitat<n>$
     110 ^@tema<n>$
     110 ^@straal<n>$
@@ -434,6 +432,7 @@
      58 ^@petrol<n><unc>$
      58 ^@oudheid<n>$
      58 ^@nasionalisme<n><unc>$
+     58 ^@laai<n>$
      57 ^@woongebied<n>$
      57 ^@verduideliking<n>$
      57 ^@sokkerstruktuur<n>$
@@ -442,7 +441,6 @@
      57 ^@opinie<n>$
      57 ^@oogpunt<n>$
      57 ^@natuurreservaat<n>$
-     57 ^@laai<n>$
      57 ^@kookpunt<n>$
      57 ^@industrialisering<n>$
      57 ^@gnostisisme<n><unc>$
@@ -452,6 +450,7 @@
      56 ^@waai<n>$
      56 ^@visie<n>$
      56 ^@nabyheid<n>$
+     56 ^@klop<n>$
      56 ^@ideaal<n>$
      56 ^@geneeskundige<n>$
      56 ^@entiteit<n>$
@@ -459,7 +458,6 @@
      56 ^@afstigting<n>$
      55 ^@regstelsel<n>$
      55 ^@platinum<n><unc>$
-     55 ^@klop<n>$
      55 ^@kamera<n>$
      55 ^@bevryding<n>$
      54 ^@voortplanting<n>$

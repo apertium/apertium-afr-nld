@@ -5,7 +5,7 @@
    5207 bied<vblex><inf>
    4517 kom<vblex><inf>
    4119 laat<vblex><inf>
-   3970 stel<vblex><inf>
+   3969 stel<vblex><inf>
    3934 sien<vblex><inf>
    3260 staan<vblex><inf>
    3091 bou<vblex><inf>
@@ -17,7 +17,6 @@
    2691 voer<vblex><inf>
    2690 val<vblex><inf>
    2619 lei<vblex><inf>
-   2586 lê<vblex><inf>
    2531 hou<vblex><inf>
    2450 gee<vblex><inf>
    2400 gaan<vblex><inf>
@@ -25,15 +24,14 @@
    2274 noem<vblex><inf>
    2173 speel<vblex><inf>
    2171 beskou<vblex><uns><inf>
-   2124 gebruik<vblex><inf>
+   2129 gebruik<vblex><inf>
    2048 bly<vblex><inf>
    2027 ontwikkel<vblex><uns><inf>
-   1968 deel<vblex><inf>
+   1967 deel<vblex><inf>
    1913 skryf<vblex><inf>
-   1838 doen<vblex><inf>
    1792 rig<vblex><inf>
    1780 baar<vblex><inf>
-   1688 vorm<vblex><inf>
+   1687 vorm<vblex><inf>
    1619 vind<vblex><inf>
    1539 bring<vblex><inf>
    1449 trek<vblex><inf>
@@ -58,7 +56,7 @@
     936 beheer<vblex><uns><inf>
     933 woon<vblex><inf>
     926 ontvang<vblex><uns><inf>
-    925 plaas<vblex><inf>
+    924 plaas<vblex><inf>
     919 toon<vblex><inf>
     918 sterf<vblex><inf>
     894 beskryf<vblex><uns><inf>
@@ -91,7 +89,7 @@
     624 teken<vblex><inf>
     618 sit<vblex><inf>
     601 behaal<vblex><uns><inf>
-    589 pas<vblex><inf>
+    587 pas<vblex><inf>
     575 groei<vblex><inf>
     574 slaag<vblex><inf>
     573 beweeg<vblex><uns><inf>
@@ -99,7 +97,7 @@
     571 bevorder<vblex><uns><inf>
     569 trou<vblex><inf>
     567 publiseer<vblex><inf>
-    558 beperk<vblex><uns><inf>
+    556 beperk<vblex><uns><inf>
     550 smelt<vblex><inf>
     544 verskaf<vblex><uns><inf>
     542 bewaar<vblex><uns><inf>
@@ -129,8 +127,8 @@
     402 behels<vblex><uns><inf>
     398 voeg<vblex><inf>
     397 verwyder<vblex><uns><inf>
-    396 vermoor<vblex><uns><inf>
     396 lok<vblex><inf>
+    395 vermoor<vblex><uns><inf>
     391 loof<vblex><inf>
     386 nodig<vblex><inf>
     378 open<vblex><inf>
@@ -143,8 +141,7 @@
     339 behou<vblex><uns><inf>
     335 verbeter<vblex><uns><inf>
     331 beslaan<vblex><uns><inf>
-    327 steun<vblex><inf>
-    323 kyk<vblex><inf>
+    325 steun<vblex><inf>
     322 styg<vblex><inf>
     322 ag<vblex><inf>
     321 verleen<vblex><uns><inf>
@@ -176,18 +173,18 @@
     265 bestudeer<vblex><uns><inf>
     261 daal<vblex><inf>
     260 ontmoet<vblex><uns><inf>
+    250 land<vblex><inf>
     249 meet<vblex><inf>
-    247 land<vblex><inf>
     247 beplan<vblex><uns><inf>
     245 beklee<vblex><uns><inf>
     239 benoem<vblex><uns><inf>
-    236 leer<vblex><inf>
     235 sing<vblex><inf>
     234 organiseer<vblex><inf>
     232 mik<vblex><inf>
     231 bedek<vblex><uns><inf>
     229 uitgereik<vblex><uns><inf>
     229 ry<vblex><inf>
+    229 leer<vblex><inf>
     228 leef<vblex><inf>
     225 hanteer<vblex><inf>
     221 wysig<vblex><inf>
@@ -200,7 +197,7 @@
     217 begrens<vblex><uns><inf>
     216 vereis<vblex><uns><inf>
     208 gooi<vblex><inf>
-    204 reis<vblex><inf>
+    202 reis<vblex><inf>
     201 sorg<vblex><inf>
     200 verwerp<vblex><uns><inf>
     199 nader<vblex><inf>
@@ -209,8 +206,8 @@
     197 verhoed<vblex><uns><inf>
     195 bedoel<vblex><uns><inf>
     192 tel<vblex><inf>
+    192 grond<vblex><inf>
     191 vereer<vblex><uns><inf>
-    191 grond<vblex><inf>
     190 verwag<vblex><uns><inf>
     190 bevind<vblex><uns><inf>
     189 beëindig<vblex><uns><inf>
@@ -229,39 +226,39 @@
     168 moedig<vblex><inf>
     168 kwalifiseer<vblex><inf>
     166 bekom<vblex><uns><inf>
-    164 vat<vblex><inf>
     164 ontsnap<vblex><uns><inf>
     163 vermy<vblex><uns><inf>
+    163 vat<vblex><inf>
     162 steek<vblex><inf>
     161 doop<vblex><inf>
     160 hang<vblex><inf>
-    159 begin<vblex><inf>
+    160 begin<vblex><inf>
     155 wyk<vblex><inf>
     155 ontgin<vblex><uns><inf>
     149 pak<vblex><inf>
     148 verdedig<vblex><uns><inf>
-    147 lewe<vblex><inf>
+    148 lewe<vblex><inf>
     147 bedreig<vblex><uns><inf>
     145 herdoop<vblex><uns><inf>
-    144 vlieg<vblex><inf>
-    144 laai<vblex><inf>
+    143 vlieg<vblex><inf>
+    143 laai<vblex><inf>
     141 skiet<vblex><inf>
     140 beskadig<vblex><uns><inf>
-    139 rus<vblex><inf>
     139 neig<vblex><inf>
     139 meld<vblex><inf>
+    138 rus<vblex><inf>
     138 bereken<vblex><uns><inf>
     137 weeg<vblex><inf>
     136 versamel<vblex><uns><inf>
-    136 fokus<vblex><inf>
-    130 bevry<vblex><uns><inf>
+    134 fokus<vblex><inf>
+    129 bevry<vblex><uns><inf>
     128 nooi<vblex><inf>
     126 verplig<vblex><uns><inf>
     126 beoefen<vblex><uns><inf>
     125 veroordeel<vblex><uns><inf>
     125 koppel<vblex><inf>
     121 heers<vblex><inf>
-    121 draai<vblex><inf>
+    120 draai<vblex><inf>
     120 besorg<vblex><uns><inf>
     119 spring<vblex><inf>
     119 betref<vblex><uns><inf>
@@ -316,21 +313,21 @@
      83 bind<vblex><inf>
      82 vergesel<vblex><uns><inf>
      81 verhit<vblex><uns><inf>
-     81 klop<vblex><inf>
      81 aanbeveel<vblex><inf>
      80 waarsku<vblex><inf>
      80 merk<vblex><inf>
+     80 klop<vblex><inf>
      80 dreig<vblex><inf>
      80 beleër<vblex><uns><inf>
+     79 wil<vblex><inf>/wil<vaux><inf>
      79 heg<vblex><inf>
      78 veronderstel<vblex><uns><inf>
      78 kla<vblex><inf>
-     78 jag<vblex><inf>
-     77 wil<vblex><inf>/wil<vaux><inf>
      77 vermeerder<vblex><uns><inf>
      77 verlaag<vblex><uns><inf>
      77 luister<vblex><inf>
      77 klim<vblex><inf>
+     77 jag<vblex><inf>
      77 belê<vblex><uns><inf>
      77 behartig<vblex><uns><inf>
      76 verlig<vblex><uns><inf>
@@ -349,9 +346,9 @@
      69 betrek<vblex><uns><inf>
      68 vrees<vblex><inf>
      68 verfyn<vblex><uns><inf>
-     68 lig<vblex><inf>
      68 genereer<vblex><inf>
      68 belemmer<vblex><uns><inf>
+     67 lig<vblex><inf>
      67 las<vblex><inf>
      65 berokken<vblex><uns><inf>
      63 herroep<vblex><uns><inf>
@@ -431,7 +428,6 @@
      35 verhandel<vblex><uns><inf>
      35 heropen<vblex><uns><inf>
      35 gesels<vblex><inf>
-     34 ondersoek<vblex><inf>/onder<pr><atp>+soek<vblex><inf>
      34 gryp<vblex><inf>
      34 bekyk<vblex><uns><inf>
      33 verweer<vblex><uns><inf>
@@ -445,6 +441,7 @@
      32 versteur<vblex><uns><inf>
      32 verskeep<vblex><uns><inf>
      32 kanselleer<vblex><inf>
+     31 ondersoek<vblex><inf>/onder<pr><atp>+soek<vblex><inf>
      31 beveilig<vblex><uns><inf>
      29 strooi<vblex><inf>
      29 stoot<vblex><inf>
@@ -498,8 +495,8 @@
      14 rek<vblex><inf>
      13 verstryk<vblex><uns><inf>
      13 tipe<vblex><inf>
+     13 pos<vblex><inf>
      12 stamp<vblex><inf>
-     12 pos<vblex><inf>
      11 herbevestig<vblex><uns><inf>
      11 bevries<vblex><uns><inf>
      10 regmaak<vblex><inf>

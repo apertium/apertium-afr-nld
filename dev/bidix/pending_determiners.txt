@@ -1,28 +1,23 @@
-  72296 ^@'n<det><ind>$
-  19647 ^@sy<det><pos><sp>$
+  19645 ^@sy<det><pos><sp>$
    7101 ^@eerste<det><ord>$
    5746 ^@hierdie<det><dem><sp>$
-   5645 ^@’n<det><ind>$
    4259 ^@baie<det><qnt><sp>$
-   3547 ^@hul<det><pos><sp>$
-   3017 ^@‘n<det><ind>$
+   3541 ^@hul<det><pos><sp>$
    2937 ^@ander<det><ind><sp>$
    2933 ^@Hierdie<det><dem><sp>$
    2627 ^@ander<det><ind>$
-   2301 ^@haar<det><pos><sp>$
-   2203 ^@Sy<det><pos><sp>$
+   2302 ^@haar<det><pos><sp>$
+   2209 ^@Sy<det><pos><sp>$
    2083 ^@verskeie<det><ind>$
    1851 ^@tweede<det><ord>$
    1649 ^@meeste<det><qnt><sp>$
    1634 ^@geen<det><ind>$
-   1480 ^@dié<det><def><sp>$
    1332 ^@Tweede<det><ord>$
    1266 ^@enige<det><ind>$
    1256 ^@elke<det><ind>$
    1185 ^@mees<det><qnt><sp>$
    1165 ^@laaste<det><ord>$
    1074 ^@sommige<det><qnt><sp>$
-    961 ^@dié<det><def>$
     950 ^@derde<det><ord>$
     846 ^@Eerste<det><ord>$
     701 ^@Baie<det><qnt><sp>$
@@ -35,23 +30,20 @@
     335 ^@albei<det><ind>$
     331 ^@dieander<det><ind><sp>$
     307 ^@vele<det><qnt><sp>$
-    286 ^@ons<det><pos><sp>$
+    285 ^@ons<det><pos><sp>$
     285 ^@Elke<det><ind>$
-    263 ^@my<det><pos><sp>$
     262 ^@Verskeie<det><ind>$
     262 ^@Ander<det><ind>$
+    261 ^@my<det><pos><sp>$
     235 ^@dieander<det><ind>$
-    224 ^@Dié<det><def>$
     211 ^@vyfde<det><ord>$
-    211 ^@jou<det><pos><sp>$
-    209 ^@Dié<det><def><sp>$
+    209 ^@jou<det><pos><sp>$
     204 ^@Hul<det><pos><sp>$
     169 ^@sulke<det><ind>$
     158 ^@sesde<det><ord>$
     147 ^@twintigste<det><ord>$
     146 ^@almal<det><ind>$
     135 ^@Derde<det><ord>$
-    132 ^@ŉ<det><ind>$
     130 ^@My<det><pos><sp>$
     118 ^@’npaar<det><qnt>$
     111 ^@sewende<det><ord>$
@@ -95,12 +87,13 @@
       6 ^@honderdste<det><ord>$
       4 ^@Tiende<det><ord>$
       4 ^@Mees<det><qnt><sp>$
+      4 ^@Almal<det><ind>$
       4 ^@Agste<det><ord>$
       3 ^@sestigste<det><ord>$
+      3 ^@genoeg<det><qnt><sp>$
       3 ^@een-en-twintigste<det><ord>$
       3 ^@dertigste<det><ord>$
       3 ^@BAIE<det><qnt><sp>$
-      3 ^@Almal<det><ind>$
       3 ^@Agtste<det><ord>$
       2 ^@Veertiende<det><ord>$
       2 ^@Twaalfde<det><ord>$
@@ -108,7 +101,6 @@
       2 ^@MY<det><pos><sp>$
       2 ^@Hoeveel<det><itg>$
       2 ^@HIERDIE<det><dem><sp>$
-      2 ^@genoeg<det><qnt><sp>$
       1 ^@Vyftigste<det><ord>$
       1 ^@Vyftiende<det><ord>$
       1 ^@vyf-en-twintigste<det><ord>$
@@ -116,6 +108,7 @@
       1 ^@Twintigste<det><ord>$
       1 ^@twee-en-twintigste<det><ord>$
       1 ^@tagtigste<det><ord>$
+      1 ^@SY<det><pos><sp>$
       1 ^@SOMMIGE<det><qnt><sp>$
       1 ^@Sewentiende<det><ord>$
       1 ^@nege-en-twintigste<det><ord>$
