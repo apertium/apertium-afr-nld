@@ -191,7 +191,7 @@
       <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="/'n__det">
+    <pardef n="'n__det">
       <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -1175,10 +1175,10 @@
     <e lm="die"><i>die</i><par n="/die__det"/></e>
     <e lm="dié"><i>dié</i><par n="/die__det"/></e>
 
-    <e lm="'n" r="LR"><i>'n</i><par n="/'n__det"/></e>
-    <e lm="‘n" r="LR"><i>‘n</i><par n="/'n__det"/></e>
-    <e lm="ŉ" r="LR"><i>ŉ</i><par n="/'n__det"/></e>
-    <e lm="’n"><i>’n</i><par n="/'n__det"/></e>
+    <e lm="'n"><i>'n</i><par n="'n__det"/></e>
+    <e lm="‘n" r="LR"><p><l>‘n</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="ŉ" r="LR"><p><l>ŉ</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="’n" r="LR"><p><l>’n</l><r>'n</r></p><par n="'n__det"/></e>
 
     <e lm="min"><i>min</i><par n="min__det"/></e>
     <e lm="’n paar"><i>’n<b/>paar</i><par n="min__det"/></e>

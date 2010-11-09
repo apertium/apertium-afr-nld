@@ -144,6 +144,11 @@
 
 
  <!-- Naamwoorden -->
+    <pardef n="st/ad__n_f">
+      <e><p>          <l>ad</l><r>ad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p>          <l>eden</l><r>ad<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
  <pardef n="kind__n">
    <e>
       <p>
@@ -280,7 +285,7 @@
     </e>
   </pardef>
 
- <pardef n="boek__n">
+ <pardef n="boek__n_nt">
    <e>
       <p>
         <l/>
@@ -970,6 +975,12 @@
      </e>
    </pardef>
 
+
+    <pardef n="wat__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
+
+
   <!-- Conjunctions -->
   
    <pardef n="en_cnjcoo">
@@ -1235,8 +1246,14 @@
     <pardef n="gro/ot__adj">
       <e>
        <p>
+        <l>te</l>
+        <r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r>
+       </p>
+      </e>
+      <e>
+       <p>
         <l>ot</l>
-        <r>ot<s n="adj"/><s n="sint"/></r>
+        <r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r>
        </p>
       </e>
       <e>
@@ -7827,6 +7844,7 @@
   <section id="main" type="standard">
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
+    <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
 
     <!-- Werkwoorden -->
@@ -7965,11 +7983,11 @@
     <e lm="avondeten"><i>avondeten</i><par n="avondeten__n"/></e>
     <e lm="sla"><i>sla</i><par n="avondeten__n"/></e>
 
-    <e lm="boek"><i>boek</i><par n="boek__n"/></e>
-    <e lm="beeld"><i>beeld</i><par n="boek__n"/></e>
-    <e lm="geschenk"><i>geschenk</i><par n="boek__n"/></e>
-    <e lm="dier"><i>dier</i><par n="boek__n"/></e>
-    <e lm="ontbijt"><i>ontbijt</i><par n="boek__n"/></e>
+    <e lm="boek"><i>boek</i><par n="boek__n_nt"/></e>
+    <e lm="beeld"><i>beeld</i><par n="boek__n_nt"/></e>
+    <e lm="geschenk"><i>geschenk</i><par n="boek__n_nt"/></e>
+    <e lm="dier"><i>dier</i><par n="boek__n_nt"/></e>
+    <e lm="ontbijt"><i>ontbijt</i><par n="boek__n_nt"/></e>
 
     <e lm="glas"><i>gla</i><par n="gla/s__n"/></e>
     <e lm="gans"><i>gan</i><par n="gla/s__n"/></e>
@@ -8029,9 +8047,9 @@
     <e lm="leeftijd"><i>leeftijd</i><par n="aardbei__n"/></e>
     <e lm="serie"><i>serie</i><par n="serie__n"/></e>
     <e lm="taal"><i>ta</i><par n="ta/al__n"/></e>
-    <e lm="eind"><i>eind</i><par n="boek__n"/></e>
+    <e lm="eind"><i>eind</i><par n="boek__n_nt"/></e>
     <e lm="partij"><i>partij</i><par n="vork__n"/></e>
-    <e lm="dorp"><i>dorp</i><par n="boek__n"/></e>
+    <e lm="dorp"><i>dorp</i><par n="boek__n_nt"/></e>
     <e lm="leger"><i>leger</i><par n="nummer__n"/></e>
     <e lm="bevolking"><i>bevolking</i><par n="vork__n"/></e>
     <e lm="inwoner"><i>inwoner</i><par n="inwoner__n"/></e>
@@ -8042,16 +8060,16 @@
     <e lm="lid"><i>l</i><par n="l/id__n"/></e>
     <e lm="kerk"><i>kerk</i><par n="vork__n"/></e>
     <e lm="vorm"><i>vorm</i><par n="vork__n"/></e>
-    <e lm="woord"><i>woord</i><par n="boek__n"/></e>
-    <e lm="moment"><i>moment</i><par n="boek__n"/></e>
+    <e lm="woord"><i>woord</i><par n="boek__n_nt"/></e>
+    <e lm="moment"><i>moment</i><par n="boek__n_nt"/></e>
     <e lm="gebruiker"><i>gebruiker</i><par n="inwoner__n"/></e>
-    <e lm="seizoen"><i>seizoen</i><par n="boek__n"/></e>
+    <e lm="seizoen"><i>seizoen</i><par n="boek__n_nt"/></e>
     <e lm="lijst"><i>lijst</i><par n="vork__n"/></e>
     <e lm="film"><i>film</i><par n="vork__n"/></e>
     <e lm="plaats"><i>plaats</i><par n="vork__n"/></e>
     <e lm="groep"><i>groep</i><par n="vork__n"/></e>
-    <e lm="land"><i>land</i><par n="boek__n"/></e>
-    <e lm="gebied"><i>gebied</i><par n="boek__n"/></e>
+    <e lm="land"><i>land</i><par n="boek__n_nt"/></e>
+    <e lm="gebied"><i>gebied</i><par n="boek__n_nt"/></e>
     <e lm="manier"><i>manier</i><par n="vork__n"/></e>
     <e lm="tekst"><i>tekst</i><par n="vork__n"/></e>
     <e lm="succes"><i>succes</i><par n="succes__n"/></e>
@@ -8062,7 +8080,7 @@
     <e lm="man"><i>man</i><par n="man__n"/></e>
     <e lm="geval"><i>geval</i><par n="geval__n"/></e>
     <e lm="paar"><i>pa</i><par n="pa/ar__n"/></e>
-    <e lm="mens"><i>mens</i><par n="boek__n"/></e>
+    <e lm="mens"><i>mens</i><par n="boek__n_nt"/></e>
     <e lm="eeuw"><i>eeuw</i><par n="vork__n"/></e>
     <e lm="pagina"><i>pagina</i><par n="pagina__n"/></e>
     <e lm="overlegpagina"><i>overlegpagina</i><par n="pagina__n"/></e>
@@ -8072,23 +8090,154 @@
     <e lm="titel"><i>titel</i><par n="inwoner__n"/></e>
     <e lm="dag"><i>dag</i><par n="vork__n"/></e> 
     <e lm="oorlog"><i>oorlog</i><par n="vork__n"/></e> 
-    <e lm="onderzoek"><i>onderzoek</i><par n="boek__n"/></e> 
+    <e lm="onderzoek"><i>onderzoek</i><par n="boek__n_nt"/></e> 
     <e lm="grond"><i>grond</i><par n="vork__n"/></e> 
     <e lm="invloed"><i>invloed</i><par n="vork__n"/></e> 
     <e lm="maand"><i>maand</i><par n="vork__n"/></e> 
     <e lm="lijn"><i>lijn</i><par n="vork__n"/></e> 
     <e lm="dienst"><i>dienst</i><par n="vork__n"/></e> 
-    <e lm="voorbeeld"><i>voorbeeld</i><par n="boek__n"/></e> 
+    <e lm="voorbeeld"><i>voorbeeld</i><par n="boek__n_nt"/></e> 
+    <e lm="gebouw"><i>gebouw</i><par n="boek__n_nt"/></e>
 
-    <e lm="eiland"><i>eiland</i><par n="boek__n"/></e>     
-    <e lm="feit"><i>feit</i><par n="boek__n"/></e>     
-    <e lm="punt"><i>punt</i><par n="boek__n"/></e>     
+
+    <e lm="eiland"><i>eiland</i><par n="boek__n_nt"/></e>     
+    <e lm="feit"><i>feit</i><par n="boek__n_nt"/></e>     
+    <e lm="punt"><i>punt</i><par n="boek__n_nt"/></e>     
 
     <e lm="hand"><i>hand</i><par n="vork__n"/></e> 
     <e lm="ontwikkeling"><i>ontwikkeling</i><par n="vork__n"/></e> 
     <e lm="kleur"><i>kleur</i><par n="vork__n"/></e> 
     <e lm="president"><i>president</i><par n="vork__n"/></e> 
     <e lm="rivier"><i>rivier</i><par n="vork__n"/></e> 
+
+    <e lm="accent"><i>accent</i><par n="boek__n_nt"/></e>
+    <e lm="antwoord"><i>antwoord</i><par n="boek__n_nt"/></e>
+    <e lm="bad"><i>bad</i><par n="boek__n_nt"/></e>
+    <e lm="bedrag"><i>bedrag</i><par n="boek__n_nt"/></e>
+    <e lm="beeld"><i>beeld</i><par n="boek__n_nt"/></e>
+    <e lm="beest"><i>beest</i><par n="boek__n_nt"/></e>
+    <e lm="bericht"><i>bericht</i><par n="boek__n_nt"/></e>
+    <e lm="beroep"><i>beroep</i><par n="boek__n_nt"/></e>
+    <e lm="bestand"><i>bestand</i><par n="boek__n_nt"/></e>
+    <e lm="bier"><i>bier</i><par n="boek__n_nt"/></e>
+    <e lm="blauw"><i>blauw</i><par n="boek__n_nt"/></e>
+    <e lm="boek"><i>boek</i><par n="boek__n_nt"/></e>
+    <e lm="bord"><i>bord</i><par n="boek__n_nt"/></e>
+    <e lm="concept"><i>concept</i><par n="boek__n_nt"/></e>
+    <e lm="concert"><i>concert</i><par n="boek__n_nt"/></e>
+    <e lm="conflict"><i>conflict</i><par n="boek__n_nt"/></e>
+    <e lm="contact"><i>contact</i><par n="boek__n_nt"/></e>
+    <e lm="contract"><i>contract</i><par n="boek__n_nt"/></e>
+    <e lm="dialect"><i>dialect</i><par n="boek__n_nt"/></e>
+    <e lm="ding"><i>ding</i><par n="boek__n_nt"/></e>
+    <e lm="document"><i>document</i><par n="boek__n_nt"/></e>
+    <e lm="doel"><i>doel</i><par n="boek__n_nt"/></e>
+    <e lm="dorp"><i>dorp</i><par n="boek__n_nt"/></e>
+    <e lm="duizend"><i>duizend</i><par n="boek__n_nt"/></e>
+    <e lm="eiland"><i>eiland</i><par n="boek__n_nt"/></e>
+    <e lm="elektron"><i>elektron</i><par n="boek__n_nt"/></e>
+    <e lm="element"><i>element</i><par n="boek__n_nt"/></e>
+    <e lm="evenement"><i>evenement</i><par n="boek__n_nt"/></e>
+    <e lm="evenwicht"><i>evenwicht</i><par n="boek__n_nt"/></e>
+    <e lm="experiment"><i>experiment</i><par n="boek__n_nt"/></e>
+    <e lm="faillissement"><i>faillissement</i><par n="boek__n_nt"/></e>
+    <e lm="feest"><i>feest</i><par n="boek__n_nt"/></e>
+    <e lm="feit"><i>feit</i><par n="boek__n_nt"/></e>
+    <e lm="fonds"><i>fonds</i><par n="boek__n_nt"/></e>
+    <e lm="fortuin"><i>fortuin</i><par n="boek__n_nt"/></e>
+    <e lm="fossiel"><i>fossiel</i><par n="boek__n_nt"/></e>
+    <e lm="gat"><i>gat</i><par n="boek__n_nt"/></e>
+    <e lm="gebed"><i>gebed</i><par n="boek__n_nt"/></e>
+    <e lm="gebruik"><i>gebruik</i><par n="boek__n_nt"/></e>
+    <e lm="gedicht"><i>gedicht</i><par n="boek__n_nt"/></e>
+    <e lm="geheim"><i>geheim</i><par n="boek__n_nt"/></e>
+    <e lm="geld"><i>geld</i><par n="boek__n_nt"/></e>
+    <e lm="gerecht"><i>gerecht</i><par n="boek__n_nt"/></e>
+    <e lm="geslacht"><i>geslacht</i><par n="boek__n_nt"/></e>
+    <e lm="gewicht"><i>gewicht</i><par n="boek__n_nt"/></e>
+    <e lm="grensgebied"><i>grensgebied</i><par n="boek__n_nt"/></e>
+    <e lm="halfrond"><i>halfrond</i><par n="boek__n_nt"/></e>
+    <e lm="hart"><i>hart</i><par n="boek__n_nt"/></e>
+    <e lm="hert"><i>hert</i><par n="boek__n_nt"/></e>
+    <e lm="hoofd"><i>hoofd</i><par n="boek__n_nt"/></e>
+    <e lm="hoogtepunt"><i>hoogtepunt</i><par n="boek__n_nt"/></e>
+    <e lm="instrument"><i>instrument</i><par n="boek__n_nt"/></e>
+    <e lm="jacht"><i>jacht</i><par n="boek__n_nt"/></e>
+    <e lm="jong"><i>jong</i><par n="boek__n_nt"/></e>
+    <e lm="kamp"><i>kamp</i><par n="boek__n_nt"/></e>
+    <e lm="keerpunt"><i>keerpunt</i><par n="boek__n_nt"/></e>
+    <e lm="kiesdistrict"><i>kiesdistrict</i><par n="boek__n_nt"/></e>
+    <e lm="kruispunt"><i>kruispunt</i><par n="boek__n_nt"/></e>
+    <e lm="kustgebied"><i>kustgebied</i><par n="boek__n_nt"/></e>
+    <e lm="kwartier"><i>kwartier</i><par n="boek__n_nt"/></e>
+    <e lm="land"><i>land</i><par n="boek__n_nt"/></e>
+    <e lm="licht"><i>licht</i><par n="boek__n_nt"/></e>
+    <e lm="lot"><i>lot</i><par n="boek__n_nt"/></e>
+    <e lm="manuscript"><i>manuscript</i><par n="boek__n_nt"/></e>
+    <e lm="meetinstrument"><i>meetinstrument</i><par n="boek__n_nt"/></e>
+    <e lm="moment"><i>moment</i><par n="boek__n_nt"/></e>
+    <e lm="monument"><i>monument</i><par n="boek__n_nt"/></e>
+    <e lm="muziekinstrument"><i>muziekinstrument</i><par n="boek__n_nt"/></e>
+    <e lm="onderzoek"><i>onderzoek</i><par n="boek__n_nt"/></e>
+    <e lm="ontslag"><i>ontslag</i><par n="boek__n_nt"/></e>
+    <e lm="ontwerp"><i>ontwerp</i><par n="boek__n_nt"/></e>
+    <e lm="oproer"><i>oproer</i><par n="boek__n_nt"/></e>
+    <e lm="orkest"><i>orkest</i><par n="boek__n_nt"/></e>
+    <e lm="paard"><i>paard</i><par n="boek__n_nt"/></e>
+    <e lm="pad"><i>pad</i><par n="boek__n_nt"/></e>
+    <e lm="papier"><i>papier</i><par n="boek__n_nt"/></e>
+    <e lm="parlement"><i>parlement</i><par n="boek__n_nt"/></e>
+    <e lm="pensioen"><i>pensioen</i><par n="boek__n_nt"/></e>
+    <e lm="perkament"><i>perkament</i><par n="boek__n_nt"/></e>
+    <e lm="pigment"><i>pigment</i><par n="boek__n_nt"/></e>
+    <e lm="platform"><i>platform</i><par n="boek__n_nt"/></e>
+    <e lm="product"><i>product</i><par n="boek__n_nt"/></e>
+    <e lm="profiel"><i>profiel</i><par n="boek__n_nt"/></e>
+    <e lm="project"><i>project</i><par n="boek__n_nt"/></e>
+    <e lm="raakpunt"><i>raakpunt</i><par n="boek__n_nt"/></e>
+    <e lm="rapport"><i>rapport</i><par n="boek__n_nt"/></e>
+    <e lm="recht"><i>recht</i><par n="boek__n_nt"/></e>
+    <e lm="sacrament"><i>sacrament</i><par n="boek__n_nt"/></e>
+    <e lm="scherm"><i>scherm</i><par n="boek__n_nt"/></e>
+    <e lm="schiereiland"><i>schiereiland</i><par n="boek__n_nt"/></e>
+    <e lm="seizoen"><i>seizoen</i><par n="boek__n_nt"/></e>
+    <e lm="snijpunt"><i>snijpunt</i><par n="boek__n_nt"/></e>
+    <e lm="staatshoofd"><i>staatshoofd</i><par n="boek__n_nt"/></e>
+    <e lm="stamhoofd"><i>stamhoofd</i><par n="boek__n_nt"/></e>
+    <e lm="standbeeld"><i>standbeeld</i><par n="boek__n_nt"/></e>
+    <e lm="sterrenbeeld"><i>sterrenbeeld</i><par n="boek__n_nt"/></e>
+    <e lm="strand"><i>strand</i><par n="boek__n_nt"/></e>
+    <e lm="stroomgebied"><i>stroomgebied</i><par n="boek__n_nt"/></e>
+    <e lm="tafelblad"><i>tafelblad</i><par n="boek__n_nt"/></e>
+    <e lm="temperament"><i>temperament</i><par n="boek__n_nt"/></e>
+    <e lm="terrein"><i>terrein</i><par n="boek__n_nt"/></e>
+    <e lm="testament"><i>testament</i><par n="boek__n_nt"/></e>
+    <e lm="toernooi"><i>toernooi</i><par n="boek__n_nt"/></e>
+    <e lm="touw"><i>touw</i><par n="boek__n_nt"/></e>
+    <e lm="uitgangspunt"><i>uitgangspunt</i><par n="boek__n_nt"/></e>
+    <e lm="uitzicht"><i>uitzicht</i><par n="boek__n_nt"/></e>
+    <e lm="uniform"><i>uniform</i><par n="boek__n_nt"/></e>
+    <e lm="vat"><i>vat</i><par n="boek__n_nt"/></e>
+    <e lm="verband"><i>verband</i><par n="boek__n_nt"/></e>
+    <e lm="verdrag"><i>verdrag</i><par n="boek__n_nt"/></e>
+    <e lm="verschijnsel"><i>verschijnsel</i><par n="boek__n_nt"/></e>
+    <e lm="verzoek"><i>verzoek</i><par n="boek__n_nt"/></e>
+    <e lm="vliegtuig"><i>vliegtuig</i><par n="boek__n_nt"/></e>
+    <e lm="vliegveld"><i>vliegveld</i><par n="boek__n_nt"/></e>
+    <e lm="voertuig"><i>voertuig</i><par n="boek__n_nt"/></e>
+    <e lm="voorbeeld"><i>voorbeeld</i><par n="boek__n_nt"/></e>
+    <e lm="voorrecht"><i>voorrecht</i><par n="boek__n_nt"/></e>
+    <e lm="voorschrift"><i>voorschrift</i><par n="boek__n_nt"/></e>
+    <e lm="werk"><i>werk</i><par n="boek__n_nt"/></e>
+    <e lm="werkwoord"><i>werkwoord</i><par n="boek__n_nt"/></e>
+    <e lm="wonder"><i>wonder</i><par n="boek__n_nt"/></e>
+    <e lm="woordenboek"><i>woordenboek</i><par n="boek__n_nt"/></e>
+    <e lm="woord"><i>woord</i><par n="boek__n_nt"/></e>
+    <e lm="woud"><i>woud</i><par n="boek__n_nt"/></e>
+    <e lm="zink"><i>zink</i><par n="boek__n_nt"/></e>
+
+    <e lm="stad"><i>st</i><par n="st/ad__n_f"/></e>
+
 
 
 

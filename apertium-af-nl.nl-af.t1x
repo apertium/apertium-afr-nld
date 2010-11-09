@@ -70,8 +70,10 @@
       <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_adj">
-      <attr-item tags="adj.sint"/>
       <attr-item tags="adj"/>
+      <attr-item tags="adj.sint"/>
+      <attr-item tags="adj.sint.pred"/>
+      <attr-item tags="adj.sint.attr"/>
     </def-attr>
     <def-attr n="grau">
       <attr-item tags="comp"/>
@@ -320,7 +322,6 @@
             </out>
       </action>
     </rule>
-
 
     <rule comment="REGLA: ADJ">
       <pattern>
