@@ -1332,6 +1332,16 @@
       <e><p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
+    <pardef n="ro/od__adj">
+      <e><p><l>de</l><r>od<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e><p><l>od</l><r>od<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e><p><l>oods</l><r>od<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e><p><l>oder</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e><p><l>odere</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e><p><l>oders</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
+      <e><p><l>oodste</l><r>od<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+    </pardef>
+
     <pardef n="gro/ot__adj">
       <e><p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e><p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
@@ -1340,6 +1350,16 @@
       <e><p><l>otere</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
       <e><p><l>oters</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
       <e><p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+    </pardef>
+
+    <pardef n="openba/ar__adj">
+      <e><p><l>re</l><r>ar<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e><p><l>ar</l><r>ar<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e><p><l>ars</l><r>ar<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e><p><l>aarder</l><r>ar<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e><p><l>aardere</l><r>ar<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e><p><l>aarders</l><r>ar<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
+      <e><p><l>aardste</l><r>ar<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="duur__adj">
@@ -2903,17 +2923,6 @@
     <e lm="november"><i>november</i><par n="avondeten__n"/></e>    
     <e lm="december"><i>december</i><par n="avondeten__n"/></e>
 
-    <e lm="België"><i>België</i><par n="avondeten__n"/></e>
-    <e lm="Nederland"><i>Nederland</i><par n="avondeten__n"/></e>
-    <e lm="Duitsland"><i>Duitsland</i><par n="avondeten__n"/></e>
-    <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
-    <e lm="Nederlands"><i>Nederlands</i><par n="avondeten__n"/></e>
-
-
-    <e lm="Amsterdam"><i>Amsterdam</i><par n="avondeten__n"/></e>
-    <e lm="Brussel"><i>Brussel</i><par n="avondeten__n"/></e>
-    <e lm="Parijs"><i>Parijs</i><par n="avondeten__n"/></e>
-
     <e lm="naam"><i>na</i><par n="na/am__n"/></e>
     <e lm="water"><i>water</i><par n="herfst__n"/></e>
     <e lm="nummer"><i>nummer</i><par n="nummer__n"/></e>
@@ -4182,6 +4191,19 @@
 
     <e lm="huis"><i>hui</i><par n="rij/s__n_nt"/></e>
 
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="België"><i>België</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederland"><i>Nederland</i><par n="Frankrijk__np"/></e>
+    <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
+    <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederlands"><i>Nederlands</i><par n="Frankrijk__np"/></e>
+
+    <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
+    <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
+    <e lm="Parijs"><i>Parijs</i><par n="Frankrijk__np"/></e>
+
+
 
     <!-- SECTION: Bijvoegelijke naamwoorden -->
 
@@ -4241,6 +4263,8 @@
     <e lm="dun"><i>dun</i><par n="dun__adj"/></e>
     <e lm="vrij"><i>vrij</i><par n="vrij__adj"/></e>
     <e lm="groot"><i>gro</i><par n="gro/ot__adj"/></e>
+    <e lm="rood"><i>ro</i><par n="ro/od__adj"/></e>
+    <e lm="openbaar"><i>openba</i><par n="openba/ar__adj"/></e>
     <e lm="koud"><i>koud</i><par n="vrij__adj"/></e>
     <e lm="kort"><i>kort</i><par n="vrij__adj"/></e>
     <e lm="duur"><i>duur</i><par n="duur__adj"/></e>

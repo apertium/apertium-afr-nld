@@ -1201,21 +1201,24 @@
     <e lm="albei"><i>albei</i><par n="elke__det"/></e>
     <e lm="geen"><i>geen</i><par n="elke__det"/></e>
     <e lm="almal"><i>almal</i><par n="elke__det"/></e>
-    <e lm="’n ander"><i>’n<b/>ander</i><par n="elke__det"/></e>
-    <e lm="'n ander" r="LR"><i>'n<b/>ander</i><par n="elke__det"/></e>
-    <e lm="‘n ander" r="LR"><i>‘n<b/>ander</i><par n="elke__det"/></e>
-    <e lm="ŉ ander" r="LR"><i>ŉ<b/>ander</i><par n="elke__det"/></e>
+
+    <e lm="’n ander"><i>'n<b/>ander</i><par n="elke__det"/></e>
+    <e lm="'n ander" r="LR"><p><l>’n<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
+    <e lm="‘n ander" r="LR"><p><l>‘n<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
+    <e lm="ŉ ander" r="LR"><p><l>ŉ<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
 
     <!-- Winterstream -->
+
     <e lm="meeste van"><i>meeste<b/>van</i><par n="baie__det"/></e> 
     <e lm="enige"><i>enige</i><par n="elke__det"/></e> 
 
     <!-- /Winterstream -->
 
-    <e lm="’n ander"><i>’n<b/>ander</i><par n="elkeen__prn"/></e>
-    <e lm="'n ander" r="LR"><i>'n<b/>ander</i><par n="elkeen__prn"/></e>
-    <e lm="‘n ander" r="LR"><i>‘n<b/>ander</i><par n="elkeen__prn"/></e>
-    <e lm="ŉ ander" r="LR"><i>ŉ<b/>ander</i><par n="elkeen__prn"/></e>
+    <e lm="’n ander"><i>'n<b/>ander</i><par n="elkeen__prn"/></e>
+    <e lm="'n ander" r="LR"><p><l>’n<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
+    <e lm="‘n ander" r="LR"><p><l>‘n<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
+    <e lm="ŉ ander" r="LR"><p><l>ŉ<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
+
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
