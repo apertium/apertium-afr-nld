@@ -113,18 +113,71 @@
   </sdefs>
 
   <section id="main" type="standard">
+
+    <!-- SECTION: Conjunctions -->
+
+    <e><p><l>en<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
+    <e><p><l>of<s n="cnjcoo"/></l><r>of<s n="cnjcoo"/></r></p></e>
+    <e><p><l>maar<s n="cnjcoo"/></l><r>maar<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>egter<s n="cnjcoo"/></l><r>echter<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>of<s n="cnjsub"/></l><r>of<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>tot<s n="cnjadv"/></l><r>tot<s n="cnjadv"/></r></p></e>
+    <e><p><l>alhoewel<s n="cnjadv"/></l><r>alhoewel<s n="cnjadv"/></r></p></e>
+    <e><p><l>hoewel<s n="cnjadv"/></l><r>hoewel<s n="cnjadv"/></r></p></e>
+    <e><p><l>want<s n="cnjadv"/></l><r>want<s n="cnjadv"/></r></p></e>
+    <e><p><l>omdat<s n="cnjadv"/></l><r>omdat<s n="cnjadv"/></r></p></e>
+    <e><p><l>wanneer<s n="cnjadv"/></l><r>wanneer<s n="cnjadv"/></r></p></e>
+    <e><p><l>byvoorbeeld<s n="cnjadv"/></l><r>bijvoorbeeld<s n="cnjadv"/></r></p></e> <!-- !cnjadv?-->
+    <e><p><l>vir<s n="cnjadv"/></l><r>vir<s n="cnjadv"/></r></p></e>
+    <e><p><l>daarvoor<s n="cnjadv"/></l><r>daarvoor<s n="cnjadv"/></r></p></e>
+
+    <e><p><l>waarme<s n="cnjadv"/></l><r>waarme<s n="cnjadv"/></r></p></e> <!-- !cnjadv?-->
+
     <!-- SECTION: Prepositions -->
+
     <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
     <e><p><l>vir<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>naar<s n="pr"/></r></p></e>
+    <e><p><l>op<s n="pr"/></l><r>op<s n="pr"/></r></p></e>
+    <e><p><l>van<s n="pr"/></l><r>van<s n="pr"/></r></p></e>
+    <e><p><l>met<s n="pr"/></l><r>met<s n="pr"/></r></p></e>
+    <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>aan<s n="pr"/></l><r>aan<s n="pr"/></r></p></e>
+    <e><p><l>deur<s n="pr"/></l><r>door<s n="pr"/></r></p></e>
+    <e><p><l>uit<s n="pr"/></l><r>uit<s n="pr"/></r></p></e>
+    <e><p><l>soos<s n="pr"/></l><r>zoals<s n="pr"/></r></p></e>
+    <e><p><l>tussen<s n="pr"/></l><r>tussen<s n="pr"/></r></p></e>
+    <e><p><l>onder<s n="pr"/></l><r>onder<s n="pr"/></r></p></e>
+    <e><p><l>oor<s n="pr"/></l><r>oor<s n="pr"/></r></p></e>
+    <e><p><l>tydens<s n="pr"/></l><r>tijdens<s n="pr"/></r></p></e>
+    <e><p><l>voor<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
+    <e><p><l>volgens<s n="pr"/></l><r>volgens<s n="pr"/></r></p></e>
+    <e><p><l>vanaf<s n="pr"/></l><r>vanaf<s n="pr"/></r></p></e>
+    <e><p><l>toe<s n="pr"/></l><r>toe<s n="pr"/></r></p></e>
+    <e><p><l>af<s n="pr"/></l><r>af<s n="pr"/></r></p></e>
+    <e><p><l>sedert<s n="pr"/></l><r>sedert<s n="pr"/></r></p></e>
+    <e><p><l>nadat<s n="pr"/></l><r>nadat<s n="pr"/></r></p></e>
+    <e><p><l>terug<s n="pr"/></l><r>terug<s n="pr"/></r></p></e>
+    <e><p><l>langs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
+    <e><p><l>vanuit<s n="pr"/></l><r>vanuit<s n="pr"/></r></p></e>
+    <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
+
+    <e><p><l>waarop<s n="pr"/></l><r>waarop<s n="pr"/></r></p></e> <!-- !pr -->
+    <e><p><l>weg<s n="pr"/></l><r>weg<s n="pr"/></r></p></e> <!-- !pr -->
 
     <!-- SECTION: Pronouns -->
+
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
+
     <e><p><l>die<s n="det"/></l><r>de<s n="det"/></r></p></e>
 
     <!-- SECTION: Getalle -->
+
     <e><p><l>een<s n="num"/></l><r>een<s n="num"/></r></p></e>
     <e><p><l>twee<s n="num"/></l><r>twee<s n="num"/></r></p></e>
     <e><p><l>drie<s n="num"/></l><r>drie<s n="num"/></r></p></e>
@@ -271,7 +324,6 @@
     <e><p><l>woord<s n="n"/></l><r>woord<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wortel<s n="n"/></l><r>wortel<s n="n"/><s n="mf"/></r></p></e>
 
-
     <!-- woorde van wikipedia (iw-word.sh) -->
     <e><p><l>gemiese<s n="n"/></l><r>chemisch<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>klank<s n="n"/></l><r>geluid<s n="n"/><s n="GD"/></r></p></e>
@@ -376,10 +428,30 @@
     <e><p><l>vry<s n="n"/></l><r>vrij<s n="n"/><s n="GD"/></r></p></e>
     -->
 
+    <!-- SECTION: Adjectives -->
+
+    <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
+
     <!-- SECTION: Adverbs -->
 
     <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
     <e><p><l>hier<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
+    <e><p><l>nie<s n="adv"/></l><r>niet<s n="adv"/></r></p></e>
+    <e><p><l>ook<s n="adv"/></l><r>ook<s n="adv"/></r></p></e>
+    <e><p><l>daar<s n="adv"/></l><r>daar<s n="adv"/></r></p></e>
+    <e><p><l>nog<s n="adv"/></l><r>nog<s n="adv"/></r></p></e>
+    <e><p><l>later<s n="adv"/></l><r>later<s n="adv"/></r></p></e>
+    <e><p><l>al<s n="adv"/></l><r>al<s n="adv"/></r></p></e>
+    <e><p><l>veral<s n="adv"/></l><r>bovenal<s n="adv"/></r></p></e>
+    <e><p><l>net<s n="adv"/></l><r>net<s n="adv"/></r></p></e>
+    <e><p><l>weer<s n="adv"/></l><r>weer<s n="adv"/></r></p></e>
+    <e><p><l>steeds<s n="adv"/></l><r>steeds<s n="adv"/></r></p></e>
+    <e><p><l>reeds<s n="adv"/></l><r>reeds<s n="adv"/></r></p></e>
+    <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
+    <e><p><l>dikwels<s n="adv"/></l><r>dikwijls<s n="adv"/></r></p></e>
+    <e><p><l>dan<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
+    <e><p><l>onder<s n="adv"/></l><r>onder<s n="adv"/></r></p></e>
+    <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -388,6 +460,8 @@
 
     <e><p><l>vertrek<s n="vblex"/></l><r>vertrekt<s n="vblex"/></r></p></e>
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
+    <e><p><l>weet<s n="vblex"/></l><r>weten<s n="vblex"/></r></p></e>
+    <e><p><l>werk<s n="vblex"/></l><r>werken<s n="vblex"/></r></p></e>
     
     <!-- SECTION: Punctuation -->
 

@@ -1,56 +1,58 @@
   72296 ^@'n<det><ind>$
-  19647 ^@sy<det><pos>$
+  19647 ^@sy<det><pos><sp>$
    7101 ^@eerste<det><ord>$
    5746 ^@hierdie<det><dem><sp>$
    5645 ^@’n<det><ind>$
    4262 ^@baie<det><qnt><sp>$
-   3547 ^@hul<det><pos>$
+   3547 ^@hul<det><pos><sp>$
    3017 ^@‘n<det><ind>$
    2937 ^@ander<det><ind><sp>$
    2933 ^@Hierdie<det><dem><sp>$
    2627 ^@ander<det><ind>$
-   2441 ^@dié<det><def>$
-   2301 ^@haar<det><pos>$
-   2203 ^@Sy<det><pos>$
+   2301 ^@haar<det><pos><sp>$
+   2203 ^@Sy<det><pos><sp>$
    2083 ^@verskeie<det><ind>$
    1851 ^@tweede<det><ord>$
    1650 ^@meeste<det><qnt><sp>$
    1634 ^@geen<det><ind>$
+   1480 ^@dié<det><def><sp>$
    1332 ^@Tweede<det><ord>$
    1266 ^@enige<det><ind>$
    1256 ^@elke<det><ind>$
    1185 ^@mees<det><qnt><sp>$
    1165 ^@laaste<det><ord>$
    1074 ^@sommige<det><qnt><sp>$
+    961 ^@dié<det><def>$
     950 ^@derde<det><ord>$
     846 ^@Eerste<det><ord>$
     701 ^@Baie<det><qnt><sp>$
     646 ^@Sommige<det><qnt><sp>$
     529 ^@'nander<det><ind>$
     490 ^@Ander<det><ind><sp>$
-    433 ^@Dié<det><def>$
     381 ^@meestevan<det><qnt><sp>$
     357 ^@vierde<det><ord>$
-    354 ^@Haar<det><pos>$
+    354 ^@Haar<det><pos><sp>$
     335 ^@albei<det><ind>$
     331 ^@dieander<det><ind><sp>$
     307 ^@vele<det><qnt><sp>$
-    286 ^@ons<det><pos>$
+    286 ^@ons<det><pos><sp>$
     285 ^@Elke<det><ind>$
-    263 ^@my<det><pos>$
+    263 ^@my<det><pos><sp>$
     262 ^@Verskeie<det><ind>$
     262 ^@Ander<det><ind>$
     235 ^@dieander<det><ind>$
+    224 ^@Dié<det><def>$
     211 ^@vyfde<det><ord>$
-    211 ^@jou<det><pos>$
-    204 ^@Hul<det><pos>$
+    211 ^@jou<det><pos><sp>$
+    209 ^@Dié<det><def><sp>$
+    204 ^@Hul<det><pos><sp>$
     169 ^@sulke<det><ind>$
     158 ^@sesde<det><ord>$
     147 ^@twintigste<det><ord>$
     146 ^@almal<det><ind>$
     135 ^@Derde<det><ord>$
     132 ^@ŉ<det><ind>$
-    130 ^@My<det><pos>$
+    130 ^@My<det><pos><sp>$
     118 ^@’npaar<det><qnt>$
     111 ^@sewende<det><ord>$
     103 ^@sulke<det><ind><sp>$
@@ -61,13 +63,13 @@
      81 ^@Albei<det><ind>$
      79 ^@negentiende<det><ord>$
      68 ^@tiende<det><ord>$
-     60 ^@Ons<det><pos>$
+     60 ^@Ons<det><pos><sp>$
      59 ^@hoeveel<det><itg>$
      58 ^@negende<det><ord>$
      48 ^@’nander<det><ind>$
      44 ^@Dieander<det><ind>$
      39 ^@Sulke<det><ind>$
-     38 ^@Jou<det><pos>$
+     38 ^@Jou<det><pos><sp>$
      37 ^@Sulke<det><ind><sp>$
      37 ^@agtste<det><ord>$
      34 ^@Vierde<det><ord>$
@@ -103,7 +105,7 @@
       2 ^@Veertiende<det><ord>$
       2 ^@Twaalfde<det><ord>$
       2 ^@ŉander<det><ind>$
-      2 ^@MY<det><pos>$
+      2 ^@MY<det><pos><sp>$
       2 ^@Hoeveel<det><itg>$
       2 ^@HIERDIE<det><dem><sp>$
       2 ^@genoeg<det><qnt><sp>$
@@ -117,7 +119,7 @@
       1 ^@SOMMIGE<det><qnt><sp>$
       1 ^@Sewentiende<det><ord>$
       1 ^@nege-en-twintigste<det><ord>$
-      1 ^@JOU<det><pos>$
+      1 ^@JOU<det><pos><sp>$
       1 ^@GEEN<det><ind>$
       1 ^@ENIGE<det><ind>$
       1 ^@Elfde<det><ord>$

@@ -18,67 +18,212 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
- 269563 #de\<det\>\<def\>\<sg\>	^de<det><def><sg>$
+ 183140 #de\<det\>\<def\>\<sp\>	^de<det><def><sp>$
+  86423 #de\<det\>\<def\>\<sg\>	^de<det><def><sg>$
   84273 #zijn\<vbser\>\<pres\>	^zijn<vbser><pres>$
-  47196 #De\<det\>\<def\>\<sg\>	^De<det><def><sg>$
   35250 #ge	^ge$
   35249 #hê\<vbhaver\>\<pres\>	^hê<vbhaver><pres>$
+  31090 #De\<det\>\<def\>\<sp\>	^De<det><def><sp>$
   26713 #zijn\<vbser\>\<inf\>	^zijn<vbser><inf>$
+  16106 #De\<det\>\<def\>\<sg\>	^De<det><def><sg>$
   12777 #de\<det\>\<def\>\<pl\>	^de<det><def><pl>$
+   8060 #aan\<pr\>\<atp\>	^aan<pr><atp>$
+   7628 #zoals\<pr\>	^zoals<pr>$
    6850 #een\<num\>\<sg\>	^een<num><sg>$
    5683 #hebben\<vbhaver\>\<pres\>	^hebben<vbhaver><pres>$
    5253 #twee\<num\>\<sp\>	^twee<num><sp>$
+   4172 #oor\<pr\>	^oor<pr>$
+   4166 #eeuw\<n\>\<sg\>	^eeuw<n><sg>$
+   4050 #op\<pr\>\<atp\>	^op<pr><atp>$
+   3809 #uit\<pr\>\<atp\>	^uit<pr><atp>$
+   3476 #naam\<n\>\<sg\>	^naam<n><sg>$
+   3175 #land\<n\>\<sg\>	^land<n><sg>$
+   2951 #mens\<n\>\<pl\>	^mens<n><pl>$
+   2694 #voor\<pr\>\<atp\>	^voor<pr><atp>$
    2647 #hebben\<vbhaver\>\<inf\>	^hebben<vbhaver><inf>$
+   2603 #in\<pr\>\<atp\>	^in<pr><atp>$
+   2583 #aantal\<n\>\<sg\>	^aantal<n><sg>$
+   2535 #bevolking\<n\>\<sg\>	^bevolking<n><sg>$
    2528 #drie\<num\>\<sp\>	^drie<num><sp>$
+   2305 #toe\<pr\>\<atp\>	^toe<pr><atp>$
    2295 #De\<det\>\<def\>\<pl\>	^De<det><def><pl>$
+   2134 #koning\<n\>\<sg\>	^koning<n><sg>$
+   2048 #taal\<n\>\<sg\>	^taal<n><sg>$
+   2040 #club\<n\>\<sg\>	^club<n><sg>$
+   2017 #dorp\<n\>\<sg\>	^dorp<n><sg>$
+   1992 #af\<pr\>\<atp\>	^af<pr><atp>$
    1928 #hoofdstad\<n\>\<sg\>	^hoofdstad<n><sg>$
+   1918 #onder\<pr\>\<atp\>	^onder<pr><atp>$
+   1917 #tijd\<n\>\<sg\>	^tijd<n><sg>$
+   1768 #gebied\<n\>\<pl\>	^gebied<n><pl>$
+   1689 #land\<n\>\<pl\>	^land<n><pl>$
+   1660 #af\<pr\>	^af<pr>$
    1561 #vier\<num\>\<sp\>	^vier<num><sp>$
+   1550 #vorm\<n\>\<sg\>	^vorm<n><sg>$
+   1527 #groep\<n\>\<sg\>	^groep<n><sg>$
+   1425 #Kerk\<n\>\<sg\>	^Kerk<n><sg>$
    1419 #zijn\<vbser\>\<past\>	^zijn<vbser><past>$
+   1381 #Mei\<n\>\<sg\>	^Mei<n><sg>$
+   1354 #oor\<pr\>\<atp\>	^oor<pr><atp>$
+   1344 #oorlog\<n\>\<sg\>	^oorlog<n><sg>$
+   1312 #Oktober\<n\>\<sg\>	^Oktober<n><sg>$
    1304 #januari\<n\>\<sg\>	^januari<n><sg>$
+   1285 #water\<n\>\<sg\>	^water<n><sg>$
+   1212 #September\<n\>\<sg\>	^September<n><sg>$
+   1208 #eiland\<n\>\<sg\>	^eiland<n><sg>$
+   1184 #taal\<n\>\<pl\>	^taal<n><pl>$
+   1160 #Augustus\<n\>\<sg\>	^Augustus<n><sg>$
+   1110 #nadat\<pr\>	^nadat<pr>$
+   1074 #terug\<pr\>\<atp\>	^terug<pr><atp>$
+   1055 #November\<n\>\<sg\>	^November<n><sg>$
+   1048 #soort\<n\>\<sg\>	^soort<n><sg>$
+   1045 #ontwikkeling\<n\>\<sg\>	^ontwikkeling<n><sg>$
+   1041 #Partij\<n\>\<sg\>	^Partij<n><sg>$
+   1039 #lid\<n\>\<pl\>	^lid<n><pl>$
    1039 #geschiedenis\<n\>\<sg\>	^geschiedenis<n><sg>$
+   1013 #kind\<n\>\<pl\>	^kind<n><pl>$
+   1006 #kerk\<n\>\<sg\>	^kerk<n><sg>$
+   1003 #rivier\<n\>\<sg\>	^rivier<n><sg>$
+    997 #woord\<n\>\<sg\>	^woord<n><sg>$
     967 #vijf\<num\>\<sp\>	^vijf<num><sp>$
+    903 #partij\<n\>\<sg\>	^partij<n><sg>$
     894 #vrouw\<n\>\<sg\>	^vrouw<n><sg>$
+    884 #invloed\<n\>\<sg\>	^invloed<n><sg>$
+    822 #vanuit\<pr\>	^vanuit<pr>$
+    791 #eiland\<n\>\<pl\>	^eiland<n><pl>$
+    776 #serie\<n\>\<sg\>	^serie<n><sg>$
+    775 #terug\<pr\>	^terug<pr>$
+    766 #dag\<n\>\<pl\>	^dag<n><pl>$
+    750 #onderzoek\<n\>\<sg\>	^onderzoek<n><sg>$
+    749 #groep\<n\>\<pl\>	^groep<n><pl>$
     743 #zes\<num\>\<sp\>	^zes<num><sp>$
     726 #spreken\<vblex\>\<inf\>	^spreken<vblex><inf>$
+    723 #lid\<n\>\<sg\>	^lid<n><sg>$
+    723 #grond\<n\>\<sg\>	^grond<n><sg>$
+    719 #dag\<n\>\<sg\>	^dag<n><sg>$
+    688 #muziek\<n\>\<sg\>	^muziek<n><sg>$
+    688 #Man\<n\>\<sg\>	^Man<n><sg>$
     686 #Een\<num\>\<sg\>	^Een<num><sg>$
+    675 #maand\<n\>\<pl\>	^maand<n><pl>$
+    666 #president\<n\>\<sg\>	^president<n><sg>$
     646 #economie\<n\>\<sg\>	^economie<n><sg>$
     645 #vrouw\<n\>\<pl\>	^vrouw<n><pl>$
+    640 #woord\<n\>\<pl\>	^woord<n><pl>$
+    620 #Nadat\<pr\>	^Nadat<pr>$
     620 #informatie\<n\>\<sg\>	^informatie<n><sg>$
     608 #boek\<n\>\<sg\>	^boek<n><sg>$
+    599 #titel\<n\>\<sg\>	^titel<n><sg>$
+    589 #manier\<n\>\<sg\>	^manier<n><sg>$
     585 #recht\<n\>\<sg\>	^recht<n><sg>$
+    584 #punt\<n\>\<sg\>	^punt<n><sg>$
+    584 #leeftijd\<n\>\<sg\>	^leeftijd<n><sg>$
+    577 #naam\<n\>\<pl\>	^naam<n><pl>$
     570 #tien\<num\>\<sp\>	^tien<num><sp>$
+    555 #versie\<n\>\<sg\>	^versie<n><sg>$
+    505 #broer\<n\>\<sg\>	^broer<n><sg>$
+    495 #Man\<n\>\<pl\>	^Man<n><pl>$
+    494 #Aan\<pr\>\<atp\>	^Aan<pr><atp>$
+    486 #seizoen\<n\>\<sg\>	^seizoen<n><sg>$
+    485 #dienst\<n\>\<sg\>	^dienst<n><sg>$
+    482 #eeuw\<n\>\<pl\>	^eeuw<n><pl>$
     478 #zeven\<num\>\<sp\>	^zeven<num><sp>$
     461 #onafhankelijkheid\<n\>\<sg\>	^onafhankelijkheid<n><sg>$
+    458 #dorp\<n\>\<pl\>	^dorp<n><pl>$
+    457 #soort\<n\>\<pl\>	^soort<n><pl>$
+    456 #film\<n\>\<sg\>	^film<n><sg>$
+    455 #waarop\<pr\>	^waarop<pr>$
+    447 #voorbeeld\<n\>\<sg\>	^voorbeeld<n><sg>$
+    429 #Oorlog\<n\>\<sg\>	^Oorlog<n><sg>$
+    422 #geval\<n\>\<pl\>	^geval<n><pl>$
     421 #recht\<n\>\<pl\>	^recht<n><pl>$
+    419 #door\<pr\>\<atp\>	^door<pr><atp>$
     419 #boek\<n\>\<pl\>	^boek<n><pl>$
+    405 #lijst\<n\>\<sg\>	^lijst<n><sg>$
     404 #kracht\<n\>\<sg\>	^kracht<n><sg>$
+    404 #beeld\<n\>\<sg\>	^beeld<n><sg>$
     396 #om\<pr\>\<atp\>	^om<pr><atp>$
+    391 #succes\<n\>\<sg\>	^succes<n><sg>$
+    370 #Zoals\<pr\>	^Zoals<pr>$
+    369 #feit\<n\>\<sg\>	^feit<n><sg>$
+    367 #hand\<n\>\<sg\>	^hand<n><sg>$
+    356 #vorm\<n\>\<pl\>	^vorm<n><pl>$
+    352 #rivier\<n\>\<pl\>	^rivier<n><pl>$
+    347 #In\<pr\>\<atp\>	^In<pr><atp>$
+    337 #kleur\<n\>\<sg\>	^kleur<n><sg>$
+    331 #President\<n\>\<sg\>	^President<n><sg>$
+    331 #kerk\<n\>\<pl\>	^kerk<n><pl>$
     328 #Twee\<num\>\<sp\>	^Twee<num><sp>$
+    326 #Koning\<n\>\<sg\>	^Koning<n><sg>$
+    325 #kind\<n\>\<sg\>	^kind<n><sg>$
+    324 #tijd\<n\>\<pl\>	^tijd<n><pl>$
+    321 #gebruiker\<n\>\<pl\>	^gebruiker<n><pl>$
+    313 #punt\<n\>\<pl\>	^punt<n><pl>$
     313 #architectuur\<n\>\<sg\>	^architectuur<n><sg>$
     312 #negen\<num\>\<sp\>	^negen<num><sp>$
+    310 #film\<n\>\<pl\>	^film<n><pl>$
+    310 #dienst\<n\>\<pl\>	^dienst<n><pl>$
+    301 #tekst\<n\>\<sg\>	^tekst<n><sg>$
+    297 #kleur\<n\>\<pl\>	^kleur<n><pl>$
+    286 #beeld\<n\>\<pl\>	^beeld<n><pl>$
+    285 #lijn\<n\>\<sg\>	^lijn<n><sg>$
     283 #uur\<n\>\<sg\>	^uur<n><sg>$
+    281 #pagina\<n\>\<sg\>	^pagina<n><sg>$
+    280 #voorbeeld\<n\>\<pl\>	^voorbeeld<n><pl>$
+    273 #toe\<pr\>	^toe<pr>$
+    271 #moeder\<n\>\<sg\>	^moeder<n><sg>$
     269 #religie\<n\>\<sg\>	^religie<n><sg>$
+    264 #maand\<n\>\<sg\>	^maand<n><sg>$
     261 #krant\<n\>\<sg\>	^krant<n><sg>$
     255 #atmosfeer\<n\>\<sg\>	^atmosfeer<n><sg>$
     249 #Drie\<num\>\<sp\>	^Drie<num><sp>$
+    248 #weg\<pr\>\<atp\>	^weg<pr><atp>$
+    245 #gebied\<n\>\<sg\>	^gebied<n><sg>$
+    242 #partij\<n\>\<pl\>	^partij<n><pl>$
     238 #acht\<num\>\<sp\>	^acht<num><sp>$
+    237 #hand\<n\>\<pl\>	^hand<n><pl>$
     225 #volkstelling\<n\>\<sg\>	^volkstelling<n><sg>$
     223 #spreken\<vblex\>\<pres\>	^spreken<vblex><pres>$
+    220 #weg\<n\>\<sg\>	^weg<n><sg>$
     218 #technologie\<n\>\<sg\>	^technologie<n><sg>$
     217 #computer\<n\>\<sg\>	^computer<n><sg>$
+    209 #zus\<n\>\<sg\>	^zus<n><sg>$
+    207 #club\<n\>\<pl\>	^club<n><pl>$
+    205 #invloed\<n\>\<pl\>	^invloed<n><pl>$
+    205 #gebruiker\<n\>\<sg\>	^gebruiker<n><sg>$
     204 #geluid\<n\>\<sg\>	^geluid<n><sg>$
+    200 #broer\<n\>\<pl\>	^broer<n><pl>$
+    199 #vrucht\<n\>\<pl\>	^vrucht<n><pl>$
     195 #applicatie\<n\>\<sg\>	^applicatie<n><sg>$
     193 #computer\<n\>\<pl\>	^computer<n><pl>$
+    192 #koning\<n\>\<pl\>	^koning<n><pl>$
+    185 #versie\<n\>\<pl\>	^versie<n><pl>$
+    185 #pagina\<n\>\<pl\>	^pagina<n><pl>$
+    183 #via\<pr\>	^via<pr>$
+    177 #glas\<n\>\<sg\>	^glas<n><sg>$
     169 #uur\<n\>\<pl\>	^uur<n><pl>$
+    165 #lijn\<n\>\<pl\>	^lijn<n><pl>$
     164 #elektriciteit\<n\>\<sg\>	^elektriciteit<n><sg>$
+    162 #vis\<n\>\<sg\>	^vis<n><sg>$
     160 #monarchie\<n\>\<sg\>	^monarchie<n><sg>$
+    156 #manier\<n\>\<pl\>	^manier<n><pl>$
+    154 #seizoen\<n\>\<pl\>	^seizoen<n><pl>$
+    153 #Mens\<n\>\<pl\>	^Mens<n><pl>$
+    151 #nummer\<n\>\<sg\>	^nummer<n><sg>$
+    151 #Eiland\<n\>\<pl\>	^Eiland<n><pl>$
     149 #elf\<num\>\<sp\>	^elf<num><sp>$
+    147 #Land\<n\>\<sg\>	^Land<n><sg>$
     145 #muziekgroep\<n\>\<sg\>	^muziekgroep<n><sg>$
+    144 #vlees\<n\>\<sg\>	^vlees<n><sg>$
+    144 #leger\<n\>\<sg\>	^leger<n><sg>$
     142 #componist\<n\>\<sg\>	^componist<n><sg>$
+    132 #Voorbeeld\<n\>\<pl\>	^Voorbeeld<n><pl>$
     130 #kapitein\<n\>\<sg\>	^kapitein<n><sg>$
+    128 #titel\<n\>\<pl\>	^titel<n><pl>$
     123 #journalist\<n\>\<sg\>	^journalist<n><sg>$
+    117 #Aantal\<n\>\<sg\>	^Aantal<n><sg>$
     116 #applicatie\<n\>\<pl\>	^applicatie<n><pl>$
     108 #Zijn\<vbser\>\<pres\>	^Zijn<vbser><pres>$
+    107 #groente\<n\>\<sg\>	^groente<n><sg>$
     105 #encyclopedie\<n\>\<sg\>	^encyclopedie<n><sg>$
     104 #Hugenoten\<n\>\<pl\>	^Hugenoten<n><pl>$
     104 #dichtheid\<n\>\<sg\>	^dichtheid<n><sg>$
@@ -90,171 +235,411 @@ Tag mismatch between transfer and generation
      94 #geluid\<n\>\<pl\>	^geluid<n><pl>$
      92 #Vijf\<num\>\<sp\>	^Vijf<num><sp>$
      92 #religie\<n\>\<pl\>	^religie<n><pl>$
+     91 #moment\<n\>\<sg\>	^moment<n><sg>$
+     90 #Eiland\<n\>\<sg\>	^Eiland<n><sg>$
      88 #Zes\<num\>\<sp\>	^Zes<num><sp>$
      88 #woordenboek\<n\>\<sg\>	^woordenboek<n><sg>$
+     87 #wortel\<n\>\<pl\>	^wortel<n><pl>$
      87 #Vier\<num\>\<sp\>	^Vier<num><sp>$
+     87 #cijfer\<n\>\<pl\>	^cijfer<n><pl>$
      86 #trein\<n\>\<pl\>	^trein<n><pl>$
      85 #auteursrecht\<n\>\<sg\>	^auteursrecht<n><sg>$
+     84 #vis\<n\>\<pl\>	^vis<n><pl>$
+     83 #Kerk\<n\>\<pl\>	^Kerk<n><pl>$
      82 #Zeven\<num\>\<sp\>	^Zeven<num><sp>$
+     81 #Leger\<n\>\<sg\>	^Leger<n><sg>$
      80 #techniek\<n\>\<sg\>	^techniek<n><sg>$
+     78 #eilanengroep\<n\>\<sg\>	^eilanengroep<n><sg>$
+     78 #aardappel\<n\>\<pl\>	^aardappel<n><pl>$
      77 #zonnestelsel\<n\>\<sg\>	^zonnestelsel<n><sg>$
+     77 #Groep\<n\>\<sg\>	^Groep<n><sg>$
      76 #vuurtoren\<n\>\<sg\>	^vuurtoren<n><sg>$
+     75 #zus\<n\>\<pl\>	^zus<n><pl>$
      74 #zeestraat\<n\>\<sg\>	^zeestraat<n><sg>$
      73 #bevolkingsdichtheid\<n\>\<sg\>	^bevolkingsdichtheid<n><sg>$
+     72 #feit\<n\>\<pl\>	^feit<n><pl>$
      69 #trein\<n\>\<sg\>	^trein<n><sg>$
+     68 #water\<n\>\<pl\>	^water<n><pl>$
+     68 #Land\<n\>\<pl\>	^Land<n><pl>$
+     66 #Water\<n\>\<sg\>	^Water<n><sg>$
+     66 #Voorbeeld\<n\>\<sg\>	^Voorbeeld<n><sg>$
+     65 #Vanuit\<pr\>	^Vanuit<pr>$
      64 #aardbeving\<n\>\<pl\>	^aardbeving<n><pl>$
+     63 #Onder\<pr\>\<atp\>	^Onder<pr><atp>$
+     63 #bevolking\<n\>\<pl\>	^bevolking<n><pl>$
+     63 #Beeld\<n\>\<sg\>	^Beeld<n><sg>$
      60 #Vrouw\<n\>\<pl\>	^Vrouw<n><pl>$
+     60 #Taal\<n\>\<sg\>	^Taal<n><sg>$
+     59 #groepering\<n\>\<pl\>	^groepering<n><pl>$
      59 #Boek\<n\>\<sg\>	^Boek<n><sg>$
+     59 #appel\<n\>\<pl\>	^appel<n><pl>$
+     57 #Lijst\<n\>\<sg\>	^Lijst<n><sg>$
      57 #hoofdstad\<n\>\<pl\>	^hoofdstad<n><pl>$
      57 #Geschiedenis\<n\>\<sg\>	^Geschiedenis<n><sg>$
      55 #olifanten\<n\>\<sg\>	^olifanten<n><sg>$
+     55 #cijfer\<n\>\<sg\>	^cijfer<n><sg>$
+     54 #onderzoek\<n\>\<pl\>	^onderzoek<n><pl>$
      54 #binair\<n\>\<sg\>	^binair<n><sg>$
      53 #Kapitein\<n\>\<sg\>	^Kapitein<n><sg>$
      52 #technologie\<n\>\<pl\>	^technologie<n><pl>$
      52 #techniek\<n\>\<pl\>	^techniek<n><pl>$
+     51 #Via\<pr\>	^Via<pr>$
+     50 #hond\<n\>\<sg\>	^hond<n><sg>$
      50 #componist\<n\>\<pl\>	^componist<n><pl>$
+     49 #Oor\<pr\>	^Oor<pr>$
      48 #werkloosheid\<n\>\<sg\>	^werkloosheid<n><sg>$
+     47 #Muziek\<n\>\<sg\>	^Muziek<n><sg>$
+     47 #inwoner\<n\>\<sg\>	^inwoner<n><sg>$
+     47 #druif\<n\>\<pl\>	^druif<n><pl>$
+     47 #afbeelding\<n\>\<sg\>	^afbeelding<n><sg>$
+     46 #Lid\<n\>\<pl\>	^Lid<n><pl>$
      46 #Hoofdstad\<n\>\<sg\>	^Hoofdstad<n><sg>$
      46 #evolutietheorie\<n\>\<sg\>	^evolutietheorie<n><sg>$
      46 #belfort\<n\>\<sg\>	^belfort<n><sg>$
      44 #Recht\<n\>\<sg\>	^Recht<n><sg>$
+     43 #Tijd\<n\>\<sg\>	^Tijd<n><sg>$
      43 #Tien\<num\>\<sp\>	^Tien<num><sp>$
+     43 #Onderzoek\<n\>\<sg\>	^Onderzoek<n><sg>$
      43 #olifanten\<n\>\<pl\>	^olifanten<n><pl>$
+     43 #nummer\<n\>\<pl\>	^nummer<n><pl>$
      43 #journalist\<n\>\<pl\>	^journalist<n><pl>$
+     42 #Moeder\<n\>\<sg\>	^Moeder<n><sg>$
      42 #binair\<n\>\<pl\>	^binair<n><pl>$
      41 #onderzeeboot\<n\>\<pl\>	^onderzeeboot<n><pl>$
+     39 #taalgroep\<n\>\<sg\>	^taalgroep<n><sg>$
+     39 #ontwikkeling\<n\>\<pl\>	^ontwikkeling<n><pl>$
+     38 #wortel\<n\>\<sg\>	^wortel<n><sg>$
+     38 #Dag\<n\>\<sg\>	^Dag<n><sg>$
+     37 #groepering\<n\>\<sg\>	^groepering<n><sg>$
      35 #Recht\<n\>\<pl\>	^Recht<n><pl>$
+     34 #Kind\<n\>\<pl\>	^Kind<n><pl>$
      33 #Technologie\<n\>\<sg\>	^Technologie<n><sg>$
+     33 #kip\<n\>\<pl\>	^kip<n><pl>$
      33 #elektrischeweerstand\<n\>\<sg\>	^elektrischeweerstand<n><sg>$
+     33 #Af\<pr\>\<atp\>	^Af<pr><atp>$
+     32 #Rivier\<n\>\<sg\>	^Rivier<n><sg>$
+     32 #president\<n\>\<pl\>	^president<n><pl>$
      32 #natuurkunde\<n\>\<sg\>	^natuurkunde<n><sg>$
      32 #Informatie\<n\>\<sg\>	^Informatie<n><sg>$
      31 #Zonnestelsel\<n\>\<sg\>	^Zonnestelsel<n><sg>$
+     31 #hond\<n\>\<pl\>	^hond<n><pl>$
+     30 #moeder\<n\>\<pl\>	^moeder<n><pl>$
+     30 #Film\<n\>\<sg\>	^Film<n><sg>$
      30 #elektrischeweerstand\<n\>\<pl\>	^elektrischeweerstand<n><pl>$
      29 #psycholoog\<n\>\<sg\>	^psycholoog<n><sg>$
+     29 #eilanengroep\<n\>\<pl\>	^eilanengroep<n><pl>$
      29 #apen\<n\>\<sg\>	^apen<n><sg>$
      28 #woordenboek\<n\>\<pl\>	^woordenboek<n><pl>$
+     28 #Soort\<n\>\<sg\>	^Soort<n><sg>$
+     28 #Gebied\<n\>\<pl\>	^Gebied<n><pl>$
+     27 #ui\<n\>\<pl\>	^ui<n><pl>$
+     27 #Gebruiker\<n\>\<pl\>	^Gebruiker<n><pl>$
+     26 #Ontwikkeling\<n\>\<sg\>	^Ontwikkeling<n><sg>$
      26 #onderzeeboot\<n\>\<sg\>	^onderzeeboot<n><sg>$
      26 #Economie\<n\>\<sg\>	^Economie<n><sg>$
+     26 #afbeelding\<n\>\<pl\>	^afbeelding<n><pl>$
      25 #apen\<n\>\<pl\>	^apen<n><pl>$
      24 #natuurwetenschap\<n\>\<pl\>	^natuurwetenschap<n><pl>$
+     24 #Dienst\<n\>\<sg\>	^Dienst<n><sg>$
+     24 #bevolkingsgroep\<n\>\<pl\>	^bevolkingsgroep<n><pl>$
      24 #acroniem\<n\>\<sg\>	^acroniem<n><sg>$
      24 #Acht\<num\>\<sp\>	^Acht<num><sp>$
+     23 #Tekst\<n\>\<sg\>	^Tekst<n><sg>$
      23 #Negen\<num\>\<sp\>	^Negen<num><sp>$
      22 #Zijn\<vbser\>\<inf\>	^Zijn<vbser><inf>$
      22 #Vrouw\<n\>\<sg\>	^Vrouw<n><sg>$
+     22 #succes\<n\>\<pl\>	^succes<n><pl>$
+     22 #Serie\<n\>\<sg\>	^Serie<n><sg>$
+     22 #Naam\<n\>\<sg\>	^Naam<n><sg>$
+     22 #grond\<n\>\<pl\>	^grond<n><pl>$
      22 #Boek\<n\>\<pl\>	^Boek<n><pl>$
-     19 #DE\<det\>\<def\>\<sg\>	^DE<det><def><sg>$
+     21 #Taal\<n\>\<pl\>	^Taal<n><pl>$
+     21 #leeftijd\<n\>\<pl\>	^leeftijd<n><pl>$
+     21 #Dienst\<n\>\<pl\>	^Dienst<n><pl>$
+     21 #Beeld\<n\>\<pl\>	^Beeld<n><pl>$
+     20 #Woord\<n\>\<pl\>	^Woord<n><pl>$
+     20 #vrucht\<n\>\<sg\>	^vrucht<n><sg>$
+     20 #Terug\<pr\>	^Terug<pr>$
+     20 #subgroep\<n\>\<sg\>	^subgroep<n><sg>$
+     20 #Eeuw\<n\>\<sg\>	^Eeuw<n><sg>$
      19 #calculus\<n\>\<pl\>	^calculus<n><pl>$
+     18 #Koning\<n\>\<pl\>	^Koning<n><pl>$
      18 #bacterie\<n\>\<sg\>	^bacterie<n><sg>$
+     17 #taalgroep\<n\>\<pl\>	^taalgroep<n><pl>$
+     17 #Naam\<n\>\<pl\>	^Naam<n><pl>$
+     17 #Lijn\<n\>\<sg\>	^Lijn<n><sg>$
      16 #Zeestraat\<n\>\<sg\>	^Zeestraat<n><sg>$
      16 #muziekgroep\<n\>\<pl\>	^muziekgroep<n><pl>$
+     16 #minderheidsgroep\<n\>\<pl\>	^minderheidsgroep<n><pl>$
+     16 #Eeuw\<n\>\<pl\>	^Eeuw<n><pl>$
+     15 #Zus\<n\>\<pl\>	^Zus<n><pl>$
+     15 #Woord\<n\>\<sg\>	^Woord<n><sg>$
+     15 #Weg\<n\>\<sg\>	^Weg<n><sg>$
+     15 #Pagina\<n\>\<pl\>	^Pagina<n><pl>$
+     15 #Op\<pr\>\<atp\>	^Op<pr><atp>$
+     15 #ontbijt\<n\>\<sg\>	^ontbijt<n><sg>$
+     15 #lam\<n\>\<sg\>	^lam<n><sg>$
+     15 #kers\<n\>\<pl\>	^kers<n><pl>$
+     15 #Dag\<n\>\<pl\>	^Dag<n><pl>$
      15 #Auteursrecht\<n\>\<sg\>	^Auteursrecht<n><sg>$
      14 #ZIJN\<vbser\>\<pres\>	^ZIJN<vbser><pres>$
+     14 #weg\<n\>\<pl\>	^weg<n><pl>$
+     14 #sinaasappel\<n\>\<pl\>	^sinaasappel<n><pl>$
      14 #Onafhankelijkheid\<n\>\<sg\>	^Onafhankelijkheid<n><sg>$
      14 #monarchie\<n\>\<pl\>	^monarchie<n><pl>$
      14 #koolhydraat\<n\>\<pl\>	^koolhydraat<n><pl>$
      14 #kapitein\<n\>\<pl\>	^kapitein<n><pl>$
+     14 #Dorp\<n\>\<sg\>	^Dorp<n><sg>$
+     14 #Club\<n\>\<sg\>	^Club<n><sg>$
+     14 #bevolkingsgroep\<n\>\<sg\>	^bevolkingsgroep<n><sg>$
+     13 #Vis\<n\>\<pl\>	^Vis<n><pl>$
      13 #Olifanten\<n\>\<sg\>	^Olifanten<n><sg>$
      13 #natuurkunde\<n\>\<pl\>	^natuurkunde<n><pl>$
+     13 #Gebruiker\<n\>\<sg\>	^Gebruiker<n><sg>$
      13 #Elf\<num\>\<sp\>	^Elf<num><sp>$
+     13 #appel\<n\>\<sg\>	^appel<n><sg>$
      12 #zuidpool\<n\>\<sg\>	^zuidpool<n><sg>$
      12 #Woordenboek\<n\>\<sg\>	^Woordenboek<n><sg>$
      12 #warmtecapaciteit\<n\>\<sg\>	^warmtecapaciteit<n><sg>$
      12 #vuurtoren\<n\>\<pl\>	^vuurtoren<n><pl>$
+     12 #tante\<n\>\<sg\>	^tante<n><sg>$
+     12 #stamgroep\<n\>\<pl\>	^stamgroep<n><pl>$
+     12 #popgroep\<n\>\<sg\>	^popgroep<n><sg>$
+     12 #Hand\<n\>\<sg\>	^Hand<n><sg>$
+     12 #Groep\<n\>\<pl\>	^Groep<n><pl>$
+     12 #Glas\<n\>\<sg\>	^Glas<n><sg>$
      12 #belfort\<n\>\<pl\>	^belfort<n><pl>$
      11 #zeestraat\<n\>\<pl\>	^zeestraat<n><pl>$
+     11 #Water\<n\>\<pl\>	^Water<n><pl>$
+     11 #Vis\<n\>\<sg\>	^Vis<n><sg>$
+     11 #ui\<n\>\<sg\>	^ui<n><sg>$
+     11 #tomaat\<n\>\<pl\>	^tomaat<n><pl>$
+     11 #Rivier\<n\>\<pl\>	^Rivier<n><pl>$
      11 #Religie\<n\>\<sg\>	^Religie<n><sg>$
      11 #Olifanten\<n\>\<pl\>	^Olifanten<n><pl>$
+     11 #leger\<n\>\<pl\>	^leger<n><pl>$
      11 #informatie\<n\>\<pl\>	^informatie<n><pl>$
      11 #Architectuur\<n\>\<sg\>	^Architectuur<n><sg>$
      10 #Techniek\<n\>\<pl\>	^Techniek<n><pl>$
      10 #schrijfmachine\<n\>\<sg\>	^schrijfmachine<n><sg>$
+     10 #Partij\<n\>\<pl\>	^Partij<n><pl>$
+     10 #Lid\<n\>\<sg\>	^Lid<n><sg>$
+     10 #kip\<n\>\<sg\>	^kip<n><sg>$
+     10 #DE\<det\>\<def\>\<sp\>	^DE<det><def><sp>$
       9 #Zuidpool\<n\>\<sg\>	^Zuidpool<n><sg>$
       9 #Werkloosheid\<n\>\<sg\>	^Werkloosheid<n><sg>$
+      9 #stamgroep\<n\>\<sg\>	^stamgroep<n><sg>$
+      9 #Punt\<n\>\<pl\>	^Punt<n><pl>$
       9 #psycholoog\<n\>\<pl\>	^psycholoog<n><pl>$
+      9 #glas\<n\>\<pl\>	^glas<n><pl>$
       9 #Democratie\<n\>\<sg\>	^Democratie<n><sg>$
+      9 #DE\<det\>\<def\>\<sg\>	^DE<det><def><sg>$
+      8 #Vlees\<n\>\<sg\>	^Vlees<n><sg>$
+      8 #toneelgroep\<n\>\<sg\>	^toneelgroep<n><sg>$
+      8 #Seizoen\<n\>\<sg\>	^Seizoen<n><sg>$
+      8 #rock-groep\<n\>\<sg\>	^rock-groep<n><sg>$
       8 #natuurwetenschap\<n\>\<sg\>	^natuurwetenschap<n><sg>$
+      8 #leeftijdsgroep\<n\>\<sg\>	^leeftijdsgroep<n><sg>$
       8 #Kracht\<n\>\<sg\>	^Kracht<n><sg>$
+      8 #Kind\<n\>\<sg\>	^Kind<n><sg>$
+      8 #kers\<n\>\<sg\>	^kers<n><sg>$
       8 #Calculus\<n\>\<sg\>	^Calculus<n><sg>$
       8 #auteursrecht\<n\>\<pl\>	^auteursrecht<n><pl>$
+      8 #aardappel\<n\>\<sg\>	^aardappel<n><sg>$
       7 #volkstelling\<n\>\<pl\>	^volkstelling<n><pl>$
+      7 #mediagroep\<n\>\<pl\>	^mediagroep<n><pl>$
+      7 #Maand\<n\>\<sg\>	^Maand<n><sg>$
       7 #hugenoten\<n\>\<pl\>	^hugenoten<n><pl>$
+      7 #Grond\<n\>\<sg\>	^Grond<n><sg>$
       7 #Encyclopedie\<n\>\<sg\>	^Encyclopedie<n><sg>$
       7 #Elektriciteit\<n\>\<sg\>	^Elektriciteit<n><sg>$
+      7 #Af\<pr\>	^Af<pr>$
       6 #zijn\<vbser\>	^zijn<vbser>$
+      6 #Toe\<pr\>\<atp\>	^Toe<pr><atp>$
+      6 #Toe\<pr\>	^Toe<pr>$
+      6 #subgroep\<n\>\<pl\>	^subgroep<n><pl>$
+      6 #Onderzoek\<n\>\<pl\>	^Onderzoek<n><pl>$
+      6 #minderheidsgroep\<n\>\<sg\>	^minderheidsgroep<n><sg>$
       6 #koolhydraat\<n\>\<sg\>	^koolhydraat<n><sg>$
       6 #Hugenoten\<n\>\<sg\>	^Hugenoten<n><sg>$
       6 #hebben\<vbhaver\>\<pp\>	^hebben<vbhaver><pp>$
+      6 #groente\<n\>\<pl\>	^groente<n><pl>$
+      6 #Film\<n\>\<pl\>	^Film<n><pl>$
       6 #Elektrischeweerstand\<n\>\<pl\>	^Elektrischeweerstand<n><pl>$
+      6 #Club\<n\>\<pl\>	^Club<n><pl>$
       6 #bandrecorder\<n\>\<sg\>	^bandrecorder<n><sg>$
       6 #atmosfeer\<n\>\<pl\>	^atmosfeer<n><pl>$
       5 #ZIJN\<vbser\>\<inf\>	^ZIJN<vbser><inf>$
+      5 #Voor\<pr\>\<atp\>	^Voor<pr><atp>$
+      5 #Versie\<n\>\<sg\>	^Versie<n><sg>$
+      5 #Versie\<n\>\<pl\>	^Versie<n><pl>$
+      5 #Tijd\<n\>\<pl\>	^Tijd<n><pl>$
+      5 #Terug\<pr\>\<atp\>	^Terug<pr><atp>$
+      5 #Punt\<n\>\<sg\>	^Punt<n><sg>$
+      5 #President\<n\>\<pl\>	^President<n><pl>$
+      5 #Oor\<pr\>\<atp\>	^Oor<pr><atp>$
+      5 #Nummer\<n\>\<sg\>	^Nummer<n><sg>$
       5 #Monarchie\<n\>\<sg\>	^Monarchie<n><sg>$
+      5 #Leeftijd\<n\>\<sg\>	^Leeftijd<n><sg>$
+      5 #kultuurgroep\<n\>\<sg\>	^kultuurgroep<n><sg>$
       5 #Hoofdstad\<n\>\<pl\>	^Hoofdstad<n><pl>$
+      5 #Groente\<n\>\<sg\>	^Groente<n><sg>$
       5 #Geluid\<n\>\<sg\>	^Geluid<n><sg>$
       5 #Evenaar\<n\>\<sg\>	^Evenaar<n><sg>$
       5 #dichtheid\<n\>\<pl\>	^dichtheid<n><pl>$
       5 #Computer\<n\>\<pl\>	^Computer<n><pl>$
+      5 #Broer\<n\>\<pl\>	^Broer<n><pl>$
       5 #bandrecorder\<n\>\<pl\>	^bandrecorder<n><pl>$
       5 #abacus\<n\>\<sg\>	^abacus<n><sg>$
       5 #Aardbeving\<n\>\<pl\>	^Aardbeving<n><pl>$
       4 #Vuurtoren\<n\>\<sg\>	^Vuurtoren<n><sg>$
+      4 #Uit\<pr\>\<atp\>	^Uit<pr><atp>$
+      4 #tomaat\<n\>\<sg\>	^tomaat<n><sg>$
+      4 #Titel\<n\>\<sg\>	^Titel<n><sg>$
       4 #Techniek\<n\>\<sg\>	^Techniek<n><sg>$
+      4 #tante\<n\>\<pl\>	^tante<n><pl>$
+      4 #Soort\<n\>\<pl\>	^Soort<n><pl>$
+      4 #Ontwikkeling\<n\>\<pl\>	^Ontwikkeling<n><pl>$
       4 #Om\<pr\>\<atp\>	^Om<pr><atp>$
+      4 #moment\<n\>\<pl\>	^moment<n><pl>$
+      4 #MAN\<n\>\<sg\>	^MAN<n><sg>$
+      4 #Lam\<n\>\<sg\>	^Lam<n><sg>$
       4 #Journalist\<n\>\<pl\>	^Journalist<n><pl>$
+      4 #Hond\<n\>\<sg\>	^Hond<n><sg>$
+      4 #Dorp\<n\>\<pl\>	^Dorp<n><pl>$
       4 #Componist\<n\>\<pl\>	^Componist<n><pl>$
+      4 #bloedgroep\<n\>\<sg\>	^bloedgroep<n><sg>$
       4 #bevolkingsdichtheid\<n\>\<pl\>	^bevolkingsdichtheid<n><pl>$
+      4 #Bevolking\<n\>\<sg\>	^Bevolking<n><sg>$
       4 #architectuur\<n\>\<pl\>	^architectuur<n><pl>$
+      4 #AF\<pr\>	^AF<pr>$
+      4 #Aardappel\<n\>\<pl\>	^Aardappel<n><pl>$
       3 #zonnestelsel\<n\>\<pl\>	^zonnestelsel<n><pl>$
+      3 #ZOALS\<pr\>	^ZOALS<pr>$
       3 #Zeestraat\<n\>\<pl\>	^Zeestraat<n><pl>$
       3 #wielophanging\<n\>\<pl\>	^wielophanging<n><pl>$
+      3 #werkgroep\<n\>\<sg\>	^werkgroep<n><sg>$
+      3 #werkgroep\<n\>\<pl\>	^werkgroep<n><pl>$
+      3 #Vrucht\<n\>\<pl\>	^Vrucht<n><pl>$
+      3 #VIA\<pr\>	^VIA<pr>$
+      3 #Ui\<n\>\<pl\>	^Ui<n><pl>$
+      3 #oorlog\<n\>\<pl\>	^oorlog<n><pl>$
       3 #Natuurwetenschap\<n\>\<pl\>	^Natuurwetenschap<n><pl>$
+      3 #Moment\<n\>\<sg\>	^Moment<n><sg>$
+      3 #mediagroep\<n\>\<sg\>	^mediagroep<n><sg>$
+      3 #Manier\<n\>\<sg\>	^Manier<n><sg>$
+      3 #Kleur\<n\>\<pl\>	^Kleur<n><pl>$
       3 #Journalist\<n\>\<sg\>	^Journalist<n><sg>$
+      3 #jeuggroep\<n\>\<pl\>	^jeuggroep<n><pl>$
+      3 #Hond\<n\>\<pl\>	^Hond<n><pl>$
       3 #geschiedenis\<n\>\<pl\>	^geschiedenis<n><pl>$
+      3 #druif\<n\>\<sg\>	^druif<n><sg>$
+      3 #Druif\<n\>\<pl\>	^Druif<n><pl>$
       3 #DE\<det\>\<def\>\<pl\>	^DE<det><def><pl>$
+      3 #augustus\<n\>\<sg\>	^augustus<n><sg>$
+      3 #Appel\<n\>\<sg\>	^Appel<n><sg>$
+      3 #Appel\<n\>\<pl\>	^Appel<n><pl>$
       2 #ZES\<num\>\<sp\>	^ZES<num><sp>$
       2 #Woordenboek\<n\>\<pl\>	^Woordenboek<n><pl>$
       2 #wielophanging\<n\>\<sg\>	^wielophanging<n><sg>$
       2 #Warmtecapaciteit\<n\>\<sg\>	^Warmtecapaciteit<n><sg>$
+      2 #Vrucht\<n\>\<sg\>	^Vrucht<n><sg>$
+      2 #Vorm\<n\>\<sg\>	^Vorm<n><sg>$
+      2 #Vorm\<n\>\<pl\>	^Vorm<n><pl>$
       2 #Trein\<n\>\<pl\>	^Trein<n><pl>$
+      2 #terroristegroep\<n\>\<sg\>	^terroristegroep<n><sg>$
+      2 #sinaasappel\<n\>\<sg\>	^sinaasappel<n><sg>$
       2 #schrijfmachine\<n\>\<pl\>	^schrijfmachine<n><pl>$
+      2 #rock-groep\<n\>\<pl\>	^rock-groep<n><pl>$
       2 #Religie\<n\>\<pl\>	^Religie<n><pl>$
+      2 #popgroep\<n\>\<pl\>	^popgroep<n><pl>$
       2 #Natuurwetenschap\<n\>\<sg\>	^Natuurwetenschap<n><sg>$
       2 #Muziekgroep\<n\>\<sg\>	^Muziekgroep<n><sg>$
+      2 #leeftijdsgroep\<n\>\<pl\>	^leeftijdsgroep<n><pl>$
+      2 #lam\<n\>\<pl\>	^lam<n><pl>$
       2 #Koolhydraat\<n\>\<pl\>	^Koolhydraat<n><pl>$
+      2 #jeuggroep\<n\>\<sg\>	^jeuggroep<n><sg>$
       2 #Informatie\<n\>\<pl\>	^Informatie<n><pl>$
       2 #hugenoten\<n\>\<sg\>	^hugenoten<n><sg>$
+      2 #geval\<n\>\<sg\>	^geval<n><sg>$
       2 #Geschiedenis\<n\>\<pl\>	^Geschiedenis<n><pl>$
       2 #Geluid\<n\>\<pl\>	^Geluid<n><pl>$
+      2 #Feit\<n\>\<sg\>	^Feit<n><sg>$
       2 #Evolutietheorie\<n\>\<sg\>	^Evolutietheorie<n><sg>$
       2 #Computer\<n\>\<sg\>	^Computer<n><sg>$
       2 #Componist\<n\>\<sg\>	^Componist<n><sg>$
+      2 #Broer\<n\>\<sg\>	^Broer<n><sg>$
       2 #Bevolkingsdichtheid\<n\>\<sg\>	^Bevolkingsdichtheid<n><sg>$
+      2 #Bevolking\<n\>\<pl\>	^Bevolking<n><pl>$
       2 #Applicatie\<n\>\<pl\>	^Applicatie<n><pl>$
       2 #Apen\<n\>\<pl\>	^Apen<n><pl>$
+      2 #AAN\<pr\>\<atp\>	^AAN<pr><atp>$
+      1 #Zus\<n\>\<sg\>	^Zus<n><sg>$
       1 #Zuidpool\<n\>\<pl\>	^Zuidpool<n><pl>$
       1 #zuidpool\<n\>\<pl\>	^zuidpool<n><pl>$
       1 #Zijn\<vbser\>	^Zijn<vbser>$
       1 #Wielophanging\<n\>\<pl\>	^Wielophanging<n><pl>$
+      1 #Werkgroep\<n\>\<sg\>	^Werkgroep<n><sg>$
       1 #warmtecapaciteit\<n\>\<pl\>	^warmtecapaciteit<n><pl>$
+      1 #Waarop\<pr\>	^Waarop<pr>$
+      1 #voorbeeld\<n\>\<sg\>"	^voorbeeld<n><sg>$"
       1 #Volkstelling\<n\>\<sg\>	^Volkstelling<n><sg>$
+      1 #vlees\<n\>\<pl\>	^vlees<n><pl>$
       1 #Uur\<n\>\<sg\>	^Uur<n><sg>$
       1 #Uur\<n\>\<pl\>	^Uur<n><pl>$
+      1 #UIT\<pr\>\<atp\>	^UIT<pr><atp>$
+      1 #Tomaat\<n\>\<pl\>	^Tomaat<n><pl>$
+      1 #TITEL\<n\>\<pl\>	^TITEL<n><pl>$
+      1 #terroristegroep\<n\>\<pl\>	^terroristegroep<n><pl>$
+      1 #Tante\<n\>\<sg\>	^Tante<n><sg>$
+      1 #Tante\<n\>\<pl\>	^Tante<n><pl>$
+      1 #taal\<n\>\<sg\>		^taal<n><sg>$	
+      1 #Taalgroep\<n\>\<sg\>	^Taalgroep<n><sg>$
+      1 #Subgroep\<n\>\<sg\>	^Subgroep<n><sg>$
       1 #Spreken\<vblex\>\<pres\>	^Spreken<vblex><pres>$
       1 #SPREKEN\<vblex\>\<inf\>	^SPREKEN<vblex><inf>$
+      1 #SOORT\<n\>\<sg\>	^SOORT<n><sg>$
+      1 #Sinaasappel\<n\>\<pl\>	^Sinaasappel<n><pl>$
       1 #Psycholoog\<n\>\<sg\>	^Psycholoog<n><sg>$
+      1 #Pagina\<n\>\<sg\>	^Pagina<n><sg>$
+      1 #OP\<pr\>\<atp\>	^OP<pr><atp>$
+      1 #OOR\<pr\>	^OOR<pr>$
+      1 #Nummer\<n\>\<pl\>	^Nummer<n><pl>$
       1 #Natuurkunde\<n\>\<pl\>	^Natuurkunde<n><pl>$
+      1 #NAAM\<n\>\<sg\>	^NAAM<n><sg>$
+      1 #NAAM\<n\>\<pl\>	^NAAM<n><pl>$
       1 #Muziekgroep\<n\>\<pl\>	^Muziekgroep<n><pl>$
+      1 #Moeder\<n\>\<pl\>	^Moeder<n><pl>$
+      1 #MENS\<n\>\<pl\>	^MENS<n><pl>$
+      1 #MEI\<n\>\<sg\>	^MEI<n><sg>$
+      1 #Maand\<n\>\<pl\>	^Maand<n><pl>$
+      1 #Lijn\<n\>\<pl\>	^Lijn<n><pl>$
+      1 #LAM\<n\>\<sg\>	^LAM<n><sg>$
       1 #Krant\<n\>\<sg\>	^Krant<n><sg>$
+      1 #Kleur\<n\>\<sg\>	^Kleur<n><sg>$
+      1 #Kip\<n\>\<sg\>	^Kip<n><sg>$
+      1 #Kers\<n\>\<sg\>	^Kers<n><sg>$
+      1 #Invloed\<n\>\<sg\>	^Invloed<n><sg>$
+      1 #IN\<pr\>\<atp\>	^IN<pr><atp>$
       1 #INFORMATIE\<n\>\<sg\>	^INFORMATIE<n><sg>$
       1 #HEBBEN\<vbhaver\>\<pres\>	^HEBBEN<vbhaver><pres>$
       1 #Hebben\<vbhaver\>\<inf\>	^Hebben<vbhaver><inf>$
+      1 #Groepering\<n\>\<sg\>	^Groepering<n><sg>$
+      1 #Groente\<n\>\<pl\>	^Groente<n><pl>$
+      1 #Glas\<n\>\<pl\>	^Glas<n><pl>$
+      1 #Geval\<n\>\<pl\>	^Geval<n><pl>$
       1 #evolutietheorie\<n\>\<pl\>	^evolutietheorie<n><pl>$
       1 #ELF\<num\>\<sp\>	^ELF<num><sp>$
+      1 #Eilanengroep\<n\>\<sg\>	^Eilanengroep<n><sg>$
+      1 #eeuw\<n\>\<sg\>"	^eeuw<n><sg>$"
+      1 #Cijfer\<n\>\<pl\>	^Cijfer<n><pl>$
+      1 #bloedgroep\<n\>\<pl\>	^bloedgroep<n><pl>$
       1 #BINAIR\<n\>\<sg\>	^BINAIR<n><sg>$
       1 #Binair\<n\>\<pl\>	^Binair<n><pl>$
       1 #Auteursrecht\<n\>\<pl\>	^Auteursrecht<n><pl>$
       1 #Apen\<n\>\<sg\>	^Apen<n><sg>$
+      1 #AF\<pr\>\<atp\>	^AF<pr><atp>$
+      1 #Afbeelding\<n\>\<pl\>	^Afbeelding<n><pl>$
       1 #acroniem\<n\>\<pl\>	^acroniem<n><pl>$
       1 #abacus\<n\>\<pl\>	^abacus<n><pl>$
       1 #Aardbeving\<n\>\<sg\>	^Aardbeving<n><sg>$
@@ -264,5 +649,5 @@ Summary
 ===============================================================================
     5 /tmp/af-nl.multiform
     0 /tmp/af-nl.multibidix
-  240 /tmp/af-nl.tagmismatch
-  245 total
+  625 /tmp/af-nl.tagmismatch
+  630 total

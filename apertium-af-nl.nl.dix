@@ -1064,13 +1064,13 @@
       <e>
        <p>
         <l>mer</l>
-        <r>am<s n="adj"/><s n="comp"/></r>
+        <r>am<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>amst</l>
-        <r>am<s n="adj"/><s n="sup"/></r>
+        <r>am<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1085,13 +1085,13 @@
       <e>
        <p>
         <l>der</l>
-        <r>ed<s n="adj"/><s n="comp"/></r>
+        <r>ed<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>dst</l>
-        <r>ed<s n="adj"/><s n="sup"/></r>
+        <r>ed<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1106,13 +1106,13 @@
       <e>
        <p>
         <l>mer</l>
-        <r>am<s n="adj"/><s n="comp"/></r>
+        <r>am<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>mst</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1127,13 +1127,13 @@
       <e>
        <p>
         <l>meer bezet</l>
-        <r>bezet<s n="adj"/><s n="comp"/></r>
+        <r>bezet<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>meeste bezet</l>
-        <r>bezet<s n="adj"/><s n="sup"/></r>
+        <r>bezet<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1148,13 +1148,13 @@
       <e>
        <p>
         <l>der</l>
-        <r>ed<s n="adj"/><s n="comp"/></r>
+        <r>ed<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>edst</l>
-        <r>ed<s n="adj"/><s n="sup"/></r>
+        <r>ed<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1169,13 +1169,13 @@
       <e>
        <p>
         <l>ker</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1190,13 +1190,13 @@
       <e>
        <p>
         <l>ner</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1211,13 +1211,13 @@
       <e>
        <p>
         <l>er</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>ste</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1232,13 +1232,13 @@
       <e>
        <p>
         <l>oter</l>
-        <r>ot<s n="adj"/><s n="comp"/></r>
+        <r>ot<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>otst</l>
-        <r>ot<s n="adj"/><s n="sup"/></r>
+        <r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1253,13 +1253,13 @@
       <e>
        <p>
         <l>der</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1274,13 +1274,13 @@
       <e>
        <p>
         <l>ser</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>t</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1295,13 +1295,13 @@
       <e>
        <p>
         <l>der</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1316,13 +1316,13 @@
       <e>
        <p>
         <l>ter</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1337,13 +1337,13 @@
       <e>
        <p>
         <l>er</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>s</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1358,13 +1358,13 @@
       <e>
        <p>
         <l>ger</l>
-        <r>ag<s n="adj"/><s n="comp"/></r>
+        <r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>agst</l>
-        <r>ag<s n="adj"/><s n="sup"/></r>
+        <r>ag<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1379,13 +1379,13 @@
       <e>
        <p>
         <l>sneller</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>snelst</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1400,13 +1400,13 @@
       <e>
        <p>
         <l>zwaarder</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>zwaarst</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1421,13 +1421,13 @@
       <e>
        <p>
         <l>ter</l>
-        <r>at<s n="adj"/><s n="comp"/></r>
+        <r>at<s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>tst</l>
-        <r>at<s n="adj"/><s n="sup"/></r>
+        <r>at<s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1442,13 +1442,13 @@
       <e>
        <p>
         <l>ger</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1463,13 +1463,13 @@
       <e>
        <p>
         <l>er</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -1484,13 +1484,13 @@
       <e>
        <p>
         <l>er</l>
-        <r><s n="adj"/><s n="comp"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="comp"/></r>
        </p>
       </e>
       <e>
        <p>
         <l>st</l>
-        <r><s n="adj"/><s n="sup"/></r>
+        <r><s n="adj"/><s n="sint"/><s n="sup"/></r>
        </p>
       </e>
     </pardef>
@@ -8098,7 +8098,6 @@
     <e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
     <e lm="dus"><i>dus</i><par n="en__cnjcoo"/></e>
     <e lm="want"><i>want</i><par n="en__cnjcoo"/></e>
-     <e lm="dan"><i>dan</i><par n="en__cnjcoo"/></e>
 
     <!-- Onderschikkend voegwoorden -->
     <e lm="als"><i>als</i><par n="als__cnjsub"/></e>
@@ -8131,7 +8130,9 @@
 
     <e lm="intens"><i>intens</i><par n="/intens__adv"/></e>
 
+    <e lm="dan"><i>dan</i><par n="graag__adv"/></e>
     <e lm="graag"><i>graag</i><par n="graag__adv"/></e>
+    <e lm="niet"><i>niet</i><par n="graag__adv"/></e>
     <e lm="doch"><i>doch</i><par n="graag__adv"/></e>
     <e lm="eigenlijk"><i>eigenlijk</i><par n="graag__adv"/></e>
     <e lm="soms"><i>soms</i><par n="graag__adv"/></e>
