@@ -111,9 +111,9 @@
     415 ^@westelik<adj><sint><attr>$
     412 ^@swart<adj><attr>$
     411 ^@voormalig<adj><pred>$
+    407 ^@buitelands<adj><attr>$
     405 ^@la<adj><sint><attr>$
     403 ^@jong<adj><sint><pred>$
-    400 ^@buitelands<adj><attr>$
     397 ^@heilig<adj><sint><pred>$
     393 ^@sterk<adj><sint><attr>$
     392 ^@tradisioneel<adj><pred>$
@@ -179,11 +179,11 @@
     239 ^@inheems<adj><attr>$
     235 ^@nederduits<adj><pred>$
     233 ^@gou<adj><sint><attr>$
+    231 ^@binnelands<adj><attr>$
     230 ^@nazi<adj><pred>$
     228 ^@etnies<adj><attr>$
     228 ^@afhanklik<adj><pred>$
     225 ^@jaarliks<adj><attr>$
-    225 ^@binnelands<adj><attr>$
     224 ^@elektries<adj><attr>$
     224 ^@diep<adj><sint><pred>$
     219 ^@persoonlik<adj><sint><attr>$
@@ -1294,7 +1294,6 @@
       5 ^@skraal<adj><sint><attr>$
       5 ^@skematies<adj><pred>$
       5 ^@sirkelvormig<adj><attr>$
-      5 ^@rooi<adj><sint><pred>$
       5 ^@proporsioneel<adj><pred>$
       5 ^@ordentlik<adj><sint><attr>$
       5 ^@ontoeganklik<adj><sint><attr>$
@@ -1407,7 +1406,6 @@
       3 ^@seer<adj><pred>$
       3 ^@seer<adj><attr>$
       3 ^@saam<adj><pred>$
-      3 ^@rooi<adj><sint><attr>$
       3 ^@resessief<adj><pred>$
       3 ^@proaktief<adj><pred>$
       3 ^@potensiaal<adj><attr>$

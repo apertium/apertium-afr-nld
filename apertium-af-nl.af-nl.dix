@@ -210,6 +210,15 @@
     <e><p><l>dié<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>dit<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
 
+    <e><p><l>my<s n="det"/><s n="pos"/></l><r>mijn<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>jou<s n="det"/><s n="pos"/></l><r>jouw<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>haar<s n="det"/><s n="pos"/></l><r>haar<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>sy<s n="det"/><s n="pos"/></l><r>zijn<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>hul<s n="det"/><s n="pos"/></l><r>hun<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>ons<s n="det"/><s n="pos"/></l><r>ons<s n="det"/><s n="pos"/></r></p></e>
+
+    <e><p><l>laaste<s n="det"/><s n="ord"/></l><r>laatst<s n="det"/><s n="ord"/></r></p></e>
+
     <e><p><l>eerste<s n="det"/><s n="ord"/></l><r>eerste<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>tweede<s n="det"/><s n="ord"/></l><r>tweede<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>derde<s n="det"/><s n="ord"/></l><r>derde<s n="det"/><s n="ord"/></r></p></e>
@@ -217,7 +226,7 @@
     <e><p><l>vyfde<s n="det"/><s n="ord"/></l><r>vijfde<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sesde<s n="det"/><s n="ord"/></l><r>zesde<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sewende<s n="det"/><s n="ord"/></l><r>zevende<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>agtste<s n="det"/><s n="ord"/></l><r>achtste<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>agste<s n="det"/><s n="ord"/></l><r>achtste<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>negende<s n="det"/><s n="ord"/></l><r>negende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>tiende<s n="det"/><s n="ord"/></l><r>tiende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>elfde<s n="det"/><s n="ord"/></l><r>elfde<s n="det"/><s n="ord"/></r></p></e>
@@ -227,7 +236,7 @@
     <e><p><l>vyftiende<s n="det"/><s n="ord"/></l><r>vijftiende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sestiende<s n="det"/><s n="ord"/></l><r>zestiende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>sewentiende<s n="det"/><s n="ord"/></l><r>zeventiende<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>agttiende<s n="det"/><s n="ord"/></l><r>achttiende<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>agtiende<s n="det"/><s n="ord"/></l><r>achttiende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>negentiende<s n="det"/><s n="ord"/></l><r>negentiende<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>twintigste<s n="det"/><s n="ord"/></l><r>twintigste<s n="det"/><s n="ord"/></r></p></e>
 
@@ -2062,6 +2071,7 @@
     <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>groot<s n="adj"/><s n="sint"/></l><r>groot<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rooi<s n="adj"/><s n="sint"/></l><r>rood<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>siek<s n="adj"/><s n="sint"/></l><r>ziek<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -2090,6 +2100,9 @@
     <e><p><l>wees<s n="vbser"/></l><r>zijn<s n="vbser"/></r></p></e>
     <e><p><l>hê<s n="vbhaver"/></l><r>hebben<s n="vbhaver"/></r></p></e>
     <e><p><l>moet<s n="vbmod"/></l><r>moeten<s n="vbmod"/></r></p></e>
+    <e><p><l>kan<s n="vbmod"/></l><r>kunnen<s n="vbmod"/></r></p></e>
+
+    <e><p><l>wil<s n="vaux"/></l><r>willen<s n="vaux"/></r></p></e>
 
     <e><p><l>vertrek<s n="vblex"/></l><r>vertrekken<s n="vblex"/></r></p></e>
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>

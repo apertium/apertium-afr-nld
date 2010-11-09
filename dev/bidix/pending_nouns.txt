@@ -1,4 +1,3 @@
-  10297 ^@deur<n>$
    2793 ^@franse<n>$
    1821 ^@dood<n><unc>$
    1707 ^@ontstaan<n>$
@@ -104,6 +103,7 @@
     270 ^@suidwes<n><unc>$
     268 ^@stap<n>$
     268 ^@kandidaat<n>$
+    264 ^@departement<n>$
     264 ^@belangstelling<n>$
     262 ^@huwelik<n>$
     259 ^@vervaardiging<n>$
@@ -122,7 +122,6 @@
     235 ^@oprigting<n>$
     231 ^@gebrek<n><unc>$
     229 ^@ondersteuning<n>$
-    229 ^@departement<n>$
     228 ^@samewerking<n>$
     225 ^@administrasie<n>$
     223 ^@tabel<n>$
@@ -158,12 +157,12 @@
     179 ^@publikasie<n>$
     178 ^@item<n>$
     176 ^@standpunt<n>$
+    176 ^@gesondheid<n><unc>$
     176 ^@akademie<n>$
     174 ^@winkel<n>$
     174 ^@eienaar<n>$
     173 ^@wysiging<n>$
     173 ^@apartheid<n>$
-    170 ^@gesondheid<n><unc>$
     168 ^@geldeenheid<n>$
     167 ^@buiteland<n><unc>$
     167 ^@administrateur<n>$
@@ -281,10 +280,10 @@
      96 ^@klerk<n>$
      96 ^@aanduiding<n>$
      95 ^@eet<n>$
+     92 ^@arbeid<n>$
      91 ^@reputasie<n>$
      91 ^@herfs<n>$
      91 ^@heet<n>$
-     91 ^@arbeid<n>$
      91 ^@aluminium<n><unc>$
      90 ^@twyfel<n><unc>$
      90 ^@ruiter<n>$

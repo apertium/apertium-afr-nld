@@ -1327,8 +1327,12 @@
     </pardef>
 
     <pardef n="vrij__adj">
-      <e><p><l/><r><s n="adj"/></r></p></e>
-      <e><p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e><p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e><p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e><p><l>ere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e><p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e><p><l>ers</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
       <e><p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
@@ -1562,18 +1566,18 @@
     </pardef>
 
     <pardef n="w/illen__vbmod">
-      <e><p><l>il</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ilt</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>il</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ilde</l><r>illen<s n="vbmod"/><s n="p1"/><s n="sg"/><s n="past"/></r></p></e>
-      <e><p><l>ilde</l><r>illen<s n="vbmod"/><s n="p2"/><s n="sg"/><s n="past"/></r></p></e>
-      <e><p><l>ilde</l><r>illen<s n="vbmod"/><s n="p3"/><s n="sg"/><s n="past"/></r></p></e>
-      <e><p><l>ilden</l><r>illen<s n="vbmod"/><s n="p1"/><s n="pl"/><s n="past"/></r></p></e>
-      <e><p><l>ilden</l><r>illen<s n="vbmod"/><s n="p2"/><s n="pl"/><s n="past"/></r></p></e>
-      <e><p><l>ilden</l><r>illen<s n="vbmod"/><s n="p3"/><s n="pl"/><s n="past"/></r></p></e>
+      <e><p><l>il</l><r>illen<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ilt</l><r>illen<s n="vaux"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>il</l><r>illen<s n="vaux"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>illen</l><r>illen<s n="vaux"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>illen</l><r>illen<s n="vaux"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>illen</l><r>illen<s n="vaux"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ilde</l><r>illen<s n="vaux"/><s n="p1"/><s n="sg"/><s n="past"/></r></p></e>
+      <e><p><l>ilde</l><r>illen<s n="vaux"/><s n="p2"/><s n="sg"/><s n="past"/></r></p></e>
+      <e><p><l>ilde</l><r>illen<s n="vaux"/><s n="p3"/><s n="sg"/><s n="past"/></r></p></e>
+      <e><p><l>ilden</l><r>illen<s n="vaux"/><s n="p1"/><s n="pl"/><s n="past"/></r></p></e>
+      <e><p><l>ilden</l><r>illen<s n="vaux"/><s n="p2"/><s n="pl"/><s n="past"/></r></p></e>
+      <e><p><l>ilden</l><r>illen<s n="vaux"/><s n="p3"/><s n="pl"/><s n="past"/></r></p></e>
     </pardef>
 
     <pardef n="m/ogen__vbmod">
@@ -4262,6 +4266,7 @@
     <e lm="dik"><i>dik</i><par n="dik__adj"/></e>
     <e lm="dun"><i>dun</i><par n="dun__adj"/></e>
     <e lm="vrij"><i>vrij</i><par n="vrij__adj"/></e>
+    <e lm="ziek"><i>ziek</i><par n="vrij__adj"/></e>
     <e lm="groot"><i>gro</i><par n="gro/ot__adj"/></e>
     <e lm="rood"><i>ro</i><par n="ro/od__adj"/></e>
     <e lm="openbaar"><i>openba</i><par n="openba/ar__adj"/></e>
