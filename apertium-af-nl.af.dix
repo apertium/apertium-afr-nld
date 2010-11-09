@@ -1349,7 +1349,6 @@
     <e lm="as ’n"><i>as<b/>’n</i><par n="met__pr"/></e>
     <e lm="insluitende"><i>insluitende</i><par n="met__pr"/></e>
     <e lm="liewer as"><i>liewer<b/>as</i><par n="met__pr"/></e>
-    <e lm="as"><i>as</i><par n="met__pr"/></e>
     <e lm="onder"><i>onder</i><par n="met__pr"/></e>
     <e lm="betreffende"><i>betreffende</i><par n="met__pr"/></e>
     <e lm="ongeag"><i>ongeag</i><par n="met__pr"/></e>
@@ -1395,6 +1394,7 @@
     <e lm="dwarsoor"><i>dwarsoor</i><par n="met__pr"/></e>
     <e lm="anderkant"><i>anderkant</i><par n="met__pr"/></e>
     <e lm="vanuit"><i>vanuit</i><par n="met__pr"/></e><!-- from -->
+    <e lm="as"><i>as</i><par n="met__pr"/></e>
 
     <e lm="teen 'n hoek van"><i>teen<b/>'n<b/>hoek<b/>van</i><par n="met__pr"/></e><!-- at an angle of -->
     <e lm="ter herinnering aan"><i>ter<b/>herinnering<b/>aan</i><par n="met__pr"/></e><!-- in memory of -->
