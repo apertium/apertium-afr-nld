@@ -1838,9 +1838,21 @@
     </pardef>
 
     <pardef n="/de__det">
-      <e><p><l>het</l><r>de<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>de</l><r>de<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>het</l><r>de<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>de</l><r>de<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/eze__det">
+      <e><p><l>eze</l><r>eze<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>it</l><r>eze<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>eze</l><r>eze<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/ie__det">
+      <e><p><l>ie</l><r>ie<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>at</l><r>ie<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>ie</l><r>ie<s n="det"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- Conjunctions -->    
@@ -2638,6 +2650,8 @@
     <!-- Lidwoorden en geschlacht -->
     <e lm="een"><i>een</i><par n="een__det"/></e>
     <e lm="de"><i></i><par n="/de__det"/></e>
+    <e lm="die"><i>d</i><par n="d/ie__det"/></e>
+    <e lm="deze"><i>d</i><par n="d/eze__det"/></e>
 
     <!-- Voornaamwoorden -->
 

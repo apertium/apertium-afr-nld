@@ -185,10 +185,16 @@
       <e>       <p><l/><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="/die__det">
+    <pardef n="die__det">
       <e>       <p><l/><r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="dié__det">
+      <e>       <p><l/><r><s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="dem"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="'n__det">
@@ -1172,8 +1178,9 @@
 
     <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
 
-    <e lm="die"><i>die</i><par n="/die__det"/></e>
-    <e lm="dié"><i>dié</i><par n="/die__det"/></e>
+    <e lm="die"><i>die</i><par n="die__det"/></e>
+    <e lm="dié"><i>dié</i><par n="dié__det"/></e>
+    <e lm="dit"><i>dit</i><par n="dié__det"/></e>
 
     <e lm="'n"><i>'n</i><par n="'n__det"/></e>
     <e lm="‘n" r="LR"><p><l>‘n</l><r>'n</r></p><par n="'n__det"/></e>
