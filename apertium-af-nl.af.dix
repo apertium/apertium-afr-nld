@@ -186,8 +186,8 @@
     </pardef>
 
     <pardef n="/die__det">
-      <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
       <e>       <p><l/><r><s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="def"/><s n="pl"/></r></p></e>
     </pardef>
 
@@ -1104,8 +1104,9 @@
     </pardef>
 
     <pardef n="moe/t__vbmod">
-      <e>       <p><l>t</l><r>t<s n="vaux"/><s n="inf"/></r></p></e>
-      <e>       <p><l>s</l><r>t<s n="vaux"/><s n="past"/></r></p></e>
+      <e>       <p><l>t</l><r>t<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>t</l><r>t<s n="vbmod"/><s n="pres"/></r></p></e>
+      <e>       <p><l>s</l><r>t<s n="vbmod"/><s n="past"/></r></p></e>
     </pardef>
 
     <pardef n="m/ag__vbmod">

@@ -11,6 +11,7 @@
     <sdef n="sg" c="Singular"/>
     <sdef n="pl" c="Plural"/>
     <sdef n="prn" c="Pronoun"/>
+    <sdef n="mfn" c="Masculine/feminine/neuter"/>
     <sdef n="pr" c="Preposition"/>
 
     <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
@@ -110,7 +111,16 @@
     <sdef n="ant" c="Person"/>
     <sdef n="org" c="Organisation"/>
     <sdef n="GD" c="Gender to be determined"/>
+    <sdef n="ND" c="Number to be determined"/>
   </sdefs>
+  <pardefs>
+    <pardef n="die_de">
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="mfn"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="sp"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+    </pardef>
+  </pardefs>
 
   <section id="main" type="standard">
 
@@ -123,6 +133,7 @@
     <e><p><l>egter<s n="cnjcoo"/></l><r>echter<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>of<s n="cnjsub"/></l><r>of<s n="cnjsub"/></r></p></e>
+    <e><p><l>dat<s n="cnjsub"/></l><r>dat<s n="cnjsub"/></r></p></e>
 
     <e><p><l>dan<s n="cnjadv"/></l><r>dan<s n="cnjadv"/></r></p></e>
     <e><p><l>tot<s n="cnjadv"/></l><r>tot<s n="cnjadv"/></r></p></e>
@@ -141,6 +152,7 @@
 
     <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
     <e><p><l>vir<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>voor<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
     <e><p><l>na<s n="pr"/></l><r>naar<s n="pr"/></r></p></e>
     <e><p><l>op<s n="pr"/></l><r>op<s n="pr"/></r></p></e>
     <e><p><l>van<s n="pr"/></l><r>van<s n="pr"/></r></p></e>
@@ -154,7 +166,6 @@
     <e><p><l>onder<s n="pr"/></l><r>onder<s n="pr"/></r></p></e>
     <e><p><l>oor<s n="pr"/></l><r>oor<s n="pr"/></r></p></e>
     <e><p><l>tydens<s n="pr"/></l><r>tijdens<s n="pr"/></r></p></e>
-    <e><p><l>voor<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
     <e><p><l>volgens<s n="pr"/></l><r>volgens<s n="pr"/></r></p></e>
     <e><p><l>vanaf<s n="pr"/></l><r>vanaf<s n="pr"/></r></p></e>
     <e><p><l>toe<s n="pr"/></l><r>toe<s n="pr"/></r></p></e>
@@ -175,7 +186,7 @@
 
     <!-- SECTION: Determiners -->
 
-    <e><p><l>die<s n="det"/></l><r>de<s n="det"/></r></p></e>
+    <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
 
     <!-- SECTION: Getalle -->
 
@@ -1584,13 +1595,14 @@
     <e><p><l>vrywilliger<s n="n"/></l><r>vrijwilliger<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vulkaan<s n="n"/></l><r>vulkaan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vulstasie<s n="n"/></l><r>benzinestation<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>stasie<s n="n"/></l><r>station<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>vurk<s n="n"/></l><r>vork<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vyand<s n="n"/></l><r>vijand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>waarde<s n="n"/></l><r>waarde<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>waardigheid<s n="n"/></l><r>waardigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>waarheid<s n="n"/></l><r>waarheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>waarneming<s n="n"/></l><r>observatie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>waarskuwing<s n="n"/></l><r>waarschuwing<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>waarskuwing<s n="n"/></l><r>waarschuwing<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>waarskynlikheid<s n="n"/></l><r>waarschijnlijkheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>wag<s n="n"/></l><r>wacht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>wang<s n="n"/></l><r>wang<s n="n"/><s n="f"/></r></p></e>
@@ -1642,7 +1654,7 @@
     <e><p><l>woud<s n="n"/></l><r>woud<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wurm<s n="n"/></l><r>worm<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wyn<s n="n"/></l><r>wijn<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>wyser<s n="n"/></l><r>wijzer<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>wyser<s n="n"/></l><r>wijzer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wysie<s n="n"/></l><r>melodie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>yster<s n="n"/></l><r>ijzer<s n="n"/><s n="nt"/></r></p></e>
 
@@ -1786,8 +1798,9 @@
 
     <e><p><l>wees<s n="vbser"/></l><r>zijn<s n="vbser"/></r></p></e>
     <e><p><l>hê<s n="vbhaver"/></l><r>hebben<s n="vbhaver"/></r></p></e>
+    <e><p><l>moet<s n="vbmod"/></l><r>moeten<s n="vbmod"/></r></p></e>
 
-    <e><p><l>vertrek<s n="vblex"/></l><r>vertrekt<s n="vblex"/></r></p></e>
+    <e><p><l>vertrek<s n="vblex"/></l><r>vertrekken<s n="vblex"/></r></p></e>
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
     <e><p><l>weet<s n="vblex"/></l><r>weten<s n="vblex"/></r></p></e>
     <e><p><l>werk<s n="vblex"/></l><r>werken<s n="vblex"/></r></p></e>

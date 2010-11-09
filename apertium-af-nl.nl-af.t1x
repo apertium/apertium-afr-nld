@@ -34,6 +34,7 @@
     <def-cat n="verbnm"><!--verb no modal -->
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
+      <cat-item tags="vbmod.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
     <def-cat n="prep"> <!-- preposition -->

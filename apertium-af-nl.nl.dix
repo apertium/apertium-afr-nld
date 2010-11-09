@@ -2,8 +2,7 @@
 <dictionary>
   <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
 
-  <!-- Symbol definitions -->
-  <!-- -*- nxml -*- --><sdefs>
+  <sdefs>
     <sdef n="n" c="Noun"/>
     <sdef n="m" c="Masculine"/>
     <sdef n="f" c="Feminine"/>
@@ -11,6 +10,7 @@
     <sdef n="mf" c="Masculine-Feminine"/>
     <sdef n="sg" c="Singular"/>
     <sdef n="pl" c="Plural"/>
+    <sdef n="mfn" c="Masculine/feminine/neuter"/>
     <sdef n="prn" c="Pronoun"/>
     <sdef n="pr" c="Preposition"/>
 
@@ -7781,32 +7781,23 @@
       </e>
     </pardef>
 
-    <pardef n="het__det">
+    <pardef n="/de__det">
       <e>
         <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="de__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r>
+          <l>het</l>
+          <r>de<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r>
+          <l>de</l>
+          <r>de<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l/>
-          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="pl"/></r>
+          <l>de</l>
+          <r>de<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -8325,8 +8316,7 @@
 
     <!-- Lidwoorden en geschlacht -->
     <e lm="een"><i>een</i><par n="een__det"/></e>
-    <e lm="het"><i>het</i><par n="het__det"/></e>
-    <e lm="de"><i>de</i><par n="de__det"/></e>
+    <e lm="de"><i></i><par n="/de__det"/></e>
 
     <!-- Voornaamwoorden -->
 

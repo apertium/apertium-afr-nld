@@ -16,7 +16,6 @@
    1700 ^@duits<adj><attr>$
    1616 ^@afrikaans<adj><attr>$
    1559 ^@moontlik<adj><pred>$
-   1538 ^@ou<adj><sint><pred>$
    1471 ^@nasionaal<adj><attr>$
    1370 ^@la<adj><sint><pred>$
    1306 ^@afrikaans<adj><pred>$
@@ -47,7 +46,6 @@
     871 ^@sogenaamd<adj><pred>$
     863 ^@min<adj><sint><pred>$
     863 ^@internasionaal<adj><attr>$
-    859 ^@ou<adj><sint><attr>$
     812 ^@naas<adj><sint><pred>$
     811 ^@huidig<adj><pred>$
     808 ^@britse<adj><pred>$
@@ -300,9 +298,9 @@
     119 ^@geestelik<adj><attr>$
     119 ^@elektronies<adj><attr>$
     119 ^@beperk<adj><attr>$
-    118 ^@wêreld<adj><pred>$
     118 ^@uitsluitlik<adj><pred>$
     118 ^@daagliks<adj><pred>$
+    117 ^@wêreld<adj><pred>$
     117 ^@binne<adj><attr>$
     117 ^@aktief<adj><pred>$
     116 ^@vang<adj><sint><pred>$
@@ -378,8 +376,8 @@
      91 ^@digitaal<adj><attr>$
      90 ^@toeganklik<adj><pred>$
      90 ^@kragtig<adj><sint><pred>$
-     90 ^@agt<adj><sint><pred>$
      89 ^@romaans<adj><attr>$
+     89 ^@agt<adj><sint><pred>$
      88 ^@tersiêr<adj><attr>$
      88 ^@huwelik<adj><pred>$
      88 ^@geel<adj><attr>$
@@ -468,10 +466,10 @@
      67 ^@buite-egtelik<adj><attr>$
      66 ^@vreemd<adj><sint><pred>$
      66 ^@positief<adj><attr>$
-     66 ^@nodig<adj><sint><pred>$
      66 ^@geel<adj><pred>$
      66 ^@gearresteer<adj><pred>$
      65 ^@tydelik<adj><attr>$
+     65 ^@nodig<adj><sint><pred>$
      65 ^@meganies<adj><pred>$
      65 ^@krities<adj><attr>$
      65 ^@insluitend<adj><attr>$
