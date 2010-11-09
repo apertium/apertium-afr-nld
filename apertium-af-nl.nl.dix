@@ -107,7 +107,7 @@
 
     <sdef n="pref" c="Prefix"/>
 
-    <sdef n="loc" c="Location"/>
+    <sdef n="top" c="Location"/>
     <sdef n="per" c="Person"/>
     <sdef n="org" c="Organisation"/>
   </sdefs>
@@ -815,6 +815,16 @@
       <p>
         <l>eden</l>
         <r>id<s n="n"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
+
+
+ <pardef n="Frankrijk__np">
+   <e>
+      <p>
+        <l/>
+        <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r>
       </p>
     </e>
   </pardef>
@@ -8014,7 +8024,7 @@
     <e lm="België"><i>België</i><par n="avondeten__n"/></e>
     <e lm="Nederland"><i>Nederland</i><par n="avondeten__n"/></e>
     <e lm="Duitsland"><i>Duitsland</i><par n="avondeten__n"/></e>
-    <e lm="Frankrijk"><i>Frankrijk</i><par n="avondeten__n"/></e>
+    <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
     <e lm="Nederlands"><i>Nederlands</i><par n="avondeten__n"/></e>
 
 
@@ -8117,7 +8127,6 @@
     <e lm="tot"><i>tot</i><par n="als__cnjsub"/></e>
     <e lm="wanneer"><i>wanneer</i><par n="als__cnjsub"/></e>
     <e lm="voordat"><i>voordat</i><par n="als__cnjsub"/></e>
-    <e lm="zoals"><i>zoals</i><par n="als__cnjsub"/></e>
     <e lm="zodat"><i>zodat</i><par n="als__cnjsub"/></e>
     <e lm="zolang"><i>zolang</i><par n="als__cnjsub"/></e>
     <e lm="zonder dat"><i>zonder dat</i><par n="als__cnjsub"/></e>
@@ -8131,6 +8140,7 @@
     <e lm="intens"><i>intens</i><par n="/intens__adv"/></e>
 
     <e lm="dan"><i>dan</i><par n="graag__adv"/></e>
+    <e lm="zoals"><i>zoals</i><par n="graag__adv"/></e>
     <e lm="graag"><i>graag</i><par n="graag__adv"/></e>
     <e lm="niet"><i>niet</i><par n="graag__adv"/></e>
     <e lm="doch"><i>doch</i><par n="graag__adv"/></e>

@@ -428,6 +428,11 @@
     <e><p><l>vry<s n="n"/></l><r>vrij<s n="n"/><s n="GD"/></r></p></e>
     -->
 
+    <!-- SECTION: Proper names -->
+
+    <e><p><l>Engeland<s n="np"/><s n="top"/></l><r>Engeland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Frankryk<s n="np"/><s n="top"/></l><r>Frankrijk<s n="np"/><s n="top"/></r></p></e>
+
     <!-- SECTION: Adjectives -->
 
     <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
@@ -452,6 +457,7 @@
     <e><p><l>dan<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
     <e><p><l>onder<s n="adv"/></l><r>onder<s n="adv"/></r></p></e>
     <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
+    <e><p><l>soos<s n="adv"/></l><r>zoals<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
