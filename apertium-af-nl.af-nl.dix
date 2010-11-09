@@ -166,7 +166,6 @@
     <e><p><l>dorp<s n="n"/></l><r>dorp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>druif<s n="n"/></l><r>druif<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eeu<s n="n"/></l><r>eeuw<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>eeu<s n="n"/></l><r>eeuw<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eiland<s n="n"/></l><r>eiland<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>feit<s n="n"/></l><r>feit<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>film<s n="n"/></l><r>film<s n="n"/><s n="mf"/></r></p></e>
@@ -220,8 +219,26 @@
     <e><p><l>punt<s n="n"/></l><r>punt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>reeks<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>rock-groep<s n="n"/></l><r>rock-groep<s n="n"/><s n="mf"/></r></p></e>
+
+    <e><p><l>bevolkingsgroep<s n="n"/></l><r>bevolkingsgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>bloedgroep<s n="n"/></l><r>bloedgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>eilandgroep<s n="n"/></l><r>eilanengroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>groepering<s n="n"/></l><r>groepering<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>jeuggroep<s n="n"/></l><r>jeuggroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kultuurgroep<s n="n"/></l><r>kultuurgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>mediagroep<s n="n"/></l><r>mediagroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>minderheidsgroep<s n="n"/></l><r>minderheidsgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>musiekgroep<s n="n"/></l><r>muziekgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>ouderdomsgroep<s n="n"/></l><r>leeftijdsgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>popgroep<s n="n"/></l><r>popgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>rock-groep<s n="n"/></l><r>rock-groep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>stamgroep<s n="n"/></l><r>stamgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>subgroep<s n="n"/></l><r>subgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>taalgroep<s n="n"/></l><r>taalgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>terroristegroep<s n="n"/></l><r>terroristegroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>toneelgroep<s n="n"/></l><r>toneelgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>werkgroep<s n="n"/></l><r>werkgroep<s n="n"/><s n="mf"/></r></p></e>
+
     <e><p><l>rolprent<s n="n"/></l><r>film<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>seisoen<s n="n"/></l><r>seizoen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>september<s n="n"/></l><r>september<s n="n"/><s n="nt"/></r></p></e>
