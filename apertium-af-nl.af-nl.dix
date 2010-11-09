@@ -187,6 +187,7 @@
     <!-- SECTION: Determiners -->
 
     <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
+    <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="die_de"/></e>
 
     <!-- SECTION: Getalle -->
 
@@ -1771,6 +1772,7 @@
     <!-- SECTION: Adjectives -->
 
     <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>groot<s n="adj"/><s n="sint"/></l><r>groot<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -1804,6 +1806,7 @@
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
     <e><p><l>weet<s n="vblex"/></l><r>weten<s n="vblex"/></r></p></e>
     <e><p><l>werk<s n="vblex"/></l><r>werken<s n="vblex"/></r></p></e>
+    <e><p><l>kyk<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
     
     <!-- SECTION: Punctuation -->
 
