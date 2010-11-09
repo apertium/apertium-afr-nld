@@ -3138,6 +3138,7 @@
     <e lm="ken"><par n="P__pr"/><par n="P__ge"/><i>ken</i><par n="breek__vblex"/></e>
     <e lm="bou"><par n="P__pr"/><par n="P__ge"/><i>bou</i><par n="breek__vblex"/></e>
     <e lm="sterf"><par n="P__pr"/><par n="P__ge"/><i>sterf</i><par n="breek__vblex"/></e>
+    <e lm="vertrek"><i>vertrek</i><par n="breek__vblex"/></e>
     <e lm="trek"><par n="P__pr"/><par n="P__ge"/><i>trek</i><par n="breek__vblex"/></e>
     <e lm="tref"><par n="P__pr"/><par n="P__ge"/><i>tref</i><par n="breek__vblex"/></e>
     <e lm="bied"><par n="P__pr"/><par n="P__ge"/><i>bied</i><par n="breek__vblex"/></e><!-- bied = to 'offer' or 'propose' -->
