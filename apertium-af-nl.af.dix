@@ -275,13 +275,13 @@
     </pardef>
 
     <pardef n="konfidensi/eel__adj">
-      <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="pos"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
+      <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
 
     <pardef n="ha/ar__adj">
-      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="pos"/><s n="attr"/></r></p></e>
-      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
 
     <pardef n="ons__adj">
@@ -974,8 +974,8 @@
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="Amnesty_International__np">
-      <e>       <p><l/><r><s n="np"/><s n="org"/><s n="sg"/></r></p></e>
+    <pardef n="Wikipedia__np">
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="Engeland__np">
@@ -1471,7 +1471,7 @@
     <e lm="tensy"><i>tensy</i><par n="want__cnjadv"/></e>
     <e lm="waarmee"><i>waarmee</i><par n="want__cnjadv"/></e><!-- wherewith, with which -->
 
-    <e lm="as"><i>as</i><par n="want__cnjadv"/></e>
+    <e lm="as"><i>as</i><par n="dat__cnjsub"/></e>
 
     <e lm="as"><i>as</i><par n="taamlik__preadv"/></e>
 
@@ -2809,7 +2809,7 @@
     <e lm="Kaap Verde"><i>Kaap<b/>Verde</i><par n="Engeland__np"/></e>
     <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Engeland__np"/></e>
     <e lm="Sentraal-Afrikaanse Republiek"><i>Sentraal-Afrikaanse<b/>Republiek</i><par n="Engeland__np"/></e>
-    <e lm="Demokratiese Republiek van die Kongo"><i>Demokratiese<b/>Republiek<b/>van<b/>die<b/>Kongo</i><par n="Engeland__np"/></e>
+    <!--<e lm="Demokratiese Republiek van die Kongo"><i>Demokratiese<b/>Republiek<b/>van<b/>die<b/>Kongo</i><par n="Engeland__np"/></e>-->
     <e lm="Dominikaanse Republiek"><i>Dominikaanse<b/>Republiek</i><par n="Engeland__np"/></e>
     <e lm="Oos-Timor"><i>Oos-Timor</i><par n="Engeland__np"/></e>
     <e lm="Ekwatoriaal-Guinee"><i>Ekwatoriaal-Guinee</i><par n="Engeland__np"/></e>
@@ -3010,7 +3010,7 @@
     <e lm="Chukchisee"><i>Chukchisee</i><par n="Engeland__np"/></e>
     <e lm="Davisstraat"><i>Davisstraat</i><par n="Engeland__np"/></e>
     <e lm="Deense straat"><i>Deense<b/>straat</i><par n="Engeland__np"/></e>
-    <e lm="Eiland Man"><i>Eiland<b/>Man</i><par n="Engeland__np"/></e>
+    <!--<e lm="Eiland Man"><i>Eiland<b/>Man</i><par n="Engeland__np"/></e>-->
     <e lm="Epirus"><i>Epirus</i><par n="Engeland__np"/></e>
     <e lm="Groenlandsees"><i>Groenlandsees</i><par n="Engeland__np"/></e>
     <e lm="Hudsonbaai"><i>Hudsonbaai</i><par n="Engeland__np"/></e>
@@ -3050,12 +3050,12 @@
 
     <e lm="VN"><i>VN</i><par n="DNA__n"/></e>
 
-    <e lm="Jan"><i>Jan</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
 
     <!-- Nombres proprios: Organisations -->
 
-    <e lm="Amnesty International"><i>Amnesty<b/>International</i><par n="Amnesty_International__np"/></e> 
-    <e lm="Wikipedia"><i>Wikipedia</i><par n="Amnesty_International__np"/></e><!-- something different maybe ? -->
+    <e lm="Amnesty International"><i>Amnesty<b/>International</i><par n="Wikipedia__np"/></e> 
+    <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e><!-- something different maybe ? -->
 
 
     <!-- Verbs -->
@@ -4291,14 +4291,13 @@
     <e lm="Golf van Bothnië"><i>Golf<b/>van<b/>Bothnië</i><par n="Engeland__np"/></e>
     <e lm="Donau"><i>Donau</i><par n="Engeland__np"/></e>
     <e lm="Pruise"><i>Pruise</i><par n="Engeland__np"/></e>
-    <e lm="Pieter"><i>Pieter</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Pieter I"><i>Pieter<b/>I</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
     <e lm="Oeralgebergtes"><i>Oeralgebergtes</i><par n="Engeland__np"/></e>
     <e lm="steppe"><i>steppe</i><par n="Afrikaans__n"/></e>
     <e lm="Varangerfjord"><i>Varangerfjord</i><par n="Engeland__np"/></e>
     <e lm="Galisië"><i>Galisië</i><par n="Engeland__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
-    <e lm="Peter"><i>Peter</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
     <e lm="Azow"><i>Azow</i><par n="Engeland__np"/></e>
 
@@ -4976,16 +4975,16 @@
     <e lm="Portugal"><i>Portugal</i><par n="Engeland__np"/></e>
     <e lm="Suid-Amerika"><i>Suid-Amerika</i><par n="Engeland__np"/></e>
     <e lm="Genesis"><i>Genesis</i><par n="Engeland__np"/></e>
-    <e lm="Stephen"><i>Stephen</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Hezbollah"><i>Hezbollah</i><par n="Amnesty_International__np"/></e>
+    <e lm="Stephen"><i>Stephen</i><par n="Wynand__np"/></e>
+    <e lm="Hezbollah"><i>Hezbollah</i><par n="Wikipedia__np"/></e>
     <e lm="Golf van Meksiko"><i>Golf<b/>van<b/>Meksiko</i><par n="Engeland__np"/></e>
-    <e lm="Jesus"><i>Jesus</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
     <e lm="Mercurius"><i>Mercurius</i><par n="Engeland__np"/></e>
-    <e lm="Verenigde Koninkryk van Groot-Brittanje en Noord-Ierland"><i>Verenigde<b/>Koninkryk<b/>van<b/>Groot-Brittanje<b/>en<b/>Noord-Ierland</i><par n="Engeland__np"/></e>
-    <e lm="IAWK"><i>IAWK</i><par n="Amnesty_International__np"/></e>
-    <e lm="NATO"><i>NATO</i><par n="Amnesty_International__np"/></e>
-    <e lm="Linux"><i>Linux</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Javascript"><i>Javascript</i><par n="van_der_Merwe__np"/></e>
+    <!--<e lm="Verenigde Koninkryk van Groot-Brittanje en Noord-Ierland"><i>Verenigde<b/>Koninkryk<b/>van<b/>Groot-Brittanje<b/>en<b/>Noord-Ierland</i><par n="Engeland__np"/></e>-->
+    <e lm="IAWK"><i>IAWK</i><par n="Wikipedia__np"/></e>
+    <e lm="NATO"><i>NATO</i><par n="Wikipedia__np"/></e>
+    <e lm="Linux"><i>Linux</i><par n="Wikipedia__np"/></e>
+    <e lm="Javascript"><i>Javascript</i><par n="Wikipedia__np"/></e>
 
 
     <!-- /Winterstream -->
@@ -6620,7 +6619,6 @@
     <e lm="wonderlik"><i>wonderlik</i><par n="maklik__adj"/></e>
 
     <e lm="persoonlik"><i>persoonlik</i><par n="maklik__adj"/></e>
-    <e lm="gewild"><i>gewild</i><par n="maklik__adj"/></e>
     <e lm="interessant"><i>interessant</i><par n="maklik__adj"/></e>
     <e lm="ernstig"><i>ernstig</i><par n="maklik__adj"/></e>
     <e lm="verantwoordelik"><i>verantwoordelik</i><par n="maklik__adj"/></e>
@@ -6685,7 +6683,6 @@
     <e lm="giftig"><i>giftig</i><par n="maklik__adj"/></e>
     <e lm="gou"><i>gou</i><par n="maklik__adj"/></e>
     <e lm="gretig"><i>gretig</i><par n="maklik__adj"/></e>
-    <e lm="groen"><i>groen</i><par n="maklik__adj"/></e>
     <e lm="hard"><i>hard</i><par n="maklik__adj"/></e>
     <e lm="heilig"><i>heilig</i><par n="maklik__adj"/></e>
 <!--    <e lm="hel"><i>hel</i><par n="maklik__adj"/></e> --><!-- check this -->
@@ -6713,7 +6710,7 @@
     <e lm="ongewild"><i>ongewild</i><par n="maklik__adj"/></e>
     <e lm="onsinnig"><i>onsinnig</i><par n="maklik__adj"/></e>
     <e lm="opwindend"><i>opwindend</i><par n="maklik__adj"/></e>
-    <e lm="oud"><i>oud</i><par n="maklik__adj"/></e>
+    <!--<e lm="oud"><i>oud</i><par n="maklik__adj"/></e>-->
     <e lm="pragtig"><i>pragtig</i><par n="maklik__adj"/></e>
     <e lm="rampspoedig"><i>rampspoedig</i><par n="maklik__adj"/></e>
     <e lm="raserig"><i>raserig</i><par n="maklik__adj"/></e>
@@ -7120,7 +7117,6 @@
     <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
     <e lm="lewend"><i>lewend</i><par n="dadelik__adj"/></e>
-    <e lm="vurig"><i>vurig</i><par n="dadelik__adj"/></e>
     <e lm="verskillend"><i>verskillend</i><par n="dadelik__adj"/></e>
     <e lm="noord"><i>noord</i><par n="dadelik__adj"/></e> 
     <e lm="suid"><i>suid</i><par n="dadelik__adj"/></e> 
@@ -7160,7 +7156,6 @@
     <e lm="wêreldwyd"><i>wêreldwy</i><par n="wy/d__adj"/></e>
 
     <e lm="onvoltooid"><i>onvoltooid</i><par n="dadelik__adj"/></e>
-    <e lm="gewild"><i>gewild</i><par n="dadelik__adj"/></e>
     <e lm="territoriaal"><i>territoria</i><par n="voka/al__adj"/></e>
     <e lm="heftig"><i>heftig</i><par n="dadelik__adj"/></e>
     <e lm="breed"><i>bre</i><par n="bre/ed__adj"/></e>
