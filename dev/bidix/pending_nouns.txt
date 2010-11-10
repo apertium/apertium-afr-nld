@@ -1,21 +1,23 @@
    2793 ^@franse<n>$
-   1819 ^@dood<n><unc>$
+   1960 ^@mag<n>$
+   1814 ^@dood<n><unc>$
    1707 ^@ontstaan<n>$
    1512 ^@km<n><acr>$
    1471 ^@inwoner<n>$
    1468 ^@persent<n><unc>$
-   1438 ^@ryk<n>$
+   1435 ^@ryk<n>$
    1408 ^@gemeente<n>$
-   1216 ^@mag<n>$
    1190 ^@vlag<n>$
    1135 ^@m<n><acr>$
+   1040 ^@bestaan<n>$
    1032 ^@engels<n>$
+   1004 ^@besluit<n>$
     954 ^@afrikaans<n>$
     944 ^@opsig<n>$
     910 ^@beweging<n>$
     898 ^@ooste<n><unc>$
     896 ^@sentrum<n>$
-    881 ^@noorde<n><unc>$
+    880 ^@noorde<n><unc>$
     853 ^@veroorsaak<n>$
     816 ^@minister<n>$
     811 ^@suide<n><unc>$
@@ -41,23 +43,22 @@
     510 ^@res<n>$
     508 ^@status<n>$
     489 ^@studie<n>$
-    487 ^@besluit<n>$
     482 ^@duits<n>$
     481 ^@verhouding<n>$
     478 ^@orde<n><unc>$
     478 ^@idee<n>$
     471 ^@grondwet<n>$
-    470 ^@groei<n><unc>$
+    471 ^@groei<n><unc>$
     458 ^@siekte<n>$
     453 ^@lewer<n>$
+    452 ^@besoek<n>$
     448 ^@setlaar<n>$
     417 ^@verandering<n>$
     414 ^@r<n><acr>$
     413 ^@graad<n>$
-    399 ^@goud<n><unc>$
     398 ^@vasteland<n>$
     398 ^@kasteel<n>$
-    385 ^@bestaan<n>$
+    395 ^@goud<n><unc>$
     381 ^@vloei<n>$
     377 ^@data<n>$
     374 ^@metaal<n>$
@@ -69,7 +70,7 @@
     356 ^@alfabet<n>$
     355 ^@versameling<n>$
     354 ^@tsaar<n>$
-    342 ^@steun<n><unc>$
+    343 ^@steun<n><unc>$
     339 ^@filosofie<n>$
     334 ^@honderd<n>$
     333 ^@natuur<n>$
@@ -78,7 +79,7 @@
     330 ^@reël<n>$
     330 ^@kompetisie<n>$
     329 ^@gesag<n><unc>$
-    328 ^@wetenskaplike<n>$
+    327 ^@wetenskaplike<n>$
     327 ^@toekenning<n>$
     323 ^@eer<n>$
     320 ^@vlakte<n>$
@@ -91,35 +92,35 @@
     297 ^@media<n>$
     295 ^@geheel<n>$
     288 ^@reaksie<n>$
-    287 ^@hulp<n>$
+    288 ^@hulp<n>$
     286 ^@sektor<n>$
-    284 ^@net<n>$
+    285 ^@net<n>$
+    281 ^@rooi<n>$
     281 ^@internet<n><unc>$
     277 ^@vriend<n>$
     275 ^@samelewing<n>$
     274 ^@produksie<n>$
-    273 ^@rooi<n>$
     272 ^@uitgawe<n>$
     270 ^@suidwes<n><unc>$
     268 ^@stap<n>$
     268 ^@kandidaat<n>$
+    266 ^@huwelik<n>$
     264 ^@departement<n>$
     264 ^@belangstelling<n>$
-    262 ^@huwelik<n>$
     259 ^@vervaardiging<n>$
     259 ^@toets<n>$
     254 ^@sagteware<n><unc>$
     254 ^@formeel<n>$
     253 ^@politiek<n>$
     250 ^@voorkoms<n>$
-    249 ^@besoek<n>$
     247 ^@vertaling<n>$
     246 ^@noordwes<n><unc>$
     244 ^@veldtog<n>$
     242 ^@sokkerafdeling<n>$
-    240 ^@kern<n>$
     240 ^@bybel<n>$
+    239 ^@kern<n>$
     235 ^@oprigting<n>$
+    233 ^@verhoog<n>$
     231 ^@gebrek<n><unc>$
     229 ^@ondersteuning<n>$
     228 ^@samewerking<n>$
@@ -134,14 +135,15 @@
     215 ^@groen<n>$
     214 ^@geskenk<n>$
     210 ^@vryheidsoorlog<n>$
-    210 ^@publiek<n><unc>$
     210 ^@hout<n>$
+    209 ^@publiek<n><unc>$
+    209 ^@pos<n>$
     209 ^@letterkunde<n><unc>$
     208 ^@skade<n><unc>$
-    208 ^@pos<n>$
     208 ^@legende<n>$
     204 ^@organisme<n>$
     202 ^@bloed<n><unc>$
+    200 ^@verminder<n>$
     198 ^@mars<n>$
     197 ^@individu<n>$
     196 ^@toerisme<n><unc>$
@@ -261,6 +263,7 @@
     109 ^@personeel<n>$
     107 ^@waterstof<n><unc>$
     107 ^@kolonis<n>$
+    105 ^@omring<n>$
     105 ^@gemiddeld<n>$
     104 ^@sneeuval<n>$
     104 ^@siening<n>$
@@ -277,6 +280,7 @@
      99 ^@omwenteling<n>$
      99 ^@inflasie<n>$
      99 ^@eet<n>$
+     97 ^@vergroot<n>$
      97 ^@heuning<n>$
      96 ^@klerk<n>$
      96 ^@aanduiding<n>$
@@ -304,11 +308,11 @@
      85 ^@sone<n>$
      85 ^@minimum<n>$
      85 ^@brein<n>$
+     84 ^@vee<n>$
      84 ^@sentrale<n>$
      84 ^@reformasie<n>$
      84 ^@horing<n>$
      84 ^@gereedskap<n>$
-     83 ^@vee<n>$
      83 ^@vakgebied<n>$
      83 ^@uraan<n><unc>$
      83 ^@lidstaat<n>$
@@ -359,6 +363,7 @@
      71 ^@lesing<n>$
      71 ^@aanbod<n>$
      70 ^@stadstaat<n>$
+     70 ^@koue<n><unc>$
      70 ^@bas<n>$
      69 ^@verteenwoordiging<n>$
      69 ^@trop<n>$
@@ -366,7 +371,6 @@
      69 ^@oggend<n>$
      69 ^@monopolie<n>$
      69 ^@missie<n>$
-     69 ^@koue<n><unc>$
      69 ^@kerstening<n>$
      68 ^@voorstelling<n>$
      68 ^@sterrekunde<n><unc>$
@@ -381,7 +385,6 @@
      67 ^@hoofkantoor<n>$
      67 ^@hek<n>$
      66 ^@verligting<n>$
-     66 ^@verhoog<n>$
      66 ^@rys<n>$
      66 ^@inspirasie<n>$
      65 ^@migrasie<n>$
@@ -450,7 +453,6 @@
      56 ^@waai<n>$
      56 ^@visie<n>$
      56 ^@nabyheid<n>$
-     56 ^@ideaal<n>$
      56 ^@geneeskundige<n>$
      56 ^@entiteit<n>$
      56 ^@bekendstelling<n>$
@@ -458,6 +460,7 @@
      55 ^@regstelsel<n>$
      55 ^@platinum<n><unc>$
      55 ^@kamera<n>$
+     55 ^@ideaal<n>$
      55 ^@bevryding<n>$
      54 ^@voortplanting<n>$
      54 ^@swerm<n>$
@@ -622,6 +625,7 @@
      38 ^@agent<n>$
      37 ^@woonplek<n>$
      37 ^@verkryging<n>$
+     37 ^@vergeet<n>$
      37 ^@spoorwegstasie<n>$
      37 ^@sakekern<n>$
      37 ^@palladium<n><unc>$
@@ -692,6 +696,7 @@
      30 ^@sertifikaat<n>$
      30 ^@protestantisme<n><unc>$
      30 ^@prioriteit<n>$
+     30 ^@miljoen<n>$
      30 ^@marxisme<n><unc>$
      30 ^@litium<n><unc>$
      30 ^@krokodil<n>$
@@ -751,7 +756,6 @@
      26 ^@tiemie<n>$
      26 ^@skedule<n>$
      26 ^@plegtigheid<n>$
-     26 ^@miljoen<n>$
      26 ^@metabolisme<n><unc>$
      26 ^@lugbesoedeling<n>$
      26 ^@korridor<n>$
@@ -788,11 +792,11 @@
      24 ^@biodiversiteit<n><unc>$
      24 ^@aardoppervlak<n>$
      24 ^@aantreklikheid<n>$
-     23 ^@verminder<n>$
      23 ^@vashou<n>$
      23 ^@terrorisme<n><unc>$
      23 ^@sediment<n>$
      23 ^@pariteit<n>$
+     23 ^@onthoof<n>$
      23 ^@materialisme<n><unc>$
      23 ^@magnaat<n>$
      23 ^@lojaliteit<n>$
@@ -829,7 +833,6 @@
      21 ^@waterbron<n>$
      21 ^@vermenigvuldiging<n>$
      21 ^@verhuising<n>$
-     21 ^@vergroot<n>$
      21 ^@url<n><acr>$
      21 ^@toilet<n>$
      21 ^@terroris<n>$
@@ -886,7 +889,6 @@
      19 ^@bombardement<n>$
      19 ^@barium<n><unc>$
      19 ^@aansoek<n>$
-     18 ^@vergeet<n>$
      18 ^@taalgemeenskap<n>$
      18 ^@sterftesyfer<n>$
      18 ^@silver<n><unc>$
@@ -923,7 +925,6 @@
      16 ^@skuilplek<n>$
      16 ^@reorganisasie<n>$
      16 ^@ontvoering<n>$
-     16 ^@omring<n>$
      16 ^@mistisisme<n><unc>$
      16 ^@mistikus<n>$
      16 ^@landgenoot<n>$
@@ -1326,7 +1327,6 @@
       5 ^@outokraat<n>$
       5 ^@opsegging<n>$
       5 ^@oorspronklikheid<n>$
-      5 ^@onthoof<n>$
       5 ^@nuusdiens<n>$
       5 ^@naamlys<n>$
       5 ^@muntstelsel<n>$
@@ -1356,6 +1356,7 @@
       5 ^@eksargaat<n>$
       5 ^@brughoof<n>$
       5 ^@besorgdheid<n>$
+      5 ^@berou<n>$
       5 ^@bankstelsel<n>$
       5 ^@bagasie<n>$
       5 ^@aanpasbaarheid<n>$
@@ -1425,7 +1426,6 @@
       4 ^@dualisme<n><unc>$
       4 ^@bloedverwantskap<n>$
       4 ^@besoldiging<n>$
-      4 ^@berou<n>$
       4 ^@bereidwilligheid<n>$
       4 ^@beheptheid<n>$
       4 ^@bedrewenheid<n>$

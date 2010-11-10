@@ -1,524 +1,116 @@
-  73651 hê<vblex><inf>/hê<vbhaver><inf>
-  35595 word<vblex><inf>
-   5946 maak<vblex><inf>
-   5214 neem<vblex><inf>
-   5207 bied<vblex><inf>
-   4517 kom<vblex><inf>
-   4119 laat<vblex><inf>
-   3962 stel<vblex><inf>
-   3934 sien<vblex><inf>
-   3260 staan<vblex><inf>
-   3096 wys<vblex><inf>
-   3091 bou<vblex><inf>
-   2887 volg<vblex><inf>
    2792 stig<vblex><inf>
-   2787 bestaan<vblex><uns><inf>
-   2751 kry<vblex><inf>
-   2691 voer<vblex><inf>
-   2690 val<vblex><inf>
-   2619 lei<vblex><inf>
-   2531 hou<vblex><inf>
-   2450 gee<vblex><inf>
-   2400 gaan<vblex><inf>
-   2285 dien<vblex><inf>
-   2274 noem<vblex><inf>
-   2173 speel<vblex><inf>
-   2171 beskou<vblex><uns><inf>
-   2142 gebruik<vblex><inf>
    2048 bly<vblex><inf>
-   2027 ontwikkel<vblex><uns><inf>
-   1966 deel<vblex><inf>
-   1913 skryf<vblex><inf>
    1792 rig<vblex><inf>
-   1780 baar<vblex><inf>
-   1679 vorm<vblex><inf>
-   1619 vind<vblex><inf>
-   1539 bring<vblex><inf>
-   1449 trek<vblex><inf>
-   1322 beteken<vblex><uns><inf>
-   1306 verander<vblex><uns><inf>
-   1285 loop<vblex><inf>
-   1226 skep<vblex><inf>
-   1220 bereik<vblex><uns><inf>
-   1201 vestig<vblex><inf>
-   1168 soek<vblex><inf>
-   1161 dra<vblex><inf>
    1155 tree<vblex><inf>
-   1142 koop<vblex><inf>
-   1127 raak<vblex><inf>
-   1081 bevat<vblex><uns><inf>
-   1078 keer<vblex><inf>
-   1070 druk<vblex><inf>
-   1053 stuur<vblex><inf>
-    955 beskik<vblex><uns><inf>
-    949 breek<vblex><inf>
     943 dui<vblex><inf>
-    936 beheer<vblex><uns><inf>
-    933 woon<vblex><inf>
-    926 ontvang<vblex><uns><inf>
-    918 toon<vblex><inf>
-    918 sterf<vblex><inf>
-    917 plaas<vblex><inf>
-    894 beskryf<vblex><uns><inf>
-    885 ken<vblex><inf>
-    873 verskyn<vblex><uns><inf>
-    865 verklaar<vblex><uns><inf>
-    845 tref<vblex><inf>
-    844 verbind<vblex><uns><inf>
-    828 lyk<vblex><inf>
-    805 verkies<vblex><uns><inf>
-    805 probeer<vblex><inf>
-    796 aanvaar<vblex><inf>
-    792 glo<vblex><inf>
-    791 vervang<vblex><uns><inf>
-    782 besluit<vblex><uns><inf>
-    750 skei<vblex><inf>
-    742 sê<vblex><inf>
-    735 haal<vblex><inf>
-    730 regeer<vblex><inf>
-    726 verloor<vblex><uns><inf>
-    716 help<vblex><inf>
-    713 vaardig<vblex><inf>
-    700 kenmerk<vblex><inf>
-    696 kies<vblex><inf>
-    671 strek<vblex><inf>
-    670 bepaal<vblex><uns><inf>
-    667 ontdek<vblex><uns><inf>
-    656 betrokke<vblex><uns><inf>
-    639 brei<vblex><inf>
-    624 teken<vblex><inf>
-    618 sit<vblex><inf>
-    601 behaal<vblex><uns><inf>
-    587 pas<vblex><inf>
-    574 slaag<vblex><inf>
-    573 beweeg<vblex><uns><inf>
-    571 verower<vblex><uns><inf>
-    571 groei<vblex><inf>
-    571 bevorder<vblex><uns><inf>
-    569 trou<vblex><inf>
+    861 bestaan<vblex><inf>
+    571 verower<vblex><inf>
     567 publiseer<vblex><inf>
-    553 beperk<vblex><uns><inf>
-    550 smelt<vblex><inf>
-    544 verskaf<vblex><uns><inf>
-    542 bewaar<vblex><uns><inf>
-    525 vul<vblex><inf>
-    512 vertaal<vblex><uns><inf>
-    511 verwerf<vblex><uns><inf>
-    500 dryf<vblex><inf>
-    493 oorheers<vblex><uns><inf>
-    493 besit<vblex><uns><inf>
-    476 vlug<vblex><inf>
-    476 geniet<vblex><inf>
-    471 baseer<vblex><inf>
-    467 herstel<vblex><uns><inf>
-    461 verslaan<vblex><uns><inf>
-    460 beskerm<vblex><uns><inf>
-    459 spreek<vblex><inf>
-    456 setel<vblex><inf>
-    445 veg<vblex><inf>
-    441 behoort<vaux><inf>/behoort<vblex><uns><inf>
+    544 verskaf<vblex><inf>
+    461 verslaan<vblex><inf>
     435 vra<vblex><inf>
-    434 versprei<vblex><uns><inf>
-    424 los<vblex><inf>
-    423 verseker<vblex><uns><inf>
-    414 studeer<vblex><inf>
-    404 roep<vblex><inf>
-    404 beweer<vblex><uns><inf>
-    402 behels<vblex><uns><inf>
-    398 voeg<vblex><inf>
-    397 verwyder<vblex><uns><inf>
-    396 lok<vblex><inf>
-    395 vermoor<vblex><uns><inf>
-    391 loof<vblex><inf>
-    386 nodig<vblex><inf>
-    378 open<vblex><inf>
-    371 ondersteun<vblex><inf>
-    362 bevestig<vblex><uns><inf>
-    344 voel<vblex><inf>
-    342 lees<vblex><inf>
-    342 beset<vblex><uns><inf>
-    340 besoek<vblex><uns><inf>
-    339 behou<vblex><uns><inf>
-    335 verbeter<vblex><uns><inf>
-    331 beslaan<vblex><uns><inf>
-    322 styg<vblex><inf>
-    322 steun<vblex><inf>
+    402 behels<vblex><inf>
+    342 beset<vblex><inf>
+    331 beslaan<vblex><inf>
     322 ag<vblex><inf>
-    321 verleen<vblex><uns><inf>
-    319 vernietig<vblex><uns><inf>
-    311 wend<vblex><inf>
-    311 skuif<vblex><inf>
-    311 kondig<vblex><inf>
-    309 weier<vblex><inf>
-    309 bestuur<vblex><uns><inf>
-    308 ontbind<vblex><uns><inf>
-    307 verminder<vblex><uns><inf>
-    306 beloop<vblex><uns><inf>
-    302 verskuif<vblex><uns><inf>
-    299 dring<vblex><inf>
-    298 gebeur<vblex><inf>
-    286 betaal<vblex><uns><inf>
-    284 versterk<vblex><uns><inf>
-    284 dink<vblex><inf>
-    282 behandel<vblex><uns><inf>
-    281 bedien<vblex><uns><inf>
-    278 verhoog<vblex><uns><inf>
-    277 hoor<vblex><inf>
-    276 reken<vblex><inf>
-    274 bewoon<vblex><uns><inf>
-    273 benodig<vblex><uns><inf>
-    270 verhuis<vblex><uns><inf>
-    270 stoor<vblex><inf>
     266 rand<vblex><inf>
-    265 bestudeer<vblex><uns><inf>
-    261 daal<vblex><inf>
-    260 ontmoet<vblex><uns><inf>
-    249 meet<vblex><inf>
-    248 land<vblex><inf>
-    247 beplan<vblex><uns><inf>
-    245 beklee<vblex><uns><inf>
-    239 benoem<vblex><uns><inf>
-    235 sing<vblex><inf>
-    234 organiseer<vblex><inf>
-    232 mik<vblex><inf>
-    230 bedek<vblex><uns><inf>
-    229 uitgereik<vblex><uns><inf>
+    247 beplan<vblex><inf>
+    229 uitgereik<vblex><inf>
     229 ry<vblex><inf>
-    228 leef<vblex><inf>
-    225 hanteer<vblex><inf>
-    224 leer<vblex><inf>
     223 lys<vblex><inf>
-    221 wysig<vblex><inf>
-    221 red<vblex><inf>
-    220 vertel<vblex><uns><inf>
-    220 omring<vblex><uns><inf>
-    219 besef<vblex><uns><inf>
-    217 verdwyn<vblex><uns><inf>
-    217 begrens<vblex><uns><inf>
-    216 vereis<vblex><uns><inf>
-    208 gooi<vblex><inf>
-    201 sorg<vblex><inf>
-    200 verwerp<vblex><uns><inf>
-    200 reis<vblex><inf>
-    199 nader<vblex><inf>
-    197 vuur<vblex><inf>
-    197 vier<vblex><inf>
-    197 verhoed<vblex><uns><inf>
-    195 bedoel<vblex><uns><inf>
-    194 grond<vblex><inf>
-    192 tel<vblex><inf>
-    191 vereer<vblex><uns><inf>
-    190 verwag<vblex><uns><inf>
-    190 bevind<vblex><uns><inf>
-    189 beëindig<vblex><uns><inf>
-    188 eindig<vblex><inf>
-    187 verban<vblex><uns><inf>
-    187 bedank<vblex><uns><inf>
+    197 verhoed<vblex><inf>
+    192 grond<vblex><inf>
+    190 verwag<vblex><inf>
     186 klassifiseer<vblex><inf>
-    186 berei<vblex><inf>/berei<vblex><uns><inf>
+    186 berei<vblex><inf>
     185 slaan<vblex><inf>
-    182 bespreek<vblex><uns><inf>
-    177 loods<vblex><inf>
-    174 meen<vblex><inf>
-    171 vergroot<vblex><uns><inf>
-    170 onttrek<vblex><uns><inf>
-    169 sny<vblex><inf>
-    168 moedig<vblex><inf>
     168 kwalifiseer<vblex><inf>
-    166 bekom<vblex><uns><inf>
-    164 vat<vblex><inf>
-    164 ontsnap<vblex><uns><inf>
-    163 vermy<vblex><uns><inf>
-    162 steek<vblex><inf>
-    162 begin<vblex><inf>
-    161 doop<vblex><inf>
-    160 hang<vblex><inf>
-    155 wyk<vblex><inf>
-    155 ontgin<vblex><uns><inf>
+    163 vermy<vblex><inf>
     155 lewe<vblex><inf>
-    149 pak<vblex><inf>
-    148 verdedig<vblex><uns><inf>
-    147 bedreig<vblex><uns><inf>
-    145 herdoop<vblex><uns><inf>
-    142 laai<vblex><inf>
     141 skiet<vblex><inf>
-    140 beskadig<vblex><uns><inf>
-    139 neig<vblex><inf>
-    139 meld<vblex><inf>
     138 rus<vblex><inf>
-    138 bereken<vblex><uns><inf>
-    137 weeg<vblex><inf>
-    136 versamel<vblex><uns><inf>
     133 fokus<vblex><inf>
-    131 vlieg<vblex><inf>
     128 nooi<vblex><inf>
-    128 bevry<vblex><uns><inf>
-    126 verplig<vblex><uns><inf>
-    126 beoefen<vblex><uns><inf>
-    125 veroordeel<vblex><uns><inf>
-    125 koppel<vblex><inf>
-    123 naam<vblex><inf>
-    121 heers<vblex><inf>
-    120 besorg<vblex><uns><inf>
-    119 spring<vblex><inf>
-    119 betref<vblex><uns><inf>
-    119 beskuldig<vblex><uns><inf>
-    118 ontleen<vblex><uns><inf>
-    118 draai<vblex><inf>
-    116 benut<vblex><uns><inf>
-    115 versier<vblex><uns><inf>
-    115 hardloop<vblex><inf>
-    113 vergader<vblex><uns><inf>
-    112 plant<vblex><inf>
+    126 verplig<vblex><inf>
+    116 benut<vblex><inf>
     111 kombineer<vblex><inf>
-    109 verswak<vblex><uns><inf>
-    109 berus<vblex><uns><inf>
-    108 beveel<vblex><uns><inf>
-    106 vertolk<vblex><uns><inf>
-    106 onthou<vblex><uns><inf>
     106 noodsaak<vblex><inf>
-    106 beklemtoon<vblex><uns><inf>
-    105 verset<vblex><uns><inf>
+    105 verset<vblex><inf>
     105 swem<vblex><inf>
     104 storm<vblex><inf>
     104 registreer<vblex><inf>
-    103 plunder<vblex><inf>
-    103 meng<vblex><inf>
-    103 herinner<vblex><uns><inf>
     102 broei<vblex><inf>
-    101 verniel<vblex><uns><inf>
-    100 verbrand<vblex><uns><inf>
-     99 hoop<vblex><inf>
-     98 vorder<vblex><inf>
-     98 daag<vblex><inf>
      96 identifiseer<vblex><inf>
-     96 bekroon<vblex><uns><inf>
-     95 oefen<vblex><inf>
-     95 eet<vblex><inf>
      94 simboliseer<vblex><inf>
      94 reël<vblex><inf>
-     92 verwar<vblex><uns><inf>
-     92 herwin<vblex><uns><inf>
-     91 voorspel<vblex><uns><inf>
-     91 stop<vblex><inf>
-     89 herhaal<vblex><uns><inf>
-     89 beraam<vblex><uns><inf>
-     88 behoue<vblex><uns><inf>
-     87 vermoed<vblex><uns><inf>
-     87 steel<vblex><inf>
-     87 slaap<vblex><inf>
-     86 vermeng<vblex><uns><inf>
-     85 versnel<vblex><uns><inf>
-     84 besigtig<vblex><uns><inf>
-     83 bind<vblex><inf>
-     82 vergesel<vblex><uns><inf>
-     81 verhit<vblex><uns><inf>
-     81 merk<vblex><inf>
-     81 aanbeveel<vblex><inf>
-     80 waarsku<vblex><inf>
-     80 dreig<vblex><inf>
-     80 beleër<vblex><uns><inf>
-     79 wil<vblex><inf>/wil<vaux><inf>
-     79 klop<vblex><inf>
+     84 besigtig<vblex><inf>
+     80 beleër<vblex><inf>
      79 heg<vblex><inf>
-     78 veronderstel<vblex><uns><inf>
-     78 kla<vblex><inf>
-     77 vermeerder<vblex><uns><inf>
-     77 verlaag<vblex><uns><inf>
-     77 luister<vblex><inf>
-     77 klim<vblex><inf>
-     77 jag<vblex><inf>
-     77 belê<vblex><uns><inf>
-     77 behartig<vblex><uns><inf>
-     76 verlig<vblex><uns><inf>
-     76 bevraagteken<vblex><uns><inf>
-     76 beland<vblex><uns><inf>
-     75 bekeer<vblex><uns><inf>
-     74 betree<vblex><uns><inf>
-     74 bemark<vblex><uns><inf>
-     73 verbruik<vblex><uns><inf>
-     73 lig<vblex><inf>
-     73 bestee<vblex><uns><inf>
-     72 kook<vblex><inf>
-     71 wond<vblex><inf>
-     71 verdubbel<vblex><uns><inf>
-     70 bekragtig<vblex><uns><inf>
+     76 verlig<vblex><inf>
+     76 bevraagteken<vblex><inf>
+     74 betree<vblex><inf>
+     73 bestee<vblex><inf>
      69 sukkel<vblex><inf>
-     69 betrek<vblex><uns><inf>
-     68 vrees<vblex><inf>
-     68 verfyn<vblex><uns><inf>
      68 genereer<vblex><inf>
-     68 belemmer<vblex><uns><inf>
-     67 las<vblex><inf>
-     65 berokken<vblex><uns><inf>
-     63 herroep<vblex><uns><inf>
-     62 verhef<vblex><uns><inf>
-     62 skat<vblex><inf>
-     62 raadpleeg<vblex><inf>
-     62 onthul<vblex><uns><inf>
-     62 bekostig<vblex><uns><inf>
-     61 leen<vblex><inf>
-     61 jaag<vblex><inf>
-     61 dans<vblex><inf>
-     60 slote<vblex><inf>
-     60 ontruim<vblex><uns><inf>
+     65 herwin<vblex><inf>
      60 konsentreer<vblex><inf>
-     59 ontslae<vblex><uns><inf>
-     58 ruim<vblex><inf>
-     57 ontvanger<vblex><uns><inf>
-     56 verhinder<vblex><uns><inf>
      56 kontak<vblex><inf>
-     56 klink<vblex><inf>
-     56 herleef<vblex><uns><inf>
-     56 berig<vblex><uns><inf>
-     55 verhoor<vblex><uns><inf>
-     55 toets<vblex><inf>
      55 stasioneer<vblex><inf>
-     55 ontplooi<vblex><uns><inf>
-     55 hervat<vblex><uns><inf>
-     55 herken<vblex><uns><inf>
-     55 beseer<vblex><uns><inf>
-     54 bevolk<vblex><uns><inf>
-     53 verblyf<vblex><uns><inf>
-     52 vererger<vblex><uns><inf>
-     51 verwesenlik<vblex><inf>
-     51 verwelkom<vblex><uns><inf>
+     55 ontplooi<vblex><inf>
      51 spesifiseer<vblex><inf>
-     51 ontneem<vblex><uns><inf>
-     51 betwis<vblex><uns><inf>
-     50 oorwin<vblex><uns><inf>
-     50 ontspring<vblex><uns><inf>
-     50 ontbreek<vblex><uns><inf>
-     49 verf<vblex><inf>
+     51 betwis<vblex><inf>
+     50 oorwin<vblex><inf>
      49 migreer<vblex><inf>
-     48 vertrou<vblex><uns><inf>
-     48 versleg<vblex><uns><inf>
-     48 skuil<vblex><inf>
-     47 verleng<vblex><uns><inf>
-     47 verkort<vblex><uns><inf>
+     48 versleg<vblex><inf>
      47 kopieer<vblex><inf>
      47 go<vblex><inf>
-     46 spoel<vblex><inf>
-     46 bestel<vblex><uns><inf>
-     45 staar<vblex><inf>
-     45 bewerk<vblex><uns><inf>
-     45 bestem<vblex><uns><inf>
      44 varieer<vblex><inf>
-     43 verryk<vblex><uns><inf>
-     43 benader<vblex><uns><inf>
-     43 antwoord<vblex><inf>
-     42 straf<vblex><inf>
-     42 ontslaan<vblex><uns><inf>
-     42 hervorm<vblex><uns><inf>
-     42 below<vblex><uns><inf>
-     41 waardeer<vblex><inf>
-     40 versorg<vblex><uns><inf>
-     40 teister<vblex><inf>
-     40 ontken<vblex><uns><inf>
-     40 bedink<vblex><uns><inf>
-     39 stry<vblex><inf>
-     39 ontplof<vblex><uns><inf>
-     39 hersien<vblex><uns><inf>
-     38 verskerp<vblex><uns><inf>
-     37 herower<vblex><uns><inf>
-     37 bestry<vblex><uns><inf>
+     42 below<vblex><inf>
+     39 hersien<vblex><inf>
+     38 verskerp<vblex><inf>
+     38 hou<vblex><inf>
      36 spekuleer<vblex><inf>
-     36 ontleed<vblex><uns><inf>
-     36 beswyk<vblex><uns><inf>
-     35 verhandel<vblex><uns><inf>
-     35 heropen<vblex><uns><inf>
      35 gesels<vblex><inf>
-     34 rook<vblex><inf>
-     34 gryp<vblex><inf>
-     34 bekyk<vblex><uns><inf>
-     33 verweer<vblex><uns><inf>
-     33 verlang<vblex><uns><inf>
-     33 vergeet<vblex><uns><inf>
-     33 verbreed<vblex><uns><inf>
-     33 ontwrig<vblex><uns><inf>
-     33 besmet<vblex><uns><inf>
-     33 bemoei<vblex><uns><inf>
-     32 versteur<vblex><uns><inf>
-     32 verskeep<vblex><uns><inf>
+     33 ontwrig<vblex><inf>
      32 kanselleer<vblex><inf>
-     31 beveilig<vblex><uns><inf>
-     29 strooi<vblex><inf>
-     29 begryp<vblex><uns><inf>
-     28 skend<vblex><inf>
+     29 berig<vblex><inf>
      28 pouse<vblex><inf>
-     28 onthoof<vblex><uns><inf>
-     28 ontbied<vblex><uns><inf>
      28 ondersoek<vblex><inf>/onder<pr><atp>+soek<vblex><inf>
-     28 betwyfel<vblex><uns><inf>
-     27 stoot<vblex><inf>
-     27 spuit<vblex><inf>
      27 skok<vblex><inf>
-     27 bepleit<vblex><uns><inf>
-     26 vergiftig<vblex><uns><inf>
      26 debatteer<vblex><inf>
-     26 beoog<vblex><uns><inf>
-     25 vervorm<vblex><uns><inf>
-     25 ontsteek<vblex><uns><inf>
-     25 bekommerd<vblex><uns><inf>
-     24 waag<vblex><inf>
-     24 kruis<vblex><inf>
-     24 bespeur<vblex><uns><inf>
-     24 bemeester<vblex><uns><inf>
-     23 bedra<vblex><uns><inf>
+     25 behoort<vblex><inf>/behoort<vaux><inf>
+     24 bemeester<vblex><inf>
      22 regtig<vblex><inf>
-     22 ontsyfer<vblex><uns><inf>
+     22 ontsyfer<vblex><inf>
      22 motiveer<vblex><inf>
-     22 bloei<vblex><inf>
-     21 begelei<vblex><uns><inf>
-     20 verloof<vblex><uns><inf>
-     20 vasstel<vblex><inf>
      20 redigeer<vblex><inf>
-     20 hulp<vblex><inf>
-     19 verklein<vblex><uns><inf>
-     19 vergoed<vblex><uns><inf>
      19 standaardiseer<vblex><inf>
-     19 ontvlug<vblex><uns><inf>
-     19 baklei<vblex><inf>
-     18 suiwer<vblex><inf>
-     18 oopmaak<vblex><inf>
-     17 verslap<vblex><uns><inf>
-     17 verraai<vblex><uns><inf>
-     17 vee<vblex><inf>
-     17 kam<vblex><inf>
+     19 ontvlug<vblex><inf>
+     19 hulp<vblex><inf>
+     17 verraai<vblex><inf>
      17 interpreteer<vblex><inf>
-     16 verlof<vblex><uns><inf>
-     16 verkoel<vblex><uns><inf>
+     16 vee<vblex><inf>
      15 raai<vblex><inf>
-     15 began<vblex><uns><inf>
-     14 wapen<vblex><inf>
-     14 versuim<vblex><uns><inf>
+     15 began<vblex><inf>
+     14 versuim<vblex><inf>
      14 rek<vblex><inf>
-     13 verstryk<vblex><uns><inf>
-     13 tipe<vblex><inf>
-     13 pos<vblex><inf>
-     12 stamp<vblex><inf>
-     11 herbevestig<vblex><uns><inf>
-     11 bevries<vblex><uns><inf>
+     12 pos<vblex><inf>
+     11 herbevestig<vblex><inf>
      10 regmaak<vblex><inf>
-      9 verbaas<vblex><uns><inf>
-      9 herdruk<vblex><uns><inf>
+      9 herdruk<vblex><inf>
       8 seer<vblex><inf>
       8 ioniseer<vblex><inf>
-      8 bewapen<vblex><uns><inf>
-      7 omhels<vblex><uns><inf>
+      7 omhels<vblex><inf>
       7 aas<vblex><inf>
       6 simuleer<vblex><inf>
-      6 belig<vblex><uns><inf>
-      6 bedaar<vblex><uns><inf>
+      6 belig<vblex><inf>
       5 sluk<vblex><inf>
       5 kuier<vblex><inf>
       5 gelykheid<vblex><inf>
-      5 berou<vblex><uns><inf>
-      5 afval<vblex><inf>/af<pr><atp>+val<vblex><inf>
       3 sluitin<vblex><inf>
+      3 afval<vblex><inf>/af<pr><atp>+val<vblex><inf>
       3 afskakel<vblex><inf>
       2 syfer<vblex><inf>
       2 saag<vblex><inf>
-      2 oorlewe<vblex><uns><inf>
       2 innig<vblex><inf>
       2 hoes<vblex><inf>

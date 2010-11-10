@@ -208,6 +208,9 @@
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
 
     <e><p><l>geen<s n="det"/><s n="ind"/></l><r>geen<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
+    <e><p><l>enige<s n="det"/><s n="ind"/></l><r>enige<s n="det"/><s n="ind"/></r></p></e>
+
+    <e><p><l>sommige<s n="det"/><s n="qnt"/></l><r>sommige<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>dié<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>dit<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
@@ -262,13 +265,32 @@
     <e><p><l>agt<s n="num"/></l><r>acht<s n="num"/></r></p></e>
     <e><p><l>nege<s n="num"/></l><r>negen<s n="num"/></r></p></e>
     <e><p><l>tien<s n="num"/></l><r>tien<s n="num"/></r></p></e>
+
     <e><p><l>elf<s n="num"/></l><r>elf<s n="num"/></r></p></e>
+    <e><p><l>twaalf<s n="num"/></l><r>twaalf<s n="num"/></r></p></e>
+    <e><p><l>dertien<s n="num"/></l><r>dertien<s n="num"/></r></p></e>
+    <e><p><l>veertien<s n="num"/></l><r>veertien<s n="num"/></r></p></e>
+    <e><p><l>vyftien<s n="num"/></l><r>vijftien<s n="num"/></r></p></e>
+    <e><p><l>sestien<s n="num"/></l><r>zestien<s n="num"/></r></p></e>
+    <e><p><l>sewentien<s n="num"/></l><r>zeventien<s n="num"/></r></p></e>
+    <e><p><l>agtien<s n="num"/></l><r>achttien<s n="num"/></r></p></e>
+    <e><p><l>negentien<s n="num"/></l><r>negentien<s n="num"/></r></p></e>
+    <e><p><l>twintig<s n="num"/></l><r>twintig<s n="num"/></r></p></e>
+
+    <e><p><l>miljoen<s n="num"/></l><r>miljoen<s n="num"/></r></p></e>
+
+    <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
+    <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
+    <e><p><l>IV<s n="num"/></l><r>IV<s n="num"/></r></p></e>
+    <e><p><l>VI<s n="num"/></l><r>VI<s n="num"/></r></p></e>
+    <e><p><l>VII<s n="num"/></l><r>VII<s n="num"/></r></p></e>
 
 
     <!-- SECTION: Nouns -->
 
     <e><p><l>uur<s n="n"/></l><r>uur<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>trein<s n="n"/></l><r>trein<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boom<s n="n"/></l><r>boom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reg<s n="n"/></l><r>recht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>atmosfeer<s n="n"/></l><r>atmosfeer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>koerant<s n="n"/></l><r>krant<s n="n"/><s n="mf"/></r></p></e>
@@ -1726,6 +1748,7 @@
     <e><p><l>gebou<s n="n"/></l><r>gebouw<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>deur<s n="n"/></l><r>deur<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>eiergeel<s n="n"/></l><r>dooier<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- woorde van wikipedia (iw-word.sh) -->
@@ -2073,12 +2096,14 @@
 
     <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>groot<s n="adj"/><s n="sint"/></l><r>groot<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>rooi<s n="adj"/><s n="sint"/></l><r>rood<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>rooi<s n="adj"/></l><r>rood<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>siek<s n="adj"/><s n="sint"/></l><r>ziek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>openbaar<s n="adj"/><s n="sint"/></l><r>openbaar<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
     <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
+    <e><p><l>wel<s n="adv"/></l><r>wel<s n="adv"/></r></p></e>
     <e><p><l>hier<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>nie<s n="adv"/></l><r>niet<s n="adv"/></r></p></e>
     <e><p><l>ook<s n="adv"/></l><r>ook<s n="adv"/></r></p></e>
@@ -2098,6 +2123,8 @@
     <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
     <e><p><l>soos<s n="adv"/></l><r>zoals<s n="adv"/></r></p></e>
     <e><p><l>daar<s n="adv"/></l><r>er<s n="adv"/></r></p></e>
+    <e><p><l>vandag<s n="adv"/></l><r>vandaag<s n="adv"/></r></p></e>
+    <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -2106,6 +2133,7 @@
     <e r="LR"><p><l>hê<s n="vblex"/></l><r>hebben<s n="vbhaver"/></r></p></e>
     <e><p><l>moet<s n="vbmod"/></l><r>moeten<s n="vbmod"/></r></p></e>
     <e><p><l>kan<s n="vbmod"/></l><r>kunnen<s n="vbmod"/></r></p></e>
+    <e><p><l>mag<s n="vbmod"/></l><r>mogen<s n="vbmod"/></r></p></e>
 
     <e><p><l>wil<s n="vaux"/></l><r>willen<s n="vaux"/></r></p></e>
 
@@ -2113,7 +2141,7 @@
     <e><p><l>kry<s n="vblex"/></l><r>krijzen<s n="vblex"/></r></p></e>
     <e><p><l>voer<s n="vblex"/></l><r>voeren<s n="vblex"/></r></p></e>
     <e><p><l>val<s n="vblex"/></l><r>vallen<s n="vblex"/></r></p></e>
-    <e><p><l>lei<s n="vblex"/></l><r>leggen<s n="vblex"/></r></p></e>
+    <e><p><l>lê<s n="vblex"/></l><r>leggen<s n="vblex"/></r></p></e>
     <e><p><l>hou<s n="vblex"/></l><r>houden<s n="vblex"/></r></p></e>
     <e><p><l>gee<s n="vblex"/></l><r>geven<s n="vblex"/></r></p></e>
     <e><p><l>gaan<s n="vblex"/></l><r>gaan<s n="vblex"/></r></p></e>
@@ -2537,6 +2565,10 @@
     <e><p><l>berou<s n="vblex"/></l><r>berouwen<s n="vblex"/></r></p></e>
     <e><p><l>oorlewe<s n="vblex"/></l><r>overleven<s n="vblex"/></r></p></e>
 
+    <e><p><l>beskou<s n="vblex"/></l><r>beschouwen<s n="vblex"/></r></p></e>
+    <e><p><l>bestaan<s n="vblex"/></l><r>bestaan<s n="vblex"/></r></p></e>
+    <e><p><l>sê<s n="vblex"/></l><r>zeggen<s n="vblex"/></r></p></e>
+
 
     
     <!-- SECTION: Punctuation -->
@@ -2547,6 +2579,12 @@
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><i>-</i><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
+
+    <e><i>-</i><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
+
+    <e><re>[0-9]+([.,][0-9]+)?de</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?ste</re><p><l>s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
+
 
   </section>
 

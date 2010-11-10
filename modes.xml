@@ -136,6 +136,16 @@
   </mode>
 
 
+  <mode name="nl-af-morph" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="nl-af.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
   <mode name="nl-af-tagger" install="no">
     <pipeline>
       <program name="lt-proc">

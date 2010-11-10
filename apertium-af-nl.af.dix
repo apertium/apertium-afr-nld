@@ -224,9 +224,9 @@
     </pardef>
 
     <pardef n="tweede__det">
-      <e>       <p><l/><r><s n="det"/><s n="ord"/><s n="sg"/></r></p></e>
       <e>       <p><l/><r><s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
-      <e>       <p><l/><r><s n="det"/><s n="ord"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ord"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ord"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="verskeie__det">
@@ -1060,6 +1060,14 @@
 
     <!-- SECTION: Verben -->
 
+    <pardef n="/wees__vbser">
+      <e>       <p><l>wees</l><r>wees<s n="vbser"/><s n="inf"/></r></p></e>
+      <e>       <p><l>is</l><r>wees<s n="vbser"/><s n="pres"/></r></p></e>
+      <e>       <p><l>was</l><r>wees<s n="vbser"/><s n="past"/></r></p></e>
+      <e>       <p><l>synde</l><r>wees<s n="vbser"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>gewees</l><r>wees<s n="vbser"/><s n="pp"/></r></p></e>
+    </pardef>
+
     <pardef n="h/ê__vblex">
       <e>       <p><l>et</l><r>ê<s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l>et</l><r>ê<s n="vblex"/><s n="past"/></r></p></e>
@@ -1074,17 +1082,15 @@
       <e>       <p><l>ad</l><r>ê<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
-    <pardef n="/wees__vbser">
-      <e>       <p><l>is</l><r>wees<s n="vbser"/><s n="pres"/></r></p></e>
-      <e>       <p><l>wees</l><r>wees<s n="vbser"/><s n="inf"/></r></p></e>
-      <e>       <p><l>was</l><r>wees<s n="vbser"/><s n="past"/></r></p></e>
-      <e>       <p><l>synde</l><r>wees<s n="vbser"/><s n="pprs"/></r></p></e>
+    <pardef n="gebreek__vblex">
+      <e>       <p><l/><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
 
-    <pardef n="ontwikkel__vblex">
-      <e>       <p><l/><r><s n="vblex"/><s n="uns"/><s n="pres"/></r></p></e>
-      <e>       <p><l/><r><s n="vblex"/><s n="uns"/><s n="inf"/></r></p></e>
-      <e>       <p><l/><r><s n="vblex"/><s n="uns"/><s n="pp"/></r></p></e>
+
+    <pardef n="ontwikkel__vblex"><!-- uns -->
+      <e>       <p><l/><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e>       <p><l/><r><s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l/><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="breek__vblex">
@@ -1116,8 +1122,9 @@
     </pardef>
 
     <pardef n="m/ag__vbmod">
-      <e>       <p><l>ag</l><r>ag<s n="vaux"/><s n="inf"/></r></p></e>
-      <e>       <p><l>og</l><r>ag<s n="vaux"/><s n="past"/></r></p></e>
+      <e>       <p><l>ag</l><r>ag<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>ag</l><r>ag<s n="vbmod"/><s n="pres"/></r></p></e>
+      <e>       <p><l>og</l><r>ag<s n="vbmod"/><s n="past"/></r></p></e>
     </pardef>
 
     <pardef n="w/il__vbmod">
@@ -3054,16 +3061,22 @@
     <!-- Verbs -->
 
 
-    <e r="RL"><i>ge</i></e><!-- This little entry stops there being a transfer error when generating past tense forms -->
+    <e lm="wees"><i/><par n="/wees__vbser"/></e>
 
     <e lm="hê"><par n="P__ge"/><i>h</i><par n="h/ê__vbhaver"/></e>
     <e lm="hê"><par n="P__ge"/><i>h</i><par n="h/ê__vblex"/></e>
 
-    <e lm="wees"><par n="P__ge"/><i/><par n="/wees__vbser"/></e>
 
     <e lm="aanmoedig"><par n="P__pr"/><par n="P__ge"/><i>moedig</i><par n="breek__vblex"/></e>
 
     <e lm="breek"><par n="P__pr"/><par n="P__ge"/><i>breek</i><par n="breek__vblex"/></e>
+    <e lm="breek"><p><l>gebreek</l><r>breek</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="antwoord"><i>antwoord</i><par n="breek__vblex"/></e>
+    <e lm="antwoord"><p><l>geantwoord</l><r>antwoord</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="sê"><par n="P__pr"/><par n="P__ge"/><i>sê</i><par n="breek__vblex"/></e>
+    <e lm="sê"><p><l>gesê</l><r>sê</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="klink"><par n="P__pr"/><par n="P__ge"/><i>klink</i><par n="breek__vblex"/></e> 
 
@@ -3089,7 +3102,6 @@
     <e lm="sluitin"><par n="P__pr"/><par n="P__ge"/><i>sluitin</i><par n="breek__vblex"/></e>
     <e lm="klim"><par n="P__pr"/><par n="P__ge"/><i>klim</i><par n="breek__vblex"/></e>
     <e lm="vat"><par n="P__pr"/><par n="P__ge"/><i>vat</i><par n="breek__vblex"/></e>
-    <e lm="sê"><par n="P__pr"/><par n="P__ge"/><i>sê</i><par n="breek__vblex"/></e>
     <e lm="soek"><par n="P__pr"/><par n="P__ge"/><i>soek</i><par n="breek__vblex"/></e><!-- search -->
     <e lm="daag"><par n="P__pr"/><par n="P__ge"/><i>daag</i><par n="breek__vblex"/></e>
     <e lm="bring"><par n="P__pr"/><par n="P__ge"/><i>bring</i><par n="breek__vblex"/></e>
@@ -3272,7 +3284,6 @@
     <e lm="innig"><par n="P__ge"/><i>innig</i><par n="breek__vblex"/></e>
     <e lm="speel"><par n="P__ge"/><i>speel</i><par n="breek__vblex"/></e>
     <e lm="lees"><par n="P__ge"/><i>lees</i><par n="breek__vblex"/></e>
-    <e lm="antwoord"><par n="P__ge"/><i>antwoord</i><par n="breek__vblex"/></e>
     <e lm="strek"><par n="P__ge"/><i>strek</i><par n="breek__vblex"/></e>
     <e lm="sing"><par n="P__ge"/><i>sing</i><par n="breek__vblex"/></e>
     <e lm="broei"><par n="P__ge"/><i>broei</i><par n="breek__vblex"/></e>
@@ -4833,6 +4844,7 @@
     <e lm="kuier"><i>kuier</i><par n="artikel__n"/></e>
     <e lm="volume"><i>volume</i><par n="artikel__n"/></e>
     <e lm="geel"><i>ge</i><par n="voorde/el__n"/></e>
+    <e lm="eiergeel"><i>eierge</i><par n="voorde/el__n"/></e>
     <e lm="jeug"><i>jeug</i><par n="hoof__n"/></e>
     <e lm="skrif"><i>skrif</i><par n="lys__n"/></e>
     <e lm="jag"><i>jag</i><par n="lys__n"/></e>
@@ -6706,7 +6718,6 @@
     <e lm="rampspoedig"><i>rampspoedig</i><par n="maklik__adj"/></e>
     <e lm="raserig"><i>raserig</i><par n="maklik__adj"/></e>
     <e lm="rats"><i>rats</i><par n="maklik__adj"/></e>
-    <e lm="rooi"><i>rooi</i><par n="maklik__adj"/></e>
     <e lm="rooskleurig"><i>rooskleurig</i><par n="maklik__adj"/></e>
     <e lm="ruim"><i>ruim</i><par n="maklik__adj"/></e>
     <e lm="rustig"><i>rustig</i><par n="maklik__adj"/></e>
@@ -7137,6 +7148,7 @@
 
     <!-- Winterstream --> 
     <e lm="tal"><i>tal</i><par n="mal__adj"/></e>
+    <e lm="talentvol"><i>talentvol</i><par n="mal__adj"/></e>
     <e lm="polêr"><i>polêr</i><par n="dadelik__adj"/></e>
     <e lm="teenoorgesteld"><i>teenoorgesteld</i><par n="dadelik__adj"/></e>
     <e lm="benaderd"><i>benaderd</i><par n="dadelik__adj"/></e>
@@ -7579,7 +7591,7 @@
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
     <e><par n="years"/></e>
-    <e><par n="ordinals"/></e>
+    <!--<e><par n="ordinals"/></e>-->
     <e><par n="numeros"/></e>
     <e><par n="coma"/></e>
     <e><par n="cometa"/></e>

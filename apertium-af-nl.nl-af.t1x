@@ -71,7 +71,8 @@
       <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_adj">
-      <attr-item tags="adj"/>
+      <attr-item tags="adj.pred"/>
+      <attr-item tags="adj.attr"/>
       <attr-item tags="adj.sint"/>
       <attr-item tags="adj.sint.pred"/>
       <attr-item tags="adj.sint.attr"/>
@@ -379,30 +380,15 @@
 		  </and>
             </test>
             <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-	      </chunk>
-              <b/>
 	      <chunk name="verb_participle">
 	        <tags>
 		  <tag><lit-tag v="V"/></tag>
 		  <tag><lit-tag v="PART"/></tag>
 		</tags>
-	      <lu>
-		  <lit v="ge"/>
-		</lu>
               <lu>
                   <clip pos="1" side="tl" part="lem"/>
                   <clip pos="1" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
-<!--                  <clip pos="1" side="tl" part="temps"/> -->
+                  <clip pos="1" side="tl" part="temps"/> 
               </lu>
               </chunk>
             </out>
@@ -504,13 +490,9 @@
                   <tag><lit-tag v="PART"/></tag>
                 </tags>
               <lu>
-                  <lit v="ge"/>
-                </lu>
-              <lu>
                   <clip pos="1" side="tl" part="lem"/>
                   <clip pos="1" side="tl" part="a_verb"/>
-                  <lit-tag v="inf"/>
-<!--                  <clip pos="1" side="tl" part="temps"/> -->
+                  <clip pos="1" side="tl" part="temps"/> 
               </lu>
               </chunk>
             </out>
@@ -550,14 +532,11 @@
 		  <tag><lit-tag v="V"/></tag>
 		  <tag><lit-tag v="PART"/></tag>
 		</tags>
-	      <lu>
-		  <lit v="ge"/>
-		</lu>
               <lu>
                   <clip pos="2" side="tl" part="lem"/>
                   <clip pos="2" side="tl" part="a_verb"/>
 		  <lit-tag v="inf"/>
-<!--                  <clip pos="2" side="tl" part="temps"/> -->
+                  <clip pos="2" side="tl" part="temps"/>
               </lu>
               </chunk>
             </out>
