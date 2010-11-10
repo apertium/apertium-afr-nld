@@ -2810,6 +2810,7 @@
     <!-- SECTION: Lidwoorden en geschlacht -->
 
     <e lm="een"><i>een</i><par n="een__det"/></e>
+    <e lm="geen"><i>geen</i><par n="een__det"/></e>
     <e lm="de"><i></i><par n="/de__det"/></e>
     <e lm="die"><i>d</i><par n="d/ie__det"/></e>
     <e lm="deze"><i>d</i><par n="d/eze__det"/></e>
@@ -3402,6 +3403,7 @@
     <e lm="bijgeloof"><i>bijgelo</i><par n="bijgelo/of__n_nt"/></e>
     <e lm="bijlage"><i>bijlage</i><par n="dove__n_m"/></e>
     <e lm="bijt"><i>bijt</i><par n="mast__n_mf"/></e>
+    <e lm="artikel"><i>artikel</i><par n="mast__n_mf"/></e>
     <e lm="biochemie"><i>biochemie</i><par n="flag__n_f"/></e>
     <e lm="biografie"><i>biografie</i><par n="fee__n_f"/></e>
     <e lm="bisschop"><i>bisschop</i><par n="lap__n_m"/></e>
@@ -4293,6 +4295,7 @@
     <e lm="intens"><i>intens</i><par n="/intens__adv"/></e>
 
     <e lm="dan"><i>dan</i><par n="graag__adv"/></e>
+    <e lm="er"><i>er</i><par n="graag__adv"/></e>
     <e lm="zoals"><i>zoals</i><par n="graag__adv"/></e>
     <e lm="graag"><i>graag</i><par n="graag__adv"/></e>
     <e lm="niet"><i>niet</i><par n="graag__adv"/></e>

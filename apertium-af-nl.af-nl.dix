@@ -207,6 +207,8 @@
     <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
 
+    <e><p><l>geen<s n="det"/><s n="ind"/></l><r>geen<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
+
     <e><p><l>dié<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>dit<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
 
@@ -364,6 +366,7 @@
     <e><p><l>terroristegroep<s n="n"/></l><r>terroristegroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>toneelgroep<s n="n"/></l><r>toneelgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>werkgroep<s n="n"/></l><r>werkgroep<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>artikel<s n="n"/></l><r>artikel<s n="n"/><s n="mf"/></r></p></e>
 
     <e><p><l>rolprent<s n="n"/></l><r>film<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>seisoen<s n="n"/></l><r>seizoen<s n="n"/><s n="nt"/></r></p></e>
@@ -2094,6 +2097,7 @@
     <e><p><l>onder<s n="adv"/></l><r>onder<s n="adv"/></r></p></e>
     <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
     <e><p><l>soos<s n="adv"/></l><r>zoals<s n="adv"/></r></p></e>
+    <e><p><l>daar<s n="adv"/></l><r>er<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -2132,6 +2136,7 @@
     <e><p><l>volg<s n="vblex"/></l><r>volgen<s n="vblex"/></r></p></e>
     <e><p><l>vertrek<s n="vblex"/></l><r>vertrekken<s n="vblex"/></r></p></e>
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>spreek<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
     <e><p><l>weet<s n="vblex"/></l><r>weten<s n="vblex"/></r></p></e>
     <e><p><l>werk<s n="vblex"/></l><r>werken<s n="vblex"/></r></p></e>
     <e><p><l>kyk<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
@@ -2221,7 +2226,6 @@
 
     <e><p><l>herstel<s n="vblex"/></l><r>herstellen<s n="vblex"/></r></p></e>
     <e><p><l>beskerm<s n="vblex"/></l><r>beschermen<s n="vblex"/></r></p></e>
-    <e><p><l>spreek<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
     <e><p><l>setel<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
     <e><p><l>veg<s n="vblex"/></l><r>vegen<s n="vblex"/></r></p></e>
     <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
@@ -2286,6 +2290,253 @@
     <e><p><l>bedek<s n="vblex"/></l><r>bedekken<s n="vblex"/></r></p></e>
     <e><p><l>leer<s n="vblex"/></l><r>leren<s n="vblex"/></r></p></e>
     <e><p><l>leef<s n="vblex"/></l><r>leven<s n="vblex"/></r></p></e>
+
+    <e><p><l>hanteer<s n="vblex"/></l><r>hanteren<s n="vblex"/></r></p></e>
+    <e><p><l>wysig<s n="vblex"/></l><r>wijzigen<s n="vblex"/></r></p></e>
+    <e><p><l>red<s n="vblex"/></l><r>reden<s n="vblex"/></r></p></e>
+    <e><p><l>vertel<s n="vblex"/></l><r>vertellen<s n="vblex"/></r></p></e>
+    <e><p><l>omring<s n="vblex"/></l><r>omringen<s n="vblex"/></r></p></e>
+    <e><p><l>besef<s n="vblex"/></l><r>beseffen<s n="vblex"/></r></p></e>
+    <e><p><l>verdwyn<s n="vblex"/></l><r>verdwijnen<s n="vblex"/></r></p></e>
+    <e><p><l>begrens<s n="vblex"/></l><r>begrenzen<s n="vblex"/></r></p></e>
+    <e><p><l>vereis<s n="vblex"/></l><r>vereisen<s n="vblex"/></r></p></e>
+    <e><p><l>gooi<s n="vblex"/></l><r>gooien<s n="vblex"/></r></p></e>
+    <e><p><l>reis<s n="vblex"/></l><r>reisen<s n="vblex"/></r></p></e>
+    <e><p><l>sorg<s n="vblex"/></l><r>zorgen<s n="vblex"/></r></p></e>
+    <e><p><l>verwerp<s n="vblex"/></l><r>verwerpen<s n="vblex"/></r></p></e>
+    <e><p><l>nader<s n="vblex"/></l><r>naderen<s n="vblex"/></r></p></e>
+    <e><p><l>vier<s n="vblex"/></l><r>vieren<s n="vblex"/></r></p></e>
+    <e><p><l>vuur<s n="vblex"/></l><r>vuren<s n="vblex"/></r></p></e>
+    <e><p><l>bedoel<s n="vblex"/></l><r>bedoelen<s n="vblex"/></r></p></e>
+    <e><p><l>tel<s n="vblex"/></l><r>telen<s n="vblex"/></r></p></e>
+    <e><p><l>vereer<s n="vblex"/></l><r>vereren<s n="vblex"/></r></p></e>
+    <e><p><l>bevind<s n="vblex"/></l><r>bevinden<s n="vblex"/></r></p></e>
+    <e><p><l>beëindig<s n="vblex"/></l><r>beëindigen<s n="vblex"/></r></p></e>
+    <e><p><l>eindig<s n="vblex"/></l><r>eindigen<s n="vblex"/></r></p></e>
+    <e><p><l>verban<s n="vblex"/></l><r>verbannen<s n="vblex"/></r></p></e>
+    <e><p><l>bedank<s n="vblex"/></l><r>bedanken<s n="vblex"/></r></p></e>
+    <e><p><l>bespreek<s n="vblex"/></l><r>bespreken<s n="vblex"/></r></p></e>
+    <e><p><l>loods<s n="vblex"/></l><r>loodsen<s n="vblex"/></r></p></e>
+    <e><p><l>meen<s n="vblex"/></l><r>menen<s n="vblex"/></r></p></e>
+    <e><p><l>vergroot<s n="vblex"/></l><r>vergroten<s n="vblex"/></r></p></e>
+    <e><p><l>sny<s n="vblex"/></l><r>snijden<s n="vblex"/></r></p></e>
+    <e><p><l>onttrek<s n="vblex"/></l><r>onttrekken<s n="vblex"/></r></p></e>
+    <e><p><l>moedig<s n="vblex"/></l><r>moedigen<s n="vblex"/></r></p></e>
+    <e><p><l>bekom<s n="vblex"/></l><r>bekommen<s n="vblex"/></r></p></e>
+    <e><p><l>ontsnap<s n="vblex"/></l><r>ontsnappen<s n="vblex"/></r></p></e>
+    <e><p><l>vat<s n="vblex"/></l><r>vatten<s n="vblex"/></r></p></e>
+    <e><p><l>steek<s n="vblex"/></l><r>steken<s n="vblex"/></r></p></e>
+    <e><p><l>doop<s n="vblex"/></l><r>dopen<s n="vblex"/></r></p></e>
+    <e><p><l>hang<s n="vblex"/></l><r>hangen<s n="vblex"/></r></p></e>
+    <e><p><l>begin<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
+    <e><p><l>wyk<s n="vblex"/></l><r>wijken<s n="vblex"/></r></p></e>
+    <e><p><l>ontgin<s n="vblex"/></l><r>ontginnen<s n="vblex"/></r></p></e>
+    <e><p><l>pak<s n="vblex"/></l><r>pakken<s n="vblex"/></r></p></e>
+    <e><p><l>verdedig<s n="vblex"/></l><r>verdedigen<s n="vblex"/></r></p></e>
+    <e><p><l>bedreig<s n="vblex"/></l><r>bedreigen<s n="vblex"/></r></p></e>
+    <e><p><l>herdoop<s n="vblex"/></l><r>herdopen<s n="vblex"/></r></p></e>
+    <e><p><l>vlieg<s n="vblex"/></l><r>vliegen<s n="vblex"/></r></p></e>
+    <e><p><l>laai<s n="vblex"/></l><r>laaien<s n="vblex"/></r></p></e>
+    <e><p><l>beskadig<s n="vblex"/></l><r>beschadigen<s n="vblex"/></r></p></e>
+    <e><p><l>neig<s n="vblex"/></l><r>neigen<s n="vblex"/></r></p></e>
+    <e><p><l>meld<s n="vblex"/></l><r>melden<s n="vblex"/></r></p></e>
+    <e><p><l>bereken<s n="vblex"/></l><r>berekenen<s n="vblex"/></r></p></e>
+
+    <e><p><l>weeg<s n="vblex"/></l><r>wegen<s n="vblex"/></r></p></e>
+    <e><p><l>versamel<s n="vblex"/></l><r>verzamelen<s n="vblex"/></r></p></e>
+    <e><p><l>bevry<s n="vblex"/></l><r>bevrijden<s n="vblex"/></r></p></e>
+    <e><p><l>beoefen<s n="vblex"/></l><r>beoefenen<s n="vblex"/></r></p></e>
+    <e><p><l>veroordeel<s n="vblex"/></l><r>veroordelen<s n="vblex"/></r></p></e>
+    <e><p><l>koppel<s n="vblex"/></l><r>koppelen<s n="vblex"/></r></p></e>
+    <e><p><l>heers<s n="vblex"/></l><r>heersen<s n="vblex"/></r></p></e>
+    <e><p><l>draai<s n="vblex"/></l><r>draaien<s n="vblex"/></r></p></e>
+    <e><p><l>besorg<s n="vblex"/></l><r>bezorgen<s n="vblex"/></r></p></e>
+    <e><p><l>spring<s n="vblex"/></l><r>springen<s n="vblex"/></r></p></e>
+    <e><p><l>betref<s n="vblex"/></l><r>betreffen<s n="vblex"/></r></p></e>
+    <e><p><l>beskuldig<s n="vblex"/></l><r>beschuldigen<s n="vblex"/></r></p></e>
+    <e><p><l>ontleen<s n="vblex"/></l><r>ontlenen<s n="vblex"/></r></p></e>
+    <e><p><l>naam<s n="vblex"/></l><r>nemen<s n="vblex"/></r></p></e>
+    <e><p><l>versier<s n="vblex"/></l><r>versieren<s n="vblex"/></r></p></e>
+    <e><p><l>hardloop<s n="vblex"/></l><r>hardlopen<s n="vblex"/></r></p></e>
+    <e><p><l>vergader<s n="vblex"/></l><r>vergaderen<s n="vblex"/></r></p></e>
+    <e><p><l>plant<s n="vblex"/></l><r>planten<s n="vblex"/></r></p></e>
+    <e><p><l>verswak<s n="vblex"/></l><r>verzwakken<s n="vblex"/></r></p></e>
+    <e><p><l>berus<s n="vblex"/></l><r>berusten<s n="vblex"/></r></p></e>
+    <e><p><l>beveel<s n="vblex"/></l><r>bevelen<s n="vblex"/></r></p></e>
+    <e><p><l>vertolk<s n="vblex"/></l><r>vertolken<s n="vblex"/></r></p></e>
+    <e><p><l>onthou<s n="vblex"/></l><r>onthouden<s n="vblex"/></r></p></e>
+    <e><p><l>beklemtoon<s n="vblex"/></l><r>beklemtonen<s n="vblex"/></r></p></e>
+    <e><p><l>plunder<s n="vblex"/></l><r>plunderen<s n="vblex"/></r></p></e>
+    <e><p><l>meng<s n="vblex"/></l><r>mengen<s n="vblex"/></r></p></e>
+    <e><p><l>herinner<s n="vblex"/></l><r>herinneren<s n="vblex"/></r></p></e>
+    <e><p><l>verniel<s n="vblex"/></l><r>vernielen<s n="vblex"/></r></p></e>
+    <e><p><l>verbrand<s n="vblex"/></l><r>verbranden<s n="vblex"/></r></p></e>
+    <e><p><l>hoop<s n="vblex"/></l><r>hopen<s n="vblex"/></r></p></e>
+    <e><p><l>eet<s n="vblex"/></l><r>eten<s n="vblex"/></r></p></e>
+    <e><p><l>vorder<s n="vblex"/></l><r>vorderen<s n="vblex"/></r></p></e>
+    <e><p><l>daag<s n="vblex"/></l><r>dagen<s n="vblex"/></r></p></e>
+    <e><p><l>bekroon<s n="vblex"/></l><r>bekronen<s n="vblex"/></r></p></e>
+    <e><p><l>oefen<s n="vblex"/></l><r>oefenen<s n="vblex"/></r></p></e>
+    <e><p><l>verwar<s n="vblex"/></l><r>verwarren<s n="vblex"/></r></p></e>
+    <e><p><l>voorspel<s n="vblex"/></l><r>voorspellen<s n="vblex"/></r></p></e>
+    <e><p><l>stop<s n="vblex"/></l><r>stoppen<s n="vblex"/></r></p></e>
+    <e><p><l>herhaal<s n="vblex"/></l><r>herhalen<s n="vblex"/></r></p></e>
+    <e><p><l>beraam<s n="vblex"/></l><r>beraamen<s n="vblex"/></r></p></e>
+    <e><p><l>behoue<s n="vblex"/></l><r>behouden<s n="vblex"/></r></p></e>
+    <e><p><l>vermoed<s n="vblex"/></l><r>vermoeden<s n="vblex"/></r></p></e>
+    <e><p><l>steel<s n="vblex"/></l><r>stelen<s n="vblex"/></r></p></e>
+    <e><p><l>slaap<s n="vblex"/></l><r>slapen<s n="vblex"/></r></p></e>
+    <e><p><l>vermeng<s n="vblex"/></l><r>vermengen<s n="vblex"/></r></p></e>
+    <e><p><l>versnel<s n="vblex"/></l><r>versnellen<s n="vblex"/></r></p></e>
+    <e><p><l>bind<s n="vblex"/></l><r>binden<s n="vblex"/></r></p></e>
+    <e><p><l>vergesel<s n="vblex"/></l><r>vergezellen<s n="vblex"/></r></p></e>
+    <e><p><l>verhit<s n="vblex"/></l><r>verhitten<s n="vblex"/></r></p></e>
+    <e><p><l>aanbeveel<s n="vblex"/></l><r>aanbevelen<s n="vblex"/></r></p></e>
+
+    <e><p><l>waarsku<s n="vblex"/></l><r>waarschuwen<s n="vblex"/></r></p></e>
+    <e><p><l>merk<s n="vblex"/></l><r>merken<s n="vblex"/></r></p></e>
+    <e><p><l>klop<s n="vblex"/></l><r>kloppen<s n="vblex"/></r></p></e>
+    <e><p><l>dreig<s n="vblex"/></l><r>dreigen<s n="vblex"/></r></p></e>
+    <e><p><l>wil<s n="vblex"/></l><r>willen<s n="vblex"/></r></p></e>
+    <e><p><l>veronderstel<s n="vblex"/></l><r>veronderstellen<s n="vblex"/></r></p></e>
+    <e><p><l>kla<s n="vblex"/></l><r>klaen<s n="vblex"/></r></p></e>
+    <e><p><l>vermeerder<s n="vblex"/></l><r>vermeerderen<s n="vblex"/></r></p></e>
+    <e><p><l>verlaag<s n="vblex"/></l><r>verlaagen<s n="vblex"/></r></p></e>
+    <e><p><l>luister<s n="vblex"/></l><r>luisteren<s n="vblex"/></r></p></e>
+    <e><p><l>klim<s n="vblex"/></l><r>klimmen<s n="vblex"/></r></p></e>
+    <e><p><l>jag<s n="vblex"/></l><r>jagen<s n="vblex"/></r></p></e>
+    <e><p><l>belê<s n="vblex"/></l><r>beleggen<s n="vblex"/></r></p></e>
+    <e><p><l>behartig<s n="vblex"/></l><r>behartigen<s n="vblex"/></r></p></e>
+    <e><p><l>beland<s n="vblex"/></l><r>belanden<s n="vblex"/></r></p></e>
+    <e><p><l>bekeer<s n="vblex"/></l><r>bekeeren<s n="vblex"/></r></p></e>
+    <e><p><l>bemark<s n="vblex"/></l><r>bemerken<s n="vblex"/></r></p></e>
+    <e><p><l>verbruik<s n="vblex"/></l><r>verbruiken<s n="vblex"/></r></p></e>
+    <e><p><l>kook<s n="vblex"/></l><r>koken<s n="vblex"/></r></p></e>
+    <e><p><l>verdubbel<s n="vblex"/></l><r>verdubbelen<s n="vblex"/></r></p></e>
+    <e><p><l>wond<s n="vblex"/></l><r>wonden<s n="vblex"/></r></p></e>
+    <e><p><l>bekragtig<s n="vblex"/></l><r>bekrachtigen<s n="vblex"/></r></p></e>
+    <e><p><l>betrek<s n="vblex"/></l><r>betrekken<s n="vblex"/></r></p></e>
+    <e><p><l>vrees<s n="vblex"/></l><r>vresen<s n="vblex"/></r></p></e>
+    <e><p><l>verfyn<s n="vblex"/></l><r>verfijnen<s n="vblex"/></r></p></e>
+    <e><p><l>belemmer<s n="vblex"/></l><r>belemmeren<s n="vblex"/></r></p></e>
+    <e><p><l>lig<s n="vblex"/></l><r>liggen<s n="vblex"/></r></p></e>
+    <e><p><l>las<s n="vblex"/></l><r>lassen<s n="vblex"/></r></p></e>
+    <e><p><l>berokken<s n="vblex"/></l><r>berokkenen<s n="vblex"/></r></p></e>
+    <e><p><l>herroep<s n="vblex"/></l><r>herroepen<s n="vblex"/></r></p></e>
+    <e><p><l>verhef<s n="vblex"/></l><r>verheffen<s n="vblex"/></r></p></e>
+    <e><p><l>raadpleeg<s n="vblex"/></l><r>raadplegen<s n="vblex"/></r></p></e>
+    <e><p><l>onthul<s n="vblex"/></l><r>onthullen<s n="vblex"/></r></p></e>
+    <e><p><l>dans<s n="vblex"/></l><r>dansen<s n="vblex"/></r></p></e>
+    <e><p><l>bekostig<s n="vblex"/></l><r>bekostigen<s n="vblex"/></r></p></e>
+    <e><p><l>skat<s n="vblex"/></l><r>skaten<s n="vblex"/></r></p></e>
+    <e><p><l>leen<s n="vblex"/></l><r>lenen<s n="vblex"/></r></p></e>
+    <e><p><l>jaag<s n="vblex"/></l><r>jagen<s n="vblex"/></r></p></e>
+    <e><p><l>slote<s n="vblex"/></l><r>sluit<s n="vblex"/></r></p></e>
+    <e><p><l>ontruim<s n="vblex"/></l><r>ontruimen<s n="vblex"/></r></p></e>
+    <e><p><l>ontslae<s n="vblex"/></l><r>ontslaan<s n="vblex"/></r></p></e>
+    <e><p><l>toets<s n="vblex"/></l><r>toetsen<s n="vblex"/></r></p></e>
+    <e><p><l>ruim<s n="vblex"/></l><r>ruimen<s n="vblex"/></r></p></e>
+    <e><p><l>ontvanger<s n="vblex"/></l><r>ontvangen<s n="vblex"/></r></p></e>
+    <e><p><l>verhinder<s n="vblex"/></l><r>verhinderen<s n="vblex"/></r></p></e>
+    <e><p><l>klink<s n="vblex"/></l><r>klinken<s n="vblex"/></r></p></e>
+    <e><p><l>herleef<s n="vblex"/></l><r>herleven<s n="vblex"/></r></p></e>
+    <e><p><l>verhoor<s n="vblex"/></l><r>verhoren<s n="vblex"/></r></p></e>
+    <e><p><l>hervat<s n="vblex"/></l><r>hervatten<s n="vblex"/></r></p></e>
+    <e><p><l>herken<s n="vblex"/></l><r>herkennen<s n="vblex"/></r></p></e>
+
+    <e><p><l>beseer<s n="vblex"/></l><r>bezeren<s n="vblex"/></r></p></e>
+    <e><p><l>bevolk<s n="vblex"/></l><r>bevolken<s n="vblex"/></r></p></e>
+    <e><p><l>verblyf<s n="vblex"/></l><r>verblijven<s n="vblex"/></r></p></e>
+    <e><p><l>vererger<s n="vblex"/></l><r>verergeren<s n="vblex"/></r></p></e>
+    <e><p><l>verwesenlik<s n="vblex"/></l><r>verwezenlijken<s n="vblex"/></r></p></e>
+    <e><p><l>verwelkom<s n="vblex"/></l><r>verwelkomen<s n="vblex"/></r></p></e>
+    <e><p><l>ontneem<s n="vblex"/></l><r>ontnemen<s n="vblex"/></r></p></e>
+    <e><p><l>ontspring<s n="vblex"/></l><r>ontspringen<s n="vblex"/></r></p></e>
+    <e><p><l>ontbreek<s n="vblex"/></l><r>ontbreken<s n="vblex"/></r></p></e>
+    <e><p><l>verf<s n="vblex"/></l><r>verven<s n="vblex"/></r></p></e>
+    <e><p><l>vertrou<s n="vblex"/></l><r>vertrouwen<s n="vblex"/></r></p></e>
+    <e><p><l>skuil<s n="vblex"/></l><r>schuilen<s n="vblex"/></r></p></e>
+    <e><p><l>verleng<s n="vblex"/></l><r>verlengen<s n="vblex"/></r></p></e>
+    <e><p><l>verkort<s n="vblex"/></l><r>verkorten<s n="vblex"/></r></p></e>
+    <e><p><l>spoel<s n="vblex"/></l><r>spoelen<s n="vblex"/></r></p></e>
+    <e><p><l>bestel<s n="vblex"/></l><r>bestellen<s n="vblex"/></r></p></e>
+    <e><p><l>staar<s n="vblex"/></l><r>staren<s n="vblex"/></r></p></e>
+    <e><p><l>bewerk<s n="vblex"/></l><r>bewerken<s n="vblex"/></r></p></e>
+    <e><p><l>bestem<s n="vblex"/></l><r>bestemmen<s n="vblex"/></r></p></e>
+    <e><p><l>verryk<s n="vblex"/></l><r>verrijken<s n="vblex"/></r></p></e>
+    <e><p><l>benader<s n="vblex"/></l><r>benaderen<s n="vblex"/></r></p></e>
+    <e><p><l>antwoord<s n="vblex"/></l><r>antwoorden<s n="vblex"/></r></p></e>
+    <e><p><l>ontslaan<s n="vblex"/></l><r>ontslaan<s n="vblex"/></r></p></e>
+    <e><p><l>hervorm<s n="vblex"/></l><r>hervormen<s n="vblex"/></r></p></e>
+    <e><p><l>waardeer<s n="vblex"/></l><r>waarderen<s n="vblex"/></r></p></e>
+    <e><p><l>versorg<s n="vblex"/></l><r>verzorgen<s n="vblex"/></r></p></e>
+    <e><p><l>teister<s n="vblex"/></l><r>teisteren<s n="vblex"/></r></p></e>
+    <e><p><l>straf<s n="vblex"/></l><r>straffen<s n="vblex"/></r></p></e>
+    <e><p><l>ontken<s n="vblex"/></l><r>ontkennen<s n="vblex"/></r></p></e>
+    <e><p><l>bedink<s n="vblex"/></l><r>bedenken<s n="vblex"/></r></p></e>
+    <e><p><l>stry<s n="vblex"/></l><r>strijken<s n="vblex"/></r></p></e>
+    <e><p><l>ontplof<s n="vblex"/></l><r>ontploffen<s n="vblex"/></r></p></e>
+    <e><p><l>herower<s n="vblex"/></l><r>heroveren<s n="vblex"/></r></p></e>
+    <e><p><l>bestry<s n="vblex"/></l><r>bestrijken<s n="vblex"/></r></p></e>
+    <e><p><l>ontleed<s n="vblex"/></l><r>ontleden<s n="vblex"/></r></p></e>
+    <e><p><l>beswyk<s n="vblex"/></l><r>bezwijken<s n="vblex"/></r></p></e>
+    <e><p><l>verhandel<s n="vblex"/></l><r>verhandelen<s n="vblex"/></r></p></e>
+    <e><p><l>heropen<s n="vblex"/></l><r>heropenen<s n="vblex"/></r></p></e>
+    <e><p><l>gryp<s n="vblex"/></l><r>grijpen<s n="vblex"/></r></p></e>
+    <e><p><l>bekyk<s n="vblex"/></l><r>bekijken<s n="vblex"/></r></p></e>
+    <e><p><l>verweer<s n="vblex"/></l><r>verweren<s n="vblex"/></r></p></e>
+    <e><p><l>verlang<s n="vblex"/></l><r>verlangen<s n="vblex"/></r></p></e>
+    <e><p><l>vergeet<s n="vblex"/></l><r>vergeten<s n="vblex"/></r></p></e>
+    <e><p><l>verbreed<s n="vblex"/></l><r>verbreden<s n="vblex"/></r></p></e>
+    <e><p><l>rook<s n="vblex"/></l><r>roken<s n="vblex"/></r></p></e>
+    <e><p><l>besmet<s n="vblex"/></l><r>besmetten<s n="vblex"/></r></p></e>
+    <e><p><l>bemoei<s n="vblex"/></l><r>bemoeien<s n="vblex"/></r></p></e>
+    <e><p><l>versteur<s n="vblex"/></l><r>versturen<s n="vblex"/></r></p></e>
+    <e><p><l>verskeep<s n="vblex"/></l><r>verschepen<s n="vblex"/></r></p></e>
+    <e><p><l>beveilig<s n="vblex"/></l><r>beveiligen<s n="vblex"/></r></p></e>
+
+    <e><p><l>strooi<s n="vblex"/></l><r>strooien<s n="vblex"/></r></p></e>
+    <e><p><l>stoot<s n="vblex"/></l><r>stooten<s n="vblex"/></r></p></e>
+    <e><p><l>begryp<s n="vblex"/></l><r>begrijpen<s n="vblex"/></r></p></e>
+    <e><p><l>skend<s n="vblex"/></l><r>schenden<s n="vblex"/></r></p></e>
+    <e><p><l>onthoof<s n="vblex"/></l><r>onthoofden<s n="vblex"/></r></p></e>
+    <e><p><l>ontbied<s n="vblex"/></l><r>ontbieden<s n="vblex"/></r></p></e>
+    <e><p><l>betwyfel<s n="vblex"/></l><r>betwijfelen<s n="vblex"/></r></p></e>
+    <e><p><l>spuit<s n="vblex"/></l><r>spuiten<s n="vblex"/></r></p></e>
+    <e><p><l>bepleit<s n="vblex"/></l><r>bepleiten<s n="vblex"/></r></p></e>
+    <e><p><l>vergiftig<s n="vblex"/></l><r>vergiftigen<s n="vblex"/></r></p></e>
+    <e><p><l>beoog<s n="vblex"/></l><r>beogen<s n="vblex"/></r></p></e>
+    <e><p><l>vervorm<s n="vblex"/></l><r>vervormen<s n="vblex"/></r></p></e>
+    <e><p><l>ontsteek<s n="vblex"/></l><r>ontsteken<s n="vblex"/></r></p></e>
+    <e><p><l>bekommerd<s n="vblex"/></l><r>bekommeren<s n="vblex"/></r></p></e>
+    <e><p><l>waag<s n="vblex"/></l><r>wagen<s n="vblex"/></r></p></e>
+    <e><p><l>kruis<s n="vblex"/></l><r>kruisen<s n="vblex"/></r></p></e>
+    <e><p><l>bespeur<s n="vblex"/></l><r>bespeuren<s n="vblex"/></r></p></e>
+    <e><p><l>bedra<s n="vblex"/></l><r>bedragen<s n="vblex"/></r></p></e>
+    <e><p><l>bloei<s n="vblex"/></l><r>bloeien<s n="vblex"/></r></p></e>
+    <e><p><l>begelei<s n="vblex"/></l><r>begeleiden<s n="vblex"/></r></p></e>
+    <e><p><l>verloof<s n="vblex"/></l><r>verloven<s n="vblex"/></r></p></e>
+    <e><p><l>vasstel<s n="vblex"/></l><r>vaststellen<s n="vblex"/></r></p></e>
+    <e><p><l>verklein<s n="vblex"/></l><r>verkleinen<s n="vblex"/></r></p></e>
+    <e><p><l>vergoed<s n="vblex"/></l><r>vergoeden<s n="vblex"/></r></p></e>
+    <e><p><l>baklei<s n="vblex"/></l><r>bakkleien<s n="vblex"/></r></p></e>
+    <e><p><l>suiwer<s n="vblex"/></l><r>zuiveren<s n="vblex"/></r></p></e>
+    <e><p><l>oopmaak<s n="vblex"/></l><r>opmaken<s n="vblex"/></r></p></e>
+    <e><p><l>verslap<s n="vblex"/></l><r>verslappen<s n="vblex"/></r></p></e>
+    <e><p><l>kam<s n="vblex"/></l><r>kammen<s n="vblex"/></r></p></e>
+    <e><p><l>verlof<s n="vblex"/></l><r>verloven<s n="vblex"/></r></p></e>
+    <e><p><l>verkoel<s n="vblex"/></l><r>verkoelen<s n="vblex"/></r></p></e>
+    <e><p><l>wapen<s n="vblex"/></l><r>wapenen<s n="vblex"/></r></p></e>
+    <e><p><l>verstryk<s n="vblex"/></l><r>verstrijken<s n="vblex"/></r></p></e>
+    <e><p><l>tipe<s n="vblex"/></l><r>tippen<s n="vblex"/></r></p></e>
+    <e><p><l>stamp<s n="vblex"/></l><r>stampen<s n="vblex"/></r></p></e>
+    <e><p><l>bevries<s n="vblex"/></l><r>bevriezen<s n="vblex"/></r></p></e>
+    <e><p><l>verbaas<s n="vblex"/></l><r>verbazen<s n="vblex"/></r></p></e>
+    <e><p><l>bewapen<s n="vblex"/></l><r>bewapenen<s n="vblex"/></r></p></e>
+    <e><p><l>bedaar<s n="vblex"/></l><r>bedaren<s n="vblex"/></r></p></e>
+    <e><p><l>berou<s n="vblex"/></l><r>berouwen<s n="vblex"/></r></p></e>
+    <e><p><l>oorlewe<s n="vblex"/></l><r>overleven<s n="vblex"/></r></p></e>
+
 
     
     <!-- SECTION: Punctuation -->
