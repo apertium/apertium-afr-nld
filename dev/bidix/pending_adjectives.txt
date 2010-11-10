@@ -1,7 +1,7 @@
    4430 ^@bekend<adj><pred>$
    3354 ^@suid<adj><pred>$
    2455 ^@nuut<adj><sint><attr>$
-   2101 ^@sy<adj><pred>$
+   2100 ^@sy<adj><pred>$
    2076 ^@noord<adj><pred>$
    2036 ^@belangrik<adj><sint><attr>$
    2030 ^@nuut<adj><sint><pred>$
@@ -158,7 +158,6 @@
     269 ^@inheems<adj><pred>$
     266 ^@finansieel<adj><attr>$
     266 ^@ernstig<adj><sint><pred>$
-    263 ^@rooi<adj><attr>$
     261 ^@ryk<adj><sint><pred>$
     261 ^@kultureel<adj><pred>$
     260 ^@wêreldwyd<adj><pred>$
@@ -178,7 +177,6 @@
     239 ^@inheems<adj><attr>$
     235 ^@nederduits<adj><pred>$
     233 ^@gou<adj><sint><attr>$
-    232 ^@rooi<adj><pred>$
     231 ^@binnelands<adj><attr>$
     230 ^@nazi<adj><pred>$
     228 ^@etnies<adj><attr>$
@@ -283,8 +281,8 @@
     132 ^@presies<adj><attr>$
     132 ^@nou<adj><sint><attr>$
     130 ^@demokraties<adj><pred>$
+    129 ^@wêreld<adj><pred>$
     129 ^@etnies<adj><pred>$
-    128 ^@wêreld<adj><pred>$
     128 ^@outomaties<adj><pred>$
     128 ^@nou<adj><sint><pred>$
     127 ^@negatief<adj><pred>$
@@ -1080,6 +1078,7 @@
      11 ^@elasties<adj><attr>$
      11 ^@besorg<adj><pred>$
      10 ^@weekliks<adj><attr>$
+     10 ^@talentvol<adj><pred>$
      10 ^@subjektief<adj><attr>$
      10 ^@sporadies<adj><attr>$
      10 ^@slymvlies<adj><pred>$
@@ -1404,6 +1403,7 @@
       3 ^@vokatief<adj><pred>$
       3 ^@vet<adj><sint><attr>$
       3 ^@ultrasonies<adj><pred>$
+      3 ^@talentvol<adj><attr>$
       3 ^@swart<adj><sint><attr>$
       3 ^@skuldig<adj><attr>$
       3 ^@skepties<adj><attr>$

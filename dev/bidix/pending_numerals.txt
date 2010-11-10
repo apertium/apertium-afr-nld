@@ -1,250 +1,120 @@
-    522 ^@20ste<num><ord>$
-    115 ^@1ste<num><ord>$
-     94 ^@21ste<num><ord>$
-     63 ^@8ste<num><ord>$
+    523 ^@20s<num><ord>$
+     98 ^@21s<num><ord>$
      29 ^@1970s<num><ord>$
      28 ^@1980s<num><ord>$
      26 ^@1990s<num><ord>$
      23 ^@1960s<num><ord>$
      21 ^@1950s<num><ord>$
-     17 ^@60ste<num><ord>$
-     14 ^@50ste<num><ord>$
-     12 ^@23ste<num><ord>$
+     18 ^@60s<num><ord>$
+     14 ^@50s<num><ord>$
+     12 ^@23s<num><ord>$
      12 ^@1940s<num><ord>$
-     11 ^@38ste<num><ord>$
-     11 ^@22ste<num><ord>$
-     10 ^@24ste<num><ord>$
+     11 ^@90s<num><ord>$
+     11 ^@38s<num><ord>$
+     11 ^@24s<num><ord>$
+     11 ^@22s<num><ord>$
+      9 ^@80s<num><ord>$
       9 ^@1930s<num><ord>$
-      8 ^@70ste<num><ord>$
-      8 ^@26ste<num><ord>$
+      8 ^@70s<num><ord>$
+      8 ^@26s<num><ord>$
       8 ^@1920s<num><ord>$
-      7 ^@40ste<num><ord>$
-      7 ^@28ste<num><ord>$
-      6 ^@90ste<num><ord>$
-      6 ^@55ste<num><ord>$
-      6 ^@39ste<num><ord>$
-      6 ^@34ste<num><ord>$
-      6 ^@25ste<num><ord>$
-      6 ^@100ste<num><ord>$
+      7 ^@40s<num><ord>$
+      7 ^@28s<num><ord>$
+      7 ^@25s<num><ord>$
+      6 ^@55s<num><ord>$
+      6 ^@39s<num><ord>$
+      6 ^@34s<num><ord>$
+      6 ^@30s<num><ord>$
       5 ^@’nmiljoen<num><sp>$
-      5 ^@90s<num><ord>$
-      5 ^@80s<num><ord>$
-      5 ^@37ste<num><ord>$
-      5 ^@35ste<num><ord>$
+      5 ^@45s<num><ord>$
+      5 ^@37s<num><ord>$
+      5 ^@35s<num><ord>$
+      5 ^@29s<num><ord>$
       5 ^@1870s<num><ord>$
-      4 ^@92ste<num><ord>$
-      4 ^@80ste<num><ord>$
-      4 ^@75ste<num><ord>$
-      4 ^@72ste<num><ord>$
-      4 ^@71ste<num><ord>$
-      4 ^@56ste<num><ord>$
-      4 ^@49ste<num><ord>$
-      4 ^@45ste<num><ord>$
-      4 ^@36ste<num><ord>$
-      4 ^@30ste<num><ord>$
-      4 ^@29ste<num><ord>$
-      4 ^@21s<num><ord>$
-      4 ^@200ste<num><ord>$
+      4 ^@92s<num><ord>$
+      4 ^@75s<num><ord>$
+      4 ^@72s<num><ord>$
+      4 ^@71s<num><ord>$
+      4 ^@56s<num><ord>$
+      4 ^@49s<num><ord>$
+      4 ^@47s<num><ord>$
+      4 ^@36s<num><ord>$
+      4 ^@27s<num><ord>$
       4 ^@1900s<num><ord>$
       4 ^@1880s<num><ord>$
       4 ^@1820s<num><ord>$
       4 ^@1800s<num><ord>$
-      3 ^@93ste<num><ord>$
-      3 ^@77ste<num><ord>$
-      3 ^@63ste<num><ord>$
-      3 ^@58ste<num><ord>$
-      3 ^@47ste<num><ord>$
-      3 ^@46ste<num><ord>$
-      3 ^@42ste<num><ord>$
-      3 ^@27ste<num><ord>$
+      3 ^@93s<num><ord>$
+      3 ^@77s<num><ord>$
+      3 ^@63s<num><ord>$
+      3 ^@58s<num><ord>$
+      3 ^@51s<num><ord>$
+      3 ^@46s<num><ord>$
+      3 ^@42s<num><ord>$
+      3 ^@31s<num><ord>$
       3 ^@2000s<num><ord>$
       3 ^@1830s<num><ord>$
-      3 ^@125ste<num><ord>$
-      2 ^@99ste<num><ord>$
-      2 ^@98ste<num><ord>$
-      2 ^@95ste<num><ord>$
-      2 ^@94ste<num><ord>$
-      2 ^@88ste<num><ord>$
-      2 ^@87ste<num><ord>$
-      2 ^@86ste<num><ord>$
-      2 ^@85ste<num><ord>$
-      2 ^@74ste<num><ord>$
-      2 ^@59ste<num><ord>$
-      2 ^@57ste<num><ord>$
-      2 ^@51ste<num><ord>$
-      2 ^@5000ste<num><ord>$
-      2 ^@48ste<num><ord>$
-      2 ^@44ste<num><ord>$
-      2 ^@43ste<num><ord>$
-      2 ^@41ste<num><ord>$
-      2 ^@32ste<num><ord>$
-      2 ^@31ste<num><ord>$
-      2 ^@30s<num><ord>$
-      2 ^@227ste<num><ord>$
-      2 ^@225ste<num><ord>$
+      2 ^@99s<num><ord>$
+      2 ^@98s<num><ord>$
+      2 ^@95s<num><ord>$
+      2 ^@94s<num><ord>$
+      2 ^@88s<num><ord>$
+      2 ^@87s<num><ord>$
+      2 ^@86s<num><ord>$
+      2 ^@85s<num><ord>$
+      2 ^@74s<num><ord>$
+      2 ^@59s<num><ord>$
+      2 ^@57s<num><ord>$
+      2 ^@5000s<num><ord>$
+      2 ^@48s<num><ord>$
+      2 ^@44s<num><ord>$
+      2 ^@43s<num><ord>$
+      2 ^@41s<num><ord>$
+      2 ^@32s<num><ord>$
       2 ^@2020s<num><ord>$
-      2 ^@191ste<num><ord>$
       2 ^@1850s<num><ord>$
       2 ^@1700s<num><ord>$
       2 ^@16s<num><ord>$
-      2 ^@168ste<num><ord>$
-      2 ^@160ste<num><ord>$
-      2 ^@155ste<num><ord>$
-      2 ^@150ste<num><ord>$
-      2 ^@146ste<num><ord>$
-      2 ^@141ste<num><ord>$
-      2 ^@139ste<num><ord>$
-      2 ^@132ste<num><ord>$
-      2 ^@130ste<num><ord>$
       2 ^@12s<num><ord>$
-      2 ^@129ste<num><ord>$
-      2 ^@128ste<num><ord>$
-      2 ^@127ste<num><ord>$
-      2 ^@124ste<num><ord>$
-      1 ^@9ste<num><ord>$
-      1 ^@97ste<num><ord>$
-      1 ^@96ste<num><ord>$
-      1 ^@91ste<num><ord>$
-      1 ^@89ste<num><ord>$
-      1 ^@84ste<num><ord>$
-      1 ^@83ste<num><ord>$
-      1 ^@82ste<num><ord>$
-      1 ^@81ste<num><ord>$
-      1 ^@7ste<num><ord>$
-      1 ^@79ste<num><ord>$
-      1 ^@78ste<num><ord>$
-      1 ^@76ste<num><ord>$
-      1 ^@750ste<num><ord>$
-      1 ^@73ste<num><ord>$
-      1 ^@7000ste<num><ord>$
-      1 ^@6ste<num><ord>$
-      1 ^@69ste<num><ord>$
-      1 ^@68ste<num><ord>$
-      1 ^@67ste<num><ord>$
-      1 ^@675ste<num><ord>$
-      1 ^@66ste<num><ord>$
-      1 ^@65ste<num><ord>$
-      1 ^@64ste<num><ord>$
-      1 ^@62ste<num><ord>$
-      1 ^@61ste<num><ord>$
-      1 ^@60s<num><ord>$
-      1 ^@54ste<num><ord>$
-      1 ^@53ste<num><ord>$
-      1 ^@52ste<num><ord>$
-      1 ^@51s<num><ord>$
-      1 ^@500ste<num><ord>$
-      1 ^@47s<num><ord>$
-      1 ^@466ste<num><ord>$
-      1 ^@45s<num><ord>$
-      1 ^@4000ste<num><ord>$
-      1 ^@385ste<num><ord>$
+      1 ^@97s<num><ord>$
+      1 ^@96s<num><ord>$
+      1 ^@91s<num><ord>$
+      1 ^@89s<num><ord>$
+      1 ^@84s<num><ord>$
+      1 ^@83s<num><ord>$
+      1 ^@82s<num><ord>$
+      1 ^@81s<num><ord>$
+      1 ^@79s<num><ord>$
+      1 ^@78s<num><ord>$
+      1 ^@76s<num><ord>$
+      1 ^@73s<num><ord>$
+      1 ^@7000s<num><ord>$
+      1 ^@69s<num><ord>$
+      1 ^@68s<num><ord>$
+      1 ^@67s<num><ord>$
+      1 ^@66s<num><ord>$
+      1 ^@65s<num><ord>$
+      1 ^@64s<num><ord>$
+      1 ^@62s<num><ord>$
+      1 ^@61s<num><ord>$
+      1 ^@54s<num><ord>$
+      1 ^@53s<num><ord>$
+      1 ^@52s<num><ord>$
+      1 ^@4000s<num><ord>$
       1 ^@3800s<num><ord>$
-      1 ^@33ste<num><ord>$
-      1 ^@31s<num><ord>$
-      1 ^@300ste<num><ord>$
-      1 ^@29s<num><ord>$
-      1 ^@27s<num><ord>$
-      1 ^@25s<num><ord>$
-      1 ^@24s<num><ord>$
-      1 ^@239ste<num><ord>$
-      1 ^@238ste<num><ord>$
-      1 ^@237ste<num><ord>$
-      1 ^@236ste<num><ord>$
-      1 ^@235ste<num><ord>$
-      1 ^@234ste<num><ord>$
-      1 ^@233ste<num><ord>$
-      1 ^@232ste<num><ord>$
-      1 ^@231ste<num><ord>$
-      1 ^@230ste<num><ord>$
-      1 ^@229ste<num><ord>$
-      1 ^@228ste<num><ord>$
-      1 ^@224ste<num><ord>$
-      1 ^@223ste<num><ord>$
-      1 ^@222ste<num><ord>$
-      1 ^@221ste<num><ord>$
-      1 ^@220ste<num><ord>$
-      1 ^@20s<num><ord>$
-      1 ^@208ste<num><ord>$
+      1 ^@33s<num><ord>$
       1 ^@2030s<num><ord>$
-      1 ^@201ste<num><ord>$
       1 ^@2010s<num><ord>$
       1 ^@2008s<num><ord>$
-      1 ^@199ste<num><ord>$
-      1 ^@198ste<num><ord>$
       1 ^@1983s<num><ord>$
-      1 ^@197ste<num><ord>$
-      1 ^@196ste<num><ord>$
-      1 ^@195ste<num><ord>$
-      1 ^@194ste<num><ord>$
-      1 ^@193ste<num><ord>$
       1 ^@1910s<num><ord>$
-      1 ^@190ste<num><ord>$
-      1 ^@189ste<num><ord>$
-      1 ^@188ste<num><ord>$
-      1 ^@187ste<num><ord>$
-      1 ^@186ste<num><ord>$
-      1 ^@185ste<num><ord>$
-      1 ^@184ste<num><ord>$
       1 ^@1840s<num><ord>$
-      1 ^@183ste<num><ord>$
-      1 ^@182ste<num><ord>$
-      1 ^@181ste<num><ord>$
-      1 ^@180ste<num><ord>$
-      1 ^@17ste<num><ord>$
-      1 ^@179ste<num><ord>$
-      1 ^@178ste<num><ord>$
-      1 ^@177ste<num><ord>$
-      1 ^@176ste<num><ord>$
-      1 ^@174ste<num><ord>$
-      1 ^@173ste<num><ord>$
-      1 ^@172ste<num><ord>$
-      1 ^@171ste<num><ord>$
-      1 ^@170ste<num><ord>$
-      1 ^@169ste<num><ord>$
-      1 ^@167ste<num><ord>$
-      1 ^@166ste<num><ord>$
-      1 ^@165ste<num><ord>$
-      1 ^@164ste<num><ord>$
-      1 ^@163ste<num><ord>$
-      1 ^@162ste<num><ord>$
-      1 ^@161ste<num><ord>$
+      1 ^@17s<num><ord>$
       1 ^@1600s<num><ord>$
-      1 ^@159ste<num><ord>$
-      1 ^@158ste<num><ord>$
-      1 ^@157ste<num><ord>$
-      1 ^@156ste<num><ord>$
-      1 ^@154ste<num><ord>$
-      1 ^@153ste<num><ord>$
-      1 ^@152ste<num><ord>$
-      1 ^@151ste<num><ord>$
       1 ^@1500s<num><ord>$
       1 ^@14s<num><ord>$
-      1 ^@149ste<num><ord>$
-      1 ^@148ste<num><ord>$
-      1 ^@147ste<num><ord>$
-      1 ^@145ste<num><ord>$
-      1 ^@143ste<num><ord>$
-      1 ^@142ste<num><ord>$
-      1 ^@140ste<num><ord>$
-      1 ^@13ste<num><ord>$
-      1 ^@138ste<num><ord>$
-      1 ^@137ste<num><ord>$
-      1 ^@136ste<num><ord>$
-      1 ^@135ste<num><ord>$
-      1 ^@134ste<num><ord>$
-      1 ^@133ste<num><ord>$
-      1 ^@131ste<num><ord>$
-      1 ^@126ste<num><ord>$
-      1 ^@123ste<num><ord>$
+      1 ^@13s<num><ord>$
       1 ^@1230s<num><ord>$
-      1 ^@122ste<num><ord>$
-      1 ^@121ste<num><ord>$
-      1 ^@120ste<num><ord>$
-      1 ^@111ste<num><ord>$
-      1 ^@10ste<num><ord>$
-      1 ^@108ste<num><ord>$
-      1 ^@105ste<num><ord>$
-      1 ^@101ste<num><ord>$
-      1 ^@1000ste<num><ord>$
+      1 ^@10s<num><ord>$
+      1 ^@1000s<num><ord>$
       1 ^@00s<num><ord>$
-      1 ^@000ste<num><ord>$
