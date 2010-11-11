@@ -3789,7 +3789,8 @@
     <e lm="hervorm"><i>hervorm</i><par n="ontwikkel__vblex"/></e><!-- re~shape -->
 
 
-    <e lm="uitgereik"><i>uitgereik</i><par n="ontwikkel__vblex"/></e><!-- issue / issued -->
+    <e lm="uitgereik"><i>uitreik</i><par n="ontwikkel__vblex"/></e><!-- issue / issued -->
+    <e lm="uitgereik"><p><l>uitgereik</l><r>uitreek</r></p><par n="gebreek__vblex"/></e><!-- issue / issued -->
 
 
     <!-- End of verbs -->
