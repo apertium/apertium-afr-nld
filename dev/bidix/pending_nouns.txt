@@ -62,6 +62,7 @@
     242 ^@sokkerafdeling<n>$
     240 ^@bybel<n>$
     235 ^@oprigting<n>$
+    233 ^@sensus<n>$
     228 ^@samewerking<n>$
     225 ^@administrasie<n>$
     223 ^@tabel<n>$
@@ -72,6 +73,7 @@
     208 ^@skade<n><unc>$
     208 ^@legende<n>$
     198 ^@mars<n>$
+    197 ^@kaptein<n>$
     196 ^@koper<n><unc>$
     194 ^@polisie<n>$
     192 ^@woonbuurt<n>$
@@ -83,6 +85,7 @@
     174 ^@winkel<n>$
     174 ^@eienaar<n>$
     173 ^@wysiging<n>$
+    171 ^@elektrisiteit<n>$
     167 ^@administrateur<n>$
     166 ^@parameter<n>$
     165 ^@keuse<n>$
@@ -106,13 +109,16 @@
     131 ^@toeristebestemming<n>$
     129 ^@toerusting<n>$
     129 ^@immigrasie<n>$
+    129 ^@analise<n>$
     125 ^@kwessie<n>$
     124 ^@vorming<n>$
     123 ^@variasie<n>$
     123 ^@bestuurder<n>$
+    122 ^@olifant<n>$
     120 ^@uitvoer<n>$
     120 ^@rykdom<n>$
     120 ^@bloeitydperk<n>$
+    119 ^@hugenoot<n>$
     119 ^@gimnastiek<n><unc>$
     117 ^@blom<n>$
     117 ^@aankoms<n>$
@@ -124,13 +130,16 @@
     113 ^@siel<n>$
     112 ^@statistiek<n>$
     109 ^@sneeu<n>$
+    109 ^@kopiereg<n>$
     107 ^@kolonis<n>$
     104 ^@sneeuval<n>$
     104 ^@siening<n>$
     104 ^@koffie<n>$
+    104 ^@ewenaar<n>$
     101 ^@klere<n>$
     100 ^@woordeskat<n>$
      99 ^@inflasie<n>$
+     98 ^@bis<n>$
      97 ^@heuning<n>$
      96 ^@klerk<n>$
      96 ^@aanduiding<n>$
@@ -181,6 +190,7 @@
      70 ^@koue<n><unc>$
      70 ^@bas<n>$
      69 ^@verteenwoordiging<n>$
+     69 ^@resistor<n>$
      69 ^@pomp<n>$
      69 ^@oggend<n>$
      69 ^@missie<n>$
@@ -190,6 +200,7 @@
      67 ^@vlam<n>$
      67 ^@soewereiniteit<n>$
      67 ^@indeks<n>$
+     67 ^@duikboot<n>$
      66 ^@verligting<n>$
      66 ^@rys<n>$
      66 ^@inspirasie<n>$
@@ -220,12 +231,14 @@
      59 ^@inlywing<n>$
      58 ^@programmatuur<n>$
      58 ^@petrol<n><unc>$
+     58 ^@kloktoring<n>$
      57 ^@verduideliking<n>$
      57 ^@sokkerstruktuur<n>$
      57 ^@radiostasie<n>$
      57 ^@opinie<n>$
      57 ^@erosie<n>$
      57 ^@bedeling<n>$
+     57 ^@aap<n>$
      56 ^@visie<n>$
      56 ^@geneeskundige<n>$
      56 ^@bekendstelling<n>$
@@ -396,6 +409,7 @@
      22 ^@renoster<n>$
      22 ^@renbaan<n>$
      22 ^@programmeerder<n>$
+     22 ^@koolhidraat<n>$
      22 ^@kerkdiens<n>$
      22 ^@jurisdiksie<n>$
      22 ^@gholfbaan<n>$
@@ -544,6 +558,7 @@
      11 ^@geskilpunt<n>$
      11 ^@bokser<n>$
      11 ^@boerderygemeenskap<n>$
+     11 ^@bandopnemer<n>$
      10 ^@verrigting<n>$
      10 ^@vergifnis<n><unc>$
      10 ^@tremstelsel<n>$
@@ -645,6 +660,7 @@
       6 ^@boeregemeenskap<n>$
       6 ^@afloopwater<n>$
       6 ^@afgemeet<n>$
+      6 ^@abakus<n>$
       5 ^@volkskultuur<n>$
       5 ^@soetwater<n>$
       5 ^@skeikunde<n><unc>$

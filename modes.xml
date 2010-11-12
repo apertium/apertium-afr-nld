@@ -25,9 +25,6 @@
       <program name="lt-proc -g">
         <file name="af-nl.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="af-nl.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
@@ -95,9 +92,6 @@
       <program name="lt-proc -g">
         <file name="nl-af.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="nl-af.autopgen.bin"/>
-      </program> 
     </pipeline>
   </mode>
 

@@ -1,12 +1,12 @@
-   3355 ^@suid<adj><pred>$
+   3357 ^@suid<adj><pred>$
    2455 ^@nuut<adj><sint><attr>$
-   2076 ^@sy<adj><pred>$
-   2076 ^@noord<adj><pred>$
-   2037 ^@belangrik<adj><sint><attr>$
+   2093 ^@sy<adj><pred>$
+   2082 ^@noord<adj><pred>$
+   2038 ^@belangrik<adj><sint><attr>$
    2030 ^@nuut<adj><sint><pred>$
    1843 ^@duits<adj><pred>$
    1798 ^@oos<adj><pred>$
-   1728 ^@belangrik<adj><sint><pred>$
+   1727 ^@belangrik<adj><sint><pred>$
    1712 ^@wes<adj><pred>$
    1702 ^@duits<adj><attr>$
    1616 ^@afrikaans<adj><attr>$
@@ -17,9 +17,7 @@
    1163 ^@oorspronklik<adj><pred>$
    1149 ^@binne<adj><pred>$
    1145 ^@ekonomies<adj><attr>$
-   1091 ^@verskillend<adj><attr>$
-   1035 ^@britse<adj><attr>$
-   1008 ^@europees<adj><attr>$
+   1095 ^@verskillend<adj><attr>$
     959 ^@plaaslik<adj><pred>$
     951 ^@amerikaanse<adj><pred>$
     945 ^@amerikaanse<adj><attr>$
@@ -28,33 +26,29 @@
     919 ^@volgende<adj><attr>$
     893 ^@romeins<adj><attr>$
     876 ^@nasionaal<adj><pred>$
+    876 ^@europees<adj><attr>$
     871 ^@sogenaamd<adj><pred>$
-    863 ^@min<adj><sint><pred>$
     863 ^@internasionaal<adj><attr>$
     811 ^@naas<adj><sint><pred>$
-    809 ^@britse<adj><pred>$
-    797 ^@engels<adj><pred>$
+    798 ^@engels<adj><pred>$
     764 ^@eie<adj><pred>$
     746 ^@russiese<adj><attr>$
-    739 ^@modern<adj><pred>$
     732 ^@internasionaal<adj><pred>$
     714 ^@swart<adj><pred>$
-    713 ^@amptelik<adj><attr>$
+    714 ^@amptelik<adj><attr>$
     686 ^@suidelik<adj><sint><attr>$
-    671 ^@engels<adj><attr>$
-    658 ^@modern<adj><attr>$
+    672 ^@engels<adj><attr>$
     655 ^@sentraal<adj><pred>$
     651 ^@tal<adj><pred>$
     646 ^@duidelik<adj><sint><pred>$
     638 ^@volgende<adj><pred>$
     637 ^@histories<adj><attr>$
     631 ^@katoliek<adj><attr>$
-    630 ^@verskillend<adj><pred>$
     629 ^@beskikbaar<adj><pred>$
     627 ^@militêr<adj><attr>$
-    623 ^@noordelik<adj><sint><attr>$
+    626 ^@verskillend<adj><pred>$
+    624 ^@noordelik<adj><sint><attr>$
     588 ^@jaarliks<adj><pred>$
-    572 ^@europees<adj><pred>$
     571 ^@ekonomies<adj><pred>$
     567 ^@nederlands<adj><pred>$
     565 ^@vroeër<adj><pred>$
@@ -62,22 +56,18 @@
     556 ^@tal<adj><attr>$
     556 ^@russiese<adj><pred>$
     544 ^@oorspronklik<adj><attr>$
-    506 ^@hul<adj><pred>$
-    491 ^@dier<adj><pred>$
-    478 ^@enigste<adj><attr>$
+    542 ^@europees<adj><pred>$
+    509 ^@hul<adj><pred>$
     471 ^@histories<adj><pred>$
-    464 ^@min<adj><sint><attr>$
-    463 ^@enigste<adj><pred>$
     461 ^@maklik<adj><sint><pred>$
     455 ^@seker<adj><attr>$
     449 ^@verenig<adj><pred>$
     449 ^@kultureel<adj><attr>$
     445 ^@sentraal<adj><attr>$
     438 ^@nederlands<adj><attr>$
-    433 ^@oostelik<adj><attr>$
+    435 ^@oostelik<adj><attr>$
     431 ^@natuurlik<adj><sint><attr>$
-    427 ^@sowjet<adj><pred>$
-    415 ^@westelik<adj><sint><attr>$
+    416 ^@westelik<adj><sint><attr>$
     413 ^@swart<adj><attr>$
     411 ^@demokraties<adj><attr>$
     407 ^@buitelands<adj><attr>$
@@ -85,28 +75,29 @@
     392 ^@tradisioneel<adj><pred>$
     392 ^@chemies<adj><attr>$
     390 ^@romeins<adj><pred>$
+    377 ^@portugees<adj><pred>$
     376 ^@militêr<adj><pred>$
     374 ^@besig<adj><sint><pred>$
     372 ^@moeilik<adj><sint><pred>$
     369 ^@vry<adj><sint><pred>$
     367 ^@wys<adj><sint><pred>$
     366 ^@menslik<adj><attr>$
-    356 ^@sy<adj><attr>$
+    358 ^@sy<adj><attr>$
     356 ^@onafhanklik<adj><attr>$
     349 ^@suksesvol<adj><pred>$
     345 ^@verantwoordelik<adj><sint><pred>$
     331 ^@spesies<adj><pred>$
     330 ^@spesifiek<adj><attr>$
-    327 ^@noordelik<adj><sint><pred>$
+    326 ^@noordelik<adj><sint><pred>$
     312 ^@suidelik<adj><sint><pred>$
-    299 ^@amptelik<adj><pred>$
+    298 ^@amptelik<adj><pred>$
     297 ^@swaar<adj><sint><pred>$
     295 ^@vry<adj><sint><attr>$
     294 ^@wetenskaplik<adj><attr>$
     291 ^@finansieel<adj><attr>$
     288 ^@sosiaal<adj><attr>$
     280 ^@seker<adj><pred>$
-    262 ^@ryk<adj><sint><pred>$
+    263 ^@ryk<adj><sint><pred>$
     261 ^@kultureel<adj><pred>$
     260 ^@wêreldwyd<adj><pred>$
     260 ^@geografies<adj><attr>$
@@ -131,37 +122,33 @@
     219 ^@natuurlik<adj><sint><pred>$
     217 ^@verenig<adj><attr>$
     217 ^@gou<adj><sint><pred>$
-    214 ^@westelik<adj><sint><pred>$
+    213 ^@westelik<adj><sint><pred>$
     204 ^@gedefinieer<adj><pred>$
     202 ^@tipies<adj><pred>$
     193 ^@noodsaaklik<adj><sint><pred>$
     191 ^@stedelik<adj><attr>$
     191 ^@naas<adj><sint><attr>$
-    190 ^@mineraal<adj><pred>$
-    186 ^@oostelik<adj><pred>$
+    184 ^@oostelik<adj><pred>$
     184 ^@fisies<adj><attr>$
     182 ^@uitgestrek<adj><pred>$
     180 ^@tydelik<adj><pred>$
     179 ^@regstreeks<adj><pred>$
     177 ^@wye<adj><attr>$
     175 ^@onafhanklik<adj><pred>$
-    171 ^@stadig<adj><sint><pred>$
     170 ^@vernaam<adj><sint><attr>$
     170 ^@sigbaar<adj><pred>$
     168 ^@tegnies<adj><attr>$
     166 ^@redelik<adj><pred>$
     166 ^@magtig<adj><sint><pred>$
     166 ^@landelik<adj><attr>$
+    166 ^@koerant<adj><pred>$
     165 ^@menslik<adj><pred>$
-    165 ^@koerant<adj><pred>$
     162 ^@vroulik<adj><sint><pred>$
     161 ^@gemeenskaplik<adj><pred>$
     161 ^@blou<adj><attr>$
-    160 ^@permanent<adj><pred>$
     159 ^@eindelik<adj><pred>$
     158 ^@spesifiek<adj><pred>$
     158 ^@middel<adj><pred>$
-    154 ^@permanent<adj><attr>$
     154 ^@gemeenskaplik<adj><attr>$
     154 ^@buitelands<adj><pred>$
     153 ^@kommunisties<adj><attr>$
@@ -169,25 +156,23 @@
     152 ^@swaar<adj><sint><attr>$
     152 ^@medies<adj><attr>$
     151 ^@gekonsentreer<adj><pred>$
+    150 ^@portugees<adj><attr>$
     150 ^@kommersieel<adj><attr>$
     147 ^@manlik<adj><pred>$
     147 ^@geestelik<adj><pred>$
     147 ^@beperk<adj><pred>$
-    146 ^@basies<adj><attr>$
+    147 ^@basies<adj><attr>$
     146 ^@aktief<adj><attr>$
     145 ^@finansieel<adj><pred>$
     143 ^@maatskaplik<adj><attr>$
-    142 ^@basies<adj><pred>$
+    141 ^@basies<adj><pred>$
     140 ^@vernaam<adj><sint><pred>$
     140 ^@leidende<adj><attr>$
     139 ^@skielik<adj><pred>$
     139 ^@my<adj><pred>$
-    139 ^@doeltreffend<adj><sint><pred>$
     138 ^@onmiddellik<adj><pred>$
     138 ^@geproduseer<adj><pred>$
-    138 ^@finaal<adj><pred>$
     136 ^@ryk<adj><sint><attr>$
-    136 ^@portugees<adj><pred>$
     136 ^@ly<adj><sint><pred>$
     135 ^@onlangs<adj><attr>$
     134 ^@skerp<adj><sint><pred>$
@@ -196,12 +181,13 @@
     132 ^@presies<adj><attr>$
     132 ^@nou<adj><sint><attr>$
     132 ^@kommersieel<adj><pred>$
+    132 ^@indo-europees<adj><attr>$
     130 ^@demokraties<adj><pred>$
     129 ^@etnies<adj><pred>$
+    128 ^@wêreld<adj><pred>$
     128 ^@outomaties<adj><pred>$
     128 ^@nou<adj><sint><pred>$
     127 ^@elektronies<adj><pred>$
-    126 ^@wêreld<adj><pred>$
     126 ^@suksesvol<adj><attr>$
     126 ^@argitektonies<adj><attr>$
     124 ^@beperk<adj><attr>$
@@ -215,20 +201,17 @@
     116 ^@blykbaar<adj><pred>$
     115 ^@vang<adj><sint><pred>$
     115 ^@apostolies<adj><attr>$
-    114 ^@welvarend<adj><sint><pred>$
     114 ^@suid<adj><attr>$
     114 ^@pragtig<adj><sint><attr>$
     114 ^@nabygeleë<adj><pred>$
     114 ^@konserwatief<adj><attr>$
     113 ^@stedelik<adj><pred>$
     113 ^@chemies<adj><pred>$
-    111 ^@finaal<adj><attr>$
     111 ^@agt<adj><sint><attr>$
     110 ^@evangelies<adj><pred>$
     110 ^@akademies<adj><attr>$
     109 ^@familie<adj><pred>$
     108 ^@sogenaamd<adj><attr>$
-    108 ^@professioneel<adj><pred>$
     108 ^@persoonlik<adj><sint><pred>$
     108 ^@gevaarlik<adj><sint><pred>$
     107 ^@vroulik<adj><sint><attr>$
@@ -237,18 +220,16 @@
     107 ^@blou<adj><pred>$
     106 ^@verlies<adj><pred>$
     106 ^@onmoontlik<adj><sint><pred>$
-    106 ^@omliggende<adj><attr>$
     104 ^@pragtig<adj><sint><pred>$
     103 ^@wetenskaplik<adj><pred>$
     103 ^@geïnspireer<adj><pred>$
     103 ^@geïdentifiseer<adj><pred>$
     102 ^@tropies<adj><attr>$
+    101 ^@lewend<adj><attr>$
     101 ^@bewus<adj><pred>$
-    100 ^@lewend<adj><attr>$
      99 ^@nabygeleë<adj><attr>$
      99 ^@burgerlik<adj><pred>$
      98 ^@magneties<adj><attr>$
-     97 ^@welvarend<adj><sint><attr>$
      97 ^@mediterreens<adj><attr>$
      97 ^@geografies<adj><pred>$
      97 ^@aansienlik<adj><attr>$
@@ -273,8 +254,8 @@
      86 ^@uitgestrek<adj><attr>$
      86 ^@hul<adj><attr>$
      86 ^@geannekseer<adj><pred>$
-     85 ^@lewend<adj><pred>$
      85 ^@afgelope<adj><attr>$
+     84 ^@lewend<adj><pred>$
      84 ^@kontinentaal<adj><attr>$
      84 ^@huwelik<adj><pred>$
      84 ^@geologies<adj><attr>$
@@ -295,7 +276,6 @@
      77 ^@medies<adj><pred>$
      76 ^@prakties<adj><pred>$
      76 ^@kompleks<adj><pred>$
-     76 ^@individueel<adj><attr>$
      75 ^@geneties<adj><attr>$
      75 ^@daagliks<adj><attr>$
      74 ^@vars<adj><sint><attr>$
@@ -310,7 +290,6 @@
      73 ^@lewendig<adj><sint><pred>$
      73 ^@afgelope<adj><pred>$
      72 ^@sowjets<adj><attr>$
-     72 ^@professioneel<adj><attr>$
      72 ^@miljoen<adj><sint><pred>$
      71 ^@vertikaal<adj><pred>$
      71 ^@jou<adj><pred>$
@@ -318,7 +297,6 @@
      70 ^@onsuksesvol<adj><pred>$
      70 ^@aangrensend<adj><attr>$
      69 ^@suidwestelik<adj><attr>$
-     69 ^@progressief<adj><pred>$
      69 ^@ma<adj><sint><pred>$
      69 ^@identies<adj><pred>$
      69 ^@goud<adj><sint><pred>$
@@ -337,7 +315,6 @@
      65 ^@insluitend<adj><attr>$
      64 ^@werklik<adj><pred>$
      64 ^@skuldig<adj><pred>$
-     64 ^@omliggende<adj><pred>$
      64 ^@krities<adj><pred>$
      64 ^@kontinentaal<adj><pred>$
      64 ^@kommunisties<adj><pred>$
@@ -354,17 +331,14 @@
      60 ^@strategies<adj><pred>$
      60 ^@skerp<adj><sint><attr>$
      60 ^@landelik<adj><pred>$
-     59 ^@progressief<adj><attr>$
      59 ^@polities<adj><attr>$
      59 ^@kompleks<adj><attr>$
-     59 ^@individueel<adj><pred>$
      59 ^@aanvanklik<adj><pred>$
      58 ^@teenoorgesteld<adj><attr>$
      58 ^@onlangs<adj><pred>$
      58 ^@genomineer<adj><pred>$
      57 ^@presies<adj><pred>$
      57 ^@perspektief<adj><pred>$
-     57 ^@ongewild<adj><sint><pred>$
      57 ^@horisontaal<adj><attr>$
      57 ^@endemies<adj><pred>$
      57 ^@analities<adj><attr>$
@@ -374,15 +348,13 @@
      55 ^@gepromoveer<adj><pred>$
      54 ^@simbolies<adj><pred>$
      54 ^@simbolies<adj><attr>$
-     54 ^@senior<adj><pred>$
      54 ^@regstreeks<adj><attr>$
      54 ^@polities<adj><pred>$
      54 ^@musikaal<adj><pred>$
      54 ^@biologies<adj><pred>$
      53 ^@sleg<adj><attr>$
-     53 ^@senior<adj><attr>$
+     53 ^@ons<adj><pred>$
      53 ^@oënskynlik<adj><pred>$
-     53 ^@noukeurig<adj><sint><pred>$
      53 ^@maksimaal<adj><pred>$
      53 ^@leidende<adj><pred>$
      53 ^@kern<adj><pred>$
@@ -390,26 +362,24 @@
      52 ^@romanties<adj><attr>$
      52 ^@organies<adj><pred>$
      52 ^@openlik<adj><pred>$
+     52 ^@noukeurig<adj><sint><pred>$
      52 ^@middel<adj><attr>$
      52 ^@legendaries<adj><pred>$
      52 ^@geologies<adj><pred>$
      52 ^@betroubaar<adj><pred>$
      51 ^@radikaal<adj><attr>$
-     51 ^@ons<adj><pred>$
      51 ^@logies<adj><attr>$
      51 ^@gesamentlik<adj><attr>$
      51 ^@betrokke<adj><pred>$
      51 ^@argitektonies<adj><pred>$
      51 ^@afsonderlik<adj><pred>$
      50 ^@vars<adj><sint><pred>$
-     50 ^@sensitief<adj><pred>$
      50 ^@geneties<adj><pred>$
      50 ^@betroubaar<adj><attr>$
      50 ^@aangrensend<adj><pred>$
      49 ^@tegnologies<adj><pred>$
      49 ^@maksimaal<adj><attr>$
      49 ^@grafies<adj><attr>$
-     49 ^@doeltreffend<adj><sint><attr>$
      48 ^@uiteindelik<adj><pred>$
      48 ^@potensieel<adj><pred>$
      48 ^@gemeng<adj><attr>$
@@ -437,13 +407,11 @@
      43 ^@noodsaaklik<adj><sint><attr>$
      43 ^@geredelik<adj><sint><pred>$
      43 ^@bevry<adj><pred>$
-     43 ^@betekenisvol<adj><attr>$
      42 ^@weekliks<adj><pred>$
      42 ^@teoreties<adj><attr>$
      42 ^@skoon<adj><pred>$
      42 ^@perfek<adj><pred>$
      42 ^@maklik<adj><sint><attr>$
-     42 ^@intensief<adj><pred>$
      42 ^@geïntegreer<adj><attr>$
      42 ^@gebaseer<adj><attr>$
      41 ^@konvensioneel<adj><pred>$
@@ -461,7 +429,6 @@
      39 ^@tegnologies<adj><attr>$
      39 ^@onmiddellik<adj><attr>$
      39 ^@mediterreens<adj><pred>$
-     39 ^@gesofistikeerd<adj><sint><pred>$
      39 ^@gekomponeer<adj><pred>$
      38 ^@voortreflik<adj><sint><attr>$
      38 ^@radioaktief<adj><pred>$
@@ -484,7 +451,6 @@
      36 ^@gedateer<adj><pred>$
      35 ^@verkeerdelik<adj><pred>$
      35 ^@skadelik<adj><sint><pred>$
-     35 ^@ongekend<adj><attr>$
      35 ^@laas<adj><attr>$
      35 ^@georganiseer<adj><attr>$
      34 ^@geadministreer<adj><pred>$
@@ -505,42 +471,37 @@
      31 ^@wes<adj><attr>$
      31 ^@skielik<adj><attr>$
      31 ^@sinteties<adj><attr>$
-     31 ^@radiaal<adj><pred>$
      31 ^@lewendig<adj><sint><attr>$
      31 ^@genoteer<adj><pred>$
      31 ^@gedokumenteer<adj><pred>$
-     31 ^@betekenisvol<adj><pred>$
      30 ^@talryk<adj><sint><pred>$
      30 ^@taamlik<adj><pred>$
      30 ^@soet<adj><sint><attr>$
+     30 ^@julle<adj><pred>$
+     30 ^@indo-europees<adj><pred>$
      30 ^@drasties<adj><attr>$
      30 ^@aantreklik<adj><sint><attr>$
      29 ^@wydverspreid<adj><pred>$
-     29 ^@relevant<adj><pred>$
-     29 ^@ongekend<adj><pred>$
      29 ^@nomadies<adj><attr>$
      29 ^@kragtig<adj><sint><attr>$
      29 ^@klimaat<adj><pred>$
-     29 ^@julle<adj><pred>$
      29 ^@indiwidueel<adj><pred>$
      29 ^@grafies<adj><pred>$
      29 ^@georganiseer<adj><pred>$
      29 ^@geïllustreer<adj><pred>$
      29 ^@emosioneel<adj><pred>$
-     29 ^@blywend<adj><sint><pred>$
      29 ^@beslissend<adj><sint><pred>$
      28 ^@reaktief<adj><pred>$
-     28 ^@mineraal<adj><attr>$
      28 ^@mededingend<adj><pred>$
      28 ^@kreatief<adj><pred>$
      28 ^@gekombineer<adj><pred>$
      28 ^@etimologies<adj><attr>$
      28 ^@dinamies<adj><attr>$
+     28 ^@blywend<adj><sint><pred>$
      28 ^@aggressief<adj><pred>$
      27 ^@ywerig<adj><sint><pred>$
      27 ^@vokaal<adj><pred>$
      27 ^@verkieslik<adj><sint><pred>$
-     27 ^@vatbaar<adj><pred>$
      27 ^@subtropies<adj><pred>$
      27 ^@onvermydelik<adj><pred>$
      27 ^@gematrikuleer<adj><pred>$
@@ -552,7 +513,6 @@
      26 ^@uitsonderlik<adj><attr>$
      26 ^@suidwestelik<adj><pred>$
      26 ^@sterflik<adj><pred>$
-     26 ^@stadig<adj><sint><attr>$
      26 ^@radioaktief<adj><attr>$
      26 ^@herwin<adj><pred>$
      26 ^@grondwetlik<adj><pred>$
@@ -572,23 +532,20 @@
      24 ^@vyandelik<adj><attr>$
      24 ^@tersiêr<adj><pred>$
      24 ^@realisties<adj><attr>$
-     24 ^@rampspoedig<adj><sint><pred>$
      24 ^@oopbron<adj><pred>$
      24 ^@numeries<adj><attr>$
+     24 ^@noukeurig<adj><sint><attr>$
      24 ^@nederduits<adj><attr>$
-     24 ^@intensief<adj><attr>$
      24 ^@indiwidueel<adj><attr>$
-     24 ^@gesofistikeerd<adj><sint><attr>$
      24 ^@gemonteer<adj><pred>$
      24 ^@gekoloniseer<adj><pred>$
      24 ^@effektief<adj><attr>$
      24 ^@afhanklik<adj><attr>$
      23 ^@vriendskaplik<adj><attr>$
      23 ^@rou<adj><pred>$
-     23 ^@primitief<adj><attr>$
-     23 ^@noukeurig<adj><sint><attr>$
      23 ^@nie-amptelik<adj><attr>$
      23 ^@kreatief<adj><attr>$
+     23 ^@kos<adj><pred>$
      23 ^@gerespekteer<adj><pred>$
      23 ^@gedroog<adj><pred>$
      23 ^@gedomineer<adj><pred>$
@@ -601,7 +558,6 @@
      22 ^@skoon<adj><sint><attr>$
      22 ^@sinteties<adj><pred>$
      22 ^@seisoenaal<adj><pred>$
-     22 ^@primitief<adj><pred>$
      22 ^@polêr<adj><pred>$
      22 ^@liggaamlik<adj><pred>$
      22 ^@gepubliseer<adj><attr>$
@@ -613,7 +569,6 @@
      21 ^@oos<adj><attr>$
      21 ^@nie-amptelik<adj><pred>$
      21 ^@markies<adj><pred>$
-     21 ^@kos<adj><pred>$
      21 ^@konvensioneel<adj><attr>$
      21 ^@innerlik<adj><pred>$
      21 ^@ideologies<adj><pred>$
@@ -621,9 +576,9 @@
      21 ^@gedeeltelik<adj><pred>$
      21 ^@gebombardeer<adj><pred>$
      21 ^@geassimileer<adj><pred>$
+     21 ^@blywend<adj><sint><attr>$
      21 ^@blink<adj><sint><pred>$
      21 ^@analities<adj><pred>$
-     20 ^@wisselvallig<adj><sint><pred>$
      20 ^@vyandelik<adj><pred>$
      20 ^@uitdruklik<adj><pred>$
      20 ^@patrioties<adj><attr>$
@@ -633,13 +588,11 @@
      20 ^@geesdriftig<adj><sint><pred>$
      20 ^@gedefinieer<adj><attr>$
      20 ^@foneties<adj><pred>$
-     20 ^@blywend<adj><sint><attr>$
      19 ^@wenslik<adj><sint><pred>$
      19 ^@vyandig<adj><sint><pred>$
      19 ^@vriendskaplik<adj><pred>$
      19 ^@versoenbaar<adj><pred>$
      19 ^@toepaslik<adj><sint><attr>$
-     19 ^@taai<adj><sint><pred>$
      19 ^@staties<adj><pred>$
      19 ^@spesies<adj><attr>$
      19 ^@solied<adj><sint><attr>$
@@ -651,13 +604,11 @@
      19 ^@geanaliseer<adj><pred>$
      19 ^@foneties<adj><attr>$
      19 ^@feestelik<adj><pred>$
-     19 ^@dier<adj><attr>$
      18 ^@vrolik<adj><sint><pred>$
      18 ^@toegewyd<adj><pred>$
      18 ^@stewig<adj><sint><attr>$
      18 ^@statisties<adj><attr>$
      18 ^@sporadies<adj><pred>$
-     18 ^@snaaks<adj><sint><pred>$
      18 ^@satiries<adj><pred>$
      18 ^@operasioneel<adj><pred>$
      18 ^@oorerflik<adj><attr>$
@@ -667,7 +618,6 @@
      18 ^@gedoseer<adj><pred>$
      18 ^@gedistilleer<adj><pred>$
      18 ^@gedemonstreer<adj><pred>$
-     18 ^@filiaal<adj><pred>$
      18 ^@betreklik<adj><pred>$
      18 ^@alternatiewelik<adj><pred>$
      18 ^@akkusatief<adj><pred>$
@@ -698,7 +648,6 @@
      16 ^@toepaslik<adj><sint><pred>$
      16 ^@taamlik<adj><attr>$
      16 ^@subjektief<adj><pred>$
-     16 ^@sensitief<adj><attr>$
      16 ^@rasioneel<adj><pred>$
      16 ^@psigologies<adj><attr>$
      16 ^@problematies<adj><pred>$
@@ -713,7 +662,6 @@
      15 ^@waarskynlik<adj><sint><pred>$
      15 ^@uitsonderlik<adj><pred>$
      15 ^@uiterlik<adj><attr>$
-     15 ^@sowjet<adj><attr>$
      15 ^@sonnig<adj><sint><attr>$
      15 ^@salig<adj><sint><pred>$
      15 ^@rasioneel<adj><attr>$
@@ -742,12 +690,9 @@
      14 ^@simmetries<adj><pred>$
      14 ^@ruimtelik<adj><pred>$
      14 ^@rou<adj><attr>$
-     14 ^@oost<adj><pred>$
      14 ^@oopbron<adj><attr>$
      14 ^@lelik<adj><sint><pred>$
-     14 ^@kwantitatief<adj><attr>$
      14 ^@kollektief<adj><attr>$
-     14 ^@inherent<adj><pred>$
      14 ^@infinitief<adj><pred>$
      14 ^@humoristies<adj><pred>$
      14 ^@geskeduleer<adj><pred>$
@@ -756,7 +701,6 @@
      14 ^@geïnterneer<adj><pred>$
      14 ^@geaktiveer<adj><pred>$
      14 ^@aggressief<adj><attr>$
-     13 ^@wisselvallig<adj><sint><attr>$
      13 ^@voortreflik<adj><sint><pred>$
      13 ^@vlies<adj><pred>$
      13 ^@teenoorgesteld<adj><pred>$
@@ -779,16 +723,12 @@
      13 ^@eerlik<adj><pred>$
      13 ^@daadwerklik<adj><pred>$
      13 ^@buite-egtelik<adj><pred>$
-     13 ^@breedvoerig<adj><sint><pred>$
      13 ^@behoorlik<adj><pred>$
      12 ^@wyd<adj><pred>$
      12 ^@statisties<adj><pred>$
      12 ^@sorgwekkend<adj><sint><pred>$
      12 ^@ritmies<adj><pred>$
-     12 ^@relevant<adj><attr>$
      12 ^@rats<adj><sint><pred>$
-     12 ^@radiaal<adj><attr>$
-     12 ^@puik<adj><attr>$
      12 ^@outokraties<adj><attr>$
      12 ^@openlik<adj><attr>$
      12 ^@ontsaglik<adj><pred>$
@@ -809,7 +749,6 @@
      12 ^@deeglik<adj><sint><attr>$
      12 ^@betreklik<adj><attr>$
      11 ^@woedend<adj><sint><attr>$
-     11 ^@weelderig<adj><sint><pred>$
      11 ^@waansinnig<adj><sint><pred>$
      11 ^@vernietigend<adj><sint><pred>$
      11 ^@vermoedelik<adj><pred>$
@@ -817,7 +756,6 @@
      11 ^@skadelik<adj><sint><attr>$
      11 ^@simmetries<adj><attr>$
      11 ^@sferies<adj><pred>$
-     11 ^@rampspoedig<adj><sint><attr>$
      11 ^@psigologies<adj><pred>$
      11 ^@produktief<adj><attr>$
      11 ^@onderskeidelik<adj><attr>$
@@ -841,7 +779,6 @@
      10 ^@paniek<adj><pred>$
      10 ^@outokraties<adj><pred>$
      10 ^@misties<adj><pred>$
-     10 ^@kwantitatief<adj><pred>$
      10 ^@komies<adj><pred>$
      10 ^@geweldadig<adj><sint><attr>$
      10 ^@gemobiliseer<adj><pred>$
@@ -866,7 +803,6 @@
       9 ^@satiries<adj><attr>$
       9 ^@ritmies<adj><attr>$
       9 ^@regter<adj><attr>$
-      9 ^@puik<adj><pred>$
       9 ^@psigies<adj><pred>$
       9 ^@ontsaglik<adj><attr>$
       9 ^@onskadelik<adj><pred>$
@@ -880,7 +816,6 @@
       9 ^@lelik<adj><sint><attr>$
       9 ^@kontinu<adj><attr>$
       9 ^@kern<adj><attr>$
-      9 ^@inert<adj><attr>$
       9 ^@geskeer<adj><pred>$
       9 ^@gesertifiseer<adj><pred>$
       9 ^@geproduseer<adj><attr>$
@@ -904,15 +839,11 @@
       8 ^@sirkelvormig<adj><pred>$
       8 ^@sferies<adj><attr>$
       8 ^@seisoenaal<adj><attr>$
-      8 ^@rooskleurig<adj><sint><pred>$
       8 ^@retories<adj><pred>$
       8 ^@polêr<adj><attr>$
       8 ^@passievol<adj><pred>$
-      8 ^@onvolledig<adj><sint><pred>$
-      8 ^@ongewild<adj><sint><attr>$
       8 ^@lies<adj><pred>$
       8 ^@lewensgevaarlik<adj><pred>$
-      8 ^@latent<adj><pred>$
       8 ^@jul<adj><pred>$
       8 ^@hartlik<adj><pred>$
       8 ^@getrou<adj><sint><pred>$
@@ -928,9 +859,7 @@
       8 ^@alkalies<adj><pred>$
       8 ^@aansteeklik<adj><sint><pred>$
       7 ^@ysig<adj><sint><pred>$
-      7 ^@winderig<adj><sint><pred>$
       7 ^@vriendelik<adj><sint><attr>$
-      7 ^@taai<adj><sint><attr>$
       7 ^@sondig<adj><sint><pred>$
       7 ^@sektaries<adj><attr>$
       7 ^@saam<adj><pred>$
@@ -942,11 +871,8 @@
       7 ^@ontoeganklik<adj><sint><pred>$
       7 ^@onontbeerlik<adj><pred>$
       7 ^@onlosmaaklik<adj><pred>$
-      7 ^@modern<adj><sint><pred>$
       7 ^@misties<adj><attr>$
-      7 ^@kwalitatief<adj><pred>$
       7 ^@kubies<adj><pred>$
-      7 ^@intuïtief<adj><pred>$
       7 ^@imperialisties<adj><attr>$
       7 ^@geruïneer<adj><pred>$
       7 ^@gerepatrieer<adj><pred>$
@@ -966,15 +892,12 @@
       7 ^@geërodeer<adj><pred>$
       7 ^@geaktiveer<adj><attr>$
       7 ^@empiries<adj><pred>$
-      7 ^@datief<adj><pred>$
       7 ^@chronologies<adj><attr>$
       7 ^@alkalies<adj><attr>$
       7 ^@agterlik<adj><pred>$
       7 ^@aanstootlik<adj><sint><pred>$
-      6 ^@winderig<adj><sint><attr>$
       6 ^@wesenlik<adj><attr>$
       6 ^@weens<adj><attr>$
-      6 ^@weelderig<adj><sint><attr>$
       6 ^@voortydig<adj><pred>$
       6 ^@vokaal<adj><attr>$
       6 ^@triomfantelik<adj><pred>$
@@ -989,15 +912,12 @@
       6 ^@onduidelik<adj><attr>$
       6 ^@naak<adj><attr>$
       6 ^@my<adj><attr>$
-      6 ^@modern<adj><sint><attr>$
       6 ^@lokatief<adj><pred>$
-      6 ^@liefdevol<adj><pred>$
       6 ^@kursief<adj><pred>$
       6 ^@konstruktief<adj><pred>$
       6 ^@klimaat<adj><attr>$
       6 ^@jou<adj><attr>$
       6 ^@ironies<adj><attr>$
-      6 ^@inert<adj><pred>$
       6 ^@heimlik<adj><pred>$
       6 ^@goud<adj><sint><attr>$
       6 ^@gesirkuleer<adj><pred>$
@@ -1059,7 +979,6 @@
       5 ^@gefassineer<adj><pred>$
       5 ^@gedokumenteer<adj><attr>$
       5 ^@gediskwalifiseer<adj><pred>$
-      5 ^@ferm<adj><sint><attr>$
       5 ^@feitelik<adj><pred>$
       5 ^@elektrolities<adj><pred>$
       5 ^@eerlik<adj><attr>$
@@ -1085,13 +1004,10 @@
       4 ^@onbeweeglik<adj><pred>$
       4 ^@onaktief<adj><attr>$
       4 ^@morfologies<adj><pred>$
-      4 ^@liefdevol<adj><attr>$
       4 ^@letterlik<adj><pred>$
-      4 ^@latent<adj><attr>$
       4 ^@langafstand<adj><attr>$
       4 ^@kubies<adj><attr>$
       4 ^@klaaglik<adj><pred>$
-      4 ^@inherent<adj><attr>$
       4 ^@herwin<adj><attr>$
       4 ^@gewaardeer<adj><attr>$
       4 ^@gevarieer<adj><attr>$
@@ -1114,7 +1030,6 @@
       4 ^@gedomineer<adj><attr>$
       4 ^@gedevalueer<adj><pred>$
       4 ^@geadresseer<adj><pred>$
-      4 ^@ferm<adj><sint><pred>$
       4 ^@daadwerklik<adj><attr>$
       4 ^@bevredigend<adj><sint><attr>$
       4 ^@agterlik<adj><attr>$
@@ -1133,7 +1048,6 @@
       3 ^@resessief<adj><pred>$
       3 ^@proaktief<adj><pred>$
       3 ^@potensiaal<adj><attr>$
-      3 ^@portugees<adj><attr>$
       3 ^@opsioneel<adj><attr>$
       3 ^@onversetlik<adj><pred>$
       3 ^@onveranderlik<adj><attr>$
@@ -1174,7 +1088,6 @@
       3 ^@feitlik<adj><attr>$
       3 ^@feestelik<adj><attr>$
       3 ^@entoesiasties<adj><attr>$
-      3 ^@breedvoerig<adj><sint><attr>$
       3 ^@blou<adj><sint><pred>$
       3 ^@bewustelik<adj><attr>$
       3 ^@beswaarlik<adj><pred>$
@@ -1184,12 +1097,10 @@
       2 ^@wankelrig<adj><sint><attr>$
       2 ^@vryelik<adj><attr>$
       2 ^@voortydig<adj><attr>$
-      2 ^@vatbaar<adj><attr>$
       2 ^@toegeeflik<adj><pred>$
       2 ^@teësinnig<adj><sint><pred>$
       2 ^@sorgwekkend<adj><sint><attr>$
       2 ^@sondig<adj><sint><attr>$
-      2 ^@snaaks<adj><sint><attr>$
       2 ^@skematies<adj><attr>$
       2 ^@skeeps<adj><pred>$
       2 ^@sektaries<adj><pred>$
@@ -1210,12 +1121,9 @@
       2 ^@omgewings<adj><attr>$
       2 ^@mors<adj><attr>$
       2 ^@ly<adj><sint><attr>$
-      2 ^@kwalitatief<adj><attr>$
       2 ^@kos<adj><attr>$
       2 ^@klaarblyklik<adj><attr>$
       2 ^@isotropies<adj><attr>$
-      2 ^@informatief<adj><pred>$
-      2 ^@informatief<adj><attr>$
       2 ^@inaktief<adj><pred>$
       2 ^@hospies<adj><pred>$
       2 ^@gestandaardiseer<adj><pred>$
@@ -1242,7 +1150,6 @@
       2 ^@gedemonstreer<adj><attr>$
       2 ^@gearresteer<adj><attr>$
       2 ^@geannekseer<adj><attr>$
-      2 ^@filiaal<adj><attr>$
       2 ^@epidemies<adj><attr>$
       2 ^@dadelik<adj><attr>$
       2 ^@besorg<adj><attr>$
@@ -1258,7 +1165,6 @@
       1 ^@substantief<adj><attr>$
       1 ^@spies<adj><attr>$
       1 ^@slymvlies<adj><attr>$
-      1 ^@rooskleurig<adj><sint><attr>$
       1 ^@problematies<adj><attr>$
       1 ^@opsetlik<adj><attr>$
       1 ^@oombliklik<adj><attr>$
@@ -1267,7 +1173,6 @@
       1 ^@onbewustelik<adj><attr>$
       1 ^@lokatief<adj><attr>$
       1 ^*k$ʷ^@oorspronklik<adj><pred>$
-      1 ^@intuïtief<adj><attr>$
       1 ^@inaktief<adj><attr>$
       1 ^@hartlik<adj><attr>$
       1 ^@gevarieer<adj><pred>$
@@ -1303,7 +1208,6 @@
       1 ^@gediagnoseer<adj><attr>$
       1 ^@gedateer<adj><attr>$
       1 ^@geaffekteer<adj><attr>$
-      1 ^@datief<adj><attr>$
       1 ^@dadelik<adj><pred>$
       1 ^@blou<adj><sint><attr>$
       1 ^@bevry<adj><attr>$

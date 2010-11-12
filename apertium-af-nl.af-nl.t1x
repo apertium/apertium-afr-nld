@@ -21,21 +21,32 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
+    <def-cat n="prep_atp">
+      <cat-item tags="pr.atp"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.dem.*"/>
       <cat-item tags="det.def.*"/>
+      <cat-item tags="det.qnt.*"/>
     </def-cat>
     <def-cat n="prpers">
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
-    <def-cat n="verbnm"><!--verb no modal -->
+    <def-cat n="verbfin">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbhaver.*"/> 
     </def-cat>
+    <def-cat n="verbpp">
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vbser.pp"/>
+      <cat-item tags="vbhaver.pp"/> 
+    </def-cat>
+
     <def-cat n="prep"> <!-- preposition -->
       <cat-item tags="pr"/>
     </def-cat>
@@ -49,12 +60,15 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
     </def-attr>
     <def-attr n="gen">			<!-- Gender -->
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
+      <attr-item tags="mfn"/>
       <attr-item tags="nt"/>
+      <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="a_conj">
       <attr-item tags="cnjadv"/>
@@ -82,6 +96,8 @@
     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
       <attr-item tags="det.def"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.qnt"/>
     </def-attr>
     <def-attr n="a_rel">
       <attr-item tags="rel"/>
@@ -121,9 +137,115 @@
     <def-var n="caseFirstWord"/>
     <def-var n="nombre"/>
   </section-def-vars>
+ 
+  <section-def-macros>
+    <def-macro n="f_concord2" npar="2">
+        <choose>
+          <when>
+            <test>
+              <and>
+                <not>
+                  <equal>
+                    <clip pos="2" side="tl" part="gen"/>
+                    <lit-tag v="nt"/>
+                  </equal>
+                </not>
+                <equal>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="mf"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <lit-tag v="nt"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <lit-tag v="sg"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="nt"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="mfn"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="pl"/>
+            </let>
+          </otherwise>
+        </choose>
+    </def-macro>
+  </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: NOM (per a collocar la cua en les multiparaules amb g">
+    <rule comment="REGLA: det">
+      <pattern>
+        <pattern-item n="det"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="gen"/>
+                <lit-tag v="GD"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="mf"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="det" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: nom">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -131,7 +253,7 @@
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
+              <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
@@ -171,118 +293,36 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM GENITIVE">
-      <pattern>
-        <pattern-item n="det"/>
-        <pattern-item n="nom"/>
-        <pattern-item n="genitive"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="det_nom_gen" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="2" side="sl" part="gen"/></tag>
-              <tag><var n="nombre"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="2" side="tl" part="nbr"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
-              <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-	      <lit-tag v="gen"/>
-            </lu>
-          </chunk>
-        </out>
-        <let>
-          <var n="caseFirstWord"/>
-          <lit v="aa"/>
-        </let>
-      </action>
-    </rule>
-
-
     <rule comment="REGLA: DET NOM">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="2" side="sl" part="gen"/></tag>
-              <tag><var n="nombre"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <let>
-          <var n="caseFirstWord"/>
-          <lit v="aa"/>
-        </let>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: DET ADJ NOM GEN">
-      <pattern>
-        <pattern-item n="det"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-        <pattern-item n="genitive"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="det_adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="2" side="sl" part="gen"/></tag>
-              <tag><var n="nombre"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_det"/>
-              <clip pos="1" side="tl" part="nbr"/>
-            </lu>
-	    <b pos="1"/>
-              <lu>
-                <clip pos="2" side="tl" part="lem"/>
-    	        <clip pos="2" side="tl" part="a_adj"/>
-	        <lit-tag v="attr"/>
-              </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="3" side="tl" part="lemh"/>
-              <clip pos="3" side="tl" part="a_nom"/>
-              <clip pos="3" side="tl" part="nbr"/>
-              <clip pos="3" side="tl" part="lemq"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="4" side="tl" part="lem"/>
-              <lit-tag v="gen"/>
             </lu>
           </chunk>
         </out>
@@ -300,16 +340,21 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
           <chunk name="det_adj_nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
-              <tag><clip pos="2" side="sl" part="gen"/></tag>
-              <tag><var n="nombre"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="3" side="tl" part="gen"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
 	    <b pos="1"/>
@@ -322,6 +367,7 @@
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
               <clip pos="3" side="tl" part="nbr"/>
               <clip pos="3" side="tl" part="lemq"/>
             </lu>
@@ -343,7 +389,7 @@
             <out>
           <chunk name="adj_nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
+              <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="sl" part="gen"/></tag>
               <tag><var n="nombre"/></tag>
 	    </tags>
@@ -356,6 +402,7 @@
               <lu>
                 <clip pos="2" side="tl" part="lem"/>
     	        <clip pos="2" side="tl" part="a_nom"/>
+    	        <clip pos="2" side="tl" part="gen"/>
     	        <clip pos="2" side="tl" part="nbr"/>
               </lu>
             </chunk>
@@ -379,6 +426,7 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -429,6 +477,7 @@
               <lu>
                 <clip pos="4" side="tl" part="lem"/>
     	        <clip pos="4" side="tl" part="a_nom"/>
+    	        <clip pos="4" side="tl" part="gen"/>
     	        <clip pos="4" side="tl" part="nbr"/>
               </lu>
             </chunk>
@@ -480,7 +529,7 @@
             <out>
           <chunk name="adj_nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
+              <tag><lit-tag v="SN"/></tag>
               <tag><clip pos="2" side="sl" part="gen"/></tag>
               <tag><var n="nombre"/></tag>
 	    </tags>
@@ -499,6 +548,7 @@
               <lu>
                 <clip pos="3" side="tl" part="lem"/>
     	        <clip pos="3" side="tl" part="a_nom"/>
+    	        <clip pos="3" side="tl" part="gen"/>
     	        <clip pos="3" side="tl" part="nbr"/>
               </lu>
             </chunk>
@@ -568,260 +618,50 @@
       </action>
     </rule>
 
-    <rule>
+
+    <rule comment="REGLA: verbpp">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="verbpp"/>
       </pattern>
       <action>
-            <out>
-              <lu>
-                <clip pos="1" side="tl" part="lem"/>
-    	        <clip pos="1" side="tl" part="a_nom"/>
-    	        <clip pos="1" side="tl" part="nbr"/>
-              </lu>
-            </out>
+        <out>
+          <chunk name="verbpp">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
       </action>
     </rule>
 
 
-    <rule comment="REGLA: VERBNM">
+    <rule comment="REGLA: verbfin">
       <pattern>
-        <pattern-item n="verbnm"/>
+        <pattern-item n="verbfin"/>
       </pattern>
       <action>
-        <choose>
-
-          <when>
-            <test>     <!-- If it is third person singular in the present tense -->
-		  <and>
-                  <or>
-                    <equal>
-                      <clip pos="1" side="tl" part="temps"/>
-                      <lit-tag v="pp"/>
-                    </equal>
-                    <equal>
-                      <clip pos="1" side="tl" part="temps"/>
-                      <lit-tag v="past"/>
-                    </equal>
-                  </or>
-		  <not>
-                  <equal> 
-                    <clip pos="1" side="tl" part="a_verb"/>
-                    <lit-tag v="vblex.uns"/> 
-                  </equal>
-		  </not>
-		  <not>
-                  <equal> 
-                    <clip pos="1" side="tl" part="lem"/>
-                    <lit v="wees"/>                            <!-- be is a special case -->
-                  </equal>
-		  </not>
-		  </and>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-	      </chunk>
-              <b/>
-	      <chunk name="verb_participle">
-	        <tags>
-		  <tag><lit-tag v="V"/></tag>
-		  <tag><lit-tag v="PART"/></tag>
-		</tags>
-	      <lu>
-		  <lit v="ge"/>
-		</lu>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
-<!--                  <clip pos="1" side="tl" part="temps"/> -->
-              </lu>
-              </chunk>
-            </out>
-          </when>
-
-          <when>
-            <test>     <!-- If it is third person singular in the present tense -->
-		  <and>
-                    <or>
-                      <equal>
-                        <clip pos="1" side="tl" part="temps"/>
-                        <lit-tag v="pp"/>
-                      </equal>
-                      <equal>
-                        <clip pos="1" side="tl" part="temps"/>
-                        <lit-tag v="past"/>
-                      </equal>
-                    </or>
-                    <equal> 
-                      <clip pos="1" side="tl" part="a_verb"/>
-                      <lit-tag v="vblex.uns"/> 
-                    </equal>
-		  </and>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-	      </chunk>
-              <b/>
-	      <chunk name="verb_participle">
-	        <tags>
-		  <tag><lit-tag v="V"/></tag>
-		  <tag><lit-tag v="PART"/></tag>
-		</tags>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
-              </lu>
-              </chunk>
-            </out>
-          </when>
-
-          <otherwise>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/>
-                </lu>
-              </chunk>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-
-    <!-- ^be<vbser><past>$ ^organise<vblex><pp>$ -->
-    <rule comment="REGLA: VERBNM">
-      <pattern>
-        <pattern-item n="verbnm"/>
-        <pattern-item n="verbnm"/>
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>   
-                <equal>
-                  <clip pos="1" side="tl" part="temps"/>
-                  <lit-tag v="pp"/>
-                </equal>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-              </chunk>
-              <b/>
-              <chunk name="verb_participle">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                  <tag><lit-tag v="PART"/></tag>
-                </tags>
-              <lu>
-                  <lit v="ge"/>
-                </lu>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <lit-tag v="inf"/>
-<!--                  <clip pos="1" side="tl" part="temps"/> -->
-              </lu>
-              </chunk>
-            </out>
-          </when>
-
-          <when>
-            <test> 
-              <and>
-                <equal>
-                  <clip pos="2" side="tl" part="temps"/>
-                  <lit-tag v="pp"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="be"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="temps"/>
-                  <lit-tag v="past"/>
-                </equal>
-              </and>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/> 
-              </lu>
-	      </chunk>
-              <b/>
-	      <chunk name="verb_participle">
-	        <tags>
-		  <tag><lit-tag v="V"/></tag>
-		  <tag><lit-tag v="PART"/></tag>
-		</tags>
-	      <lu>
-		  <lit v="ge"/>
-		</lu>
-              <lu>
-                  <clip pos="2" side="tl" part="lem"/>
-                  <clip pos="2" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
-<!--                  <clip pos="2" side="tl" part="temps"/> -->
-              </lu>
-              </chunk>
-            </out>
-          </when>
-          <otherwise>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-                <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/>
-                </lu>
-                <lu>
-                  <clip pos="2" side="tl" part="lem"/>
-                  <clip pos="2" side="tl" part="a_verb"/>
-                  <clip pos="2" side="tl" part="temps"/>
-                </lu>
-              </chunk>
-            </out>
-          </otherwise>
-        </choose>
+        <out>
+          <chunk name="verb">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="3.4"/>
+            </lu>
+          </chunk>
+        </out>
       </action>
     </rule>
 
@@ -850,7 +690,28 @@
      </action>
    </rule>
 
-    <rule comment="REGLA: NOM (per a collocar la cua en les multiparaules amb g">
+    <rule comment="REGLA: prep">
+      <pattern>
+        <pattern-item n="prep_atp"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prep" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PREP"/></tag>
+              <tag><lit-tag v="ATP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: conj">
       <pattern>
         <pattern-item n="conj"/>
       </pattern>
