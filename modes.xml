@@ -67,6 +67,35 @@
   </mode>
 
 
+  <mode name="nl-af-cmpd" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="nl-af.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nl-af.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-af-nl.nl-af.t1x"/>
+        <file name="nl-af.t1x.bin"/>
+        <file name="nl-af.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-af-nl.nl-af.t2x"/>
+        <file name="nl-af.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-af-nl.nl-af.t3x"/>
+        <file name="nl-af.t3x.bin"/>
+      </program>
+      <program name="lt-proc -g">
+        <file name="nl-af.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nl-af" install="yes">
     <pipeline>
       <program name="lt-proc">

@@ -145,6 +145,10 @@
       <e>       <p><l/><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
+    <pardef n="terwijl__cnjadv">
+      <e>       <p><l/><r><s n="cnjadv"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Determiners-->    
 
     <pardef n="een__det">
@@ -171,9 +175,14 @@
     </pardef>
 
     <pardef n="mijn__det">
-      <e>       <p><l/><r><s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
-      <e r="RL"><p><l/><r><s n="det"/><s n="pos"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l/><r><s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+      <e>       <p><l/><r><s n="det"/><s n="pos"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="pos"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="pos"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="on/ze__det">
+      <e>       <p><l>ze</l><r>ze<s n="det"/><s n="pos"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e>       <p><l>s</l><r>ze<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="tweede__det">
@@ -194,7 +203,7 @@
       <e>       <p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>jij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>je</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>je</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <e>       <p><l>hij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -202,22 +211,26 @@
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>ze</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ze</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="probj__prn">
       <e>       <p><l>mij</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>jou</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>je</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>je</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <e>       <p><l>hem</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>'m</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>haar</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>d'r</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>'r</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>ons</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -225,7 +238,7 @@
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>hun</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hen</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>hen</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e> <!-- iobj -->
     </pardef>
 
     <pardef n="wat__prn">
@@ -966,10 +979,10 @@
       <e>       <p><l>ken</l><r>ok<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="tafel__n_mf">
-      <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>en</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    <pardef n="tafel__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="to/og__n_m">
@@ -1302,10 +1315,22 @@
 
     <pardef n="Wynand__np">
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Anrie__np">
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Maria__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Beatrix__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="van_der_Merwe__np">
@@ -1331,6 +1356,74 @@
     </pardef>
 
     <!-- SECTION: Bijvoegelijke naamwoorden -->    
+
+    <pardef n="elk__adj">
+      <e>       <p><l></l><r><s n="adj"/><s n="ind"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="ind"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="gro/ot__adj">
+      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>oter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>otere</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>oters</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
+      <e>       <p><l>otst</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="/goed__adj">
+      <e>       <p><l>goed</l><r>goed<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>goede</l><r>goed<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>goeds</l><r>goed<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>beter</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>betere</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>best</l><r>goed<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>beste</l><r>goed<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="oud__adj">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="zwaar__adj">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e> <!-- zware ? -->
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>der</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>dere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="lekker__adj">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e> 
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>der</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>dere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="vrij__adj">
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ers</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
 
     <pardef n="behulpza/am__adj">
       <e>       <p><l>am</l><r>am<s n="adj"/></r></p></e>
@@ -1374,16 +1467,6 @@
       <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
-    <pardef n="vrij__adj">
-      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
-      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
-      <e>       <p><l>ere</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
-      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ers</l><r><s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
-      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
     <pardef n="ro/od__adj">
       <e>       <p><l>de</l><r>od<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>od</l><r>od<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
@@ -1392,16 +1475,6 @@
       <e>       <p><l>odere</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
       <e>       <p><l>oders</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
       <e>       <p><l>oodste</l><r>od<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
-    <pardef n="gro/ot__adj">
-      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
-      <e>       <p><l>oter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
-      <e>       <p><l>otere</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
-      <e>       <p><l>oters</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
-      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="openba/ar__adj">
@@ -1414,22 +1487,17 @@
       <e>       <p><l>aardste</l><r>ar<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
-    <pardef n="duur__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="sint"/></r></p></e>
-      <e>       <p><l>der</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+    <pardef n="du/ur__adj">
+      <e>       <p><l>ur</l><r>ur<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>re</l><r>ur<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>urder</l><r>ur<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e>       <p><l>urst</l><r>ur<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="fris__adj">
       <e>       <p><l/><r><s n="adj"/></r></p></e>
       <e>       <p><l>ser</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>t</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
-    <pardef n="lekker__adj">
-      <e>       <p><l/><r><s n="adj"/></r></p></e>
-      <e>       <p><l>der</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="nat__adj">
@@ -1451,15 +1519,11 @@
     </pardef>
 
     <pardef n="snel__adj">
-      <e>       <p><l/><r><s n="adj"/></r></p></e>
-      <e>       <p><l>sneller</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>snelst</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
-    <pardef n="zwaar__adj">
-      <e>       <p><l/><r><s n="adj"/></r></p></e>
-      <e>       <p><l>zwaarder</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>zwaarst</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+      <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>ler</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="la/at__adj">
@@ -1475,12 +1539,6 @@
     </pardef>
 
     <pardef n="mooi__adj">
-      <e>       <p><l/><r><s n="adj"/></r></p></e>
-      <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
-    <pardef n="oud__adj">
       <e>       <p><l/><r><s n="adj"/></r></p></e>
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
@@ -1800,6 +1858,8 @@
     </pardef>
 
     <pardef n="dank/en__vblex">
+      <e>       <p><l>en</l><r>en<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>end</l><r>en<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l/><r>en<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>t</l><r>en<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l/><r>en<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2002,6 +2062,8 @@
     </pardef>
 
     <pardef n="d/enken__vblex">
+      <e>       <p><l>enken</l><r>enken<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>enkend</l><r>enken<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l>enk</l><r>enken<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>enkt</l><r>enken<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>enkt</l><r>enken<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2176,6 +2238,8 @@
     </pardef>
 
     <pardef n="br/engen__vblex">
+      <e>       <p><l>engen</l><r>engen<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>engen</l><r>engen<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l>eng</l><r>engen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>engt</l><r>engen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>engt</l><r>engen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2300,6 +2364,8 @@
     </pardef>
 
     <pardef n="pra/ten__vblex">
+      <e>       <p><l>aten</l><r>ten<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>atend</l><r>ten<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l>at</l><r>ten<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>at</l><r>ten<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>at</l><r>ten<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2315,6 +2381,8 @@
     </pardef>
 
     <pardef n="ko/ken__vblex">
+      <e>       <p><l>ken</l><r>ken<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>kend</l><r>ken<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l>ok</l><r>ken<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>okt</l><r>ken<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>okt</l><r>ken<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2330,6 +2398,8 @@
     </pardef>
 
     <pardef n="bouw/en__vblex">
+      <e>       <p><l>en</l><r>en<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>end</l><r>en<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l/><r>en<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>t</l><r>en<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>t</l><r>en<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2360,6 +2430,8 @@
     </pardef>
 
     <pardef n="brand/en__vblex">
+      <e>       <p><l>en</l><r>en<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>end</l><r>en<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l/><r>en<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>t</l><r>en<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>t</l><r>en<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2476,6 +2548,8 @@
     </pardef>
 
     <pardef n="dr/inken__vblex">
+      <e>       <p><l>inken</l><r>inken<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>inkend</l><r>inken<s n="vblex"/><s n="pprs"/></r></p></e>
       <e>       <p><l>ink</l><r>inken<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>inkt</l><r>inken<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>inkt</l><r>inken<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2805,7 +2879,6 @@
     <e lm="nadat"><i>nadat</i><par n="als__cnjsub"/></e>
     <e lm="sinds"><i>sinds</i><par n="als__cnjsub"/></e>
     <e lm="tenzij"><i>tenzij</i><par n="als__cnjsub"/></e>
-    <e lm="terwijl"><i>terwijl</i><par n="als__cnjsub"/></e>
     <e lm="toen"><i>toen</i><par n="als__cnjsub"/></e>
     <e lm="tot"><i>tot</i><par n="als__cnjsub"/></e>
     <e lm="wanneer"><i>wanneer</i><par n="als__cnjsub"/></e>
@@ -2814,6 +2887,8 @@
     <e lm="zolang"><i>zolang</i><par n="als__cnjsub"/></e>
     <e lm="zonder dat"><i>zonder dat</i><par n="als__cnjsub"/></e>
     <e lm="zover"><i>zover</i><par n="als__cnjsub"/></e>
+
+    <e lm="terwijl"><i>terwijl</i><par n="terwijl__cnjadv"/></e>
 
     <!-- SECTION: Voorzetsels -->
 
@@ -2865,6 +2940,11 @@
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <e lm="iets"><i>iets</i><par n="iets__prn"/></e>
+    <e lm="niets"><i>niets</i><par n="iets__prn"/></e>
+    <e lm="wat"><i>wat</i><par n="iets__prn"/></e>
+
+    <e lm="iemand"><i>iemand</i><par n="iets__prn"/></e>
+    <e lm="niemand"><i>niemand</i><par n="iets__prn"/></e>
 
     <!-- SECTION: Lidwoorden en geschlacht -->
 
@@ -2878,10 +2958,12 @@
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
+    <e lm="uw"><i>uw</i><par n="mijn__det"/></e>
     <e lm="haar"><i>haar</i><par n="mijn__det"/></e>
     <e lm="zijn"><i>zijn</i><par n="mijn__det"/></e>
+    <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
+    <e lm="jullie"><i>jullie</i><par n="mijn__det"/></e>
     <e lm="hun"><i>hun</i><par n="mijn__det"/></e>
-    <e lm="ons"><i>ons</i><par n="mijn__det"/></e>
 
     <e lm="laatst"><i>laatst</i><par n="tweede__det"/></e>
     <e lm="eerste"><i>eerste</i><par n="tweede__det"/></e>
@@ -2948,7 +3030,7 @@
     <e lm="krant"><i>krant</i><par n="vork__n_mf"/></e>
     <e lm="hond"><i>hond</i><par n="vork__n_mf"/></e>
     <e lm="aardbei"><i>aardbei</i><par n="vork__n_mf"/></e>
-    <e lm="vrouw"><i>vrouw</i><par n="vork__n_mf"/></e>
+    <e lm="vrouw"><i>vrouw</i><par n="ooi__n_f"/></e>
     <e lm="tijd"><i>tijd</i><par n="vork__n_mf"/></e>
     <e lm="vrucht"><i>vrucht</i><par n="vork__n_mf"/></e>
     <e lm="kalkoen"><i>kalkoen</i><par n="vork__n_mf"/></e>
@@ -3072,7 +3154,6 @@
     <e lm="weg"><i>weg</i><par n="vork__n_mf"/></e>
     <e lm="club"><i>club</i><par n="inwoner__n_mf"/></e>
     <e lm="titel"><i>titel</i><par n="inwoner__n_mf"/></e>
-    <e lm="dag"><i>dag</i><par n="vork__n_mf"/></e> 
     <e lm="oorlog"><i>oorlog</i><par n="vork__n_mf"/></e> 
     <e lm="onderzoek"><i>onderzoek</i><par n="boek__n_nt"/></e> 
     <e lm="grond"><i>grond</i><par n="vork__n_mf"/></e> 
@@ -3082,6 +3163,16 @@
     <e lm="dienst"><i>dienst</i><par n="vork__n_mf"/></e> 
     <e lm="voorbeeld"><i>voorbeeld</i><par n="boek__n_nt"/></e> 
     <e lm="gebouw"><i>gebouw</i><par n="boek__n_nt"/></e>
+
+    <e lm="dag"><i>dag</i><par n="vork__n_mf"/></e> 
+
+    <e lm="maandag"><i>maandag</i><par n="vork__n_mf"/></e> 
+    <e lm="dinsdag"><i>dinsdag</i><par n="vork__n_mf"/></e> 
+    <e lm="woensdag"><i>woensdag</i><par n="vork__n_mf"/></e> 
+    <e lm="donderdag"><i>donderdag</i><par n="vork__n_mf"/></e> 
+    <e lm="vrijdag"><i>vrijdag</i><par n="vork__n_mf"/></e> 
+    <e lm="zaterdag"><i>zaterdag</i><par n="vork__n_mf"/></e> 
+    <e lm="zondag"><i>zondag</i><par n="vork__n_mf"/></e> 
 
     <e lm="eiland"><i>eiland</i><par n="boek__n_nt"/></e>     
     <e lm="feit"><i>feit</i><par n="boek__n_nt"/></e>     
@@ -4091,7 +4182,8 @@
     <e lm="sympathie"><i>sympathie</i><par n="fee__n_f"/></e>
     <e lm="systeem"><i>syste</i><par n="he/em__n_nt"/></e>
     <e lm="taalkundige"><i>taalkundige</i><par n="dove__n_m"/></e>
-    <e lm="tafel"><i>tafel</i><par n="tafel__n_mf"/></e>
+    <e lm="tafel"><i>tafel</i><par n="tafel__n_m"/></e>
+    <e lm="restaurant"><i>restaurant</i><par n="bal__n_nt"/></e>
     <e lm="tak"><i>tak</i><par n="bok__n_m"/></e>
     <e lm="tank"><i>tank</i><par n="boy__n_m"/></e>
     <e lm="tas"><i>tas</i><par n="zus__n_f"/></e>
@@ -4459,18 +4551,29 @@
     <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
     <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
     <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
+    <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
     <e lm="Stephen"><i>Stephen</i><par n="Wynand__np"/></e>
     <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
 
     <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e> 
-    <e lm="Maria"><i>Maria</i><par n="Anrie__np"/></e> 
+    <e lm="Mieke"><i>Mieke</i><par n="Anrie__np"/></e> 
+    <e lm="Marieke"><i>Marieke</i><par n="Anrie__np"/></e> 
+    <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e> 
+    <e lm="Hanna"><i>Hanna</i><par n="Maria__np"/></e> 
     <e lm="Anne"><i>Anne</i><par n="Anrie__np"/></e> 
-    <e lm="Victoria"><i>Victoria</i><par n="Anrie__np"/></e> 
+    <e lm="Victoria"><i>Victoria</i><par n="Maria__np"/></e> 
     <e lm="Elizabeth"><i>Elizabeth</i><par n="Anrie__np"/></e> 
+    <e lm="Beatrix"><i>Beatrix</i><par n="Beatrix__np"/></e> 
+    <e lm="Els"><i>Els</i><par n="Beatrix__np"/></e> 
 
     <!-- SECTION: Bijvoegelijke naamwoorden -->
 
+    <e lm="elk"><i>elk</i><par n="elk__adj"/></e>
+    <e lm="welk"><i>welk</i><par n="elk__adj"/></e>
+    <e lm="ieder"><i>ieder</i><par n="elk__adj"/></e>
+
     <e lm="oud"><i>oud</i><par n="oud__adj"/></e>
+    <e lm="goed"><i></i><par n="/goed__adj"/></e>
     <e lm="opgewonden"><i>opgewonden</i><par n="oud__adj"/></e>
     <e lm="aandachtig"><i>aandachtig</i><par n="oud__adj"/></e>
     <e lm="uitmuntend"><i>uitmuntend</i><par n="oud__adj"/></e>
@@ -4479,6 +4582,7 @@
     <e lm="vlijtig"><i>vlijtig</i><par n="oud__adj"/></e>
     <e lm="vrolijk"><i>vrolijk</i><par n="oud__adj"/></e>
     <e lm="jong"><i>jong</i><par n="oud__adj"/></e>
+    <e lm="aardig"><i>aardig</i><par n="oud__adj"/></e>
     <e lm="treurig"><i>treurig</i><par n="oud__adj"/></e>
     <e lm="warm"><i>warm</i><par n="oud__adj"/></e>
     <e lm="lustig"><i>lustig</i><par n="oud__adj"/></e>
@@ -4516,7 +4620,7 @@
     <e lm="voedzaam"><i>voedza</i><par n="behulpza/am__adj"/></e>
 
     <e lm="snel"><i>snel</i><par n="snel__adj"/></e>
-    <e lm="mooi"><i>mooi</i><par n="snel__adj"/></e>
+    <e lm="mooi"><i>mooi</i><par n="vrij__adj"/></e>
 
     <e lm="gereed"><i>gere</i><par n="gere/ed__adj"/></e>
     <e lm="werkzaam"><i>werkza</i><par n="werkza/am__adj"/></e>
@@ -4531,7 +4635,7 @@
     <e lm="openbaar"><i>openba</i><par n="openba/ar__adj"/></e>
     <e lm="koud"><i>koud</i><par n="vrij__adj"/></e>
     <e lm="kort"><i>kort</i><par n="vrij__adj"/></e>
-    <e lm="duur"><i>duur</i><par n="duur__adj"/></e>
+    <e lm="duur"><i>du</i><par n="du/ur__adj"/></e>
     <e lm="fris"><i>fris</i><par n="fris__adj"/></e>
     <e lm="lekker"><i>lekker</i><par n="lekker__adj"/></e>
     <e lm="nat"><i>nat</i><par n="nat__adj"/></e>
@@ -4548,7 +4652,9 @@
     <e lm="spoedig"><i>spoedig</i><par n="belangrijk__adv"/></e>
 
     <e lm="intens"><i>intens</i><par n="graag__adv"/></e>
+    <e lm="gisteren"><i>gisteren</i><par n="graag__adv"/></e>
     <e lm="wel"><i>wel</i><par n="graag__adv"/></e>
+    <e lm="vaak"><i>vaak</i><par n="graag__adv"/></e>
     <e lm="dus"><i>dus</i><par n="graag__adv"/></e>
     <e lm="dan"><i>dan</i><par n="graag__adv"/></e>
     <e lm="later"><i>later</i><par n="graag__adv"/></e>
@@ -4667,15 +4773,38 @@
     <e lm="bijten"><p><l>gebeten</l><r>bijten</r></p><par n="b/ijten__vblex"/></e>
 
     <e lm="blijven"><i>bl</i><par n="bl/ijven__vblex"/></e>
-    <e lm="blijven"><p><l>gebleven</l><r>blijven</r></p><par n="bl/ijven__vblex"/></e>
+    <e lm="blijven"><p><l>gebleven</l><r>blijven</r></p><par n="gesproken__vblex"/></e>
 
     <e lm="branden"><i>brand</i><par n="brand/en__vblex"/></e>
+    <e lm="branden"><p><l>gebrand</l><r>branden</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="brengen"><i>br</i><par n="br/engen__vblex"/></e>
+    <e lm="brengen"><p><l>gebracht</l><r>brengen</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="bouwen"><i>bouw</i><par n="bouw/en__vblex"/></e>
+    <e lm="bouwen"><p><l>gebouwd</l><r>bouwen</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="danken"><i>dank</i><par n="dank/en__vblex"/></e>
+    <e lm="danken"><p><l>gedankt</l><r>danken</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="denken"><i>d</i><par n="d/enken__vblex"/></e>
+    <e lm="denken"><p><l>gedacht</l><r>denken</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
+    <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="drinken"><i>dr</i><par n="dr/inken__vblex"/></e>
+    <e lm="drinken"><p><l>gedronken</l><r>drinken</r></p><par n="gesproken__vblex"/></e>
+
+    <e lm="opdrinken"><i>opdr</i><par n="dr/inken__vblex"/></e>
+    <e lm="opdrinken"><p><l>opgedronken</l><r>opdrinken</r></p><par n="gesproken__vblex"/></e>
+
+    <e lm="praten"><i>pra</i><par n="pra/ten__vblex"/></e>
+    <e lm="praten"><p><l>gepraat</l><r>praten</r></p><par n="gesproken__vblex"/></e>
+
+    <e lm="koken"><i>ko</i><par n="ko/ken__vblex"/></e>
+    <e lm="koken"><p><l>gekookt</l><r>koken</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="dromen"><i>dro</i><par n="dro/men__vblex"/></e>
     <e lm="eten"><i/><par n="/eten__vblex"/></e>
     <e lm="gieten"><i>g</i><par n="g/ieten__vblex"/></e>
@@ -4685,7 +4814,6 @@
     <e lm="horen"><i>ho</i><par n="ho/ren__vblex"/></e>
     <e lm="houden"><i>h</i><par n="h/ouden__vblex"/></e>
     <e lm="kijken"><i>k</i><par n="k/ijken__vblex"/></e>
-    <e lm="koken"><i>ko</i><par n="ko/ken__vblex"/></e>
     <e lm="kopen"><i>ko</i><par n="ko/pen__vblex"/></e>
     <e lm="krijgen"><i>kr</i><par n="kr/ijgen__vblex"/></e>
     <e lm="laten"><i>l</i><par n="l/aten__vblex"/></e>
@@ -4695,7 +4823,6 @@
     <e lm="liggen"><i>l</i><par n="l/iggen__vblex"/></e>
     <e lm="lopen"><i>l</i><par n="l/open__vblex"/></e>
     <e lm="missen"><i>mis</i><par n="mis/sen__vblex"/></e>
-    <e lm="praten"><i>pra</i><par n="pra/ten__vblex"/></e>
     <e lm="reizen"><i>rei</i><par n="rei/zen__vblex"/></e>
     <e lm="roepen"><i>r</i><par n="r/oepen__vblex"/></e>
     <e lm="schrijven"><i>schr</i><par n="schr/ijven__vblex"/></e>
@@ -4729,6 +4856,8 @@
     <e lm="leggen"><i>le</i><par n="ze/ggen__vblex"/></e>
 
     <e lm="zien"><i>z</i><par n="z/ien__vblex"/></e>
+    <e lm="zien"><p><l>gezien</l><r>zien</r></p><par n="gesproken__vblex"/></e>
+
     <e lm="zingen"><i>z</i><par n="z/ingen__vblex"/></e>
     <e lm="zoeken"><i>zoe</i><par n="zoe/ken__vblex"/></e>
     <e lm="komen"><i>k</i><par n="k/omen__vblex"/></e>

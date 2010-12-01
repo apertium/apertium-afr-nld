@@ -126,10 +126,24 @@
       <e r="RL"><p><l><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sg"/></l><r><s n="GD"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="ons_onze">
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="sp"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+    </pardef>
+    <pardef n="enige_enig">
+      <e r="RL"><p><l><s n="sg"/></l><r><s n="pred"/></r></p></e>
+      <e r="RL"><p><l><s n="sg"/></l><r><s n="attr"/></r></p></e>
+      <e r="LR"><p><l><s n="sg"/></l><r></r></p></e>
+    </pardef>
+
 
   </pardefs>
 
   <section id="main" type="standard">
+    <!-- SECTION: Particles -->
+
+    <e><p><l>se<s n="gen"/></l><r>s<s n="gen"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
 
@@ -160,6 +174,7 @@
 
     <!-- SECTION: Prepositions -->
 
+    <e><p><l>te<s n="pr"/></l><r>te<s n="pr"/></r></p></e>
     <e><p><l>as<s n="pr"/></l><r>als<s n="pr"/></r></p></e>
     <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
     <e><p><l>vir<s n="pr"/></l><r>voor<s n="pr"/></r></p></e>
@@ -175,7 +190,6 @@
     <e><p><l>soos<s n="pr"/></l><r>zoals<s n="pr"/></r></p></e>
     <e><p><l>tussen<s n="pr"/></l><r>tussen<s n="pr"/></r></p></e>
     <e><p><l>onder<s n="pr"/></l><r>onder<s n="pr"/></r></p></e>
-    <e><p><l>oor<s n="pr"/></l><r>oor<s n="pr"/></r></p></e>
     <e><p><l>tydens<s n="pr"/></l><r>tijdens<s n="pr"/></r></p></e>
     <e><p><l>volgens<s n="pr"/></l><r>volgens<s n="pr"/></r></p></e>
     <e><p><l>vanaf<s n="pr"/></l><r>vanaf<s n="pr"/></r></p></e>
@@ -187,6 +201,8 @@
     <e><p><l>langs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
     <e><p><l>vanuit<s n="pr"/></l><r>vanuit<s n="pr"/></r></p></e>
     <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
+    <e><p><l>oor<s n="pr"/></l><r>oor<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>oor<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
 
     <e><p><l>waarop<s n="pr"/></l><r>waarop<s n="pr"/></r></p></e> <!-- !pr -->
     <e><p><l>weg<s n="pr"/></l><r>weg<s n="pr"/></r></p></e> <!-- !pr -->
@@ -213,7 +229,8 @@
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
 
     <e><p><l>geen<s n="det"/><s n="ind"/></l><r>geen<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
-    <e><p><l>enige<s n="det"/><s n="ind"/></l><r>enige<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>enige<s n="det"/><s n="ind"/></l><r>enig<s n="adj"/><s n="ind"/></r></p><par n="enige_enig"/></e>
+    <e><p><l>elke<s n="det"/><s n="ind"/></l><r>elk<s n="adj"/><s n="ind"/></r></p><par n="enige_enig"/></e>
 
     <e><p><l>sommige<s n="det"/><s n="qnt"/></l><r>sommige<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -226,7 +243,7 @@
     <e><p><l>haar<s n="det"/><s n="pos"/></l><r>haar<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>sy<s n="det"/><s n="pos"/></l><r>zijn<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>hul<s n="det"/><s n="pos"/></l><r>hun<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>ons<s n="det"/><s n="pos"/></l><r>ons<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>ons<s n="det"/><s n="pos"/></l><r>onze<s n="det"/><s n="pos"/></r></p><par n="ons_onze"/></e>
 
     <e><p><l>laaste<s n="det"/><s n="ord"/></l><r>laatst<s n="det"/><s n="ord"/></r></p></e>
 
@@ -261,7 +278,7 @@
 
     <!-- SECTION: Getalle -->
 
-    <e><p><l>een<s n="num"/></l><r>een<s n="num"/></r></p></e>
+    <e><p><l>een<s n="num"/></l><r>één<s n="num"/></r></p></e>
     <e><p><l>twee<s n="num"/></l><r>twee<s n="num"/></r></p></e>
     <e><p><l>drie<s n="num"/></l><r>drie<s n="num"/></r></p></e>
     <e><p><l>vier<s n="num"/></l><r>vier<s n="num"/></r></p></e>
@@ -3018,6 +3035,12 @@
     <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Anne<s n="np"/><s n="ant"/><s n="f"/></l><r>Anne<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Anrie<s n="np"/><s n="ant"/><s n="f"/></l><r>Anrie<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Hanna<s n="np"/><s n="ant"/><s n="f"/></l><r>Hanna<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Maria<s n="np"/><s n="ant"/><s n="f"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Els<s n="np"/><s n="ant"/><s n="f"/></l><r>Els<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Beatrix<s n="np"/><s n="ant"/><s n="f"/></l><r>Beatrix<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Mieke<s n="np"/><s n="ant"/><s n="f"/></l><r>Mieke<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Marieke<s n="np"/><s n="ant"/><s n="f"/></l><r>Marieke<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Charles<s n="np"/><s n="ant"/><s n="m"/></l><r>Charles<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>David<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Edward<s n="np"/><s n="ant"/><s n="m"/></l><r>Edward<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -3054,6 +3077,7 @@
     <e><p><l>Jan<s n="np"/><s n="ant"/><s n="m"/></l><r>Jan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Stephen<s n="np"/><s n="ant"/><s n="m"/></l><r>Stephen<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Peter<s n="np"/><s n="ant"/><s n="m"/></l><r>Peter<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Piet<s n="np"/><s n="ant"/><s n="m"/></l><r>Piet<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/></r></p></e>
@@ -3428,6 +3452,9 @@
     <e><p><l>winderig<s n="adj"/><s n="sint"/></l><r>winderig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wisselvallig<s n="adj"/><s n="sint"/></l><r>wisselvallig<s n="adj"/><s n="sint"/></r></p></e>
 
+    <e><p><l>lekker<s n="adj"/><s n="sint"/></l><r>lekker<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>nuut<s n="adj"/><s n="sint"/></l><r>nieuw<s n="adj"/><s n="sint"/></r></p></e>
+
 
     <e><p><l>Brits<s n="adj"/></l><r>Brits<s n="adj"/><s n="sint"/></r></p></e>
 
@@ -3435,6 +3462,8 @@
 
     <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
     <e><p><l>wel<s n="adv"/></l><r>wel<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>dikwels<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
+    <e><p><l>dikwels<s n="adv"/></l><r>dikwijls<s n="adv"/></r></p></e>
     <e><p><l>hier<s n="adv"/></l><r>hier<s n="adv"/></r></p></e>
     <e><p><l>nie<s n="adv"/></l><r>niet<s n="adv"/></r></p></e>
     <e><p><l>ook<s n="adv"/></l><r>ook<s n="adv"/></r></p></e>
@@ -3448,7 +3477,6 @@
     <e><p><l>steeds<s n="adv"/></l><r>steeds<s n="adv"/></r></p></e>
     <e><p><l>reeds<s n="adv"/></l><r>reeds<s n="adv"/></r></p></e>
     <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
-    <e><p><l>dikwels<s n="adv"/></l><r>dikwijls<s n="adv"/></r></p></e>
     <e><p><l>as<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
     <e><p><l>onder<s n="adv"/></l><r>onder<s n="adv"/></r></p></e>
     <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
@@ -3478,6 +3506,12 @@
     <e><p><l>onderweg<s n="adv"/></l><r>onderweg<s n="adv"/></r></p></e>
     <e><p><l>definitief<s n="adv"/></l><r>definitief<s n="adv"/></r></p></e>
     <e><p><l>selfs<s n="adv"/></l><r>selfs<s n="adv"/></r></p></e>
+
+    <e><p><l>graag<s n="adv"/></l><r>graag<s n="adv"/></r></p></e>
+    <e><p><l>byna<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
+
+    <e><p><l>gister<s n="adv"/></l><r>gisteren<s n="adv"/></r></p></e>
+    <e><p><l>altyd<s n="adv"/></l><r>altijd<s n="adv"/></r></p></e>
 
 
     <!-- SECTION: Verbs -->
@@ -3518,8 +3552,11 @@
     <e><p><l>bou<s n="vblex"/></l><r>bouwen<s n="vblex"/></r></p></e>
     <e><p><l>volg<s n="vblex"/></l><r>volgen<s n="vblex"/></r></p></e>
     <e><p><l>vertrek<s n="vblex"/></l><r>vertrekken<s n="vblex"/></r></p></e>
+
     <e><p><l>praat<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>praat<s n="vblex"/></l><r>praten<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>spreek<s n="vblex"/></l><r>spreken<s n="vblex"/></r></p></e>
+
     <e><p><l>weet<s n="vblex"/></l><r>weten<s n="vblex"/></r></p></e>
     <e><p><l>werk<s n="vblex"/></l><r>werken<s n="vblex"/></r></p></e>
     <e><p><l>kyk<s n="vblex"/></l><r>kijken<s n="vblex"/></r></p></e>
@@ -3629,7 +3666,8 @@
     <e><p><l>ondersteun<s n="vblex"/></l><r>ondersteunen<s n="vblex"/></r></p></e>
     <e><p><l>bevestig<s n="vblex"/></l><r>bevestigen<s n="vblex"/></r></p></e>
     <e><p><l>voel<s n="vblex"/></l><r>voelen<s n="vblex"/></r></p></e>
-    <e><p><l>lees<s n="vblex"/></l><r>lessen<s n="vblex"/></r></p></e>
+    <!--<e><p><l>lees<s n="vblex"/></l><r>lessen<s n="vblex"/></r></p></e>-->
+    <e><p><l>lees<s n="vblex"/></l><r>lezen<s n="vblex"/></r></p></e>
     <e><p><l>besoek<s n="vblex"/></l><r>bezoeken<s n="vblex"/></r></p></e>
     <e><p><l>behou<s n="vblex"/></l><r>behouden<s n="vblex"/></r></p></e>
     <e><p><l>verbeter<s n="vblex"/></l><r>verbeteren<s n="vblex"/></r></p></e>
@@ -3959,6 +3997,8 @@
     <e><p><l>belig<s n="vblex"/></l><r>belichten<s n="vblex"/></r></p></e>
 
     <e><p><l>vernoem<s n="vblex"/></l><r>vernoemen<s n="vblex"/></r></p></e>
+    <e><p><l>reis<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
+    <e><p><l>suip<s n="vblex"/></l><r>drinken<s n="vblex"/></r></p></e>
 
 
 

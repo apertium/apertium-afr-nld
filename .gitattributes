@@ -19,10 +19,10 @@
 /apertium-af-nl.nl-af.t1x -text
 /apertium-af-nl.nl-af.t2x -text
 /apertium-af-nl.nl-af.t3x -text
-/apertium-af-nl.nl.dix -text
 /apertium-af-nl.post-af.dix -text
 /apertium-af-nl.post-nl.dix -text
 /configure.ac -text
+dev/apertium-af-nl.nl.dix.OLD -text
 dev/bidix-nouns.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text

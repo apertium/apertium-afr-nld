@@ -274,6 +274,16 @@
       <e>       <p><l>ne</l><r><s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
     </pardef>
 
+    <pardef n="gro/ot__adj">
+      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>tere</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>otst</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
+
+
     <pardef n="konfidensi/eel__adj">
       <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="attr"/></r></p></e>
       <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="pred"/></r></p></e>
@@ -399,13 +409,6 @@
       <e>       <p><l>le</l><r>al<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ler</l><r>al<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>alste</l><r>al<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
-    </pardef>
-
-    <pardef n="gro/ot__adj">
-      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="min__adj">
@@ -542,8 +545,9 @@
 
     <!-- SECTION: Nomen -->
 
-    <pardef n="poësie__n__unc">
-      <e>       <p><l/><r><s n="n"/><s n="unc"/><s n="sg"/></r></p></e>
+    <pardef n="poësie__n__unc"> <!-- unc -->
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+      <!--<e>       <p><l/><r><s n="n"/><s n="unc"/><s n="sg"/></r></p></e>-->
     </pardef>
 
     <pardef n="afsto/f__n">
@@ -1372,6 +1376,7 @@
     <e lm="betreffende"><i>betreffende</i><par n="met__pr"/></e>
     <e lm="ongeag"><i>ongeag</i><par n="met__pr"/></e>
     <e lm="jeens"><i>jeens</i><par n="met__pr"/></e>
+    <e lm="te"><i>te</i><par n="met__pr"/></e>
     <e lm="aan"><i>aan</i><par n="met__pr"/></e>
     <e lm="soos"><i>soos</i><par n="met__pr"/></e>
     <e lm="by"><i>by</i><par n="met__pr"/></e>
@@ -2725,6 +2730,11 @@
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e> 
 
     <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e> 
+    <e lm="Hanna"><i>Hanna</i><par n="Anrie__np"/></e> 
+    <e lm="Els"><i>Els</i><par n="Anrie__np"/></e> 
+    <e lm="Beatrix"><i>Beatrix</i><par n="Anrie__np"/></e> 
+    <e lm="Mieke"><i>Mieke</i><par n="Anrie__np"/></e> 
+    <e lm="Marieke"><i>Marieke</i><par n="Anrie__np"/></e> 
     <e lm="Maria"><i>Maria</i><par n="Anrie__np"/></e> 
     <e lm="Anne"><i>Anne</i><par n="Anrie__np"/></e> 
     <e lm="Victoria"><i>Victoria</i><par n="Anrie__np"/></e> 
@@ -3107,6 +3117,22 @@
     <e lm="omsien"><i>omsien</i><par n="breek__vblex"/></e>
     <e lm="omsien"><p><l>omgesien</l><r>omsien</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="bou"><i>bou</i><par n="breek__vblex"/></e>
+    <e lm="bou"><p><l>gebou</l><r>bou</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="kook"><i>kook</i><par n="breek__vblex"/></e> 
+    <e lm="kook"><p><l>gekook</l><r>kook</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="gaan"><par n="P__pr"/><par n="P__ge"/><i>gaan</i><par n="breek__vblex"/></e>
+
+    <e lm="gaan"><i>gaan</i><par n="breek__vblex"/></e>
+    <e lm="gaan"><p><l>gegaan</l><r>gaan</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="maak"><par n="P__pr"/><par n="P__ge"/><i>maak</i><par n="breek__vblex"/></e>
+
+    <e lm="maak"><i>maak</i><par n="breek__vblex"/></e>
+    <e lm="maak"><p><l>gemaak</l><r>maak</r></p><par n="gebreek__vblex"/></e>
+
     <!-- vul = fill, invul = fill in -->
     <e lm="vul"><par n="P__pr"/><par n="P__ge"/><i>vul</i><par n="breek__vblex"/></e>
     <e lm="druk"><par n="P__pr"/><par n="P__ge"/><i>druk</i><par n="breek__vblex"/></e>
@@ -3150,7 +3176,6 @@
     <e lm="vind"><par n="P__pr"/><par n="P__ge"/><i>vind</i><par n="breek__vblex"/></e>
     <e lm="roep"><par n="P__pr"/><par n="P__ge"/><i>roep</i><par n="breek__vblex"/></e> 
     <e lm="brei"><par n="P__pr"/><par n="P__ge"/><i>brei</i><par n="breek__vblex"/></e><!-- "to knit", but separableised has many other meanings -->
-    <e lm="maak"><par n="P__pr"/><par n="P__ge"/><i>maak</i><par n="breek__vblex"/></e>
     <e lm="lok"><par n="P__pr"/><par n="P__ge"/><i>lok</i><par n="breek__vblex"/></e>
     <e lm="vaardig"><par n="P__pr"/><par n="P__ge"/><i>vaardig</i><par n="breek__vblex"/></e>
     <e lm="nooi"><par n="P__pr"/><par n="P__ge"/><i>nooi</i><par n="breek__vblex"/></e>
@@ -3168,7 +3193,6 @@
     <e lm="wys"><par n="P__pr"/><par n="P__ge"/><i>wys</i><par n="breek__vblex"/></e>
     <e lm="toon"><par n="P__pr"/><par n="P__ge"/><i>toon</i><par n="breek__vblex"/></e> 
     <e lm="koop"><par n="P__pr"/><par n="P__ge"/><i>koop</i><par n="breek__vblex"/></e>
-    <e lm="gaan"><par n="P__pr"/><par n="P__ge"/><i>gaan</i><par n="breek__vblex"/></e>
     <e lm="pak"><par n="P__pr"/><par n="P__ge"/><i>pak</i><par n="breek__vblex"/></e>
     <e lm="dryf"><par n="P__pr"/><par n="P__ge"/><i>dryf</i><par n="breek__vblex"/></e>
     <e lm="kla"><par n="P__pr"/><par n="P__ge"/><i>kla</i><par n="breek__vblex"/></e>
@@ -3243,7 +3267,6 @@
     <e lm="skok"><par n="P__ge"/><i>skok</i><par n="breek__vblex"/></e> 
     <e lm="teister"><par n="P__ge"/><i>teister</i><par n="breek__vblex"/></e> 
     <e lm="vlug"><par n="P__ge"/><i>vlug</i><par n="breek__vblex"/></e> 
-    <e lm="kook"><par n="P__ge"/><i>kook</i><par n="breek__vblex"/></e> 
     <e lm="ondersoek"><par n="P__ge"/><i>ondersoek</i><par n="breek__vblex"/></e> 
     <e lm="bied"><par n="P__ge"/><i>bied</i><par n="breek__vblex"/></e>
     <e lm="waarsku"><par n="P__ge"/><i>waarsku</i><par n="breek__vblex"/></e>
@@ -3342,7 +3365,6 @@
     <e lm="omsien"><i>omsien</i><par n="breek__vblex"/></e>
     <e lm="stoor"><i>stoor</i><par n="breek__vblex"/></e>
     <e lm="konsentreer"><i>konsentreer</i><par n="breek__vblex"/></e>
-    <e lm="bou"><i>bou</i><par n="breek__vblex"/></e>
     <e lm="ondersteun"><par n="P__ge"/><i>ondersteun</i><par n="breek__vblex"/></e>
     <e lm="steun"><par n="P__ge"/><i>steun</i><par n="breek__vblex"/></e>
     <e lm="help"><par n="P__ge"/><i>help</i><par n="breek__vblex"/></e>
@@ -4320,6 +4342,7 @@
     <e lm="Galisië"><i>Galisië</i><par n="Engeland__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
     <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
+    <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
     <e lm="Azow"><i>Azow</i><par n="Engeland__np"/></e>
 
