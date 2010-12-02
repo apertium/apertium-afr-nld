@@ -25,17 +25,17 @@
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="su/perstraattaal__n_f">
-      <e><p><l>perstraattaal</l><r>perstraattaal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>bstraattalen</l><r>perstraattaal<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="superstraatta/al__n_f">
+      <e><p><l>al</l><r>al<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>len</l><r>al<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="zo/om__n_f">
       <e><p><l>om</l><r>om<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>men</l><r>om<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="su/perstraattaal__n_m">
-      <e><p><l>perstraattaal</l><r>perstraattaal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>bstraattalen</l><r>perstraattaal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <pardef n="superstraatta/al__n_m">
+      <e><p><l>al</l><r>al<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>len</l><r>al<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="sjwa__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -71,10 +71,10 @@
     <pardef n="es__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
-    <pardef n="/isogeen__adj">
-      <e><p><l>ene</l><r>isogeen<s n="adj"/><s n="attr"/></r></p></e>
-      <e><p><l>isogeens</l><r>isogeen<s n="adj"/><s n="part"/></r></p></e>
-      <e><p><l>isogeen</l><r>isogeen<s n="adj"/><s n="pred"/></r></p></e>
+    <pardef n="isoge/en__adj">
+      <e><p><l>ne</l><r>en<s n="adj"/><s n="attr"/></r></p></e>
+      <e><p><l>s</l><r>en<s n="adj"/><s n="part"/></r></p></e>
+      <e><p><l></l><r>en<s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
     <pardef n="spon/s__n_f">
       <e><p><l>s</l><r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -103,7 +103,7 @@
       <e><p><l>ken</l><r>ok<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="a__n_nt">
-      <e><p><l>a</l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="jukbeen__n_nt">
@@ -115,13 +115,12 @@
       <e><p><l></l><r><s n="adj"/><s n="part"/></r></p></e>
       <e><p><l></l><r><s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
-    <pardef n="o/r__n_nt">
+    <pardef n="o/or__n_nt">
       <e><p><l>or</l><r>r<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ren</l><r>r<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/wol__n_m">
-      <e><p><l>wol</l><r>wol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>—</l><r>wol<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <pardef n="wol__n_m">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="Zwe/ed__n_m">
       <e><p><l>ed</l><r>ed<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -132,9 +131,8 @@
       <e><p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
       <e><p><l></l><r><s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
-    <pardef n="/wol__n_f">
-      <e><p><l>wol</l><r>wol<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>—</l><r>wol<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="wol__n_f">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="wis__adj">
       <e><p><l>se</l><r><s n="adj"/><s n="attr"/></r></p></e>
@@ -226,10 +224,10 @@
       <e><p><l>et</l><r>et<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ten</l><r>et<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="migratie/route__n_f">
-      <e><p><l>route</l><r>route<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>routen</l><r="LR>route<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>sroutes</l><r>route<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="migratieroute__n_f">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>n</l><r="LR><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="kwa/ad__adj_sint">
       <e><p><l>de</l><r>ad<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -302,16 +300,15 @@
       <e><p><l>s</l><r>s<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>zen</l><r>s<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="academica__n_">
-      <e><p><l></l><r><s n="n"/><s n=""/><s n="sg"/></r></p></e>
+    <pardef n="academica__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="pe/en__n_f">
       <e><p><l>en</l><r>en<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>nen</l><r>en<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/opacriminaliteit__n_f">
-      <e><p><l>opacriminaliteit</l><r>opacriminaliteit<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>–</l><r>opacriminaliteit<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="opacriminaliteit__n_f">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="eon__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -322,9 +319,8 @@
       <e><p><l>s</l><r="LR><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>len</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/LWOO__n_nt">
-      <e><p><l>LWOO</l><r>LWOO<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>diminutive</l><r>LWOO<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="LWOO__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="wee__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -332,11 +328,12 @@
     </pardef>
     <pardef n="breedte__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>s-breedten</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>s</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+	  <e><p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="icht/yofaag__n_m">
-      <e><p><l>yofaag</l><r>yofaag<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>hyofagen</l><r>yofaag<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <pardef n="ichtyofa/ag__n_m">
+      <e><p><l>ag</l><r>ag<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>en</l><r>ag<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ko/ol__n_f">
       <e><p><l>ol</l><r>ol<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -378,13 +375,13 @@
       <e><p><l>f</l><r>f<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ven</l><r>f<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="a/s__n_nt">
-      <e><p><l>as</l><r>s<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>zen</l><r>s<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="a/as__n_nt">
+      <e><p><l>as</l><r>as<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>zen</l><r>as<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="vering__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>(en)</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="evangeli/e__n_nt">
       <e><p><l>e</l><r>e<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -399,9 +396,9 @@
       <e><p><l>or</l><r>or<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ren</l><r>or<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="boo/rplatform__n_nt">
-      <e><p><l>rplatform</l><r>rplatform<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>tplatformen</l><r>rplatform<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="boorplatform__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="keu/s__n_f">
       <e><p><l>s</l><r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -451,9 +448,8 @@
       <e><p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
       <e><p><l>st</l><r><s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
     </pardef>
-    <pardef n="/biblicisme__n_nt">
-      <e><p><l>biblicisme</l><r>biblicisme<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>–</l><r>biblicisme<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="biblicisme__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="fier__adj_sint">
       <e><p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -859,13 +855,12 @@
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>’s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="revol/utionairenveldbed__n_nt">
-      <e><p><l>utionairenveldbed</l><r>utionairenveldbed<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>tionairenveldbedden</l><r>utionairenveldbed<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="revolutionairenveldbed__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>den</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/fascisme__n_nt">
-      <e><p><l>fascisme</l><r>fascisme<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>–</l><r>fascisme<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+    <pardef n="fascisme__n_nt">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="koe__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1584,8 +1579,8 @@
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="/water__n_nt">
-      <e><p><l>water</l><r>water<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>–</l><r>water<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ko/or__n_nt">
       <e><p><l>or</l><r>or<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -1782,11 +1777,10 @@
       <e><p><l>es</l><r>es<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>zen</l><r>es<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/wedergeboorte__n_f">
-      <e><p><l>wedergeboorte</l><r>wedergeboorte<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>wedergeboortes</l><r>wedergeboorte<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l></l><r>wedergeboorte<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>wedergeboorten</l><r>wedergeboorte<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="wedergeboorte__n_f">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>n</l><r>w<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="horizon__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2646,9 +2640,9 @@
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>nen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="a/s__n_m">
-      <e><p><l>as</l><r>s<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>zen</l><r>s<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <pardef n="a/as__n_m">
+      <e><p><l>as</l><r>as<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>zen</l><r>as<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -13960,7 +13954,7 @@
     <e lm="bevrijder"><i>bevrijder</i><par n="led__n_m"/></e>
     <e lm="Uruzgan"><i>Uruzgan</i><par n="OV__n_nt"/></e>
     <e lm="appel"><i>appel</i><par n="sol__n_m"/></e>
-    <e lm="oor"><i>o</i><par n="o/r__n_nt"/></e>
+    <e lm="oor"><i>o</i><par n="o/or__n_nt"/></e>
     <e lm="calorimeter"><i>calorimeter</i><par n="led__n_m"/></e>
     <e lm="orator"><i>orator</i><par n="sol__n_m"/></e>
     <e lm="juweel"><i>juwe</i><par n="ze/el__n_nt"/></e>
@@ -18998,8 +18992,8 @@
     <e lm="eierstruif"><i>eierstrui</i><par n="ho/f__n_m"/></e>
     <e lm="solo"><i>solo</i><par n="ra__n_m"/></e>
     <e lm="heks"><i>heks</i><par n="els__n_f"/></e>
-    <e lm="aas"><i>a</i><par n="a/s__n_m"/></e>
-    <e lm="aas"><i>a</i><par n="a/s__n_nt"/></e>
+    <e lm="aas"><i>a</i><par n="a/as__n_m"/></e>
+    <e lm="aas"><i>a</i><par n="a/as__n_nt"/></e>
     <e lm="exterieur"><i>exterieur</i><par n="lot__n_nt"/></e>
     <e lm="intelligentie"><i>intelligentie</i><par n="roe__n_f"/></e>
     <e lm="Oudnederlands"><i>Oudnederlands</i><par n="OV__n_nt"/></e>
