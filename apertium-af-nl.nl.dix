@@ -320,7 +320,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="adv"/><s n=""/></r>
+          <r><s n="adv"/></r>
         </p>
       </e>
     </pardef>
@@ -1234,7 +1234,7 @@
       <e>
         <p>
           <l></l>
-          <r><s n="n"/><s n=""/><s n="sg"/></r>
+          <r><s n="n"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -5546,7 +5546,7 @@
       <e>
         <p>
           <l>überhaupt</l>
-          <r>﻿überhaupt<s n="adv"/><s n=""/></r>
+          <r>﻿überhaupt<s n="adv"/></r>
         </p>
       </e>
     </pardef>
