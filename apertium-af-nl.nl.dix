@@ -13,7 +13,7 @@
     </pardef>
     <pardef n="corp/us__n_nt">
       <e><p><l>us</l><r>us<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ora</l><r="LR">us<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ora</l><r>us<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ussen</l><r>us<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="lam__n_nt">
@@ -23,7 +23,7 @@
     <pardef n="sjwa__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="superstraatta/al__n_f">
       <e><p><l>al</l><r>al<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -328,8 +328,8 @@
     </pardef>
     <pardef n="breedte__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-	  <e><p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e><p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ichtyofa/ag__n_m">
       <e><p><l>ag</l><r>ag<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -560,12 +560,12 @@
     </pardef>
     <pardef n="r__n_m">
       <e><p><l>r</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="lemma__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ta</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="mycoriza__n_f">
@@ -590,12 +590,12 @@
     </pardef>
     <pardef n="mycoriza__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="hoen__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>deren</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>deren</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ders</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
@@ -644,7 +644,7 @@
     </pardef>
     <pardef n="galon__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>nen</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>nen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="/parasympathicomimeticum__n_nt">
@@ -672,7 +672,7 @@
     </pardef>
     <pardef n="dokt/er__n_m">
       <e><p><l>er</l><r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ers</l><r="LR">er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ers</l><r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>oren</l><r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="x__n_f">
@@ -710,12 +710,12 @@
     <pardef n="z__n_f">
       <e><p><l>z</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="z__n_m">
       <e><p><l>z</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ar__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -775,12 +775,12 @@
     </pardef>
     <pardef n="vacu/üm__n_nt">
       <e><p><l>üm</l><r>üm<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>üms</l><r="LR">üm<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>üms</l><r>üm<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>üm<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="kweeappel__n_m">
       <e><p><l></l><r>kweeappel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r="LR">kweeappel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r>kweeappel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>en</l><r>kweeappel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="le/eg__adj_sint">
@@ -796,7 +796,7 @@
     </pardef>
     <pardef n="galon__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>nen</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>nen</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="gehe/el__adj">
@@ -826,7 +826,7 @@
     <pardef n="einde__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>n</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="za/ag__n_m">
       <e><p><l>ag</l><r>ag<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -877,7 +877,7 @@
     </pardef>
     <pardef n="stoma__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ta</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="sacr/um__n_nt">
@@ -887,7 +887,7 @@
     <pardef n="kleino/od__n_nt">
       <e><p><l>od</l><r>od<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>diën</l><r>od<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>den</l><r="LR">od<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>den</l><r>od<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="lo/og__n_nt">
       <e><p><l>og</l><r>og<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -923,7 +923,7 @@
     </pardef>
     <pardef n="r__n_f">
       <e><p><l>r</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="i__n_m">
@@ -1081,17 +1081,17 @@
     <pardef n="candela__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="casus__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>sen</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>sen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="sald/o__n_nt">
       <e><p><l>o</l><r>o<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>o<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>o's</l><r="LR">o<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>o's</l><r>o<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="vlo__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1099,7 +1099,7 @@
     </pardef>
     <pardef n="l__n_nt">
       <e><p><l>l</l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="zal/f__n_f">
@@ -1160,7 +1160,7 @@
     </pardef>
     <pardef n="tree__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ën</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ën</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="be/ek__n_f">
@@ -1169,7 +1169,7 @@
     </pardef>
     <pardef n="decenni/um__n_nt">
       <e><p><l>um</l><r>um<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r="LR">um<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>a</l><r>um<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ën</l><r>um<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="fors__adj_sint">
@@ -1248,11 +1248,11 @@
     <pardef n="violoncell/o__n_m">
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>o's</l><r="LR">o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>o's</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="protocol__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>len</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>len</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="diepvrie/s__n_m">
@@ -1308,7 +1308,7 @@
     </pardef>
     <pardef n="zaaleigena/ar__n_f">
       <e><p><l>ar</l><r>ar<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ren</l><r="LR">ar<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ren</l><r>ar<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ars</l><r>ar<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="Frans/man__n_m">
@@ -1336,7 +1336,7 @@
     </pardef>
     <pardef n="volk__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>eren</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="concla/af__n_nt">
@@ -1354,7 +1354,7 @@
     <pardef n="vete__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>n</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="onderba/as__n_mf">
       <e><p><l>as</l><r>as<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -1382,7 +1382,7 @@
     </pardef>
     <pardef n="koop/man__n_m">
       <e><p><l>man</l><r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>lieden</l><r="LR">man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>lieden</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lui</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="stria__n_f">
@@ -1422,7 +1422,7 @@
     </pardef>
     <pardef n="tree__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ën</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ën</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="la/af__n_f">
@@ -1471,7 +1471,7 @@
     </pardef>
     <pardef n="made__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>n</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="/terrorisme__n_nt">
@@ -1514,7 +1514,7 @@
     </pardef>
     <pardef n="doorsne/e__n_f">
       <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>den</l><r="LR">e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>den</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>des</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="spinnenweb__n_nt">
@@ -1539,7 +1539,7 @@
     </pardef>
     <pardef n="doorsne/e__n_m">
       <e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>den</l><r="LR">e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>den</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>des</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="gif__n_nt">
@@ -1571,7 +1571,7 @@
     </pardef>
     <pardef n="klik__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ken</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ken</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="heler__n_mf">
@@ -1613,7 +1613,7 @@
     </pardef>
     <pardef n="kind__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>eren</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>eren</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ers</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ho/og__adj_sint">
@@ -1630,7 +1630,7 @@
     <pardef n="tjiftjaf__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>fen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ra/ak__adj_sint">
       <e><p><l>ke</l><r>ak<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -1653,7 +1653,7 @@
     </pardef>
     <pardef n="kobold__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="to/on__n_m">
@@ -1732,7 +1732,7 @@
     </pardef>
     <pardef n="an/us__n_m">
       <e><p><l>us</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ussen</l><r="LR">us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ussen</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="smetvrees__n_m">
@@ -1830,7 +1830,7 @@
     </pardef>
     <pardef n="vak/man__n_m">
       <e><p><l>man</l><r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>lieden</l><r="LR">man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>lieden</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lui</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>mannen</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>mensen</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1859,12 +1859,12 @@
     </pardef>
     <pardef n="s__n_m">
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="s__n_f">
       <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="els__n_f">
@@ -1967,7 +1967,7 @@
     </pardef>
     <pardef n="centurio__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>nes</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="hermeneutiek__n_f">
@@ -2003,7 +2003,7 @@
     </pardef>
     <pardef n="bla/d__n_nt">
       <e><p><l>d</l><r>d<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>deren</l><r="LR">d<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>deren</l><r>d<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ren</l><r>d<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="slo/op__n_nt">
@@ -2017,7 +2017,7 @@
     <pardef n="lunch__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>es</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>es</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="gek__adj_sint">
       <e><p><l>ke</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -2048,7 +2048,7 @@
     <pardef n="f__n_f">
       <e><p><l>f</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="wel__adj">
       <e><p><l>le</l><r><s n="adj"/><s n="attr"/></r></p></e>
@@ -2089,7 +2089,7 @@
     <pardef n="spel__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>len</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>len</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="bijdehan/d__adj_sint">
       <e><p><l>te</l><r>d<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -2116,7 +2116,7 @@
     </pardef>
     <pardef n="stuk__n_nt">
       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ken</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ken</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="el__n_m">
@@ -2129,7 +2129,7 @@
     </pardef>
     <pardef n="exam/en__n_nt">
       <e><p><l>en</l><r>en<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ens</l><r="LR">en<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ens</l><r>en<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ina</l><r>en<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="/rats__n_m">
@@ -2139,12 +2139,12 @@
     <pardef n="ma/at__n_m">
       <e><p><l>at</l><r>at<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ats</l><r>at<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ten</l><r="LR">at<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ten</l><r>at<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="bas/is__n_f">
       <e><p><l>is</l><r>is<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>es</l><r>is<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>issen</l><r="LR">is<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>issen</l><r>is<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="zegs/man__n_m">
       <e><p><l>man</l><r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2161,14 +2161,14 @@
     </pardef>
     <pardef n="sol__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="kle/ed__n_nt">
       <e><p><l>ed</l><r>ed<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>deren</l><r>ed<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ren</l><r>ed<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-      <e><p><l>den</l><r="LR">ed<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>den</l><r>ed<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="strate/eg__n_m">
       <e><p><l>eg</l><r>eg<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2183,7 +2183,7 @@
     </pardef>
     <pardef n="robot__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ten</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="tax/on__n_nt">
@@ -2193,7 +2193,7 @@
     <pardef n="veer/man__n_m">
       <e><p><l>man</l><r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>mannen</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>lieden</l><r="LR">man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>lieden</l><r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="procureur/-generaal__n_f">
       <e><p><l>-generaal</l><r>-generaal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2213,7 +2213,7 @@
     </pardef>
     <pardef n="deelgemeente__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="munitie__n_m">
@@ -2221,7 +2221,7 @@
     </pardef>
     <pardef n="zo/on__n_m">
       <e><p><l>on</l><r>on<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>nen</l><r="LR">on<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>nen</l><r>on<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ons</l><r>on<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="Tibetaans__adj_sint">
@@ -2259,7 +2259,7 @@
     </pardef>
     <pardef n="step__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>pen</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>pen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="a/p__n_m">
@@ -2291,11 +2291,11 @@
     </pardef>
     <pardef n="ep/os__n_m">
       <e><p><l>os</l><r>os<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR">os<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r>os<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ossen</l><r>os<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="domkerk__n_m">
-	  <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="gra/an__n_nt">
@@ -2436,9 +2436,9 @@
       <e><p><l>-en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="weekeind__n_nt">
-      <e><p><l></l><r="LR"><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>es</l><r="LR"><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>es</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="mok__n_f">
@@ -2455,7 +2455,7 @@
     </pardef>
     <pardef n="ep/os__n_nt">
       <e><p><l>os</l><r>os<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR">os<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r>os<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
       <e><p><l>ossen</l><r>os<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ver/regaand__adj_sint">
@@ -2509,7 +2509,7 @@
     </pardef>
     <pardef n="oli/e__n_m">
       <e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ën</l><r="LR">e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ën</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>es</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="crash__n_m">
@@ -2518,22 +2518,22 @@
     </pardef>
     <pardef n="lera/ar__n_m">
       <e><p><l>ar</l><r>ar<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ren</l><r="LR">ar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ren</l><r>ar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ars</l><r>ar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="glan/s__n_m">
       <e><p><l>s</l><r>s<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sen</l><r>s<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>zen</l><r="LR">s<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>zen</l><r>s<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="oli/e__n_f">
       <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ën</l><r="LR">e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ën</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>es</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="sne/er__n_m">
       <e><p><l>er</l><r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ren</l><r="LR">er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ren</l><r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>ers</l><r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="wit/brood__n_nt">
@@ -2553,7 +2553,7 @@
     </pardef>
     <pardef n="schout/-bij-nacht__n_m">
       <e><p><l>-bij-nacht</l><r>-bij-nacht<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>en-bij-nacht</l><r="LR">-bij-nacht<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en-bij-nacht</l><r>-bij-nacht<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>-bij-nachts</l><r>-bij-nacht<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="/porselein__n_nt">
@@ -2562,12 +2562,12 @@
     </pardef>
     <pardef n="esdo/orn__n_m">
       <e><p><l>orn</l><r>orn<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>orns</l><r="LR">orn<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>orns</l><r>orn<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>rens</l><r>orn<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="l__n_m">
       <e><p><l>l</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="le/ek__adj_sint">
@@ -2587,7 +2587,7 @@
     </pardef>
     <pardef n="l__n_f">
       <e><p><l>l</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>'en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="molecu/ul__n_f">
@@ -2596,7 +2596,7 @@
     </pardef>
     <pardef n="tram__n_m">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r="LR"><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>men</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="pad__n_f">
@@ -2622,7 +2622,7 @@
     </pardef>
     <pardef n="ader__n_f">
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>en</l><r="LR"><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="ka/al__adj_sint">
