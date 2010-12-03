@@ -29,15 +29,24 @@
 	 <sdef n="pprs"/>
 	 <sdef n="pr"/>
 	 <sdef n="cnjcoo"/>
+	 <sdef n="cnjsub"/>
+	 <sdef n="cnjadv"/>
    </sdefs>
-     <pardefs>
- <pardef n="van__pr">
-   <e><p><l></l><r><s n="pr"/></r></p></e>
- </pardef>
+  <pardefs>
+   <pardef n="van__pr">
+    <e><p><l></l><r><s n="pr"/></r></p></e>
+   </pardef>
   
- <pardef n="en__cnjcoo">
-   <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
- </pardef>  
+   <pardef n="en__cnjcoo">
+    <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+   </pardef>  
+ 
+   <pardef n="omdat__cnjsub">
+    <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+   </pardef>  
+   <pardef n="dus__cnjadv">
+    <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+   </pardef>  
 
     <pardef n="gesproken__vblex">
        <e><p><l></l><r><s n="vblex"/><s n="pp"/></r></p></e>
@@ -4164,27 +4173,27 @@
     <!-- SECTION: Conjunctions -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
-    <e lm="aangezien"><i>aangezien</i><par n="en__cnjcoo"/></e>
-    <e lm="als"><i>als</i><par n="en__cnjcoo"/></e>
-    <e lm="dat"><i>dat</i><par n="en__cnjcoo"/></e>
-    <e lm="sinds"><i>sinds</i><par n="en__cnjcoo"/></e>
-    <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
-    <e lm="toen"><i>toen</i><par n="en__cnjcoo"/></e>
-    <e lm="hoewel"><i>hoewel</i><par n="en__cnjcoo"/></e>
-    <e lm="nadat"><i>nadat</i><par n="en__cnjcoo"/></e>
-    <e lm="nu"><i>nu</i><par n="en__cnjcoo"/></e>
+    <e lm="aangezien"><i>aangezien</i><par n="dus__cnjadv"/></e>
+    <e lm="als"><i>als</i><par n="omdat__cnjsub"/></e>
+    <e lm="dat"><i>dat</i><par n="dus__cnjadv"/></e>
+    <e lm="sinds"><i>sinds</i><par n="dus__cnjadv"/></e>
+    <e lm="terwijl"><i>terwijl</i><par n="dus__cnjadv"/></e>
+    <e lm="toen"><i>toen</i><par n="dus__cnjadv"/></e>
+    <e lm="hoewel"><i>hoewel</i><par n="omdat__cnjsub"/></e>
+    <e lm="nadat"><i>nadat</i><par n="dus__cnjadv"/></e>
+    <e lm="nu"><i>nu</i><par n="dus__cnjadv"/></e>
     <e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
-    <e lm="omdat"><i>omdat</i><par n="en__cnjcoo"/></e>
-    <e lm="daar"><i>daar</i><par n="en__cnjcoo"/></e>
-    <e lm="ofschoon"><i>ofschoon</i><par n="en__cnjcoo"/></e>
-    <e lm="opdat"><i>opdat</i><par n="en__cnjcoo"/></e>
-    <e lm="totdat"><i>totdat</i><par n="en__cnjcoo"/></e>
-    <e lm="voordat"><i>voordat</i><par n="en__cnjcoo"/></e>
-    <e lm="zodat"><i>zodat</i><par n="en__cnjcoo"/></e>
-    <e lm="zodra"><i>zodra</i><par n="en__cnjcoo"/></e>
-    <e lm="zolang"><i>zolang</i><par n="en__cnjcoo"/></e>
-    <e lm="tot"><i>tot</i><par n="en__cnjcoo"/></e>
-    <e lm="voor"><i>voor</i><par n="en__cnjcoo"/></e>
+    <e lm="omdat"><i>omdat</i><par n="omdat__cnjsub"/></e>
+    <e lm="daar"><i>daar</i><par n="omdat__cnjsub"/></e>
+    <e lm="ofschoon"><i>ofschoon</i><par n="omdat__cnjsub"/></e>
+    <e lm="opdat"><i>opdat</i><par n="dus__cnjadv"/></e>
+    <e lm="totdat"><i>totdat</i><par n="dus__cnjadv"/></e>
+    <e lm="voordat"><i>voordat</i><par n="dus__cnjadv"/></e>
+    <e lm="zodat"><i>zodat</i><par n="omdat__cnjsub"/></e>
+    <e lm="zodra"><i>zodra</i><par n="dus__cnjadv"/></e>
+    <e lm="zolang"><i>zolang</i><par n="dus__cnjadv"/></e>
+    <e lm="tot"><i>tot</i><par n="dus__cnjadv"/></e>
+    <e lm="voor"><i>voor</i><par n="dus__cnjadv"/></e>
 
     <!-- SECTION: Adverbs -->
 
