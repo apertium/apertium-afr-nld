@@ -4127,6 +4127,67 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
+
+    <!-- SECTION: Prepositions -->
+
+    <e lm="van"><i>van</i><par n="van__pr"/></e>
+    <e lm="aan"><i>aan</i><par n="van__pr"/></e>
+    <e lm="achter"><i>achter</i><par n="van__pr"/></e>
+    <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
+    <e lm="bij"><i>bij</i><par n="van__pr"/></e>
+    <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
+    <e lm="boven"><i>boven</i><par n="van__pr"/></e>
+    <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
+    <e lm="door"><i>door</i><par n="van__pr"/></e>
+    <e lm="in"><i>in</i><par n="van__pr"/></e>
+    <e lm="langs"><i>langs</i><par n="van__pr"/></e>
+    <e lm="met"><i>met</i><par n="van__pr"/></e>
+    <e lm="na"><i>na</i><par n="van__pr"/></e>
+    <e lm="naar"><i>naar</i><par n="van__pr"/></e>
+    <e lm="naast"><i>naast</i><par n="van__pr"/></e>
+    <e lm="om"><i>om</i><par n="van__pr"/></e>
+    <e lm="onder"><i>onder</i><par n="van__pr"/></e>
+    <e lm="op"><i>op</i><par n="van__pr"/></e>
+    <e lm="over"><i>over</i><par n="van__pr"/></e>
+    <e lm="rond"><i>rond</i><par n="van__pr"/></e>
+    <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
+    <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
+    <e lm="te"><i>te</i><par n="van__pr"/></e>
+    <e lm="tegen"><i>tegen</i><par n="van__pr"/></e>
+    <e lm="tegenover"><i>tegenover</i><par n="van__pr"/></e>
+    <e lm="tot"><i>tot</i><par n="van__pr"/></e>
+    <e lm="tussen"><i>tussen</i><par n="van__pr"/></e>
+    <e lm="uit"><i>uit</i><par n="van__pr"/></e>
+    <e lm="voor"><i>voor</i><par n="van__pr"/></e>
+    <e lm="zonder"><i>zonder</i><par n="van__pr"/></e>
+
+    <!-- SECTION: Conjunctions -->
+
+    <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
+    <e lm="aangezien"><i>aangezien</i><par n="en__cnjcoo"/></e>
+    <e lm="als"><i>als</i><par n="en__cnjcoo"/></e>
+    <e lm="dat"><i>dat</i><par n="en__cnjcoo"/></e>
+    <e lm="sinds"><i>sinds</i><par n="en__cnjcoo"/></e>
+    <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
+    <e lm="toen"><i>toen</i><par n="en__cnjcoo"/></e>
+    <e lm="hoewel"><i>hoewel</i><par n="en__cnjcoo"/></e>
+    <e lm="nadat"><i>nadat</i><par n="en__cnjcoo"/></e>
+    <e lm="nu"><i>nu</i><par n="en__cnjcoo"/></e>
+    <e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
+    <e lm="omdat"><i>omdat</i><par n="en__cnjcoo"/></e>
+    <e lm="daar"><i>daar</i><par n="en__cnjcoo"/></e>
+    <e lm="ofschoon"><i>ofschoon</i><par n="en__cnjcoo"/></e>
+    <e lm="opdat"><i>opdat</i><par n="en__cnjcoo"/></e>
+    <e lm="totdat"><i>totdat</i><par n="en__cnjcoo"/></e>
+    <e lm="voordat"><i>voordat</i><par n="en__cnjcoo"/></e>
+    <e lm="zodat"><i>zodat</i><par n="en__cnjcoo"/></e>
+    <e lm="zodra"><i>zodra</i><par n="en__cnjcoo"/></e>
+    <e lm="zolang"><i>zolang</i><par n="en__cnjcoo"/></e>
+    <e lm="tot"><i>tot</i><par n="en__cnjcoo"/></e>
+    <e lm="voor"><i>voor</i><par n="en__cnjcoo"/></e>
+
+    <!-- SECTION: Adverbs -->
+
     <e lm="braaf"><i>braaf</i><par n="es__adv"/></e>
     <e lm="opzij"><i>opzij</i><par n="es__adv"/></e>
     <e lm="gans"><i>gans</i><par n="es__adv"/></e>
@@ -5286,6 +5347,9 @@
     <e lm="volkomen"><i>volkomen</i><par n="es__adv"/></e>
     <e lm="waarnaar"><i>waarnaar</i><par n="es__adv"/></e>
     <e lm="zekerheidshalve"><i>zekerheidshalve</i><par n="es__adv"/></e>
+
+    <!-- SECTION: Adjectives -->
+
     <e lm="retorisch"><i>retorisch</i><par n="taps__adj"/></e>
     <e lm="onschendbaar"><i>onschendba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="eidetisch"><i>eidetisch</i><par n="fors__adj_sint"/></e>
@@ -7142,6 +7206,9 @@
     <e lm="archeologisch"><i>archeologisch</i><par n="taps__adj"/></e>
     <e lm="gelaagd"><i>gelaagd</i><par n="eng__adj_sint"/></e>
     <e lm="identiek"><i>identiek</i><par n="eng__adj_sint"/></e>
+
+    <!-- SECTION: Nouns -->
+
     <e lm="gastvrouw"><i>gastvrouw</i><par n="els__n_f"/></e>
     <e lm="e-pion"><i>e-pion</i><par n="ren__n_m"/></e>
     <e lm="fietstocht"><i>fietstocht</i><par n="ui__n_m"/></e>
@@ -25707,57 +25774,6 @@
     <e lm="zwiepen"><p><l>gezwiept</l><r>zwiepen</r></p><par n="gesproken__vblex"/></e>
     <e lm="zwoegen"><i>zwoeg</i><par n="jij/en__vblex"/></e>
     <e lm="zwoegen"><p><l>gezwoegd</l><r>zwoegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="van"><i>van</i><par n="van__pr"/></e>
-    <e lm="aan"><i>aan</i><par n="van__pr"/></e>
-    <e lm="achter"><i>achter</i><par n="van__pr"/></e>
-    <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
-    <e lm="bij"><i>bij</i><par n="van__pr"/></e>
-    <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
-    <e lm="boven"><i>boven</i><par n="van__pr"/></e>
-    <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
-    <e lm="door"><i>door</i><par n="van__pr"/></e>
-    <e lm="in"><i>in</i><par n="van__pr"/></e>
-    <e lm="langs"><i>langs</i><par n="van__pr"/></e>
-    <e lm="met"><i>met</i><par n="van__pr"/></e>
-    <e lm="na"><i>na</i><par n="van__pr"/></e>
-    <e lm="naar"><i>naar</i><par n="van__pr"/></e>
-    <e lm="naast"><i>naast</i><par n="van__pr"/></e>
-    <e lm="om"><i>om</i><par n="van__pr"/></e>
-    <e lm="onder"><i>onder</i><par n="van__pr"/></e>
-    <e lm="op"><i>op</i><par n="van__pr"/></e>
-    <e lm="over"><i>over</i><par n="van__pr"/></e>
-    <e lm="rond"><i>rond</i><par n="van__pr"/></e>
-    <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
-    <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
-    <e lm="te"><i>te</i><par n="van__pr"/></e>
-    <e lm="tegen"><i>tegen</i><par n="van__pr"/></e>
-    <e lm="tegenover"><i>tegenover</i><par n="van__pr"/></e>
-    <e lm="tot"><i>tot</i><par n="van__pr"/></e>
-    <e lm="tussen"><i>tussen</i><par n="van__pr"/></e>
-    <e lm="uit"><i>uit</i><par n="van__pr"/></e>
-    <e lm="voor"><i>voor</i><par n="van__pr"/></e>
-    <e lm="zonder"><i>zonder</i><par n="van__pr"/></e>
-	<e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
-	<e lm="aangezien"><i>aangezien</i><par n="en__cnjcoo"/></e>
-	<e lm="als"><i>als</i><par n="en__cnjcoo"/></e>
-	<e lm="dat"><i>dat</i><par n="en__cnjcoo"/></e>
-	<e lm="sinds"><i>sinds</i><par n="en__cnjcoo"/></e>
-	<e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
-	<e lm="toen"><i></i>toen<par n="en__cnjcoo"/></e>
-	<e lm="hoewel"><i>hoewel</i><par n="en__cnjcoo"/></e>
-	<e lm="nadat"><i>nadat</i><par n="en__cnjcoo"/></e>
-	<e lm="nu"><i>nu</i><par n="en__cnjcoo"/></e>
-	<e lm="of"><i>of</i><par n="en__cnjcoo"/></e>
-	<e lm="omdat"><i>omdat</i><par n="en__cnjcoo"/></e>
-	<e lm="daar"><i>daar</i><par n="en__cnjcoo"/></e>
-	<e lm="ofschoon"><i>ofschoon</i><par n="en__cnjcoo"/></e>
-	<e lm="opdat"><i>opdat</i><par n="en__cnjcoo"/></e>
-	<e lm="totdat"><i>totdat</i><par n="en__cnjcoo"/></e>
-	<e lm="voordat"><i>voordat</i><par n="en__cnjcoo"/></e>
-	<e lm="zodat"><i>zodat</i><par n="en__cnjcoo"/></e>
-	<e lm="zodra"><i>zodra</i><par n="en__cnjcoo"/></e>
-	<e lm="zolang"><i>zolang</i><par n="en__cnjcoo"/></e>
-	<e lm="tot"><i>tot</i><par n="en__cnjcoo"/></e>
-	<e lm="voor"><i>voor</i><par n="en__cnjcoo"/></e>
+
   </section>
 </dictionary>
