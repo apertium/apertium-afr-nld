@@ -118,7 +118,8 @@
     </pardef>
 
     <pardef n="separa">
-      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e r="LR"><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e r="RL"><p><l><a/></l><r></r></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="paresq">
@@ -3134,6 +3135,9 @@
     <e lm="maak"><i>maak</i><par n="breek__vblex"/></e>
     <e lm="maak"><p><l>gemaak</l><r>maak</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="smelt"><i>smelt</i><par n="breek__vblex"/></e>
+    <e lm="smelt"><p><l>gesmelt</l><r>smelt</r></p><par n="gebreek__vblex"/></e>
+
     <!-- vul = fill, invul = fill in -->
     <e lm="vul"><par n="P__pr"/><par n="P__ge"/><i>vul</i><par n="breek__vblex"/></e>
     <e lm="druk"><par n="P__pr"/><par n="P__ge"/><i>druk</i><par n="breek__vblex"/></e>
@@ -3226,8 +3230,6 @@
     <e lm="ruim"><par n="P__pr"/><par n="P__ge"/><i>ruim</i><par n="breek__vblex"/></e>
     <!-- charge, note: ry does not mean this, only when used with aan~ but we cannot fix this at the moment -->
     <e lm="ry"><par n="P__pr"/><par n="P__ge"/><i>ry</i><par n="breek__vblex"/></e>
-    <!-- charge, note: smelt does not mean this, only when used with aan~ but we cannot fix this at the moment -->
-    <e lm="smelt"><par n="P__pr"/><par n="P__ge"/><i>smelt</i><par n="breek__vblex"/></e>
     <!-- charge, note: ry does not mean this, only when used with aan~ but we cannot fix this at the moment -->
     <e lm="dui"><par n="P__pr"/><par n="P__ge"/><i>dui</i><par n="breek__vblex"/></e>
     <!-- charge, note: ry does not mean this, only when used with aan~ but we cannot fix this at the moment -->

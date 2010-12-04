@@ -426,6 +426,7 @@
     <e><p><l>tipe<s n="n"/></l><r>soort<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>titel<s n="n"/></l><r>titel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tyd<s n="n"/></l><r>tijd<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>botter<s n="n"/></l><r>boter<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>ui<s n="n"/></l><r>ui<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>versie<s n="n"/></l><r>versie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
@@ -1441,7 +1442,7 @@
     <e><p><l>stoomboot<s n="n"/></l><r>stoomboot<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stoot<s n="n"/></l><r>duw<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>storie<s n="n"/></l><r>verhaal<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>straat<s n="n"/></l><r>straat<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>straat<s n="n"/></l><r>straat<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>straf<s n="n"/></l><r>straf<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>straling<s n="n"/></l><r>straling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>strand<s n="n"/></l><r>strand<s n="n"/><s n="nt"/></r></p></e>

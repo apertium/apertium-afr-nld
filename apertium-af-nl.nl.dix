@@ -165,6 +165,11 @@
       <e>       <p><l/><r><s n="num"/><s n="sp"/></r></p></e>
     </pardef>
 
+   <!-- SECTION: Pronouns -->
+
+    <pardef n="wat__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
 
 
    <!-- SECTION: Verbs -->
@@ -175,15 +180,11 @@
       <e>       <p><l>ben</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>bent</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>is</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>zijn</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>zijn</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>zijn</l><r>zijn<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>zijn</l><r>zijn<s n="vbser"/><s n="pres"/><s n="pl"/></r></p></e>
       <e>       <p><l>was</l><r>zijn<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>was</l><r>zijn<s n="vbser"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>was</l><r>zijn<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>waren</l><r>zijn<s n="vbser"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>waren</l><r>zijn<s n="vbser"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>waren</l><r>zijn<s n="vbser"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>waren</l><r>zijn<s n="vbser"/><s n="past"/><s n="pl"/></r></p></e>
       <e>       <p><l>geweest</l><r>zijn<s n="vbser"/><s n="pp"/></r></p></e>
     </pardef>
 
@@ -205,11 +206,10 @@
       <e>       <p><l>gehad</l><r>hebben<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
-
-
     <pardef n="gesproken__vblex">
        <e>       <p><l></l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
+
     <pardef n="sm/elten__vblex">
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -1942,9 +1942,6 @@
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>den</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="/﻿65+-kaart__n_mf">
-      <e><p><l>65+-kaart</l><r>﻿65+-kaart<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="t__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1956,9 +1953,6 @@
     <pardef n="o__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="munitie__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="nok__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -3773,9 +3767,6 @@
       <e r="LR"><p><l>ussen</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>i</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="smetvrees__n_m">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="b__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -4253,9 +4244,6 @@
       <e r="LR"><p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>n</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="munitie__n_m">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="zo/on__n_m">
       <e>       <p><l>on</l><r>on<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>nen</l><r>on<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -4290,9 +4278,6 @@
       <e>       <p><l>aste</l><r>as<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
       <e>       <p><l>aste</l><r>as<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
       <e>       <p><l>ast</l><r>as<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
-    </pardef>
-    <pardef n="munitie__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="step__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4532,9 +4517,6 @@
     <pardef n="ja/ap__n_m">
       <e>       <p><l>ap</l><r>ap<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>pen</l><r>ap<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="smetvrees__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="fu/ut__n_m">
       <e>       <p><l>ut</l><r>ut<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4832,6 +4814,10 @@
     <e lm="vierentwintigste"><i>vierentwintigste</i><par n="tweede__det"/></e>
     <e lm="vijfentwintigste"><i>vijfentwintigste</i><par n="tweede__det"/></e>
     <e lm="negeëntwintigste"><i>negeëntwintigste</i><par n="tweede__det"/></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <!-- SECTION: Hoofdtelwoorden -->
 
@@ -8183,7 +8169,6 @@
     <e lm="Fon"><i>Fon</i><par n="OV__n_nt"/></e>
     <e lm="Francoprovençaals"><i>Francoprovençaals</i><par n="OV__n_nt"/></e>
     <e lm="Franeker"><i>Franeker</i><par n="OV__n_nt"/></e>
-    <e lm="Frankrijk"><i>Frankrijk</i><par n="OV__n_nt"/></e>
     <e lm="Frans"><i>Frans</i><par n="OV__n_nt"/></e>
     <e lm="Frans-Vlaams"><i>Frans-Vlaams</i><par n="OV__n_nt"/></e>
     <e lm="Fransman"><i>Frans</i><par n="Frans/man__n_m"/></e>
@@ -15403,7 +15388,7 @@
     <e lm="muizenis"><i>muizenis</i><par n="as__n_f"/></e>
     <e lm="multicollineariteit"><i>multicollineariteit</i><par n="eb__n_f"/></e>
     <e lm="multiplex"><i>multiplex</i><par n="lot__n_nt"/></e>
-    <e lm="munitie"><i></i><par n="munitie__n_mf"/></e>
+    <e lm="munitie"><i>munitie</i><par n="smetvrees__n_mf"/></e>
     <e lm="munt"><i>munt</i><par n="ui__n_m"/></e>
     <e lm="muntkunde"><i>muntkunde</i><par n="eb__n_f"/></e>
     <e lm="muntstuk"><i>muntstuk</i><par n="bak__n_nt"/></e>
@@ -17675,7 +17660,7 @@
     <e lm="smeermiddel"><i>smeermiddel</i><par n="lot__n_nt"/></e>
     <e lm="smeltpunt"><i>smeltpunt</i><par n="lot__n_nt"/></e>
     <e lm="smeltwater"><i>smeltwater</i><par n="OV__n_nt"/></e>
-    <e lm="smetvrees"><i></i><par n="smetvrees__n_mf"/></e>
+    <e lm="smetvrees"><i>smetvrees</i><par n="smetvrees__n_mf"/></e>
     <e lm="smid"><i>sm</i><par n="sm/id__n_m"/></e>
     <e lm="smoel"><i>smoel</i><par n="ui__n_m"/></e>
     <e lm="smoor"><i>smoor</i><par n="WO__n_mf"/></e>
@@ -20743,8 +20728,6 @@
     <e lm="übermensch"><i>übermensch</i><par n="ui__n_m"/></e>
     <e lm="β-lactam"><i>β-lactam</i><par n="eon__n_nt"/></e>
     <e lm="β-lactam-antibioticum"><i>β-lactam-antibiotic</i><par n="sacr/um__n_nt"/></e>
-    <e lm="﻿65+-kaart"><i></i><par n="/﻿65+-kaart__n_mf"/></e>
-﻿    <e lm="06-nummer"><i>06-nummer</i><par n="eon__n_nt"/></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -20753,6 +20736,7 @@
     <e lm="Nederland"><i>Nederland</i><par n="Frankrijk__np"/></e>
     <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
     <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
+    <e lm="Engeland"><i>Engeland</i><par n="Frankrijk__np"/></e>
     <e lm="Nederlands"><i>Nederlands</i><par n="Frankrijk__np"/></e>
     <e lm="Afrika"><i>Afrika</i><par n="Frankrijk__np"/></e>
 
