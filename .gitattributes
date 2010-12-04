@@ -40,5 +40,6 @@ dev/generation-summary.txt -text
 dev/generation-test.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
+dev/verbSep.txt -text
 /modes.xml -text
 /nl-af.prob -text svneol=unset#unset
