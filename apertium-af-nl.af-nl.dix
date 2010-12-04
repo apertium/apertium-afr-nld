@@ -629,6 +629,7 @@
     <e><p><l>brand<s n="n"/></l><r>brand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>brandstof<s n="n"/></l><r>brandstof<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brief<s n="n"/></l><r>brief<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sagteware<s n="n"/></l><r>software<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>broederskap<s n="n"/></l><r>broederschap<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>broer<s n="n"/></l><r>broer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bronnelys<s n="n"/></l><r>bron<s n="n"/><s n="m"/></r></p></e>
@@ -2755,7 +2756,6 @@
     <e><p><l>oormôre<s n="n"/></l><r>overmorgen<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>goeienaand<s n="n"/></l><r>goedenavond<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>saam<s n="n"/></l><r>samen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>vry<s n="n"/></l><r>vrij<s n="n"/><s n="GD"/></r></p></e>
     -->
 
     <!-- SECTION: Proper names -->
@@ -3080,6 +3080,7 @@
     <e><p><l>Piet<s n="np"/><s n="ant"/><s n="m"/></l><r>Piet<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Apertium<s n="np"/><s n="al"/></l><r>Apertium<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Amnesty<b/>International<s n="np"/><s n="al"/></l><r>Amnesty<b/>International<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NATO<s n="np"/><s n="al"/></r></p></e>
@@ -3105,6 +3106,7 @@
     <e><p><l>rooi<s n="adj"/></l><r>rood<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>siek<s n="adj"/><s n="sint"/></l><r>ziek<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>openbaar<s n="adj"/><s n="sint"/></l><r>openbaar<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>vry<s n="adj"/><s n="sint"/></l><r>vrij<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>bekend<s n="adj"/></l><r>bekend<s n="adj"/></r></p></e>
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>klein<s n="adj"/><s n="sint"/></r></p></e>

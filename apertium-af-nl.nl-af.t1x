@@ -27,6 +27,7 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.top.*"/>
+      <cat-item tags="np.al.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
