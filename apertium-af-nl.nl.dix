@@ -1,50 +1,80 @@
 <dictionary>
    <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüû</alphabet>
    <sdefs>
-     <sdef n="n"/>
-     <sdef n="det"/>
-     <sdef n="vbser"/>
-     <sdef n="vbhaver"/>
-     <sdef n="num"/>
-     <sdef n="qnt"/>
-     <sdef n="dem"/>
-     <sdef n="ind"/>
-     <sdef n="def"/>
-     <sdef n="pos"/>
-     <sdef n="ord"/>
-     <sdef n="sp"/>
-     <sdef n="sg"/>
-     <sdef n="pl"/>
-     <sdef n="adv"/>
-     <sdef n="adj"/>
-     <sdef n="comp"/>
-	 <sdef n="m"/>
-	 <sdef n="mfn"/>
-	 <sdef n="f"/>
-	 <sdef n="mf"/>
-	 <sdef n="nt"/>
-	 <sdef n="sup"/>
-	 <sdef n="attr"/>
-	 <sdef n="sint"/>
-	 <sdef n="pred"/>
-	 <sdef n="part"/>
-	 <sdef n="p1"/>
-	 <sdef n="p2"/>
-	 <sdef n="p3"/>
-	 <sdef n="imp"/>
-	 <sdef n="inf"/>
-	 <sdef n="past"/>
-	 <sdef n="pres"/>
-	 <sdef n="prs"/>	
-	 <sdef n="pp"/>
-	 <sdef n="vblex"/>
-	 <sdef n="pprs"/>
-	 <sdef n="pr"/>
-	 <sdef n="cnjcoo"/>
-	 <sdef n="cnjsub"/>
-	 <sdef n="cnjadv"/>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="preadv"  c="Pre-adverb"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="vbser"   c="The verb 'to be'"/>
+    <sdef n="vbhaver" c="The verb 'to have'"/>
+    <sdef n="vblex"   c="Lexical verb"/>	
+    <sdef n="vaux"    c="Auxilliary verb"/>	
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="rel"     c="Relative"/>
+    <sdef n="num"     c="Numeral / Number"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mf"      c="Masculine-Feminine"/>
+    <sdef n="mfn"     c="Masculine/feminine/neuter"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular / Plural"/>
+    <sdef n="pres"    c="Present indicative"/>
+    <sdef n="prs"     c="Present subjunctive"/>
+    <sdef n="past"    c="Past tense"/>
+    <sdef n="pp"      c="Participle"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="pprs"    c="Present participle"/>    
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+    <sdef n="sint"    c="Synthetic adjective"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+    <sdef n="part"    c="Partitive"/>
+    <sdef n="attr"    c="Attributive"/>
+    <sdef n="pred"    c="Predicative"/>
+    <sdef n="tn"      c="Tonico"/>
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="obj"     c="Object"/>
+    <sdef n="subj"    c="Subject"/>
+    <sdef n="pro"     c="Proclitic"/>
+    <sdef n="ind"     c="Indefinite"/>    
+    <sdef n="itg"     c="Interrogative"/>
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="def"     c="Definite"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="ref"     c="Reflexive"/>
+    <sdef n="nn"      c="Inanimate"/>
+    <sdef n="an"      c="Animate / inanimate"/>
+    <sdef n="aa"      c="Animate"/>
+    <sdef n="ant"     c="Antroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+    <sdef n="al"      c="Altres"/>
+    <sdef n="top"     c="Toponym"/>
+    <sdef n="acr"     c="Acronym"/>
+    <sdef n="unc"     c="Uncountable"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="atp"     c="Attachable prefix"/>
+    <sdef n="sent"    c="End of sentence"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="guio"    c="Hyphen"/> 
+    <sdef n="percent" c="Percentage"/>
+    <sdef n="apos"    c="Apostrophe"/>
 
-	 <sdef n="sent"/>
    </sdefs>
   <pardefs>
 
@@ -4263,6 +4293,48 @@
       <e>       <p><l>as</l><r>as<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>zen</l><r>as<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+
+
+    <!-- SECTION: Proper names -->
+
+    <pardef n="Frankrijk__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Wynand__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Anrie__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Maria__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="Beatrix__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
+    <pardef n="van_der_Merwe__np">
+      <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Wikipedia__np">
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Apertium__np">
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+    </pardef>
+
+
+
   </pardefs>
   <section id="main" type="standard">
 
@@ -21946,6 +22018,74 @@
     <e lm="übermensch"><i>übermensch</i><par n="ui__n_m"/></e>
     <e lm="β-lactam"><i>β-lactam</i><par n="eon__n_nt"/></e>
     <e lm="β-lactam-antibioticum"><i>β-lactam-antibiotic</i><par n="sacr/um__n_nt"/></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="België"><i>België</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederland"><i>Nederland</i><par n="Frankrijk__np"/></e>
+    <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
+    <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederlands"><i>Nederlands</i><par n="Frankrijk__np"/></e>
+    <e lm="Afrika"><i>Afrika</i><par n="Frankrijk__np"/></e>
+
+    <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
+    <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
+    <e lm="Parijs"><i>Parijs</i><par n="Frankrijk__np"/></e>
+
+    <e lm="Otto"><i>Otto</i><par n="Wynand__np"/></e>
+    <e lm="Laurens"><i>Laurens</i><par n="Wynand__np"/></e>
+    <e lm="Henry"><i>Henry</i><par n="Wynand__np"/></e>
+    <e lm="Richard"><i>Richard</i><par n="Wynand__np"/></e>
+    <e lm="Albert"><i>Albert</i><par n="Wynand__np"/></e>
+    <e lm="Adriaan"><i>Adriaan</i><par n="Wynand__np"/></e>
+    <e lm="Alexander"><i>Alexander</i><par n="Wynand__np"/></e>
+    <e lm="Wynand"><i>Wynand</i><par n="Wynand__np"/></e>
+    <e lm="James"><i>James</i><par n="Wynand__np"/></e>
+    <e lm="Hendrik"><i>Hendrik</i><par n="Wynand__np"/></e>
+    <e lm="George"><i>George</i><par n="Wynand__np"/></e>
+    <e lm="John"><i>John</i><par n="Wynand__np"/></e>
+    <e lm="Jean"><i>Jean</i><par n="Wynand__np"/></e>
+    <e lm="Willem"><i>Willem</i><par n="Wynand__np"/></e>
+    <e lm="William"><i>William</i><par n="Wynand__np"/></e>
+    <e lm="Robert"><i>Robert</i><par n="Wynand__np"/></e>
+    <e lm="Paul"><i>Paul</i><par n="Wynand__np"/></e>
+    <e lm="Edward"><i>Edward</i><par n="Wynand__np"/></e>
+    <e lm="Karl"><i>Karl</i><par n="Wynand__np"/></e>
+    <e lm="Frank"><i>Frank</i><par n="Wynand__np"/></e>
+    <e lm="Charles"><i>Charles</i><par n="Wynand__np"/></e>
+    <e lm="Leonardo"><i>Leonardo</i><par n="Wynand__np"/></e>
+    <e lm="David"><i>David</i><par n="Wynand__np"/></e>
+    <e lm="Frederik"><i>Frederik</i><par n="Wynand__np"/></e>
+
+    <e lm="Thomas"><i>Thomas</i><par n="Wynand__np"/></e>
+    <e lm="Martin"><i>Martin</i><par n="Wynand__np"/></e>
+    <e lm="Pierre"><i>Pierre</i><par n="Wynand__np"/></e>
+    <e lm="Joseph"><i>Joseph</i><par n="Wynand__np"/></e>
+    <e lm="Josep"><i>Josep</i><par n="Wynand__np"/></e>
+    <e lm="Michael"><i>Michael</i><par n="Wynand__np"/></e>
+    <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
+    <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
+    <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
+    <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
+    <e lm="Stephen"><i>Stephen</i><par n="Wynand__np"/></e>
+    <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
+
+    <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e>
+    <e lm="Mieke"><i>Mieke</i><par n="Anrie__np"/></e>
+    <e lm="Marieke"><i>Marieke</i><par n="Anrie__np"/></e>
+    <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
+    <e lm="Hanna"><i>Hanna</i><par n="Maria__np"/></e>
+    <e lm="Anne"><i>Anne</i><par n="Anrie__np"/></e>
+    <e lm="Victoria"><i>Victoria</i><par n="Maria__np"/></e>
+    <e lm="Elizabeth"><i>Elizabeth</i><par n="Anrie__np"/></e>
+    <e lm="Beatrix"><i>Beatrix</i><par n="Beatrix__np"/></e>
+    <e lm="Els"><i>Els</i><par n="Beatrix__np"/></e>
+
+    <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
+    <e lm="Apertium"><i>Apertium</i><par n="Apertium__np"/></e>
+
+
+
 
     <!-- SECTION: Verbs -->
 
