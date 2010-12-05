@@ -127,7 +127,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nl-af-generador" install="yes">
+  <mode name="nl-af-generador" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="nl-af.automorf.bin"/>

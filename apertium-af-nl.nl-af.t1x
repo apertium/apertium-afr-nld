@@ -119,9 +119,8 @@
     </def-attr>
     <def-attr n="temps">
        <attr-item tags="pp"/>
-       <attr-item tags="pii"/>
-       <attr-item tags="pis"/>
-       <attr-item tags="pri"/>
+       <attr-item tags="prs"/>
+       <attr-item tags="imp"/>
        <attr-item tags="past"/>
        <attr-item tags="pres"/>
        <attr-item tags="inf"/>
@@ -394,6 +393,20 @@
           </when>
 
           <otherwise>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal>
+                </test>
+                <let>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="inf"/>
+                </let>
+              </when>
+            </choose>
             <out>
               <chunk name="verb">
                 <tags>

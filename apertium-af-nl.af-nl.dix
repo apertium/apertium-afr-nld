@@ -3463,6 +3463,9 @@
 
     <!-- SECTION: Adverbs -->
 
+    <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+
+    <e><p><l>uit<s n="adv"/></l><r>uit<s n="adv"/></r></p></e>
     <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
     <e><p><l>wel<s n="adv"/></l><r>wel<s n="adv"/></r></p></e>
     <e r="RL"><p><l>dikwels<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
@@ -3753,6 +3756,7 @@
     <e><p><l>doop<s n="vblex"/></l><r>dopen<s n="vblex"/></r></p></e>
     <e><p><l>hang<s n="vblex"/></l><r>hangen<s n="vblex"/></r></p></e>
     <e><p><l>begin<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>begin<s n="vblex"/></l><r>starten<s n="vblex"/></r></p></e>
     <e><p><l>wyk<s n="vblex"/></l><r>wijken<s n="vblex"/></r></p></e>
     <e><p><l>ontgin<s n="vblex"/></l><r>ontginnen<s n="vblex"/></r></p></e>
     <e><p><l>pak<s n="vblex"/></l><r>pakken<s n="vblex"/></r></p></e>
@@ -4002,6 +4006,7 @@
     <e><p><l>vernoem<s n="vblex"/></l><r>vernoemen<s n="vblex"/></r></p></e>
     <e><p><l>reis<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
     <e><p><l>suip<s n="vblex"/></l><r>drinken<s n="vblex"/></r></p></e>
+    <e><p><l>tel<s n="vblex"/></l><r>tellen<s n="vblex"/></r></p></e>
 
 
 
