@@ -111,7 +111,7 @@
     </def-attr>
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
-       <attr-item tags="vblex.uns"/>
+       <attr-item tags="vblex.sep"/>
        <attr-item tags="vbser"/>
        <attr-item tags="vbhaver"/>
        <attr-item tags="vbmod"/>

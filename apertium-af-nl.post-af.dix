@@ -107,15 +107,9 @@
   <section id="main" type="standard">
     <e> 
       <p>
-        <l><a/></l> 
-        <r></r>
+        <l><a/>'n</l> 
+        <r>'n</r>
       </p>
-      <re>[!.]</re>
-      <p>
-        <l><b/>'n<b/></l>
-        <r><b/>'n<b/></r>
-      </p>
-      <par n="lower_upper"/>
     </e>	
   </section>
 

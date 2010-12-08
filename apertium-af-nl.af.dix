@@ -65,6 +65,9 @@
     <sdef n="pp"      c="Participle"/>
     <sdef n="pos"     c="Possessive"/>
     <sdef n="gen"     c="Genitive"/>
+    <sdef n="sep"     c="Separable verb"/>
+    <sdef n="fm"      c="Main clause"/>
+    <sdef n="fs"      c="Subordinate clause"/>
     <sdef n="nom"     c="Nominative"/>
     <sdef n="sp"      c="Singular / Plural"/>
     <sdef n="ref"     c="Reflexive"/>
@@ -1091,7 +1094,6 @@
       <e>       <p><l/><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
 
-
     <pardef n="ontwikkel__vblex"><!-- uns -->
       <e>       <p><l/><r><s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="inf"/></r></p></e>
@@ -1140,6 +1142,20 @@
 
     <pardef n="behoort__vbmod">
       <e>       <p><l/><r><s n="vaux"/><s n="inf"/></r></p></e>
+    </pardef>
+
+    <pardef n="aansien__vblex_sep">
+      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/></r></p></e>
+      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
+    </pardef>
+
+    <pardef n="sien#_aan__vblex_sep">
+      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/></r></p></e>
+      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
+    </pardef>
+
+    <pardef n="aangesien__vblex_sep">
+      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="se__gen">
@@ -3108,8 +3124,9 @@
     <e lm="sien"><i>sien</i><par n="breek__vblex"/></e>
     <e lm="sien"><p><l>gesien</l><r>sien</r></p><par n="gebreek__vblex"/></e>
 
-    <e lm="aansien"><i>aansien</i><par n="breek__vblex"/></e>
-    <e lm="aansien"><p><l>aangesien</l><r>aansien</r></p><par n="gebreek__vblex"/></e>
+    <e lm="aansien"><i>aansien</i><par n="aansien__vblex_sep"/></e>
+    <e lm="aansien"><p><l>sien</l><r>aansien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aansien"><p><l>aangesien</l><r>aansien</r></p><par n="aangesien__vblex_sep"/></e>
 
     <e lm="raaksien"><i>raaksien</i><par n="breek__vblex"/></e>
     <e lm="raaksien"><p><l>raakgesien</l><r>raaksien</r></p><par n="gebreek__vblex"/></e>

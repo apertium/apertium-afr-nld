@@ -100,12 +100,12 @@
     <sdef n="enc"/>
     <sdef n="vbdo"/>
     <sdef n="unc"/>
-    <sdef n="sep"/>
     <sdef n="pron"/>
     <sdef n="percent"/>
     <sdef n="apos" c="Apostrophe"/>
 
     <sdef n="pref" c="Prefix"/>
+    <sdef n="sep" c="Separable"/>
 
     <sdef n="top" c="Location"/>
     <sdef n="ant" c="Person"/>
@@ -4007,6 +4007,8 @@
     <e><p><l>reis<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
     <e><p><l>suip<s n="vblex"/></l><r>drinken<s n="vblex"/></r></p></e>
     <e><p><l>tel<s n="vblex"/></l><r>tellen<s n="vblex"/></r></p></e>
+
+    <e><p><l>aansien<s n="vblex"/><s n="sep"/></l><r>aanzien<s n="vblex"/><s n="sep"/></r></p></e>
 
 
 
