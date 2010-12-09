@@ -23821,8 +23821,10 @@
     <e lm="huisvesten"><p><l>gehuisvest</l><r>huisvesten</r></p><par n="gesproken__vblex"/></e>
     <e lm="huiveren"><i>huiver</i><par n="jij/en__vblex"/></e>
     <e lm="huiveren"><p><l>gehuiverd</l><r>huiveren</r></p><par n="gesproken__vblex"/></e>
+<!--
     <e lm="huizen"><i>hui</i><par n="lui/zen__vblex"/></e>
     <e lm="huizen"><p><l>gehuisd</l><r>huizen</r></p><par n="gesproken__vblex"/></e>
+-->
     <e lm="huldigen"><i>huldig</i><par n="jij/en__vblex"/></e>
     <e lm="huldigen"><p><l>gehuldigd</l><r>huldigen</r></p><par n="gesproken__vblex"/></e>
     <e lm="hullen"><i>hul</i><par n="rol/len__vblex"/></e>

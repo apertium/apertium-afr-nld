@@ -1151,7 +1151,6 @@
 
     <pardef n="sien#_aan__vblex_sep">
       <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/></r></p></e>
-      <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
     </pardef>
 
     <pardef n="aangesien__vblex_sep">
