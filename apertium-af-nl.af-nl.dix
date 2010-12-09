@@ -316,7 +316,7 @@
 	<e><p><l>vlag<s n="n"/></l><r>vlag<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>minister<s n="n"/></l><r>minister<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>room<s n="n"/></l><r>room<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>kant<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>kant<s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>handel<s n="n"/></l><r>handel<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>gemeenskap<s n="n"/></l><r>gemeenschap<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>munisipaliteit<s n="n"/></l><r>gemeente<s n="n"/><s n="f"/></r></p></e>
@@ -362,7 +362,7 @@
 	<e><p><l>uitgawe<s n="n"/></l><r>uitgave<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>stap<s n="n"/></l><r>stap<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kandidaat<s n="n"/></l><r>kandidaat<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>departement<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>departement<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>vervaardiging<s n="n"/></l><r>fabricatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>sagteware<s n="n"/><s n="unc"/></l><r>software<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>politiek<s n="n"/></l><r>politiek<s n="n"/><s n="f"/></r></p></e>
@@ -447,7 +447,7 @@
 	<e><p><l>klerk<s n="n"/></l><r>klerk<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>aanduiding<s n="n"/></l><r>indicatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>arbeid<s n="n"/></l><r>arbeid<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>reputasie<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>reputasie<s n="n"/></l><r>reputatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>herfs<s n="n"/></l><r>herfst<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>twyfel<s n="n"/><s n="unc"/></l><r>twijfel<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>fontein<s n="n"/></l><r>fontein<s n="n"/><s n="m"/></r></p></e>
@@ -482,7 +482,7 @@
 	<e><p><l>senator<s n="n"/></l><r>senator<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>infeksie<s n="n"/></l><r>infectie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>atlas<s n="n"/></l><r>atlas<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>mode<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>mode<s n="n"/></l><r>mode<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>interaksie<s n="n"/></l><r>interactie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>vennoot<s n="n"/></l><r>vennoot<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>sendingstasie<s n="n"/></l><r>missiepost<s n="n"/><s n="mf"/></r></p></e>
@@ -504,7 +504,7 @@
 	<e><p><l>soewereiniteit<s n="n"/></l><r>souvereiniteit<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>indeks<s n="n"/></l><r>index<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>duikboot<s n="n"/></l><r>onderzeeër<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>verligting<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>verligting<s n="n"/></l><r>velichting<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>rys<s n="n"/></l><r>reis<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>inspirasie<s n="n"/></l><r>inspiratie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>migrasie<s n="n"/></l><r>migratie<s n="n"/><s n="f"/></r></p></e>
@@ -593,7 +593,7 @@
 	<e><p><l>kalsium<s n="n"/><s n="unc"/></l><r>calcium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>domkerk<s n="n"/></l><r>domkerk<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>werkverrigting<s n="n"/></l><r>werkverrichting<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>walvis<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>walvis<s n="n"/></l><r>walvis<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>telekommunikasie<s n="n"/></l><r>telecommunicatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>tegnesium<s n="n"/><s n="unc"/></l><r>technitium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>sluipmoord<s n="n"/></l><r>sluipmoord<s n="n"/><s n="m"/></r></p></e>
@@ -626,7 +626,7 @@
 	<e><p><l>vertaler<s n="n"/></l><r>vertaler<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>notasie<s n="n"/></l><r>notatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>konsul<s n="n"/></l><r>consul<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>agent<s n="n"/></l><r>agent<s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>agent<s n="n"/></l><r>agent<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>woonplek<s n="n"/></l><r>woonplaats<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>verkryging<s n="n"/></l><r>verkrijging<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>spoorwegstasie<s n="n"/></l><r>station<s n="n"/><s n="nt"/></r></p></e>
@@ -744,7 +744,7 @@
 	<e><p><l>aansoek<s n="n"/></l><r>aanzoek<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>taalgemeenskap<s n="n"/></l><r>taalgemeenschap<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>silver<s n="n"/><s n="unc"/></l><r>zilver<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>sesium<s n="n"/><s n="unc"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>sesium<s n="n"/><s n="unc"/></l><r>cesium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>rekenkundige<s n="n"/></l><r>wiskundige<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>regstelling<s n="n"/></l><r>correctie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>newel<s n="n"/><s n="unc"/></l><r>nevel<s n="n"/><s n="mf"/></r></p></e>
@@ -892,10 +892,10 @@
 	<e><p><l>broeiplek<s n="n"/></l><r>broedplek<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>boeg<s n="n"/></l><r>boeg<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bewaringsgebied<s n="n"/></l><r>bewaringsgebied<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>aanspreekvorm<s n="n"/></l><r>aanspreekvorm<s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>aanspreekvorm<s n="n"/></l><r>aanspreekvorm<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>whisky<s n="n"/></l><r>whiskey<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>werktuigkundige<s n="n"/></l><r>monteur<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>werkgemeenskap<s n="n"/></l><r>werkgemeenschap<s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>werkgemeenskap<s n="n"/></l><r>werkgemeenschap<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>verblyfpermit<s n="n"/></l><r>verblijfsvergunning<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>tender<s n="n"/></l><r>inschrijving<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>stuurstang<s n="n"/></l><r>joystick<s n="n"/><s n="m"/></r></p></e>
@@ -928,7 +928,7 @@
 	<e><p><l>dierkundige<s n="n"/></l><r>dierkundige<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dieetkundige<s n="n"/></l><r>diëtist<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>departementshoof<s n="n"/></l><r>departementshoofd<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>braaivleis<s n="n"/></l><r>braadvlees<s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>braaivleis<s n="n"/></l><r>braadvlees<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>agitasie<s n="n"/></l><r>uitlokking<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>wêreldgeskiedenis<s n="n"/></l><r>wereldgeschiedenis<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>vryemarkstelsel<s n="n"/></l><r>vrijemarktstelsel<s n="n"/><s n="nt"/></r></p></e>
@@ -978,7 +978,7 @@
 	<e><p><l>voedingswaarde<s n="n"/></l><r>voedingswaarde<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>verpleegkunde<s n="n"/><s n="unc"/></l><r>verpleegkunde<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>veldteorie<s n="n"/></l><r>veldtheorie<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>torium<s n="n"/><s n="unc"/></l><r>thorium<s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>torium<s n="n"/><s n="unc"/></l><r>thorium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>studentevereniging<s n="n"/></l><r>studentenvereniging<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>strydpunt<s n="n"/></l><r>strijdpunt<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>speelplek<s n="n"/></l><r>speelplaats<s n="n"/><s n="m"/></r></p></e>
@@ -999,7 +999,7 @@
 	<e><p><l>musiekprogram<s n="n"/></l><r>muiziekprogramma<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>motorboot<s n="n"/></l><r>motorboot<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>metaalplaat<s n="n"/></l><r>metaalplaat<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>mede-eienaar<s n="n"/></l><r><s n="n"/><s n="GD"/></r></p></e>
+	<e><p><l>mede-eienaar<s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>makelaar<s n="n"/></l><r>mede-eigenaar<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kuierplek<s n="n"/></l><r>bezoekplek<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kommunikasiesentrum<s n="n"/></l><r>communicatiecentrum<s n="n"/><s n="nt"/></r></p></e>
@@ -1255,7 +1255,7 @@
     <e><p><l>afwyking<s n="n"/></l><r>afwijking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>agenda<s n="n"/></l><r>agenda<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>agtergrond<s n="n"/></l><r>achtergrond<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>agterhoede<s n="n"/></l><r>staart<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>agterhoede<s n="n"/></l><r>staart<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>agterkant<s n="n"/></l><r>achterkant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>akademikus<s n="n"/></l><r>academicus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aksent<s n="n"/></l><r>accent<s n="n"/><s n="nt"/></r></p></e>
@@ -1267,7 +1267,7 @@
     <e><p><l>alkohol<s n="n"/></l><r>alcohol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>alternatief<s n="n"/></l><r>alternatief<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ambassade<s n="n"/></l><r>ambassade<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>amptenaar<s n="n"/></l><r>ambtenaar<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>amptenaar<s n="n"/></l><r>ambtenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anker<s n="n"/></l><r>anker<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>antropoloog<s n="n"/></l><r>antropoloog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>antwoord<s n="n"/></l><r>antwoord<s n="n"/><s n="nt"/></r></p></e>
