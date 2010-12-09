@@ -364,7 +364,6 @@
 	<e><p><l>kandidaat<s n="n"/></l><r>kandidaat<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>departement<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>vervaardiging<s n="n"/></l><r>fabricatie<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>sagteware<s n="n"/><s n="unc"/></l><r>software<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>politiek<s n="n"/></l><r>politiek<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>veldtog<s n="n"/></l><r>campagne<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>sokkerafdeling<s n="n"/></l><r>voetbalafdeling<s n="n"/><s n="f"/></r></p></e>
@@ -1400,7 +1399,7 @@
     <e><p><l>brand<s n="n"/></l><r>brand<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>brandstof<s n="n"/></l><r>brandstof<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brief<s n="n"/></l><r>brief<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sagteware<s n="n"/></l><r>software<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sagteware<s n="n"/></l><r>software<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>broederskap<s n="n"/></l><r>broederschap<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>broer<s n="n"/></l><r>broer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bronnelys<s n="n"/></l><r>bron<s n="n"/><s n="m"/></r></p></e>
@@ -3335,6 +3334,7 @@
     <e><p><l>beweging<s n="n"/></l><r>beweging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>belangstelling<s n="n"/></l><r>belangstelling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vertaling<s n="n"/></l><r>vertaling<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>outomatiese<b/>vertaling<s n="n"/></l><r>computervertaling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ondersteuning<s n="n"/></l><r>ondersteuning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vestiging<s n="n"/></l><r>vestiging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verklaring<s n="n"/></l><r>verklaring<s n="n"/><s n="f"/></r></p></e>
@@ -3759,6 +3759,7 @@
     <e><p><l>Soedan<s n="np"/><s n="top"/></l><r>Soedan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Sowjetunie<s n="np"/><s n="top"/></l><r>Sovjet-Unie<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Spanje<s n="np"/><s n="top"/></l><r>Spanje<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Alacant<s n="np"/><s n="top"/></l><r>Alacant<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Stille<b/>oseaan<s n="np"/><s n="top"/></l><r>Grote<b/>Oceaan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Stockholm<s n="np"/><s n="top"/></l><r>Stockholm<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3852,7 +3853,7 @@
     <e><p><l>Piet<s n="np"/><s n="ant"/><s n="m"/></l><r>Piet<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Apertium<s n="np"/><s n="al"/></l><r>Apertium<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Apertium<s n="np"/><s n="al"/></l><r>Apertium<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Amnesty<b/>International<s n="np"/><s n="al"/></l><r>Amnesty<b/>International<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NATO<s n="np"/><s n="al"/></r></p></e>
@@ -4794,6 +4795,7 @@
     <e><i>-</i><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
 
     <e><i>-</i><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
+    <e><i>'</i><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
 
     <e><re>[0-9]+([.,][0-9]+)?de</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?ste</re><p><l>s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>

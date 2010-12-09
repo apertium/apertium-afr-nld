@@ -2297,6 +2297,7 @@
     <e lm="ontdekking"><i>ontdekking</i><par n="artikel__n"/></e> 
     <e lm="sterrekundige"><i>sterrekundige</i><par n="artikel__n"/></e> 
     <e lm="vertaling"><i>vertaling</i><par n="artikel__n"/></e> 
+    <e lm="outomatiese vertaling"><i>outomatiese<b/>vertaling</i><par n="artikel__n"/></e> 
     <e lm="opstelling"><i>opstelling</i><par n="artikel__n"/></e> 
     <e lm="oplossing"><i>oplossing</i><par n="artikel__n"/></e> 
     <e lm="sin"><i>sin</i><par n="artikel__n"/></e><!-- check this -->
@@ -2530,15 +2531,14 @@
     <e lm="URL"><i>URL</i><par n="DNA__n"/></e>
     <e lm="WWW"><i>WWW</i><par n="DNA__n"/></e>
     <e lm="TV"><i>TV</i><par n="DNA__n"/></e>
-    <e lm="mm"><i>km</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
+    <e lm="mm"><i>mm</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
     <e lm="km"><i>km</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
     <e lm="cm"><i>cm</i><par n="DNA__n"/></e><!-- centimetres ~ still acr. -->
     <e lm="m"><i>m</i><par n="DNA__n"/></e><!-- metres ~ still acr. -->
     <e lm="vm"><i>vm</i><par n="DNA__n"/></e><!-- AM = vm. (voor middag = before midday). -->
     <e lm="nm"><i>nm</i><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->
-
-    <e lm="PM" r="LR"><i>PM</i><par n="DNA__n"/></e>
-    <e lm="AM" r="LR"><i>AM</i><par n="DNA__n"/></e>
+    <e lm="vm" r="LR"><p><l>am</l><r>vm</r></p><par n="DNA__n"/></e><!-- AM = vm. (voor middag = before midday). -->
+    <e lm="nm" r="LR"><p><l>am</l><r>nm</r></p><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->
 
     <!-- Abbreviations -->
 
@@ -2916,6 +2916,7 @@
     <e lm="Serwië"><i>Serwië</i><par n="Engeland__np"/></e>
     <e lm="Skotland"><i>Skotland</i><par n="Engeland__np"/></e>
     <e lm="Spanje"><i>Spanje</i><par n="Engeland__np"/></e>
+    <e lm="Alacant"><i>Alacant</i><par n="Engeland__np"/></e>
     <e lm="Suid-Afrika"><i>Suid-Afrika</i><par n="Engeland__np"/></e>
     <e lm="Suidafrika"><i>Suidafrika</i><par n="Engeland__np"/></e>
     <e lm="Saudi Arabië"><i>Saudi Arabië</i><par n="Engeland__np"/></e>
@@ -4923,7 +4924,6 @@
     <e lm="gasheer"><i>gashe</i><par n="atmosfe/er__n"/></e>
     <e lm="heks"><i>heks</i><par n="bier__n"/></e>
     <e lm="agent"><i>agent</i><par n="bier__n"/></e>
-    <e lm="mm"><i>mm</i><par n="poësie__n__unc"/></e>
     <e lm="fakkel"><i>fakkel</i><par n="artikel__n"/></e>
     <e lm="vloeistof"><i>vloeist</i><par n="afsto/f__n"/></e>
     <e lm="navolging"><i>navolging</i><par n="bier__n"/></e>
@@ -4988,7 +4988,6 @@
     <e lm="hout"><i>hout</i><par n="bier__n"/></e>
     <e lm="treffer"><i>treffer</i><par n="artikel__n"/></e>
     <e lm="eer"><i>e</i><par n="atmosfe/er__n"/></e>
-    <e lm="taalwetenskaplike"><i>taalwetenskaplike</i><par n="artikel__n"/></e>
     <e lm="voorkoms"><i>voorkoms</i><par n="lys__n"/></e>
     <e lm="geraas"><i>geraas</i><par n="poësie__n__unc"/></e>
     <e lm="roman"><i>roman</i><par n="polisieman__n"/></e>
@@ -6192,6 +6191,7 @@
     <e lm="voogdyskap"><i>voogdyskap</i><par n="boodskap__n"/></e>
     <e lm="vriendskap"><i>vriendskap</i><par n="boodskap__n"/></e>
     <e lm="wetenskap"><i>wetenskap</i><par n="boodskap__n"/></e>
+    <e lm="taalwetenskap"><i>taalwetenskap</i><par n="artikel__n"/></e>
 
     <!-- From wordlist with ~pad/paaie -->
     <e lm="deurpad"><i>deurpad</i><par n="pa/d__n"/></e>
@@ -6993,6 +6993,8 @@
 
     <e lm="Afrikaans"><i>Afrikaans</i><par n="dadelik__adj"/></e>
     <e lm="Amerikaans"><i>Amerikaanse</i><par n="dadelik__adj"/></e>
+    <e lm="Spaans"><i>Spaans</i><par n="dadelik__adj"/></e>
+    <e lm="Katalaans"><i>Katalaans</i><par n="dadelik__adj"/></e>
     <e lm="Brits"><i>Brits</i><par n="dadelik__adj"/></e>
     <e lm="Duits"><i>Duits</i><par n="dadelik__adj"/></e>
     <e lm="Engels"><i>Engels</i><par n="dadelik__adj"/></e>
@@ -7046,6 +7048,7 @@
     <e lm="aanmerklik"><i>aanmerklik</i><par n="dadelik__adj"/></e>
     <e lm="militêr"><i>militêr</i><par n="dadelik__adj"/></e>
     <e lm="wetenskaplik"><i>wetenskaplik</i><par n="dadelik__adj"/></e>
+    <e lm="taalwetenskaplik"><i>taalwetenskaplik</i><par n="dadelik__adj"/></e>
     <e lm="permanent"><i>permanent</i><par n="dadelik__adj"/></e>
     <e lm="menslik"><i>menslik</i><par n="dadelik__adj"/></e>
     <e lm="veranderlik"><i>veranderlik</i><par n="dadelik__adj"/></e>

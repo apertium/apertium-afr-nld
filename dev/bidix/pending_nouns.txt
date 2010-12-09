@@ -3,13 +3,10 @@
     478 ^@orde<n>$
     471 ^@groei<n>$
     414 ^@r<n><acr>$
-    360 ^@steun<n>$
     334 ^@honderd<n>$
-    328 ^@wetenskaplike<n>$
     208 ^@skade<n>$
     196 ^@koper<n>$
     160 ^@mnr<n>$
-    159 ^@mm<n>$
     153 ^@regs<n>$
     146 ^@suurstof<n>$
     143 ^@liefde<n>$
@@ -50,6 +47,7 @@
      18 ^@silver<n>$
      18 ^@sesium<n>$
      18 ^@newel<n>$
+     16 ^@taalwetenskap<n>$
      16 ^@kripton<n>$
      15 ^@telnet<n>$
      15 ^@rutenium<n>$
@@ -68,8 +66,6 @@
       9 ^@gemeet<n>$
       8 ^@hyser<n>$
       8 ^@dagga<n>$
-      8 ^@am<n><acr>$
-      7 ^@taalwetenskaplike<n>$
       7 ^@naambediener<n>$
       6 ^@wegspringplek<n>$
       6 ^@satellietstaat<n>$
@@ -87,7 +83,6 @@
       4 ^@verstoot<n>$
       4 ^@verpleegkunde<n>$
       4 ^@torium<n>$
-      4 ^@pm<n><acr>$
       4 ^@paraffien<n>$
       4 ^@konkordaat<n>$
       3 ^@rekenaarbedryfstelsel<n>$

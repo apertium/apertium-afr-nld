@@ -37,9 +37,12 @@
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
     <def-cat n="verbfin">
-      <cat-item tags="vblex.*"/>
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vbhaver.*"/> 
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbhaver.pres"/> 
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vbhaver.pres.*"/> 
     </def-cat>
     <def-cat n="verbpp">
       <cat-item tags="vblex.pp"/>
@@ -80,6 +83,7 @@
       <attr-item tags="n.acr"/>
       <attr-item tags="n.unc"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.al"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
       <attr-item tags="np.org"/>

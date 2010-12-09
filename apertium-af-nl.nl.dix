@@ -15,9 +15,9 @@
     <sdef n="vblex"   c="Lexical verb"/>	
     <sdef n="vaux"    c="Auxilliary verb"/>	
     <sdef n="vbmod"   c="Modal verb"/>
-	<sdef n="sep"     c="Seperable verb"/>
-	<sdef n="fs"      c="Seperable verb in subordinate clause"/>
-	<sdef n="fm"      c="Seperable verb in main clause"/>
+    <sdef n="sep"     c="Seperable verb"/>
+    <sdef n="fs"      c="Seperable verb in subordinate clause"/>
+    <sdef n="fm"      c="Seperable verb in main clause"/>
     <sdef n="rel"     c="Relative"/>
     <sdef n="num"     c="Numeral / Number"/>
     <sdef n="ij"      c="Interjection"/>
@@ -87,6 +87,10 @@
     <pardef n="separa">
       <e r="LR"><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
       <e r="RL"><p><l><a/></l><r/></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="cometa">
+      <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
     </pardef>
 
     <pardef n="numeros">
@@ -214,12 +218,70 @@
       <e>       <p><l>gehad</l><r>hebben<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
+    <pardef n="/kunnen__vbmod">
+      <e>       <p><l>kunnen</l><r>kunnen<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>kunnend</l><r>kunnen<s n="vbmod"/><s n="pprs"/></r></p></e>
+
+      <e>       <p><l>kan</l><r>kunnen<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>kunt</l><r>kunnen<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>kan</l><r>kunnen<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>kan</l><r>kunnen<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>kunnen</l><r>kunnen<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>kon</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>kon</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>kon</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>konden</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>gekund</l><r>kunnen<s n="vbmod"/><s n="pp"/></r></p></e>
+    </pardef>
+
     <pardef n="gesproken__vblex">
        <e>       <p><l></l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
+
     <pardef n="gesproken__vblex_sep">
        <e>       <p><l></l><r><s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
     </pardef>
+
+    <pardef n="w/orden__vblex">
+      <e>       <p><l>orden</l><r>orden<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>ordend</l><r>orden<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>ord</l><r>orden<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ord</l><r>orden<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orden</l><r>orden<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erden</l><r>orden<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orden</l><r>orden<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/oen__vblex">
+      <e>       <p><l>oen</l><r>oen<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>oend</l><r>oen<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>oe</l><r>oen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oen</l><r>oen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>oe</l><r>oen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oet</l><r>oen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oet</l><r>oen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oen</l><r>oen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>eed</l><r>oen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eed</l><r>oen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eed</l><r>oen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eden</l><r>oen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>oe</l><r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oe</l><r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oe</l><r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>oen</l><r>oen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="sm/elten__vblex">
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -16262,6 +16324,7 @@
     <e lm="libel"><i>libel</i><par n="mol__n_nt"/></e>
     <e lm="libelle"><i>libelle</i><par n="wake__n_mf"/></e>
     <e lm="libido"><i>libido</i><par n="OV__n_nt"/></e>
+    <e lm="licentie"><i>licentie</i><par n="roe__n_f"/></e>
     <e lm="lichaam"><i>licha</i><par n="ra/am__n_nt"/></e>
     <e lm="lichaamsdeel"><i>lichaamsde</i><par n="ze/el__n_nt"/></e>
     <e lm="lichaamstemperatuur"><i>lichaamstemperatu</i><par n="ku/ur__n_f"/></e>
@@ -20695,6 +20758,7 @@
     <e lm="versterking"><i>versterking</i><par n="els__n_f"/></e>
     <e lm="vertaler"><i>vertaler</i><par n="led__n_m"/></e>
     <e lm="vertaling"><i>vertaling</i><par n="els__n_f"/></e>
+    <e lm="computervertaling"><i>computervertaling</i><par n="els__n_f"/></e>
     <e lm="verte"><i>verte</i><par n="made__n_f"/></e>
     <e lm="vertegenwoordiger"><i>vertegenwoordiger</i><par n="led__n_m"/></e>
     <e lm="verteller"><i>verteller</i><par n="led__n_m"/></e>
@@ -22355,6 +22419,7 @@
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
     <e lm="Parijs"><i>Parijs</i><par n="Frankrijk__np"/></e>
+    <e lm="Alacant"><i>Alacant</i><par n="Frankrijk__np"/></e>
 
     <e lm="Otto"><i>Otto</i><par n="Wynand__np"/></e>
     <e lm="Laurens"><i>Laurens</i><par n="Wynand__np"/></e>
@@ -22416,6 +22481,8 @@
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
 
     <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
+
+    <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
 
 
     <e lm="aaien"><i>aai</i><par n="jij/en__vblex"/></e>
@@ -23300,6 +23367,8 @@
     <e lm="documenteren"><p><l>gedocumenteerd</l><r>documenteren</r></p><par n="gesproken__vblex"/></e>
     <e lm="doden"><i>do</i><par n="do/den__vblex"/></e>
     <e lm="doden"><p><l>gedood</l><r>doden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
+    <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
     <e lm="doelen"><i>doel</i><par n="jij/en__vblex"/></e>
     <e lm="doelen"><p><l>gedoeld</l><r>doelen</r></p><par n="gesproken__vblex"/></e>
     <e lm="doemen"><i>doem</i><par n="jij/en__vblex"/></e>
@@ -26357,6 +26426,8 @@
     <e lm="wonden"><p><l>gewond</l><r>wonden</r></p><par n="gesproken__vblex"/></e>
     <e lm="wonen"><i>wo</i><par n="to/nen__vblex"/></e>
     <e lm="wonen"><p><l>gewoond</l><r>wonen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="worden"><i>w</i><par n="w/orden__vblex"/></e>
+    <e lm="worden"><p><l>geworden</l><r>worden</r></p><par n="gesproken__vblex"/></e>
     <e lm="worgen"><i>worg</i><par n="jij/en__vblex"/></e>
     <e lm="worgen"><p><l>geworgd</l><r>worgen</r></p><par n="gesproken__vblex"/></e>
     <e lm="worstelen"><i>worstel</i><par n="jij/en__vblex"/></e>
@@ -27743,5 +27814,6 @@
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
     <e><par n="numeros"/></e>
+    <e><par n="cometa"/></e>
   </section>
 </dictionary>
