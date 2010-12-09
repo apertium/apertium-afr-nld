@@ -2030,7 +2030,6 @@
     <e lm="samevatting"><i>samevatting</i><par n="artikel__n"/></e>
     <e lm="opsomming"><i>opsomming</i><par n="artikel__n"/></e>
     <e lm="meetkunde"><i>meetkunde</i><par n="artikel__n"/></e>
-    <e lm="wetenskaplike"><i>wetenskaplike</i><par n="artikel__n"/></e>
     <e lm="waarskuwing"><i>waarskuwing</i><par n="artikel__n"/></e>
     <e lm="ervaring"><i>ervaring</i><par n="artikel__n"/></e><!-- experience -->
     <e lm="seuntjie"><i>seuntjie</i><par n="artikel__n"/></e>
@@ -2563,7 +2562,7 @@
     <e lm="broederskap"><i>broederskap</i><par n="poësie__n__unc"/></e>
     <e lm="republikanisme"><i>republikanisme</i><par n="poësie__n__unc"/></e>
     <e lm="nasionalisme"><i>nasionalisme</i><par n="poësie__n__unc"/></e>
-    <e lm="steun"><i>steun</i><par n="poësie__n__unc"/></e>
+    <!--<e lm="steun"><i>steun</i><par n="poësie__n__unc"/></e>-->
     <e lm="orde"><i>orde</i><par n="poësie__n__unc"/></e>
     <e lm="internet"><i>internet</i><par n="poësie__n__unc"/></e><!-- internets? -->
     <e lm="verkeer"><i>verkeer</i><par n="poësie__n__unc"/></e>
@@ -3446,7 +3445,6 @@
     <e lm="speel"><par n="P__ge"/><i>speel</i><par n="breek__vblex"/></e>
     <e lm="spesifiseer"><par n="P__ge"/><i>spesifiseer</i><par n="breek__vblex"/></e>
     <e lm="steek"><par n="P__ge"/><i>steek</i><par n="breek__vblex"/></e>
-    <e lm="steun"><par n="P__ge"/><i>steun</i><par n="breek__vblex"/></e>
     <e lm="stoor"><par n="P__ge"/><i>stoor</i><par n="breek__vblex"/></e>
     <e lm="straf"><par n="P__ge"/><i>straf</i><par n="breek__vblex"/></e>
     <e lm="studeer"><par n="P__ge"/><i>studeer</i><par n="breek__vblex"/></e>
