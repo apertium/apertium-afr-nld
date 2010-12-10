@@ -88,7 +88,7 @@ Tag mismatch between transfer and generation
    1538 #wereld\<n\>\<m\>\<sg\>	^wereld<n><m><sg>$
    1535 #groep\<n\>\<m\>\<sg\>	^groep<n><m><sg>$
    1534 #ou\<adj\>\<sint\>\<pred\>	^ou<adj><sint><pred>$
-   1522 #miljoen\<num\>\<sp\>	^miljoen<num><sp>$
+   1527 #miljoen\<num\>\<sp\>	^miljoen<num><sp>$
    1490 #komen\<vblex\>\<pres\>\<p3\>\<sg\>	^komen<vblex><pres><p3><sg>$
    1462 #moeten\<vbmod\>\<past\>	^moeten<vbmod><past>$
    1425 #Kerk\<n\>\<m\>\<sg\>	^Kerk<n><m><sg>$
@@ -580,6 +580,7 @@ Tag mismatch between transfer and generation
     149 #sjabloon\<n\>\<m\>\<sg\>	^sjabloon<n><m><sg>$
     149 #Noordwesten\<n\>\<nt\>\<sg\>	^Noordwesten<n><nt><sg>$
     148 #LosAngeles\<np\>\<top\>\<nt\>\<sg\>	^LosAngeles<np><top><nt><sg>$
+    148 #Linux\<np\>\<al\>\<mfn\>\<sg\>	^Linux<np><al><mfn><sg>$
     148 #km\<n\>\<acr\>\<m\>\<pl\>	^km<n><acr><m><pl>$
     148 #industrieel\<adj\>\<attr\>	^industrieel<adj><attr>$
     148 #ernstig\<adj\>\<sint\>\<attr\>	^ernstig<adj><sint><attr>$
@@ -2726,6 +2727,7 @@ Tag mismatch between transfer and generation
       7 #kennis\<n\>\<m\>\<pl\>	^kennis<n><m><pl>$
       7 #kelder\<n\>\<pl\>	^kelder<n><GD><pl>$
       7 #joystick\<n\>\<m\>\<sg\>	^joystick<n><m><sg>$
+      7 #Javascript\<np\>\<al\>\<mfn\>\<sg\>	^Javascript<np><al><mfn><sg>$
       7 #intuïtief\<adj\>\<pred\>	^intuïtief<adj><pred>$
       7 #individualiteit\<n\>\<nt\>\<sg\>	^individualiteit<n><nt><sg>$
       7 #ijsbeer\<n\>\<mf\>\<sg\>	^ijsbeer<n><mf><sg>$
@@ -4642,5 +4644,5 @@ Summary
 ===============================================================================
      9 /tmp/af-nl.multiform
      4 /tmp/af-nl.multibidix
-  4610 /tmp/af-nl.tagmismatch
-  4623 total
+  4612 /tmp/af-nl.tagmismatch
+  4625 total

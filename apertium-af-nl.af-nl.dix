@@ -3854,6 +3854,8 @@
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Apertium<s n="np"/><s n="al"/></l><r>Apertium<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
+    <e><p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
+    <e><p><l>Javascript<s n="np"/><s n="al"/></l><r>Javascript<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Amnesty<b/>International<s n="np"/><s n="al"/></l><r>Amnesty<b/>International<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NATO<s n="np"/><s n="al"/></r></p></e>

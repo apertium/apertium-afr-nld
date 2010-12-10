@@ -1521,7 +1521,7 @@
     <e lm="twintig"><i>twintig</i><par n="twee__num"/></e>
 
     <e lm="miljoen"><i>miljoen</i><par n="twee__num"/></e>
-    <e lm="’n miljoen"><i>’n<b/>miljoen</i><par n="twee__num"/></e>
+    <!--<e lm="’n miljoen"><i>’n<b/>miljoen</i><par n="twee__num"/></e>-->
     <e lm="biljoen"><i>miljoen</i><par n="twee__num"/></e>
 
     <e lm="II"><i>II</i><par n="twee__num"/></e>
