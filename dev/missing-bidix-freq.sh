@@ -13,7 +13,7 @@ cat $INPUT | grep '@' | grep '<adv>' | grep -v '<v' | sh ~/scripts/lowercase.sh 
 
 cat $INPUT | grep '@' | grep '<pr>' | grep -v '<v' | sh ~/scripts/lowercase.sh  | sort -f | sed 's/^\W*\^/^/g' | sort -f | uniq -c | sort -gr  | grep -v '[0-9] $'  > $DEV/pending_prepositions.txt
 
-cat $INPUT | grep '@' | grep '<adj>'  | sh ~/scripts/lowercase.sh  | sed 's/[ανρχί]/\n/g' | sed 's/^\W*\^/^/g' | sort -f | uniq -c  | sort -gr  | grep -v '[0-9] $' | grep '<adj>' | grep '@' > $DEV/pending_adjectives.txt
+cat $INPUT | grep '@' | grep '<adj>'  | sed 's/<attr>//g' | sed 's/<pred>//g' | sh ~/scripts/lowercase.sh  | sed 's/[ανρχί]/\n/g' | sed 's/^\W*\^/^/g' | sort -f | uniq -c  | sort -gr  | grep -v '[0-9] $' | grep '<adj>' | grep '@' > $DEV/pending_adjectives.txt
 
 cat $INPUT | grep '@' | grep '<n>'  | sed 's/<sg>//g' | sed 's/<pl>//g' | sh ~/scripts/lowercase.sh  | sed 's/^\W*\^/^/g' | sort -f | uniq -c  | sort -gr  | grep -v '[0-9] $'  > $DEV/pending_nouns.txt
 
