@@ -1372,17 +1372,6 @@
     <e lm="hul"><i>hul</i><par n="my__det"/></e>
     <e lm="jul"><i>hul</i><par n="my__det"/></e>
 
-    <!-- Possessive adjectives -->
-    <e lm="my"><i>my</i><par n="sy__adj"/></e>
-    <e lm="sy"><i>sy</i><par n="sy__adj"/></e>
-    <e lm="jou"><i>jou</i><par n="sy__adj"/></e>
-
-    <e lm="haar"><i>ha</i><par n="ha/ar__adj"/></e>
-    <e lm="ons"><i>ons</i><par n="ons__adj"/></e>
-<!--    <e lm="hulle"><i>hulle</i><par n="ons__adj"/></e> -->
-    <e lm="julle"><i>julle</i><par n="ons__adj"/></e>
-    <e lm="hul"><i>hul</i><par n="ons__adj"/></e>
-    <e lm="jul"><i>jul</i><par n="ons__adj"/></e>
 
     <e lm="saam met"><i>saam<b/>met</i><par n="met__pr"/></e>
     <e lm="as ’n"><i>as<b/>’n</i><par n="met__pr"/></e>
