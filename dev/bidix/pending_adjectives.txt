@@ -1,12 +1,12 @@
    1775 ^@la<adj><sint>$
-    350 ^@spesies<adj>$
+    349 ^@spesies<adj>$
     256 ^@nou<adj><sint>$
     207 ^@ma<adj><sint>$
     202 ^@agt<adj><sint>$
     193 ^@onlangs<adj>$
     180 ^@koerant<adj>$
     168 ^@wêreld<adj>$
-    138 ^@ly<adj><sint>$
+    137 ^@ly<adj><sint>$
     127 ^@laas<adj>$
     118 ^@vang<adj><sint>$
     111 ^@huwelik<adj>$
@@ -15,8 +15,8 @@
      66 ^@gevolglik<adj>$
      65 ^@kern<adj>$
      60 ^@vloot<adj>$
-     41 ^@spies<adj>$
      41 ^@klimaat<adj>$
+     40 ^@spies<adj>$
      36 ^@spilmoondhede<adj>$
      35 ^@omgewings<adj>$
      27 ^@mors<adj>$
@@ -32,7 +32,10 @@
       8 ^@lies<adj>$
       6 ^@fries<adj>$
       4 ^@towenaar<adj>$
-      3 ^@wêreld<adj>$	
+      3 ^@wêreld<adj>$ 	
       3 ^@liniaal<adj>$
       2 ^@skeeps<adj>$
       2 ^@hospies<adj>$
+      1 ^@spies<adj>$ 
+      1 ^@spesies<adj>$ 
+      1 ^@ly<adj><sint>$ 

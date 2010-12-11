@@ -241,6 +241,27 @@
       <e>       <p><l>gehad</l><r>hebben<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
+    <pardef n="/moeten__vbmod">
+      <e>       <p><l>moeten</l><r>moeten<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>moetend</l><r>moeten<s n="vbmod"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>moesten</l><r>moeten<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>moest</l><r>moeten<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moest</l><r>moeten<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moest</l><r>moeten<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moeten</l><r>moeten<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moeten</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>gemoeten</l><r>moemoeten<s n="vbmod"/><s n="pp"/></r></p></e>
+    </pardef>
+
+
     <pardef n="/kunnen__vbmod">
       <e>       <p><l>kunnen</l><r>kunnen<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>kunnend</l><r>kunnen<s n="vbmod"/><s n="pprs"/></r></p></e>
@@ -1566,24 +1587,7 @@
       <e>       <p><l>ede</l><r>den<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ede</l><r>den<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="moe/ten__vblex">
-      <e>       <p><l>t</l><r>ten<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>t</l><r>ten<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ten</l><r>ten<s n="vblex"/><s n="inf"/></r></p></e>
-      <e>       <p><l>sten</l><r>ten<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e>       <p><l>st</l><r>ten<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>st</l><r>ten<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>st</l><r>ten<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>tend</l><r>ten<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e>       <p><l>ten</l><r>ten<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e>       <p><l>t</l><r>ten<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>t</l><r>ten<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>t</l><r>ten<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ten</l><r>ten<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e>       <p><l>te</l><r>ten<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>te</l><r>ten<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>te</l><r>ten<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
+
     <pardef n="gvd/'en__vblex">
       <e>       <p><l></l><r>'en<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>'t</l><r>'en<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -8816,7 +8820,7 @@
     <e lm="mistig"><i>mistig</i><par n="eng__adj_sint"/></e>
     <e lm="mobiel"><i>mobiel</i><par n="eng__adj_sint"/></e>
     <e lm="modernistisch"><i>modernistisch</i><par n="fors__adj_sint"/></e>
-    <e lm="moe"><i>moe</i><par n="moe__adj_sint"/></e>
+    <!--<e lm="moe"><i>moe</i><par n="moe__adj_sint"/></e>-->
     <e lm="moedeloos"><i>moedelo</i><par n="lo/os__adj_sint"/></e>
     <e lm="moederlijk"><i>moederlijk</i><par n="eng__adj_sint"/></e>
     <e lm="moeiteloos"><i>moeitelo</i><par n="lo/os__adj_sint"/></e>
@@ -16984,7 +16988,7 @@
     <e lm="moerdop"><i>moerdop</i><par n="lap__n_m"/></e>
     <e lm="moesson"><i>moesson</i><par n="led__n_m"/></e>
     <e lm="moestuin"><i>moestuin</i><par n="ui__n_m"/></e>
-    <e lm="moet"><i>moet</i><par n="eb__n_m"/></e>
+    <!--<e lm="moet"><i>moet</i><par n="eb__n_m"/></e>-->
     <e lm="mogelijkheid"><i>mogelijkhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="mogendheid"><i>mogendhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="mok"><i>mok</i><par n="nok__n_mf"/></e>
@@ -22500,7 +22504,7 @@
     <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
 
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
-
+    <e lm="moeten"><i></i><par n="/moeten__vbmod"/></e>
 
     <e lm="aaien"><i>aai</i><par n="jij/en__vblex"/></e>
     <e lm="aaien"><p><l>geaaid</l><r>aaien</r></p><par n="gesproken__vblex"/></e>
@@ -24473,8 +24477,6 @@
     <e lm="modificeren"><p><l>gemodificeerd</l><r>modificeren</r></p><par n="gesproken__vblex"/></e>
     <e lm="moduleren"><i>module</i><par n="ve/ren__vblex"/></e>
     <e lm="moduleren"><p><l>gemoduleerd</l><r>moduleren</r></p><par n="gesproken__vblex"/></e>
-    <e lm="moeten"><i>moe</i><par n="moe/ten__vblex"/></e>
-    <e lm="moeten"><p><l>gemoeten</l><r>moeten</r></p><par n="gesproken__vblex"/></e>
     <e lm="mokken"><i>mok</i><par n="dek/ken__vblex"/></e>
     <e lm="mokken"><p><l>gemokt</l><r>mokken</r></p><par n="gesproken__vblex"/></e>
     <e lm="mompelen"><i>mompel</i><par n="jij/en__vblex"/></e>

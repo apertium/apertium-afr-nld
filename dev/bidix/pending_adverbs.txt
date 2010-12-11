@@ -1,151 +1,29 @@
-   4727 ^@begin<adv>$
-   3265 ^@oordie<adv>$
-   2858 ^@sowat<adv>$
-   2373 ^@slegs<adv>$
-   1853 ^@dan<adv>$
-   1756 ^@tans<adv>$
-   1734 ^@eers<adv>$
-   1635 ^@dieselfde<adv>$
-   1578 ^@gewoonlik<adv>$
-   1509 ^@naby<adv>$
-   1500 ^@lank<adv>$
-   1409 ^@daarna<adv>$
-   1398 ^@ongeveer<adv>$
-   1166 ^@uiteindelik<adv>$
-   1138 ^@waarin<adv>$
-   1092 ^@hoe<adv><itg>$
-   1045 ^@hoofsaaklik<adv>$
-    961 ^@aanvanklik<adv>$
-    942 ^@voor<adv>$
-    723 ^@omtrent<adv>$
-    659 ^@daarop<adv>$
-    647 ^@waarskynlik<adv>$
-    627 ^@destyds<adv>$
-    569 ^@saam<adv>$
-    553 ^@amptelik<adv>$
-    505 ^@gereeld<adv>$
-    454 ^@daarom<adv>$
-    446 ^@geleidelik<adv>$
-    421 ^@waarna<adv>$
-    400 ^@naamlik<adv>$
-    391 ^@genoeg<adv>$
-    360 ^@indiemiddel<adv>$
-    349 ^@agter<adv>$
-    340 ^@ver<adv>$
-    338 ^@vroeg<adv>$
-    316 ^@onafhanklik<adv>$
-    309 ^@uiters<adv>$
-    309 ^@gelede<adv>$
-    296 ^@gevolglik<adv>$
-    294 ^@suiwer<adv>$
-    263 ^@gou<adv>$
-    261 ^@letterlik<adv>$
-    258 ^@direk<adv>$
-    252 ^@geen<adv>$
-    250 ^@grootliks<adv>$
-    247 ^@dalk<adv>$
-    243 ^@eintlik<adv>$
-    243 ^@aansienlik<adv>$
-    239 ^@weg<adv>$
-    237 ^@besonder<adv>$
-    233 ^@aktief<adv>$
-    226 ^@indiewêreld<adv>$
-    216 ^@tipies<adv>$
-    210 ^@feitlik<adv>$
-    204 ^@tenminste<adv>$
-    195 ^@wyd<adv>$
-    194 ^@seker<adv>$
-    192 ^@tradisioneel<adv>$
-    192 ^@presies<adv>$
-    182 ^@min<adv>$
-    179 ^@indiealgemeen<adv>$
-    177 ^@gedeeltelik<adv>$
-    170 ^@effens<adv>$
-    170 ^@bloot<adv>$
-    167 ^@natuurlik<adv>$
-    163 ^@skaars<adv>$
-    156 ^@werklik<adv>$
-    155 ^@spesifiek<adv>$
-    150 ^@miskien<adv>$
-    147 ^@onderskeidelik<adv>$
-    139 ^@streng<adv>$
-    136 ^@verby<adv>$
-    136 ^@geskikte<adv>$
-    133 ^@dadelik<adv>$
-    131 ^@vermoedelik<adv>$
-    129 ^@tegelykertyd<adv>$
-    129 ^@normaalweg<adv>$
-    123 ^@asseblief<adv>$
-    122 ^@bogenoemde<adv>$
-    118 ^@noodwendig<adv>$
-    109 ^@toenemend<adv>$
-    104 ^@tenvolle<adv>$
-    101 ^@nabewering<adv>$
-     95 ^@beslis<adv>$
-     89 ^@rofweg<adv>$
-     83 ^@merendeels<adv>$
-     82 ^@dig<adv>$
-     79 ^@bereid<adv>$
-     78 ^@aandieanderkant<adv>$
-     76 ^@gesamentlik<adv>$
-     70 ^@hoekom<adv><itg>$
-     68 ^@laag<adv>$
+   3264 ^@oor die<adv>$
+    360 ^@in die middel<adv>$
+    226 ^@in die wêreld<adv>$
+    204 ^@ten minste<adv>$
+    178 ^@in die algemeen<adv>$
+    104 ^@ten volle<adv>$
+    101 ^@na bewering<adv>$
+     78 ^@aan die ander kant<adv>$
      61 ^@naastenby<adv>$
-     60 ^@sleg<adv>$
-     59 ^@tevore<adv>$
-     59 ^@persoonlik<adv>$
-     58 ^@suidwaarts<adv>$
-     58 ^@sommer<adv>$
-     56 ^@dievolgendedag<adv>$
-     55 ^@onmiddelik<adv>$
-     51 ^@nadienoorde<adv>$
-     48 ^@ál<adv>$
-     47 ^@noordwaarts<adv>$
-     46 ^@inbeheer<adv>$
-     45 ^@regtig<adv>$
-     45 ^@betreklik<adv>$
-     44 ^@intotaal<adv>$
-     44 ^@afsonderlik<adv>$
-     42 ^@vrylik<adv>$
+     56 ^@die volgende dag<adv>$
+     51 ^@na die noorde<adv>$
+     46 ^@in beheer<adv>$
+     44 ^@in totaal<adv>$
      41 ^@polities<adv>$
-     40 ^@nadieweste<adv>$
-     40 ^@nadieooste<adv>$
-     38 ^@sekerlik<adv>$
-     38 ^@binnekort<adv>$
-     34 ^@deeglik<adv>$
-     34 ^@behoorlik<adv>$
-     33 ^@weswaarts<adv>$
-     33 ^@opdieoomblik<adv>$
-     33 ^@nadiesuide<adv>$
-     29 ^@sosiaal<adv>$
-     28 ^@trouens<adv>$
-     28 ^@hierin<adv>$
-     27 ^@oor<adv>$
-     26 ^@onwaarskynlik<adv>$
-     23 ^@kultureel<adv>$
-     21 ^@agterna<adv>$
-     19 ^@teë<adv>$
-     18 ^@militêr<adv>$
-     18 ^@heeltyd<adv>$
-     17 ^@klaarblyklik<adv>$
-     17 ^@benewens<adv>$
-     14 ^@gedurendediesomer<adv>$
-     13 ^@breedweg<adv>$
-     13 ^@bo-op<adv>$
-     11 ^@indieaand<adv>$
-     11 ^@aandietoeneem<adv>$
-      8 ^@oorspronlik<adv>$
-      8 ^@meerendeels<adv>$
-      8 ^@aandievoorkant<adv>$
-      7 ^@vanaand<adv>$
-      7 ^@aandiegrond<adv>$
-      6 ^@vanoggend<adv>$
-      6 ^@eersnie<adv>$
-      5 ^@ekologies<adv>$
-      4 ^@oppadhuistoe<adv>$
-      4 ^@agteraan<adv>$
-      3 ^@antikloksgewys<adv>$
-      2 ^@opdieeinde<adv>$
-      2 ^@insonderheid<adv>$
-      1 ^@regaandiebegin<adv>$
-      1 ^,<cm>$ゅ^of<cnjcoo>$ょ^@onderskeidelik<adv>$
+     40 ^@na die weste<adv>$
+     40 ^@na die ooste<adv>$
+     33 ^@op die oomblik<adv>$
+     33 ^@na die suide<adv>$
+     14 ^@gedurende die somer<adv>$
+     11 ^@in die aand<adv>$
+     11 ^@aan die toeneem<adv>$
+      8 ^@aan die voorkant<adv>$
+      7 ^@aan die grond<adv>$
+      6 ^@eers nie<adv>$
+      4 ^@oppad huis toe<adv>$
+      2 ^@op die einde<adv>$
+      1 ^@reg aan die begin<adv>$
+      1 ^@oor die<adv>$ 
+      1 ^@in die algemeen<adv>$ 
