@@ -179,6 +179,29 @@
 
    <!-- SECTION: Pronouns -->
 
+    <pardef n="prsubj__prn">
+      <e>       <p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+      <e>       <p><l>jij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
+
+      <e>       <p><l>hij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+
+      <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>zij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/eze__prn">
+      <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>it</l><r>eze<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="wat__prn">
       <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
@@ -6490,6 +6513,8 @@
 
     <!-- SECTION: Pronouns -->
 
+    <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
+    <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <!-- SECTION: Hoofdtelwoorden -->
@@ -6549,6 +6574,7 @@
     <!-- SECTION: Adverbs -->
 
     <e lm="te"><i>te</i><par n="te__preadv"/></e>
+    <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
 
     <e lm="aan"><i>aan</i><par n="es__adv"/></e>
     <e lm="aaneen"><i>aaneen</i><par n="es__adv"/></e>
@@ -6750,7 +6776,6 @@
     <e lm="dagdagelijks"><i>dagdagelijks</i><par n="es__adv"/></e>
     <e lm="dagelijks"><i>dagelijks</i><par n="es__adv"/></e>
     <e lm="dagenlang"><i>dagenlang</i><par n="es__adv"/></e>
-    <e lm="dan"><i>dan</i><par n="es__adv"/></e>
     <e lm="danig"><i>danig</i><par n="es__adv"/></e>
     <e lm="deels"><i>deels</i><par n="es__adv"/></e>
     <e lm="definitief"><i>definitief</i><par n="es__adv"/></e>
@@ -7669,7 +7694,7 @@
     <e lm="zekerheidshalve"><i>zekerheidshalve</i><par n="es__adv"/></e>
     <e lm="zelden"><i>zelden</i><par n="es__adv"/></e>
     <e lm="zelfs"><i>zelfs</i><par n="es__adv"/></e>
-    <e lm="ziek"><i>ziek</i><par n="es__adv"/></e>
+    <!--<e lm="ziek"><i>ziek</i><par n="es__adv"/></e>-->
     <e lm="ziekelijk"><i>ziekelijk</i><par n="es__adv"/></e>
     <e lm="zielsveel"><i>zielsveel</i><par n="es__adv"/></e>
     <e lm="zienderogen"><i>zienderogen</i><par n="es__adv"/></e>

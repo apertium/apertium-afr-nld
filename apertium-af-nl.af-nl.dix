@@ -212,6 +212,7 @@
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>dié<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
 
     <e><p><l>alle<s n="prn"/><s n="tn"/></l><r>alle<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>mens<s n="prn"/><s n="tn"/></l><r>mens<s n="prn"/><s n="tn"/></r></p></e>
@@ -1146,7 +1147,6 @@
     <e><p><l>grond<s n="n"/></l><r>grond<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hand<s n="n"/></l><r>hand<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hoender<s n="n"/></l><r>kip<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>hond<s n="n"/></l><r>hond<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>invloed<s n="n"/></l><r>invloed<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kerk<s n="n"/></l><r>kerk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kers<s n="n"/></l><r>kers<s n="n"/><s n="mf"/></r></p></e>
@@ -1650,6 +1650,7 @@
     <e><p><l>hofsaak<s n="n"/></l><r>rechtszaak<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hof<s n="n"/></l><r>rechtbank<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>holte<s n="n"/></l><r>holte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hond<s n="n"/></l><r>hond<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hond<s n="n"/></l><r>hond<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hoofbron<s n="n"/></l><r>bron<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hoofrol<s n="n"/></l><r>hoofdrol<s n="n"/><s n="m"/></r></p></e>
@@ -3513,50 +3514,8 @@
     <e><p><l>cm<s n="n"/><s n="acr"/></l><r>cm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>m<s n="n"/><s n="acr"/></l><r>m<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-
-
-    <!-- woorde van wikipedia (iw-word.sh) -->
-    <!--
-    <e><p><l>gemiese<s n="n"/></l><r>chemisch<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>elektrisiteit<s n="n"/></l><r>elektriciteit<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kloktoring<s n="n"/></l><r>belfort_<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>resistor<s n="n"/></l><r>elektrische_weerstand_<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kaptein<s n="n"/></l><r>kapitein_<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>rewolwer<s n="n"/></l><r>revolver_<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>olifant<s n="n"/></l><r>olifant<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sensus<s n="n"/></l><r>volkstelling<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>ewenaar<s n="n"/></l><r>evenaar<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>abakus<s n="n"/></l><r>abacus_<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>aap<s n="n"/></l><r>apen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>analise<s n="n"/></l><r>calculus<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>bis<s n="n"/></l><r>binair<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>koolhidraat<s n="n"/></l><r>koolhydraat<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>duikboot<s n="n"/></l><r>onderzeeboot<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>hugenoot<s n="n"/></l><r>hugenoten<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kopiereg<s n="n"/></l><r>auteursrecht<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>binnebrandmotor<s n="n"/></l><r>verbrandingsmotor<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>bandopnemer<s n="n"/></l><r>bandrecorder<s n="n"/><s n="GD"/></r></p></e>
-
-    <e><p><l>sleg<s n="n"/></l><r>slecht<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>seekoei<s n="n"/></l><r>nijlpaard <s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>seksskandaal<s n="n"/></l><r>seksschandaal<s n="n"/><s n="GD"/></r></p></e>
-
-    <e><p><l>bly<s n="n"/></l><r>blijft<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>vertrek<s n="n"/></l><r>vertrekt<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>koop<s n="n"/></l><r>kopen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kom<s n="n"/></l><r>komen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>gaan<s n="n"/></l><r>gaat<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>praat<s n="n"/></l><r>spreek<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sê<s n="n"/></l><r>zeg<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>gesê<s n="n"/></l><r>zeggen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>oop<s n="n"/></l><r>open<s n="n"/><s n="GD"/></r></p></e>
-
-    <e><p><l>asseblief<s n="n"/></l><r>alstublieft<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>waarskynlik<s n="n"/></l><r>waarschijnlijk<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>oormôre<s n="n"/></l><r>overmorgen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>goeienaand<s n="n"/></l><r>goedenavond<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>saam<s n="n"/></l><r>samen<s n="n"/><s n="GD"/></r></p></e>
-    -->
+    <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>Mnr<s n="n"/><s n="acr"/></l><r>Mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
@@ -4889,6 +4848,7 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+    <e><p><l>as<s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
 	<e><p><l>laas<s n="adv"/></l><r>laatst<s n="adv"/></r></p></e>
 	<e><p><l>onlangs<s n="adv"/></l><r>onlangs<s n="adv"/></r></p></e>
     <e><p><l>nou<s n="adv"/></l><r>nu<s n="adv"/></r></p></e>
@@ -4910,7 +4870,6 @@
     <e><p><l>steeds<s n="adv"/></l><r>steeds<s n="adv"/></r></p></e>
     <e><p><l>reeds<s n="adv"/></l><r>reeds<s n="adv"/></r></p></e>
     <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
-    <e><p><l>as<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
     <e><p><l>onder<s n="adv"/></l><r>onder<s n="adv"/></r></p></e>
     <e><p><l>nou<s n="adv"/></l><r>nou<s n="adv"/></r></p></e>
     <e><p><l>soos<s n="adv"/></l><r>zoals<s n="adv"/></r></p></e>
