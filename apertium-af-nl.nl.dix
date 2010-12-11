@@ -3904,9 +3904,9 @@
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="st/ad__n_mf">
-      <e><p><l>ad</l><r>ad<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>eden</l><r>ad<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+    <pardef n="st/ad__n_f">
+      <e><p><l>ad</l><r>ad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>eden</l><r>ad<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="z__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -5138,17 +5138,9 @@
       <e>       <p><l>af</l><r>af<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>ven</l><r>af<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="st/ad__n_m">
-      <e>       <p><l>ad</l><r>ad<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>eden</l><r>ad<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    </pardef>
     <pardef n="gom__n_nt">
       <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>men</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="st/ad__n_f">
-      <e>       <p><l>ad</l><r>ad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>eden</l><r>ad<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="tree__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12141,7 +12133,7 @@
     <e lm="binnenkant"><i>binnenkant</i><par n="ui__n_m"/></e>
     <e lm="binnenland"><i>binnenland</i><par n="lot__n_nt"/></e>
     <e lm="binnenplaats"><i>binnenplaats</i><par n="els__n_f"/></e>
-    <e lm="binnenstad"><i>binnenst</i><par n="st/ad__n_mf"/></e>
+    <e lm="binnenstad"><i>binnenst</i><par n="st/ad__n_f"/></e>
     <e lm="binnenste"><i>binnenste</i><par n="OV__n_nt"/></e>
     <e lm="binnenvaart"><i>binnenvaart</i><par n="WO__n_mf"/></e>
     <e lm="binnenweg"><i>binnenweg</i><par n="ui__n_m"/></e>
@@ -14712,7 +14704,7 @@
     <e lm="hauw"><i>hauw</i><par n="hui__n_mf"/></e>
     <e lm="haven"><i>haven</i><par n="roe__n_f"/></e>
     <e lm="havenmeester"><i>havenmeester</i><par n="led__n_m"/></e>
-    <e lm="havenstad"><i>havenst</i><par n="st/ad__n_m"/></e>
+    <e lm="havenstad"><i>havenst</i><par n="st/ad__n_f"/></e>
     <e lm="haver"><i>haver</i><par n="roe__n_mf"/></e>
     <e lm="havermeel"><i>havermeel</i><par n="OV__n_nt"/></e>
     <e lm="havik"><i>havik</i><par n="ui__n_m"/></e>
@@ -14930,7 +14922,7 @@
     <e lm="hoofdpijn"><i>hoofdpijn</i><par n="WO__n_mf"/></e>
     <e lm="hoofdpunt"><i>hoofdpunt</i><par n="lot__n_nt"/></e>
     <e lm="hoofdrol"><i>hoofdrol</i><par n="el__n_m"/></e>
-    <e lm="hoofdstad"><i>hoofdst</i><par n="st/ad__n_mf"/></e>
+    <e lm="hoofdstad"><i>hoofdst</i><par n="st/ad__n_f"/></e>
     <e lm="hoofdstel"><i>hoofdstel</i><par n="mol__n_nt"/></e>
     <e lm="hoofdstuk"><i>hoofdstuk</i><par n="bak__n_nt"/></e>
     <e lm="hoofdzin"><i>hoofdzin</i><par n="ren__n_m"/></e>
@@ -19597,7 +19589,7 @@
     <e lm="staatsregeling"><i>staatsregeling</i><par n="els__n_f"/></e>
     <e lm="stabilisatie"><i>stabilisatie</i><par n="eb__n_f"/></e>
     <e lm="stabiliteit"><i>stabiliteit</i><par n="eb__n_f"/></e>
-    <e lm="stad"><i>st</i><par n="st/ad__n_mf"/></e>
+    <e lm="stad"><i>st</i><par n="st/ad__n_f"/></e>
     <e lm="stadhouder"><i>stadhouder</i><par n="led__n_m"/></e>
     <e lm="stadhuis"><i>stadhui</i><par n="hui/s__n_nt"/></e>
     <e lm="stadion"><i>stadion</i><par n="eon__n_nt"/></e>
@@ -21061,7 +21053,7 @@
     <e lm="voorschot"><i>voorschot</i><par n="kot__n_nt"/></e>
     <e lm="voorspan"><i>voorspan</i><par n="ven__n_nt"/></e>
     <e lm="voorsprong"><i>voorsprong</i><par n="ui__n_m"/></e>
-    <e lm="voorstad"><i>voorst</i><par n="st/ad__n_m"/></e>
+    <e lm="voorstad"><i>voorst</i><par n="st/ad__n_f"/></e>
     <e lm="voorstander"><i>voorstander</i><par n="led__n_m"/></e>
     <e lm="voorstel"><i>voorstel</i><par n="mol__n_nt"/></e>
     <e lm="voorstelling"><i>voorstelling</i><par n="els__n_f"/></e>

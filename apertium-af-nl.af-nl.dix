@@ -2218,7 +2218,6 @@
     <e><p><l>staatshoof<s n="n"/></l><r>staatshoofd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>staat<s n="n"/></l><r>staat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stadium<s n="n"/></l><r>stadium<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>staking<s n="n"/></l><r>staking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stamgebied<s n="n"/></l><r>stam<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stamhoof<s n="n"/></l><r>stamhoofd<s n="n"/><s n="nt"/></r></p></e>
@@ -2544,6 +2543,7 @@
 
     <e><p><l>man<s n="n"/></l><r>man<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gebou<s n="n"/></l><r>gebouw<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>deur<s n="n"/></l><r>deur<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eiergeel<s n="n"/></l><r>dooier<s n="n"/><s n="m"/></r></p></e>

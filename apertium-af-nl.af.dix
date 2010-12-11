@@ -1979,6 +1979,7 @@
 
    
 
+    <e lm="botter"><i>botter</i><par n="artikel__n"/></e> <!--check-->
     <e lm="artikel"><i>artikel</i><par n="artikel__n"/></e>
     <e lm="reën"><i>reën</i><par n="artikel__n"/></e>
     <e lm="tafel"><i>tafel</i><par n="artikel__n"/></e>
@@ -3136,6 +3137,9 @@
     <e lm="gaan"><i>gaan</i><par n="breek__vblex"/></e>
     <e lm="gaan"><p><l>gegaan</l><r>gaan</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="koop"><i>koop</i><par n="breek__vblex"/></e>
+    <e lm="koop"><p><l>gekoop</l><r>koop</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="maak"><par n="P__pr"/><par n="P__ge"/><i>maak</i><par n="breek__vblex"/></e>
 
     <e lm="maak"><i>maak</i><par n="breek__vblex"/></e>
@@ -3143,6 +3147,9 @@
 
     <e lm="smelt"><i>smelt</i><par n="breek__vblex"/></e>
     <e lm="smelt"><p><l>gesmelt</l><r>smelt</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="eet"><i>eet</i><par n="breek__vblex"/></e>
+    <e lm="eet"><p><l>geëet</l><r>eet</r></p><par n="gebreek__vblex"/></e>
 
     <!-- vul = fill, invul = fill in -->
     <e lm="vul"><par n="P__pr"/><par n="P__ge"/><i>vul</i><par n="breek__vblex"/></e>
@@ -3328,7 +3335,6 @@
     <e lm="afskakel"><par n="P__ge"/><i>afskakel</i><par n="breek__vblex"/></e>
     <e lm="dans"><par n="P__ge"/><i>dans</i><par n="breek__vblex"/></e>
     <e lm="gelykheid"><par n="P__ge"/><i>gelykheid</i><par n="breek__vblex"/></e>
-    <e lm="eet"><par n="P__ge"/><i>eet</i><par n="breek__vblex"/></e>
     <e lm="afval"><par n="P__ge"/><i>afval</i><par n="breek__vblex"/></e>
     <e lm="eindig"><par n="P__ge"/><i>eindig</i><par n="breek__vblex"/></e>
     <e lm="vasstel"><par n="P__ge"/><i>vasstel</i><par n="breek__vblex"/></e>
@@ -3393,7 +3399,6 @@
     <e lm="hoop"><par n="P__ge"/><i>hoop</i><par n="breek__vblex"/></e>
     <e lm="kenmerk"><par n="P__ge"/><i>kenmerk</i><par n="breek__vblex"/></e>
     <e lm="klassifiseer"><par n="P__ge"/><i>klassifiseer</i><par n="breek__vblex"/></e>
-    <e lm="koop"><par n="P__ge"/><i>koop</i><par n="breek__vblex"/></e>
     <e lm="koppel"><par n="P__ge"/><i>koppel</i><par n="breek__vblex"/></e>
     <e lm="kwalifiseer"><par n="P__ge"/><i>kwalifiseer</i><par n="breek__vblex"/></e>
     <e lm="ioniseer"><par n="P__ge"/><i>ioniseer</i><par n="breek__vblex"/></e>
