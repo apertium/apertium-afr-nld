@@ -148,6 +148,7 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>en<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
+	<e r="LR"><p><l>én<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
     <e><p><l>of<s n="cnjcoo"/></l><r>of<s n="cnjcoo"/></r></p></e>
     <e><p><l>maar<s n="cnjcoo"/></l><r>maar<s n="cnjcoo"/></r></p></e>
 
@@ -166,7 +167,6 @@
 	<e><p><l>sodra<s n="cnjadv"/></l><r>zodra<s n="cnjadv"/></r></p></e>
 	<e><p><l>siende<b/>dat<s n="cnjadv"/></l><r>gezien<b/>dat<s n="cnjadv"/></r></p></e>
 	<e><p><l>tensy<s n="cnjadv"/></l><r>tenzij<s n="cnjadv"/></r></p></e>
-	<e><p><l>én<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
 	<e><p><l>gegee<b/>dat<s n="cnjadv"/></l><r>gegeven<b/>dat<s n="cnjadv"/></r></p></e>
 	<e><p><l>so<b/>vroeg<b/>as<s n="cnjadv"/></l><r>zo<b/>vroeg<s n="cnjadv"/></r></p></e>
 	<e><p><l>na<s n="cnjadv"/></l><r><s n="cnjadv"/></r></p></e>
@@ -5725,6 +5725,7 @@
     <e><p><l>reis<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
     <e><p><l>suip<s n="vblex"/></l><r>drinken<s n="vblex"/></r></p></e>
     <e><p><l>tel<s n="vblex"/></l><r>tellen<s n="vblex"/></r></p></e>
+    <e><p><l>beswaar<s n="vblex"/></l><r>bezwaren<s n="vblex"/></r></p></e>
 
     <e><p><l>aansien<s n="vblex"/><s n="sep"/></l><r>aanzien<s n="vblex"/><s n="sep"/></r></p></e>
 
