@@ -287,6 +287,30 @@
     <e><p><l>enigiemand<s n="prn"/><s n="tn"/></l><r>iedereen<s n="prn"/><s n="tn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
+	<e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>verskeie<s n="det"/><s n="ind"/></l><r>verschillende<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>baie<s n="det"/><s n="qnt"/></l><r>veel<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>meeste<s n="det"/><s n="qnt"/></l><r>meeste<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>'n<b/>ander<s n="det"/><s n="ind"/></l><r>'n<b/>ander<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>albei<s n="det"/><s n="ind"/></l><r>beide<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>die<b/>ander<s n="det"/><s n="ind"/></l><r>de<b/>ander<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>sulke<s n="det"/><s n="ind"/></l><r>zulke<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>almal<s n="det"/><s n="ind"/></l><r>allemaal<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>vele<s n="det"/><s n="qnt"/></l><r>vele<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>mees<s n="det"/><s n="qnt"/></l><r>meest<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>'n<b/>paar<s n="det"/><s n="qnt"/></l><r>een<b/>paar<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>albei<s n="det"/><s n="ind"/></l><r>allebei<s n="det"/><s n="ind"/></r></p></e>
+	<e><p><l>hoeveel<s n="det"/><s n="itg"/></l><r>hoeveel<s n="det"/><s n="itg"/></r></p></e>
+	<e><p><l>vyftigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>vijftigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>veertigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>veertigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>honderdste<s n="det"/><s n="ord"/><s n="sp"/></l><r>honderdste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>sestigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>zestigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>dertigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>dertigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>agtste<s n="det"/><s n="ord"/><s n="sp"/></l><r>achtste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>hoeveel<s n="det"/><s n="itg"/></l><r>hoeveel<s n="det"/><s n="itg"/></r></p></e>
+	<e><p><l>genoeg<s n="det"/><s n="qnt"/></l><r>genoeg<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>tagtigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>tachtigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
 
     <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
