@@ -310,6 +310,33 @@
 
 
     <!-- SECTION: Nouns -->
+	<e><p><l>hospies<s n="n"/></l><r>hospies<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skeeps<s n="n"/></l><r>schip<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>liniaal<s n="n"/></l><r>liniaal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>tovenaar<s n="n"/></l><r>tovenaar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lies<s n="n"/></l><r>lies<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>slymvlies<s n="n"/></l><r>slymvlies<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>paniek<s n="n"/></l><r>paniek<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vlies<s n="n"/></l><r>vlies<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>infinitief<s n="n"/></l><r>infinitief<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>markies<s n="n"/></l><r>markies<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kos<s n="n"/></l><r>kost<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>omgewings<s n="n"/></l><r>omgeving<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>spilmogendhede<s n="n"/></l><r>Asmogendheden<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>klimaat<s n="n"/></l><r>klimaat<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>spies<s n="n"/></l><r>speer<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vloot<s n="n"/></l><r>vloot<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kern<s n="n"/></l><r>kern<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>regter<s n="n"/></l><r>rechter<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>velies<s n="n"/></l><r>verlies<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>huwelik<s n="n"/></l><r>huwelijk<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>vang<s n="n"/></l><r>vangst<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ly<s n="n"/></l><r>lijden<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>wêreld<s n="n"/></l><r>wereld<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>koerant<s n="n"/></l><r>krant<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ma<s n="n"/></l><r>mam<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>species<s n="n"/></l><r>soort<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>mag<s n="n"/></l><r>macht<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>Franse<s n="n"/></l><r>Fransman<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>dood<s n="n"/><s n="unc"/></l><r>dood<s n="n"/><s n="mf"/></r></p></e>
@@ -3876,6 +3903,11 @@
 
 
     <!-- SECTION: Adjectives -->
+	<e><p><l>opgemeet<s n="adj"/></l><r>opgemeten<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>onakkuraat<s n="adj"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>gemeet<s n="adj"/></l><r>gemeten<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>oorgroot<s n="adj"/></l><r>overgroot<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
 	<e><p><l>belangrik<s n="adj"/><s n="sint"/></l><r>belangrijk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Duits<s n="adj"/></l><r>Duits<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>suid<s n="adj"/></l><r>zuid<s n="adj"/></r></p></e>
@@ -4857,7 +4889,9 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
-
+	<e><p><l>laas<s n="adv"/></l><r>laatst<s n="adv"/></r></p></e>
+	<e><p><l>onlangs<s n="adv"/></l><r>onlangs<s n="adv"/></r></p></e>
+    <e><p><l>nou<s n="adv"/></l><r>nu<s n="adv"/></r></p></e>
     <e><p><l>uit<s n="adv"/></l><r>uit<s n="adv"/></r></p></e>
     <e><p><l>môre<s n="adv"/></l><r>morgen<s n="adv"/></r></p></e>
     <e><p><l>wel<s n="adv"/></l><r>wel<s n="adv"/></r></p></e>
