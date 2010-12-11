@@ -185,8 +185,11 @@
     <e><p><l>waarmee<s n="cnjadv"/></l><r>waarmee<s n="cnjadv"/></r></p></e> <!-- !cnjadv?-->
 
     <!-- SECTION: Prepositions -->
+	<e><p><l>meer<b/>as<s n="pr"/></l><r>meer<b/>als<s n="pr"/></r></p></e>
+	<e><p><l>saam<b/>met<s n="pr"/></l><r>samen<b/>met<s n="pr"/></r></p></e>
 	<e><p><l>sonder<s n="pr"/></l><r>zonder<s n="pr"/></r></p></e>
 	<e><p><l>bo<s n="pr"/></l><r>boven<s n="pr"/></r></p></e>
+	<e><p><l>teen<s n="pr"/></l><r>tegen<s n="pr"/></r></p></e>
 	<e><p><l>tot<b/>by<s n="pr"/></l><r>tot<s n="pr"/></r></p></e>
 	<e><p><l>weens<s n="pr"/></l><r>wegens<s n="pr"/></r></p></e>
 	<e><p><l>saam<s n="pr"/></l><r>samen<s n="pr"/></r></p></e>
@@ -220,6 +223,7 @@
 	<e><p><l>by<s n="pr"/></l><r>bij<s n="pr"/></r></p></e>
 	<e><p><l>tot<b/>en<b/>met<s n="pr"/></l><r>tot<b/>en<b/>met<s n="pr"/></r></p></e>
 	<e><p><l>teen<b/>'n<b/>hoek<b/>van<s n="pr"/></l><r>tegen<b/>een<b/>hoek<b/>van<s n="pr"/></r></p></e>
+	<e><p><l>teen<s n="pr"/></l><r>tegen<s n="pr"/></r></p></e>
 	<e><p><l>so<b/>lyk<s n="pr"/></l><r>zo<b/>als<s n="pr"/></r></p></e>
 	<e><p><l>ooreenkomstig<b/>met<s n="pr"/></l><r>overeenkomstig<b/>met<s n="pr"/></r></p></e>
 	<e><p><l>om<b/>te<s n="pr"/></l><r>om<b/>te<s n="pr"/></r></p></e>
