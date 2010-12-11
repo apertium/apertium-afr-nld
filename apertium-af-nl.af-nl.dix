@@ -291,6 +291,7 @@
 	<e><p><l>verskeie<s n="det"/><s n="ind"/></l><r>verschillende<s n="det"/><s n="ind"/></r></p></e>
 	<e><p><l>baie<s n="det"/><s n="qnt"/></l><r>veel<s n="det"/><s n="qnt"/></r></p></e>
 	<e><p><l>meeste<s n="det"/><s n="qnt"/></l><r>meeste<s n="det"/><s n="qnt"/></r></p></e>
+	<e><p><l>meeste<b/>van<s n="det"/><s n="qnt"/></l><r>meeste<b/>van<s n="det"/><s n="qnt"/></r></p></e>
 	<e><p><l>'n<b/>ander<s n="det"/><s n="ind"/></l><r>'n<b/>ander<s n="det"/><s n="ind"/></r></p></e>
 	<e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
 	<e><p><l>albei<s n="det"/><s n="ind"/></l><r>beide<s n="det"/><s n="ind"/></r></p></e>
@@ -856,7 +857,14 @@
 	<e><p><l>rusplek<s n="n"/></l><r>rustplaats<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kwalifikasie<s n="n"/></l><r>kwalificatie<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>aansoek<s n="n"/></l><r>aanzoek<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>hyser<s n="n"/></l><r>lift<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>naambediener<s n="n"/></l><r>DNS-server<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lirikus<s n="n"/></l><r>songtekstschrijver<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>wegspringplek<s n="n"/></l><r>vertrekpunt<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>magsentrum<s n="n"/></l><r>machtscentrum<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>satellietstaat<s n="n"/></l><r>satellietstaat<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>taalgemeenskap<s n="n"/></l><r>taalgemeenschap<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>taalwetenskap<s n="n"/></l><r>taalwetenschap<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>silver<s n="n"/></l><r>zilver<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
 	<e><p><l>sesium<s n="n"/></l><r>cesium<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
 	<e><p><l>rekenkundige<s n="n"/></l><r>wiskundige<s n="n"/><s n="mf"/></r></p></e>
@@ -3948,6 +3956,7 @@
 
 
     <!-- SECTION: Adjectives -->
+	<e><p><l>gematrikuleer<s n="adj"/></l><r>geboren<s n="adj"/></r></p></e>
 	<e><p><l>opgemeet<s n="adj"/></l><r>opgemeten<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>onakkuraat<s n="adj"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>gemeet<s n="adj"/></l><r>gemeten<s n="adj"/><s n="sint"/></r></p></e>
@@ -4963,6 +4972,7 @@
 	<e><p><l>reg<b/>aan<b/>die<b/>begin<s n="adv"/></l><r>meteen<b/>aan<b/>het<b/>begin<s n="adv"/></r></p></e>
 	<e><p><l>oor<b/>die<s n="adv"/></l><r>over<b/>de<s n="adv"/></r></p></e>
 	<e><p><l>in<b/>die<b/>algemeen<s n="adv"/></l><r>in<b/>het<b/>algemeen<s n="adv"/></r></p></e>
+	<e><p><l>aan<b/>die<b/>toeneem<s n="adv"/></l><r>aan<b/>het<b/>toenemen<s n="adv"/></r></p></e>
 
 	<e><p><l>begin<s n="adv"/></l><r>begin<s n="adv"/></r></p></e>
     <e><p><l>aan<s n="adv"/></l><r>aan<s n="adv"/></r></p></e>
