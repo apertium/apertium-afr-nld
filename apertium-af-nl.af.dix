@@ -1042,7 +1042,6 @@
     <!-- SECTION: attachables -->
 
     <pardef n="P__pr">
-      <e lm="seer" r="LR"><p><l>seer</l><r>seer<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="agterna" r="LR"><p><l>agterna</l><r>agterna<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="terug" r="LR"><p><l>terug</l><r>terug<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="uit" r="LR"><p><l>uit</l><r>uit<s n="pr"/><s n="atp"/><j/></r></p></e>
@@ -1050,7 +1049,6 @@
       <e lm="teë" r="LR"><p><l>teë</l><r>teë<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="weg" r="LR"><p><l>weg</l><r>weg<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="af" r="LR"><p><l>af</l><r>af<s n="pr"/><s n="atp"/><j/></r></p></e>
-      <e lm="ver" r="LR"><p><l>ver</l><r>ver<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="op" r="LR"><p><l>op</l><r>op<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="om" r="LR"><p><l>om</l><r>om<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="voor" r="LR"><p><l>voor</l><r>voor<s n="pr"/><s n="atp"/><j/></r></p></e>
@@ -1062,7 +1060,6 @@
       <e lm="saam" r="LR"><p><l>saam</l><r>saam<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="onder" r="LR"><p><l>onder</l><r>onder<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm="in" r="LR"><p><l>in</l><r>in<s n="pr"/><s n="atp"/><j/></r></p></e>
-      <e lm="vry" r="LR"><p><l>vry</l><r>vry<s n="pr"/><s n="atp"/><j/></r></p></e>
       <e lm=""><p><l></l><r></r></p></e>
     </pardef>
 
@@ -1216,7 +1213,6 @@
     <e lm="’n" r="LR"><p><l>’n</l><r>'n</r></p><par n="'n__det"/></e>
 
     <e lm="min"><i>min</i><par n="min__det"/></e>
-    <e lm="’n paar"><i>’n<b/>paar</i><par n="min__det"/></e>
 
     <e lm="die ander"><i>die<b/>ander</i><par n="ander__det"/></e>
     <e lm="sulke"><i>sulke</i><par n="ander__det"/></e>
@@ -1374,7 +1370,6 @@
 
 
     <e lm="saam met"><i>saam<b/>met</i><par n="met__pr"/></e>
-    <e lm="as ’n"><i>as<b/>’n</i><par n="met__pr"/></e>
     <e lm="insluitende"><i>insluitende</i><par n="met__pr"/></e>
     <e lm="liewer as"><i>liewer<b/>as</i><par n="met__pr"/></e>
     <e lm="onder"><i>onder</i><par n="met__pr"/></e>
@@ -1401,7 +1396,6 @@
     <e lm="buite"><i>buite</i><par n="met__pr"/></e>
     <e lm="tussen"><i>tussen</i><par n="met__pr"/></e>
     <e lm="na"><i>na</i><par n="met__pr"/></e>
-    <e lm="ná"><i>ná</i><par n="met__pr"/></e>
     <e lm="om"><i>om</i><par n="met__pr"/></e>
     <e lm="toe"><i>toe</i><par n="met__pr"/></e>
     <e lm="tydens"><i>tydens</i><par n="met__pr"/></e>
@@ -1475,7 +1469,7 @@
     <e lm="daarvoor"><i>daarvoor</i><par n="want__cnjadv"/></e>
     <e lm="sodat"><i>sodat</i><par n="want__cnjadv"/></e>
     <e lm="na"><i>na</i><par n="want__cnjadv"/></e>
-    <e lm="ná" r="LR"><i>ná</i><par n="want__cnjadv"/></e>
+    <e lm="ná"><i>ná</i><par n="want__cnjadv"/></e>
 
     <e lm="hoewel"><i>hoewel</i><par n="want__cnjadv"/></e>
     <e lm="tensy"><i>tensy</i><par n="want__cnjadv"/></e>
