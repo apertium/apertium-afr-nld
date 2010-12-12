@@ -3636,7 +3636,6 @@
     <e><p><l>Bosnië<s n="np"/><s n="top"/></l><r>Bosnië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Etrurië<s n="np"/><s n="top"/></l><r>Etrurië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Indiër<s n="np"/><s n="top"/></l><r>India<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Afganistan<s n="np"/><s n="top"/></l><r>Afganistan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>die<b/>Suidpool<s n="np"/><s n="top"/></l><r>het<b/>Zuidpool<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Piëmont<s n="np"/><s n="top"/></l><r>Piëmont<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Jordaan<s n="np"/><s n="top"/></l><r>Jordanië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3659,6 +3658,7 @@
     <e><p><l>Beaufortsee<s n="np"/><s n="top"/></l><r>Beaufortzee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Baffinbaai<s n="np"/><s n="top"/></l><r>Baffinbaai<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
+    <e r="LR"><p><l>Afganistan<s n="np"/><s n="top"/></l><r>Afghanistan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Afghanistan<s n="np"/><s n="top"/></l><r>Afghanistan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Afrika<s n="np"/><s n="top"/></l><r>Afrika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Alaska<s n="np"/><s n="top"/></l><r>Alaska<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3714,7 +3714,7 @@
     <e><p><l>Europa<s n="np"/><s n="top"/></l><r>Europa<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Europese<b/>Unie<s n="np"/><s n="top"/></l><r>Europese<b/>Unie<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Falkland-eilande<s n="np"/><s n="top"/></l><r>Falklandeilanden<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Faroëreilande<s n="np"/><s n="top"/></l><r>FaeröEr<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Faroëreilande<s n="np"/><s n="top"/></l><r>Faeröer<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Finland<s n="np"/><s n="top"/></l><r>Finland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Frankfurt<s n="np"/><s n="top"/></l><r>Frankfurt<b/>Am<b/>Main<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Frankryk<s n="np"/><s n="top"/></l><r>Frankrijk<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3741,7 +3741,7 @@
     <e><p><l>Indonesië<s n="np"/><s n="top"/></l><r>Indonesië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Irak<s n="np"/><s n="top"/></l><r>Irak<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Iran<s n="np"/><s n="top"/></l><r>Iran<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Israel<s n="np"/><s n="top"/></l><r>IsraëL<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Israel<s n="np"/><s n="top"/></l><r>Israël<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Italië<s n="np"/><s n="top"/></l><r>Italië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Jamaika<s n="np"/><s n="top"/></l><r>Jamaica<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Japan<s n="np"/><s n="top"/></l><r>Japan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -4001,7 +4001,7 @@
 	<e><p><l>militêr<s n="adj"/></l><r>militair<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>suidelik<s n="adj"/><s n="sint"/></l><r>zuidelijk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>naas<s n="adj"/><s n="sint"/></l><r>naast<s n="adj"/></r></p></e>
-	<e><p><l>sogenaamd<s n="adj"/></l><r>zogenaamd<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>sogenaamd<s n="adj"/></l><r>zogenaamd<s n="adj"/></r></p></e>
 	<e><p><l>noordelik<s n="adj"/><s n="sint"/></l><r>noordelijk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>katoliek<s n="adj"/></l><r>katholiek<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Spaans<s n="adj"/></l><r>Spaans<s n="adj"/><s n="sint"/></r></p></e>
@@ -4986,6 +4986,7 @@
 
 	<e><p><l>begin<s n="adv"/></l><r>begin<s n="adv"/></r></p></e>
     <e><p><l>aan<s n="adv"/></l><r>aan<s n="adv"/></r></p></e>
+    <e><p><l>om<s n="adv"/></l><r>om<s n="adv"/></r></p></e>
 	<e><p><l>sowat<s n="adv"/></l><r>zowat<s n="adv"/></r></p></e>
 	<e><p><l>slegs<s n="adv"/></l><r>slechts<s n="adv"/></r></p></e>
 	<e><p><l>dan<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>
