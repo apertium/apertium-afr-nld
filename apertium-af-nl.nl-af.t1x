@@ -37,6 +37,8 @@
     </def-cat>
     <def-cat n="verbnm"><!--verb no modal -->
       <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verb_with_past">
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbmod.*"/>
       <cat-item tags="vaux.*"/>
@@ -343,7 +345,7 @@
               <lu>
                   <clip pos="1" side="tl" part="lem"/>
                   <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/> 
+                  <lit-tag v="pp"/>
               </lu>
               </chunk>
             </out>
@@ -351,22 +353,10 @@
 
           <when>
             <test>     <!-- If it is third person singular in the present tense -->
-		  <and>
-                    <or>
-                      <equal>
-                        <clip pos="1" side="tl" part="temps"/>
-                        <lit-tag v="pp"/>
-                      </equal>
                       <equal>
                         <clip pos="1" side="tl" part="temps"/>
                         <lit-tag v="past"/>
                       </equal>
-                    </or>
-                    <equal> 
-                      <clip pos="1" side="tl" part="a_verb"/>
-                      <lit-tag v="vblex.uns"/> 
-                    </equal>
-		  </and>
             </test>
             <out>
               <chunk name="verb">
@@ -426,91 +416,26 @@
       </action>
     </rule>
 
-    <!-- ^be<vbser><past>$ ^organise<vblex><pp>$ -->
-    <rule comment="REGLA: VERBNM">
+
+    <rule comment="REGLA: verb with past">
       <pattern>
-        <pattern-item n="verbnm"/>
-        <pattern-item n="verbnm"/>
+        <pattern-item n="verb_with_past"/>
       </pattern>
       <action>
-        <choose>
-          <when>
-            <test>   
-                <equal>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="imp"/>
+                  </equal>
+                </test>
+                <let>
                   <clip pos="1" side="tl" part="temps"/>
-                  <lit-tag v="pp"/>
-                </equal>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-              </chunk>
-              <b/>
-              <chunk name="verb_participle">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                  <tag><lit-tag v="PART"/></tag>
-                </tags>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/> 
-              </lu>
-              </chunk>
-            </out>
-          </when>
-
-          <when>
-            <test> 
-              <and>
-                <equal>
-                  <clip pos="2" side="tl" part="temps"/>
-                  <lit-tag v="pp"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="be"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="temps"/>
-                  <lit-tag v="past"/>
-                </equal>
-              </and>
-            </test>
-            <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <clip pos="1" side="tl" part="lem"/>
-                  <clip pos="1" side="tl" part="a_verb"/>
-                  <clip pos="1" side="tl" part="temps"/> 
-              </lu>
-	      </chunk>
-              <b/>
-	      <chunk name="verb_participle">
-	        <tags>
-		  <tag><lit-tag v="V"/></tag>
-		  <tag><lit-tag v="PART"/></tag>
-		</tags>
-              <lu>
-                  <clip pos="2" side="tl" part="lem"/>
-                  <clip pos="2" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
-                  <clip pos="2" side="tl" part="temps"/>
-              </lu>
-              </chunk>
-            </out>
-          </when>
-          <otherwise>
+                  <lit-tag v="inf"/>
+                </let>
+              </when>
+            </choose>
             <out>
               <chunk name="verb">
                 <tags>
@@ -521,19 +446,10 @@
                   <clip pos="1" side="tl" part="a_verb"/>
                   <clip pos="1" side="tl" part="temps"/>
                 </lu>
-                <b pos="1"/>
-                <lu>
-                  <clip pos="2" side="tl" part="lem"/>
-                  <clip pos="2" side="tl" part="a_verb"/>
-                  <clip pos="2" side="tl" part="temps"/>
-                </lu>
               </chunk>
             </out>
-          </otherwise>
-        </choose>
       </action>
     </rule>
-
 
 
     <rule> <!-- REGLA: reset variables-->

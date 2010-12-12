@@ -1033,6 +1033,12 @@
       <e>       <p><l>mens</l><r>mens<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="dié__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- Verb pre/infixes -->
 
     <pardef n="P__ge"><e lm="ge"><p><l>ge</l><r>ge<s n="pref"/><s n="past"/><j/></r></p></e>
@@ -1116,6 +1122,7 @@
 
     <pardef n="s/al__vbmod">
       <e>       <p><l>al</l><r>al<s n="vaux"/><s n="inf"/></r></p></e>
+      <e>       <p><l>al</l><r>al<s n="vaux"/><s n="pres"/></r></p></e>
       <e>       <p><l>ou</l><r>al<s n="vaux"/><s n="past"/></r></p></e>
     </pardef>
 
@@ -1191,6 +1198,7 @@
     <e lm="altwee"><i>altwee</i><par n="altwee__prn"/></e>
     <e lm="mekaar"><i>mekaar</i><par n="altwee__prn"/></e><!-- check! -->
 
+    <e lm="dié"><i>dié</i><par n="dié__prn"/></e>
 
     <e lm="se"><i>se</i><par n="se__gen"/></e>
 
@@ -2528,8 +2536,12 @@
 
     <!-- Abbreviations -->
 
+
     <e lm="Mnr"><i>Mnr</i><par n="Mnr__n"/></e>
     <e lm="mnr"><i>mnr</i><par n="Mnr__n"/></e>
+
+    <e lm="a"><i>a</i><par n="Mnr__n"/></e>
+    <e lm="e"><i>e</i><par n="Mnr__n"/></e>
 
     <e lm="ID"><i>ID</i><par n="albino__n"/></e><!-- make one for acr -->
 
@@ -3086,6 +3098,9 @@
     <e lm="breek"><par n="P__pr"/><par n="P__ge"/><i>breek</i><par n="breek__vblex"/></e>
     <e lm="breek"><p><l>gebreek</l><r>breek</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="word"><i>word</i><par n="breek__vblex"/></e>
+    <e lm="word"><p><l>geword</l><r>word</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="antwoord"><i>antwoord</i><par n="breek__vblex"/></e>
     <e lm="antwoord"><p><l>geantwoord</l><r>antwoord</r></p><par n="gebreek__vblex"/></e>
 
@@ -3104,7 +3119,10 @@
     <e lm="noem"><p><l>genoem</l><r>noem</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="vernoem"><i>vernoem</i><par n="breek__vblex"/></e>
-    <e lm="vernoem"><p><l>vernoem</l><r>noem</r></p><par n="gebreek__vblex"/></e>
+    <e lm="vernoem"><p><l>vernoem</l><r>vernoem</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="verwerk"><i>verwerk</i><par n="breek__vblex"/></e>
+    <e lm="verwerk"><p><l>verwerk</l><r>verwerk</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="sien"><i>sien</i><par n="breek__vblex"/></e>
     <e lm="sien"><p><l>gesien</l><r>sien</r></p><par n="gebreek__vblex"/></e>
@@ -3295,7 +3313,6 @@
 
     <e lm="dink"><par n="P__ge"/><i>dink</i><par n="breek__vblex"/></e>
     <e lm="toets"><par n="P__ge"/><i>toets</i><par n="breek__vblex"/></e>
-    <e lm="word"><par n="P__ge"/><i>word</i><par n="breek__vblex"/></e>
     <e lm="vuur"><par n="P__ge"/><i>vuur</i><par n="breek__vblex"/></e>
     <e lm="skiet"><par n="P__ge"/><i>skiet</i><par n="breek__vblex"/></e>
     <e lm="ry"><par n="P__ge"/><i>ry</i><par n="breek__vblex"/></e>

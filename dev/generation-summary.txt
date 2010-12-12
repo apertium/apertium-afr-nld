@@ -42,7 +42,6 @@ Tag mismatch between transfer and generation
    3065 #Zuid-Afrika\<np\>\<top\>\<nt\>\<sg\>	^Zuid-Afrika<np><top><nt><sg>$
    2977 #komen\<vblex\>\<inf\>	^komen<vblex><inf>$
    2868 #veel\<det\>\<qnt\>\<sp\>	^veel<det><qnt><sp>$
-   2756 #zullen\<vaux\>\<inf\>	^zullen<vaux><inf>$
    2689 #Zuid\<adj\>\<pred\>	^Zuid<adj><pred>$
    2661 #ander\<det\>\<ind\>\<pl\>	^ander<det><ind><pl>$
    2562 #ander\<det\>\<ind\>\<sp\>	^ander<det><ind><sp>$
@@ -147,7 +146,6 @@ Tag mismatch between transfer and generation
     735 #Berlijn\<np\>\<top\>\<nt\>\<sg\>	^Berlijn<np><top><nt><sg>$
     732 #III\<num\>\<sp\>	^III<num><sp>$
     731 #Italië\<np\>\<top\>\<nt\>\<sg\>	^Italië<np><top><nt><sg>$
-    720 #willen\<vaux\>\<inf\>	^willen<vaux><inf>$
     719 #dag\<n\>\<mf\>\<sg\>	^dag<n><mf><sg>$
     714 #grond\<n\>\<mf\>\<sg\>	^grond<n><mf><sg>$
     696 #heel\<adj\>\<attr\>	^heel<adj><attr>$
@@ -1975,7 +1973,6 @@ Tag mismatch between transfer and generation
      25 #Apostelijk\<adj\>\<sint\>\<pred\>	^Apostelijk<adj><sint><pred>$
      25 #amateur\<n\>\<mf\>\<sg\>	^amateur<n><mf><sg>$
      25 #aap\<n\>\<mf\>\<pl\>	^aap<n><mf><pl>$
-     24 #Zullen\<vaux\>\<inf\>	^Zullen<vaux><inf>$
      24 #vers\<n\>\<f\>\<pl\>	^vers<n><f><pl>$
      24 #verblijven\<vblex\>\<inf\>	^verblijven<vblex><inf>$
      24 #valuta\<n\>\<f\>\<pl\>	^valuta<n><f><pl>$
@@ -2783,7 +2780,6 @@ Tag mismatch between transfer and generation
      11 #zeestraat\<n\>\<m\>\<pl\>	^zeestraat<n><m><pl>$
      11 #ZAL\<n\>\<nt\>\<pl\>	^ZAL<n><nt><pl>$
      11 #wond\<n\>\<m\>\<sg\>	^wond<n><m><sg>$
-     11 #Willen\<vaux\>\<inf\>	^Willen<vaux><inf>$
      11 #Wikipedia\<np\>\<al\>\<sg\> 	^Wikipedia<np><al><sg>$ 
      11 #weerkundige\<n\>\<mf\>\<sg\>	^weerkundige<n><mf><sg>$
      11 #weekend\<n\>\<nt\>\<pl\>	^weekend<n><nt><pl>$
@@ -3865,7 +3861,6 @@ Tag mismatch between transfer and generation
       5 #aal\<n\>\<nt\>\<sg\>	^aal<n><nt><sg>$
       4 #zwaartekracht\<n\>\<m\>\<pl\>	^zwaartekracht<n><m><pl>$
       4 #Zwaard\<n\>\<sg\>	^Zwaard<n><GD><sg>$
-      4 #ZULLEN\<vaux\>\<inf\>	^ZULLEN<vaux><inf>$
       4 #Zuid-Amerika\<np\>\<top\>\<nt\>\<sg\> 	^Zuid-Amerika<np><top><nt><sg>$ 
       4 #Zone\<n\>\<f\>\<sg\>	^Zone<n><f><sg>$
       4 #zoetwater\<n\>\<nt\>\<sg\>	^zoetwater<n><nt><sg>$
@@ -4168,7 +4163,6 @@ Tag mismatch between transfer and generation
       4 #accountantsrapport\<n\>\<nt\>\<sg\>	^accountantsrapport<n><nt><sg>$
       4 #aanzoeker\<n\>\<m\>\<sg\>	^aanzoeker<n><m><sg>$
       3 #zuurgraad\<n\>\<f\>\<sg\>	^zuurgraad<n><f><sg>$
-      3 #zullen\<vaux\>\<inf\> 	^zullen<vaux><inf>$ 
       3 #Zin\<n\>\<sg\>	^Zin<n><GD><sg>$
       3 #Zingen\<vblex\>\<inf\>	^Zingen<vblex><inf>$
       3 #Zeestraat\<n\>\<m\>\<pl\>	^Zeestraat<n><m><pl>$
@@ -4544,7 +4538,6 @@ Tag mismatch between transfer and generation
       2 #winterkwartier\<n\>\<nt\>\<sg\>	^winterkwartier<n><nt><sg>$
       2 #winterkwartier\<n\>\<nt\>\<pl\>	^winterkwartier<n><nt><pl>$
       2 #Winst\<n\>\<m\>\<sg\>	^Winst<n><m><sg>$
-      2 #WILLEN\<vaux\>\<inf\>	^WILLEN<vaux><inf>$
       2 #wijsheid\<n\>\<f\>\<pl\>	^wijsheid<n><f><pl>$
       2 #Wijken\<vblex\>\<pres\>\<p3\>\<sg\>	^Wijken<vblex><pres><p3><sg>$
       2 #wielophanging\<n\>\<f\>\<sg\>	^wielophanging<n><f><sg>$
@@ -5985,5 +5978,5 @@ Summary
 ===============================================================================
     11 /tmp/af-nl.multiform
      4 /tmp/af-nl.multibidix
-  5951 /tmp/af-nl.tagmismatch
-  5966 total
+  5944 /tmp/af-nl.tagmismatch
+  5959 total
