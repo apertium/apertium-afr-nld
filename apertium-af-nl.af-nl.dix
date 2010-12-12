@@ -5218,7 +5218,6 @@
 	<e><p><l>sukkel<s n="vblex"/></l><r>worstelen<s n="vblex"/></r></p></e>
 	<e><p><l>kontak<s n="vblex"/></l><r>contacteren<s n="vblex"/></r></p></e>
 	<e><p><l>raaksien<s n="vblex"/></l><r>zien<s n="vblex"/></r></p></e>
-	<e><p><l>afsien<s n="vblex"/></l><r><s n="vblex"/></r></p></e>
 	<e><p><l>ontplooi<s n="vblex"/></l><r>afzien<s n="vblex"/></r></p></e>
 	<e><p><l>betwis<s n="vblex"/></l><r>betwisten<s n="vblex"/></r></p></e>
 	<e><p><l>oorwin<s n="vblex"/></l><r>overwinnen<s n="vblex"/></r></p></e>
@@ -5226,13 +5225,11 @@
 	<e><p><l>go<s n="vblex"/></l><r>gaan<s n="vblex"/></r></p></e>
 	<e><p><l>hersien<s n="vblex"/></l><r>herzien<s n="vblex"/></r></p></e>
 	<e><p><l>verskerp<s n="vblex"/></l><r>verscherpen<s n="vblex"/></r></p></e>
-	<e><p><l>hou<s n="vblex"/></l><r>vinden<s n="vblex"/></r></p></e>
 	<e><p><l>spekuleer<s n="vblex"/></l><r>speculeren<s n="vblex"/></r></p></e>
 	<e><p><l>gesels<s n="vblex"/></l><r>chatten<s n="vblex"/></r></p></e>
 	<e><p><l>kanselleer<s n="vblex"/></l><r>annuleren<s n="vblex"/></r></p></e>
 	<e><p><l>pouse<s n="vblex"/></l><r>pauzeren<s n="vblex"/></r></p></e>
 	<e><p><l>pos<s n="vblex"/></l><r>mailen<s n="vblex"/></r></p></e>
-	<e><p><l>omsien<s n="vblex"/></l><r>omzien<s n="vblex"/></r></p></e>
 	<e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
 	<e><p><l>bemeester<s n="vblex"/></l><r>beheersen<s n="vblex"/></r></p></e>
 	<e><p><l>hulp<s n="vblex"/></l><r>helpen<s n="vblex"/></r></p></e>
@@ -5274,7 +5271,7 @@
     <e><p><l>maak<s n="vblex"/></l><r>maken<s n="vblex"/></r></p></e>
     <e><p><l>neem<s n="vblex"/></l><r>nemen<s n="vblex"/></r></p></e>
     <e><p><l>bied<s n="vblex"/></l><r>bieden<s n="vblex"/></r></p></e>
-    <e><p><l>kom<s n="vblex"/></l><r>komen<s n="vblex"/></r></p></e>
+    <e><p><l>kom<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
     <e><p><l>laat<s n="vblex"/></l><r>laten<s n="vblex"/></r></p></e>
     <e><p><l>stel<s n="vblex"/></l><r>stellen<s n="vblex"/></r></p></e>
     <e><p><l>sien<s n="vblex"/></l><r>zien<s n="vblex"/></r></p></e>
@@ -5339,7 +5336,6 @@
     <e><p><l>vervang<s n="vblex"/></l><r>vervangen<s n="vblex"/></r></p></e>
     <e><p><l>besluit<s n="vblex"/></l><r>besluiten<s n="vblex"/></r></p></e>
     <e><p><l>skei<s n="vblex"/></l><r>schei<s n="vblex"/></r></p></e>
-    <e><p><l>sê<s n="vblex"/></l><r>zein<s n="vblex"/></r></p></e>
     <e><p><l>haal<s n="vblex"/></l><r>halen<s n="vblex"/></r></p></e>
     <e><p><l>regeer<s n="vblex"/></l><r>regeren<s n="vblex"/></r></p></e>
     <e><p><l>verloor<s n="vblex"/></l><r>verliezen<s n="vblex"/></r></p></e>
@@ -5690,7 +5686,8 @@
 
     <e><p><l>beskou<s n="vblex"/></l><r>beschouwen<s n="vblex"/></r></p></e>
     <e><p><l>bestaan<s n="vblex"/></l><r>bestaan<s n="vblex"/></r></p></e>
-    <e><p><l>sê<s n="vblex"/></l><r>zeggen<s n="vblex"/></r></p></e>
+    <!--<e><p><l>sê<s n="vblex"/></l><r>zeggen<s n="vblex"/></r></p></e>-->
+    <e><p><l>sê<s n="vblex"/></l><r>zein<s n="vblex"/></r></p></e>
     <e><p><l>vra<s n="vblex"/></l><r>vragen<s n="vblex"/></r></p></e>
 
     <e><p><l>publiseer<s n="vblex"/></l><r>publiceren<s n="vblex"/></r></p></e>
@@ -5734,6 +5731,8 @@
     <e><p><l>verwerk<s n="vblex"/></l><r>verwerken<s n="vblex"/></r></p></e>
 
     <e><p><l>aansien<s n="vblex"/><s n="sep"/></l><r>aanzien<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>omsien<s n="vblex"/><s n="sep"/></l><r>omzien<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
 
 
 

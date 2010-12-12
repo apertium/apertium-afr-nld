@@ -3134,11 +3134,13 @@
     <e lm="raaksien"><i>raaksien</i><par n="breek__vblex"/></e>
     <e lm="raaksien"><p><l>raakgesien</l><r>raaksien</r></p><par n="gebreek__vblex"/></e>
 
-    <e lm="afsien"><i>afsien</i><par n="breek__vblex"/></e>
-    <e lm="afsien"><p><l>afgesien</l><r>afsien</r></p><par n="gebreek__vblex"/></e>
+    <e lm="omsien"><i>omsien</i><par n="aansien__vblex_sep"/></e>
+    <e lm="omsien"><p><l>sien</l><r>omsien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
+    <e lm="omsien"><p><l>omgesien</l><r>omsien</r></p><par n="aangesien__vblex_sep"/></e>
 
-    <e lm="omsien"><i>omsien</i><par n="breek__vblex"/></e>
-    <e lm="omsien"><p><l>omgesien</l><r>omsien</r></p><par n="gebreek__vblex"/></e>
+    <e lm="afsien"><i>afsien</i><par n="aansien__vblex_sep"/></e>
+    <e lm="afsien"><p><l>sien</l><r>afsien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afsien"><p><l>afgesien</l><r>afsien</r></p><par n="aangesien__vblex_sep"/></e>
 
     <e lm="bou"><i>bou</i><par n="breek__vblex"/></e>
     <e lm="bou"><p><l>gebou</l><r>bou</r></p><par n="gebreek__vblex"/></e>
@@ -3390,7 +3392,6 @@
     <e lm="val"><par n="P__ge"/><par n="P__ge"/><i>val</i><par n="breek__vblex"/></e>
     <e lm="skep"><par n="P__ge"/><i>skep</i><par n="breek__vblex"/></e>
     <e lm="voorkom"><i>voorkom</i><par n="breek__vblex"/></e>
-    <e lm="omsien"><i>omsien</i><par n="breek__vblex"/></e>
     <e lm="stoor"><i>stoor</i><par n="breek__vblex"/></e>
     <e lm="konsentreer"><i>konsentreer</i><par n="breek__vblex"/></e>
     <e lm="ondersteun"><par n="P__ge"/><i>ondersteun</i><par n="breek__vblex"/></e>

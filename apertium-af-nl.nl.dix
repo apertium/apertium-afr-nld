@@ -27430,6 +27430,9 @@
     <e lm="omwaaien"><i>omwaai</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="omwaaien"><p><l>waai</l><r>omwaai</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
     <e lm="omwaaien"><p><l>omgewaaid</l><r>omwaaien</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="omzien"><i>omz</i><par n="aanz/ien__vblex_sep"/></e>
+    <e lm="omzien"><p><l>z</l><r>omz</r></p><par n="z/ien#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
+    <e lm="omzien"><p><l>omgezien</l><r>omzien</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="omzetten"><i>omzet</i><par n="aanzet/ten__vblex_sep"/></e>
     <e lm="omzetten"><p><l>zet</l><r>omzet</r></p><par n="zet/ten#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
     <e lm="omzetten"><p><l>omgezet</l><r>omzetten</r></p><par n="gesproken__vblex_sep"/></e>
