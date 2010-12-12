@@ -3143,6 +3143,10 @@
     <e lm="afsien"><p><l>sien</l><r>afsien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afsien"><p><l>afgesien</l><r>afsien</r></p><par n="aangesien__vblex_sep"/></e>
 
+    <e lm="aanmaak"><i>aanmaak</i><par n="aansien__vblex_sep"/></e>
+    <e lm="aanmaak"><p><l>maak</l><r>aanmaak</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aanmaak"><p><l>aangemaak</l><r>aanmaak</r></p><par n="aangesien__vblex_sep"/></e>
+
     <e lm="bou"><i>bou</i><par n="breek__vblex"/></e>
     <e lm="bou"><p><l>gebou</l><r>bou</r></p><par n="gebreek__vblex"/></e>
 
