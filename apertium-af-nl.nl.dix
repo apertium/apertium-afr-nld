@@ -289,7 +289,7 @@
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>gemoeten</l><r>moemoeten<s n="vbmod"/><s n="pp"/></r></p></e>
+      <e>       <p><l>gemoeten</l><r>moeten<s n="vbmod"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="/kunnen__vbmod">
@@ -308,6 +308,31 @@
       <e>       <p><l>konden</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>gekund</l><r>kunnen<s n="vbmod"/><s n="pp"/></r></p></e>
+    </pardef>
+
+    <pardef n="/mogen__vbmod">
+      <e>       <p><l>mogen</l><r>mogen<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e>       <p><l>mogend</l><r>mogen<s n="vbmod"/><s n="pprs"/></r></p></e>
+
+      <e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moogt</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>mocht</l><r>mogen<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mocht</l><r>mogen<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mocht</l><r>mogen<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mochten</l><r>mogen<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mogen</l><r>mogen<s n="vbmod"/><s n="pres"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>moge</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moge</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>moge</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>mogen</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>gemogen</l><r>mogen<s n="vbmod"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="/willen__vaux">
@@ -15660,7 +15685,7 @@
     <e lm="kampioen"><i>kampioen</i><par n="ui__n_m"/></e>
     <e lm="kampioene"><i>kampioene</i><par n="rune__n_f"/></e>
     <e lm="kampioenschap"><i>kampioenschap</i><par n="dop__n_nt"/></e>
-    <e lm="kan"><i>kan</i><par n="vin__n_mf"/></e>
+    <!--<e lm="kan"><i>kan</i><par n="vin__n_mf"/></e>-->
     <e lm="kanaal"><i>kana</i><par n="ma/al__n_nt"/></e>
     <e lm="kanarie"><i>kanarie</i><par n="led__n_m"/></e>
     <e lm="kanariegeel"><i>kanariegeel</i><par n="OV__n_nt"/></e>
@@ -22735,6 +22760,7 @@
 
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
     <e lm="moeten"><i></i><par n="/moeten__vbmod"/></e>
+    <e lm="mogen"><i></i><par n="/mogen__vbmod"/></e>
     <e lm="willen"><i></i><par n="/willen__vaux"/></e>
     <e lm="zullen"><i></i><par n="/zullen__vaux"/></e>
 
