@@ -126,6 +126,9 @@
       <e r="RL"><p><l><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sg"/></l><r><s n="GD"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="my_mijn">
+      <e><p><l></l><r><s n="mfn"/></r></p></e>
+    </pardef>
     <pardef n="ons_onze">
       <e r="RL"><p><l><s n="sp"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><s n="sp"/></l><r><s n="mfn"/><s n="sp"/></r></p></e>
@@ -330,11 +333,11 @@
     <e r="LR"><p><l>hierdie<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>dit<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
 
-    <e><p><l>my<s n="det"/><s n="pos"/></l><r>mijn<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>jou<s n="det"/><s n="pos"/></l><r>jouw<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>haar<s n="det"/><s n="pos"/></l><r>haar<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>sy<s n="det"/><s n="pos"/></l><r>zijn<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>hul<s n="det"/><s n="pos"/></l><r>hun<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>my<s n="det"/><s n="pos"/></l><r>mijn<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
+    <e><p><l>jou<s n="det"/><s n="pos"/></l><r>jouw<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
+    <e><p><l>haar<s n="det"/><s n="pos"/></l><r>haar<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
+    <e><p><l>sy<s n="det"/><s n="pos"/></l><r>zijn<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
+    <e><p><l>hul<s n="det"/><s n="pos"/></l><r>hun<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
     <e><p><l>ons<s n="det"/><s n="pos"/></l><r>onze<s n="det"/><s n="pos"/></r></p><par n="ons_onze"/></e>
 
     <e><p><l>laaste<s n="det"/><s n="ord"/></l><r>laatst<s n="det"/><s n="ord"/></r></p></e>

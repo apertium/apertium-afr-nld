@@ -194,6 +194,20 @@
             </let>
           </otherwise>
         </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
     </def-macro>
   </section-def-macros>
 

@@ -26,14 +26,10 @@ Tag mismatch between transfer and generation
 ===============================================================================
   25575 #zijn\<vbser\>\<past\>	^zijn<vbser><past>$
   18841 #hebben\<vbhaver\>\<past\>	^hebben<vbhaver><past>$
-  18407 #s\<gen\>	^s<gen>$
-  10968 #de\<det\>\<def\>\<mf\>	^de<det><def><mf><ND>$
-   4860 #de\<det\>\<def\>\<nt\>	^de<det><def><nt><ND>$
    4566 #bieden\<vblex\>\<inf\>	^bieden<vblex><inf>$
    4491 #nemen\<vblex\>\<inf\>	^nemen<vblex><inf>$
    4406 #bekend\<adj\>\<pred\>	^bekend<adj><pred>$
    4166 #eeuw\<n\>\<m\>\<sg\>	^eeuw<n><m><sg>$
-   4115 #hun\<det\>\<pos\>\<sp\>	^hun<det><pos><sp>$
    3473 #zullen\<vaux\>\<past\>	^zullen<vaux><past>$
    2976 #kommen\<vblex\>\<inf\>	^kommen<vblex><inf>$
    2864 #veel\<det\>\<qnt\>\<sp\>	^veel<det><qnt><sp>$
@@ -42,7 +38,6 @@ Tag mismatch between transfer and generation
    2562 #ander\<det\>\<ind\>\<sp\>	^ander<det><ind><sp>$
    2485 #kunnen\<vbmod\>\<past\>	^kunnen<vbmod><past>$
    2149 #vallen\<vblex\>\<inf\>	^vallen<vblex><inf>$
-   2108 #De\<det\>\<def\>\<mf\>	^De<det><def><mf><ND>$
    2040 #club\<n\>\<mf\>\<sg\>	^club<n><mf><sg>$
    2038 #verschillende\<det\>\<ind\>\<pl\>	^verschillende<det><ind><pl>$
    2029 #houden\<vblex\>\<inf\>	^houden<vblex><inf>$
@@ -126,7 +121,6 @@ Tag mismatch between transfer and generation
     776 #breken\<vblex\>\<inf\>	^breken<vblex><inf>$
     774 #enig	^enig$
     766 #dag\<n\>\<mf\>\<pl\>	^dag<n><mf><pl>$
-    765 #De\<det\>\<def\>\<nt\>	^De<det><def><nt><ND>$
     754 #lopen\<vblex\>\<inf\>	^lopen<vblex><inf>$
     751 #groep\<n\>\<m\>\<pl\>	^groep<n><m><pl>$
     748 #Room\<n\>\<m\>\<pl\>	^Room<n><m><pl>$
@@ -405,7 +399,6 @@ Tag mismatch between transfer and generation
     207 #klassiek\<adj\>\<attr\>	^klassiek<adj><attr>$
     207 #data\<n\>\<m\>\<sg\>	^data<n><m><sg>$
     207 #club\<n\>\<mf\>\<pl\>	^club<n><mf><pl>$
-    206 #Hun\<det\>\<pos\>\<sp\>	^Hun<det><pos><sp>$
     205 #de ander\<prn\>\<tn\>\<mf\>\<sp\>	^de ander<prn><tn><mf><sp>$
     204 #Zon\<n\>\<f\>\<sg\>	^Zon<n><f><sg>$
     204 #dringen\<vblex\>\<inf\>	^dringen<vblex><inf>$
@@ -666,7 +659,6 @@ Tag mismatch between transfer and generation
     103 #kwalificeren\<vblex\>\<inf\>	^kwalificeren<vblex><inf>$
     103 #kijken\<vblex\>\<pres\>\<p3\>\<sg\>	^kijken<vblex><pres><p3><sg>$
     103 #finaal\<adj\>\<attr\>	^finaal<adj><attr>$
-    103 #deze\<det\>\<dem\>\<mf\>	^deze<det><dem><mf><ND>$
     102 #Zuidelijk\<adj\>\<sint\>\<pred\>	^Zuidelijk<adj><sint><pred>$
     102 #verwerpen\<vblex\>\<pres\>\<p3\>\<sg\>	^verwerpen<vblex><pres><p3><sg>$
     102 #koolstof\<n\>\<m\>\<sg\>	^koolstof<n><m><sg>$
@@ -1061,7 +1053,6 @@ Tag mismatch between transfer and generation
      49 #kathedraal\<n\>\<m\>\<pl\>	^kathedraal<n><m><pl>$
      49 #hond\<n\>\<m\>\<sg\>	^hond<n><m><sg>$
      49 #Elkeen\<prn\>\<tn\>\<m\>\<sg\>	^Elkeen<prn><tn><m><sg>$
-     49 #Deze\<det\>\<dem\>\<mf\>	^Deze<det><dem><mf><ND>$
      49 #betekenis\<n\>\<m\>\<pl\>	^betekenis<n><m><pl>$
      48 #Wiki\<n\>\<m\>\<sg\>	^Wiki<n><m><sg>$
      48 #vresen\<vblex\>\<inf\>	^vresen<vblex><inf>$
@@ -1138,7 +1129,6 @@ Tag mismatch between transfer and generation
      44 #kloof\<n\>\<mf\>\<sg\>	^kloof<n><mf><sg>$
      44 #index\<n\>\<mf\>\<sg\>	^index<n><mf><sg>$
      44 #dominant\<adj\>\<attr\>	^dominant<adj><attr>$
-     44 #deze\<det\>\<dem\>\<nt\>	^deze<det><dem><nt><ND>$
      44 #Artikel\<n\>\<mf\>\<sg\>	^Artikel<n><mf><sg>$
      44 #aardkorst\<n\>\<mf\>\<sg\>	^aardkorst<n><mf><sg>$
      43 #Strand\<n\>\<nt\>\<sg\>	^Strand<n><nt><sg>$
@@ -1681,7 +1671,6 @@ Tag mismatch between transfer and generation
      22 #energiebron\<n\>\<mf\>\<sg\>	^energiebron<n><mf><sg>$
      22 #duin\<n\>\<pl\>	^duin<n><GD><pl>$
      22 #distributie\<n\>\<pl\>	^distributie<n><GD><pl>$
-     22 #Deze\<det\>\<dem\>\<nt\>	^Deze<det><dem><nt><ND>$
      22 #buis\<n\>\<f\>\<pl\>	^buis<n><f><pl>$
      22 #beiden\<prn\>\<tn\>\<mf\>\<pl\>	^beiden<prn><tn><mf><pl>$
      21 #wezenlijk\<adj\>\<sint\>\<pred\>	^wezenlijk<adj><sint><pred>$
@@ -2601,7 +2590,6 @@ Tag mismatch between transfer and generation
       8 #standplaats\<n\>\<m\>\<sg\>	^standplaats<n><m><sg>$
       8 #spoorwegnetwerk\<n\>\<nt\>\<sg\>	^spoorwegnetwerk<n><nt><sg>$
       8 #silicaat\<n\>\<nt\>\<pl\>	^silicaat<n><nt><pl>$
-      8 #S\<gen\>	^S<gen>$
       8 #seizoensgevoelig\<adj\>\<sint\>\<attr\>	^seizoensgevoelig<adj><sint><attr>$
       8 #schulp\<n\>\<mf\>\<sg\>	^schulp<n><mf><sg>$
       8 #schuld\<n\>\<f\>\<pl\>	^schuld<n><f><pl>$
@@ -3272,7 +3260,6 @@ Tag mismatch between transfer and generation
       4 #soefisme\<n\>\<nt\>\<sg\>	^soefisme<n><nt><sg>$
       4 #simuleren\<vblex\>\<inf\>	^simuleren<vblex><inf>$
       4 #silicaat\<n\>\<nt\>\<sg\>	^silicaat<n><nt><sg>$
-      4 #s\<gen\> 	^s<gen>$ 
       4 #sekunde\<n\>\<f\>\<sg\>	^sekunde<n><f><sg>$
       4 #Seksueel\<adj\>\<attr\>	^Seksueel<adj><attr>$
       4 #Schuiven\<vblex\>\<inf\>	^Schuiven<vblex><inf>$
@@ -4148,7 +4135,6 @@ Tag mismatch between transfer and generation
       2 #disc jockey\<n\>\<m\>\<pl\>	^disc jockey<n><m><pl>$
       2 #Discipline\<n\>\<sg\>	^Discipline<n><GD><sg>$
       2 #Departementshoofd\<n\>\<m\>\<sg\>	^Departementshoofd<n><m><sg>$
-      2 #DE\<det\>\<def\>\<mf\>	^DE<det><def><mf><ND>$
       2 #Dagelijks\<adj\>\<sint\>\<pred\>	^Dagelijks<adj><sint><pred>$
       2 #Dagelijks\<adj\>\<sint\>\<attr\>	^Dagelijks<adj><sint><attr>$
       2 #cynisme\<n\>\<nt\>\<sg\>	^cynisme<n><nt><sg>$
@@ -4738,7 +4724,6 @@ Tag mismatch between transfer and generation
       1 #identificeren\<n\>\<f\>\<pl\>	^identificeren<n><f><pl>$
       1 #Ideaal\<adj\>\<pred\>	^Ideaal<adj><pred>$
       1 #Huursoldaat\<n\>\<m\>\<pl\>	^Huursoldaat<n><m><pl>$
-      1 #hun\<det\>\<pos\>\<sp\> 	^hun<det><pos><sp>$ 
       1 #Humanisme\<n\>\<nt\>\<sg\> 	^Humanisme<n><nt><sg>$ 
       1 #Humanisme\<n\>\<nt\>\<sg\>	^Humanisme<n><nt><sg>$
       1 #HULP\<n\>\<mf\>\<sg\>	^HULP<n><mf><sg>$
@@ -4981,5 +4966,5 @@ Summary
 ===============================================================================
     11 /tmp/af-nl.multiform
      0 /tmp/af-nl.multibidix
-  4951 /tmp/af-nl.tagmismatch
-  4962 total
+  4936 /tmp/af-nl.tagmismatch
+  4947 total
