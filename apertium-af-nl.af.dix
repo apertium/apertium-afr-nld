@@ -1029,7 +1029,7 @@
     </pardef>
 
     <pardef n="wat__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="altwee__prn">
@@ -1037,7 +1037,7 @@
     </pardef>
 
     <pardef n="elkeen__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="prsubj__prn">
@@ -1203,10 +1203,10 @@
     <e lm="hulself" r="LR"> 
       <p>
         <l>hulself</l>
-        <r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        <r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-    <e lm="hulleself"><p><l>hulleself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e lm="hulleself"><p><l>hulleself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e lm="dit"><i>dit</i><par n="die_ander__prn"/></e><!-- "dit" CHECK THIS -->
 

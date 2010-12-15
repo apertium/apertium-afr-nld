@@ -237,8 +237,24 @@
       <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="zichzelf__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="alle__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="mens__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="beide__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="wat__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
 
@@ -6725,7 +6741,21 @@
     <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
     <e lm="object pronouns"><i></i><par n="probj__prn"/></e>
     <e lm="object 'unstressed' pronouns"><i></i><par n="probj_uns__prn"/></e>
+
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
+
+    <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
+    <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
+
+    <e lm="mens"><i>mens</i><par n="mens__prn"/></e>
+    <e lm="elkeen"><i>elkeen</i><par n="mens__prn"/></e>
+    <e lm="iemand"><i>iemand</i><par n="mens__prn"/></e>
+    <e lm="niemand"><i>niemand</i><par n="mens__prn"/></e>
+    <e lm="iedereen"><i>iedereen</i><par n="mens__prn"/></e>
+    <e lm="iets"><i>iets</i><par n="mens__prn"/></e>
+
+    <e lm="beide"><i>beide</i><par n="mens__prn"/></e>
+
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <!-- SECTION: Hoofdtelwoorden -->

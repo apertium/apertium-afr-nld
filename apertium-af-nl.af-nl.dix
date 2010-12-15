@@ -281,7 +281,7 @@
 	<e><p><l>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></l><r>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 	<e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="m"/></l><r>alles<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 	<e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="m"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-	<e><p><l>altwee<s n="prn"/><s n="tn"/><s n="mf"/></l><r>beiden<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+	<e><p><l>altwee<s n="prn"/><s n="tn"/><s n="mf"/></l><r>beide<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
 	<e><p><l>een<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>een<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>alle<s n="prn"/><s n="tn"/></l><r>alle<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>mens<s n="prn"/><s n="tn"/></l><r>mens<s n="prn"/><s n="tn"/></r></p></e>
@@ -5740,7 +5740,8 @@
     <e><p><l>aanmaak<s n="vblex"/><s n="sep"/></l><r>aanmaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>aansien<s n="vblex"/><s n="sep"/></l><r>aanzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omsien<s n="vblex"/><s n="sep"/></l><r>omzien<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>uitleg<s n="vblex"/><s n="sep"/></l><r>uitleggen<s n="vblex"/><s n="sep"/></r></p></e>
 
 
 
