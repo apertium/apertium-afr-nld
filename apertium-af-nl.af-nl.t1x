@@ -115,6 +115,9 @@
     <def-attr n="tipus_prn">
       <attr-item tags="prn.subj"/>
       <attr-item tags="prn.obj"/>
+      <attr-item tags="prn.tn"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.itg"/>
     </def-attr>
     <def-attr n="pers">			<!-- Person -->
        <attr-item tags="p1"/>
@@ -309,7 +312,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="tipus_prn"/>
               <clip pos="1" side="tl" part="gen"/>
               <clip pos="1" side="tl" part="nbr"/>
             </lu>
