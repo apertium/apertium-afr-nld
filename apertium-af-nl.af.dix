@@ -91,6 +91,11 @@
 
     <sdef n="top"     c="Location"/>
     <sdef n="org"     c="Organisation"/>
+
+    <sdef n="compound-only-L" c=""/>
+    <sdef n="compound-R"    c=""/>
+    <sdef n="cmp"    c=""/>
+
   </sdefs>
 
   <pardefs>
@@ -549,6 +554,25 @@
 
     <!-- SECTION: Nomen -->
 
+    <pardef n="cmp">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+
+    <pardef n="cmp-L">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+
+    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+    </pardef>
+
     <pardef n="poësie__n__unc"> <!-- unc -->
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
       <!--<e>       <p><l/><r><s n="n"/><s n="unc"/><s n="sg"/></r></p></e>-->
@@ -625,8 +649,14 @@
     </pardef>
 
     <pardef n="artikel__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    </pardef>
+
+    <pardef n="ontwikkeling__n">
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="sg"/></r></p><par n="cmp-L"/></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
 
     <pardef n="halfrond__n">
@@ -733,8 +763,8 @@
     </pardef>
 
     <pardef n="avontu/ur__n">
-      <e>       <p><l>ur</l><r>ur<s n="n"/><s n="sg"/></r></p></e>
-      <e>       <p><l>re</l><r>ur<s n="n"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ur</l><r>ur<s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>re</l><r>ur<s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
 
     <pardef n="staatsamptena/ar__n">
@@ -6117,10 +6147,10 @@
 
     
     <!-- From wordlist with ~ontwikkeling -->
-    <e lm="nywerheidsontwikkeling"><i>nywerheidsontwikkeling</i><par n="artikel__n"/></e>
-    <e lm="ontwikkeling"><i>ontwikkeling</i><par n="artikel__n"/></e>
-    <e lm="sagtewareontwikkeling"><i>sagtewareontwikkeling</i><par n="artikel__n"/></e>
-    <e lm="taalontwikkeling"><i>taalontwikkeling</i><par n="artikel__n"/></e>
+    <e lm="nywerheidsontwikkeling"><i>nywerheidsontwikkeling</i><par n="ontwikkeling__n"/></e>
+    <e lm="ontwikkeling"><i>ontwikkeling</i><par n="ontwikkeling__n"/></e>
+    <e lm="sagtewareontwikkeling"><i>sagtewareontwikkeling</i><par n="ontwikkeling__n"/></e>
+    <e lm="taalontwikkeling"><i>taalontwikkeling</i><par n="ontwikkeling__n"/></e>
 
 
     <!-- From wordlist with ~netwerk -->

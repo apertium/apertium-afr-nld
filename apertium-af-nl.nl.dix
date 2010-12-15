@@ -80,6 +80,10 @@
     <sdef n="percent" c="Percentage"/>
     <sdef n="apos"    c="Apostrophe"/>
 
+    <sdef n="compound-only-L" c=""/>
+    <sdef n="compound-R"    c=""/>
+    <sdef n="cmp"    c=""/>
+
    </sdefs>
   <pardefs>
 
@@ -5682,9 +5686,21 @@
       <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+    <pardef n="cmp" c="cmp, for forms that can be at the beginning or end of compounds">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+    </pardef>
+
     <pardef n="vering__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="sch/ip__n_nt">
       <e>       <p><l>ip</l><r>ip<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -6309,8 +6325,9 @@
       <e>       <p><l>ten</l><r>ut<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="led__n_m">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
     </pardef>
     <pardef n="oli/e__n_m">
       <e>       <p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -21169,7 +21186,7 @@
     <e lm="versterking"><i>versterking</i><par n="vering__n_f"/></e>
     <e lm="vertaler"><i>vertaler</i><par n="led__n_m"/></e>
     <e lm="vertaling"><i>vertaling</i><par n="vering__n_f"/></e>
-    <e lm="computervertaling"><i>computervertaling</i><par n="vering__n_f"/></e>
+    <!--<e lm="computervertaling"><i>computervertaling</i><par n="vering__n_f"/></e>-->
     <e lm="verte"><i>verte</i><par n="made__n_f"/></e>
     <e lm="vertegenwoordiger"><i>vertegenwoordiger</i><par n="led__n_m"/></e>
     <e lm="verteller"><i>verteller</i><par n="led__n_m"/></e>
