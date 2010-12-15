@@ -798,8 +798,8 @@
     </pardef>
 
     <pardef n="ho/og__n">
-      <e>       <p><l>og</l><r>og<s n="n"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ë</l><r>og<s n="n"/><s n="pl"/></r></p></e>
+      <e>       <p><l>og</l><r>og<s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>ë</l><r>og<s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
 
     <pardef n="monargie__n">
@@ -2484,6 +2484,7 @@
     <e lm="antropoloog"><i>antropolo</i><par n="ho/og__n"/></e>
     <e lm="argeoloog"><i>argeolo</i><par n="ho/og__n"/></e>
     <e lm="oog"><i>o</i><par n="ho/og__n"/></e>
+    <e lm="boog"><i>bo</i><par n="ho/og__n"/></e>
     <e lm="sosioloog"><i>sosiolo</i><par n="ho/og__n"/></e>
 
     

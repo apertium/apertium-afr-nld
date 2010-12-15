@@ -3989,9 +3989,22 @@
       <e><p><l>el</l><r>el<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>len</l><r>el<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+    <pardef n="cmp" c="cmp, for forms that can be at the beginning or end of compounds">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+    </pardef>
+
+
     <pardef n="eg__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>gen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>gen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="s__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -4006,9 +4019,10 @@
       <e r="LR"><p><l>sen</l><r>s<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>zen</l><r>s<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+
     <pardef n="roe__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="st/ad__n_f">
       <e><p><l>ad</l><r>ad<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4863,8 +4877,8 @@
       <e>       <p><l>best</l><r>goed<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
     </pardef>
     <pardef n="bo/og__n_m">
-      <e>       <p><l>og</l><r>og<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>gen</l><r>og<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>og</l><r>og<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>gen</l><r>og<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="toegesta/an__adj">
       <e>       <p><l>ne</l><r>an<s n="adj"/><s n="attr"/></r></p></e>
@@ -5686,18 +5700,6 @@
       <e r="LR"><p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="cmp" c="cmp, for forms that can be at the beginning or end of compounds">
-      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
-    </pardef>
-    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
-      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
-      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-    </pardef>
-
     <pardef n="vering__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp-R"/></e>
       <e>       <p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
@@ -11340,6 +11342,7 @@
     <e lm="activiteit"><i>activiteit</i><par n="vering__n_f"/></e>
     <e lm="actrice"><i>actrice</i><par n="roe__n_f"/></e>
     <e lm="actualiteit"><i>actualiteit</i><par n="vering__n_f"/></e>
+    <e lm="capaciteit"><i>capaciteit</i><par n="vering__n_f"/></e>
     <e lm="actuaris"><i>actuaris</i><par n="as__n_m"/></e>
     <e lm="acupunctuur"><i>acupunctuur</i><par n="eb__n_f"/></e>
     <e lm="adamsappel"><i>adamsappel</i><par n="led__n_m"/></e>
