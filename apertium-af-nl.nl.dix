@@ -3641,6 +3641,26 @@
       <e>       <p><l>oste</l><r>os<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
       <e>       <p><l>ost</l><r>os<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
     </pardef>
+
+    <pardef n="cmp" c="cmp, for forms that can be at the beginning or end of compounds">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+
+    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
+      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
+    </pardef>
+
+    <pardef n="cmp-L" c="cmp-L, for forms that can only appear at the beginning or inside compounds">
+      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
+      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+      <e>       <p><l></l>          <r></r></p></e>
+    </pardef>
+
     <pardef n="hoe/s__n_mf">
       <e><p><l>s</l><r>s<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>zen</l><r>s<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -3667,8 +3687,8 @@
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="vin__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>nen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>nen</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="no/ot__n_mf">
       <e><p><l>ot</l><r>ot<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -3977,10 +3997,12 @@
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>'s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
+
     <pardef n="ku/ur__n_mf">
-      <e><p><l>ur</l><r>ur<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>ren</l><r>ur<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>ur</l><r>ur<s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>ren</l><r>ur<s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
+
     <pardef n="zeekoe__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>ien</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -3989,18 +4011,6 @@
       <e><p><l>el</l><r>el<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>len</l><r>el<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="cmp" c="cmp, for forms that can be at the beginning or end of compounds">
-      <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-      <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
-    </pardef>
-    <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
-      <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
-      <e>       <p><l>NON_ANALYSIS</l><r>DUE_TO_LT_PROC_HANG</r></p></e>
-    </pardef>
-
 
     <pardef n="eg__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -4045,8 +4055,8 @@
 	  <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>	  
     </pardef>
     <pardef n="ven__n_nt">
-      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e>       <p><l>nen</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>nen</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="dijbe/en__n_nt">
       <e>       <p><l>en</l><r>en<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -4800,10 +4810,6 @@
     <pardef n="verbindings-s__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>'en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="ren__n_m">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>nen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="parti/eel__adj_sint">
       <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -5632,8 +5638,12 @@
       <e>       <p><l>ders</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="zon__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>nen</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>nen</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    </pardef>
+    <pardef n="ren__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>nen</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="bo/ot__n_m">
       <e>       <p><l>ot</l><r>ot<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -5701,7 +5711,8 @@
       <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="vering__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp-L"/></e>
       <e>       <p><l>en</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="sch/ip__n_nt">
@@ -18505,9 +18516,8 @@
     <e lm="plakband"><i>plakband</i><par n="lot__n_nt"/></e>
     <e lm="plakkaat"><i>plakka</i><par n="cita/at__n_nt"/></e>
     <e lm="plaksneeuw"><i>plaksneeuw</i><par n="WO__n_mf"/></e>
-    <e lm="plan"><i>plan</i><par n="ren__n_m"/></e>
+    <e lm="plan"><i>plan</i><par n="vin__n_mf"/></e>
     <e lm="plan"><i>plan</i><par n="ven__n_nt"/></e>
-    <e lm="plan"><i>plan</i><par n="zon__n_f"/></e>
     <e lm="planeet"><i>plane</i><par n="me/et__n_mf"/></e>
     <e lm="planeetbaan"><i>planeetba</i><par n="la/an__n_mf"/></e>
     <e lm="planetarium"><i>planetari</i><par n="atri/um__n_nt"/></e>
