@@ -440,6 +440,26 @@
       <e>       <p><l>oen</l><r>oen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="k/omen__vblex">
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>omend</l><r>omen<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>om</l><r>omen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>om</l><r>omen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wamen</l><r>omen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="sm/elten__vblex">
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>elt</l><r>elten<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -458,6 +478,7 @@
       <e>       <p><l>elte</l><r>elten<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>elte</l><r>elten<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
+
     <pardef n="lo/ven__vblex">
       <e>       <p><l>of</l><r>ven<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>oft</l><r>ven<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -1949,6 +1970,39 @@
       <e>       <p><l>e</l><r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>e</l><r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="omk/omen__vblex_sep">
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
+      <e>       <p><l>wamen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omend</l><r>omen<s n="vblex"/><s n="sep"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>om</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="k/omen#_om__vblex_sep">
+      <e>       <p><l>om</l><r>omen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>wamen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>wam</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>om</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omt</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>omen</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ome</l><r>omen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="aanbr/engen__vblex_sep">
       <e>       <p><l>engen</l><r>engen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
       <e>       <p><l>achten</l><r>engen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
@@ -9055,6 +9109,7 @@
     <e lm="intens"><i>intens</i><par n="fors__adj_sint"/></e>
     <e lm="interessant"><i>interessant</i><par n="eng__adj_sint"/></e>
     <e lm="internationaal"><i>internationa</i><par n="ka/al__adj_sint"/></e>
+    <e lm="regionaal"><i>regiona</i><par n="ka/al__adj_sint"/></e>
     <e lm="intrinsiek"><i>intrinsiek</i><par n="eng__adj_sint"/></e>
     <e lm="invers"><i>invers</i><par n="taps__adj"/></e>
     <e lm="inverteerbaar"><i>inverteerba</i><par n="ba/ar__adj"/></e>
@@ -25077,6 +25132,8 @@
     <e lm="koken"><p><l>gekookt</l><r>koken</r></p><par n="gesproken__vblex"/></e>
     <e lm="koloniseren"><i>kolonise</i><par n="ve/ren__vblex"/></e>
     <e lm="koloniseren"><p><l>gekoloniseerd</l><r>koloniseren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="komen"><i>k</i><par n="k/omen__vblex"/></e>
+    <e lm="komen"><p><l>gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
     <e lm="kontneuken"><i>kontneuk</i><par n="fax/en__vblex"/></e>
     <e lm="kontneuken"><p><l>gekontneukt</l><r>kontneuken</r></p><par n="gesproken__vblex"/></e>
     <e lm="kopen"><i>ko</i><par n="ko/pen__vblex"/></e>
@@ -28042,6 +28099,9 @@
     <e lm="omkleden"><i>omkle</i><par n="aankle/den__vblex_sep"/></e>
     <e lm="omkleden"><p><l>kle</l><r>omkle</r></p><par n="kle/den#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
     <e lm="omkleden"><p><l>omgekleed</l><r>omkleden</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="omkomen"><i>omk</i><par n="omk/omen__vblex_sep"/></e>
+    <e lm="omkomen"><p><l>k</l><r>ombr</r></p><par n="k/omen#_om__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
+    <e lm="omkomen"><p><l>omgekomen</l><r>omkomen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="omkopen"><i>omko</i><par n="aanko/pen__vblex_sep"/></e>
     <e lm="omkopen"><p><l>ko</l><r>omko</r></p><par n="ko/pen#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
     <e lm="omkopen"><p><l>omgekocht</l><r>omkopen</r></p><par n="gesproken__vblex_sep"/></e>

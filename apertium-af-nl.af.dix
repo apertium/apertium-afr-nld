@@ -3175,6 +3175,11 @@
     <e lm="afsien"><p><l>sien</l><r>afsien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afsien"><p><l>afgesien</l><r>afsien</r></p><par n="aangesien__vblex_sep"/></e>
 
+    <e lm="omkom"><i>omkom</i><par n="aansien__vblex_sep"/></e>
+    <e lm="omkom"><p><l>kom</l><r>omkom</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
+    <e lm="omkom"><p><l>omgekom</l><r>omkom</r></p><par n="aangesien__vblex_sep"/></e>
+
+
     <e lm="aanmaak"><i>aanmaak</i><par n="aansien__vblex_sep"/></e>
     <e lm="aanmaak"><p><l>maak</l><r>aanmaak</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanmaak"><p><l>aangemaak</l><r>aanmaak</r></p><par n="aangesien__vblex_sep"/></e>
@@ -4081,6 +4086,7 @@
     <e lm="maandag"><i>maand</i><par n="vra/ag__n"/></e>
 
     <e lm="Januarie"><i>Januarie</i><par n="artikel__n"/></e>
+    <e lm="Junie"><i>Junie</i><par n="artikel__n"/></e>
     <e lm="Mei"><i>Mei</i><par n="artikel__n"/></e>
     <e lm="Augustus"><i>Augustus</i><par n="artikel__n"/></e>
     <e lm="September"><i>September</i><par n="artikel__n"/></e>
@@ -7038,7 +7044,7 @@
     <e lm="wetlik"><i>wetlik</i><par n="dadelik__adj"/></e>
 
     <e lm="Afrikaans"><i>Afrikaans</i><par n="dadelik__adj"/></e>
-    <e lm="Amerikaans"><i>Amerikaanse</i><par n="dadelik__adj"/></e>
+    <e lm="Amerikaans"><i>Amerikaans</i><par n="dadelik__adj"/></e>
     <e lm="Spaans"><i>Spaans</i><par n="dadelik__adj"/></e>
     <e lm="Katalaans"><i>Katalaans</i><par n="dadelik__adj"/></e>
     <e lm="Brits"><i>Brits</i><par n="dadelik__adj"/></e>
@@ -7457,6 +7463,7 @@
     <e lm="sentraal"><i>sentra</i><par n="voka/al__adj"/></e>
     <e lm="neutraal"><i>neutra</i><par n="voka/al__adj"/></e>
     <e lm="nasionaal"><i>nasiona</i><par n="voka/al__adj"/></e>
+    <e lm="regionaal"><i>regiona</i><par n="voka/al__adj"/></e>
     <e lm="orbitaal"><i>orbita</i><par n="voka/al__adj"/></e>
     <e lm="totaal"><i>tota</i><par n="voka/al__adj"/></e>
     <e lm="internasionaal"><i>internasiona</i><par n="voka/al__adj"/></e>
