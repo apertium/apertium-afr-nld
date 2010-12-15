@@ -2144,7 +2144,8 @@
     <e><p><l>plaat<s n="n"/></l><r>plaat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plakkaat<s n="n"/></l><r>poster<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>planeet<s n="n"/></l><r>planeet<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>plan<s n="n"/></l><r>plan<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>plan<s n="n"/></l><r>plan<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>plan<s n="n"/></l><r>plan<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>plantasie<s n="n"/></l><r>plantage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plant<s n="n"/></l><r>plant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>platform<s n="n"/></l><r>platform<s n="n"/><s n="nt"/></r></p></e>
