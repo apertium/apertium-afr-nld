@@ -5882,8 +5882,8 @@
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="ku/ur__n_f">
-      <e>       <p><l>ur</l><r>ur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ren</l><r>ur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ur</l><r>ur<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>ren</l><r>ur<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="spira/al__n_mf">
       <e>       <p><l>al</l><r>al<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
