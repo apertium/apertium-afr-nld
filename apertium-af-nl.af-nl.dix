@@ -1288,6 +1288,7 @@
     <e><p><l>punt<s n="n"/></l><r>punt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>reeks<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>huis<s n="n"/></l><r>huis<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>bevolkingsgroep<s n="n"/></l><r>bevolkingsgroep<s n="n"/><s n="mf"/></r></p></e>
@@ -2208,7 +2209,6 @@
     <e><p><l>rigting<s n="n"/></l><r>richting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ring<s n="n"/></l><r>ring<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rit<s n="n"/></l><r>rit<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>robot<s n="n"/></l><r>robot<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rob<s n="n"/></l><r>rob<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rock-groep<s n="n"/></l><r>groep<s n="n"/><s n="m"/></r></p></e>
@@ -2462,7 +2462,7 @@
     <e><p><l>vakansie<s n="n"/></l><r>vakantie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vakbond<s n="n"/></l><r>vakbond<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vakman<s n="n"/></l><r>vakman<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>vallei<s n="n"/></l><r>vallei<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vallei<s n="n"/></l><r>vallei<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>valsheid<s n="n"/></l><r>onjuistheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>variëteit<s n="n"/></l><r>variëteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vark<s n="n"/></l><r>varken<s n="n"/><s n="nt"/></r></p></e>
@@ -4993,6 +4993,7 @@
 	<e><p><l>begin<s n="adv"/></l><r>begin<s n="adv"/></r></p></e>
     <e><p><l>aan<s n="adv"/></l><r>aan<s n="adv"/></r></p></e>
     <e><p><l>om<s n="adv"/></l><r>om<s n="adv"/></r></p></e>
+    <e><p><l>van<s n="adv"/></l><r>van<s n="adv"/></r></p></e>
 	<e><p><l>sowat<s n="adv"/></l><r>zowat<s n="adv"/></r></p></e>
 	<e><p><l>slegs<s n="adv"/></l><r>slechts<s n="adv"/></r></p></e>
 	<e><p><l>dan<s n="adv"/></l><r>dan<s n="adv"/></r></p></e>

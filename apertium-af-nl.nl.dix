@@ -6690,6 +6690,7 @@
     <e lm="deze"><i>d</i><par n="d/eze__det"/></e>
 
     <e lm="sommige"><i>sommige</i><par n="sommige__det"/></e>
+    <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -10090,7 +10091,6 @@
     <e lm="Afar"><i>Afar</i><par n="OV__n_nt"/></e>
     <e lm="Afghaan"><i>Afgha</i><par n="ma/an__n_m"/></e>
     <e lm="Afghaanse"><i>Afghaanse</i><par n="rune__n_f"/></e>
-    <e lm="Afghanistan"><i>Afghanistan</i><par n="OV__n_nt"/></e>
     <e lm="Afrihili"><i>Afrihili</i><par n="OV__n_nt"/></e>
     <e lm="Afrikaan"><i>Afrika</i><par n="ma/an__n_m"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="OV__n_nt"/></e>
