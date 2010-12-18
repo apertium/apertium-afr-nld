@@ -25557,6 +25557,8 @@
     <e lm="aarzelen"><p><l>geaarzeld</l><r>aarzelen</r></p><par n="gesproken__vblex"/></e>
     <e lm="abdiceren"><i>abdice</i><par n="ve/ren__vblex"/></e>
     <e lm="abdiceren"><p><l>geabdiceerd</l><r>abdiceren</r></p><par n="gesproken__vblex"/></e>
+	<e lm="classificeren"><i>classifice</i><par n="ve/ren__vblex"/></e>
+    <e lm="classificeren"><p><l>geclassificeerd</l><r>classificeren</r></p><par n="gesproken__vblex"/></e>
     <e lm="abonneren"><i>abonne</i><par n="ve/ren__vblex"/></e>
     <e lm="abonneren"><p><l>geabonneerd</l><r>abonneren</r></p><par n="gesproken__vblex"/></e>
     <e lm="aborteren"><i>aborte</i><par n="ve/ren__vblex"/></e>
@@ -26043,12 +26045,16 @@
     <e lm="bevlekken"><p><l>bevlekt</l><r>bevlekken</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevolken"><i>bevolk</i><par n="fax/en__vblex"/></e>
     <e lm="bevolken"><p><l>bevolkt</l><r>bevolken</r></p><par n="gesproken__vblex"/></e>
+	<e lm="vertolken"><i>vertolk</i><par n="fax/en__vblex"/></e>
+    <e lm="vertolken"><p><l>vertolkt</l><r>vertolken</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevoordelen"><i>bevoorde</i><par n="te/len__vblex"/></e>
     <e lm="bevoordelen"><p><l>bevoordeeld</l><r>bevoordelen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevoorrechten"><i>bevoorrecht</i><par n="ent/en__vblex"/></e>
     <e lm="bevoorrechten"><p><l>bevoorrecht</l><r>bevoorrechten</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevorderen"><i>bevorder</i><par n="jij/en__vblex"/></e>
     <e lm="bevorderen"><p><l>bevorderd</l><r>bevorderen</r></p><par n="gesproken__vblex"/></e>
+	<e lm="vorderen"><i>vorder</i><par n="jij/en__vblex"/></e>
+    <e lm="vorderen"><p><l>vorderd</l><r>bevorderen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevredigen"><i>bevredig</i><par n="jij/en__vblex"/></e>
     <e lm="bevredigen"><p><l>bevredigd</l><r>bevredigen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevreemden"><i>bevreemd</i><par n="jij/en__vblex"/></e>
@@ -26706,6 +26712,8 @@
     <e lm="gapen"><p><l>gegaapt</l><r>gapen</r></p><par n="gesproken__vblex"/></e>
     <e lm="gappen"><i>gap</i><par n="kap/pen__vblex"/></e>
     <e lm="gappen"><p><l>gegapt</l><r>gappen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verslappen"><i>verslap</i><par n="kap/pen__vblex"/></e>
+    <e lm="verslappen"><p><l>verslapt</l><r>verslappen</r></p><par n="gesproken__vblex"/></e>
     <e lm="garanderen"><i>garande</i><par n="ve/ren__vblex"/></e>
     <e lm="garanderen"><p><l>gegarandeerd</l><r>garanderen</r></p><par n="gesproken__vblex"/></e>
     <e lm="gebaren"><i>geba</i><par n="ba/ren__vblex"/></e>
@@ -28241,6 +28249,8 @@
     <e lm="schermen"><p><l>geschermd</l><r>schermen</r></p><par n="gesproken__vblex"/></e>
     <e lm="scherpen"><i>scherp</i><par n="fax/en__vblex"/></e>
     <e lm="scherpen"><p><l>gescherpt</l><r>scherpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verscherpen"><i>verscherp</i><par n="fax/en__vblex"/></e>
+    <e lm="verscherpen"><p><l>verscherpt</l><r>verscherpen</r></p><par n="gesproken__vblex"/></e>
     <e lm="schetsen"><i>schets</i><par n="fax/en__vblex"/></e>
     <e lm="schetsen"><p><l>geschetst</l><r>schetsen</r></p><par n="gesproken__vblex"/></e>
     <e lm="scheuren"><i>scheur</i><par n="jij/en__vblex"/></e>
@@ -29356,6 +29366,8 @@
     <e lm="voorspellen"><p><l>voorspeld</l><r>voorspellen</r></p><par n="gesproken__vblex"/></e>
     <e lm="vormen"><i>vorm</i><par n="jij/en__vblex"/></e>
     <e lm="vormen"><p><l>gevormd</l><r>vormen</r></p><par n="gesproken__vblex"/></e>
+	<e lm="vervormen"><i>vervorm</i><par n="jij/en__vblex"/></e>
+    <e lm="vervormen"><p><l>vervormd</l><r>vervormen</r></p><par n="gesproken__vblex"/></e>
     <e lm="vorsen"><i>vors</i><par n="fax/en__vblex"/></e>
     <e lm="vorsen"><p><l>gevorst</l><r>vorsen</r></p><par n="gesproken__vblex"/></e>
     <e lm="vousvoyeren"><i>vousvoye</i><par n="ve/ren__vblex"/></e>
@@ -29601,6 +29613,9 @@
     <e lm="aanbelanden"><i>aanbeland</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="aanbelanden"><p><l>beland</l><r>aanbeland</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbelanden"><p><l>aanbeland</l><r>aanbelanden</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="uitnodigen"><i>uitnodig</i><par n="aanbeland/en__vblex_sep"/></e>
+    <e lm="uitnodigen"><p><l>nodig</l><r>uitnodig</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
+    <e lm="uitnodigen"><p><l>uitnodig</l><r>uitnodigen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanbrengen"><i>aanbr</i><par n="aanbr/engen__vblex_sep"/></e>
     <e lm="aanbrengen"><p><l>br</l><r>aanbr</r></p><par n="br/engen#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbrengen"><p><l>aangebracht</l><r>aanbrengen</r></p><par n="gesproken__vblex_sep"/></e>
@@ -29691,6 +29706,9 @@
     <e lm="aanstaren"><i>aansta</i><par n="aansta/ren__vblex_sep"/></e>
     <e lm="aanstaren"><p><l>sta</l><r>aansta</r></p><par n="sta/ren#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanstaren"><p><l>aangestaard</l><r>aanstaren</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="aanvaren"><i>aanva</i><par n="aansta/ren__vblex_sep"/></e>
+    <e lm="aanvaren"><p><l>va</l><r>aanva</r></p><par n="sta/ren#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aanvaren"><p><l>aangevaren</l><r>aanvaren</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanstellen"><i>aanstel</i><par n="aanstel/len__vblex_sep"/></e>
     <e lm="aanstellen"><p><l>stel</l><r>aanstel</r></p><par n="stel/len#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanstellen"><p><l>aangesteld</l><r>aanstellen</r></p><par n="gesproken__vblex_sep"/></e>
