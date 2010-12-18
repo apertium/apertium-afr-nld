@@ -3670,7 +3670,7 @@
       <e>       <p><l>ope</l><r>open<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ope</l><r>open<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="aanko/pen__vblex_sep">
+    <pardef n="aankno/pen__vblex_sep">
       <e>       <p><l>pen</l><r>pen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
       <e>       <p><l>chten</l><r>pen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
       <e>       <p><l>cht</l><r>pen<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -25330,7 +25330,7 @@
     <e lm="bespreken"><i>bespr</i><par n="br/eken__vblex"/></e>
     <e lm="beschrijven"><i>beschr</i><par n="dr/ijven__vblex"/></e>
     <e lm="roepen"><i>r</i><par n="r/oepen__vblex"/></e>
-	<e lm="herroepen"><i>r</i><par n="herr/oepen__vblex"/></e>
+	<e lm="herroepen"><i>r</i><par n="r/oepen__vblex"/></e>
     <e lm="stelen"><i>st</i><par n="st/elen__vblex"/></e>
     <e lm="beginnen"><i>beg</i><par n="w/innen__vblex"/></e>
     <e lm="wegen"><i>w</i><par n="w/egen__vblex"/></e>
@@ -29634,7 +29634,7 @@
     <e lm="aankopen"><i>aanko</i><par n="aanko/pen__vblex_sep"/></e>
     <e lm="aankopen"><p><l>ko</l><r>aanko</r></p><par n="ko/pen#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aankopen"><p><l>aangekocht</l><r>aankopen</r></p><par n="gesproken__vblex_sep"/></e>
-	<e lm="hardlopen"><i>hardl</i><par n="l/open__vblex_sep"/></e>
+	<e lm="hardlopen"><i>hardl</i><par n="hardl/open__vblex_sep"/></e>
     <e lm="hardlopen"><p><l>l</l><r>hardl</r></p><par n="l/open#_hard__vblex_sep"/><p><l><b/>hard</l><r></r></p></e>
     <e lm="hardlopen"><p><l>hardgelopen</l><r>hardlopen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanlachen"><i>aanlach</i><par n="aanlach/en__vblex_sep"/></e>
