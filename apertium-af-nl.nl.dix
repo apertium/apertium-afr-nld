@@ -27790,6 +27790,9 @@
     <e lm="afzetten"><i>afzet</i><par n="aanzet/ten__vblex_sep"/></e>
     <e lm="afzetten"><p><l>zet</l><r>afzet</r></p><par n="zet/ten#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afzetten"><p><l>afgezet</l><r>afzetten</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="afzien"><i>afz</i><par n="aanz/ien__vblex_sep"/></e>
+    <e lm="afzien"><p><l>z</l><r>afz</r></p><par n="z/ien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afzien"><p><l>afgezien</l><r>afzien</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="afzoeken"><i>afzo</i><par n="afzo/eken__vblex_sep"/></e>
     <e lm="afzoeken"><p><l>zo</l><r>afzo</r></p><par n="zo/eken#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afzoeken"><p><l>afgezocht</l><r>afzoeken</r></p><par n="gesproken__vblex_sep"/></e>
