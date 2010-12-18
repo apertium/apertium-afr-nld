@@ -617,24 +617,6 @@
       <e><p><l>emme</l><r>emmen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>emme</l><r>emmen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="w/illen__vblex">
-      <e><p><l>il</l><r>illen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e><p><l>ilt</l><r>illen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ouden</l><r>illen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e><p><l>ou</l><r>illen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ou</l><r>illen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ou</l><r>illen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>illend</l><r>illen<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e><p><l>il</l><r>illen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>il</l><r>illen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>il</l><r>illen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>illen</l><r>illen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e><p><l>ille</l><r>illen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ille</l><r>illen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ille</l><r>illen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="gr/aven__vblex">
       <e><p><l>aaf</l><r>aven<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e><p><l>aaft</l><r>aven<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -1193,24 +1175,6 @@
       <e><p><l>zij</l><r>wezen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>zij</l><r>wezen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="z/ullen__vblex">
-      <e><p><l>al</l><r>ullen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e><p><l>ult</l><r>ullen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e><p><l>ullen</l><r>ullen<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ouden</l><r>ullen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e><p><l>ou</l><r>ullen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ou</l><r>ullen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ou</l><r>ullen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ullend</l><r>ullen<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e><p><l>ullen</l><r>ullen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e><p><l>al</l><r>ullen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ult</l><r>ullen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>al</l><r>ullen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ullen</l><r>ullen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e><p><l>ulle</l><r>ullen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ulle</l><r>ullen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ulle</l><r>ullen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="g/elden__vblex">
       <e><p><l>eld</l><r>elden<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e><p><l>eldt</l><r>elden<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -1283,24 +1247,6 @@
       <e><p><l>eke</l><r>eken<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>eke</l><r>eken<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="k/unnen__vblex">
-      <e><p><l>an</l><r>unnen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e><p><l>unt</l><r>unnen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e><p><l>unnen</l><r>unnen<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>onden</l><r>unnen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e><p><l>on</l><r>unnen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>on</l><r>unnen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>on</l><r>unnen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>unnend</l><r>unnen<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e><p><l>unnen</l><r>unnen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e><p><l>an</l><r>unnen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>unt</l><r>unnen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>an</l><r>unnen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>unnen</l><r>unnen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e><p><l>unne</l><r>unnen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>unne</l><r>unnen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>unne</l><r>unnen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="j/agen__vblex">
       <e><p><l>aag</l><r>agen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e><p><l>aagt</l><r>agen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -1336,24 +1282,6 @@
       <e><p><l>eze</l><r>ezen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>eze</l><r>ezen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>eze</l><r>ezen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
-    <pardef n="/zijn__vblex">
-      <e><p><l>wees</l><r>zijn<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e><p><l>weest</l><r>zijn<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e><p><l>zijn</l><r>zijn<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>waren</l><r>zijn<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e><p><l>was</l><r>zijn<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>was</l><r>zijn<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>was</l><r>zijn<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>zijnd</l><r>zijn<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e><p><l>zijn</l><r>zijn<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e><p><l>ben</l><r>zijn<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>bent</l><r>zijn<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>is</l><r>zijn<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>zijn</l><r>zijn<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e><p><l>zij</l><r>zijn<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>zij</l><r>zijn<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>zij</l><r>zijn<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="h/ijsen__vblex">
       <e><p><l>ijs</l><r>ijsen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
@@ -1786,24 +1714,6 @@
       <e><p><l>ere</l><r>eren<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ere</l><r>eren<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ere</l><r>eren<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
-    <pardef n="m/ogen__vblex">
-      <e><p><l>ag</l><r>ogen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e><p><l>oogt</l><r>ogen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e><p><l>ogen</l><r>ogen<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ochten</l><r>ogen<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e><p><l>ocht</l><r>ogen<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ocht</l><r>ogen<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ocht</l><r>ogen<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ogend</l><r>ogen<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e><p><l>ogen</l><r>ogen<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e><p><l>ag</l><r>ogen<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ag</l><r>ogen<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ag</l><r>ogen<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ogen</l><r>ogen<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e><p><l>oge</l><r>ogen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>oge</l><r>ogen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>oge</l><r>ogen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="zw/ellen__vblex">
       <e><p><l>el</l><r>ellen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
@@ -25013,306 +24923,301 @@
     <e lm="mogen"><i></i><par n="/mogen__vbmod"/></e>
     <e lm="willen"><i></i><par n="/willen__vaux"/></e>
     <e lm="zullen"><i></i><par n="/zullen__vaux"/></e>
-    <e lm="aanbidden"><p><l> aanbeden</l><r>aanbidden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedelven"><p><l> bedolven</l><r>bedelven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bederven"><p><l> bedorven</l><r>bederven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedingen"><p><l> bedongen</l><r>bedingen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedragen"><p><l> bedragen</l><r>bedragen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedriegen"><p><l> bedrogen</l><r>bedriegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedrijven"><p><l> bedreven</l><r>bedrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bedwingen"><p><l> bedwongen</l><r>bedwingen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="begaan"><p><l> begaan</l><r>begaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="begeven"><p><l> begeven</l><r>begeven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="beginnen"><p><l> begonnen</l><r>beginnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="begraven"><p><l> begraven</l><r>begraven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="begrijpen"><p><l> begrepen</l><r>begrijpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="behangen"><p><l> behangen</l><r>behangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="behouden"><p><l> behouden</l><r>behouden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bejagen"><p><l> bejaagd</l><r>bejagen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bekijken"><p><l> bekeken</l><r>bekijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="beklimmen"><p><l> beklommen</l><r>beklimmen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bekomen"><p><l> bekomen</l><r>bekomen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bekruipen"><p><l> bekropen</l><r>bekruipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="belezen"><p><l> belezen</l><r>belezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="belijden"><p><l> beleden</l><r>belijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="benijden"><p><l> benijd</l><r>benijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bergen"><p><l> geborgen</l><r>bergen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="beschijnen"><p><l> beschenen</l><r>beschijnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="beschrijven"><p><l> beschreven</l><r>beschrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="beslaan"><p><l> beslagen</l><r>beslaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="besnijden"><p><l> besneden</l><r>besnijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bespreken"><p><l> besproken</l><r>bespreken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bespringen"><p><l> besprongen</l><r>bespringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bestaan"><p><l> bestaan</l><r>bestaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="besterven"><p><l> bestorven</l><r>besterven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bestijgen"><p><l> bestegen</l><r>bestijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bestrijden"><p><l> bestreden</l><r>bestrijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bestrijken"><p><l> bestreken</l><r>bestrijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="betreden"><p><l> betreden</l><r>betreden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="betreffen"><p><l> betroffen</l><r>betreffen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="betrekken"><p><l> betrokken</l><r>betrekken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bevallen"><p><l> bevallen</l><r>bevallen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bevelen"><p><l> bevolen</l><r>bevelen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bevinden"><p><l> bevonden</l><r>bevinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bevriezen"><p><l> bevroren</l><r>bevriezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bewegen"><p><l> bewogen</l><r>bewegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bewijzen"><p><l> bewezen</l><r>bewijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bezien"><p><l> bezien</l><r>bezien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bezinnen"><p><l> bezonnen</l><r>bezinnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bezweren"><p><l> bezworen</l><r>bezweren</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bezwijken"><p><l> bezweken</l><r>bezwijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bidden"><p><l> gebeden</l><r>bidden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="bieden"><p><l> geboden</l><r>bieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="binden"><p><l> gebonden</l><r>binden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="blazen"><p><l> geblazen</l><r>blazen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="blijken"><p><l> gebleken</l><r>blijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="blijven"><p><l> gebleven</l><r>blijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="blinken"><p><l> geblonken</l><r>blinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="breken"><p><l> gebroken</l><r>breken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="buigen"><p><l> gebogen</l><r>buigen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="delven"><p><l> gedolven</l><r>delven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="dingen"><p><l> gedongen</l><r>dingen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="doen"><p><l> gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="doorlopen"><p><l> doorlopen</l><r>doorlopen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="doorstaan"><p><l> doorstaan</l><r>doorstaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="doorzien"><p><l> doorzien</l><r>doorzien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="dragen"><p><l> gedragen</l><r>dragen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="drijven"><p><l> gedreven</l><r>drijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="dringen"><p><l> gedrongen</l><r>dringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="drinken"><p><l> gedronken</l><r>drinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="druipen"><p><l> gedropen</l><r>druipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="duiken"><p><l> gedoken</l><r>duiken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="dwingen"><p><l> gedwongen</l><r>dwingen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ervaren"><p><l> ervaren</l><r>ervaren</r></p><par n="gesproken__vblex"/></e>
-    <e lm="gaan"><p><l> gegaan</l><r>gaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="gebieden"><p><l> geboden</l><r>gebieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="gelden"><p><l> gegolden</l><r>gelden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="gelijken"><p><l> geleken</l><r>gelijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="genezen"><p><l> genezen</l><r>genezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="geven"><p><l> gegeven</l><r>geven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="glijden"><p><l> gegleden</l><r>glijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="glimmen"><p><l> geglommen</l><r>glimmen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="graven"><p><l> gegraven</l><r>graven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="grijpen"><p><l> gegrepen</l><r>grijpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="hangen"><p><l> gehangen</l><r>hangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="heffen"><p><l> geheven</l><r>heffen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="helpen"><p><l> geholpen</l><r>helpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="herkrijgen"><p><l> herkregen</l><r>herkrijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="herwinnen"><p><l> herwonnen</l><r>herwinnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="herzien"><p><l> herzien</l><r>herzien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="hijsen"><p><l> gehesen</l><r>hijsen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="houden"><p><l> gehouden</l><r>houden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="houwen"><p><l> gehouwen</l><r>houwen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="jagen"><p><l> gejaagd</l><r>jagen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="kiezen"><p><l> gekozen</l><r>kiezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="kijken"><p><l> gekeken</l><r>kijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="klieven"><p><l> gekloven</l><r>klieven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="klimmen"><p><l> geklommen</l><r>klimmen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="klinken"><p><l> geklonken</l><r>klinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="kluiven"><p><l> gekloven</l><r>kluiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="knijpen"><p><l> geknepen</l><r>knijpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="komen"><p><l> gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="krijgen"><p><l> gekregen</l><r>krijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="krijsen"><p><l> gekresen</l><r>krijsen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="krimpen"><p><l> gekrompen</l><r>krimpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="kruipen"><p><l> gekropen</l><r>kruipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="kunnen"><p><l> gekund</l><r>kunnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="lezen"><p><l> gelezen</l><r>lezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="liegen"><p><l> gelogen</l><r>liegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="liggen"><p><l> gelegen</l><r>liggen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="lijden"><p><l> geleden</l><r>lijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="lijken"><p><l> geleken</l><r>lijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="lopen"><p><l> gelopen</l><r>lopen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="luiken"><p><l> geloken</l><r>luiken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="melken"><p><l> gemolken</l><r>melken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="mijden"><p><l> gemeden</l><r>mijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="misprijzen"><p><l> misprezen</l><r>misprijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="mogen"><p><l> gemogen</l><r>mogen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="nemen"><p><l> genomen</l><r>nemen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="nijgen"><p><l> genegen</l><r>nijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="omgeven"><p><l> omgeven</l><r>omgeven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="omschrijven"><p><l> omschreven</l><r>omschrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="omwinden"><p><l> omwonden</l><r>omwinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="omzwerven"><p><l> omzworven</l><r>omzwerven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onderbreken"><p><l> onderbroken</l><r>onderbreken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ondergaan"><p><l> ondergaan</l><r>ondergaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onderhouden"><p><l> onderhouden</l><r>onderhouden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ondernemen"><p><l> ondernomen</l><r>ondernemen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ondervinden"><p><l> ondervonden</l><r>ondervinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ondervragen"><p><l> ondervraagd</l><r>ondervragen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onderwerpen"><p><l> onderworpen</l><r>onderwerpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onderwijzen"><p><l> onderwezen</l><r>onderwijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontbieden"><p><l> ontboden</l><r>ontbieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontbinden"><p><l> ontbonden</l><r>ontbinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontbreken"><p><l> ontbroken</l><r>ontbreken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontduiken"><p><l> ontdoken</l><r>ontduiken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontgaan"><p><l> ontgaan</l><r>ontgaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontginnen"><p><l> ontgonnen</l><r>ontginnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onthouden"><p><l> onthouden</l><r>onthouden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontkomen"><p><l> ontkomen</l><r>ontkomen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontlopen"><p><l> ontlopen</l><r>ontlopen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontluiken"><p><l> ontloken</l><r>ontluiken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontnemen"><p><l> ontnomen</l><r>ontnemen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontslaan"><p><l> ontslagen</l><r>ontslaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontspringen"><p><l> ontsprongen</l><r>ontspringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontstaan"><p><l> ontstaan</l><r>ontstaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontsteken"><p><l> ontstoken</l><r>ontsteken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="onttrekken"><p><l> onttrokken</l><r>onttrekken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontvangen"><p><l> ontvangen</l><r>ontvangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontwerpen"><p><l> ontworpen</l><r>ontwerpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontwijken"><p><l> ontweken</l><r>ontwijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontzeggen"><p><l> ontzegd</l><r>ontzeggen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ontzien"><p><l> ontzien</l><r>ontzien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overbieden"><p><l> overboden</l><r>overbieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overdrijven"><p><l> overdreven</l><r>overdrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overlijden"><p><l> overleden</l><r>overlijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overrijden"><p><l> overreden</l><r>overrijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overschrijden"><p><l> overschreden</l><r>overschrijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overstijgen"><p><l> overstegen</l><r>overstijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overtreden"><p><l> overtreden</l><r>overtreden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overtreffen"><p><l> overtroffen</l><r>overtreffen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overvallen"><p><l> overvallen</l><r>overvallen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overwegen"><p><l> overwogen</l><r>overwegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="overwinnen"><p><l> overwonnen</l><r>overwinnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="prijzen"><p><l> geprezen</l><r>prijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="rieken"><p><l> geroken</l><r>rieken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="rijden"><p><l> gereden</l><r>rijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="rijgen"><p><l> geregen</l><r>rijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="rijzen"><p><l> gerezen</l><r>rijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="roepen"><p><l> geroepen</l><r>roepen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="ruiken"><p><l> geroken</l><r>ruiken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schelden"><p><l> gescholden</l><r>schelden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schenden"><p><l> geschonden</l><r>schenden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schenken"><p><l> geschonken</l><r>schenken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="scheppen"><p><l> geschapen</l><r>scheppen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="scheren"><p><l> geschoren</l><r>scheren</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schijnen"><p><l> geschenen</l><r>schijnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schrijden"><p><l> geschreden</l><r>schrijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schrijven"><p><l> geschreven</l><r>schrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schrikken"><p><l> geschrokken</l><r>schrikken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schuilen"><p><l> gescholen</l><r>schuilen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="schuiven"><p><l> geschoven</l><r>schuiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="slaan"><p><l> geslagen</l><r>slaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="slapen"><p><l> geslapen</l><r>slapen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="slijpen"><p><l> geslepen</l><r>slijpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="slinken"><p><l> geslonken</l><r>slinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="sluipen"><p><l> geslopen</l><r>sluipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="snijden"><p><l> gesneden</l><r>snijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="snuiven"><p><l> gesnoven</l><r>snuiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="spinnen"><p><l> gesponnen</l><r>spinnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="spreken"><p><l> gesproken</l><r>spreken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="springen"><p><l> gesprongen</l><r>springen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="staan"><p><l> gestaan</l><r>staan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="steken"><p><l> gestoken</l><r>steken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="stelen"><p><l> gestolen</l><r>stelen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="sterven"><p><l> gestorven</l><r>sterven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="stijgen"><p><l> gestegen</l><r>stijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="stinken"><p><l> gestonken</l><r>stinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="strijden"><p><l> gestreden</l><r>strijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="strijken"><p><l> gestreken</l><r>strijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="stuiven"><p><l> gestoven</l><r>stuiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="treden"><p><l> getreden</l><r>treden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="treffen"><p><l> getroffen</l><r>treffen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="trekken"><p><l> getrokken</l><r>trekken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vallen"><p><l> gevallen</l><r>vallen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vangen"><p><l> gevangen</l><r>vangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="varen"><p><l> gevaren</l><r>varen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verbergen"><p><l> verborgen</l><r>verbergen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verbieden"><p><l> verboden</l><r>verbieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verbinden"><p><l> verbonden</l><r>verbinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verblijven"><p><l> verbleven</l><r>verblijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verbreken"><p><l> verbroken</l><r>verbreken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verbuigen"><p><l> verbogen</l><r>verbuigen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdoen"><p><l> verdaan</l><r>verdoen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdragen"><p><l> verdragen</l><r>verdragen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdrijven"><p><l> verdreven</l><r>verdrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdringen"><p><l> verdrongen</l><r>verdringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdrinken"><p><l> verdronken</l><r>verdrinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verdwijnen"><p><l> verdwenen</l><r>verdwijnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vergaan"><p><l> vergaan</l><r>vergaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vergelden"><p><l> vergolden</l><r>vergelden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vergelijken"><p><l> vergeleken</l><r>vergelijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vergeven"><p><l> vergeven</l><r>vergeven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verglijden"><p><l> vergleden</l><r>verglijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vergrijpen"><p><l> vergrepen</l><r>vergrijpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verhangen"><p><l> verhangen</l><r>verhangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verheffen"><p><l> verheven</l><r>verheffen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verhelpen"><p><l> verholpen</l><r>verhelpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verjagen"><p><l> verjaagd</l><r>verjagen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verkiezen"><p><l> verkozen</l><r>verkiezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verkrijgen"><p><l> verkregen</l><r>verkrijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verliezen"><p><l> verloren</l><r>verliezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verlopen"><p><l> verlopen</l><r>verlopen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vermijden"><p><l> vermeden</l><r>vermijden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vermogen"><p><l> vermogen</l><r>vermogen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vernemen"><p><l> vernomen</l><r>vernemen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verraden"><p><l> verraden</l><r>verraden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verrijzen"><p><l> verrezen</l><r>verrijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verschijnen"><p><l> verschenen</l><r>verschijnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verschrikken"><p><l> verschrokken</l><r>verschrikken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verschuilen"><p><l> verscholen</l><r>verschuilen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verschuiven"><p><l> verschoven</l><r>verschuiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verslaan"><p><l> verslagen</l><r>verslaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verslinden"><p><l> verslonden</l><r>verslinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="versmelten"><p><l> versmolten</l><r>versmelten</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verstaan"><p><l> verstaan</l><r>verstaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verstrijken"><p><l> verstreken</l><r>verstrijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vertrekken"><p><l> vertrokken</l><r>vertrekken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vervallen"><p><l> vervallen</l><r>vervallen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vervangen"><p><l> vervangen</l><r>vervangen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vervliegen"><p><l> vervlogen</l><r>vervliegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verwerpen"><p><l> verworpen</l><r>verwerpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verwerven"><p><l> verworven</l><r>verwerven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verwijzen"><p><l> verwezen</l><r>verwijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verwringen"><p><l> verwrongen</l><r>verwringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verzenden"><p><l> verzonden</l><r>verzenden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verzinken"><p><l> verzonken</l><r>verzinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verzinnen"><p><l> verzonnen</l><r>verzinnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verzuipen"><p><l> verzopen</l><r>verzuipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="verzwinden"><p><l> verzwonden</l><r>verzwinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vinden"><p><l> gevonden</l><r>vinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vlieden"><p><l> gevloden</l><r>vlieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vliegen"><p><l> gevlogen</l><r>vliegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="voldoen"><p><l> voldaan</l><r>voldoen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="volstaan"><p><l> volstaan</l><r>volstaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="voltrekken"><p><l> voltrokken</l><r>voltrekken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="voorzien"><p><l> voorzien</l><r>voorzien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vragen"><p><l> gevraagd</l><r>vragen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vriezen"><p><l> gevroren</l><r>vriezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="vrijen"><p><l> gevreeën</l><r>vrijen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="weerhouden"><p><l> weerhouden</l><r>weerhouden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="weerstaan"><p><l> weerstaan</l><r>weerstaan</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wegen"><p><l> gewogen</l><r>wegen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="werpen"><p><l> geworpen</l><r>werpen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="werven"><p><l> geworven</l><r>werven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wezen"><p><l> geweest</l><r>wezen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wijken"><p><l> geweken</l><r>wijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wijzen"><p><l> gewezen</l><r>wijzen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="willen"><p><l> gewild</l><r>willen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="winden"><p><l> gewonden</l><r>winden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="winnen"><p><l> gewonnen</l><r>winnen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="worden"><p><l> geworden</l><r>worden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wrijven"><p><l> gewreven</l><r>wrijven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wringen"><p><l> gewrongen</l><r>wringen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wuiven"><p><l> gewoven</l><r>wuiven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zeggen"><p><l> gezegd</l><r>zeggen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zenden"><p><l> gezonden</l><r>zenden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zieden"><p><l> gezoden</l><r>zieden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zien"><p><l> gezien</l><r>zien</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zijgen"><p><l> gezegen</l><r>zijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zijn"><p><l> geweest</l><r>zijn</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zingen"><p><l> gezongen</l><r>zingen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zinken"><p><l> gezonken</l><r>zinken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zuigen"><p><l> gezogen</l><r>zuigen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zuipen"><p><l> gezopen</l><r>zuipen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zullen"><p><l> Archaic</l><r>zullen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwellen"><p><l> gezwollen</l><r>zwellen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwemmen"><p><l> gezwommen</l><r>zwemmen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zweren"><p><l> gezworen</l><r>zweren</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwerven"><p><l> gezworven</l><r>zwerven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwijgen"><p><l> gezwegen</l><r>zwijgen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwinden"><p><l> gezwonden</l><r>zwinden</r></p><par n="gesproken__vblex"/></e>
-    <e lm="zwoegen"><p><l> zwoegen</l><r>zwoegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="aanbidden"><p><l>aanbeden</l><r>aanbidden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedelven"><p><l>bedolven</l><r>bedelven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bederven"><p><l>bedorven</l><r>bederven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedingen"><p><l>bedongen</l><r>bedingen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedragen"><p><l>bedragen</l><r>bedragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedriegen"><p><l>bedrogen</l><r>bedriegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedrijven"><p><l>bedreven</l><r>bedrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bedwingen"><p><l>bedwongen</l><r>bedwingen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="begaan"><p><l>begaan</l><r>begaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="begeven"><p><l>begeven</l><r>begeven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="beginnen"><p><l>begonnen</l><r>beginnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="begraven"><p><l>begraven</l><r>begraven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="begrijpen"><p><l>begrepen</l><r>begrijpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="behangen"><p><l>behangen</l><r>behangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="behouden"><p><l>behouden</l><r>behouden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bejagen"><p><l>bejaagd</l><r>bejagen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bekijken"><p><l>bekeken</l><r>bekijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="beklimmen"><p><l>beklommen</l><r>beklimmen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bekomen"><p><l>bekomen</l><r>bekomen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bekruipen"><p><l>bekropen</l><r>bekruipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="belezen"><p><l>belezen</l><r>belezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="belijden"><p><l>beleden</l><r>belijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="benijden"><p><l>benijd</l><r>benijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bergen"><p><l>geborgen</l><r>bergen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="beschijnen"><p><l>beschenen</l><r>beschijnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="beschrijven"><p><l>beschreven</l><r>beschrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="beslaan"><p><l>beslagen</l><r>beslaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="besnijden"><p><l>besneden</l><r>besnijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bespreken"><p><l>besproken</l><r>bespreken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bespringen"><p><l>besprongen</l><r>bespringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bestaan"><p><l>bestaan</l><r>bestaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="besterven"><p><l>bestorven</l><r>besterven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bestijgen"><p><l>bestegen</l><r>bestijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bestrijden"><p><l>bestreden</l><r>bestrijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bestrijken"><p><l>bestreken</l><r>bestrijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="betreden"><p><l>betreden</l><r>betreden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="betreffen"><p><l>betroffen</l><r>betreffen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="betrekken"><p><l>betrokken</l><r>betrekken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bevallen"><p><l>bevallen</l><r>bevallen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bevelen"><p><l>bevolen</l><r>bevelen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bevinden"><p><l>bevonden</l><r>bevinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bevriezen"><p><l>bevroren</l><r>bevriezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bewegen"><p><l>bewogen</l><r>bewegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bewijzen"><p><l>bewezen</l><r>bewijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bezien"><p><l>bezien</l><r>bezien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bezinnen"><p><l>bezonnen</l><r>bezinnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bezweren"><p><l>bezworen</l><r>bezweren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bezwijken"><p><l>bezweken</l><r>bezwijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bidden"><p><l>gebeden</l><r>bidden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="bieden"><p><l>geboden</l><r>bieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="binden"><p><l>gebonden</l><r>binden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="blazen"><p><l>geblazen</l><r>blazen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="blijken"><p><l>gebleken</l><r>blijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="blijven"><p><l>gebleven</l><r>blijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="blinken"><p><l>geblonken</l><r>blinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="breken"><p><l>gebroken</l><r>breken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="buigen"><p><l>gebogen</l><r>buigen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="delven"><p><l>gedolven</l><r>delven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dingen"><p><l>gedongen</l><r>dingen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doorlopen"><p><l>doorlopen</l><r>doorlopen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doorstaan"><p><l>doorstaan</l><r>doorstaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="doorzien"><p><l>doorzien</l><r>doorzien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dragen"><p><l>gedragen</l><r>dragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="drijven"><p><l>gedreven</l><r>drijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dringen"><p><l>gedrongen</l><r>dringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="drinken"><p><l>gedronken</l><r>drinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="druipen"><p><l>gedropen</l><r>druipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="duiken"><p><l>gedoken</l><r>duiken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dwingen"><p><l>gedwongen</l><r>dwingen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ervaren"><p><l>ervaren</l><r>ervaren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gaan"><p><l>gegaan</l><r>gaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gebieden"><p><l>geboden</l><r>gebieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gelden"><p><l>gegolden</l><r>gelden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="gelijken"><p><l>geleken</l><r>gelijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="genezen"><p><l>genezen</l><r>genezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="geven"><p><l>gegeven</l><r>geven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="glijden"><p><l>gegleden</l><r>glijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="glimmen"><p><l>geglommen</l><r>glimmen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="graven"><p><l>gegraven</l><r>graven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="grijpen"><p><l>gegrepen</l><r>grijpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="hangen"><p><l>gehangen</l><r>hangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="heffen"><p><l>geheven</l><r>heffen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="helpen"><p><l>geholpen</l><r>helpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="herkrijgen"><p><l>herkregen</l><r>herkrijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="herwinnen"><p><l>herwonnen</l><r>herwinnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="herzien"><p><l>herzien</l><r>herzien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="hijsen"><p><l>gehesen</l><r>hijsen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="houden"><p><l>gehouden</l><r>houden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="houwen"><p><l>gehouwen</l><r>houwen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="jagen"><p><l>gejaagd</l><r>jagen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kiezen"><p><l>gekozen</l><r>kiezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kijken"><p><l>gekeken</l><r>kijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="klieven"><p><l>gekloven</l><r>klieven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="klimmen"><p><l>geklommen</l><r>klimmen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="klinken"><p><l>geklonken</l><r>klinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kluiven"><p><l>gekloven</l><r>kluiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="knijpen"><p><l>geknepen</l><r>knijpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="komen"><p><l>gekomen</l><r>komen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="krijgen"><p><l>gekregen</l><r>krijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="krijsen"><p><l>gekresen</l><r>krijsen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="krimpen"><p><l>gekrompen</l><r>krimpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="kruipen"><p><l>gekropen</l><r>kruipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lezen"><p><l>gelezen</l><r>lezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="liegen"><p><l>gelogen</l><r>liegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="liggen"><p><l>gelegen</l><r>liggen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lijden"><p><l>geleden</l><r>lijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lijken"><p><l>geleken</l><r>lijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="lopen"><p><l>gelopen</l><r>lopen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="luiken"><p><l>geloken</l><r>luiken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="melken"><p><l>gemolken</l><r>melken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="mijden"><p><l>gemeden</l><r>mijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="misprijzen"><p><l>misprezen</l><r>misprijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="nemen"><p><l>genomen</l><r>nemen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="nijgen"><p><l>genegen</l><r>nijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="omgeven"><p><l>omgeven</l><r>omgeven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="omschrijven"><p><l>omschreven</l><r>omschrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="omwinden"><p><l>omwonden</l><r>omwinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="omzwerven"><p><l>omzworven</l><r>omzwerven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onderbreken"><p><l>onderbroken</l><r>onderbreken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ondergaan"><p><l>ondergaan</l><r>ondergaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onderhouden"><p><l>onderhouden</l><r>onderhouden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ondernemen"><p><l>ondernomen</l><r>ondernemen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ondervinden"><p><l>ondervonden</l><r>ondervinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ondervragen"><p><l>ondervraagd</l><r>ondervragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onderwerpen"><p><l>onderworpen</l><r>onderwerpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onderwijzen"><p><l>onderwezen</l><r>onderwijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontbieden"><p><l>ontboden</l><r>ontbieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontbinden"><p><l>ontbonden</l><r>ontbinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontbreken"><p><l>ontbroken</l><r>ontbreken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontduiken"><p><l>ontdoken</l><r>ontduiken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontgaan"><p><l>ontgaan</l><r>ontgaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontginnen"><p><l>ontgonnen</l><r>ontginnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onthouden"><p><l>onthouden</l><r>onthouden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontkomen"><p><l>ontkomen</l><r>ontkomen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontlopen"><p><l>ontlopen</l><r>ontlopen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontluiken"><p><l>ontloken</l><r>ontluiken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontnemen"><p><l>ontnomen</l><r>ontnemen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontslaan"><p><l>ontslagen</l><r>ontslaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontspringen"><p><l>ontsprongen</l><r>ontspringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontstaan"><p><l>ontstaan</l><r>ontstaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontsteken"><p><l>ontstoken</l><r>ontsteken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="onttrekken"><p><l>onttrokken</l><r>onttrekken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontvangen"><p><l>ontvangen</l><r>ontvangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontwerpen"><p><l>ontworpen</l><r>ontwerpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontwijken"><p><l>ontweken</l><r>ontwijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontzeggen"><p><l>ontzegd</l><r>ontzeggen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ontzien"><p><l>ontzien</l><r>ontzien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overbieden"><p><l>overboden</l><r>overbieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overdrijven"><p><l>overdreven</l><r>overdrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overlijden"><p><l>overleden</l><r>overlijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overrijden"><p><l>overreden</l><r>overrijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overschrijden"><p><l>overschreden</l><r>overschrijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overstijgen"><p><l>overstegen</l><r>overstijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overtreden"><p><l>overtreden</l><r>overtreden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overtreffen"><p><l>overtroffen</l><r>overtreffen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overvallen"><p><l>overvallen</l><r>overvallen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overwegen"><p><l>overwogen</l><r>overwegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overwinnen"><p><l>overwonnen</l><r>overwinnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="prijzen"><p><l>geprezen</l><r>prijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="rieken"><p><l>geroken</l><r>rieken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="rijden"><p><l>gereden</l><r>rijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="rijgen"><p><l>geregen</l><r>rijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="rijzen"><p><l>gerezen</l><r>rijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="roepen"><p><l>geroepen</l><r>roepen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ruiken"><p><l>geroken</l><r>ruiken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schelden"><p><l>gescholden</l><r>schelden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schenden"><p><l>geschonden</l><r>schenden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schenken"><p><l>geschonken</l><r>schenken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="scheppen"><p><l>geschapen</l><r>scheppen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="scheren"><p><l>geschoren</l><r>scheren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schijnen"><p><l>geschenen</l><r>schijnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schrijden"><p><l>geschreden</l><r>schrijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schrijven"><p><l>geschreven</l><r>schrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schrikken"><p><l>geschrokken</l><r>schrikken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schuilen"><p><l>gescholen</l><r>schuilen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="schuiven"><p><l>geschoven</l><r>schuiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slaan"><p><l>geslagen</l><r>slaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slapen"><p><l>geslapen</l><r>slapen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slijpen"><p><l>geslepen</l><r>slijpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="slinken"><p><l>geslonken</l><r>slinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="sluipen"><p><l>geslopen</l><r>sluipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="snijden"><p><l>gesneden</l><r>snijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="snuiven"><p><l>gesnoven</l><r>snuiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="spinnen"><p><l>gesponnen</l><r>spinnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="spreken"><p><l>gesproken</l><r>spreken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="springen"><p><l>gesprongen</l><r>springen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="staan"><p><l>gestaan</l><r>staan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="steken"><p><l>gestoken</l><r>steken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="stelen"><p><l>gestolen</l><r>stelen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="sterven"><p><l>gestorven</l><r>sterven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="stijgen"><p><l>gestegen</l><r>stijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="stinken"><p><l>gestonken</l><r>stinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="strijden"><p><l>gestreden</l><r>strijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="strijken"><p><l>gestreken</l><r>strijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="stuiven"><p><l>gestoven</l><r>stuiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="treden"><p><l>getreden</l><r>treden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="treffen"><p><l>getroffen</l><r>treffen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="trekken"><p><l>getrokken</l><r>trekken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vallen"><p><l>gevallen</l><r>vallen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vangen"><p><l>gevangen</l><r>vangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="varen"><p><l>gevaren</l><r>varen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbergen"><p><l>verborgen</l><r>verbergen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbieden"><p><l>verboden</l><r>verbieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbinden"><p><l>verbonden</l><r>verbinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verblijven"><p><l>verbleven</l><r>verblijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbreken"><p><l>verbroken</l><r>verbreken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbuigen"><p><l>verbogen</l><r>verbuigen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdoen"><p><l>verdaan</l><r>verdoen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdragen"><p><l>verdragen</l><r>verdragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdrijven"><p><l>verdreven</l><r>verdrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdringen"><p><l>verdrongen</l><r>verdringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdrinken"><p><l>verdronken</l><r>verdrinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdwijnen"><p><l>verdwenen</l><r>verdwijnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vergaan"><p><l>vergaan</l><r>vergaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vergelden"><p><l>vergolden</l><r>vergelden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vergelijken"><p><l>vergeleken</l><r>vergelijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vergeven"><p><l>vergeven</l><r>vergeven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verglijden"><p><l>vergleden</l><r>verglijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vergrijpen"><p><l>vergrepen</l><r>vergrijpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verhangen"><p><l>verhangen</l><r>verhangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verheffen"><p><l>verheven</l><r>verheffen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verhelpen"><p><l>verholpen</l><r>verhelpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verjagen"><p><l>verjaagd</l><r>verjagen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verkiezen"><p><l>verkozen</l><r>verkiezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verkrijgen"><p><l>verkregen</l><r>verkrijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verliezen"><p><l>verloren</l><r>verliezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verlopen"><p><l>verlopen</l><r>verlopen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vermijden"><p><l>vermeden</l><r>vermijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vermogen"><p><l>vermogen</l><r>vermogen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vernemen"><p><l>vernomen</l><r>vernemen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verraden"><p><l>verraden</l><r>verraden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verrijzen"><p><l>verrezen</l><r>verrijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verschijnen"><p><l>verschenen</l><r>verschijnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verschrikken"><p><l>verschrokken</l><r>verschrikken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verschuilen"><p><l>verscholen</l><r>verschuilen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verschuiven"><p><l>verschoven</l><r>verschuiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verslaan"><p><l>verslagen</l><r>verslaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verslinden"><p><l>verslonden</l><r>verslinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="versmelten"><p><l>versmolten</l><r>versmelten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verstaan"><p><l>verstaan</l><r>verstaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verstrijken"><p><l>verstreken</l><r>verstrijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vertrekken"><p><l>vertrokken</l><r>vertrekken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vervallen"><p><l>vervallen</l><r>vervallen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vervangen"><p><l>vervangen</l><r>vervangen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vervliegen"><p><l>vervlogen</l><r>vervliegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verwerpen"><p><l>verworpen</l><r>verwerpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verwerven"><p><l>verworven</l><r>verwerven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verwijzen"><p><l>verwezen</l><r>verwijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verwringen"><p><l>verwrongen</l><r>verwringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verzenden"><p><l>verzonden</l><r>verzenden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verzinken"><p><l>verzonken</l><r>verzinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verzinnen"><p><l>verzonnen</l><r>verzinnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verzuipen"><p><l>verzopen</l><r>verzuipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verzwinden"><p><l>verzwonden</l><r>verzwinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vinden"><p><l>gevonden</l><r>vinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vlieden"><p><l>gevloden</l><r>vlieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vliegen"><p><l>gevlogen</l><r>vliegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voldoen"><p><l>voldaan</l><r>voldoen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="volstaan"><p><l>volstaan</l><r>volstaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voltrekken"><p><l>voltrokken</l><r>voltrekken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voorzien"><p><l>voorzien</l><r>voorzien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vragen"><p><l>gevraagd</l><r>vragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vriezen"><p><l>gevroren</l><r>vriezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vrijen"><p><l>gevreeën</l><r>vrijen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="weerhouden"><p><l>weerhouden</l><r>weerhouden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="weerstaan"><p><l>weerstaan</l><r>weerstaan</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wegen"><p><l>gewogen</l><r>wegen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="werpen"><p><l>geworpen</l><r>werpen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="werven"><p><l>geworven</l><r>werven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wezen"><p><l>geweest</l><r>wezen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wijken"><p><l>geweken</l><r>wijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wijzen"><p><l>gewezen</l><r>wijzen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="winden"><p><l>gewonden</l><r>winden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="winnen"><p><l>gewonnen</l><r>winnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="worden"><p><l>geworden</l><r>worden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wrijven"><p><l>gewreven</l><r>wrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wringen"><p><l>gewrongen</l><r>wringen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="wuiven"><p><l>gewoven</l><r>wuiven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zeggen"><p><l>gezegd</l><r>zeggen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zenden"><p><l>gezonden</l><r>zenden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zieden"><p><l>gezoden</l><r>zieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zien"><p><l>gezien</l><r>zien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zijgen"><p><l>gezegen</l><r>zijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zingen"><p><l>gezongen</l><r>zingen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zinken"><p><l>gezonken</l><r>zinken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zuigen"><p><l>gezogen</l><r>zuigen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zuipen"><p><l>gezopen</l><r>zuipen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwellen"><p><l>gezwollen</l><r>zwellen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwemmen"><p><l>gezwommen</l><r>zwemmen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zweren"><p><l>gezworen</l><r>zweren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwerven"><p><l>gezworven</l><r>zwerven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwijgen"><p><l>gezwegen</l><r>zwijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwinden"><p><l>gezwonden</l><r>zwinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="zwoegen"><p><l>zwoegen</l><r>zwoegen</r></p><par n="gesproken__vblex"/></e>
     <e lm="verzenden"><i>verz</i><par n="z/enden__vblex"/></e>
     <e lm="zieden"><i>z</i><par n="z/ieden__vblex"/></e>
     <e lm="ruiken"><i>r</i><par n="r/uiken__vblex"/></e>
@@ -25340,7 +25245,6 @@
     <e lm="graven"><i>gr</i><par n="gr/aven__vblex"/></e>
     <e lm="vrijen"><i>vr</i><par n="vr/ijen__vblex"/></e>
     <e lm="misprijzen"><i>mispr</i><par n="w/ijzen__vblex"/></e>
-    <e lm="mogen"><i>m</i><par n="m/ogen__vblex"/></e>
     <e lm="verdringen"><i>verdr</i><par n="d/ingen__vblex"/></e>
     <e lm="verslinden"><i>versl</i><par n="b/inden__vblex"/></e>
     <e lm="melken"><i>m</i><par n="m/elken__vblex"/></e>
@@ -25371,7 +25275,6 @@
     <e lm="verschuilen"><i>versch</i><par n="sch/uilen__vblex"/></e>
     <e lm="bevelen"><i>bev</i><par n="st/elen__vblex"/></e>
     <e lm="zwijgen"><i>zw</i><par n="r/ijgen__vblex"/></e>
-    <e lm="zullen"><i>z</i><par n="z/ullen__vblex"/></e>
     <e lm="slijpen"><i>sl</i><par n="kn/ijpen__vblex"/></e>
     <e lm="ontnemen"><i>ontn</i><par n="vern/emen__vblex"/></e>
     <e lm="beschijnen"><i>besch</i><par n="sch/ijnen__vblex"/></e>
@@ -25389,7 +25292,6 @@
     <e lm="verzwinden"><i>verzw</i><par n="b/inden__vblex"/></e>
     <e lm="verwerven"><i>verw</i><par n="w/erven__vblex"/></e>
     <e lm="lijden"><i>l</i><par n="m/ijden__vblex"/></e>
-    <e lm="kunnen"><i>k</i><par n="k/unnen__vblex"/></e>
     <e lm="vangen"><i>v</i><par n="v/angen__vblex"/></e>
     <e lm="mijden"><i>m</i><par n="m/ijden__vblex"/></e>
     <e lm="bespreken"><i>bespr</i><par n="br/eken__vblex"/></e>
@@ -25405,7 +25307,6 @@
     <e lm="versmelten"><i>versm</i><par n="versm/elten__vblex"/></e>
     <e lm="ontbreken"><i>ontbr</i><par n="br/eken__vblex"/></e>
     <e lm="onderwijzen"><i>onderw</i><par n="w/ijzen__vblex"/></e>
-    <e lm="comazuipen"><i>coma</i><par n="coma/zuipen__vblex"/></e>
     <e lm="zinken"><i>z</i><par n="z/inken__vblex"/></e>
     <e lm="sluipen"><i>sl</i><par n="z/uipen__vblex"/></e>
     <e lm="overrijden"><i>overr</i><par n="m/ijden__vblex"/></e>
@@ -25440,7 +25341,6 @@
     <e lm="ontluiken"><i>ontl</i><par n="r/uiken__vblex"/></e>
     <e lm="herwinnen"><i>herw</i><par n="w/innen__vblex"/></e>
     <e lm="vertrekken"><i>vertr</i><par n="tr/ekken__vblex"/></e>
-    <e lm="vermogen"><i>verm</i><par n="m/ogen__vblex"/></e>
     <e lm="rijzen"><i>r</i><par n="w/ijzen__vblex"/></e>
     <e lm="rijgen"><i>r</i><par n="r/ijgen__vblex"/></e>
     <e lm="bewijzen"><i>bew</i><par n="w/ijzen__vblex"/></e>
@@ -25482,7 +25382,6 @@
     <e lm="treffen"><i>tr</i><par n="tr/effen__vblex"/></e>
     <e lm="verhelpen"><i>verh</i><par n="h/elpen__vblex"/></e>
     <e lm="vermijden"><i>verm</i><par n="m/ijden__vblex"/></e>
-    <e lm="willen"><i>w</i><par n="w/illen__vblex"/></e>
     <e lm="bergen"><i>b</i><par n="b/ergen__vblex"/></e>
     <e lm="doorstaan"><i>doorst</i><par n="st/aan__vblex"/></e>
     <e lm="voltrekken"><i>voltr</i><par n="tr/ekken__vblex"/></e>
@@ -25538,7 +25437,6 @@
     <e lm="verwijzen"><i>verw</i><par n="w/ijzen__vblex"/></e>
     <e lm="bedriegen"><i>bedr</i><par n="l/iegen__vblex"/></e>
     <e lm="ontgaan"><i>ontg</i><par n="g/aan__vblex"/></e>
-    <e lm="zijn"><i></i><par n="/zijn__vblex"/></e>
     <e lm="houden"><i>h</i><par n="h/ouden__vblex"/></e>
     <e lm="ontwerpen"><i>ontw</i><par n="w/erpen__vblex"/></e>
     <e lm="overwegen"><i>overw</i><par n="w/egen__vblex"/></e>
