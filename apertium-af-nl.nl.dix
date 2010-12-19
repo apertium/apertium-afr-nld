@@ -25030,6 +25030,11 @@
 
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
 
+    <!--
+    <e lm="wezen"><i></i><par n="/wezen__vblex"/></e>
+    <e lm="wezen"><p><l>geweest</l><r>wezen</r></p><par n="gesproken__vblex"/></e>
+     -->
+
     <e lm="hebben"><i></i><par n="/hebben__vbhaver"/></e>
 
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
@@ -25308,7 +25313,6 @@
     <e lm="wegen"><p><l>gewogen</l><r>wegen</r></p><par n="gesproken__vblex"/></e>
     <e lm="werpen"><p><l>geworpen</l><r>werpen</r></p><par n="gesproken__vblex"/></e>
     <e lm="werven"><p><l>geworven</l><r>werven</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wezen"><p><l>geweest</l><r>wezen</r></p><par n="gesproken__vblex"/></e>
     <e lm="wijken"><p><l>geweken</l><r>wijken</r></p><par n="gesproken__vblex"/></e>
     <e lm="wijzen"><p><l>gewezen</l><r>wijzen</r></p><par n="gesproken__vblex"/></e>
     <e lm="winden"><p><l>gewonden</l><r>winden</r></p><par n="gesproken__vblex"/></e>
@@ -25434,7 +25438,6 @@
     <e lm="bestrijken"><i>bestr</i><par n="w/ijken__vblex"/></e>
     <e lm="grijpen"><i>gr</i><par n="kn/ijpen__vblex"/></e>
     <e lm="snuiven"><i>sn</i><par n="w/uiven__vblex"/></e>
-    <e lm="wezen"><i></i><par n="/wezen__vblex"/></e>
     <e lm="scheppen"><i>sch</i><par n="sch/eppen__vblex"/></e>
     <e lm="stuiven"><i>st</i><par n="w/uiven__vblex"/></e>
     <e lm="ontbieden"><i>ontb</i><par n="z/ieden__vblex"/></e>
