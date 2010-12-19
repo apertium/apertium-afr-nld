@@ -172,7 +172,7 @@
     <e><p><l>tensy<s n="cnjadv"/></l><r>tenzij<s n="cnjadv"/></r></p></e>
     <e><p><l>gegee<b/>dat<s n="cnjadv"/></l><r>gegeven<b/>dat<s n="cnjadv"/></r></p></e>
     <e><p><l>so<b/>vroeg<b/>as<s n="cnjadv"/></l><r>zo<b/>vroeg<s n="cnjadv"/></r></p></e>
-    <e><p><l>na<s n="cnjadv"/></l><r><s n="cnjadv"/></r></p></e>
+    <e><p><l>na<s n="cnjadv"/></l><r>na<s n="cnjadv"/></r></p></e>
     <e><p><l>dan<s n="cnjadv"/></l><r>dan<s n="cnjadv"/></r></p></e>
     <e><p><l>tot<s n="cnjadv"/></l><r>tot<s n="cnjadv"/></r></p></e>
     <e><p><l>alhoewel<s n="cnjadv"/></l><r>alhoewel<s n="cnjadv"/></r></p></e>
@@ -439,7 +439,7 @@
     <e><p><l>vlag<s n="n"/></l><r>vlag<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>minister<s n="n"/></l><r>minister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>room<s n="n"/></l><r>room<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kant<s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>handel<s n="n"/></l><r>handel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gemeenskap<s n="n"/></l><r>gemeenschap<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>munisipaliteit<s n="n"/></l><r>gemeente<s n="n"/><s n="f"/></r></p></e>
@@ -487,7 +487,7 @@
     <e><p><l>uitgawe<s n="n"/></l><r>uitgave<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stap<s n="n"/></l><r>stap<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kandidaat<s n="n"/></l><r>kandidaat<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>departement<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>departement<s n="n"/></l><r>departement<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vervaardiging<s n="n"/></l><r>fabricatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politiek<s n="n"/></l><r>politiek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>veldtog<s n="n"/></l><r>campagne<s n="n"/><s n="f"/></r></p></e>
@@ -678,7 +678,7 @@
     <e><p><l>ontdekker<s n="n"/></l><r>ontdekker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nasaat<s n="n"/></l><r>nazaat<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>gevolgtrekking<s n="n"/></l><r>gevolgtrekking<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>geografie<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>geografie<s n="n"/></l><r>geografie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>byvoeging<s n="n"/></l><r>bijvoeging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>besoedeling<s n="n"/></l><r>bezoedeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>amateur<s n="n"/></l><r>amateur<s n="n"/><s n="mf"/></r></p></e>
@@ -1130,7 +1130,7 @@
     <e><p><l>musiekprogram<s n="n"/></l><r>muiziekprogramma<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>motorboot<s n="n"/></l><r>motorboot<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>metaalplaat<s n="n"/></l><r>metaalplaat<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mede-eienaar<s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mede-eienaar<s n="n"/></l><r>mede-eigenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>makelaar<s n="n"/></l><r>mede-eigenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kuierplek<s n="n"/></l><r>bezoekplek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kommunikasiesentrum<s n="n"/></l><r>communicatiecentrum<s n="n"/><s n="nt"/></r></p></e>
@@ -4255,7 +4255,7 @@
     <e><p><l>mededingend<s n="adj"/></l><r>mededingend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geïnterpreteer<s n="adj"/></l><r>geïnterpreteerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vriendelik<s n="adj"/><s n="sint"/></l><r>vriendelijk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>innerlik<s n="adj"/></l><r><s n="adj"/>innerlijk<s n="sint"/></r></p></e>
+    <e><p><l>innerlik<s n="adj"/></l><r>innerlijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geproklameer<s n="adj"/></l><r>geproclameerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geïnkorporeer<s n="adj"/></l><r>geïncorporeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>foneties<s n="adj"/></l><r>fonetisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -5250,7 +5250,7 @@
     <e><p><l>raai<s n="vblex"/></l><r>raden<s n="vblex"/></r></p></e>
     <e><p><l>began<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
     <e><p><l>versuim<s n="vblex"/></l><r>verzuimen<s n="vblex"/></r></p></e>
-    <e><p><l>rek<s n="vblex"/></l><r><s n="vblex"/></r></p></e>
+    <e><p><l>rek<s n="vblex"/></l><r>rekken<s n="vblex"/></r></p></e>
     <e><p><l>herbevestig<s n="vblex"/></l><r>bevestigen<s n="vblex"/></r></p></e>
     <e><p><l>regmaak<s n="vblex"/></l><r>oplossen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>herdruk<s n="vblex"/></l><r>herdrukken<s n="vblex"/></r></p></e>
@@ -5260,7 +5260,7 @@
     <e><p><l>simuleer<s n="vblex"/></l><r>simuleren<s n="vblex"/></r></p></e>
     <e><p><l>sluk<s n="vblex"/></l><r>slikken<s n="vblex"/></r></p></e>
     <e><p><l>kuier<s n="vblex"/></l><r>bezoeken<s n="vblex"/></r></p></e>
-    <e><p><l>afskakel<s n="vblex"/></l><r><s n="vblex"/></r></p></e>
+    <e><p><l>afskakel<s n="vblex"/></l><r>uitschakelen<s n="vblex"/></r></p></e>
     <e><p><l>syfer<s n="vblex"/></l><r>becijferen<s n="vblex"/></r></p></e>
     <e><p><l>hoes<s n="vblex"/></l><r>hoesten<s n="vblex"/></r></p></e>
 
