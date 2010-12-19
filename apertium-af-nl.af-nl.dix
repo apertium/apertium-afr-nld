@@ -1254,7 +1254,7 @@
     <e><p><l>hand<s n="n"/></l><r>hand<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hoender<s n="n"/></l><r>kip<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>invloed<s n="n"/></l><r>invloed<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>kerk<s n="n"/></l><r>kerk<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kerk<s n="n"/></l><r>kerk<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kers<s n="n"/></l><r>kers<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kind<s n="n"/></l><r>kind<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kleur<s n="n"/></l><r>kleur<s n="n"/><s n="mf"/></r></p></e>
@@ -1824,7 +1824,6 @@
     <e><p><l>kelder<s n="n"/></l><r>kelder<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>kenmerk<s n="n"/></l><r>attribuut<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kennis<s n="n"/></l><r>kennis<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kerk<s n="n"/></l><r>kerk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kerrie<s n="n"/></l><r>kerrie<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kers<s n="n"/></l><r>kers<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ketting<s n="n"/></l><r>keten<s n="n"/><s n="m"/></r></p></e>
@@ -3628,6 +3627,7 @@
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>Mnr<s n="n"/><s n="acr"/></l><r>Mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
@@ -4612,9 +4612,8 @@
     <e><p><l>bekend<s n="adj"/></l><r>bekend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>klein<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>klein<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>algemeen<s n="adj"/></l><r>algemeen<s n="adj"/></r></p></e>
+    <e><p><l>algemeen<s n="adj"/></l><r>algemeen<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>politiek<s n="adj"/></l><r>politiek<s n="adj"/></r></p></e>
     <e><p><l>goed<s n="adj"/><s n="sint"/></l><r>goed<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>huidig<s n="adj"/></l><r>huidig<s n="adj"/></r></p></e>
@@ -4626,7 +4625,6 @@
     <e><p><l>goed<s n="adj"/><s n="sint"/></l><r>goed<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heel<s n="adj"/></l><r>heel<s n="adj"/></r></p></e>
     <e><p><l>gewild<s n="adj"/><s n="sint"/></l><r>gewild<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>algemeen<s n="adj"/></l><r>algemeen<s n="adj"/></r></p></e>
     <e><p><l>politiek<s n="adj"/></l><r>politiek<s n="adj"/></r></p></e>
     <e><p><l>enkel<s n="adj"/></l><r>enkel<s n="adj"/></r></p></e>
     <e><p><l>jong<s n="adj"/><s n="sint"/></l><r>jong<s n="adj"/><s n="sint"/></r></p></e>
@@ -4782,9 +4780,9 @@
     <e><p><l>ruim<s n="adj"/><s n="sint"/></l><r>ruim<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>mooi<s n="adj"/></l><r>mooi<s n="adj"/></r></p></e>
     <e><p><l>informeel<s n="adj"/></l><r>informeel<s n="adj"/></r></p></e>
+    <e><p><l>formeel<s n="adj"/></l><r>formeel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bloedig<s n="adj"/><s n="sint"/></l><r>bloedig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nadelig<s n="adj"/><s n="sint"/></l><r>nadelig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>informeel<s n="adj"/></l><r>informeel<s n="adj"/></r></p></e>
     <e><p><l>gering<s n="adj"/><s n="sint"/></l><r>gering<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>foutief<s n="adj"/></l><r>foutief<s n="adj"/></r></p></e>
     <e><p><l>heftig<s n="adj"/></l><r>heftig<s n="adj"/></r></p></e>
@@ -4961,6 +4959,7 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+    <e><p><l>meer<s n="preadv"/></l><r>meer<s n="preadv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
 
     <e><p><l>hoe<s n="adv"/><s n="itg"/></l><r>hoe<s n="adv"/><s n="itg"/></r></p></e>

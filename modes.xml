@@ -33,7 +33,7 @@
 
   <mode name="af-nl-morph" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -e">
         <file name="af-nl.automorf.bin"/>
       </program>
     </pipeline>

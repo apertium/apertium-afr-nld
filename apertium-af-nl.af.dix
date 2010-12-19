@@ -109,7 +109,7 @@
     </pardef>
 
     <pardef n="cometa">
-      <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
+      <e>       <p><l>'</l><r>'<s n="apos"/></r></p></e>
     </pardef>
 
     <pardef n="years">
@@ -1084,18 +1084,11 @@
       <e>       <p><l>gewees</l><r>wees<s n="vbser"/><s n="pp"/></r></p></e>
     </pardef>
 
-    <pardef n="h/ê__vblex">
-      <e>       <p><l>et</l><r>ê<s n="vblex"/><s n="pres"/></r></p></e>
-      <e>       <p><l>et</l><r>ê<s n="vblex"/><s n="past"/></r></p></e>
-      <e>       <p><l>ê</l><r>ê<s n="vblex"/><s n="inf"/></r></p></e>
-      <e>       <p><l>ad</l><r>ê<s n="vblex"/><s n="pp"/></r></p></e>
-    </pardef>
-
-    <pardef n="h/ê__vbhaver">
-      <e>       <p><l>et</l><r>ê<s n="vbhaver"/><s n="pres"/></r></p></e>
-      <e>       <p><l>et</l><r>ê<s n="vbhaver"/><s n="past"/></r></p></e>
-      <e>       <p><l>ê</l><r>ê<s n="vbhaver"/><s n="inf"/></r></p></e>
-      <e>       <p><l>ad</l><r>ê<s n="vbhaver"/><s n="pp"/></r></p></e>
+    <pardef n="/hê__vbhaver">
+      <e>       <p><l>het</l><r>hê<s n="vbhaver"/><s n="pres"/></r></p></e>
+      <e>       <p><l>het</l><r>hê<s n="vbhaver"/><s n="past"/></r></p></e>
+      <e>       <p><l>hê</l><r>hê<s n="vbhaver"/><s n="inf"/></r></p></e>
+      <e>       <p><l>gehad</l><r>hê<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="gebreek__vblex">
@@ -2550,6 +2543,7 @@
 
     <e lm="a"><i>a</i><par n="Mnr__n"/></e>
     <e lm="e"><i>e</i><par n="Mnr__n"/></e>
+    <e lm="v.C"><i>v.C</i><par n="Mnr__n"/></e>
 
     <e lm="ID"><i>ID</i><par n="albino__n"/></e><!-- make one for acr -->
 
@@ -3096,8 +3090,7 @@
 
     <e lm="wees"><i/><par n="/wees__vbser"/></e>
 
-    <e lm="hê"><par n="P__ge"/><i>h</i><par n="h/ê__vbhaver"/></e>
-    <e lm="hê"><par n="P__ge"/><i>h</i><par n="h/ê__vblex"/></e>
+    <e lm="hê"><i></i><par n="/hê__vbhaver"/></e>
 
     <e lm="kan"><i>k</i><par n="k/an__vbmod"/></e>
     <e lm="sal"><i>s</i><par n="s/al__vbmod"/></e>
@@ -5148,6 +5141,9 @@
     <e lm="breek"><i>breek</i><par n="breek__vblex"/></e>
     <e lm="breek"><p><l>gebreek</l><r>breek</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="bring"><i>bring</i><par n="breek__vblex"/></e>
+    <e lm="bring"><p><l>gebring</l><r>bring</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="broei"><i>broei</i><par n="breek__vblex"/></e>
     <e lm="broei"><p><l>gebroei</l><r>broei</r></p><par n="gebreek__vblex"/></e>
 
@@ -5208,9 +5204,6 @@
     <e lm="help"><i>help</i><par n="breek__vblex"/></e>
     <e lm="help"><p><l>gehelp</l><r>help</r></p><par n="gebreek__vblex"/></e>
 
-    <e lm="hê"><i>hê</i><par n="breek__vblex"/></e>
-    <e lm="hê"><p><l>gehê</l><r>hê</r></p><par n="gebreek__vblex"/></e>
-
     <e lm="hoes"><i>hoes</i><par n="breek__vblex"/></e>
     <e lm="hoes"><p><l>gehoes</l><r>hoes</r></p><par n="gebreek__vblex"/></e>
 
@@ -5261,6 +5254,9 @@
 
     <e lm="klink"><i>klink</i><par n="breek__vblex"/></e>
     <e lm="klink"><p><l>geklink</l><r>klink</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="kom"><i>kom</i><par n="breek__vblex"/></e>
+    <e lm="kom"><p><l>gekom</l><r>kom</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="kombineer"><i>kombineer</i><par n="breek__vblex"/></e>
     <e lm="kombineer"><p><l>gekombineer</l><r>kombineer</r></p><par n="gebreek__vblex"/></e>
@@ -6097,7 +6093,6 @@
     <e lm="voordeel"><i>voorde</i><par n="voorde/el__n"/></e>
     <e lm="deel"><i>de</i><par n="voorde/el__n"/></e>
     <e lm="toneel"><i>tone</i><par n="voorde/el__n"/></e>
-    <e lm="formeel"><i>forme</i><par n="voorde/el__n"/></e>
     <e lm="waai"><i>waai</i><par n="bier__n"/></e><!-- hollow -->
     <e lm="waarborg"><i>waarborg</i><par n="bier__n"/></e><!-- guarantee --><!-- waarborge -->
     <e lm="waarde"><i>waarde</i><par n="artikel__n"/></e><!-- value --><!-- waardes -->
@@ -9068,6 +9063,7 @@
     <e lm="tersiêr"><i>tersiêr</i><par n="dadelik__adj"/></e><!--  tertiary,expensive__adj -->
     <e lm="kubies"><i>kubies</i><par n="dadelik__adj"/></e><!--  cubic,expensive__adj -->
     <e lm="visueel"><i>visue</i><par n="seksue/el__adj"/></e><!--  visual,expensive__adj -->
+    <e lm="formeel"><i>forme</i><par n="seksue/el__adj"/></e>
     <e lm="voortydig"><i>voortydig</i><par n="dadelik__adj"/></e><!--  premature,expensive__adj -->
     <e lm="inert"><i>inert</i><par n="dadelik__adj"/></e><!--  inert,long/__adj -->
 

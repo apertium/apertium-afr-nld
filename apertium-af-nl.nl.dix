@@ -5151,6 +5151,10 @@
       <e>       <p><l>odste</l><r>od<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
       <e>       <p><l>odst</l><r>od<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
     </pardef>
+
+    <pardef n="v.Chr.__n_mf">
+      <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="corp/us__n_nt">
       <e>       <p><l>us</l><r>us<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ora</l><r>us<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
@@ -8510,6 +8514,7 @@
 
     <e lm="te"><i>te</i><par n="te__preadv"/></e>
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
+    <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
 
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
@@ -9085,7 +9090,6 @@
     <e lm="maximaal"><i>maximaal</i><par n="es__adv"/></e>
     <e lm="mede"><i>mede</i><par n="es__adv"/></e>
     <e lm="mee"><i>mee</i><par n="es__adv"/></e>
-    <e lm="meer"><i>meer</i><par n="es__adv"/></e>
     <e lm="meermaals"><i>meermaals</i><par n="es__adv"/></e>
     <e lm="meermalen"><i>meermalen</i><par n="es__adv"/></e>
     <e lm="meestal"><i>meestal</i><par n="es__adv"/></e>
@@ -11737,6 +11741,9 @@
     <e lm="zymogeen"><i>zymoge</i><par n="zymoge/en__adj"/></e>
 
     <!-- SECTION: Nouns -->
+
+    <e lm="v.Chr."><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
+    <e lm="v.Chr." r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>
 
     <e lm="2-propeenzuur"><i>2-propeenzuur</i><par n="OV__n_nt"/></e>
     <e lm="65+-kaart"><i>65+-kaart</i><par n="65+-kaart__n_mf"/></e>
