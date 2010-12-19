@@ -869,7 +869,6 @@ Tag mismatch between transfer and generation
     272 #n\>\<n\>\<f\>\<sg\>	^n><n><f><sg>$
     272 #markt\<n\>\<m\>\<sg\>	^markt<n><m><sg>$
     270 #VI\<num\>\<sp\>	^VI<num><sp>$
-    269 #nodigen\<vblex\>\<pres\>\<p3\>\<sg\>	^nodigen<vblex><pres><p3><sg>$
     268 #zin\<n\>\<sg\>	^zin<n><GD><sg>$
     265 #geen\<det\>\<ind\>\<mfn\>\<pl\>	^geen<det><ind><mfn><pl>$
     264 #pas\<n\>\<m\>\<sg\>	^pas<n><m><sg>$
@@ -971,7 +970,6 @@ Tag mismatch between transfer and generation
     178 #stof\<n\>\<m\>\<pl\>	^stof<n><m><pl>$
     177 #R\<n\>\<acr\>\<m\>\<pl\>	^R<n><acr><m><pl>$
     175 #mijl\<n\>\<m\>\<sg\>	^mijl<n><m><sg>$
-    173 #classificeren\<vblex\>\<inf\>	^classificeren<vblex><inf>$
     172 #mineraal\<adj\>\<pred\>	^mineraal<adj><pred>$
     171 #stadig\<adj\>\<sint\>\<pred\>	^stadig<adj><sint><pred>$
     171 #de ander\<det\>\<ind\>\<pl\>	^de ander<det><ind><pl>$
@@ -1070,7 +1068,6 @@ Tag mismatch between transfer and generation
     129 #titel\<n\>\<mf\>\<pl\>	^titel<n><mf><pl>$
     129 #allemaal\<det\>\<ind\>\<sg\>	^allemaal<det><ind><sg>$
     128 #wiki\<n\>\<m\>\<sg\>	^wiki<n><m><sg>$
-    128 #laaien\<vblex\>\<inf\>	^laaien<vblex><inf>$
     128 #formaat\<n\>\<nt\>\<sg\>	^formaat<n><nt><sg>$
     126 #Shakespeare\<np\>\<cog\>\<mf\>\<sg\>	^Shakespeare<np><cog><mf><sg>$
     126 #ondersteuner\<n\>\<m\>\<pl\>	^ondersteuner<n><m><pl>$
@@ -1110,7 +1107,6 @@ Tag mismatch between transfer and generation
     116 #potentieel\<adj\>\<sint\>\<pred\>	^potentieel<adj><sint><pred>$
     116 #poort\<n\>\<m\>\<sg\>	^poort<n><m><sg>$
     116 #ontwerp\<n\>\<nt\>\<pl\>	^ontwerp<n><nt><pl>$
-    116 #nodigen\<vblex\>\<inf\>	^nodigen<vblex><inf>$
     116 #dagelijks\<adj\>\<sint\>\<pred\>	^dagelijks<adj><sint><pred>$
     116 #aankomst\<n\>\<f\>\<sg\>	^aankomst<n><f><sg>$
     115 #pontificaat\<n\>\<nt\>\<sg\>	^pontificaat<n><nt><sg>$
@@ -1284,7 +1280,6 @@ Tag mismatch between transfer and generation
      77 #meeste\<det\>\<qnt\>\<sg\>	^meeste<det><qnt><sg>$
      77 #Groep\<n\>\<m\>\<sg\>	^Groep<n><m><sg>$
      76 #zwaartekracht\<n\>\<m\>\<sg\>	^zwaartekracht<n><m><sg>$
-     76 #vorderen\<vblex\>\<inf\>	^vorderen<vblex><inf>$
      76 #nederlaag\<n\>\<f\>\<sg\>	^nederlaag<n><f><sg>$
      76 #Klerk\<n\>\<mf\>\<sg\>	^Klerk<n><mf><sg>$
      76 #handelscentrum\<n\>\<nt\>\<sg\>	^handelscentrum<n><nt><sg>$
@@ -1302,7 +1297,6 @@ Tag mismatch between transfer and generation
      74 #gevoel\<n\>\<nt\>\<pl\>	^gevoel<n><nt><pl>$
      74 #foto\<n\>\<m\>\<sg\>	^foto<n><m><sg>$
      73 #uitgever\<n\>\<m\>\<sg\>	^uitgever<n><m><sg>$
-     73 #stormen\<vblex\>\<inf\>	^stormen<vblex><inf>$
      73 #rol\<n\>\<m\>\<pl\>	^rol<n><m><pl>$
      73 #liberaal\<adj\>\<pred\>	^liberaal<adj><pred>$
      73 #levendig\<adj\>\<sint\>\<pred\>	^levendig<adj><sint><pred>$
@@ -1396,7 +1390,6 @@ Tag mismatch between transfer and generation
      63 #invloedrijk\<adj\>\<sint\>\<attr\>	^invloedrijk<adj><sint><attr>$
      63 #horizontaal\<adj\>\<sint\>\<pred\>	^horizontaal<adj><sint><pred>$
      62 #werkgeleentheid\<n\>\<f\>\<pl\>	^werkgeleentheid<n><f><pl>$
-     62 #vertolken\<vblex\>\<inf\>	^vertolken<vblex><inf>$
      62 #vaardigen\<vblex\>\<inf\>	^vaardigen<vblex><inf>$
      62 #optisch\<adj\>\<sint\>\<pred\>	^optisch<adj><sint><pred>$
      62 #nodig\<adj\>\<sint\>\<attr\>	^nodig<adj><sint><attr>$
@@ -1590,7 +1583,6 @@ Tag mismatch between transfer and generation
      45 #beschikbaarheid\<n\>\<f\>\<sg\>	^beschikbaarheid<n><f><sg>$
      45 #Artikel\<n\>\<mf\>\<sg\>	^Artikel<n><mf><sg>$
      45 #alfabetisch\<adj\>\<sint\>\<pred\>	^alfabetisch<adj><sint><pred>$
-     44 #vertolken\<vblex\>\<pres\>\<p3\>\<sg\>	^vertolken<vblex><pres><p3><sg>$
      44 #tin\<n\>\<nt\>\<sg\>	^tin<n><nt><sg>$
      44 #senior\<adj\>\<attr\>	^senior<adj><attr>$
      44 #Progressief\<adj\>\<pred\>	^Progressief<adj><pred>$
@@ -2065,8 +2057,6 @@ Tag mismatch between transfer and generation
      22 #vrijelijk\<adj\>\<sint\>\<pred\>	^vrijelijk<adj><sint><pred>$
      22 #vriendschappelijk\<adj\>\<sint\>\<attr\>	^vriendschappelijk<adj><sint><attr>$
      22 #vrees\<n\>\<mf\>\<pl\>	^vrees<n><mf><pl>$
-     22 #vorderen\<vblex\>\<pres\>\<p3\>\<sg\>	^vorderen<vblex><pres><p3><sg>$
-     22 #verscherpen\<vblex\>\<inf\>	^verscherpen<vblex><inf>$
      22 #vergeten\<n\>\<nt\>\<sg\>	^vergeten<n><nt><sg>$
      22 #toppunt\<n\>\<nt\>\<sg\>	^toppunt<n><nt><sg>$
      22 #seizoensgevoelig\<adj\>\<sint\>\<pred\>	^seizoensgevoelig<adj><sint><pred>$
@@ -2322,14 +2312,12 @@ Tag mismatch between transfer and generation
      16 #volkeren\<n\>\<nt\>\<sg\>	^volkeren<n><nt><sg>$
      16 #vijandig\<adj\>\<sint\>\<attr\>	^vijandig<adj><sint><attr>$
      16 #Vervanger\<n\>\<m\>\<pl\>	^Vervanger<n><m><pl>$
-     16 #verscherpen\<vblex\>\<pres\>\<p3\>\<sg\>	^verscherpen<vblex><pres><p3><sg>$
      16 #vermeend\<adj\>\<sint\>\<pred\>	^vermeend<adj><sint><pred>$
      16 #Van der Merwe\<np\>\<cog\>\<mf\>\<sg\>	^Van der Merwe<np><cog><mf><sg>$
      16 #vaardigen\<vblex\>\<pres\>\<p3\>\<sg\>	^vaardigen<vblex><pres><p3><sg>$
      16 #uitnodigen\<vblex\>\<pres\>\<p3\>\<sg\>	^uitnodigen<vblex><pres><p3><sg>$
      16 #trainingscentrum\<n\>\<nt\>\<sg\>	^trainingscentrum<n><nt><sg>$
      16 #tijdgenoot\<n\>\<mf\>\<sg\>	^tijdgenoot<n><mf><sg>$
-     16 #stormen\<vblex\>\<pres\>\<p3\>\<sg\>	^stormen<vblex><pres><p3><sg>$
      16 #standaardiseren\<vblex\>\<inf\>	^standaardiseren<vblex><inf>$
      16 #staart\<n\>\<pl\>	^staart<n><GD><pl>$
      16 #sprong\<n\>\<m\>\<sg\>	^sprong<n><m><sg>$
@@ -2520,7 +2508,6 @@ Tag mismatch between transfer and generation
      13 #wacht\<n\>\<mf\>\<pl\>	^wacht<n><mf><pl>$
      13 #voorteffelijk\<adj\>\<sint\>\<pred\>	^voorteffelijk<adj><sint><pred>$
      13 #voorletter\<n\>\<m\>\<pl\>	^voorletter<n><m><pl>$
-     13 #vervormen\<vblex\>\<inf\>	^vervormen<vblex><inf>$
      13 #vers\<n\>\<f\>\<sg\>	^vers<n><f><sg>$
      13 #verdachte\<n\>\<m\>\<sg\>	^verdachte<n><m><sg>$
      13 #treffend\<adj\>\<sint\>\<pred\>	^treffend<adj><sint><pred>$
@@ -2584,8 +2571,6 @@ Tag mismatch between transfer and generation
      12 #warmtecapaciteit\<n\>\<f\>\<sg\>	^warmtecapaciteit<n><f><sg>$
      12 #waardigheid\<n\>\<f\>\<sg\>	^waardigheid<n><f><sg>$
      12 #voorzitter\<n\>\<m\>\<pl\>	^voorzitter<n><m><pl>$
-     12 #vervormen\<vblex\>\<pres\>\<p3\>\<sg\>	^vervormen<vblex><pres><p3><sg>$
-     12 #verslappen\<vblex\>\<inf\>	^verslappen<vblex><inf>$
      12 #vergroten\<n\>\<nt\>\<pl\>	^vergroten<n><nt><pl>$
      12 #vergaderplaats\<n\>\<m\>\<sg\>	^vergaderplaats<n><m><sg>$
      12 #Veld\<n\>\<f\>\<pl\>	^Veld<n><f><pl>$
@@ -2643,7 +2628,6 @@ Tag mismatch between transfer and generation
      12 #domain\<n\>\<nt\>\<sg\>	^domain<n><nt><sg>$
      12 #depressief\<adj\>\<pred\>	^depressief<adj><pred>$
      12 #degelijk\<adj\>\<sint\>\<attr\>	^degelijk<adj><sint><attr>$
-     12 #classificeren\<vblex\>\<pres\>\<p3\>\<sg\>	^classificeren<vblex><pres><p3><sg>$
      12 #choke\<n\>\<f\>\<sg\>	^choke<n><f><sg>$
      12 #chirurg\<n\>\<mf\>\<sg\>	^chirurg<n><mf><sg>$
      12 #brander\<n\>\<m\>\<pl\>	^brander<n><m><pl>$
@@ -2799,7 +2783,6 @@ Tag mismatch between transfer and generation
      10 #Link\<n\>\<m\>\<pl\>	^Link<n><m><pl>$
      10 #liefdadigheid\<n\>\<f\>\<sg\>	^liefdadigheid<n><f><sg>$
      10 #libertarisme\<n\>\<nt\>\<sg\>	^libertarisme<n><nt><sg>$
-     10 #laaien\<vblex\>\<pres\>\<p3\>\<sg\>	^laaien<vblex><pres><p3><sg>$
      10 #kwantitatief\<adj\>\<pred\>	^kwantitatief<adj><pred>$
      10 #Krypton\<n\>\<nt\>\<sg\>	^Krypton<n><nt><sg>$
      10 #koffiezetapparaat\<n\>\<nt\>\<pl\>	^koffiezetapparaat<n><nt><pl>$
@@ -2855,7 +2838,6 @@ Tag mismatch between transfer and generation
       9 #Telnet\<n\>\<nt\>\<sg\>	^Telnet<n><nt><sg>$
       9 #Technitium\<n\>\<nt\>\<sg\>	^Technitium<n><nt><sg>$
       9 #symmetrisch\<adj\>\<sint\>\<attr\>	^symmetrisch<adj><sint><attr>$
-      9 #Stormen\<vblex\>\<inf\>	^Stormen<vblex><inf>$
       9 #steiger\<n\>\<mf\>\<sg\>	^steiger<n><mf><sg>$
       9 #Standaard\<n\>\<m\>\<pl\>	^Standaard<n><m><pl>$
       9 #stamgroep\<n\>\<mf\>\<sg\>	^stamgroep<n><mf><sg>$
@@ -3242,7 +3224,6 @@ Tag mismatch between transfer and generation
       6 #tandheelkunde\<n\>\<f\>\<sg\>	^tandheelkunde<n><f><sg>$
       6 #subgroep\<n\>\<mf\>\<pl\>	^subgroep<n><mf><pl>$
       6 #strijken\<n\>\<nt\>\<sg\>	^strijken<n><nt><sg>$
-      6 #Stormen\<vblex\>\<pres\>\<p3\>\<sg\>	^Stormen<vblex><pres><p3><sg>$
       6 #stoomboot\<n\>\<m\>\<sg\>	^stoomboot<n><m><sg>$
       6 #sterfelijk\<adj\>\<sint\>\<attr\>	^sterfelijk<adj><sint><attr>$
       6 #Steekproef\<n\>\<sg\>	^Steekproef<n><GD><sg>$
@@ -3379,7 +3360,6 @@ Tag mismatch between transfer and generation
       5 #Vlieg\<n\>\<m\>\<sg\>	^Vlieg<n><m><sg>$
       5 #Veteraan\<n\>\<m\>\<pl\>	^Veteraan<n><m><pl>$
       5 #Verwant\<adj\>\<attr\>	^Verwant<adj><attr>$
-      5 #verslappen\<vblex\>\<pres\>\<p3\>\<sg\>	^verslappen<vblex><pres><p3><sg>$
       5 #verpleegster\<n\>\<f\>\<pl\>	^verpleegster<n><f><pl>$
       5 #vergankelijk\<adj\>\<sint\>\<pred\>	^vergankelijk<adj><sint><pred>$
       5 #veldspaat\<n\>\<nt\>\<sg\>	^veldspaat<n><nt><sg>$
@@ -3977,7 +3957,6 @@ Tag mismatch between transfer and generation
       3 #lectoraat\<n\>\<nt\>\<sg\>	^lectoraat<n><nt><sg>$
       3 #langspeelplaat\<n\>\<m\>\<pl\>	^langspeelplaat<n><m><pl>$
       3 #landcode\<n\>\<f\>\<sg\>	^landcode<n><f><sg>$
-      3 #laaien\<vblex\>\<inf\> 	^laaien<vblex><inf>$ 
       3 #kubus\<n\>\<mf\>\<pl\>	^kubus<n><mf><pl>$
       3 #krul\<n\>\<m\>\<sg\>	^krul<n><m><sg>$
       3 #Krui\<n\>\<mf\>\<pl\>	^Krui<n><mf><pl>$
@@ -4862,7 +4841,6 @@ Tag mismatch between transfer and generation
       1 #Noodzaak\<n\>\<f\>\<pl\>	^Noodzaak<n><f><pl>$
       1 #nominatief\<adj\>\<attr\>	^nominatief<adj><attr>$
       1 #nodig\<n\>\<nt\>\<pl\>	^nodig<n><nt><pl>$
-      1 #NODIGEN\<vblex\>\<pres\>\<p3\>\<sg\>	^NODIGEN<vblex><pres><p3><sg>$
       1 #NM\<n\>\<acr\>\<m\>\<sg\>	^NM<n><acr><m><sg>$
       1 #Nm\<n\>\<acr\>\<m\>\<sg\>	^Nm<n><acr><m><sg>$
       1 #Nm\<n\>\<acr\>\<m\>\<pl\>	^Nm<n><acr><m><pl>$
@@ -4952,7 +4930,6 @@ Tag mismatch between transfer and generation
       1 #Landbouwkundige\<n\>\<mf\>\<sg\>	^Landbouwkundige<n><mf><sg>$
       1 #landbouwkundige\<n\>\<mf\>\<pl\>	^landbouwkundige<n><mf><pl>$
       1 #Lamp\<n\>\<m\>\<sg\>	^Lamp<n><m><sg>$
-      1 #Laaien\<vblex\>\<pres\>\<p3\>\<sg\>	^Laaien<vblex><pres><p3><sg>$
       1 #Kwantitatief\<adj\>\<attr\>	^Kwantitatief<adj><attr>$
       1 #Kwalificatie\<n\>\<m\>\<sg\>	^Kwalificatie<n><m><sg>$
       1 #kustgebied\<n\>\<nt\>\<pl\> 	^kustgebied<n><nt><pl>$ 
@@ -5144,7 +5121,6 @@ Tag mismatch between transfer and generation
       1 #Code\<n\>\<mf\>\<pl\>	^Code<n><mf><pl>$
       1 #cobra\<n\>\<mf\>\<pl\>	^cobra<n><mf><pl>$
       1 #CM\<n\>\<acr\>\<m\>\<pl\>	^CM<n><acr><m><pl>$
-      1 #classificeren\<vblex\>\<inf\> 	^classificeren<vblex><inf>$ 
       1 #Circulatie\<n\>\<f\>\<sg\>	^Circulatie<n><f><sg>$
       1 #circulatie\<n\>\<f\>\<pl\>	^circulatie<n><f><pl>$
       1 #Chemie\<n\>\<f\>\<sg\> 	^Chemie<n><f><sg>$ 
@@ -5237,5 +5213,5 @@ Summary
 ===============================================================================
    632 /tmp/af-nl.multiform
      0 /tmp/af-nl.multibidix
-  4586 /tmp/af-nl.tagmismatch
-  5218 total
+  4562 /tmp/af-nl.tagmismatch
+  5194 total

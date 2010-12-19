@@ -5185,6 +5185,7 @@
     <e><p><l>mag<s n="vbmod"/></l><r>mogen<s n="vbmod"/></r></p></e>
 
     <e><p><l>wil<s n="vaux"/></l><r>willen<s n="vaux"/></r></p></e>
+    <e><p><l>wil<s n="vblex"/></l><r>willen<s n="vblex"/></r></p></e>
     <e><p><l>sal<s n="vaux"/></l><r>zullen<s n="vaux"/></r></p></e>
 
 	<e><p><l>stig<s n="vblex"/></l><r>stichten<s n="vblex"/></r></p></e>
@@ -5227,7 +5228,6 @@
 	<e><p><l>sukkel<s n="vblex"/></l><r>worstelen<s n="vblex"/></r></p></e>
 	<e><p><l>kontak<s n="vblex"/></l><r>contacteren<s n="vblex"/></r></p></e>
 	<e><p><l>raaksien<s n="vblex"/></l><r>zien<s n="vblex"/></r></p></e>
-	<e><p><l>ontplooi<s n="vblex"/></l><r>afzien<s n="vblex"/></r></p></e>
 	<e><p><l>betwis<s n="vblex"/></l><r>betwisten<s n="vblex"/></r></p></e>
 	<e><p><l>oorwin<s n="vblex"/></l><r>overwinnen<s n="vblex"/></r></p></e>
 	<e><p><l>versleg<s n="vblex"/></l><r>verslechteren<s n="vblex"/></r></p></e>
@@ -5553,7 +5553,6 @@
     <e><p><l>merk<s n="vblex"/></l><r>merken<s n="vblex"/></r></p></e>
     <e><p><l>klop<s n="vblex"/></l><r>kloppen<s n="vblex"/></r></p></e>
     <e><p><l>dreig<s n="vblex"/></l><r>dreigen<s n="vblex"/></r></p></e>
-    <e><p><l>wil<s n="vblex"/></l><r>willen<s n="vblex"/></r></p></e>
     <e><p><l>veronderstel<s n="vblex"/></l><r>veronderstellen<s n="vblex"/></r></p></e>
     <e><p><l>kla<s n="vblex"/></l><r>klaen<s n="vblex"/></r></p></e>
     <e><p><l>vermeerder<s n="vblex"/></l><r>vermeerderen<s n="vblex"/></r></p></e>
@@ -5721,7 +5720,7 @@
     <e><p><l>verower<s n="vblex"/></l><r>veroveren<s n="vblex"/></r></p></e>
     <e><p><l>verslaan<s n="vblex"/></l><r>verslaan<s n="vblex"/></r></p></e>
     <e><p><l>behels<s n="vblex"/></l><r>behelzen<s n="vblex"/></r></p></e>
-    <e><p><l>uitreik<s n="vblex"/></l><r>uitreiken<s n="vblex"/></r></p></e>
+    <e><p><l>uitreik<s n="vblex"/><s n="sep"/></l><r>uitreiken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>afval<s n="vblex"/></l><r>afvallen<s n="vblex"/></r></p></e>
     <e><p><l>omhels<s n="vblex"/></l><r>omhelzen<s n="vblex"/></r></p></e>
     <e><p><l>saag<s n="vblex"/></l><r>zagen<s n="vblex"/></r></p></e>
@@ -5742,6 +5741,7 @@
     <e><p><l>aanmaak<s n="vblex"/><s n="sep"/></l><r>aanmaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>aansien<s n="vblex"/><s n="sep"/></l><r>aanzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omsien<s n="vblex"/><s n="sep"/></l><r>omzien<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>ontplooi<s n="vblex"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>uitleg<s n="vblex"/><s n="sep"/></l><r>uitleggen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omkom<s n="vblex"/><s n="sep"/></l><r>omkomen<s n="vblex"/><s n="sep"/></r></p></e>
