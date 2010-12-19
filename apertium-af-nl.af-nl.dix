@@ -1310,6 +1310,7 @@
     <e><p><l>toneelgroep<s n="n"/></l><r>toneelgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>werkgroep<s n="n"/></l><r>werkgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>artikel<s n="n"/></l><r>artikel<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kabel<s n="n"/></l><r>kabel<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>rolprent<s n="n"/></l><r>film<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>seisoen<s n="n"/></l><r>seizoen<s n="n"/><s n="nt"/></r></p></e>
@@ -3718,7 +3719,7 @@
     <e><p><l>Estland<s n="np"/><s n="top"/></l><r>Estland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Ethiopië<s n="np"/><s n="top"/></l><r>Ethiopië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Europa<s n="np"/><s n="top"/></l><r>Europa<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Europese<b/>Unie<s n="np"/><s n="top"/></l><r>Europese<b/>Unie<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Europese<b/>Unie<s n="np"/><s n="top"/></l><r>Europese<b/>Unie<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Falkland-eilande<s n="np"/><s n="top"/></l><r>Falklandeilanden<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Faroëreilande<s n="np"/><s n="top"/></l><r>Faeröer<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Finland<s n="np"/><s n="top"/></l><r>Finland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3815,7 +3816,7 @@
     <e><p><l>Normandië<s n="np"/><s n="top"/></l><r>Normandië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Oekraïne<s n="np"/><s n="top"/></l><r>OekraïNe<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Oesbekistan<s n="np"/><s n="top"/></l><r>Oezbekistan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Oossee<s n="np"/><s n="top"/></l><r>Oostzee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Oossee<s n="np"/><s n="top"/></l><r>Oostzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Oostenryk<s n="np"/><s n="top"/></l><r>Oostenrijk<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Oos-Timor<s n="np"/><s n="top"/></l><r>Oost-Timor<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Oseanië<s n="np"/><s n="top"/></l><r>Oceanië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>

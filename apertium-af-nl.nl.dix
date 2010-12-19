@@ -98,6 +98,14 @@
       <e><re>[’'‘]</re><p><l/><r><s n="apos"/></r></p></e>
     </pardef>
 
+    <pardef n="guionet">
+      <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e>       <p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
@@ -5331,7 +5339,6 @@
     <pardef n="cmp-L" c="cmp-L, for forms that can only appear at the beginning or inside compounds">
       <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
     </pardef>
 
     <pardef n="hoe/s__n_mf">
@@ -8162,6 +8169,14 @@
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="Oostzee__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Europese_Unie__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="Wynand__np">
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -8469,6 +8484,8 @@
 	<e lm="achtenveertig"><i>achtenveertig</i><par n="twee__num"/></e>
 	<e lm="negenenveertig"><i>negenenveertig</i><par n="twee__num"/></e>
 	<e lm="vijftig"><i>vijftig</i><par n="twee__num"/></e>
+
+	<e lm="miljoen"><i>miljoen</i><par n="twee__num"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -11840,6 +11857,7 @@
     <e lm="Biak"><i>Biak</i><par n="OV__n_nt"/></e>
     <e lm="Biedermeier"><i>Biedermeier</i><par n="WO__n_mf"/></e>
     <e lm="Bihar"><i>Bihar</i><par n="OV__n_nt"/></e>
+    <!--<e lm="bijbel"><i>bijbel</i><par n="led__n_m"/></e>-->
     <e lm="Bijbel"><i>Bijbel</i><par n="eb__n_m"/></e>
     <e lm="Bintauna"><i>Bintauna</i><par n="OV__n_nt"/></e>
     <e lm="Birma"><i>Birma</i><par n="OV__n_nt"/></e>
@@ -14189,7 +14207,6 @@
     <e lm="bij"><i>bij</i><par n="hui__n_mf"/></e>
     <e lm="bijbedoeling"><i>bijbedoeling</i><par n="vering__n_f"/></e>
     <e lm="bijbehoren"><i>bijbehoren</i><par n="eon__n_nt"/></e>
-    <e lm="bijbel"><i>bijbel</i><par n="led__n_m"/></e>
     <e lm="bijdrage"><i>bijdrage</i><par n="rune__n_f"/></e>
     <e lm="bijectie"><i>bijectie</i><par n="roe__n_f"/></e>
     <e lm="bijeenkomst"><i>bijeenkomst</i><par n="vering__n_f"/></e>
@@ -18510,8 +18527,7 @@
     <e lm="lijnrijder"><i>lijnrijder</i><par n="led__n_m"/></e>
     <e lm="lijnrijderij"><i>lijnrijderij</i><par n="vering__n_f"/></e>
     <e lm="lijnzaad"><i>lijnzaad</i><par n="OV__n_nt"/></e>
-    <e lm="lijst"><i>lijst</i><par n="vering__n_f"/></e>
-    <e lm="lijst"><i>lijst</i><par n="ui__n_m"/></e>
+    <e lm="lijst"><i>lijst</i><par n="hui__n_mf"/></e>
     <e lm="lijster"><i>lijster</i><par n="roe__n_mf"/></e>
     <e lm="lijsttrekker"><i>lijsttrekker</i><par n="led__n_m"/></e>
     <e lm="lijsttrekkersdebat"><i>lijsttrekkersdebat</i><par n="kot__n_nt"/></e>
@@ -23749,8 +23765,7 @@
     <e lm="zaadkorrel"><i>zaadkorrel</i><par n="led__n_m"/></e>
     <e lm="zaadkwekerij"><i>zaadkwekerij</i><par n="vering__n_f"/></e>
     <e lm="zaadleider"><i>zaadleider</i><par n="led__n_m"/></e>
-    <e lm="zaadlijst"><i>zaadlijst</i><par n="vering__n_f"/></e>
-    <e lm="zaadlijst"><i>zaadlijst</i><par n="ui__n_m"/></e>
+    <e lm="zaadlijst"><i>zaadlijst</i><par n="hui__n_mf"/></e>
     <e lm="zaadlob"><i>zaadlob</i><par n="neb__n_f"/></e>
     <e lm="zaadlob"><i>zaadlob</i><par n="rib__n_m"/></e>
     <e lm="zaadlozing"><i>zaadlozing</i><par n="vering__n_f"/></e>
@@ -24767,8 +24782,8 @@
     <e lm="Baffinbaai"><i>Baffinbaai</i><par n="Frankrijk__np"/></e>
     <e lm="Bahrein"><i>Bahrein</i><par n="Frankrijk__np"/></e>
     <e lm="Balkan"><i>Balkan</i><par n="Frankrijk__np"/></e>
-    <e lm="Barentszzee"><i>Barentszzee</i><par n="Frankrijk__np"/></e>
-    <e lm="Beaufortzee"><i>Beaufortzee</i><par n="Frankrijk__np"/></e>
+    <e lm="Barentszzee"><i>Barentszzee</i><par n="Oostzee__np"/></e>
+    <e lm="Beaufortzee"><i>Beaufortzee</i><par n="Oostzee__np"/></e>
     <e lm="Beringstraat"><i>Beringstraat</i><par n="Frankrijk__np"/></e>
     <e lm="Berlijn"><i>Berlijn</i><par n="Frankrijk__np"/></e>
     <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Frankrijk__np"/></e>
@@ -24805,7 +24820,7 @@
     <e lm="Ethiopië"><i>Ethiopië</i><par n="Frankrijk__np"/></e>
     <e lm="Etrurië"><i>Etrurië</i><par n="Frankrijk__np"/></e>
     <e lm="Europa"><i>Europa</i><par n="Frankrijk__np"/></e>
-    <e lm="Europese Unie"><i>Europese<b/>Unie</i><par n="Frankrijk__np"/></e>
+    <e lm="Europese Unie"><i>Europese<b/>Unie</i><par n="Europese_Unie__np"/></e>
     <e lm="Faeröer"><i>Faeröer</i><par n="Frankrijk__np"/></e>
     <e lm="Falklandeilanden"><i>Falklandeilanden</i><par n="Frankrijk__np"/></e>
     <e lm="Finland"><i>Finland</i><par n="Frankrijk__np"/></e>
@@ -24853,7 +24868,7 @@
     <e lm="Kaapverdië"><i>Kaapverdië</i><par n="Frankrijk__np"/></e>
     <e lm="Kameroen"><i>Kameroen</i><par n="Frankrijk__np"/></e>
     <e lm="Karelië"><i>Karelië</i><par n="Frankrijk__np"/></e>
-    <e lm="Kaspische Zee"><i>Kaspische<b/>Zee</i><par n="Frankrijk__np"/></e>
+    <e lm="Kaspische Zee"><i>Kaspische<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Kaukasus"><i>Kaukasus</i><par n="Frankrijk__np"/></e>
     <e lm="Kazachstan"><i>Kazachstan</i><par n="Frankrijk__np"/></e>
     <e lm="Kenia"><i>Kenia</i><par n="Frankrijk__np"/></e>
@@ -24897,10 +24912,10 @@
     <e lm="Nigeria"><i>Nigeria</i><par n="Frankrijk__np"/></e>
     <e lm="Noord-Afrika"><i>Noord-Afrika</i><par n="Frankrijk__np"/></e>
     <e lm="Noord-Amerika"><i>Noord-Amerika</i><par n="Frankrijk__np"/></e>
-    <e lm="Noordelijke Ijszee"><i>Noordelijke<b/>Ijszee</i><par n="Frankrijk__np"/></e>
+    <e lm="Noordelijke Ijszee"><i>Noordelijke<b/>Ijszee</i><par n="Oostzee__np"/></e>
     <e lm="Noord-Ierland"><i>Noord-Ierland</i><par n="Frankrijk__np"/></e>
-    <e lm="Noordzee"><i>Noordzee</i><par n="Frankrijk__np"/></e>
-    <e lm="Noorse Zee"><i>Noorse<b/>Zee</i><par n="Frankrijk__np"/></e>
+    <e lm="Noordzee"><i>Noordzee</i><par n="Oostzee__np"/></e>
+    <e lm="Noorse Zee"><i>Noorse<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Noorwegen"><i>Noorwegen</i><par n="Frankrijk__np"/></e>
     <e lm="Normandië"><i>Normandië</i><par n="Frankrijk__np"/></e>
     <e lm="Oceanië"><i>Oceanië</i><par n="Frankrijk__np"/></e>
@@ -24908,9 +24923,9 @@
     <e lm="Oeralgebergte"><i>Oeralgebergte</i><par n="Frankrijk__np"/></e>
     <e lm="Oezbekistan"><i>Oezbekistan</i><par n="Frankrijk__np"/></e>
     <e lm="Oostenrijk"><i>Oostenrijk</i><par n="Frankrijk__np"/></e>
-    <e lm="Oost-Siberische Zee"><i>Oost-Siberische<b/>Zee</i><par n="Frankrijk__np"/></e>
+    <e lm="Oost-Siberische Zee"><i>Oost-Siberische<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Oost-Timor"><i>Oost-Timor</i><par n="Frankrijk__np"/></e>
-    <e lm="Oostzee"><i>Oostzee</i><par n="Frankrijk__np"/></e>
+    <e lm="Oostzee"><i>Oostzee</i><par n="Oostzee__np"/></e>
     <e lm="Oslo"><i>Oslo</i><par n="Frankrijk__np"/></e>
     <e lm="Oxford"><i>Oxford</i><par n="Frankrijk__np"/></e>
     <e lm="Peking"><i>Peking</i><par n="Frankrijk__np"/></e>
@@ -24979,7 +24994,7 @@
     <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Frankrijk__np"/></e>
     <e lm="Zuid-Afrika"><i>Zuid-Afrika</i><par n="Frankrijk__np"/></e>
     <e lm="Zuid-Amerika"><i>Zuid-Amerika</i><par n="Frankrijk__np"/></e>
-    <e lm="Zwarte Zee"><i>Zwarte<b/>Zee</i><par n="Frankrijk__np"/></e>
+    <e lm="Zwarte Zee"><i>Zwarte<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Zweden"><i>Zweden</i><par n="Frankrijk__np"/></e>
     <e lm="Zwitserland"><i>Zwitserland</i><par n="Frankrijk__np"/></e>
 
@@ -31050,5 +31065,7 @@
     <e><par n="separa"/></e>
     <e><par n="numeros"/></e>
     <e><par n="cometa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="guionet"/></e>
   </section>
 </dictionary>
