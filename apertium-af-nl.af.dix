@@ -157,8 +157,7 @@
     <!-- SECTION: Relative pronouns -->
 
     <pardef n="wat__rel">
-      <e>       <p><l/><r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l/><r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="wie__rel">
@@ -1210,7 +1209,6 @@
 
     <e lm="dat"><i>dat</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wie"><i>wie</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
-    <e lm="wat"><i>wat</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__det"/></e><!-- this has like a million other meanings -->
     <e lm="watter"><i>watter</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
@@ -2875,7 +2873,6 @@
     <e lm="Ethiopië"><i>Ethiopië</i><par n="Engeland__np"/></e>
     <e lm="Finland"><i>Finland</i><par n="Engeland__np"/></e>
     <e lm="Frankryk"><i>Frankryk</i><par n="Engeland__np"/></e>
-    <e lm="Frans"><i>Frans</i><par n="Engeland__np"/></e>
     <e lm="Duitsland"><i>Duitsland</i><par n="Engeland__np"/></e>
     <e lm="Gaboen"><i>Gaboen</i><par n="Engeland__np"/></e>
     <e lm="Ghana"><i>Ghana</i><par n="Engeland__np"/></e>
@@ -3111,6 +3108,9 @@
 
     <e lm="breek"><i>breek</i><par n="breek__vblex"/></e>
     <e lm="breek"><p><l>gebreek</l><r>breek</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="neem"><i>neem</i><par n="breek__vblex"/></e>
+    <e lm="neem"><p><l>geneem</l><r>neem</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="word"><i>word</i><par n="breek__vblex"/></e>
     <e lm="word"><p><l>geword</l><r>word</r></p><par n="gebreek__vblex"/></e>

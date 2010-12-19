@@ -59,9 +59,9 @@
     <sdef n="adv" c="Adverb"/>
     <sdef n="preadv" c="Pre-adverb"/>
     <sdef n="rel" c="Relative"/>
-    <sdef n="nn" c="Noun noun"/>
-    <sdef n="an" c="Adjective noun"/>
-    <sdef n="aa" c="Adjective adjective"/>
+    <sdef n="nn" c="Inanimate"/>
+    <sdef n="an" c="Animate/inanimate"/>
+    <sdef n="aa" c="Animate"/>
     <sdef n="ind" c="Indefinite"/>    
     <sdef n="itg" c="Interrogative"/>
     <sdef n="det" c="Determiner"/>
@@ -294,6 +294,7 @@
     <e><p><l>enigiemand<s n="prn"/><s n="tn"/></l><r>iedereen<s n="prn"/><s n="tn"/></r></p></e>
 
     <e><p><l>waar<s n="rel"/><s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
+    <e><p><l>wat<s n="rel"/><s n="nn"/></l><r>wat<s n="rel"/><s n="nn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
     <e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
@@ -4632,7 +4633,6 @@
     <e><p><l>administratief<s n="adj"/></l><r>administratief<s n="adj"/></r></p></e>
     <e><p><l>vroeg<s n="adj"/><s n="sint"/></l><r>vroeg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wit<s n="adj"/></l><r>wit<s n="adj"/></r></p></e>
-    <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>ou<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>lang<s n="adj"/><s n="sint"/></l><r>lang<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>lang<s n="adj"/><s n="sint"/></l><r>lang<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>enkel<s n="adj"/></l><r>enkel<s n="adj"/></r></p></e>
@@ -4643,7 +4643,6 @@
     <e><p><l>totaal<s n="adj"/></l><r>totaal<s n="adj"/></r></p></e>
     <e><p><l>wit<s n="adj"/></l><r>wit<s n="adj"/></r></p></e>
     <e><p><l>beduidend<s n="adj"/><s n="sint"/></l><r>beduidend<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>ou<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gemiddeld<s n="adj"/></l><r>gemiddeld<s n="adj"/></r></p></e>
     <e><p><l>beduidend<s n="adj"/><s n="sint"/></l><r>beduidend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>verwant<s n="adj"/></l><r>verwant<s n="adj"/></r></p></e>
@@ -5743,6 +5742,7 @@
     <e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>uitleg<s n="vblex"/><s n="sep"/></l><r>uitleggen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omkom<s n="vblex"/><s n="sep"/></l><r>omkomen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>onderneem<s n="vblex"/><s n="sep"/></l><r>ondernemen<s n="vblex"/></r></p></e>
 
 
 

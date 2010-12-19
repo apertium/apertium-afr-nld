@@ -273,6 +273,10 @@
       <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="wat__rel">
+      <e>       <p><l/><r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="waar__rel">
       <e>       <p><l/><r><s n="rel"/><s n="adv"/></r></p></e>
     </pardef>
@@ -8441,6 +8445,8 @@
     <e lm="beide"><i>beide</i><par n="mens__prn"/></e>
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
+
+    <e lm="wat"><i>wat</i><par n="wat__rel"/></e>
 
     <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
 
