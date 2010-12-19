@@ -5209,7 +5209,7 @@
     <e><p><l>skiet<s n="vblex"/></l><r>schieten<s n="vblex"/></r></p></e>
     <e><p><l>rus<s n="vblex"/></l><r>rusten<s n="vblex"/></r></p></e>
     <e><p><l>fokus<s n="vblex"/></l><r>concentreren<s n="vblex"/></r></p></e>
-    <e><p><l>nooi<s n="vblex"/></l><r>uitnodigen<s n="vblex"/></r></p></e>
+    <e><p><l>nooi<s n="vblex"/></l><r>uitnodigen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verplig<s n="vblex"/></l><r>verplichten<s n="vblex"/></r></p></e>
     <e><p><l>benut<s n="vblex"/></l><r>benutten<s n="vblex"/></r></p></e>
     <e><p><l>verset<s n="vblex"/></l><r>verzetten<s n="vblex"/></r></p></e>
@@ -5339,7 +5339,7 @@
     <e><p><l>lyk<s n="vblex"/></l><r>lijken<s n="vblex"/></r></p></e>
     <e><p><l>verkies<s n="vblex"/></l><r>verkiezen<s n="vblex"/></r></p></e>
     <e><p><l>probeer<s n="vblex"/></l><r>proberen<s n="vblex"/></r></p></e>
-    <e><p><l>aanvaar<s n="vblex"/></l><r>aanvaren<s n="vblex"/></r></p></e>
+    <e><p><l>aanvaar<s n="vblex"/></l><r>aanvaren<s n="vblex"/><s n="sep"/></r></p></e>
 
     <e><p><l>glo<s n="vblex"/></l><r>geloven<s n="vblex"/></r></p></e>
     <e><p><l>vervang<s n="vblex"/></l><r>vervangen<s n="vblex"/></r></p></e>
@@ -5512,7 +5512,7 @@
     <e><p><l>ontleen<s n="vblex"/></l><r>ontlenen<s n="vblex"/></r></p></e>
     <e><p><l>naam<s n="vblex"/></l><r>nemen<s n="vblex"/></r></p></e>
     <e><p><l>versier<s n="vblex"/></l><r>versieren<s n="vblex"/></r></p></e>
-    <e><p><l>hardloop<s n="vblex"/></l><r>hardlopen<s n="vblex"/></r></p></e>
+    <e><p><l>hardloop<s n="vblex"/></l><r>hardlopen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>vergader<s n="vblex"/></l><r>vergaderen<s n="vblex"/></r></p></e>
     <e><p><l>plant<s n="vblex"/></l><r>planten<s n="vblex"/></r></p></e>
     <e><p><l>verswak<s n="vblex"/></l><r>verzwakken<s n="vblex"/></r></p></e>
@@ -5546,7 +5546,7 @@
     <e><p><l>bind<s n="vblex"/></l><r>binden<s n="vblex"/></r></p></e>
     <e><p><l>vergesel<s n="vblex"/></l><r>vergezellen<s n="vblex"/></r></p></e>
     <e><p><l>verhit<s n="vblex"/></l><r>verhitten<s n="vblex"/></r></p></e>
-    <e><p><l>aanbeveel<s n="vblex"/></l><r>aanbevelen<s n="vblex"/></r></p></e>
+    <e><p><l>aanbeveel<s n="vblex"/></l><r>aanbevelen<s n="vblex"/><s n="sep"/></r></p></e>
 
     <e><p><l>waarsku<s n="vblex"/></l><r>waarschuwen<s n="vblex"/></r></p></e>
     <e><p><l>merk<s n="vblex"/></l><r>merken<s n="vblex"/></r></p></e>
@@ -5585,7 +5585,7 @@
     <e><p><l>skat<s n="vblex"/></l><r>skaten<s n="vblex"/></r></p></e>
     <e><p><l>leen<s n="vblex"/></l><r>lenen<s n="vblex"/></r></p></e>
     <e><p><l>jaag<s n="vblex"/></l><r>jagen<s n="vblex"/></r></p></e>
-    <e><p><l>slote<s n="vblex"/></l><r>sluit<s n="vblex"/></r></p></e>
+    <e><p><l>slote<s n="vblex"/></l><r>sluiten<s n="vblex"/></r></p></e>
     <e><p><l>ontruim<s n="vblex"/></l><r>ontruimen<s n="vblex"/></r></p></e>
     <e><p><l>ontslae<s n="vblex"/></l><r>ontslaan<s n="vblex"/></r></p></e>
     <e><p><l>toets<s n="vblex"/></l><r>toetsen<s n="vblex"/></r></p></e>
@@ -5670,12 +5670,12 @@
     <e><p><l>bloei<s n="vblex"/></l><r>bloeien<s n="vblex"/></r></p></e>
     <e><p><l>begelei<s n="vblex"/></l><r>begeleiden<s n="vblex"/></r></p></e>
     <e><p><l>verloof<s n="vblex"/></l><r>verloven<s n="vblex"/></r></p></e>
-    <e><p><l>vasstel<s n="vblex"/></l><r>vaststellen<s n="vblex"/></r></p></e>
+    <e><p><l>vasstel<s n="vblex"/></l><r>vaststellen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verklein<s n="vblex"/></l><r>verkleinen<s n="vblex"/></r></p></e>
     <e><p><l>vergoed<s n="vblex"/></l><r>vergoeden<s n="vblex"/></r></p></e>
     <e><p><l>baklei<s n="vblex"/></l><r>bakkleien<s n="vblex"/></r></p></e>
     <e><p><l>suiwer<s n="vblex"/></l><r>zuiveren<s n="vblex"/></r></p></e>
-    <e><p><l>oopmaak<s n="vblex"/></l><r>opmaken<s n="vblex"/></r></p></e>
+    <e><p><l>oopmaak<s n="vblex"/></l><r>opmaken<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verslap<s n="vblex"/></l><r>verslappen<s n="vblex"/></r></p></e>
     <e><p><l>kam<s n="vblex"/></l><r>kammen<s n="vblex"/></r></p></e>
     <e><p><l>verlof<s n="vblex"/></l><r>verloven<s n="vblex"/></r></p></e>
@@ -5719,7 +5719,7 @@
     <e><p><l>verslaan<s n="vblex"/></l><r>verslaan<s n="vblex"/></r></p></e>
     <e><p><l>behels<s n="vblex"/></l><r>behelzen<s n="vblex"/></r></p></e>
     <e><p><l>uitreik<s n="vblex"/><s n="sep"/></l><r>uitreiken<s n="vblex"/><s n="sep"/></r></p></e>
-    <e><p><l>afval<s n="vblex"/></l><r>afvallen<s n="vblex"/></r></p></e>
+    <e><p><l>afval<s n="vblex"/></l><r>afvallen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omhels<s n="vblex"/></l><r>omhelzen<s n="vblex"/></r></p></e>
     <e><p><l>saag<s n="vblex"/></l><r>zagen<s n="vblex"/></r></p></e>
     <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
