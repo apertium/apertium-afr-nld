@@ -1713,7 +1713,7 @@
     <e><p><l>grammatika<s n="n"/></l><r>grammatica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gram<s n="n"/></l><r>gram<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>grensgebied<s n="n"/></l><r>grensgebied<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>grens<s n="n"/></l><r>grens<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grens<s n="n"/></l><r>grens<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>griep<s n="n"/></l><r>griep<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>groep<s n="n"/></l><r>groep<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>groet<s n="n"/></l><r>groet<s n="n"/><s n="m"/></r></p></e>
@@ -4011,7 +4011,8 @@
     <e><p><l>Nederlands<s n="adj"/></l><r>Nederlands<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>militêr<s n="adj"/></l><r>militair<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>suidelik<s n="adj"/><s n="sint"/></l><r>zuidelijk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>naas<s n="adj"/><s n="sint"/></l><r>naast<s n="adj"/></r></p></e>
+    <!--<e><p><l>naas<s n="adj"/><s n="sint"/></l><r>naast<s n="adj"/></r></p></e>-->
+    <e><p><l>naas<s n="adj"/><s n="sint"/></l><r>na<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>sogenaamd<s n="adj"/></l><r>zogenaamd<s n="adj"/></r></p></e>
     <e><p><l>noordelik<s n="adj"/><s n="sint"/></l><r>noordelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>katoliek<s n="adj"/></l><r>katholiek<s n="adj"/><s n="sint"/></r></p></e>
@@ -4028,6 +4029,7 @@
     <e><p><l>tradisioneel<s n="adj"/></l><r>traditioneel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>westelik<s n="adj"/><s n="sint"/></l><r>westelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>oostelik<s n="adj"/></l><r>oostelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>suidoostelik<s n="adj"/></l><r>zuidoostelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>buitelands<s n="adj"/></l><r>buitenlands<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>demokraties<s n="adj"/></l><r>democratisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>onafhanklik<s n="adj"/></l><r>onafhankelijk<s n="adj"/><s n="sint"/></r></p></e>
@@ -4607,7 +4609,7 @@
     <e><p><l>openbaar<s n="adj"/><s n="sint"/></l><r>openbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vry<s n="adj"/><s n="sint"/></l><r>vrij<s n="adj"/><s n="sint"/></r></p></e>
 
-    <e><p><l>bekend<s n="adj"/></l><r>bekend<s n="adj"/></r></p></e>
+    <e><p><l>bekend<s n="adj"/></l><r>bekend<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>klein<s n="adj"/><s n="sint"/></l><r>klein<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/><s n="sint"/></r></p></e>
@@ -4629,7 +4631,6 @@
     <e><p><l>enkel<s n="adj"/></l><r>enkel<s n="adj"/></r></p></e>
     <e><p><l>jong<s n="adj"/><s n="sint"/></l><r>jong<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heel<s n="adj"/></l><r>heel<s n="adj"/></r></p></e>
-    <e><p><l>bekend<s n="adj"/></l><r>bekend<s n="adj"/></r></p></e>
     <e><p><l>administratief<s n="adj"/></l><r>administratief<s n="adj"/></r></p></e>
     <e><p><l>vroeg<s n="adj"/><s n="sint"/></l><r>vroeg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wit<s n="adj"/></l><r>wit<s n="adj"/></r></p></e>

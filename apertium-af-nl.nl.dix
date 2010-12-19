@@ -9660,6 +9660,7 @@
     <e lm="zuidwaarts"><i>zuidwaarts</i><par n="es__adv"/></e>
     <e lm="zuidwest"><i>zuidwest</i><par n="es__adv"/></e>
     <e lm="zuidwestelijk"><i>zuidwestelijk</i><par n="es__adv"/></e>
+    <e lm="zuidelijk"><i>zuidelijk</i><par n="es__adv"/></e>
     <e lm="zuidzuidoost"><i>zuidzuidoost</i><par n="es__adv"/></e>
     <e lm="zuidzuidwest"><i>zuidzuidwest</i><par n="es__adv"/></e>
     <e lm="zuinigjes"><i>zuinigjes</i><par n="es__adv"/></e>
@@ -10748,6 +10749,7 @@
     <e lm="intens"><i>intens</i><par n="fors__adj_sint"/></e>
     <e lm="interessant"><i>interessant</i><par n="eng__adj_sint"/></e>
     <e lm="internationaal"><i>internationa</i><par n="ka/al__adj_sint"/></e>
+    <e lm="nationaal"><i>nationa</i><par n="ka/al__adj_sint"/></e>
     <e lm="regionaal"><i>regiona</i><par n="ka/al__adj_sint"/></e>
     <e lm="intrinsiek"><i>intrinsiek</i><par n="eng__adj_sint"/></e>
     <e lm="invers"><i>invers</i><par n="taps__adj"/></e>
@@ -11719,6 +11721,7 @@
     <e lm="zorgwekkend"><i>zorgwekkend</i><par n="eng__adj_sint"/></e>
     <e lm="zorgzaam"><i>zorgza</i><par n="minza/am__adj_sint"/></e>
     <e lm="zot"><i>zot</i><par n="mat__adj_sint"/></e>
+    <e lm="zuidelijk"><i>zuidelijk</i><par n="eng__adj_sint"/></e>
     <e lm="zuidoostelijk"><i>zuidoostelijk</i><par n="eng__adj_sint"/></e>
     <e lm="zuidwestelijk"><i>zuidwestelijk</i><par n="eng__adj_sint"/></e>
     <e lm="zuinig"><i>zuinig</i><par n="eng__adj_sint"/></e>
