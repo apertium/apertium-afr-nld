@@ -41,6 +41,8 @@
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
     <def-cat n="verbfin">
+      <cat-item tags="vblex.sep.fm.pres"/>
+      <cat-item tags="vblex.sep.fs.pres"/>
       <cat-item tags="vblex.pres"/>
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vbhaver.pres"/> 
@@ -127,6 +129,9 @@
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
        <attr-item tags="vblex.uns"/>
+       <attr-item tags="vblex.sep"/>
+       <attr-item tags="vblex.sep.fm"/>
+       <attr-item tags="vblex.sep.fs"/>
        <attr-item tags="vbser"/>
        <attr-item tags="vbhaver"/>
        <attr-item tags="vbmod"/>

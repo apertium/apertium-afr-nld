@@ -4986,28 +4986,10 @@
     <pardef n="aanz/ien__vblex_sep">
       <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
       <e>       <p><l>iend</l><r>ien<s n="vblex"/><s n="sep"/><s n="pprs"/></r></p></e>
-      <e>       <p><l>agen</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>  
-
-    <pardef n="z/ien#_aan__vblex_sep">
-      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
       <e>       <p><l>agen</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
       <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iend</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pprs"/></r></p></e>
       <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="pl"/></r></p></e>
       <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -5016,6 +4998,24 @@
       <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>  
+
+    <pardef n="z/ien#_aan__vblex_sep">
+      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>agen</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ag</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iend</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>iet</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ien</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ie</l><r>ien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>  
 
 

@@ -3198,7 +3198,7 @@
     <e lm="koop"><i>koop</i><par n="breek__vblex"/></e>
     <e lm="koop"><p><l>gekoop</l><r>koop</r></p><par n="gebreek__vblex"/></e>
 
-    <e lm="maak"><par n="P__pr"/><par n="P__ge"/><i>maak</i><par n="breek__vblex"/></e>
+    <e lm="maak"><par n="P__ge"/><i>maak</i><par n="breek__vblex"/></e>
 
     <e lm="maak"><i>maak</i><par n="breek__vblex"/></e>
     <e lm="maak"><p><l>gemaak</l><r>maak</r></p><par n="gebreek__vblex"/></e>
@@ -3225,7 +3225,7 @@
     <e lm="staan"><par n="P__pr"/><par n="P__ge"/><i>staan</i><par n="breek__vblex"/></e>
     <e lm="stel"><par n="P__pr"/><par n="P__ge"/><i>stel</i><par n="breek__vblex"/></e>
     <e lm="kry"><par n="P__pr"/><par n="P__ge"/><i>kry</i><par n="breek__vblex"/></e>
-    <e lm="kom"><par n="P__pr"/><par n="P__ge"/><i>kom</i><par n="breek__vblex"/></e>
+    <e lm="kom"><par n="P__ge"/><i>kom</i><par n="breek__vblex"/></e>
     <e lm="hardloop"><par n="P__pr"/><par n="P__ge"/><i>hardloop</i><par n="breek__vblex"/></e>
     <e lm="skuil"><par n="P__pr"/><par n="P__ge"/><i>skuil</i><par n="breek__vblex"/></e>
     <e lm="sluitin"><par n="P__pr"/><par n="P__ge"/><i>sluitin</i><par n="breek__vblex"/></e>
