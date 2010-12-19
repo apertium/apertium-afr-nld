@@ -106,6 +106,14 @@
       <e>       <p><l>,</l><r>,<s n="cm"/></r></p></e>
     </pardef>
 
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l/><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l/><r><s n="rpar"/></r></p></e>
+    </pardef>
+
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
@@ -265,6 +273,9 @@
       <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="waar__rel">
+      <e>       <p><l/><r><s n="rel"/><s n="adv"/></r></p></e>
+    </pardef>
 
    <!-- SECTION: Verbs -->
 
@@ -8431,6 +8442,8 @@
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
+    <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
+
     <!-- SECTION: Hoofdtelwoorden -->
 
     <e lm="nul"><i>nul</i><par n="twee__num"/></e>
@@ -8495,6 +8508,7 @@
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
     <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
+    <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
 
     <e lm="aan"><i>aan</i><par n="es__adv"/></e>
     <e lm="aaneen"><i>aaneen</i><par n="es__adv"/></e>
@@ -9535,7 +9549,6 @@
     <e lm="vulgair"><i>vulgair</i><par n="es__adv"/></e>
     <e lm="waakzaam"><i>waakzaam</i><par n="es__adv"/></e>
     <e lm="waanzinnig"><i>waanzinnig</i><par n="es__adv"/></e>
-    <e lm="waar"><i>waar</i><par n="es__adv"/></e>
     <e lm="waaraan"><i>waaraan</i><par n="es__adv"/></e>
     <e lm="waarachter"><i>waarachter</i><par n="es__adv"/></e>
     <e lm="waarachtig"><i>waarachtig</i><par n="es__adv"/></e>
@@ -31067,5 +31080,7 @@
     <e><par n="cometa"/></e>
     <e><par n="coma"/></e>
     <e><par n="guionet"/></e>
+    <e><par n="paresq"/></e>
+    <e><par n="pardret"/></e>
   </section>
 </dictionary>

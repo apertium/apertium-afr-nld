@@ -293,6 +293,8 @@
     <e><p><l>niemand<s n="prn"/><s n="tn"/></l><r>niemand<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>enigiemand<s n="prn"/><s n="tn"/></l><r>iedereen<s n="prn"/><s n="tn"/></r></p></e>
 
+    <e><p><l>waar<s n="rel"/><s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
+
     <!-- SECTION: Determiners -->
     <e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>verskeie<s n="det"/><s n="ind"/></l><r>verschillende<s n="det"/><s n="ind"/></r></p></e>
@@ -4013,7 +4015,7 @@
     <e><p><l>noordelik<s n="adj"/><s n="sint"/></l><r>noordelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>katoliek<s n="adj"/></l><r>katholiek<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Spaans<s n="adj"/></l><r>Spaans<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>jaarliks<s n="adj"/></l><r>jaarlijks<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>jaarliks<s n="adj"/></l><r>jaarlijks<s n="adj"/></r></p></e>
     <e><p><l>Griekse<s n="adj"/></l><r>Grieks<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>seker<s n="adj"/></l><r>zeker<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>duidelik<s n="adj"/><s n="sint"/></l><r>duidelijk<s n="adj"/><s n="sint"/></r></p></e>

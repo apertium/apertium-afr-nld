@@ -95,8 +95,10 @@
       <attr-item tags="np.org"/>
     </def-attr>
     <def-attr n="a_adj">
-      <attr-item tags="adj.sint"/>
       <attr-item tags="adj"/>
+      <attr-item tags="adj.sint"/>
+    </def-attr>
+    <def-attr n="grau">
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
     </def-attr>
@@ -113,6 +115,7 @@
       <attr-item tags="rel"/>
       <attr-item tags="rel.nn"/>
       <attr-item tags="rel.an"/>
+      <attr-item tags="rel.adv"/>
     </def-attr>
     <def-attr n="tipus_prn">
       <attr-item tags="prn.subj"/>
@@ -354,10 +357,12 @@
         <pattern-item n="prpers"/>
       </pattern>
       <action>
+<!--
         <modify-case>
            <clip pos="1" side="tl" part="lem"/>
            <lit v="Aa"/>
          </modify-case>
+-->
          <out>
            <chunk name="prpers">
              <tags>
@@ -443,6 +448,7 @@
               <lu>
                 <clip pos="2" side="tl" part="lem"/>
     	        <clip pos="2" side="tl" part="a_adj"/>
+    	        <clip pos="2" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
             <b pos="1"/>
@@ -478,6 +484,7 @@
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
     	        <clip pos="1" side="tl" part="a_adj"/>
+    	        <clip pos="1" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
 	      <b/>
@@ -542,6 +549,7 @@
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
     	        <clip pos="1" side="tl" part="a_adj"/>
+    	        <clip pos="1" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
 	      <b/>
@@ -553,6 +561,7 @@
               <lu>
                 <clip pos="3" side="tl" part="lem"/>
     	        <clip pos="3" side="tl" part="a_adj"/>
+    	        <clip pos="3" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
 	      <b/>
@@ -582,6 +591,7 @@
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
     	        <clip pos="1" side="tl" part="a_adj"/>
+    	        <clip pos="1" side="tl" part="grau"/>
 	        <lit-tag v="pred"/>
               </lu>
 	      <b/>
@@ -593,6 +603,7 @@
               <lu>
                 <clip pos="3" side="tl" part="lem"/>
     	        <clip pos="3" side="tl" part="a_adj"/>
+    	        <clip pos="3" side="tl" part="grau"/>
 	        <lit-tag v="pred"/>
               </lu>
             </chunk>
@@ -618,12 +629,14 @@
               <lu>
                 <clip pos="1" side="tl" part="lem"/>
     	        <clip pos="1" side="tl" part="a_adj"/>
+    	        <clip pos="1" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
 	      <b/>
               <lu>
                 <clip pos="2" side="tl" part="lem"/>
     	        <clip pos="2" side="tl" part="a_adj"/>
+    	        <clip pos="2" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
 	      <b/>
@@ -693,6 +706,7 @@
                 <lu>
                   <clip pos="1" side="tl" part="lem"/>
                   <clip pos="1" side="tl" part="a_adj"/>
+    	          <clip pos="1" side="tl" part="grau"/>
 	          <lit-tag v="pred"/>
                 </lu>
               </chunk>

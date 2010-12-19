@@ -52,7 +52,7 @@
   </mode>
 
 
-  <mode name="af-nl-transfer" install="no">
+  <mode name="af-nl-chunker" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="af-nl.automorf.bin"/>
@@ -157,6 +157,29 @@
       </program>
     </pipeline>
   </mode>
+
+
+  <mode name="af-nl-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e">
+        <file name="af-nl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="af-nl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-af-nl.af-nl.t1x"/>
+        <file name="af-nl.t1x.bin"/>
+        <file name="af-nl.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-af-nl.af-nl.t2x"/>
+        <file name="af-nl.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
 
   <mode name="af-nl-postchunk" install="no">

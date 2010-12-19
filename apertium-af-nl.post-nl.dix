@@ -356,8 +356,8 @@
   <section id="main" type="standard">
       <e>
         <p>
-          <l><a/>foo</l>
-          <r>foo</r>
+          <l><a/><b/><a/>s<b/></l>
+          <r>s<b/></r>
         </p>
       </e>
   </section>
