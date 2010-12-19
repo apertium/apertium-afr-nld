@@ -1234,7 +1234,8 @@
     <e><p><l>augustus<s n="n"/></l><r>augustus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beeld<s n="n"/></l><r>beeld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bevolking<s n="n"/></l><r>bevolking<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>boorling<s n="n"/></l><r>inwoner<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>boorling<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>inwoner<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>broer<s n="n"/></l><r>broer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diens<s n="n"/></l><r>dienst<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>dorp<s n="n"/></l><r>dorp<s n="n"/><s n="nt"/></r></p></e>
@@ -1521,7 +1522,6 @@
     <e><p><l>bonus<s n="n"/></l><r>bonus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boodskap<s n="n"/></l><r>bericht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>boord<s n="n"/></l><r>boord<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boorling<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boor<s n="n"/></l><r>boor<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>boot<s n="n"/></l><r>boot<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bopunt<s n="n"/></l><r>bovenkant<s n="n"/><s n="m"/></r></p></e>
@@ -2653,11 +2653,11 @@
     <e><p><l>man<s n="n"/></l><r>man<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gebou<s n="n"/></l><r>gebouw<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>voorstad<s n="n"/></l><r>voorstad<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hoofstad<s n="n"/></l><r>hoofdstad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>deur<s n="n"/></l><r>deur<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eiergeel<s n="n"/></l><r>dooier<s n="n"/><s n="m"/></r></p></e>
 
-    <e><p><l>inwoner<s n="n"/></l><r>inwoner<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>grondwet<s n="n"/></l><r>grondwet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>toets<s n="n"/></l><r>toets<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>middelpunt<s n="n"/></l><r>middelpunt<s n="n"/><s n="nt"/></r></p></e>
@@ -3058,7 +3058,6 @@
     <e><p><l>vertoning<s n="n"/></l><r>vertoning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vesting<s n="n"/></l><r>vesting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vlak<s n="n"/></l><r>vlak<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>voorstad<s n="n"/></l><r>voorstad<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vriespunt<s n="n"/></l><r>vriespunt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>weeskind<s n="n"/></l><r>weeskind<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wenk<s n="n"/></l><r>wenk<s n="n"/><s n="m"/></r></p></e>
@@ -3579,7 +3578,6 @@
     <e><p><l>ingenieur<s n="n"/></l><r>techniek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vuurtoring<s n="n"/></l><r>vuurtoren<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>monargie<s n="n"/></l><r>monarchie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>hoofstad<s n="n"/></l><r>hoofdstad<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>akroniem<s n="n"/></l><r>acroniem<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Januarie<s n="n"/></l><r>januari<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Februarie<s n="n"/></l><r>februari<s n="n"/><s n="nt"/></r></p></e>
@@ -3982,8 +3980,9 @@
     <e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
     <e><p><l>belangrik<s n="adj"/><s n="sint"/></l><r>belangrijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Duits<s n="adj"/></l><r>Duits<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>suid<s n="adj"/></l><r>zuid<s n="adj"/></r></p></e>
+    <e><p><l>suid<s n="adj"/></l><r>zuid<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Afrikaans<s n="adj"/></l><r>Afrikaans<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>Suid-Afrikaans<s n="adj"/></l><r>Zuid-Afrikaans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>nasionaal<s n="adj"/></l><r>nationaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>noord<s n="adj"/></l><r>noord<s n="adj"/></r></p></e>
     <e><p><l>Amerikaans<s n="adj"/></l><r>Amerikaans<s n="adj"/><s n="sint"/></r></p></e>

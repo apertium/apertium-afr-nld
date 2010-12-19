@@ -1580,6 +1580,11 @@
 
     <e lm="ja"><i>ja</i><par n="miskien__adv"/></e>
 
+    <e lm="noord"><i>noord</i><par n="miskien__adv"/></e> 
+    <e lm="suid"><i>suid</i><par n="miskien__adv"/></e> 
+    <e lm="wes"><i>wes</i><par n="miskien__adv"/></e> 
+    <e lm="oos"><i>oos</i><par n="miskien__adv"/></e> 
+
     <!-- check these -->
 
     <e lm="bereid"><i>bereid</i><par n="miskien__adv"/></e>
@@ -9194,6 +9199,7 @@
     <e lm="wetlik"><i>wetlik</i><par n="dadelik__adj"/></e>
 
     <e lm="Afrikaans"><i>Afrikaans</i><par n="dadelik__adj"/></e>
+    <e lm="Suid-Afrikaans"><i>Suid-Afrikaans</i><par n="dadelik__adj"/></e>
     <e lm="Amerikaans"><i>Amerikaans</i><par n="dadelik__adj"/></e>
     <e lm="Spaans"><i>Spaans</i><par n="dadelik__adj"/></e>
     <e lm="Katalaans"><i>Katalaans</i><par n="dadelik__adj"/></e>
@@ -9383,10 +9389,6 @@
 
     <e lm="lewend"><i>lewend</i><par n="dadelik__adj"/></e>
     <e lm="verskillend"><i>verskillend</i><par n="dadelik__adj"/></e>
-    <e lm="noord"><i>noord</i><par n="dadelik__adj"/></e> 
-    <e lm="suid"><i>suid</i><par n="dadelik__adj"/></e> 
-    <e lm="wes"><i>wes</i><par n="dadelik__adj"/></e> 
-    <e lm="oos"><i>oos</i><par n="dadelik__adj"/></e> 
     <e lm="seker"><i>seker</i><par n="dadelik__adj"/></e> 
     <e lm="verwant"><i>verwant</i><par n="dadelik__adj"/></e> 
     <e lm="spesies"><i>spesies</i><par n="dadelik__adj"/></e> 
