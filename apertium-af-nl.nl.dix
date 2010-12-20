@@ -11771,6 +11771,60 @@
 
     <!-- SECTION: Nouns -->
 
+    <e lm="activisme"><i>activisme</i><par n="facisme__n_nt"/></e>
+    <e lm="classicisme"><i>classicisme</i><par n="facisme__n_nt"/></e>
+    <e lm="conservatisme"><i>conservatisme</i><par n="facisme__n_nt"/></e>
+    <e lm="cynisme"><i>cynisme</i><par n="facisme__n_nt"/></e>
+    <e lm="dualisme"><i>dualisme</i><par n="facisme__n_nt"/></e>
+    <e lm="ekspressionisme"><i>ekspressionisme</i><par n="facisme__n_nt"/></e>
+    <e lm="ekstremisme"><i>ekstremisme</i><par n="facisme__n_nt"/></e>
+    <e lm="existentialisme"><i>existentialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="fascisme"><i>fascisme</i><par n="facisme__n_nt"/></e>
+    <e lm="feminisme"><i>feminisme</i><par n="facisme__n_nt"/></e>
+    <e lm="feodalisme"><i>feodalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="historisme"><i>historisme</i><par n="facisme__n_nt"/></e>
+    <e lm="humanisme"><i>humanisme</i><par n="facisme__n_nt"/></e>
+    <e lm="humanisme"><i>humanisme</i><par n="facisme__n_nt"/></e>
+    <e lm="imperialisme"><i>imperialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="impressionisme"><i>impressionisme</i><par n="facisme__n_nt"/></e>
+    <e lm="industrialisme"><i>industrialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="isme"><i>isme</i><par n="facisme__n_nt"/></e>
+    <e lm="isolasionisme"><i>isolasionisme</i><par n="facisme__n_nt"/></e>
+    <e lm="kannibalisme"><i>kannibalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="kapitalisme"><i>kapitalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="katholicisme"><i>katholicisme</i><par n="facisme__n_nt"/></e>
+    <e lm="katholicisme"><i>katholicisme</i><par n="facisme__n_nt"/></e>
+    <e lm="kolonialisme"><i>kolonialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="kubisme"><i>kubisme</i><par n="facisme__n_nt"/></e>
+    <e lm="liberalisme"><i>liberalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="libertarisme"><i>libertarisme</i><par n="facisme__n_nt"/></e>
+    <e lm="magnetisme"><i>magnetisme</i><par n="facisme__n_nt"/></e>
+    <e lm="materialisme"><i>materialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="metabolisme"><i>metabolisme</i><par n="facisme__n_nt"/></e>
+    <e lm="militarisme"><i>militarisme</i><par n="facisme__n_nt"/></e>
+    <e lm="modernisme"><i>modernisme</i><par n="facisme__n_nt"/></e>
+    <e lm="nasionaalsosialisme"><i>nasionaalsosialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="nationalisme"><i>nationalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="nihilisme"><i>nihilisme</i><par n="facisme__n_nt"/></e>
+    <e lm="occultisme"><i>occultisme</i><par n="facisme__n_nt"/></e>
+    <e lm="occultisme"><i>occultisme</i><par n="facisme__n_nt"/></e>
+    <e lm="outisme"><i>outisme</i><par n="facisme__n_nt"/></e>
+    <e lm="patriottisme"><i>patriottisme</i><par n="facisme__n_nt"/></e>
+    <e lm="pragmatisme"><i>pragmatisme</i><par n="facisme__n_nt"/></e>
+    <e lm="protestantisme"><i>protestantisme</i><par n="facisme__n_nt"/></e>
+    <e lm="rationalisme"><i>rationalisme</i><par n="facisme__n_nt"/></e>
+    <e lm="realisme"><i>realisme</i><par n="facisme__n_nt"/></e>
+    <e lm="relativisme"><i>relativisme</i><par n="facisme__n_nt"/></e>
+    <e lm="republikanisme"><i>republikanisme</i><par n="facisme__n_nt"/></e>
+    <e lm="seksisme"><i>seksisme</i><par n="facisme__n_nt"/></e>
+    <e lm="semitisme"><i>semitisme</i><par n="facisme__n_nt"/></e>
+    <e lm="sjamanisme"><i>sjamanisme</i><par n="facisme__n_nt"/></e>
+    <e lm="socialisme"><i>socialisme</i><par n="facisme__n_nt"/></e>
+    <e lm="soefisme"><i>soefisme</i><par n="facisme__n_nt"/></e>
+    <e lm="surrealisme"><i>surrealisme</i><par n="facisme__n_nt"/></e>
+    <e lm="totalitarisme"><i>totalitarisme</i><par n="facisme__n_nt"/></e>
+    <e lm="verdedigingsmeganisme"><i>verdedigingsmeganisme</i><par n="facisme__n_nt"/></e>
+
     <e lm="v.Chr."><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
     <e lm="v.Chr." r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>
 
@@ -15996,7 +16050,7 @@
     <e lm="farmaceut"><i>farmaceut</i><par n="ui__n_m"/></e>
     <e lm="farmacoloog"><i>farmacolo</i><par n="bo/og__n_m"/></e>
     <e lm="farmacon"><i>farmac</i><par n="tax/on__n_nt"/></e>
-    <e lm="fascisme"><i>facisme</i><par n="fascisme__n_nt"/></e>
+    <e lm="fascisme"><i>fascisme</i><par n="fascisme__n_nt"/></e>
     <e lm="fascist"><i>fascist</i><par n="ui__n_m"/></e>
     <e lm="fase"><i>fase</i><par n="made__n_f"/></e>
     <e lm="fasemodulatie"><i>fasemodulatie</i><par n="heler__n_mf"/></e>
