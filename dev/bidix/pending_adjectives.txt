@@ -1,44 +1,53 @@
-   1775 ^@la<adj><sint>$
-    349 ^@spesies<adj>$
-    252 ^@nou<adj><sint>$
-    219 ^@wêreld<adj>$
-    209 ^@ma<adj><sint>$
-    204 ^@agt<adj><sint>$
+   1734 ^@gebore<adj>$
+   1262 ^@la<adj><sint>$
+    492 ^@la<adj><sint><comp>$
+    347 ^@spesies<adj>$
     193 ^@onlangs<adj>$
-    192 ^@koerant<adj>$
-    137 ^@ly<adj><sint>$
+    191 ^@koerant<adj>$
+    190 ^@ma<adj><sint>$
+    174 ^@agt<adj><sint>$
+    162 ^@nou<adj><sint>$
+    125 ^@huwelik<adj>$
     123 ^@gestudeer<adj>$
-    121 ^@huwelik<adj>$
-    120 ^@laas<adj>$
-    118 ^@vang<adj><sint>$
+    117 ^@laas<adj>$
+    112 ^@vang<adj><sint>$
     109 ^@verlies<adj>$
-     81 ^@kern<adj>$
+     96 ^@ly<adj><sint>$
+     84 ^@kern<adj>$
      79 ^@regter<adj>$
-     69 ^@vloot<adj>$
+     71 ^@vloot<adj>$
+     70 ^@nou<adj><sint><comp>$
      66 ^@gevolglik<adj>$
      50 ^@gestasioneer<adj>$
-     44 ^@klimaat<adj>$
+     42 ^@klimaat<adj>$
      40 ^@spies<adj>$
+     39 ^@ly<adj><sint><sup>$
+     37 ^@kos<adj>$
      36 ^@spilmoondhede<adj>$
      35 ^@omgewings<adj>$
-     34 ^@kos<adj>$
      28 ^@gekanselleer<adj>$
      27 ^@mors<adj>$
+     23 ^@nou<adj><sint><sup>$
      21 ^@markies<adj>$
+     18 ^@la<adj><sint><sup>$
      16 ^@vis<adj>$
      14 ^@infinitief<adj>$
      14 ^@gemigreer<adj>$
      13 ^@vlies<adj>$
+     13 ^@ma<adj><sint><comp>$
      12 ^@paniek<adj>$
      11 ^@slymvlies<adj>$
+     10 ^@agt<adj><sint><sup>$
       9 ^@sektaries<adj>$
       8 ^@lies<adj>$
+      6 ^@vang<adj><sint><sup>$
+      6 ^@ma<adj><sint><sup>$
       6 ^@fries<adj>$
+      6 ^@agt<adj><sint><comp>$
       4 ^@towenaar<adj>$
-      3 ^@wêreld<adj>$ 	
       3 ^@liniaal<adj>$
       2 ^@skeeps<adj>$
+      2 ^@ly<adj><sint><comp>$
       2 ^@hospies<adj>$
       1 ^@spies<adj>$ 
       1 ^@spesies<adj>$ 
-      1 ^@ly<adj><sint>$ 

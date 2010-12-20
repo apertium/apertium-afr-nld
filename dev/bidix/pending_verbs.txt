@@ -1,4 +1,3 @@
-   2062 verwys<vblex><inf>
    1132 oprig<vblex><sep><inf>
     861 bestaan<vblex><inf>
     841 voorkom<vblex><inf>
@@ -8,7 +7,7 @@
     600 aanstel<vblex><sep><inf>
     596 aanneem<vblex><sep><inf>
     586 verkoop<vblex><inf>
-    583 uitvoer<vblex><sep><inf>
+    580 uitvoer<vblex><sep><inf>
     567 aflei<vblex><sep><inf>
     558 aanbied<vblex><sep><inf>
     518 aandui<vblex><sep><inf>
@@ -16,7 +15,7 @@
     504 uitbrei<vblex><sep><inf>
     497 oorneem<vblex><sep><inf>
     495 toeken<vblex><sep><inf>
-    487 voorstel<vblex><sep><inf>
+    486 voorstel<vblex><sep><inf>
     482 aantref<vblex><sep><inf>
     467 optree<vblex><sep><inf>
     461 invoer<vblex><sep><inf>
@@ -26,8 +25,7 @@
     351 toeneem<vblex><sep><inf>
     347 inneem<vblex><sep><inf>
     342 inlê<vblex><sep><inf>
-    333 onderneem<vblex><sep><inf>
-    333 aanval<vblex><sep><inf>
+    329 aanval<vblex><sep><inf>
     317 inkeer<vblex><sep><inf>
     310 onderskei<vblex><sep><inf>
     300 instel<vblex><sep><inf>
@@ -35,7 +33,7 @@
     277 uitspreek<vblex><sep><inf>
     275 uitbreek<vblex><sep><inf>
     261 aanhou<vblex><sep><inf>
-    255 aanteken<vblex><sep><inf>
+    254 aanteken<vblex><sep><inf>
     254 aanpas<vblex><sep><inf>
     251 uitgee<vblex><sep><inf>
     250 aanlê<vblex><sep><inf>
@@ -48,8 +46,8 @@
     222 toepas<vblex><sep><inf>
     216 aanwys<vblex><sep><inf>
     202 opstel<vblex><sep><inf>
-    200 grond<vblex><inf>
     198 aanvul<vblex><sep><inf>
+    195 grond<vblex><inf>
     187 ondergaan<vblex><sep><inf>
     181 onderteken<vblex><sep><inf>
     181 aanbring<vblex><sep><inf>
@@ -61,37 +59,37 @@
     149 aanmoedig<vblex><sep><inf>
     142 onderdruk<vblex><sep><inf>
     141 verrig<vblex><inf>
-    141 opbou<vblex><sep><inf>
     141 aflê<vblex><sep><inf>
+    140 opbou<vblex><sep><inf>
     140 onderrig<vblex><sep><inf>
     137 oplos<vblex><sep><inf>
     137 oplê<vblex><sep><inf>
     133 toestaan<vblex><sep><inf>
+    130 voordeel<vblex><sep><inf>
     130 uitbou<vblex><sep><inf>
-    125 voordeel<vblex><sep><inf>
     123 aangee<vblex><sep><inf>
     120 uitdruk<vblex><sep><inf>
     118 inwerk<vblex><sep><inf>
     118 afbreek<vblex><sep><inf>
     117 uitvind<vblex><sep><inf>
-    116 onderwys<vblex><sep><inf>
     116 inhou<vblex><sep><inf>
     115 aanvoer<vblex><sep><inf>
+    112 onderwys<vblex><sep><inf>
     106 noodsaak<vblex><inf>
     105 uitsterf<vblex><sep><inf>
+    105 aandeel<vblex><sep><inf>
     103 verdien<vblex><inf>
-    102 aandeel<vblex><sep><inf>
     101 oproep<vblex><sep><inf>
     100 oorgaan<vblex><sep><inf>
      99 ophou<vblex><sep><inf>
      97 oorgee<vblex><sep><inf>
      96 saamwerk<vblex><sep><inf>
-     96 inval<vblex><sep><inf>
      95 inskryf<vblex><sep><inf>
      95 aangaan<vblex><sep><inf>
      94 voorberei<vblex><sep><inf>
      94 terugtrek<vblex><sep><inf>
      92 ondervind<vblex><sep><inf>
+     91 inval<vblex><sep><inf>
      91 indeel<vblex><sep><inf>
      91 aandring<vblex><sep><inf>
      85 opvoer<vblex><sep><inf>
@@ -115,6 +113,7 @@
      67 voorstaan<vblex><sep><inf>
      67 toedien<vblex><sep><inf>
      67 aantoon<vblex><sep><inf>
+     66 aansoek<vblex><sep><inf>
      66 aandoen<vblex><sep><inf>
      65 onderbreek<vblex><sep><inf>
      65 omkeer<vblex><sep><inf>
@@ -126,7 +125,6 @@
      60 voorlê<vblex><sep><inf>
      60 terugvoer<vblex><sep><inf>
      60 aanspreek<vblex><sep><inf>
-     60 aansoek<vblex><sep><inf>
      58 deurloop<vblex><sep><inf>
      57 deurdring<vblex><sep><inf>
      55 omtrek<vblex><sep><inf>
@@ -146,12 +144,12 @@
      49 aanstuur<vblex><sep><inf>
      49 aandryf<vblex><sep><inf>
      48 uitstel<vblex><sep><inf>
-     48 lys<vblex><inf>
      47 uitstuur<vblex><sep><inf>
      47 toetree<vblex><sep><inf>
      47 opdra<vblex><sep><inf>
      47 afskei<vblex><sep><inf>
      46 uitnooi<vblex><sep><inf>
+     46 lys<vblex><inf>
      46 aanrig<vblex><sep><inf>
      46 aankla<vblex><sep><inf>
      45 teruggee<vblex><sep><inf>
@@ -165,12 +163,12 @@
      42 opstaan<vblex><sep><inf>
      42 opbreek<vblex><sep><inf>
      42 intree<vblex><sep><inf>
-     42 below<vblex><inf>
      41 neerlê<vblex><sep><inf>
      40 uittrek<vblex><sep><inf>
      40 oplaai<vblex><sep><inf>
      40 inbou<vblex><sep><inf>
      40 aanbreek<vblex><sep><inf>
+     39 below<vblex><inf>
      39 aanplant<vblex><sep><inf>
      38 uitbring<vblex><sep><inf>
      38 terugstuur<vblex><sep><inf>
@@ -180,11 +178,11 @@
      38 inrig<vblex><sep><inf>
      38 hou<vblex><inf>
      37 omskryf<vblex><sep><inf>
-     37 indruk<vblex><sep><inf>
      36 toewys<vblex><sep><inf>
      36 omsit<vblex><sep><inf>
      36 aflaai<vblex><sep><inf>
      35 omgaan<vblex><sep><inf>
+     35 indruk<vblex><sep><inf>
      34 opgee<vblex><sep><inf>
      34 inlei<vblex><sep><inf>
      34 afdruk<vblex><sep><inf>
@@ -211,13 +209,13 @@
      26 aanbly<vblex><sep><inf>
      25 opsoek<vblex><sep><inf>
      25 oortrek<vblex><sep><inf>
-     25 oordeel<vblex><sep><inf>
      25 inbring<vblex><sep><inf>
      25 deurwerk<vblex><sep><inf>
      25 aanmeld<vblex><sep><inf>
      24 voorhou<vblex><sep><inf>
      24 uitken<vblex><sep><inf>
      24 terugkry<vblex><sep><inf>
+     24 oordeel<vblex><sep><inf>
      23 voorgee<vblex><sep><inf>
      23 uitdaag<vblex><sep><inf>
      23 inpas<vblex><sep><inf>
@@ -240,9 +238,9 @@
      20 insit<vblex><sep><inf>
      20 ingee<vblex><sep><inf>
      19 voordra<vblex><sep><inf>
-     19 vee<vblex><inf>
      19 instuur<vblex><sep><inf>
      19 aanstaan<vblex><sep><inf>
+     18 vee<vblex><inf>
      18 toesê<vblex><sep><inf>
      18 terugbring<vblex><sep><inf>
      18 deurgaan<vblex><sep><inf>
@@ -257,7 +255,6 @@
      16 wegneem<vblex><sep><inf>
      16 wegdoen<vblex><sep><inf>
      16 uitskei<vblex><sep><inf>
-     16 toestel<vblex><sep><inf>
      16 terugdring<vblex><sep><inf>
      16 opvul<vblex><sep><inf>
      16 opsê<vblex><sep><inf>
@@ -265,6 +262,7 @@
      16 oorskryf<vblex><sep><inf>
      16 afrig<vblex><sep><inf>
      15 uitwyk<vblex><sep><inf>
+     15 toestel<vblex><sep><inf>
      15 onderskryf<vblex><sep><inf>
      15 ingooi<vblex><sep><inf>
      15 deurbreek<vblex><sep><inf>
@@ -291,7 +289,6 @@
      12 afhaal<vblex><sep><inf>
      12 aandra<vblex><sep><inf>
      11 wegvoer<vblex><sep><inf>
-     11 voorval<vblex><sep><inf>
      11 uitkoop<vblex><sep><inf>
      11 terughou<vblex><sep><inf>
      11 opdien<vblex><sep><inf>
@@ -328,6 +325,7 @@
       8 aansit<vblex><sep><inf>
       7 wegspoel<vblex><sep><inf>
       7 wegbly<vblex><sep><inf>
+      7 voorval<vblex><sep><inf>
       7 voorneem<vblex><sep><inf>
       7 voorkeer<vblex><sep><inf>
       7 uitneem<vblex><sep><inf>
@@ -336,6 +334,7 @@
       7 terugkoop<vblex><sep><inf>
       7 opvat<vblex><sep><inf>
       7 opgooi<vblex><sep><inf>
+      7 onderdeel<vblex><sep><inf>
       7 omhaal<vblex><sep><inf>
       7 neersit<vblex><sep><inf>
       7 insny<vblex><sep><inf>
@@ -355,7 +354,6 @@
       6 raakloop<vblex><sep><inf>
       6 opskryf<vblex><sep><inf>
       6 oorlaai<vblex><sep><inf>
-      6 onderdeel<vblex><sep><inf>
       6 neerkyk<vblex><sep><inf>
       6 inry<vblex><sep><inf>
       6 indryf<vblex><sep><inf>

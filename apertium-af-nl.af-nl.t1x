@@ -40,6 +40,12 @@
     <def-cat n="prpers">
       <cat-item lemma="prpers" tags="prn.*"/>
     </def-cat>
+    <def-cat n="verbmodfin">
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbhaver.pres"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbhaver.past"/>
+    </def-cat>
     <def-cat n="verbfin">
       <cat-item tags="vblex.sep.fm.pres"/>
       <cat-item tags="vblex.sep.fs.pres"/>
@@ -382,6 +388,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: DET NOM">
       <pattern>
         <pattern-item n="det"/>
@@ -453,7 +460,7 @@
     	        <clip pos="2" side="tl" part="grau"/>
 	        <lit-tag v="attr"/>
               </lu>
-            <b pos="1"/>
+            <b pos="2"/>
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>

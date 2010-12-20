@@ -186,6 +186,17 @@
       <e>       <p><l/><r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="ander__det">
+      <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="verschillende__det">
+      <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
    <!-- SECTION: Numerals -->
 
     <pardef n="één__num">
@@ -5155,6 +5166,12 @@
     <pardef n="v.Chr.__n_mf">
       <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="km__n_m">
+      <e>       <p><l/><r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l/><r><s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="corp/us__n_nt">
       <e>       <p><l>us</l><r>us<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ora</l><r>us<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
@@ -6250,12 +6267,12 @@
     <pardef n="eb__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="eb__n_f">
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="o/og__n_nt">
       <e>       <p><l>og</l><r>og<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>gen</l><r>og<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-    </pardef>
-    <pardef n="eb__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     <pardef n="Nepale/es__adj">
       <e>       <p><l>se</l><r>es<s n="adj"/><s n="attr"/></r></p></e>
@@ -8382,6 +8399,8 @@
 
     <e lm="sommige"><i>sommige</i><par n="sommige__det"/></e>
     <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
+    <e lm="verschillende"><i>verschillende</i><par n="verschillende__det"/></e>
+    <e lm="ander"><i>ander</i><par n="ander__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -8509,6 +8528,13 @@
 	<e lm="vijftig"><i>vijftig</i><par n="twee__num"/></e>
 
 	<e lm="miljoen"><i>miljoen</i><par n="twee__num"/></e>
+
+    <e lm="II"><i>II</i><par n="twee__num"/></e>
+    <e lm="III"><i>III</i><par n="twee__num"/></e>
+    <e lm="IV"><i>IV</i><par n="twee__num"/></e>
+    <e lm="VI"><i>VI</i><par n="twee__num"/></e>
+    <e lm="VII"><i>VII</i><par n="twee__num"/></e>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -10822,6 +10848,7 @@
     <e lm="kosmopolitisch"><i>kosmopolitisch</i><par n="fors__adj_sint"/></e>
     <e lm="kostbaar"><i>kostba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="kostelijk"><i>kostelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="ambtelijk"><i>ambtelijk</i><par n="eng__adj_sint"/></e>
     <e lm="kosteloos"><i>kostelo</i><par n="lo/os__adj_sint"/></e>
     <e lm="koud"><i>koud</i><par n="eng__adj_sint"/></e>
     <e lm="krank"><i>krank</i><par n="eng__adj_sint"/></e>
@@ -11023,6 +11050,7 @@
     <e lm="noordelijk"><i>noordelijk</i><par n="eng__adj_sint"/></e>
     <e lm="noordoostelijk"><i>noordoostelijk</i><par n="eng__adj_sint"/></e>
     <e lm="noordwestelijk"><i>noordwestelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="westelijk"><i>westelijk</i><par n="eng__adj_sint"/></e>
     <e lm="nors"><i>nors</i><par n="fors__adj_sint"/></e>
     <e lm="nostalgisch"><i>nostalgisch</i><par n="fors__adj_sint"/></e>
     <e lm="nuchter"><i>nuchter</i><par n="fier__adj_sint"/></e>
@@ -11745,6 +11773,12 @@
 
     <e lm="v.Chr."><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
     <e lm="v.Chr." r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>
+
+    <e lm="km"><i>km</i><par n="km__n_m"/></e>
+    <e lm="mm"><i>mm</i><par n="km__n_m"/></e>
+    <e lm="nm"><i>nm</i><par n="km__n_m"/></e>
+    <e lm="cm"><i>cm</i><par n="km__n_m"/></e>
+    <e lm="m"><i>m</i><par n="km__n_m"/></e>
 
     <e lm="2-propeenzuur"><i>2-propeenzuur</i><par n="OV__n_nt"/></e>
     <e lm="65+-kaart"><i>65+-kaart</i><par n="65+-kaart__n_mf"/></e>
@@ -12716,6 +12750,7 @@
     <e lm="aagt"><i>aagt</i><par n="ui__n_m"/></e>
     <e lm="aai"><i>aai</i><par n="ui__n_m"/></e>
     <e lm="aaibaarheidsfactor"><i>aaibaarheidsfactor</i><par n="ui__n_m"/></e>
+    <e lm="vorm"><i>vorm</i><par n="ui__n_m"/></e>
     <e lm="aak"><i>a</i><par n="a/ak__n_f"/></e>
     <e lm="aak"><i>a</i><par n="a/ak__n_m"/></e>
     <e lm="aal"><i>a</i><par n="a/al__n_f"/></e>
@@ -20330,7 +20365,6 @@
     <e lm="politicologie"><i>politicologie</i><par n="eb__n_f"/></e>
     <e lm="politicus"><i>politic</i><par n="cirr/us__n_m"/></e>
     <e lm="politie"><i>politie</i><par n="eb__n_f"/></e>
-    <e lm="politie"><i>politie</i><par n="eb__n_m"/></e>
     <e lm="politieagent"><i>politieagent</i><par n="ui__n_m"/></e>
     <e lm="politiebureau"><i>politiebureau</i><par n="Bo__n_nt"/></e>
     <e lm="politiehond"><i>politiehond</i><par n="vering__n_f"/></e>
@@ -21590,9 +21624,8 @@
     <e lm="somatotrofine"><i>somatotrofine</i><par n="OV__n_nt"/></e>
     <e lm="sonde"><i>sonde</i><par n="led__n_m"/></e>
     <e lm="songtekst"><i>songtekst</i><par n="ui__n_m"/></e>
-    <e lm="soort"><i>soort</i><par n="vering__n_f"/></e>
     <e lm="soort"><i>soort</i><par n="lot__n_nt"/></e>
-    <e lm="soort"><i>soort</i><par n="ui__n_m"/></e>
+    <e lm="soort"><i>soort</i><par n="hui__n_mf"/></e>
     <e lm="sop"><i>sop</i><par n="dop__n_nt"/></e>
     <e lm="sortering"><i>sortering</i><par n="vering__n_f"/></e>
     <e lm="sos"><i>sos</i><par n="as__n_m"/></e>
@@ -25082,8 +25115,18 @@
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Apertium"><i>Apertium</i><par n="Apertium__np"/></e>
 
-
-
+    <e lm="Botha"><i>Botha</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Dalí"><i>Dalí</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Hughes"><i>Hughes</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Mandela"><i>Mandela</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Smith"><i>Smith</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e>
+    <e lm="van der Merwe"><i>van<b/>der<b/>Merwe</i><par n="van_der_Merwe__np"/></e>
+    <e lm="van Vuuren"><i>van<b/>Vuuren</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Warhol"><i>Warhol</i><par n="van_der_Merwe__np"/></e>
 
     <!-- SECTION: Verbs -->
 
