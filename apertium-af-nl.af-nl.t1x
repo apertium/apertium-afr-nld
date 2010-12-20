@@ -37,8 +37,11 @@
       <cat-item tags="det.def.*"/>
       <cat-item tags="det.qnt.*"/>
     </def-cat>
-    <def-cat n="prpers">
-      <cat-item lemma="prpers" tags="prn.*"/>
+    <def-cat n="prpers_subj">
+      <cat-item lemma="prpers" tags="prn.subj.*"/>
+    </def-cat>
+    <def-cat n="prpers_obj">
+      <cat-item lemma="prpers" tags="prn.obj.*"/>
     </def-cat>
     <def-cat n="verbmodfin">
       <cat-item tags="vbser.pres"/>
@@ -360,9 +363,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: PRPERS">
+    <rule comment="REGLA: PRPERS SUBJ">
       <pattern>
-        <pattern-item n="prpers"/>
+        <pattern-item n="prpers_subj"/>
       </pattern>
       <action>
 <!--
@@ -375,6 +378,43 @@
            <chunk name="prpers">
              <tags>
                <tag><lit-tag v="PRN"/></tag>
+               <tag><lit-tag v="SUBJ"/></tag>
+               <tag><clip pos="1" side="tl" part="pers"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="tipus_prn"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+         </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: PRPERS OBJ">
+      <pattern>
+        <pattern-item n="prpers_obj"/>
+      </pattern>
+      <action>
+<!--
+        <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="Aa"/>
+         </modify-case>
+-->
+         <out>
+           <chunk name="prpers">
+             <tags>
+               <tag><lit-tag v="PRN"/></tag>
+               <tag><lit-tag v="OBJ"/></tag>
+               <tag><clip pos="1" side="tl" part="pers"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="lem"/>
