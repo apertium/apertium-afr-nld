@@ -8845,6 +8845,9 @@
     <e lm="bring"><i>bring</i><par n="breek__vblex"/></e>
     <e lm="bring"><p><l>gebring</l><r>bring</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="brei"><i>brei</i><par n="breek__vblex"/></e>
+    <e lm="brei"><p><l>gebrei</l><r>brei</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="broei"><i>broei</i><par n="breek__vblex"/></e>
     <e lm="broei"><p><l>gebroei</l><r>broei</r></p><par n="gebreek__vblex"/></e>
 
@@ -8868,9 +8871,6 @@
 
     <e lm="dreig"><i>dreig</i><par n="breek__vblex"/></e>
     <e lm="dreig"><p><l>gedreig</l><r>dreig</r></p><par n="gebreek__vblex"/></e>
-
-    <e lm="eet"><i>eet</i><par n="breek__vblex"/></e>
-    <e lm="eet"><p><l>geeet</l><r>eet</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="eindig"><i>eindig</i><par n="breek__vblex"/></e>
     <e lm="eindig"><p><l>geeindig</l><r>eindig</r></p><par n="gebreek__vblex"/></e>
