@@ -460,7 +460,7 @@
     <e><p><l>graad<s n="n"/></l><r>graad<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vloei<s n="n"/></l><r>stroom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>data<s n="n"/></l><r>data<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>privaat<s n="n"/></l><r>privé<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>privaat<s n="n"/></l><r>toilet<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>steun<s n="n"/></l><r>steun<s n="n"/><s n="m"/></r></p></e> <!-- unc -->
     <e><p><l>loopbaan<s n="n"/></l><r>carrière<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>band<s n="n"/></l><r>band<s n="n"/><s n="m"/></r></p></e>
@@ -954,7 +954,7 @@
     <e><p><l>whiskey<s n="n"/></l><r>whiskey<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>uitsaaidiens<s n="n"/></l><r>uitzending<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>trol<s n="n"/></l><r>trol<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>smoorklep<s n="n"/></l><r>choke<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>smoorklep<s n="n"/></l><r>choke<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>slaai<s n="n"/></l><r>salade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skandium<s n="n"/></l><r>scandium<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>sirkonium<s n="n"/></l><r>zirkonium<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
@@ -1041,7 +1041,7 @@
     <e><p><l>dagga<s n="n"/></l><r>wiet<s n="n"/><s n="mf"/></r></p></e> <!-- unc -->
     <e><p><l>waterverf<s n="n"/></l><r>waterverf<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>voorgereg<s n="n"/></l><r>voorgerecht<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>stoorplek<s n="n"/></l><r>oplsagruimte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>stoorplek<s n="n"/></l><r>opslagruimte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>posstelsel<s n="n"/></l><r>postsysteem<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>polisiekantoor<s n="n"/></l><r>politiebureau<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nanometer<s n="n"/></l><r>nanometer<s n="n"/><s n="mf"/></r></p></e>
@@ -2975,7 +2975,7 @@
     <e><p><l>palatalisering<s n="n"/></l><r>palatalisering<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mobilisering<s n="n"/></l><r>mobilisatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>duplisering<s n="n"/></l><r>duplicatie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>veroweringsoorlog<s n="n"/></l><r>veroweringsoorlog<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>veroweringsoorlog<s n="n"/></l><r>veroveringsoorlog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>popularisering<s n="n"/></l><r>popularisering<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politisering<s n="n"/></l><r>politisering<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>normalisering<s n="n"/></l><r>normalisatie<s n="n"/><s n="f"/></r></p></e>

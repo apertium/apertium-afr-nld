@@ -17839,6 +17839,7 @@
     <e lm="judo"><i>judo</i><par n="OV__n_nt"/></e>
     <e lm="judoka"><i>judoka</i><par n="ra__n_mf"/></e>
     <e lm="juf"><i>juf</i><par n="juf__n_f"/></e>
+	<e lm="brandstof"><i>brandstof</i><par n="juf__n_f"/></e>
     <e lm="juffer"><i>juffer</i><par n="roe__n_f"/></e>
     <e lm="juistheid"><i>juisthe</i><par n="oudhe/id__n_f"/></e>
     <e lm="juk"><i>juk</i><par n="bak__n_nt"/></e>
@@ -17939,6 +17940,13 @@
     <e lm="kanker"><i>kanker</i><par n="led__n_m"/></e>
     <e lm="kankergezwel"><i>kankergezwel</i><par n="mol__n_nt"/></e>
     <e lm="kankerhoer"><i>kankerhoer</i><par n="vering__n_f"/></e>
+	<e lm="taalontwikkeling"><i>taalontwikkeling</i><par n="vering__n_f"/></e>
+	<e lm="tong"><i>tong</i><par n="vering__n_f"/></e>
+	<e lm="heerschappij"><i>heerschappij</i><par n="vering__n_f"/></e>
+	<e lm="raffinaderij"><i>raffinaderij</i><par n="vering__n_f"/></e>
+	<e lm="oppositiepartij"><i>oppositiepartij</i><par n="vering__n_f"/></e>
+	<e lm="kloosterkerk"><i>kloosterkerk</i><par n="vering__n_f"/></e>
+	<e lm="staatskerk"><i>staatskerk</i><par n="vering__n_f"/></e>
     <e lm="kankernicht"><i>kankernicht</i><par n="hui__n_mf"/></e>
     <e lm="kankerspecialist"><i>kankerspecialist</i><par n="ui__n_m"/></e>
     <e lm="kannibaal"><i>kanniba</i><par n="ta/al__n_m"/></e>
@@ -24460,9 +24468,16 @@
     <e lm="compressie"><i>compressie</i><par n="eb__n_f"/></e>
     <e lm="depressie"><i>depressie</i><par n="roe__n_f"/></e>
     <e lm="erosie"><i>erosie</i><par n="eb__n_f"/></e>
+	<e lm="schaamte"><i>schaamte</i><par n="eb__n_f"/></e>
     <e lm="excursie"><i>excursie</i><par n="roe__n_f"/></e>
     <e lm="sessie"><i>sessie</i><par n="roe__n_f"/></e>
+    <e lm="controverse"><i>controverse</i><par n="made__n_f"/></e>
+    <e lm="middenklasse"><i>middenklasse</i><par n="made__n_f"/></e>
     <e lm="visie"><i>visie</i><par n="roe__n_f"/></e>
+	<e lm="centrale"><i>centrale</i><par n="roe__n_f"/></e>
+    <e lm="schrijfmachine"><i>schrijfmachine</i><par n="roe__n_f"/></e>
+    <e lm="verkiezingscampagne"><i>verkiezingscampagne</i><par n="roe__n_f"/></e>
+    <e lm="vertaalmachine"><i>vertaalmachine</i><par n="roe__n_f"/></e>
     <e lm="onderfamilie"><i>onderfamilie</i><par n="roe__n_f"/></e>
     <e lm="schoonfamilie"><i>schoonfamilie</i><par n="roe__n_f"/></e>
     <e lm="zaakwaarneemster"><i>zaakwaarneemster</i><par n="roe__n_f"/></e>
