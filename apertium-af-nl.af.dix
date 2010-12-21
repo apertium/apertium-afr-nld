@@ -1026,6 +1026,10 @@
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="Verenigde_Nasies__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Pronomen -->
 
     <pardef n="die_ander__prn">
@@ -3063,7 +3067,7 @@
     <e lm="Siberië"><i>Siberië</i><par n="Engeland__np"/></e>
     <e lm="Stille oseaan"><i>Stille<b/>oseaan</i><par n="Engeland__np"/></e>
     <e lm="Verenigde Koninkryk"><i>Verenigde<b/>Koninkryk</i><par n="Engeland__np"/></e>
-    <e lm="Verenigde Nasies"><i>Verenigde<b/>Nasies</i><par n="Engeland__np"/></e>
+    <e lm="Verenigde Nasies"><i>Verenigde<b/>Nasies</i><par n="Verenigde_Nasies__np"/></e>
     <e lm="Verenigde State van Amerika"><i>Verenigde<b/>State<b/>van<b/>Amerika</i><par n="Engeland__np"/></e>
     <e lm="Vlaandere"><i>Vlaandere</i><par n="Engeland__np"/></e>
     <e lm="Wes-Sahara"><i>Wes-Sahara</i><par n="Engeland__np"/></e>
