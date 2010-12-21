@@ -115,7 +115,7 @@
     </pardef>
 
     <pardef n="numeros">
-      <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
   
    <!-- SECTION: Prepositions -->
@@ -191,6 +191,11 @@
       <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="elke__det">
+      <e><p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+    </pardef>
+
 
     <pardef n="verschillende__det">
       <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
@@ -5239,6 +5244,7 @@
       <e>       <p><l>s</l><r>en<s n="adj"/><s n="part"/></r></p></e>
       <e>       <p><l></l><r>en<s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
+
     <pardef n="spon/s__n_f">
       <e>       <p><l>s</l><r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>sen</l><r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -5328,6 +5334,19 @@
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="/veel__adj_sint">
+      <e>       <p><l>vele</l><r>veel<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>meers</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="part"/></r></p></e>
+      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>veels</l><r>veel<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
+      <e>       <p><l>veel</l><r>veel<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>meeste</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>meeste</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>meest</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
+    </pardef>
+
     <pardef n="minza/am__adj_sint">
       <e>       <p><l>me</l><r>am<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>mere</l><r>am<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
@@ -5820,9 +5839,9 @@
       <e>       <p><l>ten</l><r>et<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="Afghaans__adj">
-      <e>       <p><l></l><r>﻿<s n="adj"/><s n="pred"/></r></p></e>
-	  <e>       <p><l>s</l><r>﻿<s n="adj"/><s n="part"/></r></p></e>
-	  <e>       <p><l>e</l><r>﻿<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l></l><r><s n="adj"/><s n="pred"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+	  <e>       <p><l>e</l><r><s n="adj"/><s n="attr"/></r></p></e>
     </pardef>
     <pardef n="Jo/od__n_m">
       <e>       <p><l>od</l><r>od<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -8401,6 +8420,7 @@
     <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
     <e lm="verschillende"><i>verschillende</i><par n="verschillende__det"/></e>
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
+    <e lm="elke"><i>elke</i><par n="elke__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -8541,6 +8561,7 @@
     <e lm="te"><i>te</i><par n="te__preadv"/></e>
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
     <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
+    <e lm="meeste"><i>meeste</i><par n="te__preadv"/></e>
 
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
@@ -9771,6 +9792,8 @@
 
     <!-- SECTION: Adjectives -->
 
+    <e lm="veel"><i></i><par n="/veel__adj_sint"/></e>
+
     <e lm="Afghaans"><i>Afghaans</i><par n="fors__adj_sint"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="fors__adj_sint"/></e>
     <e lm="Zuid-Afrikaans"><i>Zuid-Afrikaans</i><par n="fors__adj_sint"/></e>
@@ -9935,6 +9958,7 @@
     <e lm="aangelegen"><i>aangelegen</i><par n="even__adj"/></e>
     <e lm="aangenaam"><i>aangena</i><par n="minza/am__adj_sint"/></e>
     <e lm="aangepast"><i>aangepast</i><par n="eng__adj_sint"/></e>
+    <e lm="natuurlijk"><i>natuurlijk</i><par n="eng__adj_sint"/></e>
     <e lm="aangeslagen"><i>aangeslagen</i><par n="open__adj_sint"/></e>
     <e lm="aanneembaar"><i>aanneemba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="aannemelijk"><i>aannemelijk</i><par n="eng__adj_sint"/></e>
@@ -24750,6 +24774,7 @@
     <e lm="ziel"><i>ziel</i><par n="hui__n_mf"/></e>
     <e lm="zielenroersel"><i>zielenroersel</i><par n="lot__n_nt"/></e>
     <e lm="zigeunerfamilie"><i>zigeunerfamilie</i><par n="roe__n_f"/></e>
+    <e lm="taalfamilie"><i>taalfamilie</i><par n="roe__n_f"/></e>
     <e lm="zigzag"><i>zigzag</i><par n="led__n_m"/></e>
     <e lm="zijaanzicht"><i>zijaanzicht</i><par n="lot__n_nt"/></e>
     <e lm="zijbeuk"><i>zijbeuk</i><par n="hui__n_mf"/></e>
@@ -25411,7 +25436,7 @@
     <e lm="Noorwegen"><i>Noorwegen</i><par n="Frankrijk__np"/></e>
     <e lm="Normandië"><i>Normandië</i><par n="Frankrijk__np"/></e>
     <e lm="Oceanië"><i>Oceanië</i><par n="Frankrijk__np"/></e>
-    <e lm="OekraïNe"><i>OekraïNe</i><par n="Frankrijk__np"/></e>
+    <e lm="Oekraïne"><i>Oekraïne</i><par n="Frankrijk__np"/></e>
     <e lm="Oeralgebergte"><i>Oeralgebergte</i><par n="Frankrijk__np"/></e>
     <e lm="Oezbekistan"><i>Oezbekistan</i><par n="Frankrijk__np"/></e>
     <e lm="Oostenrijk"><i>Oostenrijk</i><par n="Frankrijk__np"/></e>
@@ -25543,6 +25568,11 @@
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Apertium"><i>Apertium</i><par n="Apertium__np"/></e>
+    <e lm="Linux"><i>Linux</i><par n="Apertium__np"/></e>
+    <e lm="Javascript"><i>Javascript</i><par n="Apertium__np"/></e>
+    <e lm="Hezbollah"><i>Hezbollah</i><par n="Apertium__np"/></e>
+    <e lm="NAVO"><i>NAVO</i><par n="Apertium__np"/></e>
+    <e lm="Amnesty International"><i>Amnesty<b/>International</i><par n="Apertium__np"/></e>
 
     <e lm="Botha"><i>Botha</i><par n="van_der_Merwe__np"/></e>
     <e lm="Dalí"><i>Dalí</i><par n="van_der_Merwe__np"/></e>

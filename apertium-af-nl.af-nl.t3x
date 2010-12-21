@@ -7,9 +7,6 @@
     <def-cat n="verb">
       <cat-item name="verb"/>
     </def-cat>
-    <def-cat n="nom">
-      <cat-item name="nom"/>
-    </def-cat>
      <def-cat n="nom_gen">
       <cat-item name="nom_gen"/>
     </def-cat>
@@ -68,19 +65,6 @@
           <lu>
             <clip pos="1" part="whole"/>
             <lit v="~"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="CHUNK:">
-      <pattern>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" part="whole"/>
           </lu>
         </out>
       </action>

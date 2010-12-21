@@ -1,14 +1,17 @@
    1184 ^@april<n>$
-    429 ^@vervoer<n>$
-    334 ^@honderd<n>$
-    245 ^@onderwys<n>$
+    495 ^@vervoer<n>$
+    341 ^@honderd<n>$
+    240 ^@onderwys<n>$
+    209 ^@regs<n>$
     198 ^@mars<n>$
     164 ^@gemeet<n>$
     160 ^@mnr<n>$
-    152 ^@regs<n>$
     146 ^@verkeer<n>$
     138 ^@ekstra<n>$
     116 ^@oorgroot<n>$
+     54 ^@vervoer<n><cmp>$
+     49 ^@regs<n><cmp>$
+     30 ^@honderd<n><cmp>$
      27 ^@bewaarde<n>$
      11 ^@papie<n>$
      10 ^@opgemeet<n>$
@@ -21,10 +24,11 @@
       5 ^@brughoof<n>$
       4 ^@verstoot<n>$
       4 ^@konkordaat<n>$
+      4 ^@boswêreld<n>$
       3 ^@rekenaarbedryfstelsel<n>$
       3 ^@ontwater<n>$
+      3 ^@mars<n><cmp>$
       3 ^@kapittelkerk<n>$
-      3 ^@boswêreld<n>$
       3 ^@appélhof<n>$
       2 ^@swierbol<n>$
       2 ^@skynhoof<n>$

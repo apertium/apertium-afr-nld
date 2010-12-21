@@ -21,6 +21,9 @@
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="nom-cmp">
+      <cat-item tags="n.*.cmp"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -43,11 +46,11 @@
     <def-cat n="prpers_obj">
       <cat-item lemma="prpers" tags="prn.obj.*"/>
     </def-cat>
-    <def-cat n="verbmodfin">
-      <cat-item tags="vbser.pres"/>
-      <cat-item tags="vbhaver.pres"/>
+    <def-cat n="verbmod_past">
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbhaver.past"/>
+      <cat-item tags="vbmod.past"/>
+      <cat-item tags="vaux.past"/>
     </def-cat>
     <def-cat n="verbfin">
       <cat-item tags="vblex.sep.fm.pres"/>
@@ -238,6 +241,37 @@
   </section-def-macros>
 
   <section-rules>
+
+    <rule comment="REGLA: NOM-CMP NOM">
+      <pattern>
+        <pattern-item n="nom-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="cmp"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: det">
       <pattern>
         <pattern-item n="det"/>
@@ -786,6 +820,31 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: verbmod_past">
+      <pattern>
+        <pattern-item n="verbmod_past"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="verb">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="3.4"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: verbfin">

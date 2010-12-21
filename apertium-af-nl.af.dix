@@ -122,7 +122,7 @@
     </pardef>
 
     <pardef n="numeros">
-      <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
     <pardef n="separa">
@@ -291,6 +291,14 @@
       <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
     </pardef>
 
+    <pardef n="/veel__adj">
+      <e>       <p><l>veel</l><r>veel<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <e>       <p><l>vele</l><r>veel<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
+      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
+      <e>       <p><l>mees</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
+      <e>       <p><l>meeste</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+    </pardef>
 
     <pardef n="konfidensi/eel__adj">
       <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="attr"/></r></p></e>
@@ -577,6 +585,11 @@
       <!--<e>       <p><l/><r><s n="n"/><s n="unc"/><s n="sg"/></r></p></e>-->
     </pardef>
 
+    <pardef n="bier__n">
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>e</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    </pardef>
+
     <pardef n="afsto/f__n">
       <e>       <p><l>f</l><r>f<s n="n"/><s n="sg"/></r></p></e>
       <e>       <p><l>wwe</l><r>f<s n="n"/><s n="pl"/></r></p></e>
@@ -620,11 +633,6 @@
     <pardef n="appèl__n">
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
       <e>       <p><l>le</l><r><s n="n"/><s n="pl"/></r></p></e>
-    </pardef>
-
-    <pardef n="bier__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
-      <e>       <p><l>e</l><r><s n="n"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="bed__n">
@@ -1217,8 +1225,6 @@
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
     <e lm="enige"><i>enige</i><par n="ander__det"/></e>
     <e lm="sommige"><i>sommige</i><par n="baie__det"/></e>
-    <e lm="mees"><i>mees</i><par n="baie__det"/></e><!-- this should be changed mees + meeste are the same root -->
-    <e lm="meeste"><i>meeste</i><par n="baie__det"/></e><!-- this should be changed mees + meeste are the same root -->
     <e lm="elke"><i>elke</i><par n="elke__det"/></e>
     <e lm="albei"><i>albei</i><par n="elke__det"/></e>
     <e lm="geen"><i>geen</i><par n="elke__det"/></e>
@@ -1248,7 +1254,7 @@
     <e lm="meeste van"><i>meeste<b/>van</i><par n="genoeg__det"/></e><!-- most of -->
 
     <e lm="baie"><i>baie</i><par n="baie__det"/></e>
-    <e lm="vele"><i>vele</i><par n="baie__det"/></e><!-- many :: CHECK -->
+    <!--<e lm="vele"><i>vele</i><par n="baie__det"/></e>--><!-- many :: CHECK -->
     <e lm="verskeie"><i>verskeie</i><par n="verskeie__det"/></e>
 
     <e lm="eerste"><i>eerste</i><par n="tweede__det"/></e>
@@ -1366,6 +1372,7 @@
     <e lm="hul"><i>hul</i><par n="my__det"/></e>
     <e lm="jul"><i>hul</i><par n="my__det"/></e>
 
+    <e lm="binne"><i>binne</i><par n="met__pr"/></e>
 
     <e lm="saam met"><i>saam<b/>met</i><par n="met__pr"/></e>
     <e lm="insluitende"><i>insluitende</i><par n="met__pr"/></e>
@@ -1777,7 +1784,6 @@
     <e lm="taamlik"><i>taamlik</i><par n="taamlik__preadv"/></e>
     <e lm="meer"><i>meer</i><par n="taamlik__preadv"/></e>
     <e lm="mees"><i>mees</i><par n="taamlik__preadv"/></e>
-    <e lm="meeste"><i>meeste</i><par n="taamlik__preadv"/></e>
     <e lm="te"><i>te</i><par n="taamlik__preadv"/></e>
     <e lm="baie"><i>baie</i><par n="taamlik__preadv"/></e>
     <e lm="so"><i>so</i><par n="taamlik__preadv"/></e>
@@ -5735,6 +5741,8 @@
     <!-- Adjectives -->
     <!-- .......... -->
 
+    <e lm="veel"><i></i><par n="/veel__adj"/></e>
+
     <e lm="betrokke"><i>betrokke</i><par n="swart__adj"/></e>
     <e lm="familie"><i>familie</i><par n="swart__adj"/></e>
     <e lm="betroubaar"><i>betrouba</i><par n="sigba/ar__adj"/></e>
@@ -5905,7 +5913,7 @@
     <e lm="kommerwekkend"><i>kommerwekkend</i><par n="maklik__adj"/></e>
     <e lm="kort"><i>kort</i><par n="maklik__adj"/></e>
     <e lm="kragtig"><i>kragtig</i><par n="maklik__adj"/></e>
-    <e lm="la"><i>la</i><par n="maklik__adj"/></e>
+    <!--<e lm="la"><i>la</i><par n="maklik__adj"/></e>-->
     <e lm="lewendig"><i>lewendig</i><par n="maklik__adj"/></e>
     <e lm="ly"><i>ly</i><par n="maklik__adj"/></e>
     <e lm="magtig"><i>magtig</i><par n="maklik__adj"/></e>
@@ -6386,7 +6394,6 @@
 
     <e lm="linker"><i>linker</i><par n="binne__adj"/></e><!-- A bit out of place here -->
     <e lm="regter"><i>regter</i><par n="binne__adj"/></e><!-- A bit out of place here -->
-    <e lm="binne"><i>binne</i><par n="binne__adj"/></e><!-- A bit out of place here -->
     <e lm="middel"><i>middel</i><par n="binne__adj"/></e><!-- A bit out of place here -->
 
     <!-- Analytic adjectives in ge~, -de -->

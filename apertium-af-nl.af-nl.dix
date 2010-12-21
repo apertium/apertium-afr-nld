@@ -265,6 +265,8 @@
     <e><p><l>oor<s n="pr"/></l><r>oor<s n="pr"/></r></p></e>
     <e r="RL"><p><l>oor<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
 
+    <e><p><l>binne<s n="pr"/></l><r>binnen<s n="pr"/></r></p></e>
+
     <e><p><l>waarop<s n="pr"/></l><r>waarop<s n="pr"/></r></p></e> <!-- !pr -->
     <e><p><l>weg<s n="pr"/></l><r>weg<s n="pr"/></r></p></e> <!-- !pr -->
 
@@ -327,7 +329,7 @@
 
     <e><p><l>geen<s n="det"/><s n="ind"/></l><r>geen<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
     <e><p><l>enige<s n="det"/><s n="ind"/></l><r>enig<s n="adj"/><s n="ind"/></r></p><par n="enige_enig"/></e>
-    <e><p><l>elke<s n="det"/><s n="ind"/></l><r>elk<s n="adj"/><s n="ind"/></r></p><par n="enige_enig"/></e>
+    <e><p><l>elke<s n="det"/><s n="ind"/></l><r>elke<s n="det"/><s n="ind"/></r></p></e>
 
     <e><p><l>sommige<s n="det"/><s n="qnt"/></l><r>sommige<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -523,7 +525,7 @@
     <e><p><l>besetting<s n="n"/></l><r>bezetting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moord<s n="n"/></l><r>moord<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>rang<s n="n"/></l><r>rang<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>kode<s n="n"/></l><r>code<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>kode<s n="n"/></l><r>code<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stroombaan<s n="n"/></l><r>schakeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>suurstof<s n="n"/></l><r>zuurstof<s n="n"/><s n="mf"/></r></p></e> <!-- unc -->
     <e><p><l>millimeter<s n="n"/></l><r>millimeter<s n="n"/><s n="m"/></r></p></e>
@@ -1365,7 +1367,7 @@
     <e><p><l>aartsbiskop<s n="n"/></l><r>aartsbisschop<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aasvoël<s n="n"/></l><r>gier<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>adjunkpresident<s n="n"/></l><r>vicepresident<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>admiraal<s n="n"/></l><r>admiraal<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>admiraal<s n="n"/></l><r>admiraal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>adres<s n="n"/></l><r>adres<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>advokaat<s n="n"/></l><r>advocaat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>afbeelding<s n="n"/></l><r>afbeelding<s n="n"/><s n="f"/></r></p></e>
@@ -3639,13 +3641,13 @@
     <e><p><l>Kaukasië<s n="np"/><s n="top"/></l><r>Kaukasus<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Barentssee<s n="np"/><s n="top"/></l><r>Barentszzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Syracuse<s n="np"/><s n="top"/></l><r>Syracuse<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Oos-Siberiese<b/>See<s n="np"/><s n="top"/></l><r>Oost-Siberische<b/>Zee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Oos-Siberiese<b/>See<s n="np"/><s n="top"/></l><r>Oost-Siberische<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Melanesië<s n="np"/><s n="top"/></l><r>Melanesië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Oeralgebergtes<s n="np"/><s n="top"/></l><r>Oeralgebergte<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Arktika<s n="np"/><s n="top"/></l><r>Arktika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Yeoville<s n="np"/><s n="top"/></l><r>Yeoville<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Varangerfjord<s n="np"/><s n="top"/></l><r>Varangerfjord<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Noorweegse<b/>See<s n="np"/><s n="top"/></l><r>Noorse<b/>Zee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Noorweegse<b/>See<s n="np"/><s n="top"/></l><r>Noorse<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Epirus<s n="np"/><s n="top"/></l><r>Epirus<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Beaufortsee<s n="np"/><s n="top"/></l><r>Beaufortzee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Baffinbaai<s n="np"/><s n="top"/></l><r>Baffinbaai<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3749,7 +3751,7 @@
     <e><p><l>Kameroen<s n="np"/><s n="top"/></l><r>Kameroen<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Kanada<s n="np"/><s n="top"/></l><r>Canada<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Karelië<s n="np"/><s n="top"/></l><r>Karelië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Kaspiese<b/>See<s n="np"/><s n="top"/></l><r>Kaspische<b/>Zee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Kaspiese<b/>See<s n="np"/><s n="top"/></l><r>Kaspische<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Kastilië<s n="np"/><s n="top"/></l><r>Castilië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Katalonië<s n="np"/><s n="top"/></l><r>Catalonië<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Kazakhstan<s n="np"/><s n="top"/></l><r>Kazachstan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3848,7 +3850,7 @@
     <e><p><l>Suid-Afrika<s n="np"/><s n="top"/></l><r>Zuid-Afrika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Suid-Amerika<s n="np"/><s n="top"/></l><r>Zuid-Amerika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Suidpool<s n="np"/><s n="top"/></l><r>Zuidpool<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-    <e><p><l>Swart<b/>See<s n="np"/><s n="top"/></l><r>Zwarte<b/>Zee<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+    <e><p><l>Swart<b/>See<s n="np"/><s n="top"/></l><r>Zwarte<b/>Zee<s n="np"/><s n="top"/><s n="mf"/></r></p></e>
     <e><p><l>Swede<s n="np"/><s n="top"/></l><r>Zweden<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Switserland<s n="np"/><s n="top"/></l><r>Zwitserland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>Tadjikistan<s n="np"/><s n="top"/></l><r>Tadzjikistan<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -3939,7 +3941,7 @@
     <e><p><l>Javascript<s n="np"/><s n="al"/></l><r>Javascript<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
     <e><p><l>Hezbollah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
     <e><p><l>Amnesty<b/>International<s n="np"/><s n="al"/></l><r>Amnesty<b/>International<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
-    <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NATO<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
+    <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NAVO<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
 
     <e><p><l>Botha<s n="np"/><s n="cog"/><s n="mf"/></l><r>Botha<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Dalí<s n="np"/><s n="cog"/><s n="mf"/></l><r>Dalí<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -3981,8 +3983,8 @@
     <e><p><l>Europees<s n="adj"/></l><r>Europees<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Russiese<s n="adj"/></l><r>Russisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Romeins<s n="adj"/></l><r>Romeins<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>binne<s n="adj"/></l><r>binnen<s n="adj"/></r></p></e>
-    <e><p><l>tal<s n="adj"/></l><r>veel<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>tal<s n="adj"/></l><r>veel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>veel<s n="adj"/><s n="sint"/></l><r>veel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>swart<s n="adj"/></l><r>zwart<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>histories<s n="adj"/></l><r>historisch<s n="adj"/></r></p></e>
     <e><p><l>sentraal<s n="adj"/></l><r>centraal<s n="adj"/><s n="sint"/></r></p></e>
@@ -4116,7 +4118,7 @@
     <e><p><l>krities<s n="adj"/></l><r>kritisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>biologies<s n="adj"/></l><r>biologisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>invloedryk<s n="adj"/></l><r>invloedrijk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>geneties<s n="adj"/></l><r>genetisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>geneties<s n="adj"/></l><r>genetisch<s n="adj"/></r></p></e>
     <e><p><l>vars<s n="adj"/><s n="sint"/></l><r>vers<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>horisontaal<s n="adj"/></l><r>horizontaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hewig<s n="adj"/><s n="sint"/></l><r>hevig<s n="adj"/><s n="sint"/></r></p></e>
@@ -4799,12 +4801,13 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
-    <e><p><l>meer<s n="preadv"/></l><r>meer<s n="preadv"/></r></p></e>
+    <e><p><l>mees<s n="preadv"/></l><r>meeste<s n="preadv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
 
     <e><p><l>hoe<s n="adv"/><s n="itg"/></l><r>hoe<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hoekom<s n="adv"/><s n="itg"/></l><r>waarom<s n="adv"/><s n="itg"/></r></p></e>
 
+    <e><p><l>binne<s n="adv"/></l><r>binnen<s n="adv"/></r></p></e>
     <e><p><l>oor<b/>die<s n="adv"/></l><r>over<b/>de<s n="adv"/></r></p></e>
     <e><p><l>in<b/>die<b/>middel<s n="adv"/></l><r>in<b/>het<b/>midden<s n="adv"/></r></p></e>
     <e><p><l>in<b/>die<b/>wêreld<s n="adv"/></l><r>in<b/>de<b/>wereld<s n="adv"/></r></p></e>

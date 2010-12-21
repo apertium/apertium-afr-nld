@@ -1,13 +1,11 @@
    1734 ^@gebore<adj>$
-   1262 ^@la<adj><sint>$
-    492 ^@la<adj><sint><comp>$
     347 ^@spesies<adj>$
-    193 ^@onlangs<adj>$
+    192 ^@onlangs<adj>$
     191 ^@koerant<adj>$
     190 ^@ma<adj><sint>$
-    174 ^@agt<adj><sint>$
+    170 ^@agt<adj><sint>$
     162 ^@nou<adj><sint>$
-    125 ^@huwelik<adj>$
+    124 ^@huwelik<adj>$
     123 ^@gestudeer<adj>$
     117 ^@laas<adj>$
     112 ^@vang<adj><sint>$
@@ -15,7 +13,7 @@
      96 ^@ly<adj><sint>$
      84 ^@kern<adj>$
      79 ^@regter<adj>$
-     71 ^@vloot<adj>$
+     70 ^@vloot<adj>$
      70 ^@nou<adj><sint><comp>$
      66 ^@gevolglik<adj>$
      50 ^@gestasioneer<adj>$
@@ -29,7 +27,6 @@
      27 ^@mors<adj>$
      23 ^@nou<adj><sint><sup>$
      21 ^@markies<adj>$
-     18 ^@la<adj><sint><sup>$
      16 ^@vis<adj>$
      14 ^@infinitief<adj>$
      14 ^@gemigreer<adj>$
