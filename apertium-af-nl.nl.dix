@@ -12469,6 +12469,7 @@
     <e lm="Moksja"><i>Moksja</i><par n="OV__n_nt"/></e>
     <e lm="Moldavisch"><i>Moldavisch</i><par n="OV__n_nt"/></e>
     <e lm="Mongool"><i>Mongo</i><par n="Po/ol__n_m"/></e>
+	<e lm="hogeschool"><i>hogeschool</i><par n="Po/ol__n_m"/></e>
     <e lm="Mongools"><i>Mongools</i><par n="OV__n_nt"/></e>
     <e lm="Mono"><i>Mono</i><par n="OV__n_nt"/></e>
     <e lm="Montenegrijn"><i>Montenegrijn</i><par n="ui__n_m"/></e>
@@ -16715,6 +16716,50 @@
     <e lm="geluidstape"><i>geluidstape</i><par n="geluidstape__n_m"/></e>
 	<e lm="hippie"><i>hippie</i><par n="geluidstape__n_m"/></e>
 	<e lm="choke"><i>choke</i><par n="geluidstape__n_m"/></e>
+	<e lm="pool"><i>pool</i><par n="geluidstape__n_m"/></e>
+	<e lm="keten"><i>keten</i><par n="geluidstape__n_m"/></e>
+	<e lm="admin"><i>admin</i><par n="geluidstape__n_m"/></e>
+	<e lm="beoefenaar"><i>beoefenaar</i><par n="geluidstape__n_m"/></e>
+	<e lm="grondeigenaar"><i>grondeigenaar</i><par n="geluidstape__n_m"/></e>
+	<e lm="sonar"><i>sonar</i><par n="geluidstape__n_m"/></e>
+    <e lm="aanzoeker"><i>aanzoeker</i><par n="geluidstape__n_m"/></e>
+    <e lm="bediener"><i>bediener</i><par n="geluidstape__n_m"/></e>
+    <e lm="bokser"><i>bokser</i><par n="geluidstape__n_m"/></e>
+    <e lm="brander"><i>brander</i><par n="geluidstape__n_m"/></e>
+    <e lm="ceremoniemeester"><i>ceremoniemeester</i><par n="geluidstape__n_m"/></e>
+    <e lm="diameter"><i>diameter</i><par n="geluidstape__n_m"/></e>
+    <e lm="drijver"><i>drijver</i><par n="geluidstape__n_m"/></e>
+    <e lm="gever"><i>gever</i><par n="geluidstape__n_m"/></e>
+    <e lm="handelspartner"><i>handelspartner</i><par n="geluidstape__n_m"/></e>
+    <e lm="herder"><i>herder</i><par n="geluidstape__n_m"/></e>
+    <e lm="internetgebruiker"><i>internetgebruiker</i><par n="geluidstape__n_m"/></e>
+    <e lm="landmeter"><i>landmeter</i><par n="geluidstape__n_m"/></e>
+    <e lm="naamgever"><i>naamgever</i><par n="geluidstape__n_m"/></e>
+    <e lm="onderminister"><i>onderminister</i><par n="geluidstape__n_m"/></e>
+    <e lm="ondernemer"><i>ondernemer</i><par n="geluidstape__n_m"/></e>
+    <e lm="ondersteuner"><i>ondersteuner</i><par n="geluidstape__n_m"/></e>
+    <e lm="ontdekker"><i>ontdekker</i><par n="geluidstape__n_m"/></e>
+    <e lm="opmeter"><i>opmeter</i><par n="geluidstape__n_m"/></e>
+    <e lm="oprichter"><i>oprichter</i><par n="geluidstape__n_m"/></e>
+    <e lm="passagier"><i>passagier</i><par n="geluidstape__n_m"/></e>
+    <e lm="poster"><i>poster</i><par n="geluidstape__n_m"/></e>
+    <e lm="radiozender"><i>radiozender</i><par n="geluidstape__n_m"/></e>
+    <e lm="rooster"><i>rooster</i><par n="geluidstape__n_m"/></e>
+    <e lm="songtekstschrijver"><i>songtekstschrijver</i><par n="geluidstape__n_m"/></e>
+    <e lm="uitgever"><i>uitgever</i><par n="geluidstape__n_m"/></e>
+    <e lm="vervanger"><i>vervanger</i><par n="geluidstape__n_m"/></e>
+    <e lm="voorletter"><i>voorletter</i><par n="geluidstape__n_m"/></e>
+    <e lm="voorzitter"><i>voorzitter</i><par n="geluidstape__n_m"/></e>
+    <e lm="vrijwilliger"><i>vrijwilliger</i><par n="geluidstape__n_m"/></e>
+    <e lm="wetgever"><i>wetgever</i><par n="geluidstape__n_m"/></e>
+    <e lm="wijzer"><i>wijzer</i><par n="geluidstape__n_m"/></e>
+	<e lm="chatroom"><i>chatroom</i><par n="geluidstape__n_m"/></e>
+	<e lm="url"><i>url</i><par n="geluidstape__n_m"/></e>
+	<e lm="afdelingswinkel"><i>afdelingswinkel</i><par n="geluidstape__n_m"/></e>
+	<e lm="kronkel"><i>kronkel</i><par n="geluidstape__n_m"/></e>
+	<e lm="tempel"><i>tempel</i><par n="geluidstape__n_m"/></e>
+	<e lm="terminal"><i>terminal</i><par n="geluidstape__n_m"/></e>
+	<e lm="bijbel"><i>bijbel</i><par n="geluidstape__n_m"/></e>
 	<e lm="joystick"><i>joystick</i><par n="geluidstape__n_m"/></e>
 	<e lm="medaille"><i>medaille</i><par n="geluidstape__n_m"/></e>
 	<e lm="terreurcampagne"><i>terreurcampagne</i><par n="geluidstape__n_m"/></e>
@@ -16723,6 +16768,7 @@
     <e lm="gelukskoekje"><i>gelukskoekje</i><par n="eon__n_nt"/></e>
     <e lm="gemak"><i>gemak</i><par n="bak__n_nt"/></e>
     <e lm="gember"><i>gember</i><par n="eb__n_m"/></e>
+	<e lm="handel"><i>handel</i><par n="eb__n_m"/></e>
 	<e lm="inline"><i>inline</i><par n="eb__n_m"/></e>
 	<e lm="luxe"><i>luxe</i><par n="eb__n_m"/></e>
     <e lm="gemeen"><i>gemeen</i><par n="OV__n_nt"/></e>
@@ -16733,6 +16779,9 @@
     <e lm="gemekker"><i>gemekker</i><par n="OV__n_nt"/></e>
     <e lm="gemenebest"><i>gemenebest</i><par n="lot__n_nt"/></e>
     <e lm="gemenerik"><i>gemenerik</i><par n="ui__n_m"/></e>
+	<e lm="aanspreekvorm"><i>aanspreekvorm</i><par n="ui__n_m"/></e>
+	<e lm="waslijn"><i>waslijn</i><par n="ui__n_m"/></e>
+	<e lm="kern"><i>kern</i><par n="ui__n_m"/></e>
     <e lm="gemet"><i>gemet</i><par n="lot__n_nt"/></e>
     <e lm="gemiddelde"><i>gemiddelde</i><par n="einde__n_nt"/></e>
     <e lm="gemis"><i>gemis</i><par n="OV__n_nt"/></e>
@@ -16913,6 +16962,7 @@
     <e lm="gijzeling"><i>gijzeling</i><par n="vering__n_f"/></e>
     <e lm="gijzelnemer"><i>gijzelnemer</i><par n="led__n_m"/></e>
     <e lm="gil"><i>gil</i><par n="el__n_m"/></e>
+	<e lm="trol"><i>trol</i><par n="el__n_m"/></e>
     <e lm="gilde"><i>gilde</i><par n="einde__n_nt"/></e>
     <e lm="gildeproef"><i>gildeproe</i><par n="kol/f__n_mf"/></e>
     <e lm="gips"><i>gips</i><par n="OV__n_nt"/></e>
@@ -16954,6 +17004,7 @@
     <e lm="glooiing"><i>glooiing</i><par n="vering__n_f"/></e>
     <e lm="glossarium"><i>glossari</i><par n="sacr/um__n_nt"/></e>
     <e lm="glossy"><i>glossy</i><par n="ra__n_m"/></e>
+	<e lm="regio"><i>regio</i><par n="ra__n_m"/></e>
     <e lm="glottis"><i>glottis</i><par n="as__n_f"/></e>
     <e lm="glottisslag"><i>glottisslag</i><par n="ui__n_m"/></e>
     <e lm="glucagon"><i>glucagon</i><par n="WO__n_mf"/></e>
@@ -17169,9 +17220,16 @@
 	<e lm="smaak"><i>sma</i><par n="za/ak__n_m"/></e>
 	<e lm="consessiezaak"><i>consessieza</i><par n="za/ak__n_m"/></e>
     <e lm="haal"><i>ha</i><par n="ta/al__n_m"/></e>
+	<e lm="bouwmateriaal"><i>bouwmateria</i><par n="ta/al__n_m"/></e>
+	<e lm="kraal"><i>kra</i><par n="ta/al__n_m"/></e>
     <e lm="haalmes"><i>haalmes</i><par n="es__n_nt"/></e>
     <e lm="haam"><i>ha</i><par n="ra/am__n_nt"/></e>
     <e lm="haan"><i>ha</i><par n="ma/an__n_m"/></e>
+    <e lm="golfbaan"><i>golfbaan</i><par n="ma/an__n_m"/></e>
+    <e lm="renbaan"><i>renbaan</i><par n="ma/an__n_m"/></e>
+    <e lm="schoolloopbaan"><i>schoolloopbaan</i><par n="ma/an__n_m"/></e>
+    <e lm="titaan"><i>titaan</i><par n="ma/an__n_m"/></e>
+    <e lm="veteraan"><i>veteraan</i><par n="ma/an__n_m"/></e>
     <e lm="haard"><i>haard</i><par n="ui__n_m"/></e>
     <e lm="haardroger"><i>haardroger</i><par n="led__n_m"/></e>
     <e lm="haarspeld"><i>haarspeld</i><par n="hui__n_mf"/></e>
@@ -17902,6 +17960,7 @@
     <e lm="jongen"><i>jongen</i><par n="led__n_m"/></e>
     <e lm="jongenskostschool"><i>jongenskostscho</i><par n="ko/ol__n_mf"/></e>
     <e lm="jongensnaam"><i>jongensna</i><par n="na/am__n_m"/></e>
+	<e lm="codenaam"><i>codena</i><par n="na/am__n_m"/></e>
     <e lm="jongere"><i>jongere</i><par n="rune__n_m"/></e>
     <e lm="jongerentaal"><i>jongerenta</i><par n="ta/al__n_mf"/></e>
     <e lm="jonko"><i>jonko</i><par n="ra__n_m"/></e>
