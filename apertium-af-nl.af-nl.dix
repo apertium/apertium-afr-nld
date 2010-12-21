@@ -698,7 +698,7 @@
     <e><p><l>aardkors<s n="n"/></l><r>aardkorst<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>koppelvlak<s n="n"/></l><r>interface<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>inkwisisie<s n="n"/></l><r>inquisitie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>fosfor<s n="n"/></l><r>fosfor<s n="n"/><s n="mf"/></r></p></e> <!-- unc -->
+    <e><p><l>fosfor<s n="n"/></l><r>fosfor<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>wrywing<s n="n"/></l><r>wrijving<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>watt<s n="n"/></l><r>watt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>verbouing<s n="n"/></l><r>verbouwing<s n="n"/><s n="f"/></r></p></e>
@@ -1540,7 +1540,7 @@
     <e><p><l>buurman<s n="n"/></l><r>buurman<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bygeloof<s n="n"/></l><r>bijgeloof<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bylae<s n="n"/></l><r>bijlage<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>byt<s n="n"/></l><r>bijt<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>byt<s n="n"/></l><r>hap<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chemie<s n="n"/></l><r>chemie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>chemikus<s n="n"/></l><r>chemicus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>christen<s n="n"/></l><r>christen<s n="n"/><s n="m"/></r></p></e>
@@ -2648,7 +2648,7 @@
     <e><p><l>eindpunt<s n="n"/></l><r>eindpunt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kliek<s n="n"/></l><r>kliek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>grensoorlog<s n="n"/></l><r>grensoorlog<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>grondwater<s n="n"/></l><r>grondwater<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>grondwater<s n="n"/></l><r>grondwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>waterbron<s n="n"/></l><r>waterbron<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kamertemperatuur<s n="n"/></l><r>kamertemperatuur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>landmeter<s n="n"/></l><r>landmeter<s n="n"/><s n="m"/></r></p></e>
@@ -2662,7 +2662,7 @@
     <e><p><l>eindresultaat<s n="n"/></l><r>eindresultaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ankerplek<s n="n"/></l><r>ankerplek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>taalvereniging<s n="n"/></l><r>taalvereniging<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>oppervlakwater<s n="n"/></l><r>oppervlakwater<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>oppervlakwater<s n="n"/></l><r>oppervlaktewater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oliebron<s n="n"/></l><r>oliebron<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>beeldmateriaal<s n="n"/></l><r>beeldmateriaal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>moederkerk<s n="n"/></l><r>moederkerk<s n="n"/><s n="mf"/></r></p></e>
@@ -2677,7 +2677,7 @@
     <e><p><l>gebruikernaam<s n="n"/></l><r>gebruikersnaam<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>bergplek<s n="n"/></l><r>bergplek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>papierfabriek<s n="n"/></l><r>papierfabriek<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>koningswater<s n="n"/></l><r>koningswater<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>koningswater<s n="n"/></l><r>koningswater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kaasfabriek<s n="n"/></l><r>kaasfabriek<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>organisme<s n="n"/></l><r>organisme<s n="n"/><s n="nt"/></r></p></e>

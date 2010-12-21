@@ -14423,6 +14423,7 @@
     <e lm="biet"><i>biet</i><par n="hui__n_mf"/></e>
     <e lm="bietebauw"><i>bietebauw</i><par n="ui__n_m"/></e>
     <e lm="bietenstroop"><i>bietenstro</i><par n="stro/op__n_mf"/></e>
+	<e lm="hoop"><i>ho</i><par n="stro/op__n_mf"/></e>
     <e lm="bifurcatie"><i>bifurcatie</i><par n="roe__n_f"/></e>
     <e lm="big"><i>big</i><par n="eg__n_mf"/></e>
     <e lm="bigamie"><i>bigamie</i><par n="eb__n_f"/></e>
@@ -14679,6 +14680,7 @@
     <e lm="boom"><i>bo</i><par n="bo/om__n_m"/></e>
     <e lm="boomgaard"><i>boomgaard</i><par n="ui__n_m"/></e>
     <e lm="boomhut"><i>boomhut</i><par n="boomhut__n_mf"/></e>
+	<e lm="marionet"><i>marionet</i><par n="boomhut__n_mf"/></e>
     <e lm="boomkikker"><i>boomkikker</i><par n="led__n_m"/></e>
     <e lm="boomklever"><i>boomklever</i><par n="led__n_m"/></e>
     <e lm="boomkruiper"><i>boomkruiper</i><par n="led__n_m"/></e>
@@ -14803,7 +14805,15 @@
     <e lm="brassière"><i>brassière</i><par n="roe__n_mf"/></e>
     <e lm="breedband"><i>breedband</i><par n="eb__n_m"/></e>
     <e lm="breedbandverbinding"><i>breedbandverbinding</i><par n="zooi__n_mf"/></e>
-    <e lm="breedte"><i>breedte</i><par n="breedte__n_f"/></e>
+	<e lm="toegift"><i>toegift</i><par n="zooi__n_mf"/></e>
+	<e lm="staatspresident"><i>staatspresident</i><par n="zooi__n_mf"/></e>
+	<e lm="postkaart"><i>postkaart</i><par n="zooi__n_mf"/></e>
+	<e lm="socialist"><i>socialist</i><par n="zooi__n_mf"/></e>
+	<e lm="toegift"><i>toegift</i><par n="zooi__n_mf"/></e>
+    <e lm="kolonist"><i>kolonist</i><par n="breedte__n_f"/></e>
+	<e lm="namenlijst"><i>namenlijst</i><par n="zooi__n_mf"/></e>
+	<e lm="missiepost"><i>missiepost</i><par n="zooi__n_mf"/></e>
+	<e lm="aardkorst"><i>aardkorst</i><par n="zooi__n_mf"/></e>
     <e lm="breekijzer"><i>breekijzer</i><par n="eon__n_nt"/></e>
     <e lm="breidel"><i>breidel</i><par n="led__n_m"/></e>
     <e lm="brekebeen"><i>brekebe</i><par n="pe/en__n_f"/></e>
@@ -16255,6 +16265,20 @@
     <e lm="fascist"><i>fascist</i><par n="ui__n_m"/></e>
     <e lm="fase"><i>fase</i><par n="made__n_f"/></e>
     <e lm="fasemodulatie"><i>fasemodulatie</i><par n="heler__n_mf"/></e>
+    <e lm="beginner"><i>beginner</i><par n="heler__n_mf"/></e>
+    <e lm="buffer"><i>buffer</i><par n="heler__n_mf"/></e>
+    <e lm="buitenlander"><i>buitenlander</i><par n="heler__n_mf"/></e>
+    <e lm="caberatier"><i>caberatier</i><par n="heler__n_mf"/></e>
+    <e lm="houder"><i>houder</i><par n="heler__n_mf"/></e>
+    <e lm="interferometer"><i>interferometer</i><par n="heler__n_mf"/></e>
+    <e lm="nanometer"><i>nanometer</i><par n="heler__n_mf"/></e>
+    <e lm="poeder"><i>poeder</i><par n="heler__n_mf"/></e>
+    <e lm="promoter"><i>promoter</i><par n="heler__n_mf"/></e>
+    <e lm="spectrometer"><i>spectrometer</i><par n="heler__n_mf"/></e>
+    <e lm="spellingschecker"><i>spellingschecker</i><par n="heler__n_mf"/></e>
+    <e lm="tunier"><i>tunier</i><par n="heler__n_mf"/></e>
+    <e lm="waarnemer"><i>waarnemer</i><par n="heler__n_mf"/></e>
+    <e lm="werkgever"><i>werkgever</i><par n="heler__n_mf"/></e>
     <e lm="fasering"><i>fasering</i><par n="vering__n_f"/></e>
     <e lm="fatsoen"><i>fatsoen</i><par n="OV__n_nt"/></e>
     <e lm="fauna"><i>fauna</i><par n="ra__n_mf"/></e>
@@ -21707,6 +21731,8 @@
     <e lm="schurft"><i>schurft</i><par n="eb__n_m"/></e>
     <e lm="schurk"><i>schurk</i><par n="ui__n_m"/></e>
     <e lm="schuur"><i>schu</i><par n="ku/ur__n_mf"/></e>
+	<e lm="apparatuur"><i>apperatu</i><par n="ku/ur__n_mf"/></e>
+	<e lm="volkscultuur"><i>volkscultu</i><par n="ku/ur__n_mf"/></e>
     <e lm="schwalbe"><i>schwalbe</i><par n="led__n_m"/></e>
     <e lm="sclera"><i>sclera</i><par n="stria__n_f"/></e>
     <e lm="score"><i>score</i><par n="led__n_m"/></e>
@@ -21901,6 +21927,7 @@
     <e lm="smeltpunt"><i>smeltpunt</i><par n="lot__n_nt"/></e>
     <e lm="smeltwater"><i>smeltwater</i><par n="OV__n_nt"/></e>
     <e lm="smetvrees"><i>smetvrees</i><par n="smetvrees__n_mf"/></e>
+	<e lm="vrees"><i>vrees</i><par n="smetvrees__n_mf"/></e>
     <e lm="smid"><i>sm</i><par n="sm/id__n_m"/></e>
     <e lm="smoel"><i>smoel</i><par n="ui__n_m"/></e>
     <e lm="smoor"><i>smoor</i><par n="WO__n_mf"/></e>
@@ -21926,6 +21953,7 @@
     <e lm="sneeuwvlok"><i>sneeuwvlok</i><par n="nok__n_mf"/></e>
     <e lm="snelheid"><i>snelhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="snelkoppeling"><i>snelkoppeling</i><par n="zooi__n_mf"/></e>
+	<e lm="schets"><i>schets</i><par n="zooi__n_mf"/></e>
     <e lm="snelweg"><i>snelweg</i><par n="ui__n_m"/></e>
     <e lm="snijbiet"><i>snijbiet</i><par n="hui__n_mf"/></e>
     <e lm="snijboon"><i>snijbo</i><par n="bo/on__n_mf"/></e>
@@ -21958,6 +21986,7 @@
     <e lm="soesa"><i>soesa</i><par n="eb__n_m"/></e>
     <e lm="sofa"><i>sofa</i><par n="ra__n_m"/></e>
     <e lm="software"><i>software</i><par n="WO__n_mf"/></e>
+	<e lm="focus"><i>focus</i><par n="WO__n_mf"/></e>
     <e lm="sok"><i>sok</i><par n="nok__n_mf"/></e>
     <e lm="sokkel"><i>sokkel</i><par n="led__n_m"/></e>
     <e lm="sokpop"><i>sokpop</i><par n="map__n_f"/></e>
@@ -22350,6 +22379,9 @@
     <e lm="straallichaam"><i>straallicha</i><par n="ra/am__n_nt"/></e>
     <e lm="straalstroom"><i>straalstro</i><par n="bo/om__n_m"/></e>
     <e lm="straat"><i>stra</i><par n="gra/at__n_mf"/></e>
+	<e lm="primaat"><i>prima</i><par n="gra/at__n_mf"/></e>
+	<e lm="magnaat"><i>magna</i><par n="gra/at__n_mf"/></e>
+	<e lm="inlaat"><i>inla</i><par n="gra/at__n_mf"/></e>
     <e lm="straatbeeld"><i>straatbeeld</i><par n="lot__n_nt"/></e>
     <e lm="straathoek"><i>straathoek</i><par n="ui__n_m"/></e>
     <e lm="straatlicensiaat"><i>straatlicensia</i><par n="ba/at__n_f"/></e>
@@ -23285,6 +23317,7 @@
     <e lm="venkel"><i>venkel</i><par n="roe__n_mf"/></e>
     <e lm="venster"><i>venster</i><par n="eon__n_nt"/></e>
     <e lm="vensterbank"><i>vensterbank</i><par n="zooi__n_mf"/></e>
+	<e lm="index"><i>index</i><par n="zooi__n_mf"/></e>
     <e lm="vensterruit"><i>vensterruit</i><par n="vering__n_f"/></e>
     <e lm="vent"><i>vent</i><par n="ui__n_m"/></e>
     <e lm="ventilatie"><i>ventilatie</i><par n="roe__n_f"/></e>
