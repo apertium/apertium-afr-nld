@@ -319,15 +319,11 @@
       <e>       <p><l>heb</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>hebt</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>heeft</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>hebben</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hebben</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hebben</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hebben</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="pl"/></r></p></e>
       <e>       <p><l>had</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>had</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>had</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>hadden</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hadden</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hadden</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hadden</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="pl"/></r></p></e>
       <e>       <p><l>gehad</l><r>hebben<s n="vbhaver"/><s n="pp"/></r></p></e>
     </pardef>
 
@@ -5291,8 +5287,8 @@
       <e>       <p><l>ken</l><r>ok<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="a__n_nt">
-      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>'s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="jukbeen__n_nt">
       <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -6866,8 +6862,8 @@
       <e>       <p><l>men</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="e__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="mat__adj_sint">
       <e>       <p><l>te</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -11805,6 +11801,38 @@
 
     <!-- SECTION: Nouns -->
 
+    <e lm="a"><i>a</i><par n="a__n_nt"/></e>
+    <e lm="m"><i>m</i><par n="km__n_m"/></e>
+    <e lm="e"><i>e</i><par n="e__n_f"/></e>
+
+<!--
+    <e lm="a"><i>a</i><par n="a__n_f"/></e>
+    <e lm="a"><i>a</i><par n="a__n_m"/></e>
+    <e lm="b"><i>b</i><par n="b__n_mf"/></e>
+    <e lm="c"><i>c</i><par n="c__n_f"/></e>
+    <e lm="d"><i>d</i><par n="d__n_f"/></e>
+    <e lm="f"><i>f</i><par n="f__n_f"/></e>
+    <e lm="g"><i>g</i><par n="g__n_f"/></e>
+    <e lm="h"><i>h</i><par n="h__n_f"/></e>
+    <e lm="i"><i>i</i><par n="i__n_mf"/></e>
+    <e lm="j"><i>j</i><par n="j__n_f"/></e>
+    <e lm="k"><i>k</i><par n="k__n_f"/></e>
+    <e lm="l"><i>l</i><par n="l__n_mf"/></e>
+    <e lm="l"><i>l</i><par n="l__n_nt"/></e>
+    <e lm="n"><i>n</i><par n="n__n_f"/></e>
+    <e lm="o"><i>o</i><par n="o__n_mf"/></e>
+    <e lm="p"><i>p</i><par n="p__n_f"/></e>
+    <e lm="q"><i>q</i><par n="q__n_mf"/></e>
+    <e lm="r"><i>r</i><par n="r__n_mf"/></e>
+    <e lm="s"><i>s</i><par n="s__n_mf"/></e>
+    <e lm="t"><i>t</i><par n="t__n_mf"/></e>
+    <e lm="v"><i>v</i><par n="v__n_mf"/></e>
+    <e lm="w"><i>w</i><par n="w__n_mf"/></e>
+    <e lm="x"><i>x</i><par n="x__n_mf"/></e>
+    <e lm="y"><i>y</i><par n="y__n_mf"/></e>
+    <e lm="z"><i>z</i><par n="z__n_mf"/></e>
+-->
+
     <e lm="aluminium"><i>aluminium</i><par n="OV__n_nt"/></e>
     <e lm="berillium"><i>berillium</i><par n="OV__n_nt"/></e>
     <e lm="berillium"><i>berillium</i><par n="OV__n_nt"/></e>
@@ -11891,7 +11919,6 @@
     <e lm="mm"><i>mm</i><par n="km__n_m"/></e>
     <e lm="nm"><i>nm</i><par n="km__n_m"/></e>
     <e lm="cm"><i>cm</i><par n="km__n_m"/></e>
-    <e lm="m"><i>m</i><par n="km__n_m"/></e>
 
     <e lm="2-propeenzuur"><i>2-propeenzuur</i><par n="OV__n_nt"/></e>
     <e lm="65+-kaart"><i>65+-kaart</i><par n="65+-kaart__n_mf"/></e>
@@ -12857,9 +12884,6 @@
     <e lm="Zwitser"><i>Zwitser</i><par n="led__n_m"/></e>
     <e lm="Zwitserland"><i>Zwitserland</i><par n="OV__n_nt"/></e>
     <e lm="Zwitserse"><i>Zwitserse</i><par n="rune__n_f"/></e>
-    <e lm="a"><i>a</i><par n="a__n_f"/></e>
-    <e lm="a"><i>a</i><par n="a__n_m"/></e>
-    <e lm="a"><i>a</i><par n="a__n_nt"/></e>
     <e lm="a-capellakoor"><i>a-capellako</i><par n="ko/or__n_nt"/></e>
     <e lm="a-capellamuziek"><i>a-capellamuziek</i><par n="eb__n_f"/></e>
     <e lm="a-capellazang"><i>a-capellazang</i><par n="eb__n_m"/></e>
@@ -13874,7 +13898,6 @@
     <e lm="azijnzuur"><i>azijnzuur</i><par n="OV__n_nt"/></e>
     <e lm="azimut"><i>azimut</i><par n="OV__n_nt"/></e>
     <e lm="azoöspermie"><i>azoöspermie</i><par n="eb__n_f"/></e>
-    <e lm="b"><i>b</i><par n="b__n_mf"/></e>
     <e lm="b-groot"><i>b-groot</i><par n="OV__n_nt"/></e>
     <e lm="baai"><i>baai</i><par n="hui__n_mf"/></e>
     <e lm="baaierd"><i>baaierd</i><par n="led__n_m"/></e>
@@ -14942,7 +14965,6 @@
     <e lm="bèta-lactam-antibioticum"><i>bèta-lactam-antibiotic</i><par n="sacr/um__n_nt"/></e>
     <e lm="bètablokkeerder"><i>bètablokkeerder</i><par n="led__n_m"/></e>
     <e lm="bètablokker"><i>bètablokker</i><par n="led__n_m"/></e>
-    <e lm="c"><i>c</i><par n="c__n_f"/></e>
     <e lm="c-groot"><i>c-groot</i><par n="OV__n_nt"/></e>
     <e lm="c-klein"><i>c-klein</i><par n="OV__n_nt"/></e>
     <e lm="cDNA"><i>cDNA</i><par n="Bo__n_nt"/></e>
@@ -15386,7 +15408,6 @@
     <e lm="cytoskelet"><i>cytoskelet</i><par n="kot__n_nt"/></e>
     <e lm="cytosol"><i>cytosol</i><par n="OV__n_nt"/></e>
     <e lm="cytostaticum"><i>cytostatic</i><par n="sacr/um__n_nt"/></e>
-    <e lm="d"><i>d</i><par n="d__n_f"/></e>
     <e lm="d-groot"><i>d-groot</i><par n="OV__n_nt"/></e>
     <e lm="daad"><i>da</i><par n="da/ad__n_mf"/></e>
     <e lm="daas"><i>da</i><par n="da/as__n_mf"/></e>
@@ -15891,7 +15912,6 @@
     <e lm="dysplasie"><i>dysplasie</i><par n="fee__n_f"/></e>
     <e lm="dystheïsme"><i>dystheïsme</i><par n="OV__n_nt"/></e>
     <e lm="déjà-vugevoel"><i>déjà-vugevoel</i><par n="voorgevoel__n_nt"/></e>
-    <e lm="e"><i>e</i><par n="e__n_f"/></e>
     <e lm="e-groot"><i>e-groot</i><par n="OV__n_nt"/></e>
     <e lm="e-klein"><i>e-klein</i><par n="OV__n_nt"/></e>
     <e lm="e-mail"><i>e-mail</i><par n="eb__n_m"/></e>
@@ -16227,7 +16247,6 @@
     <e lm="ezel"><i>ezel</i><par n="led__n_m"/></e>
     <e lm="ezelin"><i>ezelin</i><par n="zon__n_f"/></e>
     <e lm="ezelsveulen"><i>ezelsveulen</i><par n="eon__n_nt"/></e>
-    <e lm="f"><i>f</i><par n="f__n_f"/></e>
     <e lm="f-groot"><i>f-groot</i><par n="OV__n_nt"/></e>
     <e lm="f-klein"><i>f-klein</i><par n="OV__n_nt"/></e>
     <e lm="faalangst"><i>faalangst</i><par n="eb__n_m"/></e>
@@ -16490,7 +16509,6 @@
     <e lm="fysiotherapeut"><i>fysiotherapeut</i><par n="ui__n_m"/></e>
     <e lm="fysiotherapie"><i>fysiotherapie</i><par n="fee__n_f"/></e>
     <e lm="föhn"><i>föhn</i><par n="led__n_m"/></e>
-    <e lm="g"><i>g</i><par n="g__n_f"/></e>
     <e lm="g-groot"><i>g-groot</i><par n="OV__n_nt"/></e>
     <e lm="g-klein"><i>g-klein</i><par n="OV__n_nt"/></e>
     <e lm="gaai"><i>gaai</i><par n="ui__n_m"/></e>
@@ -17094,7 +17112,6 @@
     <e lm="gymnastiek"><i>gymnastiek</i><par n="eb__n_f"/></e>
     <e lm="gymtas"><i>gymtas</i><par n="as__n_f"/></e>
     <e lm="gyroscoop"><i>gyrosco</i><par n="ko/op__n_m"/></e>
-    <e lm="h"><i>h</i><par n="h__n_f"/></e>
     <e lm="haaf"><i>ha</i><par n="ha/af__n_mf"/></e>
     <e lm="haag"><i>ha</i><par n="za/ag__n_mf"/></e>
     <e lm="haai"><i>haai</i><par n="ui__n_m"/></e>
@@ -17574,7 +17591,6 @@
     <e lm="hypothese"><i>hypothese</i><par n="made__n_f"/></e>
     <e lm="hypoxemie"><i>hypoxemie</i><par n="eb__n_f"/></e>
     <e lm="hysop"><i>hysop</i><par n="eb__n_m"/></e>
-    <e lm="i"><i>i</i><par n="i__n_mf"/></e>
     <e lm="i-grec"><i>i-grec</i><par n="led__n_m"/></e>
     <e lm="i.Link"><i>i.Link</i><par n="WO__n_mf"/></e>
     <e lm="ianthiniet"><i>ianthiniet</i><par n="OV__n_nt"/></e>
@@ -17781,7 +17797,6 @@
     <e lm="ivf-behandeling"><i>ivf-behandeling</i><par n="vering__n_f"/></e>
     <e lm="ivoor"><i>ivoor</i><par n="OV__n_nt"/></e>
     <e lm="ivoor"><i>ivoor</i><par n="eb__n_m"/></e>
-    <e lm="j"><i>j</i><par n="j__n_f"/></e>
     <e lm="ja-neevraag"><i>ja-neevra</i><par n="za/ag__n_mf"/></e>
     <e lm="jaagpad"><i>jaagpad</i><par n="lot__n_nt"/></e>
     <e lm="jaap"><i>ja</i><par n="ja/ap__n_m"/></e>
@@ -17863,7 +17878,6 @@
     <e lm="jurysysteem"><i>jurysyste</i><par n="ze/em__n_nt"/></e>
     <e lm="jute"><i>jute</i><par n="WO__n_mf"/></e>
     <e lm="juweel"><i>juwe</i><par n="ze/el__n_nt"/></e>
-    <e lm="k"><i>k</i><par n="k__n_f"/></e>
 	<e lm="regio"><i>regio</i><par n="k__n_f"/></e>
     <e lm="kaag"><i>ka</i><par n="za/ag__n_f"/></e>
     <e lm="kaailoper"><i>kaailoper</i><par n="led__n_m"/></e>
@@ -18649,8 +18663,6 @@
     <e lm="kwint"><i>kwint</i><par n="vering__n_f"/></e>
     <e lm="kwispedoor"><i>kwispedoor</i><par n="eon__n_nt"/></e>
     <e lm="kwispedoor"><i>kwispedoor</i><par n="led__n_m"/></e>
-    <e lm="l"><i>l</i><par n="l__n_mf"/></e>
-    <e lm="l"><i>l</i><par n="l__n_nt"/></e>
     <e lm="la"><i>la</i><par n="ra__n_mf"/></e>
     <e lm="laadschop"><i>laadschop</i><par n="map__n_f"/></e>
     <e lm="laaf"><i>la</i><par n="ha/af__n_mf"/></e>
@@ -19655,7 +19667,6 @@
     <e lm="myopie"><i>myopie</i><par n="eb__n_f"/></e>
     <e lm="mythe"><i>mythe</i><par n="made__n_mf"/></e>
     <e lm="mythologie"><i>mythologie</i><par n="fee__n_f"/></e>
-    <e lm="n"><i>n</i><par n="n__n_f"/></e>
     <e lm="na-ijver"><i>na-ijver</i><par n="eb__n_m"/></e>
     <e lm="naad"><i>na</i><par n="na/ad__n_m"/></e>
     <e lm="naaf"><i>na</i><par n="ha/af__n_mf"/></e>
@@ -19885,7 +19896,6 @@
     <e lm="nunatak"><i>nunatak</i><par n="led__n_m"/></e>
     <e lm="nut"><i>nut</i><par n="OV__n_nt"/></e>
     <e lm="nycturie"><i>nycturie</i><par n="eb__n_f"/></e>
-    <e lm="o"><i>o</i><par n="o__n_mf"/></e>
     <e lm="oase"><i>oase</i><par n="made__n_f"/></e>
     <e lm="obelisk"><i>obelisk</i><par n="ui__n_m"/></e>
     <e lm="ober"><i>ober</i><par n="led__n_m"/></e>
@@ -20331,7 +20341,6 @@
     <e lm="ozon"><i>ozon</i><par n="eb__n_m"/></e>
     <e lm="ozonlaag"><i>ozonlaag</i><par n="WO__n_mf"/></e>
     <e lm="oöcyt"><i>oöcyt</i><par n="ui__n_m"/></e>
-    <e lm="p"><i>p</i><par n="p__n_f"/></e>
     <e lm="pH"><i>pH</i><par n="ra__n_m"/></e>
     <e lm="pH-waarde"><i>pH-waarde</i><par n="made__n_f"/></e>
     <e lm="pa"><i>pa</i><par n="ra__n_m"/></e>
@@ -20996,7 +21005,6 @@
     <e lm="pyrrhusoverwinning"><i>pyrrhusoverwinning</i><par n="ui__n_m"/></e>
     <e lm="pyrrusoverwinning"><i>pyrrusoverwinning</i><par n="vering__n_f"/></e>
     <e lm="python"><i>python</i><par n="led__n_m"/></e>
-    <e lm="q"><i>q</i><par n="q__n_mf"/></e>
     <e lm="qat"><i>qat</i><par n="led__n_m"/></e>
     <e lm="quad"><i>quad</i><par n="led__n_m"/></e>
     <e lm="quadrageen"><i>quadrage</i><par n="pe/en__n_f"/></e>
@@ -21027,7 +21035,6 @@
     <e lm="quote"><i>quote</i><par n="roe__n_mf"/></e>
     <e lm="quotiënt"><i>quotiënt</i><par n="lot__n_nt"/></e>
     <e lm="quotum"><i>quot</i><par n="atri/um__n_nt"/></e>
-    <e lm="r"><i>r</i><par n="r__n_mf"/></e>
     <e lm="ra"><i>ra</i><par n="ra__n_mf"/></e>
     <e lm="raad"><i>ra</i><par n="na/ad__n_m"/></e>
     <e lm="raadgever"><i>raadgever</i><par n="led__n_m"/></e>
@@ -21508,7 +21515,6 @@
     <e lm="röntgendiffractie"><i>röntgendiffractie</i><par n="eb__n_f"/></e>
     <e lm="röntgenfoto"><i>röntgenfoto</i><par n="ra__n_mf"/></e>
     <e lm="röntgenium"><i>röntgenium</i><par n="OV__n_nt"/></e>
-    <e lm="s"><i>s</i><par n="s__n_mf"/></e>
     <e lm="saaiheid"><i>saaiheid</i><par n="eb__n_f"/></e>
     <e lm="sabberaar"><i>sabberaar</i><par n="led__n_m"/></e>
     <e lm="sabel"><i>sabel</i><par n="eon__n_nt"/></e>
@@ -22615,7 +22621,6 @@
     <e lm="systematicus"><i>systematic</i><par n="cirr/us__n_m"/></e>
     <e lm="systematiek"><i>systematiek</i><par n="eb__n_f"/></e>
     <e lm="systematisering"><i>systematisering</i><par n="vering__n_f"/></e>
-    <e lm="t"><i>t</i><par n="t__n_mf"/></e>
     <e lm="tRNA"><i>tRNA</i><par n="Bo__n_nt"/></e>
     <e lm="taak"><i>ta</i><par n="ta/ak__n_mf"/></e>
     <e lm="taakstraf"><i>taakstraf</i><par n="hef__n_mf"/></e>
@@ -23265,7 +23270,6 @@
     <e lm="uurloner"><i>uurloner</i><par n="led__n_m"/></e>
     <e lm="uurwerk"><i>uurwerk</i><par n="lot__n_nt"/></e>
     <e lm="uveïtis"><i>uveïtis</i><par n="eb__n_f"/></e>
-    <e lm="v"><i>v</i><par n="v__n_mf"/></e>
     <e lm="vaak"><i>vaak</i><par n="eb__n_m"/></e>
     <e lm="vaalt"><i>vaalt</i><par n="hui__n_mf"/></e>
     <e lm="vaandel"><i>vaandel</i><par n="eon__n_nt"/></e>
@@ -23911,7 +23915,6 @@
     <e lm="vuurzee"><i>vuurzee</i><par n="fee__n_f"/></e>
     <e lm="vuvuzela"><i>vuvuzela</i><par n="ra__n_mf"/></e>
     <e lm="vwo"><i>vwo</i><par n="OV__n_nt"/></e>
-    <e lm="w"><i>w</i><par n="w__n_mf"/></e>
     <e lm="waadvogel"><i>waadvogel</i><par n="led__n_m"/></e>
     <e lm="waaghals"><i>waaghal</i><par n="hal/s__n_m"/></e>
     <e lm="waaghalzerij"><i>waaghalzerij</i><par n="vering__n_f"/></e>
@@ -24324,7 +24327,6 @@
     <e lm="wulk"><i>wulk</i><par n="hui__n_mf"/></e>
     <e lm="wulp"><i>wulp</i><par n="ui__n_m"/></e>
     <e lm="wurgstokje"><i>wurgstokje</i><par n="eon__n_nt"/></e>
-    <e lm="x"><i>x</i><par n="x__n_mf"/></e>
     <e lm="x-aantal"><i>x-aantal</i><par n="mol__n_nt"/></e>
     <e lm="x-as"><i>x-as</i><par n="as__n_mf"/></e>
     <e lm="xanthine"><i>xanthine</i><par n="WO__n_mf"/></e>
@@ -24366,7 +24368,6 @@
     <e lm="xylograaf"><i>xylogra</i><par n="biogra/af__n_m"/></e>
     <e lm="xylografie"><i>xylografie</i><par n="eb__n_f"/></e>
     <e lm="xyloliet"><i>xyloliet</i><par n="lot__n_nt"/></e>
-    <e lm="y"><i>y</i><par n="y__n_mf"/></e>
 	<e lm="albino"><i>albino</i><par n="y__n_mf"/></e>
     <e lm="y-as"><i>y-as</i><par n="as__n_mf"/></e>
     <e lm="yahtzee"><i>yahtzee</i><par n="OV__n_nt"/></e>
@@ -24397,7 +24398,6 @@
     <e lm="yup"><i>yup</i><par n="dop__n_nt"/></e>
     <e lm="yup"><i>yup</i><par n="lap__n_m"/></e>
     <e lm="yuppenstel"><i>yuppenstel</i><par n="mol__n_nt"/></e>
-    <e lm="z"><i>z</i><par n="z__n_mf"/></e>
     <e lm="zaad"><i>za</i><par n="za/ad__n_nt"/></e>
     <e lm="zaadbal"><i>zaadbal</i><par n="el__n_m"/></e>
     <e lm="zaadbalkanker"><i>zaadbalkanker</i><par n="eb__n_f"/></e>
