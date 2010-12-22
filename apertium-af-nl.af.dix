@@ -1878,7 +1878,6 @@
     <e lm="departement"><i>departement</i><par n="bier__n"/></e>
     <e lm="koerant"><i>koerant</i><par n="bier__n"/></e>
     <e lm="offisier"><i>offisier</i><par n="bier__n"/></e>
-    <e lm="buitelands"><i>buitelands</i><par n="bier__n"/></e>
     <e lm="swaard"><i>swaard</i><par n="bier__n"/></e>
     <e lm="terrein"><i>terrein</i><par n="bier__n"/></e>
     <e lm="geld"><i>geld</i><par n="bier__n"/></e>
@@ -1908,7 +1907,6 @@
     <e lm="funksionaliteit"><i>funksionaliteit</i><par n="bier__n"/></e>
     <e lm="huwelik"><i>huwelik</i><par n="bier__n"/></e>
     <e lm="vriend"><i>vriend</i><par n="bier__n"/></e>
-    <e lm="huidig"><i>huidig</i><par n="bier__n"/></e>
     <e lm="standaard"><i>standaard</i><par n="bier__n"/></e>
     <e lm="oomblik"><i>oomblik</i><par n="bier__n"/></e>
     <e lm="vorm"><i>vorm</i><par n="bier__n"/></e>
@@ -2147,7 +2145,6 @@
     <e lm="omwenteling"><i>omwenteling</i><par n="artikel__n"/></e>
     <e lm="onafhanklikheidsverklaring"><i>onafhanklikheidsverklaring</i><par n="artikel__n"/></e>
     <e lm="onderdrukking"><i>onderdrukking</i><par n="artikel__n"/></e>
-    <e lm="onderling"><i>onderling</i><par n="artikel__n"/></e>
     <e lm="onderskeiding"><i>onderskeiding</i><par n="artikel__n"/></e>
     <e lm="ondertekening"><i>ondertekening</i><par n="artikel__n"/></e>
     <e lm="ontbinding"><i>ontbinding</i><par n="artikel__n"/></e>
@@ -4115,7 +4112,6 @@
     <e lm="swerm"><i>swerm</i><par n="artikel__n"/></e>
     <e lm="simbool"><i>simbo</i><par n="sko/ol__n"/></e>
     <e lm="swaai"><i>swaai</i><par n="bier__n"/></e>
-    <e lm="lekker"><i>lekker</i><par n="artikel__n"/></e>
     <e lm="van"><i>van</i><par n="polisieman__n"/></e>
     <e lm="tee"><i>tee</i><par n="artikel__n"/></e>
     <e lm="telegram"><i>telegram</i><par n="ouderdom__n"/></e>
@@ -4259,7 +4255,6 @@
     <e lm="uitsig"><i>uitsig</i><par n="lys__n"/></e>
     <e lm="leemte"><i>leemte</i><par n="artikel__n"/></e>
     <e lm="korrupsie"><i>korrupsie</i><par n="poësie__n__unc"/></e>
-    <e lm="nooi"><i>nooi</i><par n="hoed__n"/></e>
     <e lm="inlyn"><i>inlyn</i><par n="bier__n"/></e>
     <e lm="posbus"><i>posbus</i><par n="abakus__n"/></e>
     <e lm="uitleg"><i>uitleg</i><par n="lys__n"/></e>
@@ -4450,7 +4445,6 @@
     <!-- Generated from wordlist by finding the cross section between ~aat and ~ate ending words -->
 
     <e lm="advokaat"><i>advoka</i><par n="resulta/at__n"/></e>
-    <e lm="akkuraat"><i>akkura</i><par n="resulta/at__n"/></e>
     <e lm="apparaat"><i>appara</i><par n="resulta/at__n"/></e>
     <e lm="baat"><i>ba</i><par n="resulta/at__n"/></e>
     <e lm="bufferstaat"><i>buffersta</i><par n="resulta/at__n"/></e>
@@ -4464,7 +4458,6 @@
     <e lm="formaat"><i>forma</i><par n="resulta/at__n"/></e>
     <e lm="fosfaat"><i>fosfa</i><par n="resulta/at__n"/></e>
     <e lm="gedenkplaat"><i>gedenkpla</i><par n="resulta/at__n"/></e>
-    <e lm="gehaat"><i>geha</i><par n="resulta/at__n"/></e>
     <e lm="huursoldaat"><i>huursolda</i><par n="resulta/at__n"/></e>
     <e lm="ingelaat"><i>ingela</i><par n="resulta/at__n"/></e>
     <e lm="inlaat"><i>inla</i><par n="resulta/at__n"/></e>

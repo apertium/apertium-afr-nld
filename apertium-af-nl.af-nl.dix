@@ -896,7 +896,6 @@
     <e><p><l>kartografie<s n="n"/></l><r>cartografie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>inspeksie<s n="n"/></l><r>inspectie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hoofpyn<s n="n"/></l><r>hoofdpijn<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>gehaat<s n="n"/></l><r>gehaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>funksionaliteit<s n="n"/></l><r>functionaliteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>burokraat<s n="n"/></l><r>burocraat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arrestasie<s n="n"/></l><r>arrestatie<s n="n"/><s n="f"/></r></p></e>
@@ -2656,7 +2655,7 @@
     <e><p><l>glasfabriek<s n="n"/></l><r>glasfabriek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taalvorm<s n="n"/></l><r>taalvorm<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>plantmateriaal<s n="n"/></l><r>plantmateriaal<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>versending<s n="n"/></l><r>versending<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>versending<s n="n"/></l><r>verzending<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>afvalwater<s n="n"/></l><r>afvalwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>taalontwikkeling<s n="n"/></l><r>taalontwikkeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rivierwater<s n="n"/></l><r>rivierwater<s n="n"/><s n="nt"/></r></p></e>
@@ -2725,7 +2724,7 @@
     <e><p><l>patriotisme<s n="n"/></l><r>patriottisme<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>optimisme<s n="n"/></l><r>optimisme<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>historisme<s n="n"/></l><r>historisme<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>nepotisme<s n="n"/></l><r>vriendjespolitiek<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>nepotisme<s n="n"/></l><r>vriendjespolitiek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aktivisme<s n="n"/></l><r>activisme<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>totalitarisme<s n="n"/></l><r>totalitarisme<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skeptisisme<s n="n"/></l><r>scepsis<s n="n"/><s n="nt"/></r></p></e>
@@ -3055,7 +3054,6 @@
     <e><p><l>afsetgebied<s n="n"/></l><r>afzetgebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>agentskap<s n="n"/></l><r>agentschap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>agtervoegsel<s n="n"/></l><r>achtervoegsel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>akkuraat<s n="n"/></l><r>nauwkeurig<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>alfabet<s n="n"/></l><r>alfabet<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>aluminium<s n="n"/></l><r>aluminium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>argief<s n="n"/></l><r>archief<s n="n"/><s n="nt"/></r></p></e>
@@ -3072,12 +3070,11 @@
     <e><p><l>beleid<s n="n"/></l><r>beleid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>berou<s n="n"/></l><r>berouw<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>besoek<s n="n"/></l><r>bezoek<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>bestaan<s n="n"/></l><r>bestaat<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bestaan<s n="n"/></l><r>bestaan<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bewussyn<s n="n"/></l><r>bewustzijn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bloed<s n="n"/></l><r>bloed<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bombardement<s n="n"/></l><r>bombardement<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>buiteland<s n="n"/></l><r>buitenland<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>buitelands<s n="n"/></l><r>buitenlands<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bymekaarkomplek<s n="n"/></l><r>ontmoetingshuis<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>byproduk<s n="n"/></l><r>bijproduct<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>chroom<s n="n"/></l><r>chroom<s n="n"/><s n="nt"/></r></p></e>
@@ -3140,7 +3137,6 @@
     <e><p><l>hoofkwartier<s n="n"/></l><r>hoofdkantoor<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hotel<s n="n"/></l><r>hotel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hout<s n="n"/></l><r>hout<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>huidig<s n="n"/></l><r>huidig<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huishouding<s n="n"/></l><r>huishouden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huwelik<s n="n"/></l><r>huwelijk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ideaal<s n="n"/></l><r>ideaal<s n="n"/><s n="nt"/></r></p></e>
@@ -3175,7 +3171,7 @@
     <e><p><l>konglomeraat<s n="n"/></l><r>conglomeraat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>koningskap<s n="n"/></l><r>koningschap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>koninkryk<s n="n"/></l><r>koninkrijk<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>konkreet<s n="n"/></l><r>concreet<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>konkreet<s n="n"/></l><r>beton<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kookpunt<s n="n"/></l><r>kookpunt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kookwater<s n="n"/></l><r>kookwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>korpus<s n="n"/></l><r>corpus<s n="n"/><s n="nt"/></r></p></e>
@@ -3187,13 +3183,12 @@
     <e><p><l>leermateriaal<s n="n"/></l><r>leermateriaal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>legaat<s n="n"/></l><r>legaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>leierskap<s n="n"/></l><r>leiderschap<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>lekker<s n="n"/></l><r>lekker<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lessenaar<s n="n"/></l><r>bureau<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>liggaam<s n="n"/></l><r>lichaam<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>loodreg<s n="n"/></l><r>loodrecht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lood<s n="n"/></l><r>lood<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lyding<s n="n"/></l><r>lijden<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>lynreg<s n="n"/></l><r>helemaal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>lynreg<s n="n"/></l><r>doorsnede<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>maksimum<s n="n"/></l><r>maximum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mandaat<s n="n"/></l><r>mandaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mangaan<s n="n"/></l><r>mangaan<s n="n"/><s n="nt"/></r></p></e>
@@ -3216,13 +3211,11 @@
     <e><p><l>nederlands<s n="n"/></l><r>nederlands<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>netwerk<s n="n"/></l><r>netwerk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nierversaking<s n="n"/></l><r>nierfalen<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>nooi<s n="n"/></l><r>nodig<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>noorde<s n="n"/></l><r>noorden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>noordwes<s n="n"/></l><r>noordwesten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>omgekeerde<s n="n"/></l><r>omgekeerde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>omring<s n="n"/></l><r>omringt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>onderhoud<s n="n"/></l><r>onderhoud<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>onderling<s n="n"/></l><r>onderling<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>onderwerp<s n="n"/></l><r>onderwerp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>onderwysdepartement<s n="n"/></l><r>onderwijs<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>onreg<s n="n"/></l><r>onrecht<s n="n"/><s n="nt"/></r></p></e>
@@ -3279,7 +3272,7 @@
     <e><p><l>ryk<s n="n"/></l><r>rijk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sakekern<s n="n"/></l><r>zakencentrum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sakewêreld<s n="n"/></l><r>bedrijfsleven<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sal<s n="n"/></l><r>zal<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sal<s n="n"/></l><r>zout<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sand<s n="n"/></l><r>zand<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sediment<s n="n"/></l><r>sediment<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>seekoei<s n="n"/></l><r>nijlpaard<s n="n"/><s n="nt"/></r></p></e>
