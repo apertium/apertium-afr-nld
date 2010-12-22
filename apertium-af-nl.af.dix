@@ -7069,6 +7069,10 @@
     <e lm="aanskryf"><p><l>skryf</l><r>aanskryf</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanskryf"><p><l>aangeskryf</l><r>aanskryf</r></p><par n="aangesien__vblex_sep"/></e>
 
+    <e lm="aansluit"><i>aansluit</i><par n="aansien__vblex_sep"/></e>
+    <e lm="aansluit"><p><l>sluit</l><r>aansluit</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aansluit"><p><l>aangesluit</l><r>aansluit</r></p><par n="aangesien__vblex_sep"/></e>
+
     <e lm="aansoek"><i>aansoek</i><par n="aansien__vblex_sep"/></e>
     <e lm="aansoek"><p><l>soek</l><r>aansoek</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aansoek"><p><l>aangesoek</l><r>aansoek</r></p><par n="aangesien__vblex_sep"/></e>
@@ -7552,6 +7556,10 @@
     <e lm="inskryf"><i>inskryf</i><par n="aansien__vblex_sep"/></e>
     <e lm="inskryf"><p><l>skryf</l><r>inskryf</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
     <e lm="inskryf"><p><l>ingeskryf</l><r>inskryf</r></p><par n="aangesien__vblex_sep"/></e>
+
+    <e lm="insluit"><i>insluit</i><par n="aansien__vblex_sep"/></e>
+    <e lm="insluit"><p><l>sluit</l><r>insluit</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
+    <e lm="insluit"><p><l>ingesluit</l><r>insluit</r></p><par n="aangesien__vblex_sep"/></e>
 
     <e lm="insny"><i>insny</i><par n="aansien__vblex_sep"/></e>
     <e lm="insny"><p><l>sny</l><r>insny</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
@@ -9262,6 +9270,9 @@
 
     <e lm="sluk"><i>sluk</i><par n="breek__vblex"/></e>
     <e lm="sluk"><p><l>gesluk</l><r>sluk</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="sluit"><i>sluit</i><par n="breek__vblex"/></e>
+    <e lm="sluit"><p><l>gesluit</l><r>sluit</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="smelt"><i>smelt</i><par n="breek__vblex"/></e>
     <e lm="smelt"><p><l>gesmelt</l><r>smelt</r></p><par n="gebreek__vblex"/></e>

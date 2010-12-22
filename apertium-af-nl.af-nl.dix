@@ -231,7 +231,6 @@
     <e><p><l>ooreenkomstig<b/>met<s n="pr"/></l><r>overeenkomstig<b/>met<s n="pr"/></r></p></e>
     <e><p><l>om<b/>te<s n="pr"/></l><r>om<b/>te<s n="pr"/></r></p></e>
     <e><p><l>minder<b/>as<s n="pr"/></l><r>minder<b/>als<s n="pr"/></r></p></e>
-    <e><p><l>insluitende<s n="pr"/></l><r>inclusief<s n="pr"/></r></p></e>
     <e><p><l>behalwe<b/>vir<s n="pr"/></l><r>behalve<b/>voor<s n="pr"/></r></p></e>
     <e><p><l>as<b/>'n<s n="pr"/></l><r>als<b/>een<s n="pr"/></r></p></e>
     <e><p><l>as<b/>gevolg<b/>van<s n="pr"/></l><r>als<b/>gevolg<b/>van<s n="pr"/></r></p></e>
@@ -5427,6 +5426,7 @@
     <e><p><l>leen<s n="vblex"/></l><r>lenen<s n="vblex"/></r></p></e>
     <e><p><l>jaag<s n="vblex"/></l><r>jagen<s n="vblex"/></r></p></e>
     <e><p><l>slote<s n="vblex"/></l><r>sluiten<s n="vblex"/></r></p></e>
+    <e><p><l>sluit<s n="vblex"/></l><r>sluiten<s n="vblex"/></r></p></e>
     <e><p><l>ontruim<s n="vblex"/></l><r>ontruimen<s n="vblex"/></r></p></e>
     <e><p><l>ontslae<s n="vblex"/></l><r>ontslaan<s n="vblex"/></r></p></e>
     <e><p><l>toets<s n="vblex"/></l><r>toetsen<s n="vblex"/></r></p></e>
@@ -5585,6 +5585,8 @@
     <e><p><l>afsien<s n="vblex"/><s n="sep"/></l><r>afzien<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>uitleg<s n="vblex"/><s n="sep"/></l><r>uitleggen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omkom<s n="vblex"/><s n="sep"/></l><r>omkomen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>insluit<s n="vblex"/><s n="sep"/></l><r>insluiten<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>aansluit<s n="vblex"/><s n="sep"/></l><r>aansluiten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>onderneem<s n="vblex"/><s n="sep"/></l><r>ondernemen<s n="vblex"/></r></p></e>
 
 

@@ -15,8 +15,8 @@ Tag mismatch between transfer and generation
 ===============================================================================
    1519 #mogelijk\<adj\>\<sint\>\<pred\>	^mogelijk<adj><sint><pred>$
     722 #vinnig\<adj\>\<sint\>\<pred\>	^vinnig<adj><sint><pred>$
-    637 #modern\<adj\>\<pred\>	^modern<adj><pred>$
-    610 #modern\<adj\>\<attr\>	^modern<adj><attr>$
+    636 #modern\<adj\>\<pred\>	^modern<adj><pred>$
+    611 #modern\<adj\>\<attr\>	^modern<adj><attr>$
     548 #geplaatst\<adj\>\<sint\>\<pred\>	^geplaatst<adj><sint><pred>$
     514 #min\<adj\>\<sint\>\<comp\>\<pred\>	^min<adj><sint><comp><pred>$
     490 #administratief\<adj\>\<attr\>	^administratief<adj><attr>$
@@ -27,8 +27,8 @@ Tag mismatch between transfer and generation
     335 #onafhankelijk\<adj\>\<sint\>\<attr\>	^onafhankelijk<adj><sint><attr>$
     327 #moeilijk\<adj\>\<sint\>\<pred\>	^moeilijk<adj><sint><pred>$
     316 #verwant\<adj\>\<pred\>	^verwant<adj><pred>$
-    313 #min\<adj\>\<sint\>\<pred\>	^min<adj><sint><pred>$
-    305 #wereldwijd\<adj\>\<sint\>\<pred\>	^wereldwijd<adj><sint><pred>$
+    314 #min\<adj\>\<sint\>\<pred\>	^min<adj><sint><pred>$
+    304 #wereldwijd\<adj\>\<sint\>\<pred\>	^wereldwijd<adj><sint><pred>$
     292 #getrouwd\<adj\>\<sint\>\<pred\>	^getrouwd<adj><sint><pred>$
     290 #zichzelf\<prn\>\<ref\>\<p3\>\<mf\>\<sg\>	^zichzelf<prn><ref><p3><mf><sg>$
     278 #omvattend\<adj\>\<sint\>\<pred\>	^omvattend<adj><sint><pred>$
@@ -80,7 +80,6 @@ Tag mismatch between transfer and generation
     116 #dagelijks\<adj\>\<sint\>\<pred\>	^dagelijks<adj><sint><pred>$
     115 #potentieel\<adj\>\<sint\>\<pred\>	^potentieel<adj><sint><pred>$
     115 #electronisch\<adj\>\<sint\>\<pred\>	^electronisch<adj><sint><pred>$
-    114 #wettig\<adj\>\<sint\>\<pred\>	^wettig<adj><sint><pred>$
     113 #publiek\<adj\>\<attr\>	^publiek<adj><attr>$
     112 #electronisch\<adj\>\<sint\>\<attr\>	^electronisch<adj><sint><attr>$
     112 #Apostelijk\<adj\>\<sint\>\<attr\>	^Apostelijk<adj><sint><attr>$
@@ -98,11 +97,12 @@ Tag mismatch between transfer and generation
      99 #vinnig\<adj\>\<sint\>\<comp\>\<pred\>	^vinnig<adj><sint><comp><pred>$
      99 #periodiek\<adj\>\<attr\>	^periodiek<adj><attr>$
      99 #Modern\<adj\>\<pred\>	^Modern<adj><pred>$
+     98 #wettig\<adj\>\<sint\>\<pred\>	^wettig<adj><sint><pred>$
      98 #gevaarlijk\<adj\>\<sint\>\<pred\>	^gevaarlijk<adj><sint><pred>$
      95 #verwant\<adj\>\<attr\>	^verwant<adj><attr>$
      94 #werkelijk\<adj\>\<sint\>\<attr\>	^werkelijk<adj><sint><attr>$
      94 #uniek\<adj\>\<attr\>	^uniek<adj><attr>$
-     91 #wereldwijd\<adj\>\<sint\>\<attr\>	^wereldwijd<adj><sint><attr>$
+     92 #wereldwijd\<adj\>\<sint\>\<attr\>	^wereldwijd<adj><sint><attr>$
      90 #toeganglijk\<adj\>\<sint\>\<pred\>	^toeganglijk<adj><sint><pred>$
      90 #digitaal\<adj\>\<pred\>	^digitaal<adj><pred>$
      89 #aanzienlijk\<adj\>\<sint\>\<attr\>	^aanzienlijk<adj><sint><attr>$
@@ -141,6 +141,7 @@ Tag mismatch between transfer and generation
      64 #giftig\<adj\>\<sint\>\<pred\>	^giftig<adj><sint><pred>$
      64 #aanzienlijk\<adj\>\<sint\>\<pred\>	^aanzienlijk<adj><sint><pred>$
      63 #invloedrijk\<adj\>\<sint\>\<pred\>	^invloedrijk<adj><sint><pred>$
+     62 #wettig\<adj\>\<sint\>\<attr\>	^wettig<adj><sint><attr>$
      62 #werkelijk\<adj\>\<sint\>\<pred\>	^werkelijk<adj><sint><pred>$
      62 #nodig\<adj\>\<sint\>\<attr\>	^nodig<adj><sint><attr>$
      62 #invloedrijk\<adj\>\<sint\>\<attr\>	^invloedrijk<adj><sint><attr>$
@@ -180,7 +181,6 @@ Tag mismatch between transfer and generation
      48 #afzonderlijk\<adj\>\<sint\>\<pred\>	^afzonderlijk<adj><sint><pred>$
      47 #veilig\<adj\>\<sint\>\<attr\>	^veilig<adj><sint><attr>$
      47 #onduidelijk\<adj\>\<sint\>\<pred\>	^onduidelijk<adj><sint><pred>$
-     46 #wettig\<adj\>\<sint\>\<attr\>	^wettig<adj><sint><attr>$
      46 #analytisch\<adj\>\<sint\>\<attr\>	^analytisch<adj><sint><attr>$
      45 #vinnig\<adj\>\<sint\>\<sup\>\<pred\>	^vinnig<adj><sint><sup><pred>$
      45 #verticaal\<adj\>\<sint\>\<attr\>	^verticaal<adj><sint><attr>$
