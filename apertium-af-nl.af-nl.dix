@@ -1942,7 +1942,7 @@
     <e><p><l>manuskrip<s n="n"/></l><r>manuscript<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mark<s n="n"/></l><r>markt<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>masjien<s n="n"/></l><r>machine<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>masker<s n="n"/></l><r>masker<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>masker<s n="n"/></l><r>masker<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ma<s n="n"/></l><r>ma<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>massa<s n="n"/></l><r>massa<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>materiaal<s n="n"/></l><r>materiaal<s n="n"/><s n="nt"/></r></p></e>
@@ -2090,7 +2090,7 @@
     <e><p><l>oseaan<s n="n"/></l><r>oceaan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ouderdom<s n="n"/></l><r>leeftijd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>outoriteit<s n="n"/></l><r>autoriteit<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ovaal<s n="n"/></l><r>ovaal<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>ovaal<s n="n"/></l><r>ovaal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>owerheid<s n="n"/></l><r>overheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paal<s n="n"/></l><r>paal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>paartjie<s n="n"/></l><r>stel<s n="n"/><s n="nt"/></r></p></e>
@@ -2384,7 +2384,7 @@
     <e><p><l>temperament<s n="n"/></l><r>temperament<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>temperatuur<s n="n"/></l><r>temperatuur<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tenk<s n="n"/></l><r>tank<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>tennisbaan<s n="n"/></l><r>tennisbaan<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>tennisbaan<s n="n"/></l><r>tennisbaan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tentoonstelling<s n="n"/></l><r>tentoonstelling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tent<s n="n"/></l><r>tent<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>teoretikus<s n="n"/></l><r>theoreticus<s n="n"/><s n="m"/></r></p></e>
@@ -3064,7 +3064,6 @@
     <e><p><l>banier<s n="n"/></l><r>spandoek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bankstelsel<s n="n"/></l><r>banksysteem<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>beantwoord<s n="n"/></l><r>beantwoorden<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>beheptheid<s n="n"/></l><r>begaan zijn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>belastingbeleid<s n="n"/></l><r>belastingbeleid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>beleid<s n="n"/></l><r>beleid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>berou<s n="n"/></l><r>berouw<s n="n"/><s n="nt"/></r></p></e>
@@ -3107,7 +3106,6 @@
     <e><p><l>geduur<s n="n"/></l><r>duur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geel<s n="n"/></l><r>geel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geheel<s n="n"/></l><r>geheel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>gelys<s n="n"/></l><r>vermelde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gemiddeld<s n="n"/></l><r>gemiddelde<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>genot<s n="n"/></l><r>genot<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gereedskap<s n="n"/></l><r>gereedschap<s n="n"/><s n="nt"/></r></p></e>
