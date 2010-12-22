@@ -15,7 +15,7 @@
     504 uitbrei<vblex><sep><inf>
     497 oorneem<vblex><sep><inf>
     495 toeken<vblex><sep><inf>
-    486 voorstel<vblex><sep><inf>
+    485 voorstel<vblex><sep><inf>
     482 aantref<vblex><sep><inf>
     467 optree<vblex><sep><inf>
     461 invoer<vblex><sep><inf>
@@ -25,7 +25,7 @@
     351 toeneem<vblex><sep><inf>
     347 inneem<vblex><sep><inf>
     342 inlê<vblex><sep><inf>
-    336 aanval<vblex><sep><inf>
+    331 aanval<vblex><sep><inf>
     317 inkeer<vblex><sep><inf>
     310 onderskei<vblex><sep><inf>
     300 instel<vblex><sep><inf>
@@ -43,6 +43,7 @@
     239 verstaan<vblex><inf>
     233 aanwend<vblex><sep><inf>
     230 verhaal<vblex><inf>
+    224 lys<vblex><inf>
     222 toepas<vblex><sep><inf>
     216 aanwys<vblex><sep><inf>
     202 opstel<vblex><sep><inf>
@@ -68,13 +69,12 @@
     130 uitbou<vblex><sep><inf>
     123 aangee<vblex><sep><inf>
     120 uitdruk<vblex><sep><inf>
-    118 onderwys<vblex><sep><inf>
     118 inwerk<vblex><sep><inf>
     118 afbreek<vblex><sep><inf>
     117 uitvind<vblex><sep><inf>
+    117 onderwys<vblex><sep><inf>
     116 inhou<vblex><sep><inf>
     115 aanvoer<vblex><sep><inf>
-    109 inval<vblex><sep><inf>
     106 noodsaak<vblex><inf>
     106 aandeel<vblex><sep><inf>
     105 uitsterf<vblex><sep><inf>
@@ -89,6 +89,7 @@
      94 voorberei<vblex><sep><inf>
      94 terugtrek<vblex><sep><inf>
      92 ondervind<vblex><sep><inf>
+     91 inval<vblex><sep><inf>
      91 indeel<vblex><sep><inf>
      91 aandring<vblex><sep><inf>
      85 opvoer<vblex><sep><inf>
@@ -148,7 +149,6 @@
      47 opdra<vblex><sep><inf>
      47 afskei<vblex><sep><inf>
      46 uitnooi<vblex><sep><inf>
-     46 lys<vblex><inf>
      46 aanrig<vblex><sep><inf>
      46 aankla<vblex><sep><inf>
      45 teruggee<vblex><sep><inf>

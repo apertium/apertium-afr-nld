@@ -40,6 +40,7 @@ dev/generation-summary.txt -text
 dev/generation-test.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
+dev/test-corpus.txt -text
 dev/verbSep-NoParadigms.txt -text
 dev/verbSep.txt -text
 /modes.xml -text
