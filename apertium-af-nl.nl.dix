@@ -2340,24 +2340,6 @@
       <e>       <p><l>pe</l><r>pen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>pe</l><r>pen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
-    <pardef n="l/open__vblex">
-      <e>       <p><l>op</l><r>open<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>opt</l><r>open<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
-      <e>       <p><l>open</l><r>open<s n="vblex"/><s n="inf"/></r></p></e>
-      <e>       <p><l>iepen</l><r>open<s n="vblex"/><s n="past"/><s n="pl"/></r></p></e>
-      <e>       <p><l>iep</l><r>open<s n="vblex"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iep</l><r>open<s n="vblex"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>iep</l><r>open<s n="vblex"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>opend</l><r>open<s n="vblex"/><s n="pprs"/></r></p></e>
-      <e>       <p><l>open</l><r>open<s n="vblex"/><s n="pres"/><s n="pl"/></r></p></e>
-      <e>       <p><l>op</l><r>open<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>opt</l><r>open<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>opt</l><r>open<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>open</l><r>open<s n="vblex"/><s n="prs"/><s n="pl"/></r></p></e>
-      <e>       <p><l>ope</l><r>open<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ope</l><r>open<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ope</l><r>open<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="we/ken__vblex">
       <e>       <p><l>ek</l><r>ken<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
       <e>       <p><l>ekt</l><r>ken<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
@@ -11946,6 +11928,7 @@
     <e lm="2-propeenzuur"><i>2-propeenzuur</i><par n="OV__n_nt"/></e>
     <e lm="65+-kaart"><i>65+-kaart</i><par n="65+-kaart__n_mf"/></e>
     <e lm="A-biljet"><i>A-biljet</i><par n="kot__n_nt"/></e>
+	<e lm="vet"><i>vet</i><par n="kot__n_nt"/></e>
     <e lm="A-bom"><i>A-bom</i><par n="kom__n_mf"/></e>
     <e lm="A4"><i>A4</i><par n="A4__n_nt"/></e>
     <e lm="A4-formaat"><i>A4-formaat</i><par n="OV__n_nt"/></e>
@@ -11981,6 +11964,9 @@
 	<e lm="krypton"><i>krypton</i><par n="OV__n_nt"/></e>
 	<e lm="gekreun"><i>gekreun</i><par n="OV__n_nt"/></e>
     <e lm="AWACS-vliegtuig"><i>AWACS-vliegtuig</i><par n="lot__n_nt"/></e>
+	<e lm="opschrift"><i>opschrift</i><par n="lot__n_nt"/></e>
+	<e lm="voorschrift"><i>voorschrift</i><par n="lot__n_nt"/></e>
+	<e lm="bericht"><i>bericht</i><par n="lot__n_nt"/></e>
     <e lm="AWW"><i>AWW</i><par n="WO__n_mf"/></e>
     <e lm="AWW-uitkering"><i>AWW-uitkering</i><par n="vering__n_f"/></e>
     <e lm="Aari"><i>Aari</i><par n="OV__n_nt"/></e>
@@ -25149,7 +25135,9 @@
     <e lm="zeester"><i>zeester</i><par n="tor__n_mf"/></e>
     <e lm="zeestrand"><i>zeestrand</i><par n="lot__n_nt"/></e>
     <e lm="zeet"><i>ze</i><par n="be/et__n_f"/></e>
-    <e lm="zeet"><i>ze</i><par n="ze/et__n_nt"/></e>
+    <e lm="gameet"><i>game</i><par n="ze/et__n_nt"/></e>
+	<e lm="decreet"><i>decre</i><par n="ze/et__n_nt"/></e>
+	<e lm="zeet"><i>ze</i><par n="ze/et__n_nt"/></e>
     <e lm="zeetong"><i>zeetong</i><par n="hui__n_mf"/></e>
     <e lm="zeevogel"><i>zeevogel</i><par n="led__n_m"/></e>
     <e lm="zeevonk"><i>zeevonk</i><par n="hui__n_mf"/></e>
@@ -25187,6 +25175,7 @@
     <e lm="zeilmaker"><i>zeilmaker</i><par n="led__n_m"/></e>
     <e lm="zeilmakerij"><i>zeilmakerij</i><par n="vering__n_f"/></e>
     <e lm="zeilnummer"><i>zeilnummer</i><par n="eon__n_nt"/></e>
+	<e lm="ticket"><i>ticket</i><par n="eon__n_nt"/></e>
     <e lm="zeilplan"><i>zeilplan</i><par n="ven__n_nt"/></e>
     <e lm="zeilpunt"><i>zeilpunt</i><par n="lot__n_nt"/></e>
     <e lm="zeilrace"><i>zeilrace</i><par n="led__n_m"/></e>
@@ -25222,6 +25211,8 @@
     <e lm="zendeling"><i>zendeling</i><par n="ui__n_m"/></e>
     <e lm="zendmast"><i>zendmast</i><par n="zooi__n_mf"/></e>
     <e lm="zenit"><i>zenit</i><par n="OV__n_nt"/></e>
+	<e lm="telnet"><i>telnet</i><par n="OV__n_nt"/></e>
+	<e lm="wegennet"><i>wegennet</i><par n="OV__n_nt"/></e>
     <e lm="zenuw"><i>zenuw</i><par n="hui__n_mf"/></e>
     <e lm="zenuwcel"><i>zenuwcel</i><par n="el__n_mf"/></e>
     <e lm="zenuwgas"><i>zenuwgas</i><par n="es__n_nt"/></e>

@@ -2140,7 +2140,6 @@
     <e lm="musiek"><i>musiek</i><par n="poësie__n__unc"/></e>
     <e lm="oefening"><i>oefening</i><par n="artikel__n"/></e>
     <e lm="omgewing"><i>omgewing</i><par n="artikel__n"/></e>
-    <e lm="omring"><i>omring</i><par n="artikel__n"/></e>
     <e lm="omskakeling"><i>omskakeling</i><par n="artikel__n"/></e>
     <e lm="omwenteling"><i>omwenteling</i><par n="artikel__n"/></e>
     <e lm="onafhanklikheidsverklaring"><i>onafhanklikheidsverklaring</i><par n="artikel__n"/></e>
@@ -3213,7 +3212,6 @@
     <e lm="suur"><i>su</i><par n="avontu/ur__n"/></e>
     <e lm="geduur"><i>gedu</i><par n="avontu/ur__n"/></e>
     <e lm="stadsmuur"><i>stadsmu</i><par n="avontu/ur__n"/></e>
-    <e lm="voortgeduur"><i>voortgedu</i><par n="avontu/ur__n"/></e>
     <e lm="muur"><i>mu</i><par n="avontu/ur__n"/></e>
     <e lm="voortduur"><i>voortdu</i><par n="avontu/ur__n"/></e>
     <e lm="tydsduur"><i>tydsdu</i><par n="avontu/ur__n"/></e>
@@ -4536,7 +4534,6 @@
     <e lm="gemeet"><i>geme</i><par n="plane/et__n"/></e>
     <e lm="gevreet"><i>gevre</i><par n="plane/et__n"/></e>
     <e lm="geweet"><i>gewe</i><par n="plane/et__n"/></e>
-    <e lm="heet"><i>he</i><par n="plane/et__n"/></e>
     <e lm="komeet"><i>kome</i><par n="plane/et__n"/></e>
     <e lm="konkreet"><i>konkre</i><par n="plane/et__n"/></e>
     <e lm="kreet"><i>kre</i><par n="plane/et__n"/></e>
@@ -4767,7 +4764,6 @@
     <e lm="lynreg"><i>lynreg</i><par n="lys__n"/></e>
     <e lm="nagereg"><i>nagereg</i><par n="lys__n"/></e>
     <e lm="onreg"><i>onreg</i><par n="lys__n"/></e>
-    <e lm="opreg"><i>opreg</i><par n="lys__n"/></e>
     <e lm="patentreg"><i>patentreg</i><par n="lys__n"/></e>
     <e lm="reg"><i>reg</i><par n="lys__n"/></e>
     <e lm="visgereg"><i>visgereg</i><par n="lys__n"/></e>
