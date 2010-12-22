@@ -8227,8 +8227,16 @@
 
     <pardef n="Frankrijk__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
-
+    <pardef n="Afrika__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+    <pardef n="Nederlands__np">
+      <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
     <pardef n="Oostzee__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
@@ -25805,12 +25813,12 @@
     <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
     <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Frankrijk__np"/></e>
-    <e lm="Nederlands"><i>Nederlands</i><par n="Frankrijk__np"/></e>
-    <e lm="Afrika"><i>Afrika</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederlands"><i>Nederlands</i><par n="Nederlands__np"/></e>
+    <e lm="Afrika"><i>Afrika</i><par n="Afrika__np"/></e>
 
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
-    <e lm="Parijs"><i>Parijs</i><par n="Frankrijk__np"/></e>
+    <e lm="Parijs"><i>Parijs</i><par n="Nederlands__np"/></e>
     <e lm="Alacant"><i>Alacant</i><par n="Frankrijk__np"/></e>
     <e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
 
@@ -25818,24 +25826,24 @@
     <e lm="Alaska"><i>Alaska</i><par n="Frankrijk__np"/></e>
     <e lm="Albanië"><i>Albanië</i><par n="Frankrijk__np"/></e>
     <e lm="Alexandrië"><i>Alexandrië</i><par n="Frankrijk__np"/></e>
-    <e lm="Algerije"><i>Algerije</i><par n="Frankrijk__np"/></e>
+    <e lm="Algerije"><i>Algerije</i><par n="Afrika__np"/></e>
     <e lm="Alpen"><i>Alpen</i><par n="Frankrijk__np"/></e>
-    <e lm="America"><i>America</i><par n="Frankrijk__np"/></e>
+    <e lm="America"><i>America</i><par n="Afrika__np"/></e>
     <e lm="Anatolië"><i>Anatolië</i><par n="Frankrijk__np"/></e>
-    <e lm="Andorra"><i>Andorra</i><par n="Frankrijk__np"/></e>
-    <e lm="Angola"><i>Angola</i><par n="Frankrijk__np"/></e>
-    <e lm="Antarctica"><i>Antarctica</i><par n="Frankrijk__np"/></e>
-    <e lm="Antigua en Barbuda"><i>Antigua<b/>en<b/>Barbuda</i><par n="Frankrijk__np"/></e>
+    <e lm="Andorra"><i>Andorra</i><par n="Afrika__np"/></e>
+    <e lm="Angola"><i>Angola</i><par n="Afrika__np"/></e>
+    <e lm="Antarctica"><i>Antarctica</i><par n="Afrika__np"/></e>
+    <e lm="Antigua en Barbuda"><i>Antigua<b/>en<b/>Barbuda</i><par n="Afrika__np"/></e>
     <e lm="Arabië"><i>Arabië</i><par n="Frankrijk__np"/></e>
     <e lm="Argentinië"><i>Argentinië</i><par n="Frankrijk__np"/></e>
-    <e lm="Arktika"><i>Arktika</i><par n="Frankrijk__np"/></e>
+    <e lm="Arktika"><i>Arktika</i><par n="Afrika__np"/></e>
     <e lm="Armenië"><i>Armenië</i><par n="Frankrijk__np"/></e>
     <e lm="Atlantische Oceaan"><i>Atlantische<b/>Oceaan</i><par n="Frankrijk__np"/></e>
     <e lm="Australazië"><i>Australazië</i><par n="Frankrijk__np"/></e>
     <e lm="Australië"><i>Australië</i><par n="Frankrijk__np"/></e>
     <e lm="Azerbeidzjan"><i>Azerbeidzjan</i><par n="Frankrijk__np"/></e>
     <e lm="Azië"><i>Azië</i><par n="Frankrijk__np"/></e>
-    <e lm="Baffinbaai"><i>Baffinbaai</i><par n="Frankrijk__np"/></e>
+    <e lm="Baffinbaai"><i>Baffinbaai</i><par n="Afrika__np"/></e>
     <e lm="Bahrein"><i>Bahrein</i><par n="Frankrijk__np"/></e>
     <e lm="Balkan"><i>Balkan</i><par n="Frankrijk__np"/></e>
     <e lm="Barentszzee"><i>Barentszzee</i><par n="Oostzee__np"/></e>
@@ -25843,45 +25851,45 @@
     <e lm="Beringstraat"><i>Beringstraat</i><par n="Frankrijk__np"/></e>
     <e lm="Berlijn"><i>Berlijn</i><par n="Frankrijk__np"/></e>
     <e lm="Bloemfontein"><i>Bloemfontein</i><par n="Frankrijk__np"/></e>
-    <e lm="Bordeaux"><i>Bordeaux</i><par n="Frankrijk__np"/></e>
+    <e lm="Bordeaux"><i>Bordeaux</i><par n="Nederlands__np"/></e>
     <e lm="Bosnië"><i>Bosnië</i><par n="Frankrijk__np"/></e>
-    <e lm="Bourgondië"><i>Bourgondië</i><par n="Frankrijk__np"/></e>
+    <e lm="Bourgondië"><i>Bourgondië</i><par n="Afrika__np"/></e>
     <e lm="Brandenburg"><i>Brandenburg</i><par n="Frankrijk__np"/></e>
     <e lm="Brazilië"><i>Brazilië</i><par n="Frankrijk__np"/></e>
     <e lm="Bremen"><i>Bremen</i><par n="Frankrijk__np"/></e>
     <e lm="Buenos Aires"><i>Buenos<b/>Aires</i><par n="Frankrijk__np"/></e>
-    <e lm="Bulgarije"><i>Bulgarije</i><par n="Frankrijk__np"/></e>
-    <e lm="Californië"><i>Californië</i><par n="Frankrijk__np"/></e>
-    <e lm="Canada"><i>Canada</i><par n="Frankrijk__np"/></e>
+    <e lm="Bulgarije"><i>Bulgarije</i><par n="Afrika__np"/></e>
+    <e lm="Californië"><i>Californië</i><par n="Afrika__np"/></e>
+    <e lm="Canada"><i>Canada</i><par n="Afrika__np"/></e>
     <e lm="Carcassonne"><i>Carcassonne</i><par n="Frankrijk__np"/></e>
     <e lm="Castilië"><i>Castilië</i><par n="Frankrijk__np"/></e>
     <e lm="Catalonië"><i>Catalonië</i><par n="Frankrijk__np"/></e>
     <e lm="Centraal-Afrikaanse Republiek"><i>Centraal-Afrikaanse<b/>Republiek</i><par n="Frankrijk__np"/></e>
     <e lm="Centraal-Azië"><i>Centraal-Azië</i><par n="Frankrijk__np"/></e>
-    <e lm="Chicago"><i>Chicago</i><par n="Frankrijk__np"/></e>
-    <e lm="Chili"><i>Chili</i><par n="Frankrijk__np"/></e>
-    <e lm="China"><i>China</i><par n="Frankrijk__np"/></e>
-    <e lm="Colombia"><i>Colombia</i><par n="Frankrijk__np"/></e>
-    <e lm="Cuba"><i>Cuba</i><par n="Frankrijk__np"/></e>
+    <e lm="Chicago"><i>Chicago</i><par n="Afrika__np"/></e>
+    <e lm="Chili"><i>Chili</i><par n="Afrika__np"/></e>
+    <e lm="China"><i>China</i><par n="Afrika__np"/></e>
+    <e lm="Colombia"><i>Colombia</i><par n="Afrika__np"/></e>
+    <e lm="Cuba"><i>Cuba</i><par n="Afrika__np"/></e>
     <e lm="Cyprus"><i>Cyprus</i><par n="Frankrijk__np"/></e>
     <e lm="DDR"><i>DDR</i><par n="Frankrijk__np"/></e>
     <e lm="Denemarken"><i>Denemarken</i><par n="Frankrijk__np"/></e>
     <e lm="Dominicaanse Republiek"><i>Dominicaanse<b/>Republiek</i><par n="Frankrijk__np"/></e>
-    <e lm="Donau"><i>Donau</i><par n="Frankrijk__np"/></e>
+    <e lm="Donau"><i>Donau</i><par n="Afrika__np"/></e>
     <e lm="Durban"><i>Durban</i><par n="Frankrijk__np"/></e>
     <e lm="Egypte"><i>Egypte</i><par n="Frankrijk__np"/></e>
     <e lm="Epirus"><i>Epirus</i><par n="Frankrijk__np"/></e>
-    <e lm="Equatoriaal-Guinea"><i>Equatoriaal-Guinea</i><par n="Frankrijk__np"/></e>
+    <e lm="Equatoriaal-Guinea"><i>Equatoriaal-Guinea</i><par n="Afrika__np"/></e>
     <e lm="Estland"><i>Estland</i><par n="Frankrijk__np"/></e>
     <e lm="Ethiopië"><i>Ethiopië</i><par n="Frankrijk__np"/></e>
     <e lm="Etrurië"><i>Etrurië</i><par n="Frankrijk__np"/></e>
-    <e lm="Europa"><i>Europa</i><par n="Frankrijk__np"/></e>
+    <e lm="Europa"><i>Europa</i><par n="Afrika__np"/></e>
     <e lm="Europese Unie"><i>Europese<b/>Unie</i><par n="Europese_Unie__np"/></e>
     <e lm="Faeröer"><i>Faeröer</i><par n="Frankrijk__np"/></e>
     <e lm="Falklandeilanden"><i>Falklandeilanden</i><par n="Frankrijk__np"/></e>
     <e lm="Finland"><i>Finland</i><par n="Frankrijk__np"/></e>
     <e lm="Frankfurt am Main"><i>Frankfurt<b/>am<b/>Main</i><par n="Frankrijk__np"/></e>
-    <e lm="Frans"><i>Frans</i><par n="Frankrijk__np"/></e>
+    <e lm="Frans"><i>Frans</i><par n="Nederlands__np"/></e>
     <e lm="Gabon"><i>Gabon</i><par n="Frankrijk__np"/></e>
     <e lm="Galicië"><i>Galicië</i><par n="Frankrijk__np"/></e>
     <e lm="Gallië"><i>Gallië</i><par n="Frankrijk__np"/></e>
