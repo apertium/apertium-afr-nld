@@ -3026,7 +3026,6 @@
     <e><p><l>spook<s n="n"/></l><r>spook<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stoep<s n="n"/></l><r>stoep<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stok<s n="n"/></l><r>stok<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>stort<s n="n"/></l><r>stort<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>straal<s n="n"/></l><r>straal<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>telling<s n="n"/></l><r>telling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>toneel<s n="n"/></l><r>toneel<s n="n"/><s n="nt"/></r></p></e>
@@ -3162,7 +3161,6 @@
     <e><p><l>kilogram<s n="n"/></l><r>kilogram<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>klankstelsel<s n="n"/></l><r>klankstelsel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>klimatologie<s n="n"/></l><r>klimatologie<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>klop<s n="n"/></l><r>klopt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kobalt<s n="n"/></l><r>kobalt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>komitee<s n="n"/></l><r>comite<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kompartement<s n="n"/></l><r>compartiment<s n="n"/><s n="nt"/></r></p></e>
@@ -3334,18 +3332,16 @@
     <e><p><l>vaatstelsel<s n="n"/></l><r>vaatstelsel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vakgebied<s n="n"/></l><r>vakgebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vashou<s n="n"/></l><r>vasthouden<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>vas<s n="n"/></l><r>vast<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vasteland<s n="n"/></l><r>vasteland<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vastrapplek<s n="n"/></l><r>bolwerk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vee<s n="n"/></l><r>vee<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vennootskap<s n="n"/></l><r>partnerschap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vergeet<s n="n"/></l><r>vergeten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vergroot<s n="n"/></l><r>vergroten<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>verhoog<s n="n"/></l><r>verbetert<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verlaat<s n="n"/></l><r>verlaten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verlies<s n="n"/></l><r>verlies<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verminder<s n="n"/></l><r>verminderen<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>veroorsaak<s n="n"/></l><r>veroorzaakt<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>veroorsaak<s n="n"/></l><r>oorzaak<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verraad<s n="n"/></l><r>verraad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verskaffing<s n="n"/></l><r>verstrekken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verstand<s n="n"/></l><r>verstand<s n="n"/><s n="nt"/></r></p></e>
@@ -3359,7 +3355,6 @@
     <e><p><l>voorkoms<s n="n"/></l><r>uiterlijk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voortduur<s n="n"/></l><r>aanhouden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorval<s n="n"/></l><r>incident<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>waai<s n="n"/></l><r>waait<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>waardestelsel<s n="n"/></l><r>waardestelsel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wagwoord<s n="n"/></l><r>wachtwoord<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>watermerk<s n="n"/></l><r>watermerk<s n="n"/><s n="nt"/></r></p></e>

@@ -3136,7 +3136,6 @@
     <e lm="voordeel"><i>voorde</i><par n="voorde/el__n"/></e>
     <e lm="deel"><i>de</i><par n="voorde/el__n"/></e>
     <e lm="toneel"><i>tone</i><par n="voorde/el__n"/></e>
-    <e lm="waai"><i>waai</i><par n="bier__n"/></e><!-- hollow -->
     <e lm="waarborg"><i>waarborg</i><par n="bier__n"/></e><!-- guarantee --><!-- waarborge -->
     <e lm="waarde"><i>waarde</i><par n="artikel__n"/></e><!-- value --><!-- waardes -->
     <e lm="waarneming"><i>waarneming</i><par n="artikel__n"/></e><!-- observation --><!-- waarnemings -->
@@ -3861,7 +3860,6 @@
     <e lm="uitvoer"><i>uitvoer</i><par n="bier__n"/></e>
     <e lm="fee"><i>fe</i><par n="se/e__n"/></e>
     <e lm="plaas"><i>pla</i><par n="ka/as__n"/></e>
-    <e lm="vas"><i>vas</i><par n="lys__n"/></e>
     <e lm="mode"><i>mode</i><par n="artikel__n"/></e>
     <e lm="vet"><i>vet</i><par n="lys__n"/></e>
     <e lm="lot"><i>lot</i><par n="lys__n"/></e>
@@ -3939,7 +3937,6 @@
     <e lm="nier"><i>nier</i><par n="bier__n"/></e>
     <e lm="kilogram"><i>kilogram</i><par n="ouderdom__n"/></e>
     <e lm="soen"><i>soen</i><par n="bier__n"/></e>
-    <e lm="klop"><i>klop</i><par n="boodskap__n"/></e>
     <e lm="knoop"><i>kno</i><par n="aanko/op__n"/></e>
     <e lm="kennis"><i>kennis</i><par n="abakus__n"/></e>
     <e lm="oordeel"><i>oorde</i><par n="voorde/el__n"/></e>
@@ -4082,7 +4079,6 @@
     <e lm="herder"><i>herder</i><par n="artikel__n"/></e>
     <e lm="skoen"><i>skoen</i><par n="bier__n"/></e>
     <e lm="skouer"><i>skouer</i><par n="artikel__n"/></e>
-    <e lm="stort"><i>stort</i><par n="bier__n"/></e>
     <e lm="kant"><i>kant</i><par n="bier__n"/></e>
     <e lm="teken"><i>teken</i><par n="artikel__n"/></e>
     <e lm="sonde"><i>sonde</i><par n="artikel__n"/></e>
@@ -4101,7 +4097,6 @@
     <e lm="sport"><i>sport</i><par n="bier__n"/></e>
     <e lm="lente"><i>lente</i><par n="artikel__n"/></e>
     <e lm="vierkant"><i>vierkant</i><par n="bier__n"/></e>
-    <e lm="verhoog"><i>verho</i><par n="ho/og__n"/></e>
     <e lm="suiker"><i>suiker</i><par n="artikel__n"/></e>
     <e lm="styl"><i>styl</i><par n="bier__n"/></e>
     <e lm="ondersteuner"><i>ondersteuner</i><par n="artikel__n"/></e>

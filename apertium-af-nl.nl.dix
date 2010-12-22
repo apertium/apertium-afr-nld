@@ -11836,6 +11836,7 @@
 
     <e lm="aluminium"><i>aluminium</i><par n="OV__n_nt"/></e>
 	<e lm="bestaan"><i>bestaan</i><par n="OV__n_nt"/></e>
+	<e lm="wit"><i>wit</i><par n="OV__n_nt"/></e>
     <e lm="effect"><i>effect</i><par n="lot__n_nt"/></e>
     <e lm="intellect"><i>intellect</i><par n="lot__n_nt"/></e>
     <e lm="kiesdistrict"><i>kiesdistrict</i><par n="lot__n_nt"/></e>
@@ -16110,8 +16111,20 @@
     <e lm="eland"><i>eland</i><par n="ui__n_m"/></e>
     <e lm="elasticiteit"><i>elasticiteit</i><par n="eb__n_f"/></e>
     <e lm="elastiek"><i>elastiek</i><par n="OV__n_nt"/></e>
+	<e lm="kobalt"><i>kobalt</i><par n="OV__n_nt"/></e>
     <e lm="elastiek"><i>elastiek</i><par n="eb__n_m"/></e>
     <e lm="elastomeer"><i>elastome</i><par n="ve/er__n_m"/></e>
+    <e lm="hoogtepunt"><i>hoogtepunt</i><par n="lot__n_nt"/></e>
+    <e lm="keerpunt"><i>keerpunt</i><par n="lot__n_nt"/></e>
+    <e lm="laagtepunt"><i>laagtepunt</i><par n="lot__n_nt"/></e>
+    <e lm="landpunt"><i>landpunt</i><par n="lot__n_nt"/></e>
+    <e lm="mikpunt"><i>mikpunt</i><par n="lot__n_nt"/></e>
+    <e lm="oogpunt"><i>oogpunt</i><par n="lot__n_nt"/></e>
+    <e lm="spilpunt"><i>spilpunt</i><par n="lot__n_nt"/></e>
+    <e lm="strijdpunt"><i>strijdpunt</i><par n="lot__n_nt"/></e>
+    <e lm="toppunt"><i>toppunt</i><par n="lot__n_nt"/></e>
+    <e lm="uitkijkpunt"><i>uitkijkpunt</i><par n="lot__n_nt"/></e>
+    <e lm="vertrekpunt"><i>vertrekpunt</i><par n="lot__n_nt"/></e>
     <e lm="eldorado"><i>eldorado</i><par n="Bo__n_nt"/></e>
     <e lm="electoraat"><i>electora</i><par n="cita/at__n_nt"/></e>
     <e lm="elektricien"><i>elektricien</i><par n="led__n_m"/></e>
@@ -16119,6 +16132,8 @@
     <e lm="elektro-encefalogram"><i>elektro-encefalogram</i><par n="gom__n_nt"/></e>
     <e lm="elektrode"><i>elektrode</i><par n="ader__n_f"/></e>
     <e lm="elektromagnetisme"><i>elektromagnetisme</i><par n="OV__n_nt"/></e>
+	<e lm="bloot"><i>bloot</i><par n="OV__n_nt"/></e>
+	<e lm="rot"><i>rot</i><par n="OV__n_nt"/></e>
     <e lm="elektron"><i>elektron</i><par n="lot__n_nt"/></e>
     <e lm="elektronenconfiguratie"><i>elektronenconfiguratie</i><par n="roe__n_f"/></e>
     <e lm="elektronica"><i>elektronica</i><par n="eb__n_f"/></e>
@@ -16142,6 +16157,8 @@
     <e lm="emir"><i>emir</i><par n="led__n_m"/></e>
     <e lm="emiraat"><i>emira</i><par n="cita/at__n_nt"/></e>
     <e lm="emissierecht"><i>emissierecht</i><par n="lot__n_nt"/></e>
+	<e lm="script"><i>script</i><par n="lot__n_nt"/></e>
+	<e lm="manusscript"><i>manusscript</i><par n="lot__n_nt"/></e>
     <e lm="emmer"><i>emmer</i><par n="led__n_m"/></e>
     <e lm="emmerzeil"><i>emmerzeil</i><par n="lot__n_nt"/></e>
     <e lm="emoe"><i>emoe</i><par n="led__n_m"/></e>
@@ -21365,6 +21382,7 @@
     <e lm="rank"><i>rank</i><par n="hui__n_mf"/></e>
     <e lm="rantsoen"><i>rantsoen</i><par n="lot__n_nt"/></e>
     <e lm="rapport"><i>rapport</i><par n="lot__n_nt"/></e>
+	<e lm="accountantsrapport"><i>accountantsrapport</i><par n="lot__n_nt"/></e>
     <e lm="ras"><i>ras</i><par n="es__n_nt"/></e>
     <e lm="rashond"><i>rashond</i><par n="ui__n_m"/></e>
     <e lm="rasp"><i>rasp</i><par n="hui__n_mf"/></e>
@@ -21376,9 +21394,13 @@
     <e lm="rats"><i>rats</i><par n="WO__n_mf"/></e>
     <e lm="rattenkruid"><i>rattenkruid</i><par n="OV__n_nt"/></e>
     <e lm="rattenkruit"><i>rattenkruit</i><par n="OV__n_nt"/></e>
+	<e lm="berouw"><i>berouw</i><par n="OV__n_nt"/></e>
+	<e lm="www"><i>www</i><par n="OV__n_nt"/></e>
+	<e lm="complex"><i>complex</i><par n="OV__n_nt"/></e>
     <e lm="ravijn"><i>ravijn</i><par n="lot__n_nt"/></e>
     <e lm="ravioli"><i>ravioli</i><par n="ra__n_m"/></e>
     <e lm="rayon"><i>rayon</i><par n="eon__n_nt"/></e>
+	<e lm="prijsniveau"><i>prijsniveau</i><par n="eon__n_nt"/></e>
     <e lm="rayon"><i>rayon</i><par n="led__n_m"/></e>
     <e lm="re-integratie"><i>re-integratie</i><par n="eb__n_f"/></e>
     <e lm="reactie"><i>reactie</i><par n="roe__n_f"/></e>
