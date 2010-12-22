@@ -147,8 +147,6 @@
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
        <attr-item tags="vblex.uns"/>
-       <attr-item tags="vblex.sep.fm"/>
-       <attr-item tags="vblex.sep.fs"/>
        <attr-item tags="vblex.sep"/>
        <attr-item tags="vbser"/>
        <attr-item tags="vbhaver"/>
@@ -994,6 +992,30 @@
         <pattern-item n="verbfin"/>
       </pattern>
       <action>
+          <choose>
+            <when>
+              <test>
+                <and>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="vblex.sep"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vblex"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <lit-tag v="pres"/>
+                  </equal>
+                </and>
+              </test>
+              <let>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="fm.pres"/>
+              </let>
+            </when>
+          </choose>
         <out>
           <chunk name="verb">
             <tags>
