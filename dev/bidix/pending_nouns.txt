@@ -1,19 +1,19 @@
    1184 ^@april<n>$
-    488 ^@vervoer<n>$
-    337 ^@honderd<n>$
+    475 ^@vervoer<n>$
+    334 ^@honderd<n>$
     240 ^@onderwys<n>$
-    199 ^@regs<n>$
     198 ^@mars<n>$
     164 ^@gemeet<n>$
+    161 ^@regs<n>$
     160 ^@mnr<n>$
     146 ^@verkeer<n>$
     138 ^@ekstra<n>$
     116 ^@oorgroot<n>$
-     61 ^@vervoer<n><cmp>$
-     59 ^@regs<n><cmp>$
-     34 ^@honderd<n><cmp>$
+     97 ^@regs<n><cmp>$
+     74 ^@vervoer<n><cmp>$
+     37 ^@honderd<n><cmp>$
      27 ^@bewaarde<n>$
-     11 ^@papie<n>$
+     10 ^@papie<n>$
      10 ^@opgemeet<n>$
       9 ^@onakkuraat<n>$
       6 ^@kontingent<n>$
@@ -35,4 +35,5 @@
       2 ^@passaat<n>$
       2 ^@magnetometer<n>$
       1 ^@regs<n>$ 
+      1 ^@papie<n><cmp>$
       1 ^@kuier<n>$

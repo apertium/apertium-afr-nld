@@ -196,9 +196,12 @@
       <e><p><l/><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
     </pardef>
 
-
     <pardef n="verschillende__det">
       <e>       <p><l/><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="hoeveel__det">
+      <e>       <p><l/><r><s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -267,6 +270,12 @@
       <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>it</l><r>eze<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="d/ie__prn">
+      <e>       <p><l>ie</l><r>ie<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>at</l><r>ie<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ie</l><r>ie<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="zichzelf__prn">
@@ -8423,10 +8432,16 @@
     <e lm="deze"><i>d</i><par n="d/eze__det"/></e>
 
     <e lm="sommige"><i>sommige</i><par n="sommige__det"/></e>
+    <e lm="genoeg"><i>genoeg</i><par n="sommige__det"/></e>
     <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
     <e lm="verschillende"><i>verschillende</i><par n="verschillende__det"/></e>
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
+    <e lm="zulke"><i>zulke</i><par n="ander__det"/></e>
     <e lm="elke"><i>elke</i><par n="elke__det"/></e>
+    <e lm="allemaal"><i>allemaal</i><par n="elke__det"/></e>
+    <e lm="beide"><i>beide</i><par n="elke__det"/></e>
+
+    <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -8480,9 +8495,13 @@
     <e lm="object 'unstressed' pronouns"><i></i><par n="probj_uns__prn"/></e>
 
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
+    <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
+
+    <e lm="mekaar"><i>mekaar</i><par n="beide__prn"/></e>
+    <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
 
     <e lm="mens"><i>mens</i><par n="mens__prn"/></e>
     <e lm="elkeen"><i>elkeen</i><par n="mens__prn"/></e>
@@ -8490,8 +8509,7 @@
     <e lm="niemand"><i>niemand</i><par n="mens__prn"/></e>
     <e lm="iedereen"><i>iedereen</i><par n="mens__prn"/></e>
     <e lm="iets"><i>iets</i><par n="mens__prn"/></e>
-
-    <e lm="beide"><i>beide</i><par n="mens__prn"/></e>
+    <e lm="niks"><i>niks</i><par n="mens__prn"/></e>
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
@@ -8519,7 +8537,7 @@
     <e lm="vijftien"><i>vijftien</i><par n="twee__num"/></e>
     <e lm="zestien"><i>zestien</i><par n="twee__num"/></e>
     <e lm="zeventien"><i>zeventien</i><par n="twee__num"/></e>
-    <e lm="achttien"><i>achtien</i><par n="twee__num"/></e>
+    <e lm="achttien"><i>achttien</i><par n="twee__num"/></e>
     <e lm="negentien"><i>negentien</i><par n="twee__num"/></e>
     <e lm="twintig"><i>twintig</i><par n="twee__num"/></e>
 	<e lm="eenentwintig"><i>eenentwintig</i><par n="twee__num"/></e>
@@ -8961,7 +8979,7 @@
     <e lm="glorieus"><i>glorieus</i><par n="es__adv"/></e>
     <e lm="godse"><i>godse</i><par n="es__adv"/></e>
     <e lm="godzijdank"><i>godzijdank</i><par n="es__adv"/></e>
-    <e lm="goed"><i>goed</i><par n="es__adv"/></e>
+    <!--<e lm="goed"><i>goed</i><par n="es__adv"/></e>-->
     <e lm="goedschiks"><i>goedschiks</i><par n="es__adv"/></e>
     <e lm="graag"><i>graag</i><par n="es__adv"/></e>
     <e lm="gretig"><i>gretig</i><par n="es__adv"/></e>
@@ -26091,7 +26109,7 @@
     <e lm="rijgen"><p><l>geregen</l><r>rijgen</r></p><par n="gesproken__vblex"/></e>
     <e lm="rijzen"><p><l>gerezen</l><r>rijzen</r></p><par n="gesproken__vblex"/></e>
     <e lm="roepen"><p><l>geroepen</l><r>roepen</r></p><par n="gesproken__vblex"/></e>
-	<e lm="herroepen"><p><l>herroepen</l><r>roepen</r></p><par n="gesproken__vblex"/></e>
+	<e lm="herroepen"><p><l>herroepen</l><r>herroepen</r></p><par n="gesproken__vblex"/></e>
     <e lm="ruiken"><p><l>geroken</l><r>ruiken</r></p><par n="gesproken__vblex"/></e>
     <e lm="schelden"><p><l>gescholden</l><r>schelden</r></p><par n="gesproken__vblex"/></e>
     <e lm="schenden"><p><l>geschonden</l><r>schenden</r></p><par n="gesproken__vblex"/></e>
@@ -26300,7 +26318,7 @@
     <e lm="bespreken"><i>bespr</i><par n="br/eken__vblex"/></e>
     <e lm="beschrijven"><i>beschr</i><par n="dr/ijven__vblex"/></e>
     <e lm="roepen"><i>r</i><par n="r/oepen__vblex"/></e>
-	<e lm="herroepen"><i>r</i><par n="r/oepen__vblex"/></e>
+	<e lm="herroepen"><i>herr</i><par n="r/oepen__vblex"/></e>
     <e lm="stelen"><i>st</i><par n="st/elen__vblex"/></e>
     <e lm="beginnen"><i>beg</i><par n="w/innen__vblex"/></e>
     <e lm="wegen"><i>w</i><par n="w/egen__vblex"/></e>
@@ -27033,7 +27051,7 @@
     <e lm="bevorderen"><i>bevorder</i><par n="jij/en__vblex"/></e>
     <e lm="bevorderen"><p><l>bevorderd</l><r>bevorderen</r></p><par n="gesproken__vblex"/></e>
 	<e lm="vorderen"><i>vorder</i><par n="jij/en__vblex"/></e>
-    <e lm="vorderen"><p><l>vorderd</l><r>bevorderen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vorderen"><p><l>vorderd</l><r>vorderen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevredigen"><i>bevredig</i><par n="jij/en__vblex"/></e>
     <e lm="bevredigen"><p><l>bevredigd</l><r>bevredigen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bevreemden"><i>bevreemd</i><par n="jij/en__vblex"/></e>

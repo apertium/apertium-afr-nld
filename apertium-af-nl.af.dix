@@ -586,7 +586,8 @@
     </pardef>
 
     <pardef n="bier__n">
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="n"/><s n="sg"/></r></p><par n="cmp-L"/></e>
       <e>       <p><l>e</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
 
@@ -1185,7 +1186,7 @@
 
 
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="die_ander__prn"/></e>-->
-    <e lm="een ander"><i>een<b/>ander</i><par n="die_ander__prn"/></e><!-- check this -->
+    <!--<e lm="een ander"><i>een<b/>ander</i><par n="die_ander__prn"/></e>--><!-- check this -->
     <e lm="alle"><i>alle</i><par n="die_ander__prn"/></e><!-- check this -->
     <e lm="elkeen"><i>elkeen</i><par n="elkeen__prn"/></e>
     <e lm="niemand"><i>niemand</i><par n="elkeen__prn"/></e>
@@ -1197,7 +1198,7 @@
     <e lm="iemand anders"><i>iemand<b/>anders</i><par n="elkeen__prn"/></e>
     <e lm="enigiets"><i>enigiets</i><par n="elkeen__prn"/></e>
 
-    <e lm="daardie"><i>daardie</i><par n="altwee__prn"/></e>
+    <e lm="daardie"><i>daardie</i><par n="dié__prn"/></e>
     <e lm="altwee"><i>altwee</i><par n="altwee__prn"/></e>
     <e lm="mekaar"><i>mekaar</i><par n="altwee__prn"/></e><!-- check! -->
 
@@ -1216,6 +1217,7 @@
     <e lm="die"><i>die</i><par n="die__det"/></e>
     <e lm="dié"><i>dié</i><par n="dié__det"/></e>
     <e lm="dit"><i>dit</i><par n="dié__det"/></e>
+    <e lm="daardie"><i>daardie</i><par n="dié__det"/></e>
 
     <e lm="'n"><i>'n</i><par n="'n__det"/></e>
     <e lm="‘n" r="LR"><p><l>‘n</l><r>'n</r></p><par n="'n__det"/></e>
@@ -1227,7 +1229,6 @@
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="ander__det"/></e>-->
     <e lm="sulke"><i>sulke</i><par n="ander__det"/></e>
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
-    <e lm="enige"><i>enige</i><par n="ander__det"/></e>
     <e lm="sommige"><i>sommige</i><par n="baie__det"/></e>
     <e lm="elke"><i>elke</i><par n="elke__det"/></e>
     <e lm="albei"><i>albei</i><par n="elke__det"/></e>
@@ -1239,27 +1240,28 @@
     <e lm="'n ander" r="LR"><p><l>’n<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
     <e lm="‘n ander" r="LR"><p><l>‘n<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
     <e lm="ŉ ander" r="LR"><p><l>ŉ<b/>ander</l><r>'n<b/>ander</r></p><par n="elke__det"/></e>
--->
-
-    <!-- Winterstream -->
 
     <e lm="meeste van"><i>meeste<b/>van</i><par n="baie__det"/></e> 
-    <e lm="enige"><i>enige</i><par n="elke__det"/></e> 
 
-    <!-- /Winterstream -->
+    <e lm="enige"><i>enige</i><par n="ander__det"/></e>
+    <e lm="enige"><i>enige</i><par n="elke__det"/></e> 
+-->
+
+    <e lm="enig"><i>enig</i><par n="dadelik__adj"/></e> 
 
 <!--
     <e lm="’n ander"><i>'n<b/>ander</i><par n="elkeen__prn"/></e>
     <e lm="'n ander" r="LR"><p><l>’n<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
     <e lm="‘n ander" r="LR"><p><l>‘n<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
     <e lm="ŉ ander" r="LR"><p><l>ŉ<b/>ander</l><r>'n<b/>ander</r></p><par n="elkeen__prn"/></e>
+    <e lm="meeste van" c="most of"><i>meeste<b/>van</i><par n="genoeg__det"/></e>
+
 -->
 
 
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <e lm="genoeg"><i>genoeg</i><par n="genoeg__det"/></e>
-    <e lm="meeste van"><i>meeste<b/>van</i><par n="genoeg__det"/></e><!-- most of -->
 
     <e lm="baie"><i>baie</i><par n="baie__det"/></e>
     <!--<e lm="vele"><i>vele</i><par n="baie__det"/></e>--><!-- many :: CHECK -->
@@ -1526,6 +1528,11 @@
     <e lm="VI"><i>VI</i><par n="twee__num"/></e>
     <e lm="VII"><i>VII</i><par n="twee__num"/></e>
 
+    <!-- SECTION: Adverbs -->
+
+    <e lm="waarvan"><i>waarvan</i><par n="miskien__adv"/></e> 
+    <e lm="daarvan"><i>daarvan</i><par n="miskien__adv"/></e> 
+
     <e lm="sleg"><i>sleg</i><par n="miskien__adv"/></e><!-- "badly", "poorly" ,, check -->
     <e lm="hoewel"><i>hoewel</i><par n="miskien__adv"/></e><!-- "though" -->
     <e lm="voor"><i>voor</i><par n="miskien__adv"/></e><!-- "ahead" ,, check -->
@@ -1790,7 +1797,7 @@
     <!-- /Winterstream -->
 
     <e lm="taamlik"><i>taamlik</i><par n="taamlik__preadv"/></e>
-    <e lm="meer"><i>meer</i><par n="taamlik__preadv"/></e>
+    <!--<e lm="meer"><i>meer</i><par n="taamlik__preadv"/></e>-->
     <e lm="mees"><i>mees</i><par n="taamlik__preadv"/></e>
     <e lm="te"><i>te</i><par n="taamlik__preadv"/></e>
     <e lm="baie"><i>baie</i><par n="taamlik__preadv"/></e>
@@ -3274,13 +3281,17 @@
     <e lm="maandag"><i>maand</i><par n="vra/ag__n"/></e>
 
     <e lm="Januarie"><i>Januarie</i><par n="artikel__n"/></e>
-    <e lm="Junie"><i>Junie</i><par n="artikel__n"/></e>
-    <e lm="Mei"><i>Mei</i><par n="artikel__n"/></e>
+    <e lm="Februarie"><i>Februarie</i><par n="artikel__n"/></e>
+    <e lm="Maart"><i>Maart</i><par n="artikel__n"/></e>
     <e lm="April"><i>April</i><par n="artikel__n"/></e>
+    <e lm="Mei"><i>Mei</i><par n="artikel__n"/></e>
+    <e lm="Junie"><i>Junie</i><par n="artikel__n"/></e>
+    <e lm="Julie"><i>Julie</i><par n="artikel__n"/></e>
     <e lm="Augustus"><i>Augustus</i><par n="artikel__n"/></e>
     <e lm="September"><i>September</i><par n="artikel__n"/></e>
     <e lm="Oktober"><i>Oktober</i><par n="artikel__n"/></e>
     <e lm="November"><i>November</i><par n="artikel__n"/></e>
+    <e lm="Desember"><i>Desember</i><par n="artikel__n"/></e>
 
 
     <e lm="datum"><i>datum</i><par n="artikel__n"/></e>
@@ -5860,7 +5871,6 @@
     <e lm="belangrik"><i>belangrik</i><par n="maklik__adj"/></e>
     <e lm="vinnig"><i>vinnig</i><par n="maklik__adj"/></e>
 
-<!--    <e lm="enig"><i>enig</i><par n="maklik__adj"/></e> -->
     <e lm="innig"><i>innig</i><par n="maklik__adj"/></e>
     <e lm="onsinnig"><i>onsinnig</i><par n="maklik__adj"/></e>
     <e lm="sonnig"><i>sonnig</i><par n="maklik__adj"/></e>
@@ -8850,6 +8860,9 @@
     <e lm="bloei"><i>bloei</i><par n="breek__vblex"/></e>
     <e lm="bloei"><p><l>gebloei</l><r>bloei</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="bly"><i>bly</i><par n="breek__vblex"/></e>
+    <e lm="bly"><p><l>gebly</l><r>bly</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="bou"><i>bou</i><par n="breek__vblex"/></e>
     <e lm="bou"><p><l>gebou</l><r>bou</r></p><par n="gebreek__vblex"/></e>
 
@@ -8996,6 +9009,9 @@
 
     <e lm="kruis"><i>kruis</i><par n="breek__vblex"/></e>
     <e lm="kruis"><p><l>gekruis</l><r>kruis</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="kry"><i>kry</i><par n="breek__vblex"/></e>
+    <e lm="kry"><p><l>gekry</l><r>kry</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="kuier"><i>kuier</i><par n="breek__vblex"/></e>
     <e lm="kuier"><p><l>gekuier</l><r>kuier</r></p><par n="gebreek__vblex"/></e>

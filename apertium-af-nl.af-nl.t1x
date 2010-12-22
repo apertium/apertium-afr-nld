@@ -35,10 +35,10 @@
       <cat-item tags="sent"/>
     </def-cat>
     <def-cat n="det">
-      <cat-item tags="det.ind.*"/>
       <cat-item tags="det.dem.*"/>
       <cat-item tags="det.def.*"/>
-      <cat-item tags="det.qnt.*"/>
+      <cat-item tags="det.ind.*"/>
+      <!--<cat-item tags="det.qnt.*"/>-->
     </def-cat>
     <def-cat n="prpers_subj">
       <cat-item lemma="prpers" tags="prn.subj.*"/>
@@ -52,6 +52,12 @@
       <cat-item tags="vbmod.past"/>
       <cat-item tags="vaux.past"/>
     </def-cat>
+    <def-cat n="verbpp">
+      <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vblex.pp"/>
+      <cat-item tags="vbser.pp"/>
+      <cat-item tags="vbhaver.pp"/> 
+    </def-cat>
     <def-cat n="verbfin">
       <cat-item tags="vblex.sep.fm.pres"/>
       <cat-item tags="vblex.sep.fs.pres"/>
@@ -63,11 +69,6 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbhaver.pres.*"/> 
-    </def-cat>
-    <def-cat n="verbpp">
-      <cat-item tags="vblex.pp"/>
-      <cat-item tags="vbser.pp"/>
-      <cat-item tags="vbhaver.pp"/> 
     </def-cat>
 
     <def-cat n="prep"> <!-- preposition -->
@@ -146,14 +147,23 @@
     <def-attr n="a_verb">
        <attr-item tags="vblex"/>
        <attr-item tags="vblex.uns"/>
-       <attr-item tags="vblex.sep"/>
        <attr-item tags="vblex.sep.fm"/>
        <attr-item tags="vblex.sep.fs"/>
+       <attr-item tags="vblex.sep"/>
        <attr-item tags="vbser"/>
        <attr-item tags="vbhaver"/>
        <attr-item tags="vbmod"/>
        <attr-item tags="vaux"/>
     </def-attr>
+    <def-attr n="temps_noloc">
+       <attr-item tags="pp"/>
+       <attr-item tags="pii"/>
+       <attr-item tags="pis"/>
+       <attr-item tags="pri"/>
+       <attr-item tags="past"/>
+       <attr-item tags="pres"/>
+       <attr-item tags="inf"/>
+     </def-attr>
     <def-attr n="temps">
        <attr-item tags="pp"/>
        <attr-item tags="pii"/>
@@ -161,6 +171,8 @@
        <attr-item tags="pri"/>
        <attr-item tags="past"/>
        <attr-item tags="pres"/>
+       <attr-item tags="fm.pres"/>
+       <attr-item tags="fs.pres"/>
        <attr-item tags="inf"/>
      </def-attr>
   </section-def-attrs>
@@ -187,6 +199,10 @@
                   <clip pos="2" side="tl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
               </and>
             </test>
             <let>
@@ -205,6 +221,10 @@
                   <clip pos="2" side="tl" part="nbr"/>
                   <lit-tag v="sg"/>
                 </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <lit-tag v="GD"/>
+                </equal>
               </and>
             </test>
             <let>
@@ -213,14 +233,30 @@
             </let>
           </when>
           <otherwise>
-            <let>
-              <clip pos="1" side="tl" part="gen"/>
-              <lit-tag v="mfn"/>
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="nbr"/>
-              <lit-tag v="pl"/>
-            </let>
+            <choose>
+              <when>
+                <test>
+                  <and>
+                    <equal>
+                      <clip pos="1" side="tl" part="gen"/>
+                      <lit-tag v="GD"/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="tl" part="nbr"/>
+                      <lit-tag v="ND"/>
+                    </equal>
+                  </and>
+                </test>
+                <let>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <lit-tag v="mfn"/>
+                </let>
+                <let>
+                  <clip pos="1" side="tl" part="nbr"/>
+                  <lit-tag v="pl"/>
+                </let>
+              </when>
+            </choose>
           </otherwise>
         </choose>
         <choose>
@@ -237,6 +273,21 @@
             </let>
           </when>
         </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="gen"/>
+                <lit-tag v="GD"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="mf"/>
+            </let>
+          </when>
+        </choose>
+
     </def-macro>
   </section-def-macros>
 
@@ -484,7 +535,7 @@
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_det"/>
               <clip pos="1" side="tl" part="gen"/>
-              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="nbr"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -493,6 +544,55 @@
               <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET NOM-CMP NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <lit-tag v="cmp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -871,7 +971,7 @@
           <chunk name="verb">
             <tags>
               <tag><lit-tag v="V"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
               <tag><lit-tag v="PD"/></tag>
               <tag><lit-tag v="ND"/></tag>
             </tags>
@@ -888,6 +988,7 @@
 
 
 
+
     <rule comment="REGLA: verbfin">
       <pattern>
         <pattern-item n="verbfin"/>
@@ -897,7 +998,7 @@
           <chunk name="verb">
             <tags>
               <tag><lit-tag v="V"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
               <tag><lit-tag v="PD"/></tag>
               <tag><lit-tag v="ND"/></tag>
             </tags>

@@ -276,7 +276,7 @@
 
     <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>dié<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
-    <e><p><l>daardie<s n="prn"/><s n="tn"/><s n="mf"/></l><r>die<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+    <e><p><l>daardie<s n="prn"/><s n="dem"/></l><r>die<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>almal<s n="prn"/><s n="tn"/><s n="m"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/></l><r>zichzelf<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/></r></p></e>
     <e><p><l>die<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>de<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -301,7 +301,7 @@
     <!-- SECTION: Determiners -->
     <e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>verskeie<s n="det"/><s n="ind"/></l><r>verschillende<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>baie<s n="det"/><s n="qnt"/></l><r>veel<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>baie<s n="det"/><s n="qnt"/></l><r>vele<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>meeste<s n="det"/><s n="qnt"/></l><r>meeste<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>meeste<b/>van<s n="det"/><s n="qnt"/></l><r>meeste<b/>van<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>'n<b/>ander<s n="det"/><s n="ind"/></l><r>'n<b/>ander<s n="det"/><s n="ind"/></r></p></e>
@@ -328,7 +328,7 @@
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
 
     <e><p><l>geen<s n="det"/><s n="ind"/></l><r>geen<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
-    <e><p><l>enige<s n="det"/><s n="ind"/></l><r>enig<s n="adj"/><s n="ind"/></r></p><par n="enige_enig"/></e>
+    <e><p><l>enig<s n="adj"/></l><r>enig<s n="adj"/></r></p></e>
     <e><p><l>elke<s n="det"/><s n="ind"/></l><r>elke<s n="det"/><s n="ind"/></r></p></e>
 
     <e><p><l>sommige<s n="det"/><s n="qnt"/></l><r>sommige<s n="det"/><s n="qnt"/></r></p></e>
@@ -336,6 +336,7 @@
     <e><p><l>dié<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e r="LR"><p><l>hierdie<s n="det"/><s n="dem"/></l><r>deze<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>dit<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
+    <e r="LR"><p><l>daardie<s n="det"/><s n="dem"/></l><r>die<s n="det"/><s n="dem"/></r></p><par n="die_de"/></e>
 
     <e><p><l>my<s n="det"/><s n="pos"/></l><r>mijn<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
     <e><p><l>jou<s n="det"/><s n="pos"/></l><r>jouw<s n="det"/><s n="pos"/></r></p><par n="my_mijn"/></e>
@@ -4805,6 +4806,9 @@
 
     <e><p><l>hoe<s n="adv"/><s n="itg"/></l><r>hoe<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hoekom<s n="adv"/><s n="itg"/></l><r>waarom<s n="adv"/><s n="itg"/></r></p></e>
+
+    <e><p><l>waarvan<s n="adv"/></l><r>waarvan<s n="adv"/></r></p></e>
+    <e><p><l>daarvan<s n="adv"/></l><r>daarvan<s n="adv"/></r></p></e>
 
     <e><p><l>binne<s n="adv"/></l><r>binnen<s n="adv"/></r></p></e>
     <e><p><l>oor<b/>die<s n="adv"/></l><r>over<b/>de<s n="adv"/></r></p></e>

@@ -290,6 +290,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: PR">
       <pattern>
         <pattern-item n="prep"/>
@@ -324,6 +325,8 @@
                 <lu>
                   <clip pos="1" side="tl" part="lem"/>
                   <clip pos="1" side="tl" part="a_rel"/>
+                  <clip pos="1" side="tl" part="gen"/>
+                  <clip pos="1" side="tl" part="nbr"/>
                 </lu>
               </chunk>
             </out>
