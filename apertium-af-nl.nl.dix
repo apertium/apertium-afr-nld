@@ -16876,6 +16876,14 @@
     <e lm="presidentschap"><i>presidentschap</i><par n="dop__n_nt"/></e>
     <e lm="verwantschap"><i>verwantschap</i><par n="dop__n_nt"/></e>
     <e lm="genot"><i>genot</i><par n="OV__n_nt"/></e>
+    <e lm="deeltje"><i>deeltje</i><par n="eon__n_nt"/></e>
+    <e lm="dochtertje"><i>dochtertje</i><par n="eon__n_nt"/></e>
+    <e lm="drankje"><i>drankje</i><par n="eon__n_nt"/></e>
+    <e lm="kopje"><i>kopje</i><par n="eon__n_nt"/></e>
+    <e lm="meisje"><i>meisje</i><par n="eon__n_nt"/></e>
+	<e lm="regime"><i>regime</i><par n="eon__n_nt"/></e>
+	<e lm="gnostische"><i>gnostische</i><par n="OV__n_nt"/></e>
+	<e lm="trigonometrie"><i>trigonometrie</i><par n="OV__n_nt"/></e>
     <e lm="genotype"><i>genotype</i><par n="einde__n_nt"/></e>
     <e lm="gentherapie"><i>gentherapie</i><par n="fee__n_f"/></e>
     <e lm="gentiaan"><i>gentia</i><par n="la/an__n_mf"/></e>
@@ -20476,8 +20484,10 @@
     <e lm="immigratiebeleid"><i>immigratiebeleid</i><par n="lot__n_nt"/></e>
     <e lm="milieubeleid"><i>milieubeleid</i><par n="lot__n_nt"/></e>
     <e lm="rassenbeleid"><i>rassenbeleid</i><par n="lot__n_nt"/></e>
-    <e lm="staatsbeleid"><i>staatsbeleid</i><par n="lot__n_nt"/></e>
+	<e lm="taalbeleid"><i>taalbeleid</i><par n="lot__n_nt"/></e>
     <e lm="taalbeleid"><i>taalbeleid</i><par n="lot__n_nt"/></e>
+	<e lm="verband"><i>verband</i><par n="lot__n_nt"/></e>
+	<e lm="strand"><i>strand</i><par n="lot__n_nt"/></e>
     <e lm="overgave"><i>overgave</i><par n="WO__n_mf"/></e>
     <e lm="overgrootmoeder"><i>overgrootmoeder</i><par n="roe__n_f"/></e>
     <e lm="overgrootouder"><i>overgrootouder</i><par n="led__n_m"/></e>
@@ -20551,8 +20561,12 @@
     <e lm="paardenzadel"><i>paardenzadel</i><par n="eon__n_nt"/></e>
     <e lm="paardrift"><i>paardrift</i><par n="WO__n_mf"/></e>
     <e lm="paars"><i>paars</i><par n="lot__n_nt"/></e>
+	<e lm="toevluchtsoord"><i>toevluchtsoord</i><par n="lot__n_nt"/></e>
+	<e lm="sleutelwoord"><i>sleutelwoord</i><par n="lot__n_nt"/></e>
     <e lm="paasdag"><i>paasdag</i><par n="ui__n_m"/></e>
     <e lm="paasei"><i>paasei</i><par n="ei__n_nt"/></e>
+	<e lm="schoolkind"><i>schoolkind</i><par n="ei__n_nt"/></e>
+	<e lm="weeskind"><i>weeskind</i><par n="ei__n_nt"/></e>
     <e lm="paashaas"><i>paasha</i><par n="fa/as__n_m"/></e>
     <e lm="paasvakantie"><i>paasvakantie</i><par n="roe__n_f"/></e>
     <e lm="pacemaker"><i>pacemaker</i><par n="led__n_m"/></e>
@@ -20738,6 +20752,8 @@
     <e lm="perikel"><i>perikel</i><par n="lot__n_nt"/></e>
     <e lm="periode"><i>periode</i><par n="made__n_f"/></e>
     <e lm="perkament"><i>perkament</i><par n="OV__n_nt"/></e>
+	<e lm="tegenovergestelde"><i>tegenovergestelde</i><par n="OV__n_nt"/></e>
+	<e lm="omgekeerde"><i>omgekeerde</i><par n="OV__n_nt"/></e>
     <e lm="peroratie"><i>peroratie</i><par n="roe__n_f"/></e>
     <e lm="perron"><i>perron</i><par n="eon__n_nt"/></e>
     <e lm="persbericht"><i>persbericht</i><par n="lot__n_nt"/></e>
