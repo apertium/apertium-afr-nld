@@ -8239,10 +8239,12 @@
     </pardef>
     <pardef n="Oostzee__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Europese_Unie__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Verenigde_Naties__np">
@@ -8272,16 +8274,33 @@
 
     <pardef n="van_der_Merwe__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
-
+    <pardef n="Botha__np">
+      <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+    <pardef n="Hughes__np">
+      <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
     <pardef n="Wikipedia__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Apertium__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
-
+    <pardef n="Linux__np">
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+    <pardef n="NAVO__np">
+      <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
 
 
   </pardefs>
@@ -25894,32 +25913,32 @@
     <e lm="Galicië"><i>Galicië</i><par n="Frankrijk__np"/></e>
     <e lm="Gallië"><i>Gallië</i><par n="Frankrijk__np"/></e>
     <e lm="Gauteng"><i>Gauteng</i><par n="Frankrijk__np"/></e>
-    <e lm="Genesis"><i>Genesis</i><par n="Frankrijk__np"/></e>
-    <e lm="Ghana"><i>Ghana</i><par n="Frankrijk__np"/></e>
-    <e lm="Golf van Mexico"><i>Golf<b/>van<b/>Mexico</i><par n="Frankrijk__np"/></e>
+    <e lm="Genesis"><i>Genesis</i><par n="Nederlands__np"/></e>
+    <e lm="Ghana"><i>Ghana</i><par n="Afrika__np"/></e>
+    <e lm="Golf van Mexico"><i>Golf<b/>van<b/>Mexico</i><par n="Afrika__np"/></e>
     <e lm="Griekenland"><i>Griekenland</i><par n="Frankrijk__np"/></e>
     <e lm="Groenland"><i>Groenland</i><par n="Frankrijk__np"/></e>
     <e lm="Groot-Brittannië"><i>Groot-Brittannië</i><par n="Frankrijk__np"/></e>
     <e lm="Grote Beer"><i>Grote<b/>Beer</i><par n="Frankrijk__np"/></e>
     <e lm="Grote Oceaan"><i>Grote<b/>Oceaan</i><par n="Frankrijk__np"/></e>
-    <e lm="Guinee"><i>Guinee</i><par n="Frankrijk__np"/></e>
-    <e lm="Haïti"><i>Haïti</i><par n="Frankrijk__np"/></e>
+    <e lm="Guinee"><i>Guinee</i><par n="Afrika__np"/></e>
+    <e lm="Haïti"><i>Haïti</i><par n="Afrika__np"/></e>
     <e lm="Hamburg"><i>Hamburg</i><par n="Frankrijk__np"/></e>
     <e lm="Hannover"><i>Hannover</i><par n="Frankrijk__np"/></e>
-    <e lm="Hawaï"><i>Hawaï</i><par n="Frankrijk__np"/></e>
-    <e lm="Helsinki"><i>Helsinki</i><par n="Frankrijk__np"/></e>
+    <e lm="Hawaï"><i>Hawaï</i><par n="Afrika__np"/></e>
+    <e lm="Helsinki"><i>Helsinki</i><par n="Afrika__np"/></e>
     <e lm="het Zuidpool"><i>het<b/>Zuidpool</i><par n="Frankrijk__np"/></e>
     <e lm="Hongarije"><i>Hongarije</i><par n="Frankrijk__np"/></e>
-    <e lm="Hudsonbaai"><i>Hudsonbaai</i><par n="Frankrijk__np"/></e>
+    <e lm="Hudsonbaai"><i>Hudsonbaai</i><par n="Afrika__np"/></e>
     <e lm="Ierland"><i>Ierland</i><par n="Frankrijk__np"/></e>
     <e lm="Ijsland"><i>Ijsland</i><par n="Frankrijk__np"/></e>
-    <e lm="India"><i>India</i><par n="Frankrijk__np"/></e>
+    <e lm="India"><i>India</i><par n="Afrika__np"/></e>
     <e lm="Indonesië"><i>Indonesië</i><par n="Frankrijk__np"/></e>
     <e lm="Irak"><i>Irak</i><par n="Frankrijk__np"/></e>
     <e lm="Iran"><i>Iran</i><par n="Frankrijk__np"/></e>
     <e lm="Israël"><i>Israël</i><par n="Frankrijk__np"/></e>
     <e lm="Italië"><i>Italië</i><par n="Frankrijk__np"/></e>
-    <e lm="Jamaica"><i>Jamaica</i><par n="Frankrijk__np"/></e>
+    <e lm="Jamaica"><i>Jamaica</i><par n="Afrika__np"/></e>
     <e lm="Japan"><i>Japan</i><par n="Frankrijk__np"/></e>
     <e lm="Jemen"><i>Jemen</i><par n="Frankrijk__np"/></e>
     <e lm="Jeruzalem"><i>Jeruzalem</i><par n="Frankrijk__np"/></e>
@@ -25935,16 +25954,16 @@
     <e lm="Kaspische Zee"><i>Kaspische<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Kaukasus"><i>Kaukasus</i><par n="Frankrijk__np"/></e>
     <e lm="Kazachstan"><i>Kazachstan</i><par n="Frankrijk__np"/></e>
-    <e lm="Kenia"><i>Kenia</i><par n="Frankrijk__np"/></e>
+    <e lm="Kenia"><i>Kenia</i><par n="Afrika__np"/></e>
     <e lm="Khartoem"><i>Khartoem</i><par n="Frankrijk__np"/></e>
     <e lm="Klerksdorp"><i>Klerksdorp</i><par n="Frankrijk__np"/></e>
     <e lm="Kroatië"><i>Kroatië</i><par n="Frankrijk__np"/></e>
     <e lm="Kwazoeloe-Natal"><i>Kwazoeloe-Natal</i><par n="Frankrijk__np"/></e>
     <e lm="Lapland"><i>Lapland</i><par n="Frankrijk__np"/></e>
-    <e lm="Lesotho"><i>Lesotho</i><par n="Frankrijk__np"/></e>
+    <e lm="Lesotho"><i>Lesotho</i><par n="Afrika__np"/></e>
     <e lm="Letland"><i>Letland</i><par n="Frankrijk__np"/></e>
     <e lm="Libanon"><i>Libanon</i><par n="Frankrijk__np"/></e>
-    <e lm="Liberia"><i>Liberia</i><par n="Frankrijk__np"/></e>
+    <e lm="Liberia"><i>Liberia</i><par n="Afrika__np"/></e>
     <e lm="Libië"><i>Libië</i><par n="Frankrijk__np"/></e>
     <e lm="Ligurië"><i>Ligurië</i><par n="Frankrijk__np"/></e>
     <e lm="Litouwen"><i>Litouwen</i><par n="Frankrijk__np"/></e>
@@ -25954,17 +25973,17 @@
     <e lm="Macedonië"><i>Macedonië</i><par n="Frankrijk__np"/></e>
     <e lm="Madagaskar"><i>Madagaskar</i><par n="Frankrijk__np"/></e>
     <e lm="Maleisië"><i>Maleisië</i><par n="Frankrijk__np"/></e>
-    <e lm="Malta"><i>Malta</i><par n="Frankrijk__np"/></e>
-    <e lm="Marokko"><i>Marokko</i><par n="Frankrijk__np"/></e>
+    <e lm="Malta"><i>Malta</i><par n="Afrika__np"/></e>
+    <e lm="Marokko"><i>Marokko</i><par n="Afrika__np"/></e>
     <e lm="Mauritanië"><i>Mauritanië</i><par n="Frankrijk__np"/></e>
     <e lm="Melanesië"><i>Melanesië</i><par n="Frankrijk__np"/></e>
     <e lm="Mercurius"><i>Mercurius</i><par n="Frankrijk__np"/></e>
-    <e lm="Mexico"><i>Mexico</i><par n="Frankrijk__np"/></e>
-    <e lm="Micronesia"><i>Micronesia</i><par n="Frankrijk__np"/></e>
+    <e lm="Mexico"><i>Mexico</i><par n="Afrika__np"/></e>
+    <e lm="Micronesia"><i>Micronesia</i><par n="Afrika__np"/></e>
     <e lm="Midden-Oosten"><i>Midden-Oosten</i><par n="Frankrijk__np"/></e>
-    <e lm="Monaco"><i>Monaco</i><par n="Frankrijk__np"/></e>
+    <e lm="Monaco"><i>Monaco</i><par n="Afrika__np"/></e>
     <e lm="Mongolië"><i>Mongolië</i><par n="Frankrijk__np"/></e>
-    <e lm="Montenegro"><i>Montenegro</i><par n="Frankrijk__np"/></e>
+    <e lm="Montenegro"><i>Montenegro</i><par n="Afrika__np"/></e>
     <e lm="Montréal"><i>Montréal</i><par n="Frankrijk__np"/></e>
     <e lm="Moskou"><i>Moskou</i><par n="Frankrijk__np"/></e>
     <e lm="Mozambique"><i>Mozambique</i><par n="Frankrijk__np"/></e>
@@ -25973,9 +25992,9 @@
     <e lm="Namibië"><i>Namibië</i><par n="Frankrijk__np"/></e>
     <e lm="Nelspruit"><i>Nelspruit</i><par n="Frankrijk__np"/></e>
     <e lm="Nieuw-Zeeland"><i>Nieuw-Zeeland</i><par n="Frankrijk__np"/></e>
-    <e lm="Nigeria"><i>Nigeria</i><par n="Frankrijk__np"/></e>
-    <e lm="Noord-Afrika"><i>Noord-Afrika</i><par n="Frankrijk__np"/></e>
-    <e lm="Noord-Amerika"><i>Noord-Amerika</i><par n="Frankrijk__np"/></e>
+    <e lm="Nigeria"><i>Nigeria</i><par n="Afrika__np"/></e>
+    <e lm="Noord-Afrika"><i>Noord-Afrika</i><par n="Afrika__np"/></e>
+    <e lm="Noord-Amerika"><i>Noord-Amerika</i><par n="Afrika__np"/></e>
     <e lm="Noordelijke Ijszee"><i>Noordelijke<b/>Ijszee</i><par n="Oostzee__np"/></e>
     <e lm="Noord-Ierland"><i>Noord-Ierland</i><par n="Frankrijk__np"/></e>
     <e lm="Noordzee"><i>Noordzee</i><par n="Oostzee__np"/></e>
@@ -25990,30 +26009,30 @@
     <e lm="Oost-Siberische Zee"><i>Oost-Siberische<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Oost-Timor"><i>Oost-Timor</i><par n="Frankrijk__np"/></e>
     <e lm="Oostzee"><i>Oostzee</i><par n="Oostzee__np"/></e>
-    <e lm="Oslo"><i>Oslo</i><par n="Frankrijk__np"/></e>
+    <e lm="Oslo"><i>Oslo</i><par n="Afrika__np"/></e>
     <e lm="Oxford"><i>Oxford</i><par n="Frankrijk__np"/></e>
     <e lm="Peking"><i>Peking</i><par n="Frankrijk__np"/></e>
-    <e lm="Pennsylvania"><i>Pennsylvania</i><par n="Frankrijk__np"/></e>
+    <e lm="Pennsylvania"><i>Pennsylvania</i><par n="Afrika__np"/></e>
     <e lm="Perth"><i>Perth</i><par n="Frankrijk__np"/></e>
     <e lm="Piëmont"><i>Piëmont</i><par n="Frankrijk__np"/></e>
     <e lm="Portsmouth"><i>Portsmouth</i><par n="Frankrijk__np"/></e>
     <e lm="Portugal"><i>Portugal</i><par n="Frankrijk__np"/></e>
     <e lm="Potsdam"><i>Potsdam</i><par n="Frankrijk__np"/></e>
-    <e lm="Pretoria"><i>Pretoria</i><par n="Frankrijk__np"/></e>
+    <e lm="Pretoria"><i>Pretoria</i><par n="Afrika__np"/></e>
     <e lm="Pruisen"><i>Pruisen</i><par n="Frankrijk__np"/></e>
     <e lm="Rhodesië"><i>Rhodesië</i><par n="Frankrijk__np"/></e>
     <e lm="Roemenië"><i>Roemenië</i><par n="Frankrijk__np"/></e>
     <e lm="Rusland"><i>Rusland</i><par n="Frankrijk__np"/></e>
-    <e lm="Rwanda"><i>Rwanda</i><par n="Frankrijk__np"/></e>
-    <e lm="SA"><i>SA</i><par n="Frankrijk__np"/></e>
-    <e lm="San Diego"><i>San<b/>Diego</i><par n="Frankrijk__np"/></e>
-    <e lm="San Francisco"><i>San<b/>Francisco</i><par n="Frankrijk__np"/></e>
+    <e lm="Rwanda"><i>Rwanda</i><par n="Afrika__np"/></e>
+    <e lm="SA"><i>SA</i><par n="Afrika__np"/></e>
+    <e lm="San Diego"><i>San<b/>Diego</i><par n="Afrika__np"/></e>
+    <e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
     <e lm="Saoedi-Arabië"><i>Saoedi-Arabië</i><par n="Frankrijk__np"/></e>
     <e lm="Sardinië"><i>Sardinië</i><par n="Frankrijk__np"/></e>
     <e lm="Scandinavië"><i>Scandinavië</i><par n="Frankrijk__np"/></e>
     <e lm="Schotland"><i>Schotland</i><par n="Frankrijk__np"/></e>
     <e lm="Servië"><i>Servië</i><par n="Frankrijk__np"/></e>
-    <e lm="Servië en Montenegro"><i>Servië<b/>en<b/>Montenegro</i><par n="Frankrijk__np"/></e>
+    <e lm="Servië en Montenegro"><i>Servië<b/>en<b/>Montenegro</i><par n="Afrika__np"/></e>
     <e lm="Siberië"><i>Siberië</i><par n="Frankrijk__np"/></e>
     <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Frankrijk__np"/></e>
     <e lm="Sisilië"><i>Sisilië</i><par n="Frankrijk__np"/></e>
@@ -26023,12 +26042,12 @@
     <e lm="Sovjet-Unie"><i>Sovjet-Unie</i><par n="Frankrijk__np"/></e>
     <e lm="Spanje"><i>Spanje</i><par n="Frankrijk__np"/></e>
     <e lm="Spitsbergen"><i>Spitsbergen</i><par n="Frankrijk__np"/></e>
-    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Frankrijk__np"/></e>
+    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Afrika__np"/></e>
     <e lm="Stockholm"><i>Stockholm</i><par n="Frankrijk__np"/></e>
     <e lm="Syracuse"><i>Syracuse</i><par n="Frankrijk__np"/></e>
     <e lm="Syrië"><i>Syrië</i><par n="Frankrijk__np"/></e>
     <e lm="Tadzjikistan"><i>Tadzjikistan</i><par n="Frankrijk__np"/></e>
-    <e lm="Tanzania"><i>Tanzania</i><par n="Frankrijk__np"/></e>
+    <e lm="Tanzania"><i>Tanzania</i><par n="Afrika__np"/></e>
     <e lm="Transvaal"><i>Transvaal</i><par n="Frankrijk__np"/></e>
     <e lm="Tsjechië"><i>Tsjechië</i><par n="Frankrijk__np"/></e>
     <e lm="Tsjecho-Slowakije"><i>Tsjecho-Slowakije</i><par n="Frankrijk__np"/></e>
@@ -26037,27 +26056,27 @@
     <e lm="Uruguay"><i>Uruguay</i><par n="Frankrijk__np"/></e>
     <e lm="Varangerfjord"><i>Varangerfjord</i><par n="Frankrijk__np"/></e>
     <e lm="Venetië"><i>Venetië</i><par n="Frankrijk__np"/></e>
-    <e lm="Venezuela"><i>Venezuela</i><par n="Frankrijk__np"/></e>
+    <e lm="Venezuela"><i>Venezuela</i><par n="Afrika__np"/></e>
     <e lm="Verenigde Naties"><i>Verenigde<b/>Naties</i><par n="Verenigde_Naties__np"/></e>
     <e lm="Verenigde Staten"><i>Verenigde<b/>Staten</i><par n="Frankrijk__np"/></e>
-    <e lm="Verenigde Staten van Amerika"><i>Verenigde<b/>Staten<b/>van<b/>Amerika</i><par n="Frankrijk__np"/></e>
+    <e lm="Verenigde Staten van Amerika"><i>Verenigde<b/>Staten<b/>van<b/>Amerika</i><par n="Afrika__np"/></e>
     <e lm="Verenigd Koninkrijk"><i>Verenigd<b/>Koninkrijk</i><par n="Frankrijk__np"/></e>
     <e lm="Vermont"><i>Vermont</i><par n="Frankrijk__np"/></e>
     <e lm="Vietnam"><i>Vietnam</i><par n="Frankrijk__np"/></e>
     <e lm="Vlaanderen"><i>Vlaanderen</i><par n="Frankrijk__np"/></e>
     <e lm="Vrijstaat"><i>Vrijstaat</i><par n="Frankrijk__np"/></e>
-    <e lm="Wales"><i>Wales</i><par n="Frankrijk__np"/></e>
+    <e lm="Wales"><i>Wales</i><par n="Nederlands__np"/></e>
     <e lm="Wallonië"><i>Wallonië</i><par n="Frankrijk__np"/></e>
     <e lm="Washington"><i>Washington</i><par n="Frankrijk__np"/></e>
-    <e lm="Westelijke Sahara"><i>Westelijke<b/>Sahara</i><par n="Frankrijk__np"/></e>
+    <e lm="Westelijke Sahara"><i>Westelijke<b/>Sahara</i><par n="Afrika__np"/></e>
     <e lm="West-Kaap"><i>West-Kaap</i><par n="Frankrijk__np"/></e>
     <e lm="Witbank"><i>Witbank</i><par n="Frankrijk__np"/></e>
     <e lm="Yeoville"><i>Yeoville</i><par n="Frankrijk__np"/></e>
     <e lm="York"><i>York</i><par n="Frankrijk__np"/></e>
-    <e lm="Zambia"><i>Zambia</i><par n="Frankrijk__np"/></e>
+    <e lm="Zambia"><i>Zambia</i><par n="Afrika__np"/></e>
     <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Frankrijk__np"/></e>
-    <e lm="Zuid-Afrika"><i>Zuid-Afrika</i><par n="Frankrijk__np"/></e>
-    <e lm="Zuid-Amerika"><i>Zuid-Amerika</i><par n="Frankrijk__np"/></e>
+    <e lm="Zuid-Afrika"><i>Zuid-Afrika</i><par n="Afrika__np"/></e>
+    <e lm="Zuid-Amerika"><i>Zuid-Amerika</i><par n="Afrika__np"/></e>
     <e lm="Zwarte Zee"><i>Zwarte<b/>Zee</i><par n="Oostzee__np"/></e>
     <e lm="Zweden"><i>Zweden</i><par n="Frankrijk__np"/></e>
     <e lm="Zwitserland"><i>Zwitserland</i><par n="Frankrijk__np"/></e>
@@ -26115,18 +26134,18 @@
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Apertium"><i>Apertium</i><par n="Apertium__np"/></e>
-    <e lm="Linux"><i>Linux</i><par n="Apertium__np"/></e>
+    <e lm="Linux"><i>Linux</i><par n="Linux__np"/></e>
     <e lm="Javascript"><i>Javascript</i><par n="Apertium__np"/></e>
     <e lm="Hezbollah"><i>Hezbollah</i><par n="Apertium__np"/></e>
-    <e lm="NAVO"><i>NAVO</i><par n="Apertium__np"/></e>
+    <e lm="NAVO"><i>NAVO</i><par n="NAVO__np"/></e>
     <e lm="Amnesty International"><i>Amnesty<b/>International</i><par n="Apertium__np"/></e>
 
-    <e lm="Botha"><i>Botha</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Dalí"><i>Dalí</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Botha"><i>Botha</i><par n="Botha__np"/></e>
+    <e lm="Dalí"><i>Dalí</i><par n="Botha__np"/></e>
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Hughes"><i>Hughes</i><par n="van_der_Merwe__np"/></e>
-    <e lm="Mandela"><i>Mandela</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Hughes"><i>Hughes</i><par n="Hughes__np"/></e>
+    <e lm="Mandela"><i>Mandela</i><par n="Botha__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>
     <e lm="Smith"><i>Smith</i><par n="van_der_Merwe__np"/></e>
     <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e>
