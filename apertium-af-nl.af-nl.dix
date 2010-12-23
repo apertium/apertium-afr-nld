@@ -16,7 +16,7 @@
 
     <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
     <sdef n="cnjsub" c="Subordinating conjunction"/>
-    <sdef n="cnjadv" c="Adverbial conjunction"/>
+    <sdef n="Botha__np" c="Adverbial conjunction"/>
 
     <sdef n="vbser" c="The verb 'to be'"/>
     <sdef n="vblex" c="Lexical verb"/>    
@@ -163,29 +163,30 @@
     <e><p><l>as<s n="cnjsub"/></l><r>als<s n="cnjsub"/></r></p></e>
     <e><p><l>asook<s n="cnjcoo"/></l><r>alsook<s n="cnjcoo"/></r></p></e>
     <e><p><l>as<b/>wat<s n="cnjcoo"/></l><r>als<b/>wat<s n="cnjcoo"/></r></p></e>
-    
-    <e><p><l>na<s n="cnjadv"/></l><r>na<s n="cnjadv"/></r></p></e>
-    <e><p><l>sodat<s n="cnjadv"/></l><r>zodat<s n="cnjadv"/></r></p></e>
-    <e><p><l>ná<s n="cnjadv"/></l><r>na<s n="cnjadv"/></r></p></e>
-    <e><p><l>sodra<s n="cnjadv"/></l><r>zodra<s n="cnjadv"/></r></p></e>
-    <e><p><l>siende<b/>dat<s n="cnjadv"/></l><r>gezien<b/>dat<s n="cnjadv"/></r></p></e>
-    <e><p><l>tensy<s n="cnjadv"/></l><r>tenzij<s n="cnjadv"/></r></p></e>
-    <e><p><l>gegee<b/>dat<s n="cnjadv"/></l><r>gegeven<b/>dat<s n="cnjadv"/></r></p></e>
-    <e><p><l>so<b/>vroeg<b/>as<s n="cnjadv"/></l><r>zo<b/>vroeg<s n="cnjadv"/></r></p></e>
-    <e><p><l>na<s n="cnjadv"/></l><r>na<s n="cnjadv"/></r></p></e>
-    <e><p><l>dan<s n="cnjadv"/></l><r>dan<s n="cnjadv"/></r></p></e>
-    <e><p><l>tot<s n="cnjadv"/></l><r>tot<s n="cnjadv"/></r></p></e>
-    <e><p><l>alhoewel<s n="cnjadv"/></l><r>alhoewel<s n="cnjadv"/></r></p></e>
-    <e><p><l>hoewel<s n="cnjadv"/></l><r>hoewel<s n="cnjadv"/></r></p></e>
-    <e><p><l>want<s n="cnjadv"/></l><r>want<s n="cnjadv"/></r></p></e>
-    <e><p><l>omdat<s n="cnjadv"/></l><r>omdat<s n="cnjadv"/></r></p></e>
-    <e><p><l>wanneer<s n="cnjadv"/></l><r>wanneer<s n="cnjadv"/></r></p></e>
-    <e><p><l>byvoorbeeld<s n="cnjadv"/></l><r>bijvoorbeeld<s n="cnjadv"/></r></p></e> <!-- !cnjadv?-->
-    <e><p><l>vir<s n="cnjadv"/></l><r>vir<s n="cnjadv"/></r></p></e>
-    <e><p><l>daarvoor<s n="cnjadv"/></l><r>daarvoor<s n="cnjadv"/></r></p></e>
-    <e><p><l>terwyl<s n="cnjadv"/></l><r>terwijl<s n="cnjadv"/></r></p></e>
 
-    <e><p><l>waarmee<s n="cnjadv"/></l><r>waarmee<s n="cnjadv"/></r></p></e> <!-- !cnjadv?-->
+	<e><p><l>indien<s n="Botha__np"/></l><r>indien<s n="Botha__np"/></r></p></e>    
+    <e><p><l>na<s n="Botha__np"/></l><r>na<s n="Botha__np"/></r></p></e>
+    <e><p><l>sodat<s n="Botha__np"/></l><r>zodat<s n="Botha__np"/></r></p></e>
+    <e><p><l>ná<s n="Botha__np"/></l><r>na<s n="Botha__np"/></r></p></e>
+    <e><p><l>sodra<s n="Botha__np"/></l><r>zodra<s n="Botha__np"/></r></p></e>
+    <e><p><l>siende<b/>dat<s n="Botha__np"/></l><r>gezien<b/>dat<s n="Botha__np"/></r></p></e>
+    <e><p><l>tensy<s n="Botha__np"/></l><r>tenzij<s n="Botha__np"/></r></p></e>
+    <e><p><l>gegee<b/>dat<s n="Botha__np"/></l><r>gegeven<b/>dat<s n="Botha__np"/></r></p></e>
+    <e><p><l>so<b/>vroeg<b/>as<s n="Botha__np"/></l><r>zo<b/>vroeg<s n="Botha__np"/></r></p></e>
+    <e><p><l>na<s n="Botha__np"/></l><r>na<s n="Botha__np"/></r></p></e>
+    <e><p><l>dan<s n="Botha__np"/></l><r>dan<s n="Botha__np"/></r></p></e>
+    <e><p><l>tot<s n="Botha__np"/></l><r>tot<s n="Botha__np"/></r></p></e>
+    <e><p><l>alhoewel<s n="Botha__np"/></l><r>alhoewel<s n="Botha__np"/></r></p></e>
+    <e><p><l>hoewel<s n="Botha__np"/></l><r>hoewel<s n="Botha__np"/></r></p></e>
+    <e><p><l>want<s n="Botha__np"/></l><r>want<s n="Botha__np"/></r></p></e>
+    <e><p><l>omdat<s n="Botha__np"/></l><r>omdat<s n="Botha__np"/></r></p></e>
+    <e><p><l>wanneer<s n="Botha__np"/></l><r>wanneer<s n="Botha__np"/></r></p></e>
+    <e><p><l>byvoorbeeld<s n="Botha__np"/></l><r>bijvoorbeeld<s n="Botha__np"/></r></p></e> <!-- !Botha__np?-->
+    <e><p><l>vir<s n="Botha__np"/></l><r>vir<s n="Botha__np"/></r></p></e>
+    <e><p><l>daarvoor<s n="Botha__np"/></l><r>daarvoor<s n="Botha__np"/></r></p></e>
+    <e><p><l>terwyl<s n="Botha__np"/></l><r>terwijl<s n="Botha__np"/></r></p></e>
+
+    <e><p><l>waarmee<s n="Botha__np"/></l><r>waarmee<s n="Botha__np"/></r></p></e> <!-- !Botha__np?-->
 
     <!-- SECTION: Prepositions -->
     <e><p><l>meer<b/>as<s n="pr"/></l><r>meer<b/>als<s n="pr"/></r></p></e>
@@ -277,6 +278,9 @@
     <e><p><l>dié<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>daardie<s n="prn"/><s n="dem"/></l><r>die<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>almal<s n="prn"/><s n="tn"/><s n="m"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+	<e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+	<e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+	<e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
     <e><p><l>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/></l><r>zichzelf<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/></r></p></e>
     <e><p><l>die<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>de<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></l><r>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
@@ -1199,6 +1203,9 @@
     <e><p><l>stormwater<s n="n"/></l><r>stormwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stemlys<s n="n"/></l><r>stemlijst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spektrometer<s n="n"/></l><r>spectrometer<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>magnetometer<s n="n"/></l><r>magneto<e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+<e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+<e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>meter<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>skeisaak<s n="n"/></l><r>scheiding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sjokoladefabriek<s n="n"/></l><r>chocoladefabriek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seremoniemeester<s n="n"/></l><r>ceremoniemeester<s n="n"/><s n="m"/></r></p></e>
@@ -3601,7 +3608,8 @@
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>Mnr<s n="n"/><s n="acr"/></l><r>Mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-    <e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>mnr<s n="n"/><s n="acr"/></l><r>mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+	<e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper names -->
 
@@ -4800,6 +4808,9 @@
 
     <e><p><l>waarvan<s n="adv"/></l><r>waarvan<s n="adv"/></r></p></e>
     <e><p><l>daarvan<s n="adv"/></l><r>daarvan<s n="adv"/></r></p></e>
+    <e><p><l>naastenby<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
+    
+	<e><p><l>polities<s n="adv"/></l><r>politiek<s n="adv"/></r></p></e>
 
     <e><p><l>binne<s n="adv"/></l><r>binnen<s n="adv"/></r></p></e>
     <e><p><l>oor<b/>die<s n="adv"/></l><r>over<b/>de<s n="adv"/></r></p></e>
