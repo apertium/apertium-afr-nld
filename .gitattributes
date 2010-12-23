@@ -36,12 +36,12 @@ dev/bidix/pending_pronouns.txt -text
 dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
+dev/eval/test-corpus.2.txt -text
+dev/eval/test-corpus.txt -text
 dev/generation-summary.txt -text
 dev/generation-test.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
-dev/test-corpus.2.txt -text
-dev/test-corpus.txt -text
 dev/verbSep-NoParadigms.txt -text
 dev/verbSep.txt -text
 /modes.xml -text
