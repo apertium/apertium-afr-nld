@@ -325,11 +325,13 @@
     <e><p><l>sestigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>zestigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
     <e><p><l>dertigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>dertigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
     <e><p><l>agtste<s n="det"/><s n="ord"/><s n="sp"/></l><r>achtste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
-    <e><p><l>hoeveel<s n="det"/><s n="itg"/></l><r>hoeveel<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>hoeveel<s n="det"/><s n="itg"/><s n="sp"/></l><r>hoeveel<s n="det"/><s n="itg"/><s n="sp"/></r></p></e>
+	<e><p><l>watter<s n="det"/><s n="itg"/></l><r>welk<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>genoeg<s n="det"/><s n="qnt"/></l><r>genoeg<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>wat<s n="det"/><s n="itg"/></l><r>wat<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>tagtigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>tachtigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
-
+	<e><p><l>sewentigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>zevenstigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
+	<e><p><l>negentigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>negenigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
     <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
     <e><p><l>'n<s n="det"/><s n="ind"/></l><r>een<s n="det"/><s n="ind"/></r></p><par n="'n_een"/></e>
 
@@ -5050,7 +5052,7 @@
     <e><p><l>sal<s n="vaux"/></l><r>zullen<s n="vaux"/></r></p></e>
     <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>behoort<s n="vaux"/></l><r>behoren<s n="vblex"/></r></p></e>
-
+	<e><p><l>verhaal<s n="vblex"/></l><r>vertellen<s n="vblex"/></r></p></e>
     <e><p><l>stig<s n="vblex"/></l><r>stichten<s n="vblex"/></r></p></e>
     <e><p><l>lei<s n="vblex"/></l><r>leiden<s n="vblex"/></r></p></e>
     <e><p><l>bly<s n="vblex"/></l><r>blijven<s n="vblex"/></r></p></e>
