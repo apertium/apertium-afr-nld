@@ -2787,7 +2787,7 @@
     <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Botha"><i>Botha</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Mandela"><i>Mandela</i><par n="van_der_Merwe__np"/></e> 
-    <e lm="Stalin"><i>Staln</i><par n="van_der_Merwe__np"/></e> 
+    <e lm="Stalin"><i>Stalin</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Hughes"><i>Hughes</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e> 
 
@@ -2838,7 +2838,6 @@
     <e lm="Duits"><i>Duits</i><par n="Afrikaans__n"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="Afrikaans__n"/></e>
 
-    <e lm="Gemenebest"><i>Gemenebest</i><par n="Engeland__np"/></e>
     <e lm="Hamburg"><i>Hamburg</i><par n="Engeland__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Engeland__np"/></e>
     <e lm="Lesotho"><i>Lesotho</i><par n="Engeland__np"/></e>
@@ -2983,7 +2982,7 @@
     <e lm="Tunisië"><i>Tunisië</i><par n="Engeland__np"/></e>
     <e lm="Turkye"><i>Turkye</i><par n="Engeland__np"/></e>
     <e lm="Toerkmenistan"><i>Toerkmenistan</i><par n="Engeland__np"/></e>
-    <e lm="Oekraine" r="LR"><i>Oekraine</i><par n="Engeland__np"/></e>
+    <e lm="Oekraine" r="LR"><p><l>Oekraine</l><r>Oekraïne</r></p><par n="Engeland__np"/></e>
     <e lm="Oekraïne"><i>Oekraïne</i><par n="Engeland__np"/></e>
     <e lm="Oesbekistan"><i>Oesbekistan</i><par n="Engeland__np"/></e>
     <e lm="Venezuela"><i>Venezuela</i><par n="Engeland__np"/></e>
@@ -3082,21 +3081,26 @@
     <e lm="Beringstraat"><i>Beringstraat</i><par n="Engeland__np"/></e>
     <e lm="Bosnië"><i>Bosnië</i><par n="Engeland__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Engeland__np"/></e>
+<!--
+    <e lm="Gemenebest"><i>Gemenebest</i><par n="Engeland__np"/></e>
     <e lm="Chukchisee"><i>Chukchisee</i><par n="Engeland__np"/></e>
     <e lm="Davisstraat"><i>Davisstraat</i><par n="Engeland__np"/></e>
     <e lm="Deense straat"><i>Deense<b/>straat</i><par n="Engeland__np"/></e>
-    <!--<e lm="Eiland Man"><i>Eiland<b/>Man</i><par n="Engeland__np"/></e>-->
-    <e lm="Epirus"><i>Epirus</i><par n="Engeland__np"/></e>
+    <e lm="Eiland Man"><i>Eiland<b/>Man</i><par n="Engeland__np"/></e>
     <e lm="Groenlandsees"><i>Groenlandsees</i><par n="Engeland__np"/></e>
+    <e lm="Karasee"><i>Karasee</i><par n="Engeland__np"/></e>
+    <e lm="Laptevsee"><i>Laptevsee</i><par n="Engeland__np"/></e>
+    <e lm="Naresstraat"><i>Naresstraat</i><par n="Engeland__np"/></e>
+    <e lm="Golf van Bothnië"><i>Golf<b/>van<b/>Bothnië</i><par n="Engeland__np"/></e>
+    <e lm="Noordpool"><i>Noordpool</i><par n="Engeland__np"/></e>
+-->
+    <e lm="Epirus"><i>Epirus</i><par n="Engeland__np"/></e>
     <e lm="Hudsonbaai"><i>Hudsonbaai</i><par n="Engeland__np"/></e>
     <e lm="Jemen"><i>Jemen</i><par n="Engeland__np"/></e>
     <e lm="Kaap die Goeie Hoop"><i>Kaap<b/>die<b/>Goeie<b/>Hoop</i><par n="Engeland__np"/></e>
-    <e lm="Karasee"><i>Karasee</i><par n="Engeland__np"/></e>
     <e lm="Khartoum"><i>Khartoum</i><par n="Engeland__np"/></e>
-    <e lm="Laptevsee"><i>Laptevsee</i><par n="Engeland__np"/></e>
     <e lm="Moskou"><i>Moskou</i><par n="Engeland__np"/></e>
     <e lm="München"><i>München</i><par n="Engeland__np"/></e>
-    <e lm="Naresstraat"><i>Naresstraat</i><par n="Engeland__np"/></e>
     <e lm="Nederland"><i>Nederland</i><par n="Engeland__np"/></e>
     <e lm="Tsjeggo-Slowakye"><i>Tsjeggo-Slowakye</i><par n="Engeland__np"/></e>
     <e lm="Noordsee"><i>Noordsee</i><par n="Engeland__np"/></e>
@@ -3116,7 +3120,6 @@
 
     <!-- Winterstream -->
     <e lm="Groot Beer"><i>Groot<b/>Beer</i><par n="Engeland__np"/></e>
-    <e lm="Noordpool"><i>Noordpool</i><par n="Engeland__np"/></e>
     <e lm="die Suidpool"><i>die<b/>Suidpool</i><par n="Engeland__np"/></e>
     <e lm="Suidpool"><i>Suidpool</i><par n="Engeland__np"/></e>
     <e lm="Arktika"><i>Arktika</i><par n="Engeland__np"/></e>
@@ -3631,7 +3634,6 @@
     <e lm="laagte"><i>laagte</i><par n="artikel__n"/></e>
     <e lm="keer"><i>ke</i><par n="atmosfe/er__n"/></e>
     <e lm="skiereiland"><i>skiereiland</i><par n="bier__n"/></e>
-    <e lm="Golf van Bothnië"><i>Golf<b/>van<b/>Bothnië</i><par n="Engeland__np"/></e>
     <e lm="Donau"><i>Donau</i><par n="Engeland__np"/></e>
     <e lm="Pruise"><i>Pruise</i><par n="Engeland__np"/></e>
     <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
@@ -3643,7 +3645,6 @@
     <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
     <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
-    <e lm="Azow"><i>Azow</i><par n="Engeland__np"/></e>
 
     <e lm="eed"><i>e</i><par n="e/ed__n"/></e>
     <e lm="golf"><i>gol</i><par n="alternatie/f__n"/></e>
@@ -4314,7 +4315,7 @@
     <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
     <e lm="Mercurius"><i>Mercurius</i><par n="Engeland__np"/></e>
     <!--<e lm="Verenigde Koninkryk van Groot-Brittanje en Noord-Ierland"><i>Verenigde<b/>Koninkryk<b/>van<b/>Groot-Brittanje<b/>en<b/>Noord-Ierland</i><par n="Engeland__np"/></e>-->
-    <e lm="IAWK"><i>IAWK</i><par n="Wikipedia__np"/></e>
+    <!--<e lm="IAWK"><i>IAWK</i><par n="Wikipedia__np"/></e>-->
     <e lm="NATO"><i>NATO</i><par n="Wikipedia__np"/></e>
     <e lm="Linux"><i>Linux</i><par n="Wikipedia__np"/></e>
     <e lm="Javascript"><i>Javascript</i><par n="Wikipedia__np"/></e>
