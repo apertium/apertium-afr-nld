@@ -38,6 +38,7 @@
       <cat-item tags="det.dem.*"/>
       <cat-item tags="det.def.*"/>
       <cat-item tags="det.ind.*"/>
+      <cat-item tags="det.pos.*"/>
       <!--<cat-item tags="det.qnt.*"/>-->
     </def-cat>
     <def-cat n="prpers_subj">
@@ -64,6 +65,7 @@
       <cat-item tags="vblex.pres"/>
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vaux.pres"/>
+      <cat-item tags="vbmod.pres"/>
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbhaver.pres"/> 
       <cat-item tags="vbhaver.past"/> 
@@ -123,6 +125,7 @@
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.ind"/>
+      <attr-item tags="det.pos"/>
       <attr-item tags="det.def"/>
       <attr-item tags="det.dem"/>
       <attr-item tags="det.qnt"/>
@@ -985,9 +988,6 @@
       </action>
     </rule>
 
-
-
-
     <rule comment="REGLA: verbfin">
       <pattern>
         <pattern-item n="verbfin"/>
@@ -1016,6 +1016,35 @@
                 <lit-tag v="fm.pres"/>
               </let>
             </when>
+            <when>
+              <test>
+                <and>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vblex.sep"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="vblex"/>
+                  </equal>
+                  <or>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="fs.pres"/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="fm.pres"/>
+                    </equal>
+                  </or>
+                </and>
+              </test>
+              <let>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pres"/>
+              </let>
+            </when>
+
           </choose>
         <out>
           <chunk name="verb">

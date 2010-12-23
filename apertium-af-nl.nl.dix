@@ -176,7 +176,8 @@
     </pardef>
 
     <pardef n="on/ze__det">
-      <e>       <p><l>ze</l><r>ze<s n="det"/><s n="pos"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e>       <p><l>ze</l><r>ze<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ze</l><r>ze<s n="det"/><s n="pos"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e>       <p><l>s</l><r>ze<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -209,6 +210,11 @@
     <pardef n="hoeveel__det">
       <e>       <p><l/><r><s n="det"/><s n="itg"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="wat__det">
+      <e>       <p><l/><r><s n="det"/><s n="itg"/><s n="sp"/></r></p></e>
+    </pardef>
+
 
 
    <!-- SECTION: Numerals -->
@@ -7194,6 +7200,7 @@
     </pardef>
     <pardef n="troost__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>e</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="kind__n_nt">
       <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -7277,6 +7284,7 @@
     </pardef>
     <pardef n="respect__n_nt">
       <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>e</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="fa/as__n_f">
       <e>       <p><l>as</l><r>as<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -8470,6 +8478,7 @@
     <e lm="beide"><i>beide</i><par n="elke__det"/></e>
 
     <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
+    <e lm="wat"><i>wat</i><par n="wat__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -8631,6 +8640,8 @@
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
     <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
     <e lm="meeste"><i>meeste</i><par n="te__preadv"/></e>
+    <e lm="zo"><i>zo</i><par n="te__preadv"/></e>
+    <e lm="tamelijk"><i>tamelijk</i><par n="te__preadv"/></e>
 
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
@@ -26072,6 +26083,13 @@
     <e lm="Vlaanderen"><i>Vlaanderen</i><par n="Frankrijk__np"/></e>
     <e lm="Vrijstaat"><i>Vrijstaat</i><par n="Frankrijk__np"/></e>
     <e lm="Wales"><i>Wales</i><par n="Nederlands__np"/></e>
+    <e lm="Kirgizië"><i>Kirgizië</i><par n="Nederlands__np"/></e>
+    <e lm="Polen"><i>Polen</i><par n="Nederlands__np"/></e>
+    <e lm="Turkmenistan"><i>Turkmenistan</i><par n="Nederlands__np"/></e>
+    <e lm="Rome"><i>Rome</i><par n="Nederlands__np"/></e>
+    <e lm="Zuidpool"><i>Zuidpool</i><par n="Nederlands__np"/></e>
+    <e lm="Dar es Salaam"><i>Dar<b/>es<b/>Salaam</i><par n="Nederlands__np"/></e>
+    <e lm="Papoea-Nieuw-Guinea"><i>Papoea-Nieuw-Guinea</i><par n="Nederlands__np"/></e>
     <e lm="Wallonië"><i>Wallonië</i><par n="Frankrijk__np"/></e>
     <e lm="Washington"><i>Washington</i><par n="Frankrijk__np"/></e>
     <e lm="Westelijke Sahara"><i>Westelijke<b/>Sahara</i><par n="Afrika__np"/></e>
@@ -26154,6 +26172,7 @@
     <e lm="Mandela"><i>Mandela</i><par n="Botha__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>
     <e lm="Smith"><i>Smith</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Stalin"><i>Stalin</i><par n="van_der_Merwe__np"/></e>
     <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e>
     <e lm="van der Merwe"><i>van<b/>der<b/>Merwe</i><par n="van_der_Merwe__np"/></e>
     <e lm="van Vuuren"><i>van<b/>Vuuren</i><par n="van_der_Merwe__np"/></e>

@@ -1183,16 +1183,8 @@
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
 
-    <e lm="hulself" r="LR"> 
-      <p>
-        <l>hulself</l>
-        <r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-      </p>
-    </e>
+    <e lm="hulleself"><p><l>hulself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="hulleself"><p><l>hulleself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-
-    <e lm="dit"><i>dit</i><par n="die_ander__prn"/></e><!-- "dit" CHECK THIS -->
-
 
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="die_ander__prn"/></e>-->
     <!--<e lm="een ander"><i>een<b/>ander</i><par n="die_ander__prn"/></e>--><!-- check this -->
@@ -1204,7 +1196,7 @@
     <e lm="niks"><i>niks</i><par n="elkeen__prn"/></e>
     <e lm="iets"><i>iets</i><par n="elkeen__prn"/></e>
     <e lm="iemand"><i>iemand</i><par n="elkeen__prn"/></e>
-    <e lm="iemand anders"><i>iemand<b/>anders</i><par n="elkeen__prn"/></e>
+    <!--<e lm="iemand anders"><i>iemand<b/>anders</i><par n="elkeen__prn"/></e>-->
     <e lm="enigiets"><i>enigiets</i><par n="elkeen__prn"/></e>
 
     <e lm="daardie"><i>daardie</i><par n="dié__prn"/></e>
@@ -1219,7 +1211,9 @@
     <e lm="wie"><i>wie</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__det"/></e><!-- this has like a million other meanings -->
-    <e lm="watter"><i>watter</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
+
+    <!-- Dutch 'welk(e)' is replaced with 'watter' -->
+    <e lm="watter"><i>watter</i><par n="wat__det"/></e>
 
     <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
 
@@ -1297,6 +1291,18 @@
     <e lm="agtiende"><i>agtiende</i><par n="tweede__det"/></e>
     <e lm="negentiende"><i>negentiende</i><par n="tweede__det"/></e>
     <e lm="twintigste"><i>twintigste</i><par n="tweede__det"/></e>
+
+    <e lm="dertigste"><i>dertigste</i><par n="tweede__det"/></e>
+    <e lm="veertigste"><i>veertigste</i><par n="tweede__det"/></e>
+    <e lm="vyftigste"><i>vyftigste</i><par n="tweede__det"/></e>
+    <e lm="sestigste"><i>sestigste</i><par n="tweede__det"/></e>
+    <e lm="sewentigste"><i>sewentigste</i><par n="tweede__det"/></e>
+    <e lm="tagtigste"><i>tagtigste</i><par n="tweede__det"/></e>
+    <e lm="negentigste"><i>negentigste</i><par n="tweede__det"/></e>
+    <e lm="honderdste"><i>honderdste</i><par n="tweede__det"/></e>
+
+
+<!--
     <e lm="een-en-twintigste"><i>een-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-twintigste"><i>twee-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-twintigste"><i>drie-en-twintigste</i><par n="tweede__det"/></e>
@@ -1306,7 +1312,6 @@
     <e lm="sewe-en-twintigste"><i>sewe-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-twintigste"><i>agt-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-twintigste"><i>nege-en-twintigste</i><par n="tweede__det"/></e>
-    <e lm="dertigste"><i>dertigste</i><par n="tweede__det"/></e>
     <e lm="een-en-dertigste"><i>een-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-dertigste"><i>twee-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-dertigste"><i>drie-en-dertigste</i><par n="tweede__det"/></e>
@@ -1316,7 +1321,6 @@
     <e lm="sewe-en-dertigste"><i>sewe-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-dertigste"><i>agt-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-dertigste"><i>nege-en-dertigste</i><par n="tweede__det"/></e>
-    <e lm="veertigste"><i>veertigste</i><par n="tweede__det"/></e>
     <e lm="een-en-veertigste"><i>een-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-veertigste"><i>twee-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-veertigste"><i>drie-en-veertigste</i><par n="tweede__det"/></e>
@@ -1326,7 +1330,6 @@
     <e lm="sewe-en-veertigste"><i>sewe-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-veertigste"><i>agt-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-veertigste"><i>nege-en-veertigste</i><par n="tweede__det"/></e>
-    <e lm="vyftigste"><i>vyftigste</i><par n="tweede__det"/></e>
     <e lm="een-en-vyftigste"><i>een-en-vyftigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-vyftigste"><i>twee-en-vyftigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-vyftigste"><i>drie-en-vyftigste</i><par n="tweede__det"/></e>
@@ -1336,7 +1339,6 @@
     <e lm="sewe-en-vyftigste"><i>sewe-en-vyftigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-vyftigste"><i>agt-en-vyftigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-vyftigste"><i>nege-en-vyftigste</i><par n="tweede__det"/></e>
-    <e lm="sestigste"><i>sestigste</i><par n="tweede__det"/></e>
     <e lm="een-en-sestigste"><i>een-en-sestigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-sestigste"><i>twee-en-sestigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-sestigste"><i>drie-en-sestigste</i><par n="tweede__det"/></e>
@@ -1346,7 +1348,6 @@
     <e lm="sewe-en-sestigste"><i>sewe-en-sestigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-sestigste"><i>agt-en-sestigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-sestigste"><i>nege-en-sestigste</i><par n="tweede__det"/></e>
-    <e lm="sewentigste"><i>sewentigste</i><par n="tweede__det"/></e>
     <e lm="een-en-sewentigste"><i>een-en-sewentigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-sewentigste"><i>twee-en-sewentigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-sewentigste"><i>drie-en-sewentigste</i><par n="tweede__det"/></e>
@@ -1356,7 +1357,6 @@
     <e lm="sewe-en-sewentigste"><i>sewe-en-sewentigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-sewentigste"><i>agt-en-sewentigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-sewentigste"><i>nege-en-sewentigste</i><par n="tweede__det"/></e>
-    <e lm="tagtigste"><i>tagtigste</i><par n="tweede__det"/></e>
     <e lm="een-en-tagtigste"><i>een-en-tagtigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-tagtigste"><i>twee-en-tagtigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-tagtigste"><i>drie-en-tagtigste</i><par n="tweede__det"/></e>
@@ -1366,7 +1366,6 @@
     <e lm="sewe-en-tagtigste"><i>sewe-en-tagtigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-tagtigste"><i>agt-en-tagtigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-tagtigste"><i>nege-en-tagtigste</i><par n="tweede__det"/></e>
-    <e lm="negentigste"><i>negentigste</i><par n="tweede__det"/></e>
     <e lm="een-en-negentigste"><i>een-en-negentigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-negentigste"><i>twee-en-negentigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-negentigste"><i>drie-en-negentigste</i><par n="tweede__det"/></e>
@@ -1376,7 +1375,7 @@
     <e lm="sewe-en-negentigste"><i>sewe-en-negentigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-negentigste"><i>agt-en-negentigste</i><par n="tweede__det"/></e>
     <e lm="nege-en-negentigste"><i>nege-en-negentigste</i><par n="tweede__det"/></e>
-    <e lm="honderdste"><i>honderdste</i><par n="tweede__det"/></e>
+-->
 
     <e lm="laaste"><i>laaste</i><par n="tweede__det"/></e>
 
@@ -8807,6 +8806,7 @@
     <e lm="antwoord"><i>antwoord</i><par n="breek__vblex"/></e>
     <e lm="antwoord"><p><l>geantwoord</l><r>antwoord</r></p><par n="gebreek__vblex"/></e>
 
+    <!--<e lm="baar"><i/><par n="/baar__vblex"/></e>-->
     <e lm="baar"><i>baar</i><par n="breek__vblex"/></e>
     <e lm="baar"><p><l>gebaar</l><r>baar</r></p><par n="gebreek__vblex"/></e>
 
@@ -9427,7 +9427,6 @@
     <!-- UNCHECKED -->
     <!-- =================================================================== -->
 
-    <e lm="baar"><i/><par n="/baar__vblex"/></e>
 
     <e lm="gebruik"><i>gebruik</i><par n="breek__vblex"/></e>
     <e lm="gesels"><i>gesels</i><par n="breek__vblex"/></e>

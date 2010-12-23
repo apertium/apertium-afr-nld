@@ -301,6 +301,7 @@
     <e><p><l>waar<s n="rel"/><s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
     <e><p><l>wat<s n="rel"/><s n="nn"/></l><r>wat<s n="rel"/><s n="nn"/></r></p></e>
     <e><p><l>dat<s n="rel"/><s n="an"/></l><r>dat<s n="rel"/><s n="an"/></r></p></e>
+    <e><p><l>wie<s n="rel"/><s n="an"/></l><r>wie<s n="rel"/><s n="an"/></r></p></e>
 
     <!-- SECTION: Determiners -->
     <e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
@@ -326,6 +327,7 @@
     <e><p><l>agtste<s n="det"/><s n="ord"/><s n="sp"/></l><r>achtste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
     <e><p><l>hoeveel<s n="det"/><s n="itg"/></l><r>hoeveel<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>genoeg<s n="det"/><s n="qnt"/></l><r>genoeg<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>wat<s n="det"/><s n="itg"/></l><r>wat<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>tagtigste<s n="det"/><s n="ord"/><s n="sp"/></l><r>tachtigste<s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
 
     <e><p><l>die<s n="det"/><s n="def"/></l><r>de<s n="det"/><s n="def"/></r></p><par n="die_de"/></e>
@@ -1203,9 +1205,10 @@
     <e><p><l>stormwater<s n="n"/></l><r>stormwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stemlys<s n="n"/></l><r>stemlijst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spektrometer<s n="n"/></l><r>spectrometer<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>magnetometer<s n="n"/></l><r>magneto<e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
-<e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
-<e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>meter<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>magnetometer<s n="n"/></l><r>magnetometer<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+    <e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+    <e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
     <e><p><l>skeisaak<s n="n"/></l><r>scheiding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sjokoladefabriek<s n="n"/></l><r>chocoladefabriek<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seremoniemeester<s n="n"/></l><r>ceremoniemeester<s n="n"/><s n="m"/></r></p></e>
@@ -3548,7 +3551,7 @@
     <e><p><l>dag<s n="n"/></l><r>dag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>koraal<s n="n"/></l><r>koraal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>muisknoppie<s n="n"/></l><r>muisknop<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>oplewing<s n="n"/></l><r>opleving<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oplewing<s n="n"/></l><r>opleving<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>klank<s n="n"/></l><r>geluid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ingenieur<s n="n"/></l><r>techniek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vuurtoring<s n="n"/></l><r>vuurtoren<s n="n"/><s n="m"/></r></p></e>
@@ -3943,6 +3946,7 @@
     <e><p><l>NATO<s n="np"/><s n="al"/></l><r>NAVO<s n="np"/><s n="al"/><s n="mfn"/></r></p></e>
 
     <e><p><l>Botha<s n="np"/><s n="cog"/><s n="mf"/></l><r>Botha<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Stalin<s n="np"/><s n="cog"/><s n="mf"/></l><r>Stalin<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Dalí<s n="np"/><s n="cog"/><s n="mf"/></l><r>Dalí<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Fischer<s n="np"/><s n="cog"/><s n="mf"/></l><r>Fischer<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Hitler<s n="np"/><s n="cog"/><s n="mf"/></l><r>Hitler<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -4800,8 +4804,11 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>te<s n="preadv"/></l><r>te<s n="preadv"/></r></p></e>
+    <e><p><l>taamlik<s n="preadv"/></l><r>tamelijk<s n="preadv"/></r></p></e>
     <e><p><l>mees<s n="preadv"/></l><r>meeste<s n="preadv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>dan<s n="preadv"/></r></p></e>
+    <e><p><l>so<s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
+    <e r="LR"><p><l>só<s n="preadv"/></l><r>zo<s n="preadv"/></r></p></e>
 
     <e><p><l>hoe<s n="adv"/><s n="itg"/></l><r>hoe<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>hoekom<s n="adv"/><s n="itg"/></l><r>waarom<s n="adv"/><s n="itg"/></r></p></e>
@@ -5111,13 +5118,13 @@
     <e><p><l>regmaak<s n="vblex"/></l><r>oplossen<s n="vblex"/><s n="sep"/></r></p></e>
     <e r="LR"><p><l>oplos<s n="vblex"/><s n="sep"/></l><r>oplossen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>herdruk<s n="vblex"/></l><r>herdrukken<s n="vblex"/></r></p></e>
-    <e><p><l>seer<s n="vblex"/></l><r>doorsnijden<s n="vblex"/></r></p></e>
+    <e><p><l>seer<s n="vblex"/></l><r>doorsnijden<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>ioniseer<s n="vblex"/></l><r>ioniseren<s n="vblex"/></r></p></e>
     <e><p><l>aas<s n="vblex"/></l><r>azen<s n="vblex"/></r></p></e>
     <e><p><l>simuleer<s n="vblex"/></l><r>simuleren<s n="vblex"/></r></p></e>
     <e><p><l>sluk<s n="vblex"/></l><r>slikken<s n="vblex"/></r></p></e>
     <e><p><l>kuier<s n="vblex"/></l><r>bezoeken<s n="vblex"/></r></p></e>
-    <e><p><l>afskakel<s n="vblex"/></l><r>uitschakelen<s n="vblex"/></r></p></e>
+    <e><p><l>afskakel<s n="vblex"/></l><r>uitschakelen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>syfer<s n="vblex"/></l><r>becijferen<s n="vblex"/></r></p></e>
     <e><p><l>hoes<s n="vblex"/></l><r>hoesten<s n="vblex"/></r></p></e>
 
@@ -5573,7 +5580,7 @@
     <e><p><l>verslaan<s n="vblex"/></l><r>verslaan<s n="vblex"/></r></p></e>
     <e><p><l>behels<s n="vblex"/></l><r>behelzen<s n="vblex"/></r></p></e>
     <e><p><l>uitreik<s n="vblex"/><s n="sep"/></l><r>uitreiken<s n="vblex"/><s n="sep"/></r></p></e>
-    <e><p><l>afval<s n="vblex"/></l><r>afvallen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>afval<s n="vblex"/><s n="sep"/></l><r>afvallen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omhels<s n="vblex"/></l><r>omhelzen<s n="vblex"/></r></p></e>
     <e><p><l>saag<s n="vblex"/></l><r>zagen<s n="vblex"/></r></p></e>
     <e><p><l>ondersoek<s n="vblex"/></l><r>onderzoeken<s n="vblex"/></r></p></e>
