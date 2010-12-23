@@ -296,6 +296,7 @@
 
     <e><p><l>waar<s n="rel"/><s n="adv"/></l><r>waar<s n="rel"/><s n="adv"/></r></p></e>
     <e><p><l>wat<s n="rel"/><s n="nn"/></l><r>wat<s n="rel"/><s n="nn"/></r></p></e>
+    <e><p><l>dat<s n="rel"/><s n="an"/></l><r>dat<s n="rel"/><s n="an"/></r></p></e>
 
     <!-- SECTION: Determiners -->
     <e><p><l>ander<s n="det"/><s n="ind"/></l><r>ander<s n="det"/><s n="ind"/></r></p></e>
@@ -5029,6 +5030,8 @@
     <e><p><l>wil<s n="vaux"/></l><r>willen<s n="vaux"/></r></p></e>
     <e><p><l>wil<s n="vblex"/></l><r>willen<s n="vblex"/></r></p></e>
     <e><p><l>sal<s n="vaux"/></l><r>zullen<s n="vaux"/></r></p></e>
+    <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>behoort<s n="vaux"/></l><r>behoren<s n="vblex"/></r></p></e>
 
     <e><p><l>stig<s n="vblex"/></l><r>stichten<s n="vblex"/></r></p></e>
     <e><p><l>lei<s n="vblex"/></l><r>leiden<s n="vblex"/></r></p></e>
@@ -5082,7 +5085,6 @@
     <e><p><l>kanselleer<s n="vblex"/></l><r>annuleren<s n="vblex"/></r></p></e>
     <e><p><l>pouse<s n="vblex"/></l><r>pauzeren<s n="vblex"/></r></p></e>
     <e><p><l>pos<s n="vblex"/></l><r>mailen<s n="vblex"/></r></p></e>
-    <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
     <e><p><l>bemeester<s n="vblex"/></l><r>beheersen<s n="vblex"/></r></p></e>
     <e><p><l>hulp<s n="vblex"/></l><r>helpen<s n="vblex"/></r></p></e>
     <e><p><l>ontsyfer<s n="vblex"/></l><r>ontcijferen<s n="vblex"/></r></p></e>
@@ -5563,7 +5565,6 @@
     <e><p><l>afval<s n="vblex"/></l><r>afvallen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>omhels<s n="vblex"/></l><r>omhelzen<s n="vblex"/></r></p></e>
     <e><p><l>saag<s n="vblex"/></l><r>zagen<s n="vblex"/></r></p></e>
-    <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
     <e><p><l>ondersoek<s n="vblex"/></l><r>onderzoeken<s n="vblex"/></r></p></e>
     <e><p><l>ontwrig<s n="vblex"/></l><r>ontwrichten<s n="vblex"/></r></p></e>
     <e><p><l>berig<s n="vblex"/></l><r>berichten<s n="vblex"/></r></p></e>
@@ -5589,8 +5590,10 @@
     <e><p><l>aansluit<s n="vblex"/><s n="sep"/></l><r>aansluiten<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>onderneem<s n="vblex"/><s n="sep"/></l><r>ondernemen<s n="vblex"/></r></p></e>
 
+    <!-- SECTION: Interjections -->
 
-
+    <e><p><l>welkom<b/>by<s n="ij"/></l><r>welkom<b/>op<s n="ij"/></r></p></e>
+    <e><p><l>hallo<s n="ij"/></l><r>hallo<s n="ij"/></r></p></e>
     
     <!-- SECTION: Punctuation -->
 
