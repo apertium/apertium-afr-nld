@@ -4187,7 +4187,6 @@
     <e lm="skrif"><i>skrif</i><par n="lys__n"/></e>
     <e lm="jag"><i>jag</i><par n="lys__n"/></e>
     <e lm="sebra"><i>sebra</i><par n="artikel__n"/></e>
-    <e lm="lyf"><i>ly</i><par n="alternatie/f__n"/></e>
     <e lm="greep"><i>gre</i><par n="swe/ep__n"/></e>
     <e lm="opdraglyn"><i>opdraglyn</i><par n="bier__n"/></e>
     <e lm="landkode"><i>landkode</i><par n="artikel__n"/></e>
@@ -5788,11 +5787,7 @@
     <e lm="geplaas"><i>geplaas</i><par n="vermoor__adj"/></e>
     <e lm="besorg"><i>besorg</i><par n="vermoor__adj"/></e><!-- check -->
     <e lm="inherent"><i>inherent</i><par n="dadelik__adj"/></e>
-
-    <e lm="kern"><i>kern</i><par n="dadelik__adj"/></e>
-    <e lm="koerant"><i>koerant</i><par n="dadelik__adj"/></e>
     <e lm="kunstig"><i>kunstig</i><par n="dadelik__adj"/></e>
-    <e lm="laas"><i>laas</i><par n="sleg__adj"/></e>
     <e lm="langafstand"><i>langafstand</i><par n="dadelik__adj"/></e>
     <e lm="moedig"><i>moedig</i><par n="dadelik__adj"/></e>
     <e lm="noemenswaardig"><i>noemenswaardig</i><par n="dadelik__adj"/></e>
@@ -5895,7 +5890,6 @@
     <e lm="interessant"><i>interessant</i><par n="maklik__adj"/></e>
 
     <!-- Taken from wordlist with ~ø ~e ~er ~ste -->
-    <e lm="agt"><i>agt</i><par n="maklik__adj"/></e>
     <e lm="arm"><i>arm</i><par n="maklik__adj"/></e>
     <e lm="bedrywig"><i>bedrywig</i><par n="maklik__adj"/></e>
     <e lm="beduidend"><i>beduidend</i><par n="maklik__adj"/></e>
@@ -5946,15 +5940,12 @@
     <e lm="kragtig"><i>kragtig</i><par n="maklik__adj"/></e>
     <!--<e lm="la"><i>la</i><par n="maklik__adj"/></e>-->
     <e lm="lewendig"><i>lewendig</i><par n="maklik__adj"/></e>
-    <e lm="ly"><i>ly</i><par n="maklik__adj"/></e>
     <e lm="magtig"><i>magtig</i><par n="maklik__adj"/></e>
-    <e lm="ma"><i>ma</i><par n="maklik__adj"/></e>
     <e lm="mededingend"><i>mededingend</i><par n="maklik__adj"/></e>
     <!--<e lm="miljoen"><i>miljoen</i><par n="maklik__adj"/></e>-->
     <e lm="netjies"><i>netjies</i><par n="maklik__adj"/></e>
     <e lm="nodig"><i>nodig</i><par n="maklik__adj"/></e>
     <e lm="noukeurig"><i>noukeurig</i><par n="maklik__adj"/></e>
-    <e lm="nou"><i>nou</i><par n="maklik__adj"/></e>
     <e lm="omvattend"><i>omvattend</i><par n="maklik__adj"/></e>
     <e lm="ongewild"><i>ongewild</i><par n="maklik__adj"/></e>
     <e lm="onsinnig"><i>onsinnig</i><par n="maklik__adj"/></e>
@@ -5997,7 +5988,6 @@
     <e lm="uitgebreid"><i>uitgebreid</i><par n="maklik__adj"/></e>
     <e lm="vaardig"><i>vaardig</i><par n="maklik__adj"/></e>
     <e lm="vals"><i>vals</i><par n="maklik__adj"/></e>
-    <e lm="vang"><i>vang</i><par n="maklik__adj"/></e>
     <e lm="vars"><i>vars</i><par n="maklik__adj"/></e>
     <e lm="veilig"><i>veilig</i><par n="maklik__adj"/></e>
     <e lm="vernietigend"><i>vernietigend</i><par n="maklik__adj"/></e>
@@ -6102,7 +6092,6 @@
     <e lm="heimlik"><i>heimlik</i><par n="dadelik__adj"/></e>
     <e lm="herhaaldelik"><i>herhaaldelik</i><par n="dadelik__adj"/></e>
     <e lm="hoofsaaklik"><i>hoofsaaklik</i><par n="dadelik__adj"/></e>
-    <e lm="huwelik"><i>huwelik</i><par n="dadelik__adj"/></e>
     <e lm="inhoudelik"><i>inhoudelik</i><par n="dadelik__adj"/></e>
     <e lm="innerlik"><i>innerlik</i><par n="dadelik__adj"/></e>
     <e lm="klaaglik"><i>klaaglik</i><par n="dadelik__adj"/></e>
@@ -6214,8 +6203,6 @@
 
 
 
-    <e lm="kritiek"><i>kritiek</i><par n="dadelik__adj"/></e>
-    <e lm="paniek"><i>paniek</i><par n="dadelik__adj"/></e>
     <e lm="spesifiek"><i>spesifiek</i><par n="dadelik__adj"/></e>
     <e lm="biologies"><i>biologies</i><par n="dadelik__adj"/></e>
     <e lm="dominant"><i>dominant</i><par n="dadelik__adj"/></e>
@@ -6235,7 +6222,6 @@
     <e lm="demokraties"><i>demokraties</i><par n="dadelik__adj"/></e>
     <e lm="kommunisties"><i>kommunisties</i><par n="dadelik__adj"/></e>
     <e lm="histories"><i>histories</i><par n="dadelik__adj"/></e>
-    <e lm="onlangs"><i>onlangs</i><par n="dadelik__adj"/></e>
     <e lm="aanmerklik"><i>aanmerklik</i><par n="dadelik__adj"/></e>
     <e lm="militêr"><i>militêr</i><par n="dadelik__adj"/></e>
     <e lm="wetenskaplik"><i>wetenskaplik</i><par n="dadelik__adj"/></e>
@@ -6285,7 +6271,7 @@
     <e lm="filosofies"><i>filosofies</i><par n="dadelik__adj"/></e>
     <e lm="fisies"><i>fisies</i><par n="dadelik__adj"/></e>
     <e lm="foneties"><i>foneties</i><par n="dadelik__adj"/></e>
-    <e lm="fries"><i>fries</i><par n="dadelik__adj"/></e>
+    <e lm="Fries"><i>Fries</i><par n="dadelik__adj"/></e>
     <e lm="geneties"><i>geneties</i><par n="dadelik__adj"/></e>
     <e lm="geografies"><i>geografies</i><par n="dadelik__adj"/></e>
     <e lm="geologies"><i>geologies</i><par n="dadelik__adj"/></e>
@@ -6303,10 +6289,8 @@
     <e lm="krities"><i>krities</i><par n="dadelik__adj"/></e>
     <e lm="kubies"><i>kubies</i><par n="dadelik__adj"/></e>
     <e lm="legendaries"><i>legendaries</i><par n="dadelik__adj"/></e>
-    <e lm="lies"><i>lies</i><par n="dadelik__adj"/></e>
     <e lm="logies"><i>logies</i><par n="dadelik__adj"/></e>
     <e lm="magneties"><i>magneties</i><par n="dadelik__adj"/></e>
-    <e lm="markies"><i>markies</i><par n="dadelik__adj"/></e>
     <e lm="medies"><i>medies</i><par n="dadelik__adj"/></e>
     <e lm="meganies"><i>meganies</i><par n="dadelik__adj"/></e>
     <e lm="mikroskopies"><i>mikroskopies</i><par n="dadelik__adj"/></e>
@@ -6336,7 +6320,6 @@
     <e lm="ritmies"><i>ritmies</i><par n="dadelik__adj"/></e>
     <e lm="romanties"><i>romanties</i><par n="dadelik__adj"/></e>
     <e lm="satiries"><i>satiries</i><par n="dadelik__adj"/></e>
-    <e lm="sektaries"><i>sektaries</i><par n="dadelik__adj"/></e>
     <e lm="sferies"><i>sferies</i><par n="dadelik__adj"/></e>
     <e lm="simbolies"><i>simbolies</i><par n="dadelik__adj"/></e>
     <e lm="simmetries"><i>simmetries</i><par n="dadelik__adj"/></e>
@@ -6344,8 +6327,6 @@
     <e lm="sistematies"><i>sistematies</i><par n="dadelik__adj"/></e>
     <e lm="skematies"><i>skematies</i><par n="dadelik__adj"/></e>
     <e lm="skepties"><i>skepties</i><par n="dadelik__adj"/></e>
-    <e lm="slymvlies"><i>slymvlies</i><par n="dadelik__adj"/></e>
-    <e lm="spies"><i>spies</i><par n="dadelik__adj"/></e>
     <e lm="sporadies"><i>sporadies</i><par n="dadelik__adj"/></e>
     <e lm="staties"><i>staties</i><par n="dadelik__adj"/></e>
     <e lm="statisties"><i>statisties</i><par n="dadelik__adj"/></e>
@@ -6361,7 +6342,6 @@
     <e lm="tropies"><i>tropies</i><par n="dadelik__adj"/></e>
     <e lm="ultrasonies"><i>ultrasonies</i><par n="dadelik__adj"/></e>
     <e lm="verlies"><i>verlies</i><par n="dadelik__adj"/></e>
-    <e lm="vlies"><i>vlies</i><par n="dadelik__adj"/></e>
     <e lm="vulkanies"><i>vulkanies</i><par n="dadelik__adj"/></e>
 
 
@@ -6374,7 +6354,6 @@
     <e lm="verskillend"><i>verskillend</i><par n="dadelik__adj"/></e>
     <e lm="seker"><i>seker</i><par n="dadelik__adj"/></e> 
     <e lm="verwant"><i>verwant</i><par n="dadelik__adj"/></e> 
-    <e lm="spesies"><i>spesies</i><par n="dadelik__adj"/></e> 
     <e lm="oneindig"><i>oneindig</i><par n="dadelik__adj"/></e> 
     <e lm="bekend"><i>bekend</i><par n="dadelik__adj"/></e> 
     <e lm="invloedryk"><i>invloedryk</i><par n="dadelik__adj"/></e> 
@@ -6782,7 +6761,6 @@
     <e lm="leidende"><i>leidende</i><par n="swart__adj"/></e><!-- leading :: CHECK -->
     <e lm="nabygeleë"><i>nabygeleë</i><par n="swart__adj"/></e><!-- neighbouring :: CHECK -->
     <e lm="vroeër"><i>vroeër</i><par n="swart__adj"/></e><!-- earlier :: CHECK -->
-    <e lm="spilmoondhede"><i>spilmoondhede</i><par n="swart__adj"/></e><!-- axis :: CHECK -->
     <e lm="verhoogde"><i>verhoogde</i><par n="swart__adj"/></e><!-- quisling:: CHECK -->
     <e lm="oopbron"><i>oopbron</i><par n="swart__adj"/></e><!-- open source :: CHECK -->
 
@@ -6816,7 +6794,6 @@
     <e lm="vloot"><i>vlo</i><par n="oorbegro/ot__adj"/></e><!-- naval -->
     <e lm="kwaad"><i>kwaa</i><par n="kwaa/d__adj"/></e><!-- angry -->
     <e lm="vroeg"><i>vroe</i><par n="vroe/g__adj"/></e><!-- early -->
-    <e lm="klimaat"><i>klima</i><par n="klima/at__adj"/></e><!-- climate -->
     <e lm="skoon"><i>sko</i><par n="sko/on__adj"/></e><!-- beautiful -->
 
     <!-- Winterstream -->
