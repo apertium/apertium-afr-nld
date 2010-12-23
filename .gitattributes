@@ -41,8 +41,12 @@ dev/eval/eval.2010-12-23.wikipedia.2.txt -text
 dev/eval/evaluation-log.txt -text
 dev/generation-summary.txt -text
 dev/generation-test.sh -text
+dev/inconsistency-summary.sh -text
+dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
+dev/testvoc-summary.af-nl.txt -text
+dev/testvoc.sh -text
 dev/verbSep-NoParadigms.txt -text
 dev/verbSep.txt -text
 /modes.xml -text
