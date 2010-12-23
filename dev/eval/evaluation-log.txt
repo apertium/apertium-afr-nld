@@ -1,0 +1,24 @@
+eval.2010-12-23.wikipedia.1.txt
+dj des 23 09:28:01 GMT 2010
+-------------------------------------------------------------------------------
+Number of words in reference: 1387
+Number of words in test: 1410
+Number of unknown words (marked with a star) in test: 0
+Percentage of unknown words: 0,00 %
+Edit distance: 208
+Word error rate (WER): 14,75 %
+Number of position-independent word errors: 207
+Position-independent word error rate (PER): 14,68 %
+
+
+eval.2010-12-23.wikipedia.2.txt
+dj des 23 09:28:06 GMT 2010
+-------------------------------------------------------------------------------
+Number of words in reference: 1642
+Number of words in test: 1594
+Number of unknown words (marked with a star) in test: 263
+Percentage of unknown words: 16,50 %
+Edit distance: 423
+Word error rate (WER): 26,54 %
+Number of position-independent word errors: 417
+Position-independent word error rate (PER): 26,16 %
