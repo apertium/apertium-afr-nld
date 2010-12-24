@@ -2831,6 +2831,8 @@
     <e lm="Afrikaans"><i>Afrikaans</i><par n="Afrikaans__n"/></e>
 
     <e lm="Hamburg"><i>Hamburg</i><par n="Engeland__np"/></e>
+    <e lm="Sint Petersburg" r="LR"><p><l>Sint-Petersburg</l><r>Sint<b/>Petersburg</r></p><par n="Engeland__np"/></e>
+    <e lm="Sint Petersburg"><i>Sint<b/>Petersburg</i><par n="Engeland__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Engeland__np"/></e>
     <e lm="Lesotho"><i>Lesotho</i><par n="Engeland__np"/></e>
     <e lm="York"><i>York</i><par n="Engeland__np"/></e>
