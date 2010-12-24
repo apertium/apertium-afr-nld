@@ -291,7 +291,7 @@
     </pardef>
 
     <pardef n="zichzelf__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="alle__prn">
@@ -312,6 +312,10 @@
 
     <pardef n="wat__rel">
       <e>       <p><l/><r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="wie__rel">
+      <e>       <p><l/><r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="waar__rel">
@@ -8538,6 +8542,8 @@
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
 
+    <e lm="zichzelf"><i>zichzelf</i><par n="zichzelf__prn"/></e>
+
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
 
@@ -8545,7 +8551,9 @@
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
 
     <e lm="mens"><i>mens</i><par n="mens__prn"/></e>
+    <e lm="enig iets"><i>enig<b/>iets</i><par n="mens__prn"/></e>
     <e lm="elkeen"><i>elkeen</i><par n="mens__prn"/></e>
+    <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="iemand"><i>iemand</i><par n="mens__prn"/></e>
     <e lm="niemand"><i>niemand</i><par n="mens__prn"/></e>
     <e lm="iedereen"><i>iedereen</i><par n="mens__prn"/></e>
@@ -8555,6 +8563,8 @@
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
 
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e>
+    <e lm="wie"><i>wie</i><par n="wie__rel"/></e>
+    <e lm="dat"><i>dat</i><par n="wie__rel"/></e>
 
     <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
 
