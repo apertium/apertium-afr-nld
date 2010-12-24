@@ -1875,7 +1875,7 @@
     <e lm="duin"><i>duin</i><par n="bier__n"/></e>
     <e lm="tegniek"><i>tegniek</i><par n="bier__n"/></e>
     <e lm="bloeitydperk"><i>bloeitydperk</i><par n="bier__n"/></e>
-    <e lm="vervoer"><i>vervoer</i><par n="bier__n"/></e>--><!-- check -->
+    <!--<e lm="vervoer"><i>vervoer</i><par n="bier__n"/></e>--><!-- check -->
     <e lm="teks"><i>teks</i><par n="bier__n"/></e>
     <e lm="kliniek"><i>kliniek</i><par n="bier__n"/></e>
     <e lm="praktisyn"><i>praktisyn</i><par n="bier__n"/></e>

@@ -8651,6 +8651,7 @@
     <!-- SECTION: Adverbs -->
 
     <e lm="te"><i>te</i><par n="te__preadv"/></e>
+    <e lm="veel"><i>veel</i><par n="te__preadv"/></e>
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
     <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
     <e lm="meeste"><i>meeste</i><par n="te__preadv"/></e>
@@ -8661,6 +8662,19 @@
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
     <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
+
+
+    <e lm="helemaal aan het begin"><i>helemaal<b/>aan<b/>het<b/>begin</i><par n="es__adv"/></e>
+    <e lm="zonder"><i>zonder</i><par n="es__adv"/></e>
+    <e lm="hoewel"><i>hoewel</i><par n="es__adv"/></e>
+    <e lm="gedurende die laatste paar jaren"><i>gedurende<b/>die<b/>laatste<b/>paar<b/>jaren</i><par n="es__adv"/></e>
+    <e lm="zodra"><i>zodra</i><par n="es__adv"/></e>
+    <e lm="hierzo"><i>hierzo</i><par n="es__adv"/></e>
+    <e lm="meerwaardig"><i>meerwaardig</i><par n="es__adv"/></e>
+    <e lm="of"><i>of</i><par n="es__adv"/></e>
+    <e lm="gistermiddag"><i>gistermiddag</i><par n="es__adv"/></e>
+    <e lm="zowaar"><i>zowaar</i><par n="es__adv"/></e>
+    <e lm="voor de eerste slag"><i>voor<b/>de<b/>eerste<b/>slag</i><par n="es__adv"/></e>
 
     <e lm="aan"><i>aan</i><par n="es__adv"/></e>
     <e lm="aaneen"><i>aaneen</i><par n="es__adv"/></e>
