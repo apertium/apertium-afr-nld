@@ -501,6 +501,9 @@
     <e><p><l>duur<s n="n"/></l><r>duur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aandag<s n="n"/></l><r>aandacht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>besoeker<s n="n"/></l><r>bezoeker<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aar<s n="n"/></l><r>ader<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>loop<s n="n"/></l><r>loop<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>verkeer<s n="n"/></l><r>verkeer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prestasie<s n="n"/></l><r>prestatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>navigasie<s n="n"/></l><r>navigatie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>media<s n="n"/></l><r>medium<s n="n"/><s n="nt"/></r></p></e>
@@ -1740,7 +1743,8 @@
     <e><p><l>handelsvloot<s n="n"/></l><r>handelsvloot<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hand<s n="n"/></l><r>hand<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>handtekening<s n="n"/></l><r>handtekening<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>hare<s n="n"/></l><r>haar<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>haar<s n="n"/></l><r>haar<s n="n"/><s n="nt"/></r></p></e>
+    <e r="LR"><p><l>hare<s n="n"/></l><r>haar<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hart<s n="n"/></l><r>hart<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hawe<s n="n"/></l><r>haven<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>heerskappy<s n="n"/></l><r>heerschappij<s n="n"/><s n="f"/></r></p></e>
@@ -3568,6 +3572,7 @@
     <e><p><l>Januarie<s n="n"/></l><r>januari<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Februarie<s n="n"/></l><r>februari<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Maart<s n="n"/></l><r>maart<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>April<s n="n"/></l><r>april<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Mei<s n="n"/></l><r>mei<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Junie<s n="n"/></l><r>juni<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Julie<s n="n"/></l><r>juli<s n="n"/><s n="m"/></r></p></e>

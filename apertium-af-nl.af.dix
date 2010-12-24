@@ -2591,6 +2591,7 @@
     <e lm="geduld"><i>geduld</i><par n="poësie__n__unc"/></e><!-- patience -->
     <e lm="poësie"><i>poësie</i><par n="poësie__n__unc"/></e>
     <e lm="hare"><i>hare</i><par n="poësie__n__unc"/></e><!-- hair -->
+    <e lm="haar"><i>ha</i><par n="staatsamptena/ar__n"/></e><!-- hair -->
     <e lm="petrol"><i>petrol</i><par n="poësie__n__unc"/></e>
     <e lm="gebrek"><i>gebrek</i><par n="poësie__n__unc"/></e><!-- lack -->
     <e lm="toerisme"><i>toerisme</i><par n="poësie__n__unc"/></e>
@@ -3311,7 +3312,7 @@
     <e lm="Mei"><i>Mei</i><par n="artikel__n"/></e>
     <e lm="Junie"><i>Junie</i><par n="artikel__n"/></e>
     <e lm="Julie"><i>Julie</i><par n="artikel__n"/></e>
-    <e lm="Augustus"><i>Augustus</i><par n="artikel__n"/></e>
+    <e lm="Augustus"><i>Augustus</i><par n="abakus__n"/></e>
     <e lm="September"><i>September</i><par n="artikel__n"/></e>
     <e lm="Oktober"><i>Oktober</i><par n="artikel__n"/></e>
     <e lm="November"><i>November</i><par n="artikel__n"/></e>
@@ -3483,7 +3484,6 @@
     <e lm="einde"><i>einde</i><par n="artikel__n"/></e><!-- end -->
     <e lm="ontstaan"><i>ontstaan</i><par n="bier__n"/></e><!-- origen -->
     <e lm="aar"><i>a</i><par n="staatsamptena/ar__n"/></e><!-- vein -->
-    <e lm="haar"><i>ha</i><par n="staatsamptena/ar__n"/></e><!-- hair -->
     <e lm="ontwerp"><i>ontwerp</i><par n="bier__n"/></e><!-- design -->
     <e lm="gemeente"><i>gemeente</i><par n="artikel__n"/></e><!-- congregation -->    
     <e lm="opsig"><i>opsig</i><par n="lys__n"/></e><!-- regard -->    
@@ -3678,7 +3678,6 @@
     <e lm="bystand"><i>bystand</i><par n="bier__n"/></e>
     <e lm="poel"><i>poel</i><par n="bier__n"/></e>
     <e lm="setlaar"><i>setlaar</i><par n="artikel__n"/></e>
-    <e lm="augustus"><i>augustus</i><par n="abakus__n"/></e>
     <e lm="uitweg"><i>uitweg</i><par n="lys__n"/></e>
     <e lm="voorstander"><i>voorstander</i><par n="artikel__n"/></e>
     <e r="LR" lm="poliesman"><i>poliesman</i><par n="polisieman__n"/></e>
@@ -8839,6 +8838,9 @@
     <e lm="jag"><i>jag</i><par n="breek__vblex"/></e>
     <e lm="jag"><p><l>gejag</l><r>jag</r></p><par n="gebreek__vblex"/></e>
 
+    <e lm="ken"><i>ken</i><par n="breek__vblex"/></e>
+    <e lm="ken"><p><l>geken</l><r>ken</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="kam"><i>kam</i><par n="breek__vblex"/></e>
     <e lm="kam"><p><l>gekam</l><r>kam</r></p><par n="gebreek__vblex"/></e>
 
@@ -8901,6 +8903,9 @@
 
     <e lm="lê"><i>lê</i><par n="breek__vblex"/></e>
     <e lm="lê"><p><l>gelê</l><r>lê</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="lei"><i>lei</i><par n="breek__vblex"/></e>
+    <e lm="lei"><p><l>gelei</l><r>lei</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="leef"><i>leef</i><par n="breek__vblex"/></e>
     <e lm="leef"><p><l>geleef</l><r>leef</r></p><par n="gebreek__vblex"/></e>
