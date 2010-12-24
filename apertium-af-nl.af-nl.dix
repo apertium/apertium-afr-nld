@@ -1211,7 +1211,7 @@
     <e><p><l>stormwater<s n="n"/></l><r>stormwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stemlys<s n="n"/></l><r>stemlijst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spektrometer<s n="n"/></l><r>spectrometer<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>magnetometer<s n="n"/></l><r>magnetometer<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>magnetometer<s n="n"/></l><r>magnetometer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
     <e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
     <e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
@@ -1252,11 +1252,10 @@
 
     <e><p><l>aantal<s n="n"/></l><r>aantal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>aartappel<s n="n"/></l><r>aardappel<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>afbeelding<s n="n"/></l><r>afbeelding<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>afbeelding<s n="n"/></l><r>afbeelding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>appel<s n="n"/></l><r>appel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>appél<s n="n"/></l><r>appel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>beeld<s n="n"/></l><r>beeld<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>bevolking<s n="n"/></l><r>bevolking<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>boorling<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>inwoner<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>broer<s n="n"/></l><r>broer<s n="n"/><s n="m"/></r></p></e>
@@ -1270,11 +1269,10 @@
     <e><p><l>gebruiker<s n="n"/></l><r>gebruiker<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>geval<s n="n"/></l><r>geval<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>glas<s n="n"/></l><r>glas<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>grafika<s n="n"/></l><r>afbeelding<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>grafika<s n="n"/></l><r>afbeelding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>groente<s n="n"/></l><r>groente<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>groep<s n="n"/></l><r>groep<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>grond<s n="n"/></l><r>grond<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hand<s n="n"/></l><r>hand<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>hoender<s n="n"/></l><r>kip<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>invloed<s n="n"/></l><r>invloed<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kerk<s n="n"/></l><r>kerk<s n="n"/><s n="f"/></r></p></e>
@@ -1309,14 +1307,13 @@
     <e><p><l>president<s n="n"/></l><r>president<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>punt<s n="n"/></l><r>punt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>reeks<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>huis<s n="n"/></l><r>huis<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>bevolkingsgroep<s n="n"/></l><r>bevolkingsgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>bloedgroep<s n="n"/></l><r>bloedgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eilandgroep<s n="n"/></l><r>eilanengroep<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>groepering<s n="n"/></l><r>groepering<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>jeuggroep<s n="n"/></l><r>jeuggroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>kultuurgroep<s n="n"/></l><r>kultuurgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>mediagroep<s n="n"/></l><r>mediagroep<s n="n"/><s n="mf"/></r></p></e>
@@ -1455,7 +1452,7 @@
     <e><p><l>battery<s n="n"/></l><r>batterij<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>beampte<s n="n"/></l><r>officier<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>beaming<s n="n"/></l><r>beaming<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>mars<s n="n"/></l><r>mars<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mars<s n="n"/></l><r>mars<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>bedanking<s n="n"/></l><r>ontslag<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bedekking<s n="n"/></l><r>deksel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bediende<s n="n"/></l><r>bediende<s n="n"/><s n="m"/></r></p></e>
@@ -2127,6 +2124,13 @@
     <e><p><l>paartjie<s n="n"/></l><r>stel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>padda<s n="n"/></l><r>kikker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pad<s n="n"/></l><r>pad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>teerpad<s n="n"/></l><r>teer<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>deurpad<s n="n"/></l><r>snelweg<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tolpad<s n="n"/></l><r>tolweg<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>voetpad<s n="n"/></l><r>voetpad<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>verbypad<s n="n"/></l><r>bypass<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>voetslaanpad<s n="n"/></l><r>spoor<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>ompad<s n="n"/></l><r>omweg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>paadjie<s n="n"/></l><r>pad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pakket<s n="n"/></l><r>pakket<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>pakkie<s n="n"/></l><r>perceel<s n="n"/><s n="nt"/></r></p></e>
@@ -2868,7 +2872,7 @@
     <e><p><l>helderheid<s n="n"/></l><r>helderheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aantreklikheid<s n="n"/></l><r>aantrekkelijkheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>onafhanklikheidsoorlog<s n="n"/></l><r>onafhankelijkheidsoorlog<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>minderheidsgroep<s n="n"/></l><r>minderheidsgroep<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>minderheidsgroep<s n="n"/></l><r>minderheidsgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>boosheid<s n="n"/></l><r>boosheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>afskeiding<s n="n"/></l><r>afscheiding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vyandigheid<s n="n"/></l><r>vijandigheid<s n="n"/><s n="f"/></r></p></e>
@@ -3622,8 +3626,8 @@
     <e><p><l>m<s n="n"/><s n="acr"/></l><r>m<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-    <e><p><l>Mnr<s n="n"/><s n="acr"/></l><r>Mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-	<e><p><l>mnr<s n="n"/><s n="acr"/></l><r>mnr<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>Mnr<s n="n"/>/l><r>Mnr<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mnr<s n="n"/></l><r>mnr<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper names -->

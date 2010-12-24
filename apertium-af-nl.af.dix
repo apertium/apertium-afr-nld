@@ -2,6 +2,7 @@
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáéíóúýÁÉÍÓÚÝÅåÆæØøÞþÐð</alphabet>
 
+
   <!-- Symbol definitions -->
 
   <sdefs>
@@ -3400,7 +3401,7 @@
     <e lm="baai"><i>baai</i><par n="bier__n"/></e><!-- bay bay -->
     <e lm="baas"><i>ba</i><par n="ka/as__n"/></e><!-- boss chief -->
     <e lm="baba"><i>baba</i><par n="artikel__n"/></e><!-- baby -->
-    <e lm="bad"><i>ba</i><par n="da/ad__n"/></e><!-- bath bad -->
+    <e lm="bad"><i>b</i><par n="da/ad__n"/></e><!-- bath bad -->
     <e lm="badkamer"><i>badkamer</i><par n="artikel__n"/></e><!-- bathroom -->
     <e lm="bakker"><i>bakker</i><par n="artikel__n"/></e><!-- baker -->
     <e lm="baksteen"><i>bakste</i><par n="antige/en__n"/></e><!-- brick -->
