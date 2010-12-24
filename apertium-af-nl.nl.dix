@@ -8417,6 +8417,7 @@
 
 
     <e lm="alhoewel"><i>alhoewel</i><par n="dus__cnjadv"/></e>
+    <e lm="indien"><i>indien</i><par n="dus__cnjadv"/></e>
     <e lm="bijvoorbeeld"><i>bijvoorbeeld</i><par n="dus__cnjadv"/></e>
     <e lm="daarvoor"><i>daarvoor</i><par n="dus__cnjadv"/></e>
     <e lm="gegeven dat"><i>gegeven<b/>dat</i><par n="dus__cnjadv"/></e>
@@ -8479,6 +8480,7 @@
 
     <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
     <e lm="wat"><i>wat</i><par n="wat__det"/></e>
+    <e lm="welk"><i>welk</i><par n="wat__det"/></e>
 
     <e lm="mijn"><i>mijn</i><par n="mijn__det"/></e>
     <e lm="jouw"><i>jouw</i><par n="mijn__det"/></e>
@@ -8523,6 +8525,8 @@
     <e lm="veertigste"><i>veertigste</i><par n="tweede__det"/></e>
     <e lm="vijftigste"><i>vijftigste</i><par n="tweede__det"/></e>
     <e lm="zestigste"><i>zestigste</i><par n="tweede__det"/></e>
+    <e lm="zevenstigste"><i>zevenstigste</i><par n="tweede__det"/></e>
+    <e lm="negenigste"><i>negenigste</i><par n="tweede__det"/></e>
 
 
     <!-- SECTION: Pronouns -->
