@@ -711,6 +711,7 @@
     <e><p><l>lewensduur<s n="n"/></l><r>levensduur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hooggeregshof<s n="n"/></l><r>hooggerechtshof<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vervoerstelsel<s n="n"/></l><r>transportsysteem<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>vervoer<s n="n"/></l><r>vervoer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lektor<s n="n"/></l><r>lector<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>koppie<s n="n"/></l><r>kopje<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>harmonie<s n="n"/></l><r>harmonie<s n="n"/><s n="f"/></r></p></e>
@@ -1450,6 +1451,8 @@
     <e><p><l>basis<s n="n"/></l><r>basis<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>battery<s n="n"/></l><r>batterij<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>beampte<s n="n"/></l><r>officier<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>beaming<s n="n"/></l><r>beaming<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mars<s n="n"/></l><r>mars<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bedanking<s n="n"/></l><r>ontslag<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>bedekking<s n="n"/></l><r>deksel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bediende<s n="n"/></l><r>bediende<s n="n"/><s n="m"/></r></p></e>
@@ -1466,6 +1469,7 @@
     <e><p><l>begeerte<s n="n"/></l><r>verlangen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>beginpunt<s n="n"/></l><r>uitgangspunt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>beginsel<s n="n"/></l><r>principe<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>begin<s n="n"/></l><r>begin<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>begrip<s n="n"/></l><r>begrip<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>behandeling<s n="n"/></l><r>behandeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bekendheid<s n="n"/></l><r>bekendheid<s n="n"/><s n="f"/></r></p></e>
@@ -1884,6 +1888,7 @@
     <e><p><l>kop<s n="n"/></l><r>hoofd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>koring<s n="n"/></l><r>koor<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>korrespondensie<s n="n"/></l><r>correspondentie<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>onderwys<s n="n"/></l><r>onderwijs<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>korrupsie<s n="n"/></l><r>corruptie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>woonplek<s n="n"/></l><r>woonplaats<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>koshuis<s n="n"/></l><r>woonplaats<s n="n"/><s n="f"/></r></p></e>
@@ -3560,17 +3565,17 @@
     <e><p><l>monargie<s n="n"/></l><r>monarchie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>akroniem<s n="n"/></l><r>acroniem<s n="n"/><s n="nt"/></r></p></e>
 
-    <e><p><l>januarie<s n="n"/></l><r>januari<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>februarie<s n="n"/></l><r>februari<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>maart<s n="n"/></l><r>maart<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mei<s n="n"/></l><r>mei<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>junie<s n="n"/></l><r>juni<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>julie<s n="n"/></l><r>juli<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>augustus<s n="n"/></l><r>augustus<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>september<s n="n"/></l><r>september<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>oktober<s n="n"/></l><r>oktober<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>november<s n="n"/></l><r>november<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>desember<s n="n"/></l><r>december<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Januarie<s n="n"/></l><r>januari<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Februarie<s n="n"/></l><r>februari<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Maart<s n="n"/></l><r>maart<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Mei<s n="n"/></l><r>mei<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Junie<s n="n"/></l><r>juni<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Julie<s n="n"/></l><r>juli<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Augustus<s n="n"/></l><r>augustus<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>September<s n="n"/></l><r>september<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Oktober<s n="n"/></l><r>oktober<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>November<s n="n"/></l><r>november<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Desember<s n="n"/></l><r>december<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>aardbewing<s n="n"/></l><r>aardbeving<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>antibiotikum<s n="n"/></l><r>antibioticum<s n="n"/><s n="nt"/></r></p></e>
@@ -4823,7 +4828,26 @@
     <e><p><l>naastenby<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
     
 	<e><p><l>polities<s n="adv"/></l><r>politiek<s n="adv"/></r></p></e>
-
+	<e><p><l>hoewel<s n="adv"/></l><r>hoewel<s n="adv"/></r></p></e>
+	<e><p><l>heel<b/>aan<b/>die<b/>begin<s n="adv"/></l><r>helemaal<b/>aan<b/>het<b/>begin<s n="adv"/></r></p></e>
+	<e><p><l>sonder<b/>onderskeid<s n="adv"/></l><r>zonder<b/><s n="adv"/></r></p></e>
+	<e><p><l>gedurende<b/>die<b/>laaste<b/>paar<b/>jare<s n="adv"/></l><r>gedurende<b/>die<b/>laatste<b/>paar<b/>jaren<s n="adv"/></r></p></e>
+	<e><p><l>vanmiddag<s n="adv"/></l><r>vanmiddag<s n="adv"/></r></p></e>
+	<e><p><l>wandaar<s n="adv"/></l><r>vandaar<s n="adv"/></r></p></e>
+	<e><p><l>sodra<s n="adv"/></l><r>zodra<s n="adv"/></r></p></e>
+	<e><p><l>hierso<s n="adv"/></l><r>hierzo<s n="adv"/></r></p></e>
+	<e><p><l>meerwaardig<s n="adv"/></l><r>meerwaardig<s n="adv"/></r></p></e>
+	<e><p><l>nietemin<s n="adv"/></l><r>niettemin<s n="adv"/></r></p></e>
+	<e><p><l>of<s n="adv"/></l><r>of<s n="adv"/></r></p></e>
+	<e><p><l>oestwaarts<s n="adv"/></l><r>oostwaarts<s n="adv"/></r></p></e>
+	<e><p><l>gisteroggend<s n="adv"/></l><r>gisterochtend<s n="adv"/></r></p></e>
+	<e><p><l>gistermiddag<s n="adv"/></l><r>gistermiddag<s n="adv"/></r></p></e>
+	<e><p><l>sowaar<s n="adv"/></l><r>zowaar<s n="adv"/></r></p></e>
+	<e><p><l>ágter<s n="adv"/></l><r>achter<s n="adv"/></r></p></e>
+	<e><p><l>vir<b/>die<b/>eerste<b/>slag<s n="adv"/></l><r>voor<b/>de<b/>eerste<b/>slag<s n="adv"/></r></p></e>
+	<e><p><l>baie<s n="adv"/></l><r>veel<s n="adv"/></r></p></e>
+	<e><p><l>egter<s n="adv"/></l><r>echter<s n="adv"/></r></p></e>
+	<e><p><l>baie<s n="preadv"/></l><r>veel<s n="preadv"/></r></p></e>
     <e><p><l>binne<s n="adv"/></l><r>binnen<s n="adv"/></r></p></e>
     <e><p><l>oor<b/>die<s n="adv"/></l><r>over<b/>de<s n="adv"/></r></p></e>
     <e><p><l>in<b/>die<b/>middel<s n="adv"/></l><r>in<b/>het<b/>midden<s n="adv"/></r></p></e>

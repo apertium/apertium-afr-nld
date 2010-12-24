@@ -1643,7 +1643,6 @@
     <e lm="destyds"><i>destyds</i><par n="miskien__adv"/></e>
     <e lm="dig"><i>dig</i><par n="miskien__adv"/></e>
     <e lm="ekologies"><i>ekologies</i><par n="miskien__adv"/></e>
-    <e lm="etnologies"><i>etnologies</i><par n="miskien__adv"/></e>
     <e lm="gedurende die somer"><i>gedurende<b/>die<b/>somer</i><par n="miskien__adv"/></e>
     <e lm="meerwaardig"><i>meerwaardig</i><par n="miskien__adv"/></e>
     <e lm="nietemin"><i>nietemin</i><par n="miskien__adv"/></e>
@@ -1876,7 +1875,7 @@
     <e lm="duin"><i>duin</i><par n="bier__n"/></e>
     <e lm="tegniek"><i>tegniek</i><par n="bier__n"/></e>
     <e lm="bloeitydperk"><i>bloeitydperk</i><par n="bier__n"/></e>
-    <!--<e lm="vervoer"><i>vervoer</i><par n="bier__n"/></e>--><!-- check -->
+    <e lm="vervoer"><i>vervoer</i><par n="bier__n"/></e>--><!-- check -->
     <e lm="teks"><i>teks</i><par n="bier__n"/></e>
     <e lm="kliniek"><i>kliniek</i><par n="bier__n"/></e>
     <e lm="praktisyn"><i>praktisyn</i><par n="bier__n"/></e>
@@ -3268,7 +3267,7 @@
     <e lm="aandoening"><i>aandoening</i><par n="artikel__n"/></e>
     <e lm="agtervoegsel"><i>agtervoegsel</i><par n="artikel__n"/></e>
     <e lm="ouderdom"><i>ouderdom</i><par n="ouderdom__n"/></e>
-    <e lm="blom"><i>bloom</i><par n="ouderdom__n"/></e>
+    <e lm="blom"><i>blom</i><par n="ouderdom__n"/></e>
     <e lm="stam"><i>stam</i><par n="ouderdom__n"/></e>
     <e lm="oogmerk"><i>oogmerk</i><par n="bier__n"/></e>
     <e lm="vliegveld"><i>vliegveld</i><par n="bier__n"/></e>
@@ -3400,7 +3399,7 @@
     <e lm="baai"><i>baai</i><par n="bier__n"/></e><!-- bay bay -->
     <e lm="baas"><i>ba</i><par n="ka/as__n"/></e><!-- boss chief -->
     <e lm="baba"><i>baba</i><par n="artikel__n"/></e><!-- baby -->
-    <!--<e lm="bad"><i>b</i><par n="da/ad__n"/></e>--><!-- bath bad -->
+    <e lm="bad"><i>ba</i><par n="da/ad__n"/></e><!-- bath bad -->
     <e lm="badkamer"><i>badkamer</i><par n="artikel__n"/></e><!-- bathroom -->
     <e lm="bakker"><i>bakker</i><par n="artikel__n"/></e><!-- baker -->
     <e lm="baksteen"><i>bakste</i><par n="antige/en__n"/></e><!-- brick -->
@@ -3539,7 +3538,7 @@
     <e lm="oorvloed"><i>oorvloed</i><par n="bier__n"/></e><!-- abundance -->
     <e lm="watergras"><i>watergras</i><par n="abakus__n"/></e><!-- sedge -->
     <e lm="gras"><i>gras</i><par n="abakus__n"/></e><!-- grass -->
-    <!--<e lm="laag"><i>laa</i><par n="vla/g__n"/></e>--><!-- layer -->
+    <e lm="laag"><i>laa</i><par n="vla/g__n"/></e><!-- layer -->
     <e lm="grond"><i>grond</i><par n="bier__n"/></e><!-- ground -->
     <e lm="toendra"><i>toendra</i><par n="artikel__n"/></e><!-- tundra -->
     <e lm="haas"><i>ha</i><par n="ka/as__n"/></e><!-- hare -->
@@ -3939,7 +3938,7 @@
     <e lm="seekoei"><i>seekoei</i><par n="bier__n"/></e>
     <e lm="huur"><i>hu</i><par n="avontu/ur__n"/></e>
     <e lm="gat"><i>gat</i><par n="bier__n"/></e>
-    <e lm="hoop"><i>hoop</i><par n="aanko/op__n"/></e>
+    <e lm="hoop"><i>ho</i><par n="aanko/op__n"/></e>
     <e lm="jagter"><i>jagter</i><par n="artikel__n"/></e>
     <e lm="strandwolf"><i>strandwolf</i><par n="bier__n"/></e>
     <e lm="perd"><i>perd</i><par n="bier__n"/></e>
@@ -4889,7 +4888,7 @@
     <e lm="bedrewenheid"><i>bedrewenhe</i><par n="besonderhe/id__n"/></e>
     <e lm="bedrywigheid"><i>bedrywighe</i><par n="besonderhe/id__n"/></e>
     <e lm="bekwaamheid"><i>bekwaamhe</i><par n="besonderhe/id__n"/></e>
-    <e lm="bereidwilligheid"><i>berewillighe</i><par n="besonderhe/id__n"/></e>
+    <e lm="bereidwilligheid"><i>bereidwillighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besienswaardigheid"><i>besienswaardighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besigheid"><i>besighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besonderheid"><i>besonderhe</i><par n="besonderhe/id__n"/></e>
@@ -4951,7 +4950,7 @@
     <e lm="vaardigheid"><i>vaardighe</i><par n="besonderhe/id__n"/></e>
     <e lm="valsheid"><i>valshe</i><par n="besonderhe/id__n"/></e>
     <e lm="verantwoordelikheid"><i>verantwoordelikhe</i><par n="besonderhe/id__n"/></e>
-    <e lm="verskeidenheid"><i>verskeenhe</i><par n="besonderhe/id__n"/></e>
+    <e lm="verskeidenheid"><i>verskeidenhe</i><par n="besonderhe/id__n"/></e>
     <e lm="vryheid"><i>vryhe</i><par n="besonderhe/id__n"/></e>
     <e lm="vyandelikheid"><i>vyandelikhe</i><par n="besonderhe/id__n"/></e>
     <e lm="vyandigheid"><i>vyandighe</i><par n="besonderhe/id__n"/></e>
