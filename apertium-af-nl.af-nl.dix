@@ -2874,7 +2874,6 @@
     <e><p><l>helderheid<s n="n"/></l><r>helderheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aantreklikheid<s n="n"/></l><r>aantrekkelijkheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>onafhanklikheidsoorlog<s n="n"/></l><r>onafhankelijkheidsoorlog<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>minderheidsgroep<s n="n"/></l><r>minderheidsgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>boosheid<s n="n"/></l><r>boosheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>afskeiding<s n="n"/></l><r>afscheiding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vyandigheid<s n="n"/></l><r>vijandigheid<s n="n"/><s n="f"/></r></p></e>
@@ -5879,7 +5878,7 @@
 	<e><p><l>voordra<s n="vblex"/><s n="sep"/></l><r>voordragen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>instuur<s n="vblex"/><s n="sep"/></l><r>insturen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aanstaan<s n="vblex"/><s n="sep"/></l><r>aanstaan<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>terugbring<s n="vblex"/><s n="sep"/></l><r><s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>terugbring<s n="vblex"/><s n="sep"/></l><r>terugbrengen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>deurgaan<s n="vblex"/><s n="sep"/></l><r>doorgaan<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>afkeer<s n="vblex"/><s n="sep"/></l><r>afkeren<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>voorsit<s n="vblex"/><s n="sep"/></l><r>voorzetten<s n="vblex"/><s n="sep"/></r></p></e>
@@ -6086,7 +6085,7 @@
 	<e><p><l>voorvolg<s n="vblex"/><s n="sep"/></l><r>volgen<s n="vblex"/></r></p></e>
 	<e><p><l>voordruk<s n="vblex"/><s n="sep"/></l><r>voordrukken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>voorbied<s n="vblex"/><s n="sep"/></l><r>aanbieden<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>uitlaai<s n="vblex"/><s n="sep"/></l><r>verzenden<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>uitlaai<s n="vblex"/><s n="sep"/></l><r>verzenden<s n="vblex"/></r></p></e>
 	<e><p><l>toehou<s n="vblex"/><s n="sep"/></l><r>toesluiten<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terugwyk<s n="vblex"/><s n="sep"/></l><r>terugwijken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terugvolg<s n="vblex"/><s n="sep"/></l><r>terugvolgen<s n="vblex"/><s n="sep"/></r></p></e>

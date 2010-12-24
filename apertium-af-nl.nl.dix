@@ -27925,7 +27925,7 @@
 	
 	<e lm="uitvaardigen"><i>uitvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="uitvaardigen"><p><l>vaardig</l><r>uitvaardig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
-    <e lm="uitvaardigen"><p><l>uitgevaardigd</l><r>afvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="uitvaardigen"><p><l>uitgevaardigd</l><r>uitvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
 		
     <e lm="aanbieden"><i>aanb</i><par n ="aanb/ieden__vblex_sep"/></e>
     <e lm="aanbieden"><p><l>b</l><r>aanb</r></p><par n="b/ieden#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
@@ -32084,6 +32084,8 @@
     <e lm="revolteren"><p><l>gerevolteerd</l><r>revolteren</r></p><par n="gesproken__vblex"/></e>
     <e lm="richten"><i>richt</i><par n="ent/en__vblex"/></e>
     <e lm="richten"><p><l>gericht</l><r>richten</r></p><par n="gesproken__vblex"/></e>
+	<e lm="onderrichten"><i>onderricht</i><par n="ent/en__vblex"/></e>
+    <e lm="onderrichten"><p><l>onderricht</l><r>onderrichten</r></p><par n="gesproken__vblex"/></e>
     <e lm="ridderen"><i>ridder</i><par n="jij/en__vblex"/></e>
     <e lm="ridderen"><p><l>geridderd</l><r>ridderen</r></p><par n="gesproken__vblex"/></e>
     <e lm="rijpen"><i>rijp</i><par n="fax/en__vblex"/></e>
@@ -33548,6 +33550,9 @@
     <e lm="aanbrengen"><i>aanbr</i><par n="aanbr/engen__vblex_sep"/></e>
     <e lm="aanbrengen"><p><l>br</l><r>aanbr</r></p><par n="br/engen#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbrengen"><p><l>aangebracht</l><r>aanbrengen</r></p><par n="gesproken__vblex_sep"/></e>
+	<e lm="terugbrengen"><i>terugbr</i><par n="aanbr/engen__vblex_sep"/></e>
+    <e lm="terugbrengen"><p><l>br</l><r>terugbr</r></p><par n="br/engen#_aan__vblex_sep"/><p><l><b/>terug</l><r></r></p></e>
+    <e lm="terugbrengen"><p><l>teruggebracht</l><r>terugbrengen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aandienen"><i>aandien</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="aandienen"><p><l>dien</l><r>aandien</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aandienen"><p><l>aangediend</l><r>aandienen</r></p><par n="gesproken__vblex_sep"/></e>
@@ -33560,6 +33565,9 @@
     <e lm="aangroeien"><i>aangroei</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="aangroeien"><p><l>groei</l><r>aangroei</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aangroeien"><p><l>aangegroeid</l><r>aangroeien</r></p><par n="gesproken__vblex_sep"/></e>
+	<e lm="uitbreiden"><i>uitbreid</i><par n="aanbeland/en__vblex_sep"/></e>
+    <e lm="uitbreiden"><p><l>breid</l><r>uitbreid</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
+    <e lm="uitbreiden"><p><l>uitgebreid</l><r>uitbreiden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanhalen"><i>aanha</i><par n="aanha/len__vblex_sep"/></e>
     <e lm="aanhalen"><p><l>ha</l><r>aanha</r></p><par n="ha/len#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanhalen"><p><l>aangehaald</l><r>aanhalen</r></p><par n="gesproken__vblex_sep"/></e>
