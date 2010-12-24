@@ -64,6 +64,7 @@ Tag mismatch between transfer and generation
     202 #aanwijzen\<vblex\>\<sep\>\<pp\>	^aanwijzen<vblex><sep><pp>$
     198 #aanhouden\<vblex\>\<sep\>\<pp\>	^aanhouden<vblex><sep><pp>$
     196 #overdragen\<vblex\>\<sep\>\<pp\>	^overdragen<vblex><sep><pp>$
+    190 #Mars\<n\>\<m\>\<sg\>	^Mars<n><m><sg>$
     185 #goud\<adj\>\<sint\>\<pred\>	^goud<adj><sint><pred>$
     184 #afnemen\<vblex\>\<sep\>\<pp\>	^afnemen<vblex><sep><pp>$
     175 #mineraal\<adj\>\<pred\>	^mineraal<adj><pred>$
@@ -818,6 +819,7 @@ Tag mismatch between transfer and generation
       8 #omgeven\<vblex\>\<sep\>\<inf\>	^omgeven<vblex><sep><inf>$
       8 #mystiek\<adj\>\<sint\>\<pred\>	^mystiek<adj><sint><pred>$
       8 #mystiek\<adj\>\<sint\>\<attr\>	^mystiek<adj><sint><attr>$
+      8 #mars\<n\>\<m\>\<sg\>	^mars<n><m><sg>$
       8 #makkelijk\<adj\>\<sint\>\<sup\>\<attr\>	^makkelijk<adj><sint><sup><attr>$
       8 #levensgevaarlijk\<adj\>\<sint\>\<pred\>	^levensgevaarlijk<adj><sint><pred>$
       8 #latent\<adj\>\<pred\>	^latent<adj><pred>$
@@ -1866,5 +1868,5 @@ Summary
 ===============================================================================
      0 /tmp/af-nl.multiform
      0 /tmp/af-nl.multibidix
-  1847 /tmp/af-nl.tagmismatch
-  1847 total
+  1849 /tmp/af-nl.tagmismatch
+  1849 total
