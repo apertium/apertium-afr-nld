@@ -27666,6 +27666,31 @@
     <e lm="uitbouwen"><i>uitbouw</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="uitbouwen"><p><l>bouw</l><r>uitbouw</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
     <e lm="uitbouwen"><p><l>uitgebouwd</l><r>uitbouwen</r></p><par n="gesproken__vblex_sep"/></e>
+	
+    <e lm="aankondigen"><i>aankondig</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="aankondigen"><p><l>kondig</l><r>aankondig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aankondigen"><p><l>aangekondigd</l><r>aankondigen</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="aanranden"><i>aanrand</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="aanranden"><p><l>rand</l><r>aanrand</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
+    <e lm="aanranden"><p><l>aangerand</l><r>aanranden</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="omranden"><i>omrand</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="omranden"><p><l>rand</l><r>omrand</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
+    <e lm="omranden"><p><l>omrand</l><r>omranden</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="afkondigen"><i>afkondig</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="afkondigen"><p><l>kondig</l><r>afkondig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afkondigen"><p><l>afgekondigd</l><r>afkondigen</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="afvaardigen"><i>afvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="afvaardigen"><p><l>vaardig</l><r>afvaardig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afkvaardigen"><p><l>afgevaardigd</l><r>afvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="uitvaardigen"><i>uitvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
+    <e lm="uitvaardigen"><p><l>vaardig</l><r>uitvaardig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
+    <e lm="uitvaardigen"><p><l>uitgevaardigd</l><r>afvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
+	
     <e lm="uitbreken"><i>uitbreken</i><par n ="aanbieden__vblex_sep"/></e>
     <e lm="uitbreken"><p><l>breken</l><r>uitbreken</r></p><par n="bieden#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
     <e lm="uitbreken"><p><l>uitgebroken</l><r>uitbreken</r></p><par n="gesproken__vblex_sep"/></e>
@@ -30776,7 +30801,9 @@
     <e lm="pachten"><p><l>gepacht</l><r>pachten</r></p><par n="gesproken__vblex"/></e>
     <e lm="pakken"><i>pak</i><par n="dek/ken__vblex"/></e>
     <e lm="pakken"><p><l>gepakt</l><r>pakken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="pandoeren"><i>pandoer</i><par n="jij/en__vblex"/></e>
+	<e lm="verpakken"><i>verpak</i><par n="dek/ken__vblex"/></e>
+    <e lm="verpakken"><p><l>verpakt</l><r>verpakken</r></p><par n="gesproken__vblex"/></e>
+	<e lm="pandoeren"><i>pandoer</i><par n="jij/en__vblex"/></e>
     <e lm="pandoeren"><p><l>gepandoerd</l><r>pandoeren</r></p><par n="gesproken__vblex"/></e>
     <e lm="pappen"><i>pap</i><par n="kap/pen__vblex"/></e>
     <e lm="pappen"><p><l>gepapt</l><r>pappen</r></p><par n="gesproken__vblex"/></e>
