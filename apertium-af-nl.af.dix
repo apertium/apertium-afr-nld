@@ -5419,6 +5419,7 @@
     <e lm="voedingswaarde"><i>voedingswaarde</i><par n="artikel__n"/></e>
     <e lm="voorwaarde"><i>voorwaarde</i><par n="artikel__n"/></e>
     <e lm="waarde"><i>waarde</i><par n="artikel__n"/></e>
+    <e lm="towenaar"><i>towenaar</i><par n="artikel__n"/></e>
 
 
     <e lm="kommissaris"><i>kommissaris</i><par n="abakus__n"/></e>
@@ -5764,7 +5765,6 @@
     <e lm="kompleks"><i>kompleks</i><par n="dadelik__adj"/></e>
 
     <e lm="toegewyd"><i>toegewyd</i><par n="dadelik__adj"/></e>
-    <e lm="towenaar"><i>towena</i><par n="sigba/ar__adj"/></e>
     <e lm="vatbaar"><i>vatba</i><par n="sigba/ar__adj"/></e>
     <e lm="versoenbaar"><i>versoenba</i><par n="sigba/ar__adj"/></e>
     <e lm="weekliks"><i>weekliks</i><par n="dadelik__adj"/></e>
@@ -6417,7 +6417,6 @@
     <e lm="geïoniseer"><i>geïoniseer</i><par n="vermoor__adj"/></e>
     <e lm="geïsoleer"><i>geïsoleer</i><par n="vermoor__adj"/></e>
     <e lm="gekalibreer"><i>gekalibreer</i><par n="vermoor__adj"/></e>
-    <e lm="gekanselleer"><i>gekanselleer</i><par n="vermoor__adj"/></e>
     <e lm="gekarakteriseer"><i>gekarakteriseer</i><par n="vermoor__adj"/></e>
     <e lm="geklassifiseer"><i>geklassifiseer</i><par n="vermoor__adj"/></e>
     <e lm="gekoloniseer"><i>gekoloniseer</i><par n="vermoor__adj"/></e>
@@ -6449,7 +6448,6 @@
     <e lm="gemarkeer"><i>gemarkeer</i><par n="vermoor__adj"/></e>
     <e lm="gematrikuleer"><i>gematrikuleer</i><par n="vermoor__adj"/></e>
     <e lm="gemeubileer"><i>gemeubileer</i><par n="vermoor__adj"/></e>
-    <e lm="gemigreer"><i>gemigreer</i><par n="vermoor__adj"/></e>
     <e lm="gemobiliseer"><i>gemobiliseer</i><par n="vermoor__adj"/></e>
     <e lm="gemodelleer"><i>gemodelleer</i><par n="vermoor__adj"/></e>
     <e lm="gemoderniseer"><i>gemoderniseer</i><par n="vermoor__adj"/></e>
@@ -6500,9 +6498,7 @@
     <e lm="gespesifiseer"><i>gespesifiseer</i><par n="vermoor__adj"/></e>
     <e lm="gestabiliseer"><i>gestabiliseer</i><par n="vermoor__adj"/></e>
     <e lm="gestandaardiseer"><i>gestandaardiseer</i><par n="vermoor__adj"/></e>
-    <e lm="gestasioneer"><i>gestasioneer</i><par n="vermoor__adj"/></e>
     <e lm="gestimuleer"><i>gestimuleer</i><par n="vermoor__adj"/></e>
-    <e lm="gestudeer"><i>gestudeer</i><par n="vermoor__adj"/></e>
     <e lm="gesubsidieer"><i>gesubsidieer</i><par n="vermoor__adj"/></e>
     <e lm="gevarieer"><i>gevarieer</i><par n="vermoor__adj"/></e>
     <e lm="geventileer"><i>geventileer</i><par n="vermoor__adj"/></e>
@@ -6739,7 +6735,7 @@
     <e lm="skraal"><i>skra</i><par n="skra/al__adj"/></e><!-- slim -->
     <e lm="arm"><i>arm</i><par n="arm__adj"/></e><!-- poor -->
 
-    <e lm="vloot"><i>vlo</i><par n="oorbegro/ot__adj"/></e><!-- naval -->
+    <!--<e lm="vloot"><i>vlo</i><par n="oorbegro/ot__adj"/></e>--><!-- naval -->
     <e lm="kwaad"><i>kwaa</i><par n="kwaa/d__adj"/></e><!-- angry -->
     <e lm="vroeg"><i>vroe</i><par n="vroe/g__adj"/></e><!-- early -->
     <e lm="skoon"><i>sko</i><par n="sko/on__adj"/></e><!-- beautiful -->

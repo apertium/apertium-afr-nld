@@ -13,100 +13,54 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-   2545 #bevolking\<n\>\<mf\>\<sg\>	^bevolking<n><mf><sg>$
    1521 #mogelijk\<adj\>\<sint\>\<pred\>	^mogelijk<adj><sint><pred>$
-   1201 #rivier\<n\>\<mf\>\<sg\>	^rivier<n><mf><sg>$
-    722 #vinnig\<adj\>\<sint\>\<pred\>	^vinnig<adj><sint><pred>$
     627 #modern\<adj\>\<pred\>	^modern<adj><pred>$
     612 #modern\<adj\>\<attr\>	^modern<adj><attr>$
     548 #geplaatst\<adj\>\<sint\>\<pred\>	^geplaatst<adj><sint><pred>$
-    540 #hand\<n\>\<mf\>\<sg\>	^hand<n><mf><sg>$
-    513 #min\<adj\>\<sint\>\<comp\>\<pred\>	^min<adj><sint><comp><pred>$
     490 #administratief\<adj\>\<attr\>	^administratief<adj><attr>$
-    475 #aantreffen\<vblex\>\<sep\>\<pp\>	^aantreffen<vblex><sep><pp>$
-    462 #aanbieden\<vblex\>\<sep\>\<pp\>	^aanbieden<vblex><sep><pp>$
-    433 #aannemen\<vblex\>\<sep\>\<pp\>	^aannemen<vblex><sep><pp>$
-    427 #uitbreiden\<vblex\>\<sep\>\<pp\>	^uitbreiden<vblex><sep><pp>$
-    413 #overnemen\<vblex\>\<sep\>\<pp\>	^overnemen<vblex><sep><pp>$
     391 #voormalig\<adj\>\<pred\>	^voormalig<adj><pred>$
     350 #makkelijk\<adj\>\<sint\>\<pred\>	^makkelijk<adj><sint><pred>$
     344 #verantwoordelijk\<adj\>\<sint\>\<pred\>	^verantwoordelijk<adj><sint><pred>$
-    339 #inleven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inleven<vblex><sep><fm><pres><p3><sg>$
     336 #specifiek\<adj\>\<sint\>\<attr\>	^specifiek<adj><sint><attr>$
     335 #onafhankelijk\<adj\>\<sint\>\<attr\>	^onafhankelijk<adj><sint><attr>$
     327 #moeilijk\<adj\>\<sint\>\<pred\>	^moeilijk<adj><sint><pred>$
     315 #verwant\<adj\>\<pred\>	^verwant<adj><pred>$
-    313 #inkeren\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inkeren<vblex><sep><fm><pres><p3><sg>$
-    311 #opnemen\<vblex\>\<sep\>\<pp\>	^opnemen<vblex><sep><pp>$
     304 #wereldwijd\<adj\>\<sint\>\<pred\>	^wereldwijd<adj><sint><pred>$
-    303 #optreden\<vblex\>\<sep\>\<pp\>	^optreden<vblex><sep><pp>$
     292 #getrouwd\<adj\>\<sint\>\<pred\>	^getrouwd<adj><sint><pred>$
-    279 #omvattend\<adj\>\<sint\>\<pred\>	^omvattend<adj><sint><pred>$
     272 #voormalig\<adj\>\<attr\>	^voormalig<adj><attr>$
     266 #geografisch\<adj\>\<sint\>\<attr\>	^geografisch<adj><sint><attr>$
-    261 #toenemen\<vblex\>\<sep\>\<pp\>	^toenemen<vblex><sep><pp>$
-    258 #innemen\<vblex\>\<sep\>\<pp\>	^innemen<vblex><sep><pp>$
     249 #ernstig\<adj\>\<sint\>\<pred\>	^ernstig<adj><sint><pred>$
     246 #mogelijk\<adj\>\<sint\>\<attr\>	^mogelijk<adj><sint><attr>$
     240 #kenmerkend\<adj\>\<pred\>	^kenmerkend<adj><pred>$
-    240 #aanvallen\<vblex\>\<sep\>\<pp\>	^aanvallen<vblex><sep><pp>$
     233 #Nedersaksisch\<adj\>\<sint\>\<pred\>	^Nedersaksisch<adj><sint><pred>$
-    233 #aantekenen\<vblex\>\<sep\>\<pp\>	^aantekenen<vblex><sep><pp>$
-    227 #uitgeven\<vblex\>\<sep\>\<pp\>	^uitgeven<vblex><sep><pp>$
     227 #Nazi\<adj\>\<sint\>\<pred\>	^Nazi<adj><sint><pred>$
     223 #electrisch\<adj\>\<sint\>\<pred\>	^electrisch<adj><sint><pred>$
     222 #afhankelijk\<adj\>\<sint\>\<pred\>	^afhankelijk<adj><sint><pred>$
-    219 #weergeven\<vblex\>\<sep\>\<inf\>	^weergeven<vblex><sep><inf>$
-    218 #weergeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^weergeven<vblex><sep><fm><pres><p3><sg>$
     218 #electrisch\<adj\>\<sint\>\<attr\>	^electrisch<adj><sint><attr>$
     211 #klassiek\<adj\>\<attr\>	^klassiek<adj><attr>$
-    203 #familie\<adj\>\<sint\>\<pred\>	^familie<adj><sint><pred>$
-    202 #aanwijzen\<vblex\>\<sep\>\<pp\>	^aanwijzen<vblex><sep><pp>$
-    198 #aanhouden\<vblex\>\<sep\>\<pp\>	^aanhouden<vblex><sep><pp>$
-    196 #overdragen\<vblex\>\<sep\>\<pp\>	^overdragen<vblex><sep><pp>$
-    190 #Mars\<n\>\<m\>\<sg\>	^Mars<n><m><sg>$
     185 #goud\<adj\>\<sint\>\<pred\>	^goud<adj><sint><pred>$
-    184 #afnemen\<vblex\>\<sep\>\<pp\>	^afnemen<vblex><sep><pp>$
-    175 #mineraal\<adj\>\<pred\>	^mineraal<adj><pred>$
     174 #landelijk\<adj\>\<sint\>\<attr\>	^landelijk<adj><sint><attr>$
-    166 #tipisch\<adj\>\<sint\>\<pred\>	^tipisch<adj><sint><pred>$
-    162 #vinnig\<adj\>\<sint\>\<attr\>	^vinnig<adj><sint><attr>$
     162 #uniek\<adj\>\<pred\>	^uniek<adj><pred>$
     160 #uitgestrekt\<adj\>\<sint\>\<pred\>	^uitgestrekt<adj><sint><pred>$
-    156 #toeschrijven\<vblex\>\<sep\>\<pp\>	^toeschrijven<vblex><sep><pp>$
-    156 #min\<adj\>\<sint\>\<comp\>\<attr\>	^min<adj><sint><comp><attr>$
-    155 #rivier\<n\>\<mf\>\<pl\>	^rivier<n><mf><pl>$
     154 #klassiek\<adj\>\<pred\>	^klassiek<adj><pred>$
     153 #permanent\<adj\>\<pred\>	^permanent<adj><pred>$
-    153 #aankondigen\<vblex\>\<sep\>\<pp\>	^aankondigen<vblex><sep><pp>$
     152 #onafhankelijk\<adj\>\<sint\>\<pred\>	^onafhankelijk<adj><sint><pred>$
     151 #permanent\<adj\>\<attr\>	^permanent<adj><attr>$
     151 #onbekend\<adj\>\<pred\>	^onbekend<adj><pred>$
     150 #onmiddellijk\<adj\>\<sint\>\<pred\>	^onmiddellijk<adj><sint><pred>$
     150 #goud\<adj\>\<sint\>\<attr\>	^goud<adj><sint><attr>$
-    148 #uitbreken\<vblex\>\<sep\>\<inf\>	^uitbreken<vblex><sep><inf>$
     146 #basisch\<adj\>\<sint\>\<attr\>	^basisch<adj><sint><attr>$
     143 #specifiek\<adj\>\<sint\>\<pred\>	^specifiek<adj><sint><pred>$
     143 #administratief\<adj\>\<pred\>	^administratief<adj><pred>$
-    142 #onderdrukken\<vblex\>\<sep\>\<inf\>	^onderdrukken<vblex><sep><inf>$
-    140 #optreden\<vblex\>\<sep\>\<inf\>	^optreden<vblex><sep><inf>$
     140 #leidend\<adj\>\<sint\>\<attr\>	^leidend<adj><sint><attr>$
     139 #mannelijk\<adj\>\<sint\>\<pred\>	^mannelijk<adj><sint><pred>$
     138 #ernstig\<adj\>\<sint\>\<attr\>	^ernstig<adj><sint><attr>$
-    137 #eindelijk\<adj\>\<sint\>\<pred\>	^eindelijk<adj><sint><pred>$
     133 #finaal\<adj\>\<pred\>	^finaal<adj><pred>$
     133 #afzonderlijk\<adj\>\<sint\>\<attr\>	^afzonderlijk<adj><sint><attr>$
-    133 #aanmoedigen\<vblex\>\<sep\>\<pp\>	^aanmoedigen<vblex><sep><pp>$
-    132 #tipisch\<adj\>\<sint\>\<attr\>	^tipisch<adj><sint><attr>$
-    132 #onderrichten\<vblex\>\<inf\>	^onderrichten<vblex><inf>$
     132 #basisch\<adj\>\<sint\>\<pred\>	^basisch<adj><sint><pred>$
-    131 #stadig\<adj\>\<sint\>\<pred\>	^stadig<adj><sint><pred>$
-    127 #uitbreken\<vblex\>\<sep\>\<pp\>	^uitbreken<vblex><sep><pp>$
     127 #plotseling\<adj\>\<sint\>\<pred\>	^plotseling<adj><sint><pred>$
     124 #normaal\<adj\>\<pred\>	^normaal<adj><pred>$
-    124 #doeltreffend\<adj\>\<sint\>\<pred\>	^doeltreffend<adj><sint><pred>$
     124 #architectonisch\<adj\>\<sint\>\<attr\>	^architectonisch<adj><sint><attr>$
-    120 #toestaan\<vblex\>\<sep\>\<pp\>	^toestaan<vblex><sep><pp>$
     120 #omliggend\<adj\>\<attr\>	^omliggend<adj><attr>$
     118 #uitsluitend\<adj\>\<sint\>\<pred\>	^uitsluitend<adj><sint><pred>$
     118 #bewust\<adj\>\<sint\>\<pred\>	^bewust<adj><sint><pred>$
@@ -117,343 +71,194 @@ Tag mismatch between transfer and generation
     112 #Apostelijk\<adj\>\<sint\>\<attr\>	^Apostelijk<adj><sint><attr>$
     111 #publiek\<adj\>\<pred\>	^publiek<adj><pred>$
     111 #publiek\<adj\>\<attr\>	^publiek<adj><attr>$
-    110 #afstaan\<vblex\>\<sep\>\<pp\>	^afstaan<vblex><sep><pp>$
-    108 #veilig\<adj\>\<sint\>\<pred\>	^veilig<adj><sint><pred>$
     108 #Mediterraans\<adj\>\<sint\>\<attr\>	^Mediterraans<adj><sint><attr>$
     108 #makkelijk\<adj\>\<sint\>\<comp\>\<pred\>	^makkelijk<adj><sint><comp><pred>$
     107 #Goud\<adj\>\<sint\>\<pred\>	^Goud<adj><sint><pred>$
     105 #onmogelijk\<adj\>\<sint\>\<pred\>	^onmogelijk<adj><sint><pred>$
-    105 #omvattend\<adj\>\<sint\>\<attr\>	^omvattend<adj><sint><attr>$
     103 #uitgestrekt\<adj\>\<sint\>\<attr\>	^uitgestrekt<adj><sint><attr>$
     103 #professioneel\<adj\>\<pred\>	^professioneel<adj><pred>$
     102 #kenmerkend\<adj\>\<attr\>	^kenmerkend<adj><attr>$
     102 #finaal\<adj\>\<attr\>	^finaal<adj><attr>$
-     99 #vinnig\<adj\>\<sint\>\<comp\>\<pred\>	^vinnig<adj><sint><comp><pred>$
      99 #periodiek\<adj\>\<attr\>	^periodiek<adj><attr>$
      99 #Modern\<adj\>\<pred\>	^Modern<adj><pred>$
-     98 #wettig\<adj\>\<sint\>\<pred\>	^wettig<adj><sint><pred>$
      98 #gevaarlijk\<adj\>\<sint\>\<pred\>	^gevaarlijk<adj><sint><pred>$
      96 #verwant\<adj\>\<attr\>	^verwant<adj><attr>$
      96 #levend\<adj\>\<sint\>\<attr\>	^levend<adj><sint><attr>$
-     95 #inwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inwerken<vblex><sep><fm><pres><p3><sg>$
      94 #werkelijk\<adj\>\<sint\>\<attr\>	^werkelijk<adj><sint><attr>$
      94 #uniek\<adj\>\<attr\>	^uniek<adj><attr>$
      93 #Goud\<adj\>\<sint\>\<attr\>	^Goud<adj><sint><attr>$
      92 #wereldwijd\<adj\>\<sint\>\<attr\>	^wereldwijd<adj><sint><attr>$
-     91 #aannemen\<vblex\>\<sep\>\<inf\>	^aannemen<vblex><sep><inf>$
-     90 #uitvinden\<vblex\>\<sep\>\<pp\>	^uitvinden<vblex><sep><pp>$
      90 #toeganglijk\<adj\>\<sint\>\<pred\>	^toeganglijk<adj><sint><pred>$
      90 #digitaal\<adj\>\<pred\>	^digitaal<adj><pred>$
-     89 #ondervinden\<vblex\>\<sep\>\<inf\>	^ondervinden<vblex><sep><inf>$
-     89 #afbreken\<vblex\>\<sep\>\<pp\>	^afbreken<vblex><sep><pp>$
      89 #aanzienlijk\<adj\>\<sint\>\<attr\>	^aanzienlijk<adj><sint><attr>$
-     87 #uitbouwen\<vblex\>\<sep\>\<pp\>	^uitbouwen<vblex><sep><pp>$
      87 #tertair\<adj\>\<sint\>\<attr\>	^tertair<adj><sint><attr>$
-     87 #aanvallen\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^aanvallen<vblex><sep><fs><pres><p3><sg>$
-     86 #welvarend\<adj\>\<sint\>\<pred\>	^welvarend<adj><sint><pred>$
      86 #digitaal\<adj\>\<attr\>	^digitaal<adj><attr>$
-     84 #min\<adj\>\<sint\>\<attr\>	^min<adj><sint><attr>$
      84 #continentaal\<adj\>\<sint\>\<attr\>	^continentaal<adj><sint><attr>$
      82 #Middel\<adj\>\<pred\>	^Middel<adj><pred>$
      82 #levend\<adj\>\<sint\>\<pred\>	^levend<adj><sint><pred>$
-     81 #uitsterven\<vblex\>\<sep\>\<pp\>	^uitsterven<vblex><sep><pp>$
      80 #mannelijk\<adj\>\<sint\>\<attr\>	^mannelijk<adj><sint><attr>$
-     80 #initiatief\<adj\>\<sint\>\<pred\>	^initiatief<adj><sint><pred>$
      79 #Evangelisch\<adj\>\<sint\>\<pred\>	^Evangelisch<adj><sint><pred>$
-     79 #aangeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aangeven<vblex><sep><fm><pres><p3><sg>$
-     79 #aanbieden\<vblex\>\<sep\>\<inf\>	^aanbieden<vblex><sep><inf>$
      78 #Sovjets\<adj\>\<sint\>\<attr\>	^Sovjets<adj><sint><attr>$
-     77 #overnemen\<vblex\>\<sep\>\<inf\>	^overnemen<vblex><sep><inf>$
-     76 #uitbreiden\<vblex\>\<sep\>\<inf\>	^uitbreiden<vblex><sep><inf>$
      76 #middel\<adj\>\<pred\>	^middel<adj><pred>$
      75 #wiskundig\<adj\>\<attr\>	^wiskundig<adj><attr>$
-     75 #toenemen\<vblex\>\<sep\>\<inf\>	^toenemen<vblex><sep><inf>$
-     75 #meganisch\<adj\>\<sint\>\<attr\>	^meganisch<adj><sint><attr>$
-     74 #overgeven\<vblex\>\<sep\>\<pp\>	^overgeven<vblex><sep><pp>$
-     73 #inschrijven\<vblex\>\<sep\>\<pp\>	^inschrijven<vblex><sep><pp>$
+     75 #mechanisch\<adj\>\<sint\>\<attr\>	^mechanisch<adj><sint><attr>$
      73 #individueel\<adj\>\<attr\>	^individueel<adj><attr>$
      73 #dagelijks\<adj\>\<sint\>\<attr\>	^dagelijks<adj><sint><attr>$
-     73 #aflopen\<vblex\>\<sep\>\<inf\>	^aflopen<vblex><sep><inf>$
-     73 #aandringen\<vblex\>\<sep\>\<pp\>	^aandringen<vblex><sep><pp>$
-     71 #opdrukken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opdrukken<vblex><sep><fm><pres><p3><sg>$
      71 #normaal\<adj\>\<attr\>	^normaal<adj><attr>$
      71 #aangrenzend\<adj\>\<sint\>\<attr\>	^aangrenzend<adj><sint><attr>$
      70 #levendig\<adj\>\<sint\>\<pred\>	^levendig<adj><sint><pred>$
      70 #geldig\<adj\>\<sint\>\<pred\>	^geldig<adj><sint><pred>$
      70 #aanvankelijk\<adj\>\<sint\>\<attr\>	^aanvankelijk<adj><sint><attr>$
      69 #verticaal\<adj\>\<sint\>\<pred\>	^verticaal<adj><sint><pred>$
-     69 #aanzoeken\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^aanzoeken<vblex><sep><fs><pres><p3><sg>$
      68 #geografisch\<adj\>\<sint\>\<pred\>	^geografisch<adj><sint><pred>$
-     68 #afsnijden\<vblex\>\<sep\>\<pp\>	^afsnijden<vblex><sep><pp>$
-     67 #terugtrekken\<vblex\>\<sep\>\<pp\>	^terugtrekken<vblex><sep><pp>$
      67 #Sovjets\<adj\>\<sint\>\<pred\>	^Sovjets<adj><sint><pred>$
      67 #moeilijk\<adj\>\<sint\>\<attr\>	^moeilijk<adj><sint><attr>$
      67 #buite-echtelijk\<adj\>\<sint\>\<attr\>	^buite-echtelijk<adj><sint><attr>$
      66 #onsuccesvol\<adj\>\<sint\>\<pred\>	^onsuccesvol<adj><sint><pred>$
      66 #onbekend\<adj\>\<attr\>	^onbekend<adj><attr>$
      66 #krachtig\<adj\>\<sint\>\<pred\>	^krachtig<adj><sint><pred>$
-     65 #uitroepen\<vblex\>\<sep\>\<pp\>	^uitroepen<vblex><sep><pp>$
      65 #professioneel\<adj\>\<attr\>	^professioneel<adj><attr>$
-     65 #bevolking\<n\>\<mf\>\<pl\>	^bevolking<n><mf><pl>$
-     65 #aangaan\<vblex\>\<sep\>\<pp\>	^aangaan<vblex><sep><pp>$
-     64 #welvarend\<adj\>\<sint\>\<attr\>	^welvarend<adj><sint><attr>$
-     64 #onderbreken\<vblex\>\<sep\>\<inf\>	^onderbreken<vblex><sep><inf>$
      64 #horizontaal\<adj\>\<sint\>\<pred\>	^horizontaal<adj><sint><pred>$
      64 #aanzienlijk\<adj\>\<sint\>\<pred\>	^aanzienlijk<adj><sint><pred>$
      63 #giftig\<adj\>\<sint\>\<pred\>	^giftig<adj><sint><pred>$
-     63 #aannemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aannemen<vblex><sep><fm><pres><p3><sg>$
-     62 #wettig\<adj\>\<sint\>\<attr\>	^wettig<adj><sint><attr>$
      62 #werkelijk\<adj\>\<sint\>\<pred\>	^werkelijk<adj><sint><pred>$
      62 #nodig\<adj\>\<sint\>\<attr\>	^nodig<adj><sint><attr>$
      62 #invloedrijk\<adj\>\<sint\>\<pred\>	^invloedrijk<adj><sint><pred>$
      62 #invloedrijk\<adj\>\<sint\>\<attr\>	^invloedrijk<adj><sint><attr>$
-     62 #hand\<n\>\<mf\>\<pl\>	^hand<n><mf><pl>$
      61 #optisch\<adj\>\<sint\>\<pred\>	^optisch<adj><sint><pred>$
      61 #moedig\<adj\>\<pred\>	^moedig<adj><pred>$
      60 #grondwettelijk\<adj\>\<sint\>\<attr\>	^grondwettelijk<adj><sint><attr>$
-     60 #groepering\<n\>\<mf\>\<pl\>	^groepering<n><mf><pl>$
      59 #verhoogd\<adj\>\<sint\>\<pred\>	^verhoogd<adj><sint><pred>$
      59 #nodig\<adj\>\<sint\>\<pred\>	^nodig<adj><sint><pred>$
-     59 #instaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^instaan<vblex><sep><fm><pres><p3><sg>$
-     59 #inhouden\<vblex\>\<sep\>\<inf\>	^inhouden<vblex><sep><inf>$
      58 #politiek\<adj\>\<sint\>\<attr\>	^politiek<adj><sint><attr>$
-     58 #meganisch\<adj\>\<sint\>\<pred\>	^meganisch<adj><sint><pred>$
-     58 #innemen\<vblex\>\<sep\>\<inf\>	^innemen<vblex><sep><inf>$
+     58 #mechanisch\<adj\>\<sint\>\<pred\>	^mechanisch<adj><sint><pred>$
      57 #tegenovergesteld\<adj\>\<sint\>\<attr\>	^tegenovergesteld<adj><sint><attr>$
      57 #perspectief\<adj\>\<sint\>\<pred\>	^perspectief<adj><sint><pred>$
-     56 #ophouden\<vblex\>\<sep\>\<inf\>	^ophouden<vblex><sep><inf>$
      56 #horizontaal\<adj\>\<sint\>\<attr\>	^horizontaal<adj><sint><attr>$
-     56 #aanhouden\<vblex\>\<sep\>\<inf\>	^aanhouden<vblex><sep><inf>$
      55 #stelselmatig\<adj\>\<pred\>	^stelselmatig<adj><pred>$
      55 #respectievelijk\<adj\>\<sint\>\<pred\>	^respectievelijk<adj><sint><pred>$
-     55 #opdoen\<vblex\>\<sep\>\<pp\>	^opdoen<vblex><sep><pp>$
      55 #absoluut\<adj\>\<attr\>	^absoluut<adj><attr>$
-     55 #aangeven\<vblex\>\<sep\>\<pp\>	^aangeven<vblex><sep><pp>$
-     54 #wegbreken\<vblex\>\<sep\>\<pp\>	^wegbreken<vblex><sep><pp>$
      54 #middel\<adj\>\<attr\>	^middel<adj><attr>$
-     54 #inlaten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inlaten<vblex><sep><fm><pres><p3><sg>$
      54 #absoluut\<adj\>\<pred\>	^absoluut<adj><pred>$
      54 #aanvankelijk\<adj\>\<sint\>\<pred\>	^aanvankelijk<adj><sint><pred>$
-     53 #overdragen\<vblex\>\<sep\>\<inf\>	^overdragen<vblex><sep><inf>$
-     53 #ongewild\<adj\>\<sint\>\<pred\>	^ongewild<adj><sint><pred>$
-     53 #aftreden\<vblex\>\<sep\>\<pp\>	^aftreden<vblex><sep><pp>$
      52 #wiskundig\<adj\>\<pred\>	^wiskundig<adj><pred>$
-     52 #uitlopen\<vblex\>\<sep\>\<pp\>	^uitlopen<vblex><sep><pp>$
      52 #politiek\<adj\>\<sint\>\<pred\>	^politiek<adj><sint><pred>$
      52 #openlijk\<adj\>\<sint\>\<pred\>	^openlijk<adj><sint><pred>$
      52 #leidend\<adj\>\<sint\>\<pred\>	^leidend<adj><sint><pred>$
-     52 #afnemen\<vblex\>\<sep\>\<inf\>	^afnemen<vblex><sep><inf>$
      51 #veranderlijk\<adj\>\<sint\>\<pred\>	^veranderlijk<adj><sint><pred>$
-     51 #oproepen\<vblex\>\<sep\>\<pp\>	^oproepen<vblex><sep><pp>$
      51 #Modern\<adj\>\<attr\>	^Modern<adj><attr>$
-     51 #invoegen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^invoegen<vblex><sep><fm><pres><p3><sg>$
      51 #individueel\<adj\>\<pred\>	^individueel<adj><pred>$
      51 #architectonisch\<adj\>\<sint\>\<pred\>	^architectonisch<adj><sint><pred>$
      50 #winstgevend\<adj\>\<sint\>\<pred\>	^winstgevend<adj><sint><pred>$
      50 #ogenschijnlijk\<adj\>\<sint\>\<pred\>	^ogenschijnlijk<adj><sint><pred>$
      50 #Kenmerkend\<adj\>\<pred\>	^Kenmerkend<adj><pred>$
-     49 #voorleggen\<vblex\>\<sep\>\<pp\>	^voorleggen<vblex><sep><pp>$
      49 #onmiddellijk\<adj\>\<sint\>\<attr\>	^onmiddellijk<adj><sint><attr>$
      49 #omliggend\<adj\>\<pred\>	^omliggend<adj><pred>$
      49 #landelijk\<adj\>\<sint\>\<pred\>	^landelijk<adj><sint><pred>$
      48 #sensitief\<adj\>\<pred\>	^sensitief<adj><pred>$
      48 #afzonderlijk\<adj\>\<sint\>\<pred\>	^afzonderlijk<adj><sint><pred>$
-     47 #veilig\<adj\>\<sint\>\<attr\>	^veilig<adj><sint><attr>$
-     47 #uitvaardigen\<vblex\>\<sep\>\<pp\>	^uitvaardigen<vblex><sep><pp>$
-     47 #toevoeren\<vblex\>\<sep\>\<inf\>	^toevoeren<vblex><sep><inf>$
-     47 #oproepen\<vblex\>\<sep\>\<inf\>	^oproepen<vblex><sep><inf>$
      47 #onduidelijk\<adj\>\<sint\>\<pred\>	^onduidelijk<adj><sint><pred>$
-     47 #omtrekken\<vblex\>\<sep\>\<inf\>	^omtrekken<vblex><sep><inf>$
      47 #continentaal\<adj\>\<sint\>\<pred\>	^continentaal<adj><sint><pred>$
-     46 #overgaan\<vblex\>\<sep\>\<pp\>	^overgaan<vblex><sep><pp>$
-     46 #overblijven\<vblex\>\<sep\>\<pp\>	^overblijven<vblex><sep><pp>$
      46 #analytisch\<adj\>\<sint\>\<attr\>	^analytisch<adj><sint><attr>$
-     46 #afkondigen\<vblex\>\<sep\>\<pp\>	^afkondigen<vblex><sep><pp>$
-     46 #afbeelding\<n\>\<mf\>\<sg\>	^afbeelding<n><mf><sg>$
-     45 #vinnig\<adj\>\<sint\>\<sup\>\<pred\>	^vinnig<adj><sint><sup><pred>$
      45 #verticaal\<adj\>\<sint\>\<attr\>	^verticaal<adj><sint><attr>$
+     45 #dominant\<adj\>\<attr\>	^dominant<adj><attr>$
      45 #alfabetisch\<adj\>\<sint\>\<pred\>	^alfabetisch<adj><sint><pred>$
      45 #aangrenzend\<adj\>\<sint\>\<pred\>	^aangrenzend<adj><sint><pred>$
-     44 #voorstaan\<vblex\>\<sep\>\<pp\>	^voorstaan<vblex><sep><pp>$
      44 #technologisch\<adj\>\<sint\>\<pred\>	^technologisch<adj><sint><pred>$
-     44 #senior\<adj\>\<attr\>	^senior<adj><attr>$
      44 #Progressief\<adj\>\<pred\>	^Progressief<adj><pred>$
-     44 #invallen\<vblex\>\<sep\>\<pp\>	^invallen<vblex><sep><pp>$
-     44 #dominant\<adj\>\<attr\>	^dominant<adj><attr>$
-     43 #senior\<adj\>\<pred\>	^senior<adj><pred>$
-     43 #min\<adj\>\<sint\>\<pred\>	^min<adj><sint><pred>$
-     43 #dominant\<adj\>\<pred\>	^dominant<adj><pred>$
-     42 #uitbouwen\<vblex\>\<sep\>\<inf\>	^uitbouwen<vblex><sep><inf>$
-     42 #opdragen\<vblex\>\<sep\>\<pp\>	^opdragen<vblex><sep><pp>$
-     42 #inhouden\<vblex\>\<sep\>\<pp\>	^inhouden<vblex><sep><pp>$
      42 #gemakkelijk\<adj\>\<sint\>\<pred\>	^gemakkelijk<adj><sint><pred>$
-     42 #doeltreffend\<adj\>\<sint\>\<attr\>	^doeltreffend<adj><sint><attr>$
+     42 #dominant\<adj\>\<pred\>	^dominant<adj><pred>$
      42 #bruin\<adj\>\<pred\>	^bruin<adj><pred>$
      42 #beslissend\<adj\>\<sint\>\<attr\>	^beslissend<adj><sint><attr>$
-     42 #afstaan\<vblex\>\<sep\>\<inf\>	^afstaan<vblex><sep><inf>$
-     41 #uitkijken\<vblex\>\<sep\>\<inf\>	^uitkijken<vblex><sep><inf>$
      41 #perfect\<adj\>\<sint\>\<pred\>	^perfect<adj><sint><pred>$
      41 #bruin\<adj\>\<attr\>	^bruin<adj><attr>$
      41 #betekenisvol\<adj\>\<attr\>	^betekenisvol<adj><attr>$
-     41 #aanspreken\<vblex\>\<sep\>\<pp\>	^aanspreken<vblex><sep><pp>$
      40 #stevig\<adj\>\<sint\>\<pred\>	^stevig<adj><sint><pred>$
-     40 #omvatten\<vblex\>\<sep\>\<inf\>	^omvatten<vblex><sep><inf>$
      40 #moeilijk\<adj\>\<sint\>\<comp\>\<pred\>	^moeilijk<adj><sint><comp><pred>$
      40 #informeel\<adj\>\<attr\>	^informeel<adj><attr>$
-     40 #aandrijven\<vblex\>\<sep\>\<pp\>	^aandrijven<vblex><sep><pp>$
      39 #wekelijks\<adj\>\<sint\>\<pred\>	^wekelijks<adj><sint><pred>$
-     39 #toetreden\<vblex\>\<sep\>\<pp\>	^toetreden<vblex><sep><pp>$
-     39 #ophouden\<vblex\>\<sep\>\<pp\>	^ophouden<vblex><sep><pp>$
      39 #intensief\<adj\>\<pred\>	^intensief<adj><pred>$
      39 #bemand\<adj\>\<sint\>\<pred\>	^bemand<adj><sint><pred>$
      38 #verhoogd\<adj\>\<sint\>\<attr\>	^verhoogd<adj><sint><attr>$
-     38 #uitsturen\<vblex\>\<sep\>\<pp\>	^uitsturen<vblex><sep><pp>$
-     38 #stadig\<adj\>\<sint\>\<comp\>\<pred\>	^stadig<adj><sint><comp><pred>$
-     38 #Rivier\<n\>\<mf\>\<sg\>	^Rivier<n><mf><sg>$
-     38 #opwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opwerken<vblex><sep><fm><pres><p3><sg>$
-     38 #ombouwen\<vblex\>\<sep\>\<pp\>	^ombouwen<vblex><sep><pp>$
-     38 #intrekken\<vblex\>\<sep\>\<pp\>	^intrekken<vblex><sep><pp>$
      38 #herhaaldelijk\<adj\>\<sint\>\<pred\>	^herhaaldelijk<adj><sint><pred>$
      38 #gewelddadig\<adj\>\<sint\>\<pred\>	^gewelddadig<adj><sint><pred>$
-     38 #Eindelijk\<adj\>\<sint\>\<pred\>	^Eindelijk<adj><sint><pred>$
-     38 #dier\<adj\>\<pred\>	^dier<adj><pred>$
      37 #winstgevend\<adj\>\<sint\>\<attr\>	^winstgevend<adj><sint><attr>$
      37 #vastgesteld\<adj\>\<sint\>\<pred\>	^vastgesteld<adj><sint><pred>$
-     37 #terugnemen\<vblex\>\<sep\>\<pp\>	^terugnemen<vblex><sep><pp>$
      37 #technologisch\<adj\>\<sint\>\<attr\>	^technologisch<adj><sint><attr>$
      37 #Progressief\<adj\>\<attr\>	^Progressief<adj><attr>$
      37 #potentieel\<adj\>\<sint\>\<attr\>	^potentieel<adj><sint><attr>$
-     37 #opschrijven\<vblex\>\<sep\>\<pp\>	^opschrijven<vblex><sep><pp>$
      37 #informeel\<adj\>\<pred\>	^informeel<adj><pred>$
-     37 #groepering\<n\>\<mf\>\<sg\>	^groepering<n><mf><sg>$
-     37 #eindelijk\<adj\>\<sint\>\<attr\>	^eindelijk<adj><sint><attr>$
-     37 #aandoen\<vblex\>\<sep\>\<pp\>	^aandoen<vblex><sep><pp>$
-     37 #aanbouwen\<vblex\>\<sep\>\<inf\>	^aanbouwen<vblex><sep><inf>$
      36 #hoofdzakelijk\<adj\>\<sint\>\<pred\>	^hoofdzakelijk<adj><sint><pred>$
      35 #onrechtelijk\<adj\>\<sint\>\<pred\>	^onrechtelijk<adj><sint><pred>$
      35 #ecologisch\<adj\>\<sint\>\<attr\>	^ecologisch<adj><sint><attr>$
-     34 #toewijzen\<vblex\>\<sep\>\<pp\>	^toewijzen<vblex><sep><pp>$
-     34 #terugvoeren\<vblex\>\<sep\>\<inf\>	^terugvoeren<vblex><sep><inf>$
-     34 #teruggeven\<vblex\>\<sep\>\<pp\>	^teruggeven<vblex><sep><pp>$
-     34 #rustig\<adj\>\<sint\>\<pred\>	^rustig<adj><sint><pred>$
      34 #ongekend\<adj\>\<attr\>	^ongekend<adj><attr>$
      34 #Klassiek\<adj\>\<attr\>	^Klassiek<adj><attr>$
      34 #heftig\<adj\>\<pred\>	^heftig<adj><pred>$
-     33 #welvarend\<adj\>\<sint\>\<sup\>\<attr\>	^welvarend<adj><sint><sup><attr>$
-     33 #samenbrengen\<vblex\>\<sep\>\<pp\>	^samenbrengen<vblex><sep><pp>$
      33 #plotseling\<adj\>\<sint\>\<attr\>	^plotseling<adj><sint><attr>$
-     33 #overblijven\<vblex\>\<sep\>\<inf\>	^overblijven<vblex><sep><inf>$
-     33 #omschrijven\<vblex\>\<sep\>\<inf\>	^omschrijven<vblex><sep><inf>$
      33 #nomadisch\<adj\>\<sint\>\<pred\>	^nomadisch<adj><sint><pred>$
      33 #hoofdzakelijk\<adj\>\<sint\>\<attr\>	^hoofdzakelijk<adj><sint><attr>$
      33 #bestendig\<adj\>\<sint\>\<pred\>	^bestendig<adj><sint><pred>$
-     33 #aantrekken\<vblex\>\<sep\>\<pp\>	^aantrekken<vblex><sep><pp>$
-     33 #aansturen\<vblex\>\<sep\>\<inf\>	^aansturen<vblex><sep><inf>$
      32 #uitsluitend\<adj\>\<sint\>\<attr\>	^uitsluitend<adj><sint><attr>$
      32 #productief\<adj\>\<sint\>\<pred\>	^productief<adj><sint><pred>$
-     32 #opnemen\<vblex\>\<sep\>\<inf\>	^opnemen<vblex><sep><inf>$
-     32 #dinamisch\<adj\>\<sint\>\<pred\>	^dinamisch<adj><sint><pred>$
      32 #betekenisvol\<adj\>\<pred\>	^betekenisvol<adj><pred>$
      31 #Wereldwijd\<adj\>\<sint\>\<pred\>	^Wereldwijd<adj><sint><pred>$
-     31 #teruggaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^teruggaan<vblex><sep><fm><pres><p3><sg>$
      31 #radiaal\<adj\>\<pred\>	^radiaal<adj><pred>$
      31 #Mogelijk\<adj\>\<sint\>\<pred\>	^Mogelijk<adj><sint><pred>$
      31 #levendig\<adj\>\<sint\>\<attr\>	^levendig<adj><sint><attr>$
      31 #foutief\<adj\>\<pred\>	^foutief<adj><pred>$
-     31 #doorlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorlopen<vblex><sep><fm><pres><p3><sg>$
-     31 #aanplanten\<vblex\>\<sep\>\<pp\>	^aanplanten<vblex><sep><pp>$
      30 #nomadisch\<adj\>\<sint\>\<attr\>	^nomadisch<adj><sint><attr>$
-     30 #innemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^innemen<vblex><sep><fm><pres><p3><sg>$
-     30 #inbouwen\<vblex\>\<sep\>\<pp\>	^inbouwen<vblex><sep><pp>$
      30 #gestolen\<adj\>\<sint\>\<pred\>	^gestolen<adj><sint><pred>$
      30 #evangelisch\<adj\>\<sint\>\<pred\>	^evangelisch<adj><sint><pred>$
      29 #wijdverspreid\<adj\>\<pred\>	^wijdverspreid<adj><pred>$
-     29 #voorteffelijk\<adj\>\<sint\>\<attr\>	^voorteffelijk<adj><sint><attr>$
-     29 #uittrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uittrekken<vblex><sep><fm><pres><p3><sg>$
      29 #relevant\<adj\>\<pred\>	^relevant<adj><pred>$
      29 #optisch\<adj\>\<sint\>\<attr\>	^optisch<adj><sint><attr>$
      29 #ongekend\<adj\>\<pred\>	^ongekend<adj><pred>$
      29 #oneindig\<adj\>\<pred\>	^oneindig<adj><pred>$
-     29 #intreden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^intreden<vblex><sep><fm><pres><p3><sg>$
-     29 #individueel\<adj\>\<sint\>\<pred\>	^individueel<adj><sint><pred>$
-     29 #doordringen\<vblex\>\<sep\>\<pp\>	^doordringen<vblex><sep><pp>$
      29 #bruikbaar\<adj\>\<pred\>	^bruikbaar<adj><pred>$
-     29 #afbreken\<vblex\>\<sep\>\<inf\>	^afbreken<vblex><sep><inf>$
      28 #woedend\<adj\>\<sint\>\<pred\>	^woedend<adj><sint><pred>$
-     28 #voorschrijven\<vblex\>\<sep\>\<pp\>	^voorschrijven<vblex><sep><pp>$
-     28 #Tipisch\<adj\>\<sint\>\<attr\>	^Tipisch<adj><sint><attr>$
      28 #talrijk\<adj\>\<sint\>\<pred\>	^talrijk<adj><sint><pred>$
      28 #reactief\<adj\>\<sint\>\<pred\>	^reactief<adj><sint><pred>$
-     28 #overgaan\<vblex\>\<sep\>\<inf\>	^overgaan<vblex><sep><inf>$
      28 #Mediterraans\<adj\>\<sint\>\<pred\>	^Mediterraans<adj><sint><pred>$
      28 #etimologisch\<adj\>\<sint\>\<attr\>	^etimologisch<adj><sint><attr>$
      27 #vatbaar\<adj\>\<pred\>	^vatbaar<adj><pred>$
      27 #syntetisch\<adj\>\<sint\>\<attr\>	^syntetisch<adj><sint><attr>$
-     27 #overplaatsen\<vblex\>\<sep\>\<pp\>	^overplaatsen<vblex><sep><pp>$
-     27 #opbreken\<vblex\>\<sep\>\<pp\>	^opbreken<vblex><sep><pp>$
      27 #Onafhankelijk\<adj\>\<sint\>\<attr\>	^Onafhankelijk<adj><sint><attr>$
-     27 #mineraal\<adj\>\<attr\>	^mineraal<adj><attr>$
      27 #mededingend\<adj\>\<sint\>\<pred\>	^mededingend<adj><sint><pred>$
      27 #Klassiek\<adj\>\<pred\>	^Klassiek<adj><pred>$
      27 #gewelddadig\<adj\>\<sint\>\<attr\>	^gewelddadig<adj><sint><attr>$
      27 #gevaarlijk\<adj\>\<sint\>\<attr\>	^gevaarlijk<adj><sint><attr>$
      27 #geboren\<adj\>\<pred\>	^geboren<adj><pred>$
-     27 #doorslikken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorslikken<vblex><sep><fm><pres><p3><sg>$
      27 #dodelijk\<adj\>\<sint\>\<pred\>	^dodelijk<adj><sint><pred>$
-     27 #dinamisch\<adj\>\<sint\>\<attr\>	^dinamisch<adj><sint><attr>$
      26 #vocaal\<adj\>\<sint\>\<pred\>	^vocaal<adj><sint><pred>$
-     26 #uitvinden\<vblex\>\<sep\>\<inf\>	^uitvinden<vblex><sep><inf>$
-     26 #Tipisch\<adj\>\<sint\>\<pred\>	^Tipisch<adj><sint><pred>$
-     26 #terugvoeren\<vblex\>\<sep\>\<pp\>	^terugvoeren<vblex><sep><pp>$
      26 #sterfelijk\<adj\>\<sint\>\<pred\>	^sterfelijk<adj><sint><pred>$
-     26 #overgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overgaan<vblex><sep><fm><pres><p3><sg>$
      26 #Nedersaksisch\<adj\>\<sint\>\<attr\>	^Nedersaksisch<adj><sint><attr>$
      26 #ijverig\<adj\>\<sint\>\<pred\>	^ijverig<adj><sint><pred>$
      26 #grondwettelijk\<adj\>\<sint\>\<pred\>	^grondwettelijk<adj><sint><pred>$
      26 #giftig\<adj\>\<sint\>\<attr\>	^giftig<adj><sint><attr>$
+     26 #eindelijk\<adj\>\<sint\>\<attr\>	^eindelijk<adj><sint><attr>$
      26 #bloedig\<adj\>\<sint\>\<pred\>	^bloedig<adj><sint><pred>$
      26 #beslissend\<adj\>\<sint\>\<pred\>	^beslissend<adj><sint><pred>$
-     26 #afbeelding\<n\>\<mf\>\<pl\>	^afbeelding<n><mf><pl>$
      25 #uitzonderlijk\<adj\>\<sint\>\<attr\>	^uitzonderlijk<adj><sint><attr>$
-     25 #terugtrekken\<vblex\>\<sep\>\<inf\>	^terugtrekken<vblex><sep><inf>$
      25 #primitief\<adj\>\<attr\>	^primitief<adj><attr>$
      25 #onvermijdelijk\<adj\>\<sint\>\<pred\>	^onvermijdelijk<adj><sint><pred>$
      25 #nominatief\<adj\>\<pred\>	^nominatief<adj><pred>$
      25 #makkelijk\<adj\>\<sint\>\<attr\>	^makkelijk<adj><sint><attr>$
-     25 #invallen\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^invallen<vblex><sep><fs><pres><p3><sg>$
-     25 #ingaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ingaan<vblex><sep><fm><pres><p3><sg>$
      25 #genitief\<adj\>\<pred\>	^genitief<adj><pred>$
      25 #Apostelijk\<adj\>\<sint\>\<pred\>	^Apostelijk<adj><sint><pred>$
      25 #afhankelijk\<adj\>\<sint\>\<attr\>	^afhankelijk<adj><sint><attr>$
-     24 #voordelig\<adj\>\<sint\>\<pred\>	^voordelig<adj><sint><pred>$
-     24 #vaardig\<adj\>\<sint\>\<pred\>	^vaardig<adj><sint><pred>$
      24 #stelselmatig\<adj\>\<attr\>	^stelselmatig<adj><attr>$
      24 #progressief\<adj\>\<attr\>	^progressief<adj><attr>$
-     24 #omgeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omgeven<vblex><sep><fm><pres><p3><sg>$
-     24 #omgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omgaan<vblex><sep><fm><pres><p3><sg>$
      24 #intensief\<adj\>\<attr\>	^intensief<adj><attr>$
-     24 #individueel\<adj\>\<sint\>\<attr\>	^individueel<adj><sint><attr>$
-     24 #aftreden\<vblex\>\<sep\>\<inf\>	^aftreden<vblex><sep><inf>$
-     24 #aanlopen\<vblex\>\<sep\>\<inf\>	^aanlopen<vblex><sep><inf>$
-     24 #aangaan\<vblex\>\<sep\>\<inf\>	^aangaan<vblex><sep><inf>$
      23 #verantwoordelijk\<adj\>\<sint\>\<attr\>	^verantwoordelijk<adj><sint><attr>$
      23 #progressief\<adj\>\<pred\>	^progressief<adj><pred>$
-     23 #overlaten\<vblex\>\<sep\>\<pp\>	^overlaten<vblex><sep><pp>$
-     23 #optreden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^optreden<vblex><sep><fm><pres><p3><sg>$
      23 #opensource\<adj\>\<pred\>	^opensource<adj><pred>$
      23 #numerisch\<adj\>\<sint\>\<attr\>	^numerisch<adj><sint><attr>$
-     23 #doordringen\<vblex\>\<sep\>\<inf\>	^doordringen<vblex><sep><inf>$
-     23 #afwijken\<vblex\>\<sep\>\<inf\>	^afwijken<vblex><sep><inf>$
      22 #vrijelijk\<adj\>\<sint\>\<pred\>	^vrijelijk<adj><sint><pred>$
      22 #vriendschappelijk\<adj\>\<sint\>\<attr\>	^vriendschappelijk<adj><sint><attr>$
-     22 #uitwijzen\<vblex\>\<sep\>\<pp\>	^uitwijzen<vblex><sep><pp>$
-     22 #uitgeven\<vblex\>\<sep\>\<inf\>	^uitgeven<vblex><sep><inf>$
      22 #tamelijk\<adj\>\<sint\>\<pred\>	^tamelijk<adj><sint><pred>$
      22 #seizoensgevoelig\<adj\>\<sint\>\<pred\>	^seizoensgevoelig<adj><sint><pred>$
-     22 #opstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opstaan<vblex><sep><fm><pres><p3><sg>$
      22 #onvoltooid\<adj\>\<pred\>	^onvoltooid<adj><pred>$
      22 #onofficieel\<adj\>\<sint\>\<attr\>	^onofficieel<adj><sint><attr>$
-     22 #invallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^invallen<vblex><sep><fm><pres><p3><sg>$
      22 #geldig\<adj\>\<sint\>\<attr\>	^geldig<adj><sint><attr>$
      22 #gedroogd\<adj\>\<sint\>\<pred\>	^gedroogd<adj><sint><pred>$
      22 #epidemisch\<adj\>\<sint\>\<pred\>	^epidemisch<adj><sint><pred>$
@@ -462,126 +267,69 @@ Tag mismatch between transfer and generation
      21 #onofficieel\<adj\>\<sint\>\<pred\>	^onofficieel<adj><sint><pred>$
      21 #oneindig\<adj\>\<attr\>	^oneindig<adj><attr>$
      21 #krachtig\<adj\>\<sint\>\<attr\>	^krachtig<adj><sint><attr>$
-     21 #inhalen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inhalen<vblex><sep><fm><pres><p3><sg>$
      21 #geestdriftig\<adj\>\<sint\>\<pred\>	^geestdriftig<adj><sint><pred>$
      21 #analytisch\<adj\>\<sint\>\<pred\>	^analytisch<adj><sint><pred>$
      20 #wezenlijk\<adj\>\<sint\>\<pred\>	^wezenlijk<adj><sint><pred>$
      20 #Weens\<adj\>\<sint\>\<pred\>	^Weens<adj><sint><pred>$
-     20 #vurig\<adj\>\<sint\>\<pred\>	^vurig<adj><sint><pred>$
-     20 #vurig\<adj\>\<sint\>\<attr\>	^vurig<adj><sint><attr>$
-     20 #uitlopen\<vblex\>\<sep\>\<inf\>	^uitlopen<vblex><sep><inf>$
-     20 #toedoen\<vblex\>\<sep\>\<inf\>	^toedoen<vblex><sep><inf>$
-     20 #terugvallen\<vblex\>\<sep\>\<inf\>	^terugvallen<vblex><sep><inf>$
-     20 #terugroepen\<vblex\>\<sep\>\<pp\>	^terugroepen<vblex><sep><pp>$
      20 #syntetisch\<adj\>\<sint\>\<pred\>	^syntetisch<adj><sint><pred>$
-     20 #rampspoedig\<adj\>\<sint\>\<pred\>	^rampspoedig<adj><sint><pred>$
      20 #primitief\<adj\>\<pred\>	^primitief<adj><pred>$
      20 #patriotisch\<adj\>\<sint\>\<pred\>	^patriotisch<adj><sint><pred>$
-     20 #overwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overwerken<vblex><sep><fm><pres><p3><sg>$
-     20 #overlopen\<vblex\>\<sep\>\<pp\>	^overlopen<vblex><sep><pp>$
      20 #innerlijk\<adj\>\<sint\>\<pred\>	^innerlijk<adj><sint><pred>$
      20 #Grondwettelijk\<adj\>\<sint\>\<attr\>	^Grondwettelijk<adj><sint><attr>$
      20 #geweldadig\<adj\>\<sint\>\<pred\>	^geweldadig<adj><sint><pred>$
      20 #gedeeltelijk\<adj\>\<sint\>\<pred\>	^gedeeltelijk<adj><sint><pred>$
      20 #fonetisch\<adj\>\<sint\>\<pred\>	^fonetisch<adj><sint><pred>$
-     20 #familie\<adj\>\<sint\>\<attr\>	^familie<adj><sint><attr>$
      20 #Evangelisch\<adj\>\<sint\>\<attr\>	^Evangelisch<adj><sint><attr>$
      20 #bevaarbaar\<adj\>\<pred\>	^bevaarbaar<adj><pred>$
-     20 #aantekenen\<vblex\>\<sep\>\<inf\>	^aantekenen<vblex><sep><inf>$
-     20 #aanbreken\<vblex\>\<sep\>\<inf\>	^aanbreken<vblex><sep><inf>$
-     19 #wisselvallig\<adj\>\<sint\>\<pred\>	^wisselvallig<adj><sint><pred>$
-     19 #welvarend\<adj\>\<sint\>\<sup\>\<pred\>	^welvarend<adj><sint><sup><pred>$
      19 #vriendschappelijk\<adj\>\<sint\>\<pred\>	^vriendschappelijk<adj><sint><pred>$
-     19 #voorhouden\<vblex\>\<sep\>\<pp\>	^voorhouden<vblex><sep><pp>$
      19 #verzoenbaar\<adj\>\<sint\>\<pred\>	^verzoenbaar<adj><sint><pred>$
-     19 #uitsterven\<vblex\>\<sep\>\<inf\>	^uitsterven<vblex><sep><inf>$
      19 #uitdrukkelijk\<adj\>\<sint\>\<pred\>	^uitdrukkelijk<adj><sint><pred>$
-     19 #samennemen\<vblex\>\<sep\>\<pp\>	^samennemen<vblex><sep><pp>$
      19 #passief\<adj\>\<pred\>	^passief<adj><pred>$
-     19 #oplaaien\<vblex\>\<sep\>\<pp\>	^oplaaien<vblex><sep><pp>$
-     19 #oplaaien\<vblex\>\<sep\>\<inf\>	^oplaaien<vblex><sep><inf>$
-     19 #omlopen\<vblex\>\<sep\>\<inf\>	^omlopen<vblex><sep><inf>$
      19 #Electrisch\<adj\>\<sint\>\<pred\>	^Electrisch<adj><sint><pred>$
-     19 #aanspreken\<vblex\>\<sep\>\<inf\>	^aanspreken<vblex><sep><inf>$
      18 #vijandig\<adj\>\<sint\>\<pred\>	^vijandig<adj><sint><pred>$
-     18 #terugkrijgen\<vblex\>\<sep\>\<pp\>	^terugkrijgen<vblex><sep><pp>$
      18 #tertair\<adj\>\<sint\>\<pred\>	^tertair<adj><sint><pred>$
-     18 #stadig\<adj\>\<sint\>\<attr\>	^stadig<adj><sint><attr>$
      18 #passief\<adj\>\<attr\>	^passief<adj><attr>$
      18 #overerfelijk\<adj\>\<sint\>\<attr\>	^overerfelijk<adj><sint><attr>$
-     18 #opgeven\<vblex\>\<sep\>\<pp\>	^opgeven<vblex><sep><pp>$
      18 #operationeel\<adj\>\<sint\>\<pred\>	^operationeel<adj><sint><pred>$
      18 #ogenblikkelijk\<adj\>\<sint\>\<pred\>	^ogenblikkelijk<adj><sint><pred>$
-     18 #Mineraal\<adj\>\<pred\>	^Mineraal<adj><pred>$
      18 #innerlijk\<adj\>\<sint\>\<attr\>	^innerlijk<adj><sint><attr>$
      18 #homoseksueel\<adj\>\<pred\>	^homoseksueel<adj><pred>$
      18 #gretig\<adj\>\<sint\>\<pred\>	^gretig<adj><sint><pred>$
-     18 #filiaal\<adj\>\<pred\>	^filiaal<adj><pred>$
      18 #accusatief\<adj\>\<sint\>\<pred\>	^accusatief<adj><sint><pred>$
-     18 #aantrekken\<vblex\>\<sep\>\<inf\>	^aantrekken<vblex><sep><inf>$
-     18 #aanbreken\<vblex\>\<sep\>\<pp\>	^aanbreken<vblex><sep><pp>$
-     18 #aanbieden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanbieden<vblex><sep><fm><pres><p3><sg>$
      17 #zanderig\<adj\>\<sint\>\<pred\>	^zanderig<adj><sint><pred>$
      17 #wijdverspreid\<adj\>\<attr\>	^wijdverspreid<adj><attr>$
-     17 #voorstaan\<vblex\>\<sep\>\<inf\>	^voorstaan<vblex><sep><inf>$
-     17 #voordragen\<vblex\>\<sep\>\<pp\>	^voordragen<vblex><sep><pp>$
      17 #vijandig\<adj\>\<sint\>\<attr\>	^vijandig<adj><sint><attr>$
-     17 #uiterlijke\<adj\>\<sint\>\<pred\>	^uiterlijke<adj><sint><pred>$
+     17 #uiterlijk\<adj\>\<sint\>\<pred\>	^uiterlijk<adj><sint><pred>$
      17 #toegewijd\<adj\>\<sint\>\<pred\>	^toegewijd<adj><sint><pred>$
-     17 #terugdrijven\<vblex\>\<sep\>\<pp\>	^terugdrijven<vblex><sep><pp>$
      17 #statistisch\<adj\>\<sint\>\<attr\>	^statistisch<adj><sint><attr>$
-     17 #snaaks\<adj\>\<sint\>\<pred\>	^snaaks<adj><sint><pred>$
      17 #schriftelijk\<adj\>\<sint\>\<attr\>	^schriftelijk<adj><sint><attr>$
-     17 #overlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overlopen<vblex><sep><fm><pres><p3><sg>$
-     17 #overgeven\<vblex\>\<sep\>\<inf\>	^overgeven<vblex><sep><inf>$
      17 #overerfelijk\<adj\>\<sint\>\<pred\>	^overerfelijk<adj><sint><pred>$
      17 #orthodox\<adj\>\<sint\>\<attr\>	^orthodox<adj><sint><attr>$
      17 #optioneel\<adj\>\<sint\>\<pred\>	^optioneel<adj><sint><pred>$
      17 #ongeletterd\<adj\>\<pred\>	^ongeletterd<adj><pred>$
      17 #Onafhankelijk\<adj\>\<sint\>\<pred\>	^Onafhankelijk<adj><sint><pred>$
-     17 #intrekken\<vblex\>\<sep\>\<inf\>	^intrekken<vblex><sep><inf>$
      17 #bruikbaar\<adj\>\<attr\>	^bruikbaar<adj><attr>$
      17 #aanstekelijk\<adj\>\<sint\>\<attr\>	^aanstekelijk<adj><sint><attr>$
-     17 #aanstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanstaan<vblex><sep><fm><pres><p3><sg>$
-     17 #aandringen\<vblex\>\<sep\>\<inf\>	^aandringen<vblex><sep><inf>$
-     17 #aanblijven\<vblex\>\<sep\>\<pp\>	^aanblijven<vblex><sep><pp>$
      16 #vrolijk\<adj\>\<sint\>\<pred\>	^vrolijk<adj><sint><pred>$
-     16 #taai\<adj\>\<sint\>\<pred\>	^taai<adj><sint><pred>$
      16 #sensitief\<adj\>\<attr\>	^sensitief<adj><attr>$
-     16 #samenvallen\<vblex\>\<sep\>\<pp\>	^samenvallen<vblex><sep><pp>$
-     16 #rustig\<adj\>\<sint\>\<attr\>	^rustig<adj><sint><attr>$
      16 #patriotisch\<adj\>\<sint\>\<attr\>	^patriotisch<adj><sint><attr>$
      16 #orthodox\<adj\>\<sint\>\<pred\>	^orthodox<adj><sint><pred>$
-     16 #opnemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opnemen<vblex><sep><fm><pres><p3><sg>$
      16 #onvoorwaardelijk\<adj\>\<sint\>\<pred\>	^onvoorwaardelijk<adj><sint><pred>$
      16 #Nazi\<adj\>\<sint\>\<attr\>	^Nazi<adj><sint><attr>$
-     16 #minderheidsgroep\<n\>\<mf\>\<sg\>	^minderheidsgroep<n><mf><sg>$
-     16 #inschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inschrijven<vblex><sep><fm><pres><p3><sg>$
+     16 #eindelijk\<adj\>\<sint\>\<pred\>	^eindelijk<adj><sint><pred>$
      16 #blinkend\<adj\>\<sint\>\<pred\>	^blinkend<adj><sint><pred>$
-     16 #afkeren\<vblex\>\<sep\>\<inf\>	^afkeren<vblex><sep><inf>$
-     16 #afgeven\<vblex\>\<sep\>\<inf\>	^afgeven<vblex><sep><inf>$
-     16 #aangeven\<vblex\>\<sep\>\<inf\>	^aangeven<vblex><sep><inf>$
      15 #zanderig\<adj\>\<sint\>\<attr\>	^zanderig<adj><sint><attr>$
      15 #wonderlijk\<adj\>\<sint\>\<attr\>	^wonderlijk<adj><sint><attr>$
      15 #vermeend\<adj\>\<sint\>\<pred\>	^vermeend<adj><sint><pred>$
-     15 #vblex\>\<vblex\>\<sep\>\<pp\>	^vblex><vblex><sep><pp>$
-     15 #uiterlijke\<adj\>\<sint\>\<attr\>	^uiterlijke<adj><sint><attr>$
-     15 #toenemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toenemen<vblex><sep><fm><pres><p3><sg>$
-     15 #teruggaan\<vblex\>\<sep\>\<inf\>	^teruggaan<vblex><sep><inf>$
-     15 #terugdringen\<vblex\>\<sep\>\<pp\>	^terugdringen<vblex><sep><pp>$
+     15 #uiterlijk\<adj\>\<sint\>\<attr\>	^uiterlijk<adj><sint><attr>$
      15 #tamelijk\<adj\>\<sint\>\<attr\>	^tamelijk<adj><sint><attr>$
      15 #rationeel\<adj\>\<sint\>\<pred\>	^rationeel<adj><sint><pred>$
      15 #rationeel\<adj\>\<sint\>\<attr\>	^rationeel<adj><sint><attr>$
      15 #psychologisch\<adj\>\<sint\>\<attr\>	^psychologisch<adj><sint><attr>$
      15 #periodiek\<adj\>\<pred\>	^periodiek<adj><pred>$
-     15 #overtrekken\<vblex\>\<sep\>\<inf\>	^overtrekken<vblex><sep><inf>$
      15 #opzettelijk\<adj\>\<sint\>\<pred\>	^opzettelijk<adj><sint><pred>$
-     15 #opdoen\<vblex\>\<sep\>\<inf\>	^opdoen<vblex><sep><inf>$
      15 #onsuccesvol\<adj\>\<sint\>\<attr\>	^onsuccesvol<adj><sint><attr>$
-     15 #ombouwen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ombouwen<vblex><sep><fm><pres><p3><sg>$
-     15 #min\<adj\>\<sint\>\<sup\>\<attr\>	^min<adj><sint><sup><attr>$
      15 #kwaadaardig\<adj\>\<pred\>	^kwaadaardig<adj><pred>$
-     15 #inlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inlopen<vblex><sep><fm><pres><p3><sg>$
      15 #gevoelig\<adj\>\<sint\>\<pred\>	^gevoelig<adj><sint><pred>$
      15 #Geografisch\<adj\>\<sint\>\<attr\>	^Geografisch<adj><sint><attr>$
      15 #gedroogd\<adj\>\<sint\>\<attr\>	^gedroogd<adj><sint><attr>$
@@ -590,203 +338,109 @@ Tag mismatch between transfer and generation
      15 #dringend\<adj\>\<sint\>\<pred\>	^dringend<adj><sint><pred>$
      15 #bloedig\<adj\>\<sint\>\<attr\>	^bloedig<adj><sint><attr>$
      15 #aanspreekbaar\<adj\>\<sint\>\<pred\>	^aanspreekbaar<adj><sint><pred>$
-     15 #aanmoedigen\<vblex\>\<sep\>\<inf\>	^aanmoedigen<vblex><sep><inf>$
-     15 #aandoen\<vblex\>\<sep\>\<inf\>	^aandoen<vblex><sep><inf>$
      14 #waarschijnlijk\<adj\>\<sint\>\<pred\>	^waarschijnlijk<adj><sint><pred>$
-     14 #waardig\<adj\>\<sint\>\<pred\>	^waardig<adj><sint><pred>$
      14 #verstandelijk\<adj\>\<sint\>\<pred\>	^verstandelijk<adj><sint><pred>$
      14 #uitzonderlijk\<adj\>\<sint\>\<pred\>	^uitzonderlijk<adj><sint><pred>$
-     14 #uitdienen\<vblex\>\<sep\>\<pp\>	^uitdienen<vblex><sep><pp>$
      14 #symmetrisch\<adj\>\<sint\>\<pred\>	^symmetrisch<adj><sint><pred>$
      14 #stevig\<adj\>\<sint\>\<attr\>	^stevig<adj><sint><attr>$
-     14 #samentrekken\<vblex\>\<sep\>\<inf\>	^samentrekken<vblex><sep><inf>$
      14 #ruimtelijk\<adj\>\<sint\>\<pred\>	^ruimtelijk<adj><sint><pred>$
-     14 #rampspoedig\<adj\>\<sint\>\<attr\>	^rampspoedig<adj><sint><attr>$
      14 #Publiek\<adj\>\<attr\>	^Publiek<adj><attr>$
      14 #opensource\<adj\>\<attr\>	^opensource<adj><attr>$
      14 #onsterfelijk\<adj\>\<sint\>\<pred\>	^onsterfelijk<adj><sint><pred>$
-     14 #onderschrijven\<vblex\>\<sep\>\<inf\>	^onderschrijven<vblex><sep><inf>$
      14 #lelijk\<adj\>\<sint\>\<pred\>	^lelijk<adj><sint><pred>$
-     14 #inwerken\<vblex\>\<sep\>\<inf\>	^inwerken<vblex><sep><inf>$
-     14 #invoegen\<vblex\>\<sep\>\<pp\>	^invoegen<vblex><sep><pp>$
-     14 #insturen\<vblex\>\<sep\>\<pp\>	^insturen<vblex><sep><pp>$
      14 #inherent\<adj\>\<pred\>	^inherent<adj><pred>$
      14 #gepland\<adj\>\<sint\>\<pred\>	^gepland<adj><sint><pred>$
      14 #ecologisch\<adj\>\<sint\>\<pred\>	^ecologisch<adj><sint><pred>$
-     14 #doorlopen\<vblex\>\<sep\>\<inf\>	^doorlopen<vblex><sep><inf>$
      14 #behoorlijk\<adj\>\<sint\>\<pred\>	^behoorlijk<adj><sint><pred>$
-     14 #afgeven\<vblex\>\<sep\>\<pp\>	^afgeven<vblex><sep><pp>$
-     14 #aandoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aandoen<vblex><sep><fm><pres><p3><sg>$
-     13 #wisselvallig\<adj\>\<sint\>\<attr\>	^wisselvallig<adj><sint><attr>$
-     13 #voorgeven\<vblex\>\<sep\>\<pp\>	^voorgeven<vblex><sep><pp>$
-     13 #voordelig\<adj\>\<sint\>\<attr\>	^voordelig<adj><sint><attr>$
      13 #toxisch\<adj\>\<sint\>\<pred\>	^toxisch<adj><sint><pred>$
-     13 #terugvallen\<vblex\>\<sep\>\<pp\>	^terugvallen<vblex><sep><pp>$
-     13 #tegenstaan\<vblex\>\<sep\>\<pp\>	^tegenstaan<vblex><sep><pp>$
      13 #systematisch\<adj\>\<sint\>\<pred\>	^systematisch<adj><sint><pred>$
      13 #perfect\<adj\>\<sint\>\<attr\>	^perfect<adj><sint><attr>$
      13 #operationeel\<adj\>\<sint\>\<attr\>	^operationeel<adj><sint><attr>$
      13 #mededingend\<adj\>\<sint\>\<attr\>	^mededingend<adj><sint><attr>$
      13 #kwantitatief\<adj\>\<attr\>	^kwantitatief<adj><attr>$
      13 #intiem\<adj\>\<sint\>\<attr\>	^intiem<adj><sint><attr>$
-     13 #intekenen\<vblex\>\<sep\>\<pp\>	^intekenen<vblex><sep><pp>$
-     13 #inbrengen\<vblex\>\<sep\>\<pp\>	^inbrengen<vblex><sep><pp>$
      13 #gerieflijk\<adj\>\<sint\>\<pred\>	^gerieflijk<adj><sint><pred>$
      13 #gedeeltelijk\<adj\>\<sint\>\<attr\>	^gedeeltelijk<adj><sint><attr>$
      13 #enthousiast\<adj\>\<sint\>\<pred\>	^enthousiast<adj><sint><pred>$
-     13 #doorlopen\<vblex\>\<sep\>\<pp\>	^doorlopen<vblex><sep><pp>$
      13 #definitief\<adj\>\<attr\>	^definitief<adj><attr>$
      13 #daadwerkelijk\<adj\>\<sint\>\<pred\>	^daadwerkelijk<adj><sint><pred>$
      13 #Continentaal\<adj\>\<sint\>\<pred\>	^Continentaal<adj><sint><pred>$
      13 #buite-echtelijk\<adj\>\<sint\>\<pred\>	^buite-echtelijk<adj><sint><pred>$
-     13 #breedvoerig\<adj\>\<sint\>\<pred\>	^breedvoerig<adj><sint><pred>$
      13 #bestendig\<adj\>\<sint\>\<attr\>	^bestendig<adj><sint><attr>$
      13 #behoorlijk\<adj\>\<sint\>\<attr\>	^behoorlijk<adj><sint><attr>$
-     13 #aanwijzen\<vblex\>\<sep\>\<inf\>	^aanwijzen<vblex><sep><inf>$
-     13 #aansturen\<vblex\>\<sep\>\<pp\>	^aansturen<vblex><sep><pp>$
      13 #aangetast\<adj\>\<sint\>\<pred\>	^aangetast<adj><sint><pred>$
      12 #zinvol\<adj\>\<sint\>\<pred\>	^zinvol<adj><sint><pred>$
-     12 #voorteffelijk\<adj\>\<sint\>\<pred\>	^voorteffelijk<adj><sint><pred>$
-     12 #voordoen\<vblex\>\<sep\>\<pp\>	^voordoen<vblex><sep><pp>$
-     12 #vinnig\<adj\>\<sint\>\<comp\>\<attr\>	^vinnig<adj><sint><comp><attr>$
      12 #vermoord\<adj\>\<sint\>\<pred\>	^vermoord<adj><sint><pred>$
-     12 #uitroepen\<vblex\>\<sep\>\<inf\>	^uitroepen<vblex><sep><inf>$
      12 #tegenovergesteld\<adj\>\<sint\>\<pred\>	^tegenovergesteld<adj><sint><pred>$
-     12 #samentrekken\<vblex\>\<sep\>\<pp\>	^samentrekken<vblex><sep><pp>$
      12 #ruimtelijk\<adj\>\<sint\>\<attr\>	^ruimtelijk<adj><sint><attr>$
-     12 #roepen\<vblex\>\<sep\>\<pp\>	^roepen<vblex><sep><pp>$
      12 #relevant\<adj\>\<attr\>	^relevant<adj><attr>$
      12 #productief\<adj\>\<sint\>\<attr\>	^productief<adj><sint><attr>$
-     12 #overkopen\<vblex\>\<sep\>\<pp\>	^overkopen<vblex><sep><pp>$
-     12 #opzeggen\<vblex\>\<sep\>\<pp\>	^opzeggen<vblex><sep><pp>$
-     12 #opvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opvallen<vblex><sep><fm><pres><p3><sg>$
-     12 #opstaan\<vblex\>\<sep\>\<pp\>	^opstaan<vblex><sep><pp>$
      12 #openlijk\<adj\>\<sint\>\<attr\>	^openlijk<adj><sint><attr>$
      12 #onderscheidbaar\<adj\>\<sint\>\<attr\>	^onderscheidbaar<adj><sint><attr>$
-     12 #ombouwen\<vblex\>\<sep\>\<inf\>	^ombouwen<vblex><sep><inf>$
      12 #numerisch\<adj\>\<sint\>\<pred\>	^numerisch<adj><sint><pred>$
-     12 #min\<adj\>\<sint\>\<sup\>\<pred\>	^min<adj><sint><sup><pred>$
      12 #krachtig\<adj\>\<sint\>\<comp\>\<pred\>	^krachtig<adj><sint><comp><pred>$
-     12 #Inlaten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Inlaten<vblex><sep><fm><pres><p3><sg>$
-     12 #Hand\<n\>\<mf\>\<sg\>	^Hand<n><mf><sg>$
      12 #fonetisch\<adj\>\<sint\>\<attr\>	^fonetisch<adj><sint><attr>$
      12 #erfelijk\<adj\>\<sint\>\<pred\>	^erfelijk<adj><sint><pred>$
      12 #elastisch\<adj\>\<sint\>\<pred\>	^elastisch<adj><sint><pred>$
      12 #dringend\<adj\>\<sint\>\<attr\>	^dringend<adj><sint><attr>$
-     12 #dier\<adj\>\<attr\>	^dier<adj><attr>$
      12 #depressief\<adj\>\<pred\>	^depressief<adj><pred>$
      12 #degelijk\<adj\>\<sint\>\<attr\>	^degelijk<adj><sint><attr>$
      12 #behoudend\<adj\>\<sint\>\<pred\>	^behoudend<adj><sint><pred>$
      12 #autocratisch\<adj\>\<sint\>\<attr\>	^autocratisch<adj><sint><attr>$
-     12 #aftrekken\<vblex\>\<sep\>\<inf\>	^aftrekken<vblex><sep><inf>$
-     12 #aanschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanschrijven<vblex><sep><fm><pres><p3><sg>$
-     11 #welig\<adj\>\<sint\>\<attr\>	^welig<adj><sint><attr>$
      11 #wekelijks\<adj\>\<sint\>\<attr\>	^wekelijks<adj><sint><attr>$
-     11 #wegbreken\<vblex\>\<sep\>\<inf\>	^wegbreken<vblex><sep><inf>$
-     11 #voorschrijven\<vblex\>\<sep\>\<inf\>	^voorschrijven<vblex><sep><inf>$
-     11 #vinnig\<adj\>\<sint\>\<sup\>\<attr\>	^vinnig<adj><sint><sup><attr>$
      11 #vermoedelijk\<adj\>\<sint\>\<pred\>	^vermoedelijk<adj><sint><pred>$
-     11 #uitwijken\<vblex\>\<sep\>\<pp\>	^uitwijken<vblex><sep><pp>$
-     11 #uitgaan\<vblex\>\<sep\>\<pp\>	^uitgaan<vblex><sep><pp>$
-     11 #uitgaan\<vblex\>\<sep\>\<inf\>	^uitgaan<vblex><sep><inf>$
      11 #treffend\<adj\>\<sint\>\<pred\>	^treffend<adj><sint><pred>$
-     11 #toestaan\<vblex\>\<sep\>\<inf\>	^toestaan<vblex><sep><inf>$
      11 #thermodynamisch\<adj\>\<sint\>\<attr\>	^thermodynamisch<adj><sint><attr>$
-     11 #teruggeven\<vblex\>\<sep\>\<inf\>	^teruggeven<vblex><sep><inf>$
      11 #statistisch\<adj\>\<sint\>\<pred\>	^statistisch<adj><sint><pred>$
-     11 #Senior\<adj\>\<pred\>	^Senior<adj><pred>$
-     11 #samenvallen\<vblex\>\<sep\>\<inf\>	^samenvallen<vblex><sep><inf>$
      11 #radiaal\<adj\>\<attr\>	^radiaal<adj><attr>$
      11 #puik\<adj\>\<attr\>	^puik<adj><attr>$
      11 #psychologisch\<adj\>\<sint\>\<pred\>	^psychologisch<adj><sint><pred>$
      11 #Optisch\<adj\>\<sint\>\<pred\>	^Optisch<adj><sint><pred>$
-     11 #opbreken\<vblex\>\<sep\>\<inf\>	^opbreken<vblex><sep><inf>$
      11 #ontzaglijk\<adj\>\<sint\>\<attr\>	^ontzaglijk<adj><sint><attr>$
      11 #moeilijk\<adj\>\<sint\>\<sup\>\<attr\>	^moeilijk<adj><sint><sup><attr>$
-     11 #inpassen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inpassen<vblex><sep><fm><pres><p3><sg>$
-     11 #ingaan\<vblex\>\<sep\>\<inf\>	^ingaan<vblex><sep><inf>$
      11 #gezouten\<adj\>\<sint\>\<pred\>	^gezouten<adj><sint><pred>$
      11 #getrouwd\<adj\>\<sint\>\<attr\>	^getrouwd<adj><sint><attr>$
      11 #erfelijk\<adj\>\<sint\>\<attr\>	^erfelijk<adj><sint><attr>$
      11 #encyclopedisch\<adj\>\<sint\>\<attr\>	^encyclopedisch<adj><sint><attr>$
      11 #Electronisch\<adj\>\<sint\>\<pred\>	^Electronisch<adj><sint><pred>$
      11 #elastisch\<adj\>\<sint\>\<attr\>	^elastisch<adj><sint><attr>$
-     11 #doorzoeken\<vblex\>\<sep\>\<inf\>	^doorzoeken<vblex><sep><inf>$
-     11 #doorstaan\<vblex\>\<sep\>\<inf\>	^doorstaan<vblex><sep><inf>$
-     11 #doorgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorgaan<vblex><sep><fm><pres><p3><sg>$
-     11 #doordrukken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doordrukken<vblex><sep><fm><pres><p3><sg>$
      11 #Digitaal\<adj\>\<attr\>	^Digitaal<adj><attr>$
      11 #degelijk\<adj\>\<sint\>\<pred\>	^degelijk<adj><sint><pred>$
      11 #bevrijd\<adj\>\<sint\>\<pred\>	^bevrijd<adj><sint><pred>$
      11 #Analytisch\<adj\>\<sint\>\<attr\>	^Analytisch<adj><sint><attr>$
-     11 #aflopen\<vblex\>\<sep\>\<pp\>	^aflopen<vblex><sep><pp>$
      10 #zinvol\<adj\>\<sint\>\<attr\>	^zinvol<adj><sint><attr>$
-     10 #weelderig\<adj\>\<sint\>\<pred\>	^weelderig<adj><sint><pred>$
-     10 #voorleggen\<vblex\>\<sep\>\<inf\>	^voorleggen<vblex><sep><inf>$
-     10 #verpakken\<vblex\>\<inf\>	^verpakken<vblex><inf>$
      10 #vernietigend\<adj\>\<sint\>\<pred\>	^vernietigend<adj><sint><pred>$
      10 #veranderlijk\<adj\>\<sint\>\<attr\>	^veranderlijk<adj><sint><attr>$
-     10 #veilig\<adj\>\<sint\>\<comp\>\<pred\>	^veilig<adj><sint><comp><pred>$
      10 #uitgelekt\<adj\>\<sint\>\<pred\>	^uitgelekt<adj><sint><pred>$
-     10 #toespreken\<vblex\>\<sep\>\<pp\>	^toespreken<vblex><sep><pp>$
-     10 #toegeven\<vblex\>\<sep\>\<inf\>	^toegeven<vblex><sep><inf>$
-     10 #terugplaatsen\<vblex\>\<sep\>\<pp\>	^terugplaatsen<vblex><sep><pp>$
      10 #talentvol\<adj\>\<pred\>	^talentvol<adj><pred>$
      10 #reactief\<adj\>\<sint\>\<attr\>	^reactief<adj><sint><attr>$
      10 #pijlijk\<adj\>\<sint\>\<attr\>	^pijlijk<adj><sint><attr>$
-     10 #overschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overschrijven<vblex><sep><fm><pres><p3><sg>$
-     10 #overhouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overhouden<vblex><sep><fm><pres><p3><sg>$
-     10 #optrekken\<vblex\>\<sep\>\<pp\>	^optrekken<vblex><sep><pp>$
      10 #Optisch\<adj\>\<sint\>\<attr\>	^Optisch<adj><sint><attr>$
-     10 #opgaan\<vblex\>\<sep\>\<pp\>	^opgaan<vblex><sep><pp>$
-     10 #opgaan\<vblex\>\<sep\>\<inf\>	^opgaan<vblex><sep><inf>$
-     10 #onderwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderwerken<vblex><sep><fm><pres><p3><sg>$
      10 #Normaal\<adj\>\<pred\>	^Normaal<adj><pred>$
      10 #kwantitatief\<adj\>\<pred\>	^kwantitatief<adj><pred>$
      10 #krachtig\<adj\>\<sint\>\<sup\>\<pred\>	^krachtig<adj><sint><sup><pred>$
-     10 #intrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^intrekken<vblex><sep><fm><pres><p3><sg>$
      10 #intiem\<adj\>\<sint\>\<pred\>	^intiem<adj><sint><pred>$
-     10 #ingeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ingeven<vblex><sep><fm><pres><p3><sg>$
      10 #geweldadig\<adj\>\<sint\>\<attr\>	^geweldadig<adj><sint><attr>$
      10 #gerieflijk\<adj\>\<sint\>\<attr\>	^gerieflijk<adj><sint><attr>$
-     10 #doorbreken\<vblex\>\<sep\>\<inf\>	^doorbreken<vblex><sep><inf>$
      10 #bolvorming\<adj\>\<sint\>\<pred\>	^bolvorming<adj><sint><pred>$
      10 #bevredigend\<adj\>\<sint\>\<pred\>	^bevredigend<adj><sint><pred>$
      10 #autocratisch\<adj\>\<sint\>\<pred\>	^autocratisch<adj><sint><pred>$
      10 #alternatievelijk\<adj\>\<sint\>\<pred\>	^alternatievelijk<adj><sint><pred>$
      10 #alfabetisch\<adj\>\<sint\>\<attr\>	^alfabetisch<adj><sint><attr>$
-     10 #afwijzen\<vblex\>\<sep\>\<pp\>	^afwijzen<vblex><sep><pp>$
-     10 #aftrekken\<vblex\>\<sep\>\<pp\>	^aftrekken<vblex><sep><pp>$
      10 #aanmerkelijk\<adj\>\<sint\>\<pred\>	^aanmerkelijk<adj><sint><pred>$
-     10 #aanbouwen\<vblex\>\<sep\>\<pp\>	^aanbouwen<vblex><sep><pp>$
       9 #woedend\<adj\>\<sint\>\<attr\>	^woedend<adj><sint><attr>$
-      9 #wegtrekken\<vblex\>\<sep\>\<pp\>	^wegtrekken<vblex><sep><pp>$
-      9 #wegnemen\<vblex\>\<sep\>\<pp\>	^wegnemen<vblex><sep><pp>$
-      9 #wegdoen\<vblex\>\<sep\>\<pp\>	^wegdoen<vblex><sep><pp>$
-      9 #voorgeven\<vblex\>\<sep\>\<inf\>	^voorgeven<vblex><sep><inf>$
       9 #valselijk\<adj\>\<sint\>\<pred\>	^valselijk<adj><sint><pred>$
-      9 #uitvallen\<vblex\>\<sep\>\<pp\>	^uitvallen<vblex><sep><pp>$
-      9 #uitsturen\<vblex\>\<sep\>\<inf\>	^uitsturen<vblex><sep><inf>$
-      9 #uitdagend\<adj\>\<sint\>\<attr\>	^uitdagend<adj><sint><attr>$
-      9 #toegeven\<vblex\>\<sep\>\<pp\>	^toegeven<vblex><sep><pp>$
       9 #symmetrisch\<adj\>\<sint\>\<attr\>	^symmetrisch<adj><sint><attr>$
-      9 #Senior\<adj\>\<attr\>	^Senior<adj><attr>$
       9 #schriftelijk\<adj\>\<sint\>\<pred\>	^schriftelijk<adj><sint><pred>$
       9 #puik\<adj\>\<pred\>	^puik<adj><pred>$
       9 #Professioneel\<adj\>\<attr\>	^Professioneel<adj><attr>$
       9 #Plotseling\<adj\>\<sint\>\<pred\>	^Plotseling<adj><sint><pred>$
-      9 #overvallen\<vblex\>\<sep\>\<inf\>	^overvallen<vblex><sep><inf>$
-      9 #oplopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^oplopen<vblex><sep><fm><pres><p3><sg>$
-      9 #opgeven\<vblex\>\<sep\>\<inf\>	^opgeven<vblex><sep><inf>$
       9 #ontzaglijk\<adj\>\<sint\>\<pred\>	^ontzaglijk<adj><sint><pred>$
       9 #onschadelijk\<adj\>\<sint\>\<pred\>	^onschadelijk<adj><sint><pred>$
       9 #onmogelijk\<adj\>\<sint\>\<attr\>	^onmogelijk<adj><sint><attr>$
-      9 #onderstellen\<vblex\>\<sep\>\<inf\>	^onderstellen<vblex><sep><inf>$
       9 #ogenschijnlijk\<adj\>\<sint\>\<attr\>	^ogenschijnlijk<adj><sint><attr>$
       9 #meesterlijk\<adj\>\<sint\>\<pred\>	^meesterlijk<adj><sint><pred>$
-      9 #inhouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inhouden<vblex><sep><fm><pres><p3><sg>$
       9 #inert\<adj\>\<attr\>	^inert<adj><attr>$
-      9 #inbouwen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inbouwen<vblex><sep><fm><pres><p3><sg>$
       9 #heteroseksueel\<adj\>\<pred\>	^heteroseksueel<adj><pred>$
       9 #gevaarlijk\<adj\>\<sint\>\<sup\>\<attr\>	^gevaarlijk<adj><sint><sup><attr>$
       9 #foutief\<adj\>\<attr\>	^foutief<adj><attr>$
@@ -795,39 +449,22 @@ Tag mismatch between transfer and generation
       9 #Electrisch\<adj\>\<sint\>\<attr\>	^Electrisch<adj><sint><attr>$
       9 #benaderd\<adj\>\<sint\>\<pred\>	^benaderd<adj><sint><pred>$
       8 #wonderlijk\<adj\>\<sint\>\<pred\>	^wonderlijk<adj><sint><pred>$
-      8 #wegdrijven\<vblex\>\<sep\>\<pp\>	^wegdrijven<vblex><sep><pp>$
       8 #Weens\<adj\>\<sint\>\<attr\>	^Weens<adj><sint><attr>$
       8 #waarschijnlijk\<adj\>\<sint\>\<attr\>	^waarschijnlijk<adj><sint><attr>$
       8 #verzoenbaar\<adj\>\<sint\>\<attr\>	^verzoenbaar<adj><sint><attr>$
       8 #verstandelijk\<adj\>\<sint\>\<attr\>	^verstandelijk<adj><sint><attr>$
       8 #vernietigend\<adj\>\<sint\>\<attr\>	^vernietigend<adj><sint><attr>$
       8 #vermoord\<adj\>\<sint\>\<attr\>	^vermoord<adj><sint><attr>$
-      8 #uitdrijven\<vblex\>\<sep\>\<pp\>	^uitdrijven<vblex><sep><pp>$
-      8 #toekijken\<vblex\>\<sep\>\<inf\>	^toekijken<vblex><sep><inf>$
-      8 #terughouden\<vblex\>\<sep\>\<pp\>	^terughouden<vblex><sep><pp>$
       8 #statuair\<adj\>\<sint\>\<attr\>	^statuair<adj><sint><attr>$
       8 #seizoensgevoelig\<adj\>\<sint\>\<attr\>	^seizoensgevoelig<adj><sint><attr>$
-      8 #rooskleurig\<adj\>\<sint\>\<pred\>	^rooskleurig<adj><sint><pred>$
       8 #rethorisch\<adj\>\<sint\>\<pred\>	^rethorisch<adj><sint><pred>$
       8 #respectievelijk\<adj\>\<sint\>\<attr\>	^respectievelijk<adj><sint><attr>$
-      8 #overtrekken\<vblex\>\<sep\>\<pp\>	^overtrekken<vblex><sep><pp>$
-      8 #opgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opgaan<vblex><sep><fm><pres><p3><sg>$
       8 #onnatuurlijk\<adj\>\<sint\>\<pred\>	^onnatuurlijk<adj><sint><pred>$
-      8 #Onderrichten\<vblex\>\<inf\>	^Onderrichten<vblex><inf>$
-      8 #onderleggen\<vblex\>\<sep\>\<inf\>	^onderleggen<vblex><sep><inf>$
-      8 #omtrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omtrekken<vblex><sep><fm><pres><p3><sg>$
-      8 #omgeven\<vblex\>\<sep\>\<inf\>	^omgeven<vblex><sep><inf>$
       8 #mystiek\<adj\>\<sint\>\<pred\>	^mystiek<adj><sint><pred>$
       8 #mystiek\<adj\>\<sint\>\<attr\>	^mystiek<adj><sint><attr>$
-      8 #mars\<n\>\<m\>\<sg\>	^mars<n><m><sg>$
       8 #makkelijk\<adj\>\<sint\>\<sup\>\<attr\>	^makkelijk<adj><sint><sup><attr>$
       8 #levensgevaarlijk\<adj\>\<sint\>\<pred\>	^levensgevaarlijk<adj><sint><pred>$
       8 #latent\<adj\>\<pred\>	^latent<adj><pred>$
-      8 #inwerken\<vblex\>\<sep\>\<pp\>	^inwerken<vblex><sep><pp>$
-      8 #invoegen\<vblex\>\<sep\>\<inf\>	^invoegen<vblex><sep><inf>$
-      8 #inpassen\<vblex\>\<sep\>\<inf\>	^inpassen<vblex><sep><inf>$
-      8 #inhalen\<vblex\>\<sep\>\<pp\>	^inhalen<vblex><sep><pp>$
-      8 #ingooien\<vblex\>\<sep\>\<pp\>	^ingooien<vblex><sep><pp>$
       8 #ijverig\<adj\>\<sint\>\<attr\>	^ijverig<adj><sint><attr>$
       8 #homoseksueel\<adj\>\<attr\>	^homoseksueel<adj><attr>$
       8 #Geografisch\<adj\>\<sint\>\<pred\>	^Geografisch<adj><sint><pred>$
@@ -841,133 +478,64 @@ Tag mismatch between transfer and generation
       8 #bemand\<adj\>\<sint\>\<attr\>	^bemand<adj><sint><attr>$
       8 #Alternatievelijk\<adj\>\<sint\>\<pred\>	^Alternatievelijk<adj><sint><pred>$
       8 #alkalisch\<adj\>\<sint\>\<pred\>	^alkalisch<adj><sint><pred>$
-      8 #afwijken\<vblex\>\<sep\>\<pp\>	^afwijken<vblex><sep><pp>$
-      8 #aflossen\<vblex\>\<sep\>\<inf\>	^aflossen<vblex><sep><inf>$
       8 #aanstekelijk\<adj\>\<sint\>\<pred\>	^aanstekelijk<adj><sint><pred>$
-      8 #aanranden\<vblex\>\<sep\>\<pp\>	^aanranden<vblex><sep><pp>$
-      8 #aankondigen\<vblex\>\<sep\>\<inf\>	^aankondigen<vblex><sep><inf>$
       7 #zondig\<adj\>\<sint\>\<pred\>	^zondig<adj><sint><pred>$
-      7 #wegtrekken\<vblex\>\<sep\>\<inf\>	^wegtrekken<vblex><sep><inf>$
-      7 #wegnemen\<vblex\>\<sep\>\<inf\>	^wegnemen<vblex><sep><inf>$
       7 #vrolijk\<adj\>\<sint\>\<attr\>	^vrolijk<adj><sint><attr>$
-      7 #voorlopen\<vblex\>\<sep\>\<pp\>	^voorlopen<vblex><sep><pp>$
-      7 #uittrekken\<vblex\>\<sep\>\<pp\>	^uittrekken<vblex><sep><pp>$
-      7 #uitstaan\<vblex\>\<sep\>\<inf\>	^uitstaan<vblex><sep><inf>$
-      7 #uitkijken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitkijken<vblex><sep><fm><pres><p3><sg>$
-      7 #uithouden\<vblex\>\<sep\>\<pp\>	^uithouden<vblex><sep><pp>$
       7 #toegewijd\<adj\>\<sint\>\<attr\>	^toegewijd<adj><sint><attr>$
       7 #thermodynamisch\<adj\>\<sint\>\<pred\>	^thermodynamisch<adj><sint><pred>$
-      7 #terugnemen\<vblex\>\<sep\>\<inf\>	^terugnemen<vblex><sep><inf>$
       7 #systematisch\<adj\>\<sint\>\<attr\>	^systematisch<adj><sint><attr>$
-      7 #stadig\<adj\>\<sint\>\<comp\>\<attr\>	^stadig<adj><sint><comp><attr>$
       7 #polair\<adj\>\<sint\>\<attr\>	^polair<adj><sint><attr>$
       7 #Permanent\<adj\>\<attr\>	^Permanent<adj><attr>$
       7 #passievol\<adj\>\<sint\>\<pred\>	^passievol<adj><sint><pred>$
-      7 #overspoelen\<vblex\>\<sep\>\<inf\>	^overspoelen<vblex><sep><inf>$
-      7 #overnemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overnemen<vblex><sep><fm><pres><p3><sg>$
-      7 #opstaan\<vblex\>\<sep\>\<inf\>	^opstaan<vblex><sep><inf>$
-      7 #opgeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opgeven<vblex><sep><fm><pres><p3><sg>$
-      7 #Oost\<adj\>\<pred\>	^Oost<adj><pred>$
-      7 #oost\<adj\>\<pred\>	^oost<adj><pred>$
-      7 #onvolledig\<adj\>\<sint\>\<pred\>	^onvolledig<adj><sint><pred>$
       7 #onontbeerlijk\<adj\>\<sint\>\<pred\>	^onontbeerlijk<adj><sint><pred>$
       7 #onnatuurlijk\<adj\>\<sint\>\<attr\>	^onnatuurlijk<adj><sint><attr>$
       7 #onlosmakelijk\<adj\>\<sint\>\<pred\>	^onlosmakelijk<adj><sint><pred>$
-      7 #ongewild\<adj\>\<sint\>\<attr\>	^ongewild<adj><sint><attr>$
       7 #onbewegelijk\<adj\>\<sint\>\<pred\>	^onbewegelijk<adj><sint><pred>$
-      7 #omlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omlopen<vblex><sep><fm><pres><p3><sg>$
       7 #Mogelijk\<adj\>\<sint\>\<attr\>	^Mogelijk<adj><sint><attr>$
-      7 #Min\<adj\>\<sint\>\<comp\>\<pred\>	^Min<adj><sint><comp><pred>$
       7 #makkelijk\<adj\>\<sint\>\<comp\>\<attr\>	^makkelijk<adj><sint><comp><attr>$
       7 #kwalitatief\<adj\>\<pred\>	^kwalitatief<adj><pred>$
       7 #kubisch\<adj\>\<sint\>\<pred\>	^kubisch<adj><sint><pred>$
       7 #intuïtief\<adj\>\<pred\>	^intuïtief<adj><pred>$
-      7 #inplanteren\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inplanteren<vblex><sep><fm><pres><p3><sg>$
-      7 #inkijken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inkijken<vblex><sep><fm><pres><p3><sg>$
-      7 #ingeven\<vblex\>\<sep\>\<pp\>	^ingeven<vblex><sep><pp>$
-      7 #inbrengen\<vblex\>\<sep\>\<inf\>	^inbrengen<vblex><sep><inf>$
       7 #inactief\<adj\>\<sint\>\<pred\>	^inactief<adj><sint><pred>$
       7 #ijzig\<adj\>\<sint\>\<pred\>	^ijzig<adj><sint><pred>$
       7 #heimelijk\<adj\>\<sint\>\<pred\>	^heimelijk<adj><sint><pred>$
       7 #goud\<adj\>\<sint\>\<comp\>\<pred\>	^goud<adj><sint><comp><pred>$
       7 #Fonetisch\<adj\>\<sint\>\<attr\>	^Fonetisch<adj><sint><attr>$
-      7 #Familie\<adj\>\<sint\>\<pred\>	^Familie<adj><sint><pred>$
       7 #empirisch\<adj\>\<sint\>\<pred\>	^empirisch<adj><sint><pred>$
-      7 #datief\<adj\>\<pred\>	^datief<adj><pred>$
       7 #behoudend\<adj\>\<sint\>\<attr\>	^behoudend<adj><sint><attr>$
       7 #behendig\<adj\>\<sint\>\<pred\>	^behendig<adj><sint><pred>$
       7 #bedekt\<adj\>\<sint\>\<pred\>	^bedekt<adj><sint><pred>$
       7 #apostelijk\<adj\>\<sint\>\<pred\>	^apostelijk<adj><sint><pred>$
       7 #alkalisch\<adj\>\<sint\>\<attr\>	^alkalisch<adj><sint><attr>$
-      7 #aftreden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aftreden<vblex><sep><fm><pres><p3><sg>$
-      7 #afsnijden\<vblex\>\<sep\>\<inf\>	^afsnijden<vblex><sep><inf>$
       7 #Aanzienlijk\<adj\>\<sint\>\<attr\>	^Aanzienlijk<adj><sint><attr>$
-      7 #aantreffen\<vblex\>\<sep\>\<inf\>	^aantreffen<vblex><sep><inf>$
       7 #aanstotelijk\<adj\>\<sint\>\<pred\>	^aanstotelijk<adj><sint><pred>$
-      7 #aanroepen\<vblex\>\<sep\>\<pp\>	^aanroepen<vblex><sep><pp>$
-      7 #aanhouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanhouden<vblex><sep><fm><pres><p3><sg>$
-      7 #aandrijven\<vblex\>\<sep\>\<inf\>	^aandrijven<vblex><sep><inf>$
       6 #wezenlijk\<adj\>\<sint\>\<attr\>	^wezenlijk<adj><sint><attr>$
-      6 #wegspoelen\<vblex\>\<sep\>\<pp\>	^wegspoelen<vblex><sep><pp>$
-      6 #wegrennen\<vblex\>\<sep\>\<inf\>	^wegrennen<vblex><sep><inf>$
-      6 #wegdoen\<vblex\>\<sep\>\<inf\>	^wegdoen<vblex><sep><inf>$
-      6 #weelderig\<adj\>\<sint\>\<attr\>	^weelderig<adj><sint><attr>$
       6 #waanzinnig\<adj\>\<sint\>\<pred\>	^waanzinnig<adj><sint><pred>$
-      6 #voorvallen\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^voorvallen<vblex><sep><fs><pres><p3><sg>$
       6 #voortijdig\<adj\>\<sint\>\<pred\>	^voortijdig<adj><sint><pred>$
-      6 #voorstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorstaan<vblex><sep><fm><pres><p3><sg>$
       6 #Voormalig\<adj\>\<pred\>	^Voormalig<adj><pred>$
-      6 #voordoen\<vblex\>\<sep\>\<inf\>	^voordoen<vblex><sep><inf>$
       6 #vocaal\<adj\>\<sint\>\<attr\>	^vocaal<adj><sint><attr>$
-      6 #veilig\<adj\>\<sint\>\<sup\>\<pred\>	^veilig<adj><sint><sup><pred>$
-      6 #uitvallen\<vblex\>\<sep\>\<inf\>	^uitvallen<vblex><sep><inf>$
-      6 #uittreden\<vblex\>\<sep\>\<inf\>	^uittreden<vblex><sep><inf>$
-      6 #uittreden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uittreden<vblex><sep><fm><pres><p3><sg>$
-      6 #uitschrijven\<vblex\>\<sep\>\<pp\>	^uitschrijven<vblex><sep><pp>$
-      6 #uitklimmen\<vblex\>\<sep\>\<pp\>	^uitklimmen<vblex><sep><pp>$
       6 #uitdrukkelijk\<adj\>\<sint\>\<attr\>	^uitdrukkelijk<adj><sint><attr>$
-      6 #toetreden\<vblex\>\<sep\>\<inf\>	^toetreden<vblex><sep><inf>$
-      6 #toegooien\<vblex\>\<sep\>\<pp\>	^toegooien<vblex><sep><pp>$
       6 #toeganglijk\<adj\>\<sint\>\<attr\>	^toeganglijk<adj><sint><attr>$
-      6 #terugkrijgen\<vblex\>\<sep\>\<inf\>	^terugkrijgen<vblex><sep><inf>$
-      6 #taai\<adj\>\<sint\>\<attr\>	^taai<adj><sint><attr>$
       6 #sterfelijk\<adj\>\<sint\>\<attr\>	^sterfelijk<adj><sint><attr>$
       6 #Specifiek\<adj\>\<sint\>\<pred\>	^Specifiek<adj><sint><pred>$
-      6 #samen\<adj\>\<pred\>	^samen<adj><pred>$
       6 #pijlijk\<adj\>\<sint\>\<pred\>	^pijlijk<adj><sint><pred>$
       6 #phylogenetisch\<adj\>\<sint\>\<pred\>	^phylogenetisch<adj><sint><pred>$
-      6 #overlopen\<vblex\>\<sep\>\<inf\>	^overlopen<vblex><sep><inf>$
-      6 #overblijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overblijven<vblex><sep><fm><pres><p3><sg>$
       6 #opzichtelijk\<adj\>\<sint\>\<pred\>	^opzichtelijk<adj><sint><pred>$
       6 #opwindend\<adj\>\<sint\>\<pred\>	^opwindend<adj><sint><pred>$
       6 #opwindend\<adj\>\<sint\>\<attr\>	^opwindend<adj><sint><attr>$
-      6 #opdoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opdoen<vblex><sep><fm><pres><p3><sg>$
       6 #onvoltooid\<adj\>\<attr\>	^onvoltooid<adj><attr>$
       6 #ontoegankelijk\<adj\>\<sint\>\<pred\>	^ontoegankelijk<adj><sint><pred>$
       6 #onsterfelijk\<adj\>\<sint\>\<attr\>	^onsterfelijk<adj><sint><attr>$
       6 #onrealistisch\<adj\>\<sint\>\<pred\>	^onrealistisch<adj><sint><pred>$
       6 #Onmiddellijk\<adj\>\<sint\>\<pred\>	^Onmiddellijk<adj><sint><pred>$
       6 #onduidelijk\<adj\>\<sint\>\<attr\>	^onduidelijk<adj><sint><attr>$
-      6 #onderleggen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderleggen<vblex><sep><fm><pres><p3><sg>$
-      6 #omgeven\<vblex\>\<sep\>\<pp\>	^omgeven<vblex><sep><pp>$
-      6 #omgaan\<vblex\>\<sep\>\<inf\>	^omgaan<vblex><sep><inf>$
-      6 #neerkijken\<vblex\>\<sep\>\<pp\>	^neerkijken<vblex><sep><pp>$
       6 #moedig\<adj\>\<attr\>	^moedig<adj><attr>$
-      6 #minderheidsgroep\<n\>\<mf\>\<pl\>	^minderheidsgroep<n><mf><pl>$
       6 #Mannelijk\<adj\>\<sint\>\<pred\>	^Mannelijk<adj><sint><pred>$
       6 #locatief\<adj\>\<sint\>\<pred\>	^locatief<adj><sint><pred>$
       6 #krachtig\<adj\>\<sint\>\<sup\>\<attr\>	^krachtig<adj><sint><sup><attr>$
       6 #Kenmerkend\<adj\>\<attr\>	^Kenmerkend<adj><attr>$
-      6 #intreden\<vblex\>\<sep\>\<pp\>	^intreden<vblex><sep><pp>$
-      6 #intreden\<vblex\>\<sep\>\<inf\>	^intreden<vblex><sep><inf>$
-      6 #intekenen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^intekenen<vblex><sep><fm><pres><p3><sg>$
-      6 #insnijden\<vblex\>\<sep\>\<pp\>	^insnijden<vblex><sep><pp>$
-      6 #inlaten\<vblex\>\<sep\>\<pp\>	^inlaten<vblex><sep><pp>$
-      6 #Inhouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Inhouden<vblex><sep><fm><pres><p3><sg>$
-      6 #ingaan\<vblex\>\<sep\>\<pp\>	^ingaan<vblex><sep><pp>$
       6 #inert\<adj\>\<pred\>	^inert<adj><pred>$
       6 #Individueel\<adj\>\<pred\>	^Individueel<adj><pred>$
-      6 #inbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inbreken<vblex><sep><fm><pres><p3><sg>$
       6 #imperialistisch\<adj\>\<sint\>\<attr\>	^imperialistisch<adj><sint><attr>$
       6 #ijzig\<adj\>\<sint\>\<attr\>	^ijzig<adj><sint><attr>$
       6 #herhaaldelijk\<adj\>\<sint\>\<attr\>	^herhaaldelijk<adj><sint><attr>$
@@ -976,124 +544,52 @@ Tag mismatch between transfer and generation
       6 #gevoelig\<adj\>\<sint\>\<attr\>	^gevoelig<adj><sint><attr>$
       6 #gemakkelijk\<adj\>\<sint\>\<attr\>	^gemakkelijk<adj><sint><attr>$
       6 #Finaal\<adj\>\<pred\>	^Finaal<adj><pred>$
-      6 #doortrekken\<vblex\>\<sep\>\<inf\>	^doortrekken<vblex><sep><inf>$
-      6 #doeltreffend\<adj\>\<sint\>\<comp\>\<pred\>	^doeltreffend<adj><sint><comp><pred>$
       6 #definitief\<adj\>\<pred\>	^definitief<adj><pred>$
       6 #cursief\<adj\>\<sint\>\<pred\>	^cursief<adj><sint><pred>$
       6 #blinkend\<adj\>\<sint\>\<attr\>	^blinkend<adj><sint><attr>$
       6 #bedekt\<adj\>\<sint\>\<attr\>	^bedekt<adj><sint><attr>$
       6 #Basisch\<adj\>\<sint\>\<pred\>	^Basisch<adj><sint><pred>$
-      6 #afstellen\<vblex\>\<sep\>\<pp\>	^afstellen<vblex><sep><pp>$
-      6 #afgooien\<vblex\>\<sep\>\<pp\>	^afgooien<vblex><sep><pp>$
-      6 #achternazitten\<vblex\>\<sep\>\<pp\>	^achternazitten<vblex><sep><pp>$
-      6 #aanplanten\<vblex\>\<sep\>\<inf\>	^aanplanten<vblex><sep><inf>$
-      6 #aangaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aangaan<vblex><sep><fm><pres><p3><sg>$
-      5 #winderig\<adj\>\<sint\>\<pred\>	^winderig<adj><sint><pred>$
-      5 #winderig\<adj\>\<sint\>\<attr\>	^winderig<adj><sint><attr>$
-      5 #wegrijden\<vblex\>\<sep\>\<inf\>	^wegrijden<vblex><sep><inf>$
-      5 #weglopen\<vblex\>\<sep\>\<pp\>	^weglopen<vblex><sep><pp>$
-      5 #waardig\<adj\>\<sint\>\<attr\>	^waardig<adj><sint><attr>$
       5 #Waanzinnig\<adj\>\<sint\>\<pred\>	^Waanzinnig<adj><sint><pred>$
-      5 #Voorteffelijk\<adj\>\<sint\>\<attr\>	^Voorteffelijk<adj><sint><attr>$
       5 #Verwant\<adj\>\<attr\>	^Verwant<adj><attr>$
       5 #vergankelijk\<adj\>\<sint\>\<pred\>	^vergankelijk<adj><sint><pred>$
-      5 #uittreden\<vblex\>\<sep\>\<pp\>	^uittreden<vblex><sep><pp>$
-      5 #uitnemen\<vblex\>\<sep\>\<pp\>	^uitnemen<vblex><sep><pp>$
-      5 #uitkloppen\<vblex\>\<sep\>\<inf\>	^uitkloppen<vblex><sep><inf>$
-      5 #Toevoeren\<vblex\>\<sep\>\<inf\>	^Toevoeren<vblex><sep><inf>$
-      5 #toeleggen\<vblex\>\<sep\>\<pp\>	^toeleggen<vblex><sep><pp>$
-      5 #terugvinden\<vblex\>\<sep\>\<pp\>	^terugvinden<vblex><sep><pp>$
-      5 #terugkopen\<vblex\>\<sep\>\<pp\>	^terugkopen<vblex><sep><pp>$
-      5 #teruggaan\<vblex\>\<sep\>\<pp\>	^teruggaan<vblex><sep><pp>$
       5 #talrijk\<adj\>\<sint\>\<attr\>	^talrijk<adj><sint><attr>$
       5 #Syntetisch\<adj\>\<sint\>\<attr\>	^Syntetisch<adj><sint><attr>$
       5 #substantief\<adj\>\<sint\>\<pred\>	^substantief<adj><sint><pred>$
       5 #statuair\<adj\>\<sint\>\<pred\>	^statuair<adj><sint><pred>$
       5 #speculatief\<adj\>\<sint\>\<pred\>	^speculatief<adj><sint><pred>$
       5 #speculatief\<adj\>\<sint\>\<attr\>	^speculatief<adj><sint><attr>$
-      5 #rustig\<adj\>\<sint\>\<comp\>\<pred\>	^rustig<adj><sint><comp><pred>$
-      5 #Rivier\<n\>\<mf\>\<pl\>	^Rivier<n><mf><pl>$
-      5 #overgeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overgeven<vblex><sep><fm><pres><p3><sg>$
       5 #ordentelijk\<adj\>\<sint\>\<pred\>	^ordentelijk<adj><sint><pred>$
       5 #ordentelijk\<adj\>\<sint\>\<attr\>	^ordentelijk<adj><sint><attr>$
-      5 #opvallen\<vblex\>\<sep\>\<pp\>	^opvallen<vblex><sep><pp>$
-      5 #opschrijven\<vblex\>\<sep\>\<inf\>	^opschrijven<vblex><sep><inf>$
-      5 #oppassne\<vblex\>\<sep\>\<inf\>	^oppassne<vblex><sep><inf>$
-      5 #oppassne\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^oppassne<vblex><sep><fm><pres><p3><sg>$
-      5 #oplopen\<vblex\>\<sep\>\<inf\>	^oplopen<vblex><sep><inf>$
-      5 #opkopen\<vblex\>\<sep\>\<pp\>	^opkopen<vblex><sep><pp>$
       5 #ontoegankelijk\<adj\>\<sint\>\<attr\>	^ontoegankelijk<adj><sint><attr>$
-      5 #onderbouwen\<vblex\>\<sep\>\<inf\>	^onderbouwen<vblex><sep><inf>$
-      5 #omhalen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omhalen<vblex><sep><fm><pres><p3><sg>$
-      5 #omgaan\<vblex\>\<sep\>\<pp\>	^omgaan<vblex><sep><pp>$
       5 #meesterlijk\<adj\>\<sint\>\<attr\>	^meesterlijk<adj><sint><attr>$
       5 #liefdevol\<adj\>\<pred\>	^liefdevol<adj><pred>$
       5 #lichtelijk\<adj\>\<sint\>\<pred\>	^lichtelijk<adj><sint><pred>$
       5 #lelijk\<adj\>\<sint\>\<attr\>	^lelijk<adj><sint><attr>$
-      5 #inschrijven\<vblex\>\<sep\>\<inf\>	^inschrijven<vblex><sep><inf>$
-      5 #inlopen\<vblex\>\<sep\>\<inf\>	^inlopen<vblex><sep><inf>$
       5 #inhoudelijk\<adj\>\<sint\>\<pred\>	^inhoudelijk<adj><sint><pred>$
-      5 #ingooien\<vblex\>\<sep\>\<inf\>	^ingooien<vblex><sep><inf>$
       5 #Individueel\<adj\>\<attr\>	^Individueel<adj><attr>$
-      5 #inbrengen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inbrengen<vblex><sep><fm><pres><p3><sg>$
       5 #inactief\<adj\>\<sint\>\<attr\>	^inactief<adj><sint><attr>$
       5 #imperialistisch\<adj\>\<sint\>\<pred\>	^imperialistisch<adj><sint><pred>$
       5 #geestdriftig\<adj\>\<sint\>\<attr\>	^geestdriftig<adj><sint><attr>$
-      5 #ferm\<adj\>\<sint\>\<attr\>	^ferm<adj><sint><attr>$
       5 #ernstig\<adj\>\<sint\>\<sup\>\<attr\>	^ernstig<adj><sint><sup><attr>$
       5 #elektrolitisch\<adj\>\<sint\>\<pred\>	^elektrolitisch<adj><sint><pred>$
-      5 #doordringen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doordringen<vblex><sep><fm><pres><p3><sg>$
-      5 #doeltreffend\<adj\>\<sint\>\<comp\>\<attr\>	^doeltreffend<adj><sint><comp><attr>$
-      5 #Dinamisch\<adj\>\<sint\>\<pred\>	^Dinamisch<adj><sint><pred>$
       5 #depressief\<adj\>\<attr\>	^depressief<adj><attr>$
       5 #boosaardig\<adj\>\<pred\>	^boosaardig<adj><pred>$
       5 #Bloedig\<adj\>\<sint\>\<pred\>	^Bloedig<adj><sint><pred>$
       5 #Blinkend\<adj\>\<sint\>\<pred\>	^Blinkend<adj><sint><pred>$
       5 #bevorderlijk\<adj\>\<sint\>\<pred\>	^bevorderlijk<adj><sint><pred>$
       5 #beoordeeld\<adj\>\<sint\>\<pred\>	^beoordeeld<adj><sint><pred>$
-      5 #afvaardigen\<vblex\>\<sep\>\<pp\>	^afvaardigen<vblex><sep><pp>$
-      5 #afstormen\<vblex\>\<sep\>\<pp\>	^afstormen<vblex><sep><pp>$
-      5 #afspreken\<vblex\>\<sep\>\<pp\>	^afspreken<vblex><sep><pp>$
       5 #Administratief\<adj\>\<pred\>	^Administratief<adj><pred>$
       5 #Administratief\<adj\>\<attr\>	^Administratief<adj><attr>$
-      5 #aannemen\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^aannemen<vblex><sep><fm><pres><pl>$
-      5 #aandragen\<vblex\>\<sep\>\<inf\>	^aandragen<vblex><sep><inf>$
-      5 #aandragen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aandragen<vblex><sep><fm><pres><p3><sg>$
-      5 #aanblijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanblijven<vblex><sep><fm><pres><p3><sg>$
-      4 #Welvarend\<adj\>\<sint\>\<pred\>	^Welvarend<adj><sint><pred>$
-      4 #Welvarend\<adj\>\<sint\>\<attr\>	^Welvarend<adj><sint><attr>$
-      4 #wegvallen\<vblex\>\<sep\>\<inf\>	^wegvallen<vblex><sep><inf>$
-      4 #weghouden\<vblex\>\<sep\>\<pp\>	^weghouden<vblex><sep><pp>$
-      4 #weggaan\<vblex\>\<sep\>\<pp\>	^weggaan<vblex><sep><pp>$
-      4 #wegdragen\<vblex\>\<sep\>\<pp\>	^wegdragen<vblex><sep><pp>$
-      4 #wegblijven\<vblex\>\<sep\>\<pp\>	^wegblijven<vblex><sep><pp>$
-      4 #voorschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorschrijven<vblex><sep><fm><pres><p3><sg>$
-      4 #voornemen\<vblex\>\<sep\>\<pp\>	^voornemen<vblex><sep><pp>$
-      4 #voorhouden\<vblex\>\<sep\>\<inf\>	^voorhouden<vblex><sep><inf>$
       4 #Verwant\<adj\>\<pred\>	^Verwant<adj><pred>$
       4 #vermoedelijk\<adj\>\<sint\>\<attr\>	^vermoedelijk<adj><sint><attr>$
       4 #verdubbeld\<adj\>\<sint\>\<pred\>	^verdubbeld<adj><sint><pred>$
       4 #Veranderlijk\<adj\>\<sint\>\<pred\>	^Veranderlijk<adj><sint><pred>$
-      4 #veilig\<adj\>\<sint\>\<sup\>\<attr\>	^veilig<adj><sint><sup><attr>$
       4 #ultrasoon\<adj\>\<sint\>\<attr\>	^ultrasoon<adj><sint><attr>$
-      4 #uitwijzen\<vblex\>\<sep\>\<inf\>	^uitwijzen<vblex><sep><inf>$
-      4 #uitvaardigen\<vblex\>\<sep\>\<inf\>	^uitvaardigen<vblex><sep><inf>$
-      4 #uittekenen\<vblex\>\<sep\>\<pp\>	^uittekenen<vblex><sep><pp>$
-      4 #uitsterven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitsterven<vblex><sep><fm><pres><p3><sg>$
-      4 #uitplaatsen\<vblex\>\<sep\>\<pp\>	^uitplaatsen<vblex><sep><pp>$
-      4 #uitlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitlopen<vblex><sep><fm><pres><p3><sg>$
       4 #Uitgestrekt\<adj\>\<sint\>\<pred\>	^Uitgestrekt<adj><sint><pred>$
-      4 #uitdagend\<adj\>\<sint\>\<pred\>	^uitdagend<adj><sint><pred>$
       4 #toxisch\<adj\>\<sint\>\<attr\>	^toxisch<adj><sint><attr>$
-      4 #toelopen\<vblex\>\<sep\>\<inf\>	^toelopen<vblex><sep><inf>$
-      4 #toedelen\<vblex\>\<sep\>\<pp\>	^toedelen<vblex><sep><pp>$
       4 #Tertair\<adj\>\<sint\>\<attr\>	^Tertair<adj><sint><attr>$
-      4 #tegenstaan\<vblex\>\<sep\>\<inf\>	^tegenstaan<vblex><sep><inf>$
       4 #Technologisch\<adj\>\<sint\>\<pred\>	^Technologisch<adj><sint><pred>$
       4 #stevig\<adj\>\<sint\>\<comp\>\<attr\>	^stevig<adj><sint><comp><attr>$
-      4 #samennemen\<vblex\>\<sep\>\<inf\>	^samennemen<vblex><sep><inf>$
-      4 #samennemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samennemen<vblex><sep><fm><pres><p3><sg>$
-      4 #samenbrengen\<vblex\>\<sep\>\<inf\>	^samenbrengen<vblex><sep><inf>$
       4 #recessief\<adj\>\<sint\>\<attr\>	^recessief<adj><sint><attr>$
       4 #Publiek\<adj\>\<pred\>	^Publiek<adj><pred>$
       4 #Potentieel\<adj\>\<sint\>\<pred\>	^Potentieel<adj><sint><pred>$
@@ -1101,27 +597,15 @@ Tag mismatch between transfer and generation
       4 #Patriotisch\<adj\>\<sint\>\<attr\>	^Patriotisch<adj><sint><attr>$
       4 #passievol\<adj\>\<sint\>\<attr\>	^passievol<adj><sint><attr>$
       4 #Passief\<adj\>\<attr\>	^Passief<adj><attr>$
-      4 #overschrijven\<vblex\>\<sep\>\<pp\>	^overschrijven<vblex><sep><pp>$
       4 #Optioneel\<adj\>\<sint\>\<pred\>	^Optioneel<adj><sint><pred>$
-      4 #oppassne\<vblex\>\<sep\>\<pp\>	^oppassne<vblex><sep><pp>$
-      4 #opklimmen\<vblex\>\<sep\>\<pp\>	^opklimmen<vblex><sep><pp>$
-      4 #ophouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ophouden<vblex><sep><fm><pres><p3><sg>$
-      4 #opgooien\<vblex\>\<sep\>\<inf\>	^opgooien<vblex><sep><inf>$
-      4 #opbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opbreken<vblex><sep><fm><pres><p3><sg>$
       4 #onzinnig\<adj\>\<sint\>\<pred\>	^onzinnig<adj><sint><pred>$
-      4 #ongewild\<adj\>\<sint\>\<comp\>\<pred\>	^ongewild<adj><sint><comp><pred>$
       4 #ongeletterd\<adj\>\<attr\>	^ongeletterd<adj><attr>$
       4 #onbewust\<adj\>\<sint\>\<pred\>	^onbewust<adj><sint><pred>$
       4 #Onbekend\<adj\>\<pred\>	^Onbekend<adj><pred>$
       4 #Onbekend\<adj\>\<attr\>	^Onbekend<adj><attr>$
-      4 #omvatten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omvatten<vblex><sep><fm><pres><p3><sg>$
-      4 #omvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omvallen<vblex><sep><fm><pres><p3><sg>$
-      4 #omschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omschrijven<vblex><sep><fm><pres><p3><sg>$
-      4 #Omroepen\<vblex\>\<sep\>\<inf\>	^Omroepen<vblex><sep><inf>$
       4 #morfologisch\<adj\>\<sint\>\<pred\>	^morfologisch<adj><sint><pred>$
       4 #moeilijk\<adj\>\<sint\>\<sup\>\<pred\>	^moeilijk<adj><sint><sup><pred>$
       4 #moeilijk\<adj\>\<sint\>\<comp\>\<attr\>	^moeilijk<adj><sint><comp><attr>$
-      4 #Min\<adj\>\<sint\>\<comp\>\<attr\>	^Min<adj><sint><comp><attr>$
       4 #liefdevol\<adj\>\<attr\>	^liefdevol<adj><attr>$
       4 #Levend\<adj\>\<sint\>\<pred\>	^Levend<adj><sint><pred>$
       4 #lelijk\<adj\>\<sint\>\<sup\>\<attr\>	^lelijk<adj><sint><sup><attr>$
@@ -1132,84 +616,38 @@ Tag mismatch between transfer and generation
       4 #kubisch\<adj\>\<sint\>\<attr\>	^kubisch<adj><sint><attr>$
       4 #krachtig\<adj\>\<sint\>\<comp\>\<attr\>	^krachtig<adj><sint><comp><attr>$
       4 #jammerlijk\<adj\>\<sint\>\<pred\>	^jammerlijk<adj><sint><pred>$
-      4 #inrijden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inrijden<vblex><sep><fm><pres><p3><sg>$
-      4 #inpassen\<vblex\>\<sep\>\<pp\>	^inpassen<vblex><sep><pp>$
       4 #innig\<adj\>\<sint\>\<pred\>	^innig<adj><sint><pred>$
-      4 #inbreken\<vblex\>\<sep\>\<inf\>	^inbreken<vblex><sep><inf>$
       4 #Horizontaal\<adj\>\<sint\>\<pred\>	^Horizontaal<adj><sint><pred>$
       4 #herwonnen\<adj\>\<sint\>\<attr\>	^herwonnen<adj><sint><attr>$
       4 #gezouten\<adj\>\<sint\>\<attr\>	^gezouten<adj><sint><attr>$
       4 #gevaarlijk\<adj\>\<sint\>\<sup\>\<pred\>	^gevaarlijk<adj><sint><sup><pred>$
       4 #gelegerd\<adj\>\<sint\>\<pred\>	^gelegerd<adj><sint><pred>$
-      4 #ferm\<adj\>\<sint\>\<pred\>	^ferm<adj><sint><pred>$
       4 #ernstig\<adj\>\<sint\>\<comp\>\<pred\>	^ernstig<adj><sint><comp><pred>$
-      4 #doorgeven\<vblex\>\<sep\>\<pp\>	^doorgeven<vblex><sep><pp>$
-      4 #doorgaan\<vblex\>\<sep\>\<inf\>	^doorgaan<vblex><sep><inf>$
-      4 #doeltreffend\<adj\>\<sint\>\<sup\>\<pred\>	^doeltreffend<adj><sint><sup><pred>$
-      4 #Doeltreffend\<adj\>\<sint\>\<attr\>	^Doeltreffend<adj><sint><attr>$
       4 #Continentaal\<adj\>\<sint\>\<attr\>	^Continentaal<adj><sint><attr>$
       4 #bloedig\<adj\>\<sint\>\<sup\>\<pred\>	^bloedig<adj><sint><sup><pred>$
       4 #bloedig\<adj\>\<sint\>\<sup\>\<attr\>	^bloedig<adj><sint><sup><attr>$
       4 #bevredigend\<adj\>\<sint\>\<attr\>	^bevredigend<adj><sint><attr>$
-      4 #Bevolking\<n\>\<mf\>\<sg\>	^Bevolking<n><mf><sg>$
       4 #Basisch\<adj\>\<sint\>\<attr\>	^Basisch<adj><sint><attr>$
-      4 #afwenden\<vblex\>\<sep\>\<pp\>	^afwenden<vblex><sep><pp>$
-      4 #afsturen\<vblex\>\<sep\>\<pp\>	^afsturen<vblex><sep><pp>$
-      4 #afsterven\<vblex\>\<sep\>\<inf\>	^afsterven<vblex><sep><inf>$
-      4 #afnemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^afnemen<vblex><sep><fm><pres><p3><sg>$
-      4 #afdrijven\<vblex\>\<sep\>\<pp\>	^afdrijven<vblex><sep><pp>$
       4 #Aanvankelijk\<adj\>\<sint\>\<pred\>	^Aanvankelijk<adj><sint><pred>$
       4 #Aanvankelijk\<adj\>\<sint\>\<attr\>	^Aanvankelijk<adj><sint><attr>$
-      4 #aanblijven\<vblex\>\<sep\>\<inf\>	^aanblijven<vblex><sep><inf>$
       3 #Woedend\<adj\>\<sint\>\<pred\>	^Woedend<adj><sint><pred>$
       3 #Wiskundig\<adj\>\<pred\>	^Wiskundig<adj><pred>$
-      3 #welig\<adj\>\<sint\>\<pred\>	^welig<adj><sint><pred>$
-      3 #weggeven\<vblex\>\<sep\>\<inf\>	^weggeven<vblex><sep><inf>$
-      3 #weergeven\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^weergeven<vblex><sep><fm><pres><pl>$
       3 #wantrouwend\<adj\>\<sint\>\<pred\>	^wantrouwend<adj><sint><pred>$
-      3 #voorwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorwerken<vblex><sep><fm><pres><p3><sg>$
-      3 #voorteffelijk\<adj\>\<sint\>\<sup\>\<attr\>	^voorteffelijk<adj><sint><sup><attr>$
       3 #voorschriftelijk\<adj\>\<sint\>\<pred\>	^voorschriftelijk<adj><sint><pred>$
-      3 #voornemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voornemen<vblex><sep><fm><pres><p3><sg>$
-      3 #voorgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorgaan<vblex><sep><fm><pres><p3><sg>$
-      3 #voorblijven\<vblex\>\<sep\>\<inf\>	^voorblijven<vblex><sep><inf>$
       3 #vocatief\<adj\>\<sint\>\<pred\>	^vocatief<adj><sint><pred>$
-      3 #Vinnig\<adj\>\<sint\>\<pred\>	^Vinnig<adj><sint><pred>$
-      3 #Veilig\<adj\>\<sint\>\<pred\>	^Veilig<adj><sint><pred>$
-      3 #veilig\<adj\>\<sint\>\<comp\>\<attr\>	^veilig<adj><sint><comp><attr>$
-      3 #\<vblex\>\<sep\>\<inf\>	^<vblex><sep><inf>$
-      3 #uitwijken\<vblex\>\<sep\>\<inf\>	^uitwijken<vblex><sep><inf>$
-      3 #uittrekken\<vblex\>\<sep\>\<inf\>	^uittrekken<vblex><sep><inf>$
-      3 #uitstaan\<vblex\>\<sep\>\<pp\>	^uitstaan<vblex><sep><pp>$
-      3 #uitstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitstaan<vblex><sep><fm><pres><p3><sg>$
-      3 #uitsnijden\<vblex\>\<sep\>\<pp\>	^uitsnijden<vblex><sep><pp>$
-      3 #uitklimmen\<vblex\>\<sep\>\<inf\>	^uitklimmen<vblex><sep><inf>$
-      3 #uitdragen\<vblex\>\<sep\>\<pp\>	^uitdragen<vblex><sep><pp>$
-      3 #uitdragen\<vblex\>\<sep\>\<inf\>	^uitdragen<vblex><sep><inf>$
-      3 #uitdienen\<vblex\>\<sep\>\<inf\>	^uitdienen<vblex><sep><inf>$
       3 #treffend\<adj\>\<sint\>\<sup\>\<attr\>	^treffend<adj><sint><sup><attr>$
-      3 #toeschrijven\<vblex\>\<sep\>\<inf\>	^toeschrijven<vblex><sep><inf>$
-      3 #toeleggen\<vblex\>\<sep\>\<inf\>	^toeleggen<vblex><sep><inf>$
       3 #Tertair\<adj\>\<sint\>\<pred\>	^Tertair<adj><sint><pred>$
-      3 #tegenkomen\<vblex\>\<sep\>\<pp\>	^tegenkomen<vblex><sep><pp>$
-      3 #tegenkomen\<vblex\>\<sep\>\<inf\>	^tegenkomen<vblex><sep><inf>$
       3 #Technologisch\<adj\>\<sint\>\<attr\>	^Technologisch<adj><sint><attr>$
       3 #talentvol\<adj\>\<attr\>	^talentvol<adj><attr>$
       3 #stevig\<adj\>\<sint\>\<comp\>\<pred\>	^stevig<adj><sint><comp><pred>$
       3 #Specifiek\<adj\>\<sint\>\<attr\>	^Specifiek<adj><sint><attr>$
       3 #schematisch\<adj\>\<sint\>\<pred\>	^schematisch<adj><sint><pred>$
-      3 #samentrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samentrekken<vblex><sep><fm><pres><p3><sg>$
-      3 #rustig\<adj\>\<sint\>\<comp\>\<attr\>	^rustig<adj><sint><comp><attr>$
       3 #recessief\<adj\>\<sint\>\<pred\>	^recessief<adj><sint><pred>$
       3 #Professioneel\<adj\>\<pred\>	^Professioneel<adj><pred>$
       3 #proactief\<adj\>\<sint\>\<pred\>	^proactief<adj><sint><pred>$
       3 #perspectief\<adj\>\<sint\>\<attr\>	^perspectief<adj><sint><attr>$
       3 #Permanent\<adj\>\<pred\>	^Permanent<adj><pred>$
-      3 #overlaten\<vblex\>\<sep\>\<inf\>	^overlaten<vblex><sep><inf>$
-      3 #opzeggen\<vblex\>\<sep\>\<inf\>	^opzeggen<vblex><sep><inf>$
       3 #optioneel\<adj\>\<sint\>\<attr\>	^optioneel<adj><sint><attr>$
-      3 #Oproepen\<vblex\>\<sep\>\<inf\>	^Oproepen<vblex><sep><inf>$
-      3 #opkijken\<vblex\>\<sep\>\<inf\>	^opkijken<vblex><sep><inf>$
       3 #onwaarschijnlijk\<adj\>\<sint\>\<pred\>	^onwaarschijnlijk<adj><sint><pred>$
       3 #onvermijdelijk\<adj\>\<sint\>\<attr\>	^onvermijdelijk<adj><sint><attr>$
       3 #ontvankelijk\<adj\>\<sint\>\<pred\>	^ontvankelijk<adj><sint><pred>$
@@ -1217,13 +655,7 @@ Tag mismatch between transfer and generation
       3 #onrealistisch\<adj\>\<sint\>\<attr\>	^onrealistisch<adj><sint><attr>$
       3 #ongebruikelijk\<adj\>\<sint\>\<pred\>	^ongebruikelijk<adj><sint><pred>$
       3 #oneerlijk\<adj\>\<sint\>\<pred\>	^oneerlijk<adj><sint><pred>$
-      3 #ondervinden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ondervinden<vblex><sep><fm><pres><p3><sg>$
-      3 #onderspoelen\<vblex\>\<sep\>\<inf\>	^onderspoelen<vblex><sep><inf>$
       3 #onbewegelijk\<adj\>\<sint\>\<attr\>	^onbewegelijk<adj><sint><attr>$
-      3 #Omvattend\<adj\>\<sint\>\<pred\>	^Omvattend<adj><sint><pred>$
-      3 #omvallen\<vblex\>\<sep\>\<pp\>	^omvallen<vblex><sep><pp>$
-      3 #omrijden\<vblex\>\<sep\>\<pp\>	^omrijden<vblex><sep><pp>$
-      3 #omgooien\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omgooien<vblex><sep><fm><pres><p3><sg>$
       3 #Ogenschijnlijk\<adj\>\<sint\>\<pred\>	^Ogenschijnlijk<adj><sint><pred>$
       3 #oceanografisch\<adj\>\<sint\>\<attr\>	^oceanografisch<adj><sint><attr>$
       3 #Nomadisch\<adj\>\<sint\>\<pred\>	^Nomadisch<adj><sint><pred>$
@@ -1233,15 +665,8 @@ Tag mismatch between transfer and generation
       3 #Levend\<adj\>\<sint\>\<attr\>	^Levend<adj><sint><attr>$
       3 #isotropisch\<adj\>\<sint\>\<pred\>	^isotropisch<adj><sint><pred>$
       3 #Intensief\<adj\>\<pred\>	^Intensief<adj><pred>$
-      3 #insturen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^insturen<vblex><sep><fm><pres><p3><sg>$
-      3 #inlaten\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^inlaten<vblex><sep><fs><pres><p3><sg>$
-      3 #inkopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^inkopen<vblex><sep><fm><pres><p3><sg>$
-      3 #inkeren\<vblex\>\<sep\>\<inf\>	^inkeren<vblex><sep><inf>$
       3 #inhoudelijk\<adj\>\<sint\>\<attr\>	^inhoudelijk<adj><sint><attr>$
       3 #inherent\<adj\>\<attr\>	^inherent<adj><attr>$
-      3 #ingeven\<vblex\>\<sep\>\<inf\>	^ingeven<vblex><sep><inf>$
-      3 #indrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^indrijven<vblex><sep><fm><pres><p3><sg>$
-      3 #inbreken\<vblex\>\<sep\>\<pp\>	^inbreken<vblex><sep><pp>$
       3 #heteroseksueel\<adj\>\<attr\>	^heteroseksueel<adj><attr>$
       3 #herwonnen\<adj\>\<sint\>\<pred\>	^herwonnen<adj><sint><pred>$
       3 #Gevaarlijk\<adj\>\<sint\>\<attr\>	^Gevaarlijk<adj><sint><attr>$
@@ -1249,136 +674,56 @@ Tag mismatch between transfer and generation
       3 #geplaatst\<adj\>\<sint\>\<attr\>	^geplaatst<adj><sint><attr>$
       3 #geordend\<adj\>\<sint\>\<pred\>	^geordend<adj><sint><pred>$
       3 #Foutief\<adj\>\<pred\>	^Foutief<adj><pred>$
-      3 #doortrekken\<vblex\>\<sep\>\<pp\>	^doortrekken<vblex><sep><pp>$
-      3 #doorbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorbreken<vblex><sep><fm><pres><p3><sg>$
       3 #digestief\<adj\>\<pred\>	^digestief<adj><pred>$
       3 #daadwerkelijk\<adj\>\<sint\>\<attr\>	^daadwerkelijk<adj><sint><attr>$
       3 #cursief\<adj\>\<sint\>\<attr\>	^cursief<adj><sint><attr>$
       3 #Bruin\<adj\>\<pred\>	^Bruin<adj><pred>$
       3 #Bruin\<adj\>\<attr\>	^Bruin<adj><attr>$
-      3 #breedvoerig\<adj\>\<sint\>\<attr\>	^breedvoerig<adj><sint><attr>$
       3 #Bloedig\<adj\>\<sint\>\<attr\>	^Bloedig<adj><sint><attr>$
       3 #bezwaarlijk\<adj\>\<sint\>\<pred\>	^bezwaarlijk<adj><sint><pred>$
       3 #bewust\<adj\>\<sint\>\<attr\>	^bewust<adj><sint><attr>$
-      3 #bevolking\<n\>\<mf\>\<sg\>\<cmp\>	^bevolking<n><mf><sg><cmp>$
       3 #bevaarbaar\<adj\>\<attr\>	^bevaarbaar<adj><attr>$
       3 #benaderd\<adj\>\<sint\>\<attr\>	^benaderd<adj><sint><attr>$
       3 #bedrijvig\<adj\>\<sint\>\<attr\>	^bedrijvig<adj><sint><attr>$
       3 #apostelijk\<adj\>\<sint\>\<attr\>	^apostelijk<adj><sint><attr>$
       3 #Afzonderlijk\<adj\>\<sint\>\<pred\>	^Afzonderlijk<adj><sint><pred>$
-      3 #afzeggen\<vblex\>\<sep\>\<pp\>	^afzeggen<vblex><sep><pp>$
-      3 #aflossen\<vblex\>\<sep\>\<pp\>	^aflossen<vblex><sep><pp>$
-      3 #afkondigen\<vblex\>\<sep\>\<inf\>	^afkondigen<vblex><sep><inf>$
-      3 #afklimmen\<vblex\>\<sep\>\<inf\>	^afklimmen<vblex><sep><inf>$
       3 #Afhankelijk\<adj\>\<sint\>\<attr\>	^Afhankelijk<adj><sint><attr>$
-      3 #afgaan\<vblex\>\<sep\>\<pp\>	^afgaan<vblex><sep><pp>$
       3 #Aanzienlijk\<adj\>\<sint\>\<pred\>	^Aanzienlijk<adj><sint><pred>$
-      3 #aantreden\<vblex\>\<sep\>\<pp\>	^aantreden<vblex><sep><pp>$
-      3 #aanschrijven\<vblex\>\<sep\>\<pp\>	^aanschrijven<vblex><sep><pp>$
-      3 #aanrijden\<vblex\>\<sep\>\<pp\>	^aanrijden<vblex><sep><pp>$
-      3 #aannemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p1\>\<sg\>	^aannemen<vblex><sep><fm><pres><p1><sg>$
-      3 #aanlokken\<vblex\>\<sep\>\<pp\>	^aanlokken<vblex><sep><pp>$
-      3 #aanbouwen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanbouwen<vblex><sep><fm><pres><p3><sg>$
       2 #zondig\<adj\>\<sint\>\<attr\>	^zondig<adj><sint><attr>$
       2 #Woedend\<adj\>\<sint\>\<attr\>	^Woedend<adj><sint><attr>$
       2 #Wiskundig\<adj\>\<attr\>	^Wiskundig<adj><attr>$
       2 #winstgevend\<adj\>\<sint\>\<comp\>\<pred\>	^winstgevend<adj><sint><comp><pred>$
       2 #Wekelijks\<adj\>\<sint\>\<pred\>	^Wekelijks<adj><sint><pred>$
-      2 #wegvallen\<vblex\>\<sep\>\<pp\>	^wegvallen<vblex><sep><pp>$
-      2 #wegschrijven\<vblex\>\<sep\>\<inf\>	^wegschrijven<vblex><sep><inf>$
-      2 #wegrennen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^wegrennen<vblex><sep><fm><pres><p3><sg>$
-      2 #weglopen\<vblex\>\<sep\>\<inf\>	^weglopen<vblex><sep><inf>$
-      2 #wegdrijven\<vblex\>\<sep\>\<inf\>	^wegdrijven<vblex><sep><inf>$
-      2 #wegdragen\<vblex\>\<sep\>\<inf\>	^wegdragen<vblex><sep><inf>$
-      2 #wegbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^wegbreken<vblex><sep><fm><pres><p3><sg>$
-      2 #wegblijven\<vblex\>\<sep\>\<inf\>	^wegblijven<vblex><sep><inf>$
       2 #waterrijk\<adj\>\<sint\>\<sup\>\<pred\>	^waterrijk<adj><sint><sup><pred>$
       2 #waterrijk\<adj\>\<sint\>\<pred\>	^waterrijk<adj><sint><pred>$
       2 #Vrolijk\<adj\>\<sint\>\<pred\>	^Vrolijk<adj><sint><pred>$
       2 #Vrolijk\<adj\>\<sint\>\<attr\>	^Vrolijk<adj><sint><attr>$
       2 #vrijelijk\<adj\>\<sint\>\<attr\>	^vrijelijk<adj><sint><attr>$
-      2 #voortrekken\<vblex\>\<sep\>\<pp\>	^voortrekken<vblex><sep><pp>$
       2 #voortijdig\<adj\>\<sint\>\<attr\>	^voortijdig<adj><sint><attr>$
-      2 #voorlopen\<vblex\>\<sep\>\<inf\>	^voorlopen<vblex><sep><inf>$
-      2 #voordringen\<vblex\>\<sep\>\<pp\>	^voordringen<vblex><sep><pp>$
-      2 #voordragen\<vblex\>\<sep\>\<inf\>	^voordragen<vblex><sep><inf>$
-      2 #voordoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voordoen<vblex><sep><fm><pres><p3><sg>$
-      2 #voordelig\<adj\>\<sint\>\<comp\>\<pred\>	^voordelig<adj><sint><comp><pred>$
       2 #Verticaal\<adj\>\<sint\>\<pred\>	^Verticaal<adj><sint><pred>$
-      2 #verpakken\<vblex\>\<pres\>\<p3\>\<sg\>	^verpakken<vblex><pres><p3><sg>$
       2 #vermeend\<adj\>\<sint\>\<attr\>	^vermeend<adj><sint><attr>$
       2 #Verhoogd\<adj\>\<sint\>\<pred\>	^Verhoogd<adj><sint><pred>$
       2 #Verhoogd\<adj\>\<sint\>\<attr\>	^Verhoogd<adj><sint><attr>$
       2 #verdubbeld\<adj\>\<sint\>\<attr\>	^verdubbeld<adj><sint><attr>$
       2 #Verantwoordelijk\<adj\>\<sint\>\<attr\>	^Verantwoordelijk<adj><sint><attr>$
-      2 #Veilig\<adj\>\<sint\>\<comp\>\<pred\>	^Veilig<adj><sint><comp><pred>$
-      2 #Veilig\<adj\>\<sint\>\<attr\>	^Veilig<adj><sint><attr>$
       2 #vatbaar\<adj\>\<attr\>	^vatbaar<adj><attr>$
-      2 #vaardig\<adj\>\<sint\>\<attr\>	^vaardig<adj><sint><attr>$
       2 #Uniek\<adj\>\<pred\>	^Uniek<adj><pred>$
       2 #ultrasoon\<adj\>\<sint\>\<pred\>	^ultrasoon<adj><sint><pred>$
       2 #Uitzonderlijk\<adj\>\<sint\>\<attr\>	^Uitzonderlijk<adj><sint><attr>$
-      2 #uitvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitvallen<vblex><sep><fm><pres><p3><sg>$
-      2 #uitnemen\<vblex\>\<sep\>\<inf\>	^uitnemen<vblex><sep><inf>$
-      2 #uitgeven\<vblex\>\<sep\>\<pp\> 	^uitgeven<vblex><sep><pp>$ 
       2 #treffend\<adj\>\<sint\>\<sup\>\<pred\>	^treffend<adj><sint><sup><pred>$
-      2 #toewijzen\<vblex\>\<sep\>\<inf\>	^toewijzen<vblex><sep><inf>$
-      2 #toetreden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toetreden<vblex><sep><fm><pres><p3><sg>$
-      2 #toestaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toestaan<vblex><sep><fm><pres><p3><sg>$
-      2 #toespreken\<vblex\>\<sep\>\<inf\>	^toespreken<vblex><sep><inf>$
-      2 #toekijken\<vblex\>\<sep\>\<pp\>	^toekijken<vblex><sep><pp>$
-      2 #toegeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toegeven<vblex><sep><fm><pres><p3><sg>$
       2 #toegevelijk\<adj\>\<sint\>\<pred\>	^toegevelijk<adj><sint><pred>$
-      2 #toedrukken\<vblex\>\<sep\>\<pp\>	^toedrukken<vblex><sep><pp>$
-      2 #terugtrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^terugtrekken<vblex><sep><fm><pres><p3><sg>$
-      2 #terugstaan\<vblex\>\<sep\>\<pp\>	^terugstaan<vblex><sep><pp>$
-      2 #terugstaan\<vblex\>\<sep\>\<inf\>	^terugstaan<vblex><sep><inf>$
-      2 #terugkopen\<vblex\>\<sep\>\<inf\>	^terugkopen<vblex><sep><inf>$
-      2 #terughouden\<vblex\>\<sep\>\<inf\>	^terughouden<vblex><sep><inf>$
-      2 #terugdrukken\<vblex\>\<sep\>\<pp\>	^terugdrukken<vblex><sep><pp>$
-      2 #terugdrukken\<vblex\>\<sep\>\<inf\>	^terugdrukken<vblex><sep><inf>$
       2 #talrijk\<adj\>\<sint\>\<sup\>\<attr\>	^talrijk<adj><sint><sup><attr>$
-      2 #taalwetenschappelijke\<adj\>\<sint\>\<pred\>	^taalwetenschappelijke<adj><sint><pred>$
-      2 #taai\<adj\>\<sint\>\<comp\>\<pred\>	^taai<adj><sint><comp><pred>$
+      2 #taalwetenschappelijk\<adj\>\<sint\>\<pred\>	^taalwetenschappelijk<adj><sint><pred>$
       2 #Systematisch\<adj\>\<sint\>\<attr\>	^Systematisch<adj><sint><attr>$
       2 #Symmetrisch\<adj\>\<sint\>\<attr\>	^Symmetrisch<adj><sint><attr>$
-      2 #stadig\<adj\>\<sint\>\<sup\>\<pred\>	^stadig<adj><sint><sup><pred>$
-      2 #snaaks\<adj\>\<sint\>\<attr\>	^snaaks<adj><sint><attr>$
       2 #Sensitief\<adj\>\<pred\>	^Sensitief<adj><pred>$
       2 #Schematisch\<adj\>\<sint\>\<pred\>	^Schematisch<adj><sint><pred>$
-      2 #samenzetten\<vblex\>\<sep\>\<inf\>	^samenzetten<vblex><sep><inf>$
-      2 #samenzetten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samenzetten<vblex><sep><fm><pres><p3><sg>$
-      2 #samenvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samenvallen<vblex><sep><fm><pres><p3><sg>$
-      2 #samenroepen\<vblex\>\<sep\>\<pp\>	^samenroepen<vblex><sep><pp>$
-      2 #samenlopen\<vblex\>\<sep\>\<pp\>	^samenlopen<vblex><sep><pp>$
-      2 #samengaan\<vblex\>\<sep\>\<pp\>	^samengaan<vblex><sep><pp>$
-      2 #samengaan\<vblex\>\<sep\>\<inf\>	^samengaan<vblex><sep><inf>$
-      2 #samengaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samengaan<vblex><sep><fm><pres><p3><sg>$
-      2 #samendrijven\<vblex\>\<sep\>\<pp\>	^samendrijven<vblex><sep><pp>$
-      2 #Samen\<adj\>\<pred\>	^Samen<adj><pred>$
       2 #Phylogenetisch\<adj\>\<sint\>\<pred\>	^Phylogenetisch<adj><sint><pred>$
       2 #pessimistisch\<adj\>\<sint\>\<pred\>	^pessimistisch<adj><sint><pred>$
-      2 #overvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overvallen<vblex><sep><fm><pres><p3><sg>$
-      2 #overschrijven\<vblex\>\<sep\>\<inf\>	^overschrijven<vblex><sep><inf>$
-      2 #overplaatsen\<vblex\>\<sep\>\<inf\>	^overplaatsen<vblex><sep><inf>$
-      2 #overplaatsen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overplaatsen<vblex><sep><fm><pres><p3><sg>$
-      2 #overdrukken\<vblex\>\<sep\>\<inf\>	^overdrukken<vblex><sep><inf>$
-      2 #overbouwen\<vblex\>\<sep\>\<pp\>	^overbouwen<vblex><sep><pp>$
       2 #Orthodox\<adj\>\<sint\>\<attr\>	^Orthodox<adj><sint><attr>$
       2 #opzichtelijk\<adj\>\<sint\>\<attr\>	^opzichtelijk<adj><sint><attr>$
       2 #opzettelijk\<adj\>\<sint\>\<attr\>	^opzettelijk<adj><sint><attr>$
-      2 #opwerken\<vblex\>\<sep\>\<pp\>	^opwerken<vblex><sep><pp>$
-      2 #Opwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Opwerken<vblex><sep><fm><pres><p3><sg>$
-      2 #opvallen\<vblex\>\<sep\>\<inf\>	^opvallen<vblex><sep><inf>$
-      2 #optrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^optrekken<vblex><sep><fm><pres><p3><sg>$
-      2 #opschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opschrijven<vblex><sep><fm><pres><p3><sg>$
-      2 #oplopen\<vblex\>\<sep\>\<pp\>	^oplopen<vblex><sep><pp>$
-      2 #oplaaien\<vblex\>\<sep\>\<inf\> 	^oplaaien<vblex><sep><inf>$ 
-      2 #opgooien\<vblex\>\<sep\>\<pp\>	^opgooien<vblex><sep><pp>$
       2 #Operationeel\<adj\>\<sint\>\<attr\>	^Operationeel<adj><sint><attr>$
-      2 #opdringen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opdringen<vblex><sep><fm><pres><p3><sg>$
-      2 #opdragen\<vblex\>\<sep\>\<inf\>	^opdragen<vblex><sep><inf>$
-      2 #opdragen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opdragen<vblex><sep><fm><pres><p3><sg>$
       2 #onwaarschijnlijk\<adj\>\<sint\>\<attr\>	^onwaarschijnlijk<adj><sint><attr>$
       2 #onvoorwaardelijk\<adj\>\<sint\>\<attr\>	^onvoorwaardelijk<adj><sint><attr>$
       2 #onschadelijk\<adj\>\<sint\>\<attr\>	^onschadelijk<adj><sint><attr>$
@@ -1387,43 +732,22 @@ Tag mismatch between transfer and generation
       2 #Oneindig\<adj\>\<pred\>	^Oneindig<adj><pred>$
       2 #oneerlijk\<adj\>\<sint\>\<attr\>	^oneerlijk<adj><sint><attr>$
       2 #oneconomisch\<adj\>\<sint\>\<pred\>	^oneconomisch<adj><sint><pred>$
-      2 #onderzetten\<vblex\>\<sep\>\<pp\>	^onderzetten<vblex><sep><pp>$
-      2 #onderzetten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderzetten<vblex><sep><fm><pres><p3><sg>$
       2 #onderscheidbaar\<adj\>\<sint\>\<pred\>	^onderscheidbaar<adj><sint><pred>$
-      2 #onderdoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderdoen<vblex><sep><fm><pres><p3><sg>$
       2 #onberispelijk\<adj\>\<sint\>\<pred\>	^onberispelijk<adj><sint><pred>$
-      2 #omvattend\<adj\>\<sint\>\<sup\>\<attr\>	^omvattend<adj><sint><sup><attr>$
-      2 #omspoelen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omspoelen<vblex><sep><fm><pres><p3><sg>$
-      2 #omhalen\<vblex\>\<sep\>\<inf\>	^omhalen<vblex><sep><inf>$
-      2 #omgooien\<vblex\>\<sep\>\<inf\>	^omgooien<vblex><sep><inf>$
       2 #oceanografisch\<adj\>\<sint\>\<pred\>	^oceanografisch<adj><sint><pred>$
       2 #Nominatief\<adj\>\<pred\>	^Nominatief<adj><pred>$
       2 #nodig\<adj\>\<sint\>\<comp\>\<pred\>	^nodig<adj><sint><comp><pred>$
-      2 #neervallen\<vblex\>\<sep\>\<pp\>	^neervallen<vblex><sep><pp>$
       2 #nazi\<adj\>\<sint\>\<pred\>	^nazi<adj><sint><pred>$
       2 #misselijk\<adj\>\<sint\>\<pred\>	^misselijk<adj><sint><pred>$
       2 #Middel\<adj\>\<attr\>	^Middel<adj><attr>$
-      2 #magnetometer\<n\>\<mf\>\<sg\>	^magnetometer<n><mf><sg>$
       2 #Landelijk\<adj\>\<sint\>\<pred\>	^Landelijk<adj><sint><pred>$
       2 #kwalitatief\<adj\>\<attr\>	^kwalitatief<adj><attr>$
       2 #kwaadaardig\<adj\>\<attr\>	^kwaadaardig<adj><attr>$
       2 #kunstig\<adj\>\<pred\>	^kunstig<adj><pred>$
       2 #isotropisch\<adj\>\<sint\>\<attr\>	^isotropisch<adj><sint><attr>$
-      2 #Intrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Intrekken<vblex><sep><fm><pres><p3><sg>$
       2 #intiem\<adj\>\<sint\>\<comp\>\<pred\>	^intiem<adj><sint><comp><pred>$
-      2 #Intekenen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Intekenen<vblex><sep><fm><pres><p3><sg>$
-      2 #insturen\<vblex\>\<sep\>\<inf\>	^insturen<vblex><sep><inf>$
-      2 #instaan\<vblex\>\<sep\>\<inf\>	^instaan<vblex><sep><inf>$
-      2 #inspoelen\<vblex\>\<sep\>\<pp\>	^inspoelen<vblex><sep><pp>$
-      2 #inruimen\<vblex\>\<sep\>\<pp\>	^inruimen<vblex><sep><pp>$
-      2 #inleven\<vblex\>\<sep\>\<pp\>	^inleven<vblex><sep><pp>$
-      2 #inhalen\<vblex\>\<sep\>\<inf\>	^inhalen<vblex><sep><inf>$
-      2 #ingooien\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^ingooien<vblex><sep><fm><pres><p3><sg>$
       2 #informatief\<adj\>\<pred\>	^informatief<adj><pred>$
       2 #informatief\<adj\>\<attr\>	^informatief<adj><attr>$
-      2 #indringen\<vblex\>\<sep\>\<pp\>	^indringen<vblex><sep><pp>$
-      2 #indringen\<vblex\>\<sep\>\<inf\>	^indringen<vblex><sep><inf>$
-      2 #indrijven\<vblex\>\<sep\>\<pp\>	^indrijven<vblex><sep><pp>$
       2 #heimelijk\<adj\>\<sint\>\<attr\>	^heimelijk<adj><sint><attr>$
       2 #Hartelijk\<adj\>\<sint\>\<pred\>	^Hartelijk<adj><sint><pred>$
       2 #gretig\<adj\>\<sint\>\<attr\>	^gretig<adj><sint><attr>$
@@ -1431,163 +755,57 @@ Tag mismatch between transfer and generation
       2 #gevaarlijk\<adj\>\<sint\>\<comp\>\<pred\>	^gevaarlijk<adj><sint><comp><pred>$
       2 #gerieflijk\<adj\>\<sint\>\<sup\>\<attr\>	^gerieflijk<adj><sint><sup><attr>$
       2 #gepland\<adj\>\<sint\>\<attr\>	^gepland<adj><sint><attr>$
-      2 #filiaal\<adj\>\<attr\>	^filiaal<adj><attr>$
       2 #Ernstig\<adj\>\<sint\>\<attr\>	^Ernstig<adj><sint><attr>$
       2 #epidemisch\<adj\>\<sint\>\<attr\>	^epidemisch<adj><sint><attr>$
       2 #enthousiast\<adj\>\<sint\>\<attr\>	^enthousiast<adj><sint><attr>$
       2 #Empirisch\<adj\>\<sint\>\<attr\>	^Empirisch<adj><sint><attr>$
-      2 #Eindelijk\<adj\>\<sint\>\<attr\>	^Eindelijk<adj><sint><attr>$
       2 #Ecologisch\<adj\>\<sint\>\<attr\>	^Ecologisch<adj><sint><attr>$
-      2 #doortrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doortrekken<vblex><sep><fm><pres><p3><sg>$
-      2 #doorslikken\<vblex\>\<sep\>\<inf\>	^doorslikken<vblex><sep><inf>$
-      2 #doorrijden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorrijden<vblex><sep><fm><pres><p3><sg>$
-      2 #doorgeven\<vblex\>\<sep\>\<inf\>	^doorgeven<vblex><sep><inf>$
-      2 #Doorgaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Doorgaan<vblex><sep><fm><pres><p3><sg>$
-      2 #doorbreken\<vblex\>\<sep\>\<pp\>	^doorbreken<vblex><sep><pp>$
-      2 #doeltreffend\<adj\>\<sint\>\<sup\>\<attr\>	^doeltreffend<adj><sint><sup><attr>$
       2 #Dagelijks\<adj\>\<sint\>\<pred\>	^Dagelijks<adj><sint><pred>$
       2 #Dagelijks\<adj\>\<sint\>\<attr\>	^Dagelijks<adj><sint><attr>$
       2 #dadelijk\<adj\>\<sint\>\<attr\>	^dadelijk<adj><sint><attr>$
-      2 #Bevolking\<n\>\<mf\>\<pl\>	^Bevolking<n><mf><pl>$
       2 #beslissend\<adj\>\<sint\>\<sup\>\<attr\>	^beslissend<adj><sint><sup><attr>$
       2 #Behoudend\<adj\>\<sint\>\<pred\>	^Behoudend<adj><sint><pred>$
       2 #Behendig\<adj\>\<sint\>\<pred\>	^Behendig<adj><sint><pred>$
       2 #Architectonisch\<adj\>\<sint\>\<attr\>	^Architectonisch<adj><sint><attr>$
-      2 #afwijken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^afwijken<vblex><sep><fm><pres><p3><sg>$
-      2 #afsturen\<vblex\>\<sep\>\<inf\>	^afsturen<vblex><sep><inf>$
       2 #Afhankelijk\<adj\>\<sint\>\<pred\>	^Afhankelijk<adj><sint><pred>$
-      2 #afgooien\<vblex\>\<sep\>\<inf\>	^afgooien<vblex><sep><inf>$
-      2 #afgaan\<vblex\>\<sep\>\<inf\>	^afgaan<vblex><sep><inf>$
-      2 #afbeelding\<n\>\<mf\>\<sg\> 	^afbeelding<n><mf><sg>$ 
       2 #accusatief\<adj\>\<sint\>\<attr\>	^accusatief<adj><sint><attr>$
       2 #Absoluut\<adj\>\<attr\>	^Absoluut<adj><attr>$
       2 #aarzelend\<adj\>\<sint\>\<pred\>	^aarzelend<adj><sint><pred>$
-      2 #aanvatten\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanvatten<vblex><sep><fm><pres><p3><sg>$
-      2 #aansturen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aansturen<vblex><sep><fm><pres><p3><sg>$
-      2 #aanstaan\<vblex\>\<sep\>\<pp\>	^aanstaan<vblex><sep><pp>$
-      2 #aanroepen\<vblex\>\<sep\>\<inf\>	^aanroepen<vblex><sep><inf>$
-      2 #AANPLANTEN\<vblex\>\<sep\>\<inf\>	^AANPLANTEN<vblex><sep><inf>$
-      2 #aanlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanlopen<vblex><sep><fm><pres><p3><sg>$
-      2 #aankondigen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aankondigen<vblex><sep><fm><pres><p3><sg>$
       2 #Aangrenzend\<adj\>\<sint\>\<pred\>	^Aangrenzend<adj><sint><pred>$
       2 #Aangrenzend\<adj\>\<sint\>\<attr\>	^Aangrenzend<adj><sint><attr>$
-      2 #Aandrijven\<vblex\>\<sep\>\<pp\>	^Aandrijven<vblex><sep><pp>$
-      2 #aandragen\<vblex\>\<sep\>\<pp\>	^aandragen<vblex><sep><pp>$
-      2 #aanbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanbreken<vblex><sep><fm><pres><p3><sg>$
-      1 #Wisselvallig\<adj\>\<sint\>\<pred\>	^Wisselvallig<adj><sint><pred>$
       1 #winstgevend\<adj\>\<sint\>\<sup\>\<pred\>	^winstgevend<adj><sint><sup><pred>$
       1 #winstgevend\<adj\>\<sint\>\<sup\>\<attr\>	^winstgevend<adj><sint><sup><attr>$
-      1 #winderig\<adj\>\<sint\>\<sup\>\<attr\>	^winderig<adj><sint><sup><attr>$
-      1 #Winderig\<adj\>\<sint\>\<pred\>	^Winderig<adj><sint><pred>$
-      1 #winderig\<adj\>\<sint\>\<comp\>\<pred\>	^winderig<adj><sint><comp><pred>$
       1 #Wezenlijk\<adj\>\<sint\>\<attr\>	^Wezenlijk<adj><sint><attr>$
-      1 #Wettig\<adj\>\<sint\>\<attr\>	^Wettig<adj><sint><attr>$
       1 #Werkelijk\<adj\>\<sint\>\<pred\>	^Werkelijk<adj><sint><pred>$
       1 #Werkelijk\<adj\>\<sint\>\<attr\>	^Werkelijk<adj><sint><attr>$
       1 #wereldwijd\<adj\>\<sint\>\<pred\> 	^wereldwijd<adj><sint><pred>$ 
       1 #Wereldwijd\<adj\>\<sint\>\<attr\>	^Wereldwijd<adj><sint><attr>$
-      1 #welvarend\<adj\>\<sint\>\<comp\>\<attr\>	^welvarend<adj><sint><comp><attr>$
-      1 #Welig\<adj\>\<sint\>\<pred\>	^Welig<adj><sint><pred>$
-      1 #welig\<adj\>\<sint\>\<comp\>\<attr\>	^welig<adj><sint><comp><attr>$
-      1 #wegvatten\<vblex\>\<sep\>\<pp\>	^wegvatten<vblex><sep><pp>$
-      1 #wegstaan\<vblex\>\<sep\>\<pp\>	^wegstaan<vblex><sep><pp>$
-      1 #wegspoelen\<vblex\>\<sep\>\<inf\>	^wegspoelen<vblex><sep><inf>$
-      1 #weglopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^weglopen<vblex><sep><fm><pres><p3><sg>$
-      1 #weglokken\<vblex\>\<sep\>\<inf\>	^weglokken<vblex><sep><inf>$
-      1 #wegleiden\<vblex\>\<sep\>\<pp\>	^wegleiden<vblex><sep><pp>$
-      1 #wegleiden\<vblex\>\<sep\>\<inf\>	^wegleiden<vblex><sep><inf>$
-      1 #wegleggen\<vblex\>\<sep\>\<pp\>	^wegleggen<vblex><sep><pp>$
-      1 #weghouden\<vblex\>\<sep\>\<inf\>	^weghouden<vblex><sep><inf>$
-      1 #weggeven\<vblex\>\<sep\>\<pp\>	^weggeven<vblex><sep><pp>$
-      1 #weggaan\<vblex\>\<sep\>\<inf\>	^weggaan<vblex><sep><inf>$
-      1 #weggaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^weggaan<vblex><sep><fm><pres><p3><sg>$
-      1 #wegdoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^wegdoen<vblex><sep><fm><pres><p3><sg>$
-      1 #wegblijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^wegblijven<vblex><sep><fm><pres><p3><sg>$
-      1 #Weergeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Weergeven<vblex><sep><fm><pres><p3><sg>$
-      1 #Weelderig\<adj\>\<sint\>\<pred\>	^Weelderig<adj><sint><pred>$
       1 #waterrijk\<adj\>\<sint\>\<attr\>	^waterrijk<adj><sint><attr>$
       1 #waarschijnlijk\<adj\>\<sint\>\<sup\>\<pred\>	^waarschijnlijk<adj><sint><sup><pred>$
       1 #waanzinnig\<adj\>\<sint\>\<attr\>	^waanzinnig<adj><sint><attr>$
       1 #Vriendschappelijk\<adj\>\<sint\>\<attr\>	^Vriendschappelijk<adj><sint><attr>$
-      1 #voorwerken\<vblex\>\<sep\>\<inf\>	^voorwerken<vblex><sep><inf>$
-      1 #voorwenden\<vblex\>\<sep\>\<pp\>	^voorwenden<vblex><sep><pp>$
-      1 #voorvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorvallen<vblex><sep><fm><pres><p3><sg>$
-      1 #voortrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voortrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #voorteffelijk\<adj\>\<sint\>\<sup\>\<pred\>	^voorteffelijk<adj><sint><sup><pred>$
-      1 #Voorteffelijk\<adj\>\<sint\>\<sup\>\<attr\>	^Voorteffelijk<adj><sint><sup><attr>$
-      1 #voorleggen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorleggen<vblex><sep><fm><pres><p3><sg>$
-      1 #voorhouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorhouden<vblex><sep><fm><pres><p3><sg>$
-      1 #voorgeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorgeven<vblex><sep><fm><pres><p3><sg>$
-      1 #voorgaan\<vblex\>\<sep\>\<pp\>	^voorgaan<vblex><sep><pp>$
-      1 #voorgaan\<vblex\>\<sep\>\<inf\>	^voorgaan<vblex><sep><inf>$
-      1 #voordrukken\<vblex\>\<sep\>\<inf\>	^voordrukken<vblex><sep><inf>$
-      1 #voorblijven\<vblex\>\<sep\>\<pp\>	^voorblijven<vblex><sep><pp>$
-      1 #voorblijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^voorblijven<vblex><sep><fm><pres><p3><sg>$
       1 #Vocaal\<adj\>\<sint\>\<pred\>	^Vocaal<adj><sint><pred>$
-      1 #Vinnig\<adj\>\<sint\>\<comp\>\<pred\>	^Vinnig<adj><sint><comp><pred>$
-      1 #Vinnig\<adj\>\<sint\>\<attr\>	^Vinnig<adj><sint><attr>$
       1 #Vijandig\<adj\>\<sint\>\<attr\>	^Vijandig<adj><sint><attr>$
-      1 #verzenden\<vblex\>\<sep\>\<pp\>	^verzenden<vblex><sep><pp>$
       1 #Vernietigend\<adj\>\<sint\>\<pred\>	^Vernietigend<adj><sint><pred>$
       1 #Vermeend\<adj\>\<sint\>\<pred\>	^Vermeend<adj><sint><pred>$
       1 #vergankelijk\<adj\>\<sint\>\<attr\>	^vergankelijk<adj><sint><attr>$
       1 #Verantwoordelijk\<adj\>\<sint\>\<pred\>	^Verantwoordelijk<adj><sint><pred>$
-      1 #Veilig\<adj\>\<sint\>\<comp\>\<attr\>	^Veilig<adj><sint><comp><attr>$
       1 #vastgesteld\<adj\>\<sint\>\<attr\>	^vastgesteld<adj><sint><attr>$
-      1 #Vaardig\<adj\>\<sint\>\<pred\>	^Vaardig<adj><sint><pred>$
       1 #Uniek\<adj\>\<attr\>	^Uniek<adj><attr>$
       1 #Ultrasoon\<adj\>\<sint\>\<pred\>	^Ultrasoon<adj><sint><pred>$
-      1 #uitwijzen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitwijzen<vblex><sep><fm><pres><p3><sg>$
-      1 #uitwijken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitwijken<vblex><sep><fm><pres><p3><sg>$
-      1 #uitvinden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitvinden<vblex><sep><fm><pres><p3><sg>$
-      1 #Uittrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Uittrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #uitsterven\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^uitsterven<vblex><sep><fm><pres><pl>$
-      1 #uitplaatsen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitplaatsen<vblex><sep><fm><pres><p3><sg>$
-      1 #uitkloppen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitkloppen<vblex><sep><fm><pres><p3><sg>$
-      1 #uitkijken\<vblex\>\<sep\>\<pp\>	^uitkijken<vblex><sep><pp>$
-      1 #Uitkijken\<vblex\>\<sep\>\<inf\>	^Uitkijken<vblex><sep><inf>$
-      1 #uithouden\<vblex\>\<sep\>\<inf\>	^uithouden<vblex><sep><inf>$
       1 #Uitgestrekt\<adj\>\<sint\>\<attr\>	^Uitgestrekt<adj><sint><attr>$
       1 #uitgelekt\<adj\>\<sint\>\<attr\>	^uitgelekt<adj><sint><attr>$
-      1 #uitdagend\<adj\>\<sint\>\<sup\>\<pred\>	^uitdagend<adj><sint><sup><pred>$
-      1 #uitbreiden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitbreiden<vblex><sep><fm><pres><p3><sg>$
-      1 #uitbouwen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^uitbouwen<vblex><sep><fm><pres><p3><sg>$
-      1 #uitblijven\<vblex\>\<sep\>\<pp\>	^uitblijven<vblex><sep><pp>$
-      1 #uitblijven\<vblex\>\<sep\>\<inf\>	^uitblijven<vblex><sep><inf>$
       1 #Treffend\<adj\>\<sint\>\<pred\>	^Treffend<adj><sint><pred>$
       1 #treffend\<adj\>\<sint\>\<attr\>	^treffend<adj><sint><attr>$
       1 #Toxisch\<adj\>\<sint\>\<pred\>	^Toxisch<adj><sint><pred>$
-      1 #toesluiten\<vblex\>\<sep\>\<pp\>	^toesluiten<vblex><sep><pp>$
-      1 #toeschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toeschrijven<vblex><sep><fm><pres><p3><sg>$
-      1 #Toelopen\<vblex\>\<sep\>\<inf\>	^Toelopen<vblex><sep><inf>$
-      1 #toegooien\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toegooien<vblex><sep><fm><pres><p3><sg>$
       1 #Toegewijd\<adj\>\<sint\>\<pred\>	^Toegewijd<adj><sint><pred>$
       1 #Toegewijd\<adj\>\<sint\>\<attr\>	^Toegewijd<adj><sint><attr>$
-      1 #toedrukken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toedrukken<vblex><sep><fm><pres><p3><sg>$
-      1 #toedoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^toedoen<vblex><sep><fm><pres><p3><sg>$
       1 #Thermodynamisch\<adj\>\<sint\>\<pred\>	^Thermodynamisch<adj><sint><pred>$
-      1 #terugwijken\<vblex\>\<sep\>\<inf\>	^terugwijken<vblex><sep><inf>$
-      1 #terugvolgen\<vblex\>\<sep\>\<pp\>	^terugvolgen<vblex><sep><pp>$
-      1 #terugvinden\<vblex\>\<sep\>\<inf\>	^terugvinden<vblex><sep><inf>$
-      1 #terugvatten\<vblex\>\<sep\>\<pp\>	^terugvatten<vblex><sep><pp>$
-      1 #terugschrijven\<vblex\>\<sep\>\<pp\>	^terugschrijven<vblex><sep><pp>$
-      1 #terugrijden\<vblex\>\<sep\>\<pp\>	^terugrijden<vblex><sep><pp>$
-      1 #terugplaatsen\<vblex\>\<sep\>\<inf\>	^terugplaatsen<vblex><sep><inf>$
-      1 #terugplaatsen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^terugplaatsen<vblex><sep><fm><pres><p3><sg>$
-      1 #teruglokken\<vblex\>\<sep\>\<pp\>	^teruglokken<vblex><sep><pp>$
-      1 #terugklimmen\<vblex\>\<sep\>\<pp\>	^terugklimmen<vblex><sep><pp>$
-      1 #terughouden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^terughouden<vblex><sep><fm><pres><p3><sg>$
-      1 #teruggooien\<vblex\>\<sep\>\<pp\>	^teruggooien<vblex><sep><pp>$
-      1 #terugdringen\<vblex\>\<sep\>\<inf\>	^terugdringen<vblex><sep><inf>$
       1 #Tegenovergesteld\<adj\>\<sint\>\<pred\>	^Tegenovergesteld<adj><sint><pred>$
       1 #Tegenovergesteld\<adj\>\<sint\>\<attr\>	^Tegenovergesteld<adj><sint><attr>$
-      1 #tegengaan\<vblex\>\<sep\>\<pp\>	^tegengaan<vblex><sep><pp>$
-      1 #tegengaan\<vblex\>\<sep\>\<inf\>	^tegengaan<vblex><sep><inf>$
       1 #talrijk\<adj\>\<sint\>\<sup\>\<pred\>	^talrijk<adj><sint><sup><pred>$
       1 #Talrijk\<adj\>\<sint\>\<pred\>	^Talrijk<adj><sint><pred>$
       1 #talrijk\<adj\>\<sint\>\<comp\>\<pred\>	^talrijk<adj><sint><comp><pred>$
-      1 #taai\<adj\>\<sint\>\<sup\>\<pred\>	^taai<adj><sint><sup><pred>$
-      1 #taai\<adj\>\<sint\>\<sup\>\<attr\>	^taai<adj><sint><sup><attr>$
       1 #Systematisch\<adj\>\<sint\>\<pred\>	^Systematisch<adj><sint><pred>$
       1 #Syntetisch\<adj\>\<sint\>\<pred\>	^Syntetisch<adj><sint><pred>$
       1 #substantief\<adj\>\<sint\>\<attr\>	^substantief<adj><sint><attr>$
@@ -1598,26 +816,11 @@ Tag mismatch between transfer and generation
       1 #Statuair\<adj\>\<sint\>\<attr\>	^Statuair<adj><sint><attr>$
       1 #Statistisch\<adj\>\<sint\>\<pred\>	^Statistisch<adj><sint><pred>$
       1 #Statistisch\<adj\>\<sint\>\<attr\>	^Statistisch<adj><sint><attr>$
-      1 #Stadig\<adj\>\<sint\>\<pred\>	^Stadig<adj><sint><pred>$
-      1 #Snaaks\<adj\>\<sint\>\<pred\>	^Snaaks<adj><sint><pred>$
       1 #Schematisch\<adj\>\<sint\>\<attr\>	^Schematisch<adj><sint><attr>$
       1 #schematisch\<adj\>\<sint\>\<attr\>	^schematisch<adj><sint><attr>$
-      1 #samenroepen\<vblex\>\<sep\>\<inf\>	^samenroepen<vblex><sep><inf>$
-      1 #samenpakken\<vblex\>\<sep\>\<inf\>	^samenpakken<vblex><sep><inf>$
-      1 #samenlopen\<vblex\>\<sep\>\<inf\>	^samenlopen<vblex><sep><inf>$
-      1 #samenlopen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samenlopen<vblex><sep><fm><pres><p3><sg>$
-      1 #samengooien\<vblex\>\<sep\>\<pp\>	^samengooien<vblex><sep><pp>$
-      1 #samendoen\<vblex\>\<sep\>\<pp\>	^samendoen<vblex><sep><pp>$
-      1 #samendoen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samendoen<vblex><sep><fm><pres><p3><sg>$
-      1 #samenbrengen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^samenbrengen<vblex><sep><fm><pres><p3><sg>$
-      1 #rustig\<adj\>\<sint\>\<sup\>\<pred\>	^rustig<adj><sint><sup><pred>$
-      1 #rustig\<adj\>\<sint\>\<sup\>\<attr\>	^rustig<adj><sint><sup><attr>$
       1 #Ruimtelijk\<adj\>\<sint\>\<attr\>	^Ruimtelijk<adj><sint><attr>$
-      1 #rooskleurig\<adj\>\<sint\>\<attr\>	^rooskleurig<adj><sint><attr>$
       1 #Rationeel\<adj\>\<sint\>\<pred\>	^Rationeel<adj><sint><pred>$
-      1 #rampspoedig\<adj\>\<sint\>\<sup\>\<pred\>	^rampspoedig<adj><sint><sup><pred>$
       1 #Radiaal\<adj\>\<attr\>	^Radiaal<adj><attr>$
-      1 #raakgooien\<vblex\>\<sep\>\<inf\>	^raakgooien<vblex><sep><inf>$
       1 #Puik\<adj\>\<attr\>	^Puik<adj><attr>$
       1 #Psychologisch\<adj\>\<sint\>\<attr\>	^Psychologisch<adj><sint><attr>$
       1 #potentieel\<adj\>\<sint\>\<pred\> 	^potentieel<adj><sint><pred>$ 
@@ -1631,43 +834,11 @@ Tag mismatch between transfer and generation
       1 #Perfect\<adj\>\<sint\>\<attr\>	^Perfect<adj><sint><attr>$
       1 #Patriotisch\<adj\>\<sint\>\<pred\>	^Patriotisch<adj><sint><pred>$
       1 #Passievol\<adj\>\<sint\>\<pred\>	^Passievol<adj><sint><pred>$
-      1 #overwerken\<vblex\>\<sep\>\<inf\>	^overwerken<vblex><sep><inf>$
-      1 #Overtrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Overtrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #overtrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overtrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #overspoelen\<vblex\>\<sep\>\<pp\>	^overspoelen<vblex><sep><pp>$
-      1 #overplanten\<vblex\>\<sep\>\<pp\>	^overplanten<vblex><sep><pp>$
-      1 #overpakken\<vblex\>\<sep\>\<pp\>	^overpakken<vblex><sep><pp>$
-      1 #overleggen\<vblex\>\<sep\>\<inf\>	^overleggen<vblex><sep><inf>$
-      1 #overleggen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overleggen<vblex><sep><fm><pres><p3><sg>$
-      1 #overhouden\<vblex\>\<sep\>\<pp\>	^overhouden<vblex><sep><pp>$
-      1 #overhouden\<vblex\>\<sep\>\<inf\>	^overhouden<vblex><sep><inf>$
-      1 #OVERGEVEN\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^OVERGEVEN<vblex><sep><fm><pres><p3><sg>$
-      1 #overdrukken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overdrukken<vblex><sep><fm><pres><p3><sg>$
-      1 #overbouwen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^overbouwen<vblex><sep><fm><pres><p3><sg>$
       1 #Orthodox\<adj\>\<sint\>\<pred\>	^Orthodox<adj><sint><pred>$
       1 #ORDENTELIJK\<adj\>\<sint\>\<pred\>	^ORDENTELIJK<adj><sint><pred>$
-      1 #opzeggen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opzeggen<vblex><sep><fm><pres><p3><sg>$
       1 #opwindend\<adj\>\<sint\>\<sup\>\<pred\>	^opwindend<adj><sint><sup><pred>$
       1 #opwindend\<adj\>\<sint\>\<sup\>\<attr\>	^opwindend<adj><sint><sup><attr>$
-      1 #opvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^opvallen<vblex><sep><fm><pres><pl>$
-      1 #optrekken\<vblex\>\<sep\>\<inf\>	^optrekken<vblex><sep><inf>$
-      1 #Optrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Optrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #optreden\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^optreden<vblex><sep><fm><pres><pl>$
-      1 #Opstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Opstaan<vblex><sep><fm><pres><p3><sg>$
-      1 #opspoelen\<vblex\>\<sep\>\<pp\>	^opspoelen<vblex><sep><pp>$
-      1 #opsnijden\<vblex\>\<sep\>\<pp\>	^opsnijden<vblex><sep><pp>$
-      1 #opnemen\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^opnemen<vblex><sep><fm><pres><pl>$
-      1 #opklinken\<vblex\>\<sep\>\<pp\>	^opklinken<vblex><sep><pp>$
-      1 #opklinken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opklinken<vblex><sep><fm><pres><p3><sg>$
-      1 #opkijken\<vblex\>\<sep\>\<pp\>	^opkijken<vblex><sep><pp>$
-      1 #opkijken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opkijken<vblex><sep><fm><pres><p3><sg>$
-      1 #opgooien\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^opgooien<vblex><sep><fm><pres><p3><sg>$
-      1 #Opgaan\<vblex\>\<sep\>\<inf\>	^Opgaan<vblex><sep><inf>$
       1 #Opensource\<adj\>\<attr\>	^Opensource<adj><attr>$
-      1 #opdrukken\<vblex\>\<sep\>\<pp\>	^opdrukken<vblex><sep><pp>$
-      1 #opdringen\<vblex\>\<sep\>\<pp\>	^opdringen<vblex><sep><pp>$
-      1 #Opdragen\<vblex\>\<sep\>\<pp\>	^Opdragen<vblex><sep><pp>$
-      1 #Onvolledig\<adj\>\<sint\>\<pred\>	^Onvolledig<adj><sint><pred>$
       1 #Onvermijdelijk\<adj\>\<sint\>\<pred\>	^Onvermijdelijk<adj><sint><pred>$
       1 #Ontzaglijk\<adj\>\<sint\>\<pred\>	^Ontzaglijk<adj><sint><pred>$
       1 #ontoegankelijk\<adj\>\<sint\>\<comp\>\<pred\>	^ontoegankelijk<adj><sint><comp><pred>$
@@ -1675,41 +846,22 @@ Tag mismatch between transfer and generation
       1 #onrechtelijk\<adj\>\<sint\>\<attr\>	^onrechtelijk<adj><sint><attr>$
       1 #Onofficieel\<adj\>\<sint\>\<attr\>	^Onofficieel<adj><sint><attr>$
       1 #Onmogelijk\<adj\>\<sint\>\<pred\>	^Onmogelijk<adj><sint><pred>$
-      1 #ongewild\<adj\>\<sint\>\<sup\>\<attr\>	^ongewild<adj><sint><sup><attr>$
       1 #Ongekend\<adj\>\<attr\>	^Ongekend<adj><attr>$
       1 #ongebruikelijk\<adj\>\<sint\>\<attr\>	^ongebruikelijk<adj><sint><attr>$
-      1 #onderwerken\<vblex\>\<sep\>\<inf\>	^onderwerken<vblex><sep><inf>$
-      1 #onderstellen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderstellen<vblex><sep><fm><pres><p3><sg>$
-      1 #onderschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderschrijven<vblex><sep><fm><pres><p3><sg>$
-      1 #Onderplaatsen\<vblex\>\<sep\>\<inf\>	^Onderplaatsen<vblex><sep><inf>$
-      1 #onderplaatsen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderplaatsen<vblex><sep><fm><pres><p3><sg>$
-      1 #onderdoen\<vblex\>\<sep\>\<inf\>	^onderdoen<vblex><sep><inf>$
-      1 #onderbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^onderbreken<vblex><sep><fm><pres><p3><sg>$
       1 #Onbewust\<adj\>\<sint\>\<pred\>	^Onbewust<adj><sint><pred>$
       1 #onbewust\<adj\>\<sint\>\<attr\>	^onbewust<adj><sint><attr>$
       1 #Onberispelijk\<adj\>\<sint\>\<pred\>	^Onberispelijk<adj><sint><pred>$
-      1 #omvattend\<adj\>\<sint\>\<comp\>\<attr\>	^omvattend<adj><sint><comp><attr>$
-      1 #Omvattend\<adj\>\<sint\>\<attr\>	^Omvattend<adj><sint><attr>$
-      1 #omvallen\<vblex\>\<sep\>\<inf\>	^omvallen<vblex><sep><inf>$
-      1 #omspoelen\<vblex\>\<sep\>\<inf\>	^omspoelen<vblex><sep><inf>$
-      1 #omroepen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^omroepen<vblex><sep><fm><pres><p3><sg>$
-      1 #omranden\<vblex\>\<sep\>\<inf\>	^omranden<vblex><sep><inf>$
-      1 #omlopen\<vblex\>\<sep\>\<pp\>	^omlopen<vblex><sep><pp>$
       1 #Omliggend\<adj\>\<pred\>	^Omliggend<adj><pred>$
       1 #ogenblikkelijk\<adj\>\<sint\>\<attr\>	^ogenblikkelijk<adj><sint><attr>$
       1 #Oceanografisch\<adj\>\<sint\>\<attr\>	^Oceanografisch<adj><sint><attr>$
       1 #Numerisch\<adj\>\<sint\>\<attr\>	^Numerisch<adj><sint><attr>$
       1 #Normaal\<adj\>\<attr\>	^Normaal<adj><attr>$
       1 #nominatief\<adj\>\<attr\>	^nominatief<adj><attr>$
-      1 #neervallen\<vblex\>\<sep\>\<inf\>	^neervallen<vblex><sep><inf>$
-      1 #neerlaten\<vblex\>\<sep\>\<pp\>	^neerlaten<vblex><sep><pp>$
-      1 #neerhalen\<vblex\>\<sep\>\<pp\>	^neerhalen<vblex><sep><pp>$
       1 #Mystiek\<adj\>\<sint\>\<pred\>	^Mystiek<adj><sint><pred>$
       1 #mogelijk\<adj\>\<sint\>\<pred\> 	^mogelijk<adj><sint><pred>$ 
       1 #MOGELIJK\<adj\>\<sint\>\<attr\>	^MOGELIJK<adj><sint><attr>$
       1 #Moeilijk\<adj\>\<sint\>\<pred\>	^Moeilijk<adj><sint><pred>$
       1 #Moeilijk\<adj\>\<sint\>\<attr\>	^Moeilijk<adj><sint><attr>$
-      1 #Mineraal\<adj\>\<attr\>	^Mineraal<adj><attr>$
       1 #Mededingend\<adj\>\<sint\>\<pred\>	^Mededingend<adj><sint><pred>$
       1 #Mannelijk\<adj\>\<sint\>\<attr\>	^Mannelijk<adj><sint><attr>$
       1 #Makkelijk\<adj\>\<sint\>\<pred\>	^Makkelijk<adj><sint><pred>$
@@ -1723,34 +875,10 @@ Tag mismatch between transfer and generation
       1 #Langeafstand\<adj\>\<sint\>\<pred\>	^Langeafstand<adj><sint><pred>$
       1 #Landelijk\<adj\>\<sint\>\<attr\>	^Landelijk<adj><sint><attr>$
       1 #Kwantitatief\<adj\>\<attr\>	^Kwantitatief<adj><attr>$
-      1 #Inwerken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Inwerken<vblex><sep><fm><pres><p3><sg>$
-      1 #Invoegen\<vblex\>\<sep\>\<inf\>	^Invoegen<vblex><sep><inf>$
       1 #intuïtief\<adj\>\<attr\>	^intuïtief<adj><attr>$
-      1 #intrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^intrekken<vblex><sep><fm><pres><pl>$
-      1 #Intreden\<vblex\>\<sep\>\<inf\>	^Intreden<vblex><sep><inf>$
       1 #intiem\<adj\>\<sint\>\<sup\>\<attr\>	^intiem<adj><sint><sup><attr>$
-      1 #intekenen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\> 	^intekenen<vblex><sep><fm><pres><p3><sg>$ 
-      1 #instaan\<vblex\>\<sep\>\<pp\>	^instaan<vblex><sep><pp>$
-      1 #instaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p2\>\<sg\>	^instaan<vblex><sep><fm><pres><p2><sg>$
-      1 #insnijden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^insnijden<vblex><sep><fm><pres><p3><sg>$
-      1 #inschrijven\<vblex\>\<sep\>\<fm\>\<pres\>\<p1\>\<sg\>	^inschrijven<vblex><sep><fm><pres><p1><sg>$
-      1 #inrijden\<vblex\>\<sep\>\<pp\>	^inrijden<vblex><sep><pp>$
-      1 #inrijden\<vblex\>\<sep\>\<inf\>	^inrijden<vblex><sep><inf>$
-      1 #inplanteren\<vblex\>\<sep\>\<inf\>	^inplanteren<vblex><sep><inf>$
-      1 #INPLANTEREN\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^INPLANTEREN<vblex><sep><fm><pres><p3><sg>$
       1 #innig\<adj\>\<sint\>\<attr\>	^innig<adj><sint><attr>$
       1 #Innerlijk\<adj\>\<sint\>\<attr\>	^Innerlijk<adj><sint><attr>$
-      1 #Innemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Innemen<vblex><sep><fm><pres><p3><sg>$
-      1 #INLOPEN\<vblex\>\<sep\>\<pp\>	^INLOPEN<vblex><sep><pp>$
-      1 #inleven\<vblex\>\<sep\>\<inf\>	^inleven<vblex><sep><inf>$
-      1 #inkopen\<vblex\>\<sep\>\<pp\>	^inkopen<vblex><sep><pp>$
-      1 #inkijken\<vblex\>\<sep\>\<inf\>	^inkijken<vblex><sep><inf>$
-      1 #inkeren\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^inkeren<vblex><sep><fm><pres><pl>$
-      1 #Initiatief\<adj\>\<sint\>\<pred\>	^Initiatief<adj><sint><pred>$
-      1 #ingaan\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^ingaan<vblex><sep><fm><pres><pl>$
-      1 #indrijven\<vblex\>\<sep\>\<inf\>	^indrijven<vblex><sep><inf>$
-      1 #Inbreken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Inbreken<vblex><sep><fm><pres><p3><sg>$
-      1 #inbouwen\<vblex\>\<sep\>\<inf\>	^inbouwen<vblex><sep><inf>$
       1 #Imperialistisch\<adj\>\<sint\>\<attr\>	^Imperialistisch<adj><sint><attr>$
       1 #Ijzig\<adj\>\<sint\>\<pred\>	^Ijzig<adj><sint><pred>$
       1 #Ijzig\<adj\>\<sint\>\<attr\>	^Ijzig<adj><sint><attr>$
@@ -1758,7 +886,6 @@ Tag mismatch between transfer and generation
       1 #Homoseksueel\<adj\>\<attr\>	^Homoseksueel<adj><attr>$
       1 #Herhaaldelijk\<adj\>\<sint\>\<pred\>	^Herhaaldelijk<adj><sint><pred>$
       1 #hartelijk\<adj\>\<sint\>\<attr\>	^hartelijk<adj><sint><attr>$
-      1 #Groepering\<n\>\<mf\>\<sg\>	^Groepering<n><mf><sg>$
       1 #Goud\<adj\>\<sint\>\<comp\>\<pred\>	^Goud<adj><sint><comp><pred>$
       1 #giftig\<adj\>\<sint\>\<comp\>\<pred\>	^giftig<adj><sint><comp><pred>$
       1 #Gezouten\<adj\>\<sint\>\<attr\>	^Gezouten<adj><sint><attr>$
@@ -1776,29 +903,15 @@ Tag mismatch between transfer and generation
       1 #geestdriftig\<adj\>\<sint\>\<sup\>\<attr\>	^geestdriftig<adj><sint><sup><attr>$
       1 #Gedroogd\<adj\>\<sint\>\<pred\>	^Gedroogd<adj><sint><pred>$
       1 #FOUTIEF\<adj\>\<pred\>	^FOUTIEF<adj><pred>$
-      1 #Familie\<adj\>\<sint\>\<attr\>	^Familie<adj><sint><attr>$
       1 #ernstig\<adj\>\<sint\>\<sup\>\<pred\>	^ernstig<adj><sint><sup><pred>$
       1 #Epidemisch\<adj\>\<sint\>\<pred\>	^Epidemisch<adj><sint><pred>$
       1 #Ecologisch\<adj\>\<sint\>\<pred\>	^Ecologisch<adj><sint><pred>$
       1 #dringend\<adj\>\<sint\>\<sup\>\<attr\>	^dringend<adj><sint><sup><attr>$
       1 #dringend\<adj\>\<sint\>\<pred\> 	^dringend<adj><sint><pred>$ 
       1 #Dringend\<adj\>\<sint\>\<attr\>	^Dringend<adj><sint><attr>$
-      1 #doorzoeken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorzoeken<vblex><sep><fm><pres><p3><sg>$
-      1 #doortrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^doortrekken<vblex><sep><fm><pres><pl>$
-      1 #doorstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorstaan<vblex><sep><fm><pres><p3><sg>$
-      1 #doorrijden\<vblex\>\<sep\>\<inf\>	^doorrijden<vblex><sep><inf>$
-      1 #doorgeven\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorgeven<vblex><sep><fm><pres><p3><sg>$
-      1 #doorgaan\<vblex\>\<sep\>\<pp\>	^doorgaan<vblex><sep><pp>$
-      1 #doordrukken\<vblex\>\<sep\>\<inf\>	^doordrukken<vblex><sep><inf>$
-      1 #Doeltreffend\<adj\>\<sint\>\<pred\>	^Doeltreffend<adj><sint><pred>$
-      1 #Dinamisch\<adj\>\<sint\>\<attr\>	^Dinamisch<adj><sint><attr>$
       1 #DIGITAAL\<adj\>\<pred\>	^DIGITAAL<adj><pred>$
-      1 #Dier\<adj\>\<pred\>	^Dier<adj><pred>$
-      1 #dier\<adj\>\<pred\> 	^dier<adj><pred>$ 
-      1 #Dier\<adj\>\<attr\>	^Dier<adj><attr>$
       1 #Depressief\<adj\>\<attr\>	^Depressief<adj><attr>$
       1 #Degelijk\<adj\>\<sint\>\<pred\>	^Degelijk<adj><sint><pred>$
-      1 #datief\<adj\>\<attr\>	^datief<adj><attr>$
       1 #dadelijk\<adj\>\<sint\>\<pred\>	^dadelijk<adj><sint><pred>$
       1 #Daadwerkelijk\<adj\>\<sint\>\<attr\>	^Daadwerkelijk<adj><sint><attr>$
       1 #Bolvorming\<adj\>\<sint\>\<pred\>	^Bolvorming<adj><sint><pred>$
@@ -1816,57 +929,14 @@ Tag mismatch between transfer and generation
       1 #Bedekt\<adj\>\<sint\>\<pred\>	^Bedekt<adj><sint><pred>$
       1 #Alfabetisch\<adj\>\<sint\>\<attr\>	^Alfabetisch<adj><sint><attr>$
       1 #Afzonderlijk\<adj\>\<sint\>\<attr\>	^Afzonderlijk<adj><sint><attr>$
-      1 #afzagen\<vblex\>\<sep\>\<pp\>	^afzagen<vblex><sep><pp>$
-      1 #afwijzen\<vblex\>\<sep\>\<inf\>	^afwijzen<vblex><sep><inf>$
-      1 #afwenden\<vblex\>\<sep\>\<inf\>	^afwenden<vblex><sep><inf>$
-      1 #afvatten\<vblex\>\<sep\>\<pp\>	^afvatten<vblex><sep><pp>$
-      1 #afvaardigen\<vblex\>\<sep\>\<inf\>	^afvaardigen<vblex><sep><inf>$
-      1 #aftekenen\<vblex\>\<sep\>\<pp\>	^aftekenen<vblex><sep><pp>$
-      1 #aftekenen\<vblex\>\<sep\>\<inf\>	^aftekenen<vblex><sep><inf>$
-      1 #Afstellen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Afstellen<vblex><sep><fm><pres><p3><sg>$
-      1 #afstellen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^afstellen<vblex><sep><fm><pres><p3><sg>$
-      1 #afstelen\<vblex\>\<sep\>\<pp\>	^afstelen<vblex><sep><pp>$
-      1 #afspreken\<vblex\>\<sep\>\<fm\>\<pres\>\<pl\>	^afspreken<vblex><sep><fm><pres><pl>$
-      1 #afschrijven\<vblex\>\<sep\>\<pp\>	^afschrijven<vblex><sep><pp>$
-      1 #afschrijven\<vblex\>\<sep\>\<inf\>	^afschrijven<vblex><sep><inf>$
-      1 #afroepen\<vblex\>\<sep\>\<pp\>	^afroepen<vblex><sep><pp>$
-      1 #Aflossen\<vblex\>\<sep\>\<inf\>	^Aflossen<vblex><sep><inf>$
-      1 #afkijken\<vblex\>\<sep\>\<inf\>	^afkijken<vblex><sep><inf>$
-      1 #afkeren\<vblex\>\<sep\>\<pp\>	^afkeren<vblex><sep><pp>$
-      1 #afkeren\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^afkeren<vblex><sep><fm><pres><p3><sg>$
-      1 #Afgooien\<vblex\>\<sep\>\<inf\>	^Afgooien<vblex><sep><inf>$
-      1 #afdragen\<vblex\>\<sep\>\<pp\>	^afdragen<vblex><sep><pp>$
-      1 #Afbeelding\<n\>\<mf\>\<pl\>	^Afbeelding<n><mf><pl>$
-      1 #achternazitten\<vblex\>\<sep\>\<inf\>	^achternazitten<vblex><sep><inf>$
       1 #Absoluut\<adj\>\<pred\>	^Absoluut<adj><pred>$
-      1 #aanzoeken\<vblex\>\<sep\>\<fs\>\<pres\>\<pl\>	^aanzoeken<vblex><sep><fs><pres><pl>$
-      1 #Aanwijzen\<vblex\>\<sep\>\<pp\>	^Aanwijzen<vblex><sep><pp>$
-      1 #aanvatten\<vblex\>\<sep\>\<pp\>	^aanvatten<vblex><sep><pp>$
-      1 #aanvatten\<vblex\>\<sep\>\<inf\>	^aanvatten<vblex><sep><inf>$
-      1 #aanvallen\<vblex\>\<sep\>\<fs\>\<pres\>\<pl\>	^aanvallen<vblex><sep><fs><pres><pl>$
-      1 #Aanvallen\<vblex\>\<sep\>\<fs\>\<pres\>\<p3\>\<sg\>	^Aanvallen<vblex><sep><fs><pres><p3><sg>$
-      1 #Aanvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Aanvallen<vblex><sep><fm><pres><p3><sg>$
-      1 #aanvallen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanvallen<vblex><sep><fm><pres><p3><sg>$
-      1 #aantrekken\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aantrekken<vblex><sep><fm><pres><p3><sg>$
-      1 #aantekenen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aantekenen<vblex><sep><fm><pres><p3><sg>$
-      1 #Aansturen\<vblex\>\<sep\>\<inf\>	^Aansturen<vblex><sep><inf>$
-      1 #aanrijden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanrijden<vblex><sep><fm><pres><p3><sg>$
-      1 #Aanranden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Aanranden<vblex><sep><fm><pres><p3><sg>$
-      1 #aanranden\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aanranden<vblex><sep><fm><pres><p3><sg>$
-      1 #Aannemen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^Aannemen<vblex><sep><fm><pres><p3><sg>$
-      1 #Aanmoedigen\<vblex\>\<sep\>\<pp\>	^Aanmoedigen<vblex><sep><pp>$
       1 #aanmerkelijk\<adj\>\<sint\>\<attr\>	^aanmerkelijk<adj><sint><attr>$
-      1 #aankloppen\<vblex\>\<sep\>\<pp\>	^aankloppen<vblex><sep><pp>$
-      1 #aankloppen\<vblex\>\<sep\>\<inf\>	^aankloppen<vblex><sep><inf>$
-      1 #aankloppen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aankloppen<vblex><sep><fm><pres><p3><sg>$
-      1 #aankijken\<vblex\>\<sep\>\<inf\>	^aankijken<vblex><sep><inf>$
       1 #aangetast\<adj\>\<sint\>\<attr\>	^aangetast<adj><sint><attr>$
-      1 #aandringen\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^aandringen<vblex><sep><fm><pres><p3><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
-     0 /tmp/af-nl.multiform
-     0 /tmp/af-nl.multibidix
-  1849 /tmp/af-nl.tagmismatch
-  1849 total
+    0 /tmp/af-nl.multiform
+    0 /tmp/af-nl.multibidix
+  919 /tmp/af-nl.tagmismatch
+  919 total

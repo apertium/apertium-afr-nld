@@ -622,6 +622,7 @@
     <e><p><l>herkoms<s n="n"/></l><r>herkomst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hegtenis<s n="n"/></l><r>hechtenis<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jeug<s n="n"/></l><r>jeugd<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>towenaar<s n="n"/></l><r>tovenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>veroweraar<s n="n"/></l><r>veroveraar<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>sjokolade<s n="n"/></l><r>chocolade<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kolom<s n="n"/></l><r>kolom<s n="n"/><s n="mf"/></r></p></e>
@@ -4173,6 +4174,7 @@
     <e><p><l>toeganklik<s n="adj"/></l><r>toeganglijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>suidwestelik<s n="adj"/></l><r>zuidwestelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>uiteindelik<s n="adj"/></l><r>uiteindelijk<s n="adj"/><s n="sint"/></r></p></e>
+    <e r="LR"><p><l>gevolglik<s n="adj"/></l><r>uiteindelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>winsgewend<s n="adj"/><s n="sint"/></l><r>winstgevend<s n="adj"/><s n="sint"/></r></p></e>
     
     <e><p><l>logies<s n="adj"/></l><r>logisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -4810,6 +4812,9 @@
 
 
     <e><p><l>Brits<s n="adj"/></l><r>Brits<s n="adj"/><s n="sint"/></r></p></e>
+
+    <e><p><l>gebore<s n="adj"/></l><r>geboren<s n="adj"/></r></p></e>
+    <e><p><l>regter<s n="adj"/></l><r>rechter<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 

@@ -6858,7 +6858,11 @@
 
 
     <pardef n="v.Chr.__n_mf">
-      <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="mnr__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="km__n_m">
@@ -13760,8 +13764,7 @@
     <e lm="mm"><i>mm</i><par n="km__n_m"/></e>
     <e lm="nm"><i>nm</i><par n="km__n_m"/></e>
     <e lm="cm"><i>cm</i><par n="km__n_m"/></e>
-	<e lm="mnr"><i>mnr</i><par n="km__n_m"/></e>
-    <e lm="Mnr"><i>Mnr</i><par n="km__n_m"/></e>
+    <e lm="mnr"><i>mnr</i><par n="mnr__n_m"/></e>
 
     <e lm="2-propeenzuur"><i>2-propeenzuur</i><par n="OV__n_nt"/></e>
     <e lm="65+-kaart"><i>65+-kaart</i><par n="65+-kaart__n_mf"/></e>
