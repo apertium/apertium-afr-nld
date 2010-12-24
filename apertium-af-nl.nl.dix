@@ -9175,6 +9175,7 @@
     <e lm="krachtig"><i>krachtig</i><par n="es__adv"/></e>
     <e lm="krampachtig"><i>krampachtig</i><par n="es__adv"/></e>
     <e lm="kritiek"><i>kritiek</i><par n="es__adv"/></e>
+    <e lm="politiek"><i>politiek</i><par n="es__adv"/></e>
     <e lm="kwaadschiks"><i>kwaadschiks</i><par n="es__adv"/></e>
     <e lm="laatst"><i>laatst</i><par n="es__adv"/></e>
     <e lm="laconiek"><i>laconiek</i><par n="es__adv"/></e>
@@ -25845,12 +25846,14 @@
     <!-- SECTION: Proper nouns -->
 
     <e lm="België"><i>België</i><par n="Frankrijk__np"/></e>
+    <e lm="Polynesië"><i>Polynesië</i><par n="Frankrijk__np"/></e>
     <e lm="Nederland"><i>Nederland</i><par n="Frankrijk__np"/></e>
     <e lm="Duitsland"><i>Duitsland</i><par n="Frankrijk__np"/></e>
     <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Frankrijk__np"/></e>
     <e lm="Nederlands"><i>Nederlands</i><par n="Nederlands__np"/></e>
     <e lm="Afrika"><i>Afrika</i><par n="Afrika__np"/></e>
+    <e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
 
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
