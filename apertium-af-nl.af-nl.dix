@@ -4047,7 +4047,6 @@
     <e><p><l>suksesvol<s n="adj"/></l><r>succesvol<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>elektries<s n="adj"/></l><r>electrisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>moeilik<s n="adj"/><s n="sint"/></l><r>moeilijk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>gou<s n="adj"/><s n="sint"/></l><r>goud<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>swaar<s n="adj"/><s n="sint"/></l><r>zwaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>finansieel<s n="adj"/></l><r>financieel<s n="adj"/></r></p></e>
     <e><p><l>besig<s n="adj"/><s n="sint"/></l><r>bezig<s n="adj"/><s n="sint"/></r></p></e>
@@ -4141,7 +4140,7 @@
     <e><p><l>invloedryk<s n="adj"/></l><r>invloedrijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geneties<s n="adj"/></l><r>genetisch<s n="adj"/></r></p></e>
     <e><p><l>vars<s n="adj"/><s n="sint"/></l><r>vers<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>horisontaal<s n="adj"/></l><r>horizontaal<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>horisontaal<s n="adj"/></l><r>horizontaal<s n="adj"/></r></p></e>
     <e><p><l>hewig<s n="adj"/><s n="sint"/></l><r>hevig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blykbaar<s n="adj"/></l><r>blijkbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gemeng<s n="adj"/></l><r>gemengd<s n="adj"/><s n="sint"/></r></p></e>
@@ -4153,7 +4152,7 @@
     <e><p><l>vertikaal<s n="adj"/></l><r>verticaal<s n="adj"/></r></p></e>
     <e><p><l>onmoontlik<s n="adj"/><s n="sint"/></l><r>onmogelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geïnspireer<s n="adj"/></l><r>geïnspireerd<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>polities<s n="adj"/></l><r>politiek<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>polities<s n="adj"/></l><r>politiek<s n="adj"/></r></p></e>
     <e><p><l>tersiêr<s n="adj"/></l><r>tertair<s n="adj"/></r></p></e>
     <e><p><l>opties<s n="adj"/></l><r>optisch<s n="adj"/></r></p></e>
     <e><p><l>drasties<s n="adj"/></l><r>drastisch<s n="adj"/></r></p></e>
@@ -4187,11 +4186,11 @@
     <e><p><l>onsuksesvol<s n="adj"/></l><r>onsuccesvol<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gespesialiseer<s n="adj"/></l><r>gespecialiseerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>identies<s n="adj"/></l><r>identiek<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>potensieel<s n="adj"/></l><r>potentieel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>potensieel<s n="adj"/></l><r>potentieel<s n="adj"/></r></p></e>
     <e><p><l>buite-egtelik<s n="adj"/></l><r>buitenechtelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>grafies<s n="adj"/></l><r>grafisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>analities<s n="adj"/></l><r>analytisch<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>potensiaal<s n="adj"/></l><r>potentieel<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>potensiaal<s n="adj"/></l><r>potentieel<s n="adj"/></r></p></e>
     <e><p><l>noukeurig<s n="adj"/><s n="sint"/></l><r>nauwkeurig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>goud<s n="adj"/><s n="sint"/></l><r>goud<s n="adj"/></r></p></e>
     <e><p><l>soet<s n="adj"/><s n="sint"/></l><r>zoet<s n="adj"/><s n="sint"/></r></p></e>
@@ -4609,7 +4608,7 @@
     <e><p><l>vry<s n="adj"/><s n="sint"/></l><r>vrij<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>absoluut<s n="adj"/></l><r>absoluut<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>administratief<s n="adj"/></l><r>administratief<s n="adj"/></r></p></e>
+    <e><p><l>administratief<s n="adj"/></l><r>administratief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>algemeen<s n="adj"/></l><r>algemeen<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>alternatief<s n="adj"/></l><r>alternatief<s n="adj"/></r></p></e>
     <e><p><l>arm<s n="adj"/><s n="sint"/></l><r>arm<s n="adj"/><s n="sint"/></r></p></e>
@@ -4620,9 +4619,8 @@
     <e><p><l>bevaarbaar<s n="adj"/></l><r>bevaarbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bevaarbaar<s n="adj"/></l><r>bevaarbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bloedig<s n="adj"/><s n="sint"/></l><r>bloedig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>boosaardig<s n="adj"/></l><r>boosaardig<s n="adj"/></r></p></e>
+    <e><p><l>boosaardig<s n="adj"/></l><r>boosaardig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>breed<s n="adj"/></l><r>breed<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>bruikbaar<s n="adj"/></l><r>bruikbaar<s n="adj"/></r></p></e>
     <e><p><l>bruikbaar<s n="adj"/></l><r>bruikbaar<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bruin<s n="adj"/></l><r>bruin<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>definitief<s n="adj"/></l><r>definitief<s n="adj"/><s n="sint"/></r></p></e>
@@ -4666,11 +4664,11 @@
     <e><p><l>heilig<s n="adj"/><s n="sint"/></l><r>heilig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heteroseksueel<s n="adj"/></l><r>heteroseksueel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>homoseksueel<s n="adj"/></l><r>homoseksueel<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/></r></p></e>
+    <e><p><l>hoog<s n="adj"/><s n="sint"/></l><r>hoog<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>huidig<s n="adj"/></l><r>huidig<s n="adj"/></r></p></e>
     <e><p><l>ideaal<s n="adj"/></l><r>ideaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>industrieel<s n="adj"/></l><r>industrieel<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>informeel<s n="adj"/></l><r>informeel<s n="adj"/></r></p></e>
+    <e><p><l>informeel<s n="adj"/></l><r>informeel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>inheems<s n="adj"/></l><r>inheems<s n="adj"/></r></p></e>
     <e><p><l>innig<s n="adj"/><s n="sint"/></l><r>innig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>interessant<s n="adj"/><s n="sint"/></l><r>interessant<s n="adj"/><s n="sint"/></r></p></e>
@@ -4710,7 +4708,7 @@
     <e><p><l>ongeletterd<s n="adj"/></l><r>ongeletterd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>onvoltooid<s n="adj"/></l><r>onvoltooid<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>orbitaal<s n="adj"/></l><r>orbitaal<s n="adj"/></r></p></e>
-    <e><p><l>passief<s n="adj"/></l><r>passief<s n="adj"/></r></p></e>
+    <e><p><l>passief<s n="adj"/></l><r>passief<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>periodiek<s n="adj"/></l><r>periodiek<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>politiek<s n="adj"/></l><r>politiek<s n="adj"/></r></p></e>
     <e><p><l>positief<s n="adj"/></l><r>positief<s n="adj"/><s n="sint"/></r></p></e>
@@ -4811,7 +4809,6 @@
     <e><p><l>Brits<s n="adj"/></l><r>Brits<s n="adj"/><s n="sint"/></r></p></e>
 
     <e><p><l>gebore<s n="adj"/></l><r>geboren<s n="adj"/></r></p></e>
-    <e><p><l>regter<s n="adj"/></l><r>rechter<s n="adj"/><s n="sint"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
