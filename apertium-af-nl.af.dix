@@ -2581,6 +2581,7 @@
     <e lm="a"><i>a</i><par n="Mnr__n"/></e>
     <e lm="e"><i>e</i><par n="Mnr__n"/></e>
     <e lm="v.C"><i>v.C</i><par n="Mnr__n"/></e>
+    <e lm="v.C" r="LR"><p><l>v.C.r</l><r>v.C</r></p><par n="Mnr__n"/></e>
 
     <e lm="ID"><i>ID</i><par n="albino__n"/></e><!-- make one for acr -->
 
