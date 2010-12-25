@@ -11579,6 +11579,7 @@
 	<e lm="gemeten"><i>gemeten</i><par n="nipt__adj"/></e>
 	<e lm="overgroot"><i>overgro</i><par n="blo/ot__adj_sint"/></e>
 	<e lm="mogelijk"><i>mogelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="uiterlijk"><i>uiterlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="natuurlijk"><i>natuurlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="onafhankelijk"><i>onafhankelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="makkelijk"><i>makkelijk</i><par n="eng__adj_sint"/></e>
@@ -11647,7 +11648,7 @@
 	<e lm="tamelijk"><i>tamelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="herhaaldelijk"><i>herhaaldelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="productief"><i>productie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="onofficieel"><i>onofficieel</i><par n="he/el__adj_sint"/></e>
+	<e lm="onofficieel"><i>onofficie</i><par n="he/el__adj_sint"/></e>
 	<e lm="woedend"><i>woedend</i><par n="eng__adj_sint"/></e>
 	<e lm="vriendschappelijk"><i>vriendschappelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="eindelijk"><i>eindelijk</i><par n="eng__adj_sint"/></e>
@@ -11663,6 +11664,8 @@
 	<e lm="etimologisch"><i>etimologisch</i><par n="fors__adj_sint"/></e>
 	<e lm="vijandig"><i>vijandig</i><par n="eng__adj_sint"/></e>
 	<e lm="onrechtelijk"><i>onrechtelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="buitenechtelijk"><i>buitenechtelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="mededingend"><i>mededingend</i><par n="eng__adj_sint"/></e>
 	<e lm="orthodox"><i>orthodox</i><par n="fors__adj_sint"/></e>
 	<e lm="numerisch"><i>numerisch</i><par n="fors__adj_sint"/></e>
 	<e lm="ijverig"><i>ijverig</i><par n="eng__adj_sint"/></e>
@@ -11740,7 +11743,7 @@
 	<e lm="aanspreekbaar"><i>aanspreekba</i><par n="ga/ar__adj_sint"/></e>
 	<e lm="statuair"><i>statuair</i><par n="fier__adj_sint"/></e>
 	<e lm="opwindend"><i>opwindend</i><par n="eng__adj_sint"/></e>
-	<e lm="onderscheidbaar"><i>onderscheidbaar</i><par n="ga/ar__adj_sint"/></e>
+	<e lm="onderscheidbaar"><i>onderscheidba</i><par n="ga/ar__adj_sint"/></e>
 	<e lm="meesterlijk"><i>meesterlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="aangetast"><i>aangetast</i><par n="eng__adj_sint"/></e>
 	<e lm="bevredigend"><i>bevredigend</i><par n="eng__adj_sint"/></e>
@@ -11849,7 +11852,7 @@
 	<e lm="oneindig"><i>oneindig</i><par n="eng__adj_sint"/></e>
 	<e lm="ongeletterd"><i>ongeletterd</i><par n="eng__adj_sint"/></e>
 	<e lm="onvoltooid"><i>onvoltooid</i><par n="eng__adj_sint"/></e>
-	<e lm="passief"><i>passief</i><par n="gro/f__adj_sint"/></e>
+	<e lm="passief"><i>passie</i><par n="gro/f__adj_sint"/></e>
 	<e lm="periodiek"><i>periodiek</i><par n="eng__adj_sint"/></e>
 	<e lm="publiek"><i>publiek</i><par n="eng__adj_sint"/></e>
 	<e lm="rustig"><i>rustig</i><par n="eng__adj_sint"/></e>
