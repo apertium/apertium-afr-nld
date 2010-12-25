@@ -11612,8 +11612,8 @@
 	<e lm="mechanisch"><i>mechanisch</i><par n="fors__adj_sint"/></e>
 	<e lm="aanvankelijk"><i>aanvankelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="invloedrijk"><i>invloedrijk</i><par n="eng__adj_sint"/></e>
-	<e lm="horizontaal"><i>horizonta</i><par n="ora/al__adj_sint"/></e>
-	<e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj"/></e>
+	<e lm="horizontaal"><i>horizonta</i><par n="ora/al__adj"/></e>
+	<e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj_sint"/></e>
 	<e lm="krachtig"><i>krachtig</i><par n="eng__adj_sint"/></e>
 	<e lm="verticaal"><i>vertica</i><par n="ora/al__adj"/></e>
 	<e lm="onmogelijk"><i>onmogelijk</i><par n="eng__adj_sint"/></e>
@@ -11693,7 +11693,7 @@
 	<e lm="schriftelijk"><i>schriftelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="encyclopedisch"><i>encyclopedisch</i><par n="fors__adj_sint"/></e>
 	<e lm="bedrijvig"><i>bedrijvig</i><par n="eng__adj_sint"/></e>
-	<e lm="uitdrukkelijk"><i>uitdrukkelijk</i><par n="emg__adj_sint"/></e>
+	<e lm="uitdrukkelijk"><i>uitdrukkelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="symmetrisch"><i>symmetrisch</i><par n="fors__adj_sint"/></e>
 	<e lm="epidemisch"><i>epidemisch</i><par n="fors__adj_sint"/></e>
 	<e lm="aanstekelijk"><i>aanstekelijk</i><par n="eng__adj_sint"/></e>
@@ -11778,7 +11778,7 @@
 	<e lm="recessief"><i>recessie</i><par n="gro/f__adj_sint"/></e>
 	<e lm="onbewegelijk"><i>onbewegelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="morfologisch"><i>morfologisch</i><par n="eng__adj_sint"/></e>
-	<e lm="locatief"><i>locatie</i><par n="gro/f__adj_sint_sint"/></e>
+	<e lm="locatief"><i>locatie</i><par n="gro/f__adj_sint"/></e>
 	<e lm="bevrijd"><i>bevrijd</i><par n="eng__adj_sint"/></e>
 	<e lm="aanstotelijk"><i>aanstotelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="vergankelijk"><i>vergankelijk</i><par n="eng__adj_sint"/></e>
@@ -11814,7 +11814,7 @@
 	<e lm="bezwaarlijk"><i>bezwaarlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="toegevelijk"><i>toegevelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="aarzelend"><i>aarzelend</i><par n="eng__adj_sint"/></e>
-	<e lm="taalwetenschappelijk"><i>taalwetenschappelijk</i><par n="__adj_sint"/></e>
+	<e lm="taalwetenschappelijk"><i>taalwetenschappelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="pessimistisch"><i>pessimistisch</i><par n="fors__adj_sint"/></e>
 	<e lm="oneconomisch"><i>oneconomisch</i><par n="fors__adj_sint"/></e>
 	<e lm="administratief"><i>administratie</i><par n="gro/f__adj_sint"/></e>
