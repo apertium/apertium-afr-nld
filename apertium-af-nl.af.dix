@@ -3377,11 +3377,10 @@
 
     <e lm="oggend"><i>oggend</i><par n="bier__n"/></e>
 
-
-
-
-
     <e lm="maandag"><i>maand</i><par n="vra/ag__n"/></e>
+    <e lm="vrydag"><i>vryd</i><par n="vra/ag__n"/></e>
+    <e lm="saterdag"><i>saterd</i><par n="vra/ag__n"/></e>
+    <e lm="sondag"><i>sond</i><par n="vra/ag__n"/></e>
 
     <e lm="Januarie"><i>Januarie</i><par n="artikel__n"/></e>
     <e lm="Februarie"><i>Februarie</i><par n="artikel__n"/></e>
