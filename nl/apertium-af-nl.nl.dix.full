@@ -12588,7 +12588,7 @@
     <e lm="geaaid"><i>geaaid</i><par n="nipt__adj"/></e>
     <e lm="gebeft"><i>gebeft</i><par n="eng__adj_sint"/></e>
     <e lm="gebiedend"><i>gebiedend</i><par n="nipt__adj"/></e>
-    <e lm="geblokkeerd"><i>geblokkeerd</i><par n="nipt__adj"/></e>
+    <!--<e lm="geblokkeerd"><i>geblokkeerd</i><par n="nipt__adj"/></e>-->
     <e lm="gebrekkig"><i>gebrekkig</i><par n="eng__adj_sint"/></e>
     <e lm="gebruikelijk"><i>gebruikelijk</i><par n="eng__adj_sint"/></e>
     <e lm="gecontroleerd"><i>gecontroleerd</i><par n="eng__adj_sint"/></e>
@@ -13146,7 +13146,6 @@
     <e lm="mathematisch"><i>mathematisch</i><par n="taps__adj"/></e>
     <e lm="matten"><i>matten</i><par n="eren__adj"/></e>
     <e lm="maximaal"><i>maxima</i><par n="ka/al__adj_sint"/></e>
-    <e lm="mechanisch"><i>mechanisch</i><par n="taps__adj"/></e>
     <e lm="medisch"><i>medisch</i><par n="taps__adj"/></e>
     <e lm="meetbaar"><i>meetba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="melodieus"><i>melodieu</i><par n="vie/s__adj_sint"/></e>

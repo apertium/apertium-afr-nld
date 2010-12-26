@@ -5874,6 +5874,7 @@
     <e lm="veel"><i></i><par n="/veel__adj"/></e>
 	<e lm="druk"><i>druk</i><par n="dik__adj"/></e>
 	<e lm="vorig"><i>vorig</i><par n="dadelik__adj"/></e>
+	<e lm="lekker"><i>lekker</i><par n="dadelik__adj"/></e>
 	<e lm="antiek"><i>antiek</i><par n="dadelik__adj"/></e>
 	<e lm="Christelik"><i>Christelik</i><par n="dadelik__adj"/></e>
 	<e lm="verder"><i>verder</i><par n="dadelik__adj"/></e>
@@ -6015,7 +6016,6 @@
     <e lm="interessant"><i>interessant</i><par n="maklik__adj"/></e>
 
     <!-- Taken from wordlist with ~ø ~e ~er ~ste -->
-    <e lm="arm"><i>arm</i><par n="maklik__adj"/></e>
     <e lm="bedrywig"><i>bedrywig</i><par n="maklik__adj"/></e>
     <e lm="beduidend"><i>beduidend</i><par n="maklik__adj"/></e>
     <e lm="behoudend"><i>behoudend</i><par n="maklik__adj"/></e>
@@ -6101,7 +6101,6 @@
     <e lm="stout"><i>stout</i><par n="maklik__adj"/></e>
     <e lm="streng"><i>streng</i><par n="maklik__adj"/></e>
     <e lm="suinig"><i>suinig</i><par n="maklik__adj"/></e>
-    <e lm="swart"><i>swart</i><par n="maklik__adj"/></e>
     <e lm="taai"><i>taai</i><par n="maklik__adj"/></e>
     <e lm="talryk"><i>talryk</i><par n="maklik__adj"/></e>
     <e lm="teësinnig"><i>teësinnig</i><par n="maklik__adj"/></e>
@@ -6854,6 +6853,7 @@
     <e lm="geel"><i>geel</i><par n="swart__adj"/></e>
     <e lm="bruin"><i>bruin</i><par n="swart__adj"/></e>
     <e lm="swart"><i>swart</i><par n="swart__adj"/></e>
+    <!--<e lm="swart"><i>swart</i><par n="maklik__adj"/></e>-->
     <e lm="wit"><i>wit</i><par n="swart__adj"/></e>
     <e lm="rooi"><i>rooi</i><par n="swart__adj"/></e>
 
@@ -6868,7 +6868,6 @@
     <e lm="bewus"><i>bewus</i><par n="swart__adj"/></e><!-- aware :: CHECK -->
     <e lm="leidende"><i>leidende</i><par n="swart__adj"/></e><!-- leading :: CHECK -->
     <e lm="nabygeleë"><i>nabygeleë</i><par n="swart__adj"/></e><!-- neighbouring :: CHECK -->
-    <e lm="vroeër"><i>vroeër</i><par n="swart__adj"/></e><!-- earlier :: CHECK -->
     <e lm="verhoogde"><i>verhoogde</i><par n="swart__adj"/></e><!-- quisling:: CHECK -->
     <e lm="oopbron"><i>oopbron</i><par n="swart__adj"/></e><!-- open source :: CHECK -->
 
@@ -6883,7 +6882,6 @@
     <e lm="goud"><i>gou</i><par n="gou/d__adj"/></e>
     <e lm="jong"><i>jon</i><par n="jon/g__adj"/></e>
     <e lm="dood"><i>doo</i><par n="doo/d__adj"/></e><!-- dead -->
-    <e lm="seer"><i>se</i><par n="se/er__adj"/></e><!-- sore -->
     <e lm="sleg"><i>sleg</i><par n="sleg__adj"/></e><!-- bad -->
     <e lm="perfek"><i>perfek</i><par n="sleg__adj"/></e><!-- bad -->
     <e lm="uitgestrek"><i>uitgestrek</i><par n="sleg__adj"/></e><!-- bad -->

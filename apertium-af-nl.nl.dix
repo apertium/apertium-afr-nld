@@ -10041,9 +10041,6 @@
 	<e lm="Sovjets"><i>Sovjets</i><par n="eng__adj_sint"/></e>
     <e lm="nieuw"><i>nieuw</i><par n="eng__adj_sint"/></e>
 	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
-	<e lm="opgemeten"><i>opgemeten</i><par n="nipt__adj"/></e>
-	<e lm="slordig"><i>slordig</i><par n="eng__adj_sint"/></e>
-	<e lm="gemeten"><i>gemeten</i><par n="nipt__adj"/></e>
 	<e lm="overgroot"><i>overgro</i><par n="blo/ot__adj_sint"/></e>
     <e lm="belangrijk"><i>belangrijk</i><par n="eng__adj_sint"/></e>
     <e lm="Duits"><i>Duits</i><par n="fors__adj_sint"/></e>
@@ -10194,7 +10191,6 @@
     <e lm="geologisch"><i>geologisch</i><par n="gans__adj"/></e>
     <e lm="complex"><i>complex</i><par n="fors__adj_sint"/></e>
 	<e lm="mechanisch"><i>mechanisch</i><par n="fors__adj_sint"/></e>
-    <e lm="mechanisch"><i>mechanisch</i><par n="taps__adj"/></e>
 	<e lm="aanvankelijk"><i>aanvankelijk</i><par n="eng__adj_sint"/></e>
     <e lm="radicaal"><i>radica</i><par n="ka/al__adj_sint"/></e>
     <e lm="effectief"><i>effectie</i><par n="gro/f__adj_sint"/></e>
@@ -10390,7 +10386,7 @@
 	<e lm="psychologisch"><i>psychologisch</i><par n="fors__adj_sint"/></e>
 	<e lm="geestdriftig"><i>geestdriftig</i><par n="eng__adj_sint"/></e>
     <e lm="gedomineerd"><i>gedomineerd</i><par n="eng__adj_sint"/></e>
-    <e lm="geblokkeerd"><i>geblokkeerd</i><par n="nipt__adj"/></e>
+    <!--<e lm="geblokkeerd"><i>geblokkeerd</i><par n="nipt__adj"/></e>-->
     <e lm="geblokkeerd"><i>geblokkeerd</i><par n="eng__adj_sint"/></e>
 	<e lm="blinkend"><i>blinkend</i><par n="eng__adj_sint"/></e>
 	<e lm="toegewijd"><i>toegewijd</i><par n="eng__adj_sint"/></e>
@@ -10466,7 +10462,6 @@
     <e lm="gedoseerd"><i>gedoseerd</i><par n="eng__adj_sint"/></e>
     <e lm="eerlijk"><i>eerlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="alternatievelijk"><i>alternatievelijk</i><par n="eng__adj_sint"/></e>
-    <e lm="zwart"><i>zwart</i><par n="eng__adj_sint"/></e>
 	<e lm="pijlijk"><i>pijlijk</i><par n="eng__adj_sint"/></e>
     <e lm="problematisch"><i>problematisch</i><par n="fors__adj_sint"/></e>
 	<e lm="opzettelijk"><i>opzettelijk</i><par n="eng__adj_sint"/></e>
@@ -10590,7 +10585,6 @@
 	<e lm="aanstotelijk"><i>aanstotelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="vergankelijk"><i>vergankelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="substantief"><i>substantie</i><par n="corrosie/f__adj"/></e>
-    <e lm="ziek"><i>ziek</i><par n="eng__adj_sint"/></e>
 	<e lm="oceanografisch"><i>oceanografisch</i><par n="fors__adj_sint"/></e>
 	<e lm="onbewust"><i>onbewust</i><par n="eng__adj_sint"/></e>
     <e lm="inclusief"><i>inclusie</i><par n="gro/f__adj_sint"/></e>
@@ -10649,7 +10643,6 @@
 	<e lm="ontvankelijk"><i>ontvankelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="onberispelijk"><i>onberispelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="misselijk"><i>misselijk</i><par n="eng__adj_sint"/></e>
-    <e lm="zorgwekkend"><i>zorgwekkend</i><par n="eng__adj_sint"/></e>
 	<e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
 	<e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
     <e lm="gereproduceerd"><i>gereproduceerd</i><par n="eng__adj_sint"/></e>
@@ -10751,7 +10744,6 @@
     <e lm="koel"><i>koel</i><par n="eng__adj_sint"/></e>
     <e lm="kort"><i>kort</i><par n="eng__adj_sint"/></e>
     <e lm="koud"><i>koud</i><par n="eng__adj_sint"/></e>
-    <e lm="kritiek"><i>kritiek</i><par n="eng__adj_sint"/></e>
 	<e lm="kunstig"><i>kunstig</i><par n="eng__adj_sint"/></e>
     <e lm="kwaad"><i>kwa</i><par n="kwa/ad__adj_sint"/></e>
 	<e lm="kwaadaardig"><i>kwaadaardig</i><par n="eng__adj_sint"/></e>
@@ -10772,8 +10764,6 @@
 	<e lm="nominatief"><i>nominatie</i><par n="corrosie/f__adj"/></e>
 	<e lm="normaal"><i>norma</i><par n="ka/al__adj_sint"/></e>
     <e lm="offensief"><i>offensie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="omvattend"><i>omvattend</i><par n="eng__adj_sint"/></e>
-	<e lm="omvattend"><i>omvattend</i><par n="eng__adj_sint"/></e>
 	<e lm="onbekend"><i>onbekend</i><par n="eng__adj_sint"/></e>
 	<e lm="oneindig"><i>oneindig</i><par n="eng__adj_sint"/></e>
 	<e lm="ongeletterd"><i>ongeletterd</i><par n="eng__adj_sint"/></e>
@@ -10818,7 +10808,6 @@
 	<e lm="voordelig"><i>voordelig</i><par n="eng__adj_sint"/></e>
 	<e lm="voormalig"><i>voormalig</i><par n="eng__adj_sint"/></e>
     <e lm="vreemd"><i>vreemd</i><par n="eng__adj_sint"/></e>
-    <e lm="vroeg"><i>vroeg</i><par n="eng__adj_sint"/></e>
 	<e lm="vurig"><i>vurig</i><par n="eng__adj_sint"/></e>
     <e lm="waardevol"><i>waardevol</i><par n="gul__adj_sint"/></e>
 	<e lm="waardig"><i>waardig</i><par n="eng__adj_sint"/></e>
