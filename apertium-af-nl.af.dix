@@ -560,6 +560,7 @@
       <e>       <p><l>ag</l><r>ag<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ë</l><r>ag<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ër</l><r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+	  <e r="LR">       <p><l>er</l><r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>agste</l><r>ag<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
