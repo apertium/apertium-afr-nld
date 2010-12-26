@@ -9916,24 +9916,24 @@
 
     <pardef n="Frankrijk__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Afrika__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Nederlands__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Oostzee__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Europese_Unie__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Verenigde_Naties__np">
@@ -9963,32 +9963,32 @@
 
     <pardef n="van_der_Merwe__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Botha__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Hughes__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Wikipedia__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Apertium__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Linux__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="NAVO__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
 
@@ -9998,6 +9998,37 @@
 
 
     <e lm="enig"><i>enig</i><par n="gans__adj"/></e>
+    <e lm="druk"><i>druk</i><par n="gek__adj_sint"/></e>
+	<e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
+	<e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
+	<e lm="Christelijk"><i>Christelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="verder"><i>verder</i><par n="nipt__adj"/></e>
+    <e lm="later"><i>later</i><par n="nipt__adj"/></e>
+    <e lm="Zweeds"><i>Zweeds</i><par n="fors__adj_sint"/></e>
+    <e lm="Joods"><i>Joods</i><par n="fors__adj_sint"/></e>
+	<e lm="destijds"><i>destijds</i><par n="taps__adj"/></e>
+    <e lm="Indiaas"><i>India</i><par n="India/as__adj_sint"/></e>
+    <e lm="olympisch"><i>olympisch</i><par n="taps__adj"/></e>
+    <e lm="Russisch"><i>Russisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Slavisch"><i>Slavisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Grieks"><i>Grieks</i><par n="fors__adj_sint"/></e>
+    <e lm="Pools"><i>Pools</i><par n="fors__adj_sint"/></e>
+    <e lm="Rooms"><i>Rooms</i><par n="fors__adj_sint"/></e>
+    <e lm="Italiaans"><i>Italiaans</i><par n="fors__adj_sint"/></e>
+    <e lm="Germaans"><i>Germaans</i><par n="fors__adj_sint"/></e>
+    <e lm="Frans"><i>Frans</i><par n="fors__adj_sint"/></e>
+    <e lm="Deens"><i>Deens</i><par n="fors__adj_sint"/></e>
+    <e lm="Latijns"><i>Latijns</i><par n="fors__adj_sint"/></e>
+	<e lm="Kaaps"><i>Kaaps</i><par n="fors__adj_sint"/></e>
+    <e lm="Litouws"><i>Litouws</i><par n="fors__adj_sint"/></e>
+	<e lm="autonoom"><i>autono</i><par n="lo/om__adj_sint"/></e>
+    <e lm="gewoon"><i>gewo</i><par n="scho/on__adj_sint"/></e>
+    <e lm="laat"><i>la</i><par n="la/at__adj_sint"/></e>
+	<e lm="gelegen"><i>gelegen</i><par n="nipt__adj"/></e>
+    <e lm="overleden"><i>overleden</i><par n="even__adj"/></e>
+    <e lm="open"><i>open</i><par n="open__adj_sint"/></e>
+	<e lm="Sovjets"><i>Sovjets</i><par n="eng__adj_sint"/></e>
+    <e lm="nieuw"><i>nieuw</i><par n="eng__adj_sint"/></e>
 	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
 	<e lm="opgemeten"><i>opgemeten</i><par n="nipt__adj"/></e>
 	<e lm="slordig"><i>slordig</i><par n="eng__adj_sint"/></e>
@@ -11085,14 +11116,12 @@
     <e lm="indien"><i>indien</i><par n="dus__cnjadv"/></e>
     <e lm="na"><i>na</i><par n="dus__cnjadv"/></e>
     <e lm="zodat"><i>zodat</i><par n="dus__cnjadv"/></e>
-    <e lm="na"><i>na</i><par n="dus__cnjadv"/></e>
     <e lm="zodra"><i>zodra</i><par n="dus__cnjadv"/></e>
     <e lm="zodra"><i>zodra</i><par n="dus__cnjadv"/></e>
     <e lm="gezien dat"><i>gezien<b/>dat</i><par n="dus__cnjadv"/></e>
     <e lm="tenzij"><i>tenzij</i><par n="dus__cnjadv"/></e>
     <e lm="gegeven dat"><i>gegeven<b/>dat</i><par n="dus__cnjadv"/></e>
     <e lm="zo vroeg"><i>zo<b/>vroeg</i><par n="dus__cnjadv"/></e>
-    <e lm="na"><i>na</i><par n="dus__cnjadv"/></e>
     <e lm="tot"><i>tot</i><par n="dus__cnjadv"/></e>
     <e lm="tot"><i>tot</i><par n="dus__cnjadv"/></e>
     <e lm="alhoewel"><i>alhoewel</i><par n="dus__cnjadv"/></e>
@@ -11580,6 +11609,31 @@
 <!-- n.xml -->
 
 
+	<e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
+    <e lm="slag"><i>slag</i><par n="ui__n_m"/></e>
+	<e lm="trek"><i>trek</i><par n="fok__n_m"/></e>
+    <e lm="lijk"><i>lijk</i><par n="lot__n_nt"/></e>
+    <e lm="vader"><i>vader</i><par n="led__n_m"/></e>
+    <e lm="bewoner"><i>bewoner</i><par n="led__n_m"/></e>
+    <e lm="keizer"><i>keizer</i><par n="led__n_m"/></e>
+    <e lm="Duitser"><i>Duitser</i><par n="led__n_m"/></e>
+    <e lm="gouverneur"><i>gouverneur</i><par n="led__n_m"/></e>
+    <e lm="maan"><i>ma</i><par n="la/an__n_mf"/></e>
+    <e lm="leger"><i>leger</i><par n="eon__n_nt"/></e>
+    <e lm="Latijn"><i>Latijn</i><par n="OV__n_nt"/></e>
+    <e lm="landbouw"><i>landbouw</i><par n="OV__n_nt"/></e>
+    <e lm="opstand"><i>opstand</i><par n="ui__n_m"/></e>
+    <e lm="bewind"><i>bewind</i><par n="OV__n_nt"/></e>
+    <e lm="belang"><i>belang</i><par n="lot__n_nt"/></e>
+    <e lm="strafschop"><i>strafschop</i><par n="lap__n_m"/></e>
+    <e lm="spel"><i>spel</i><par n="spel__n_nt"/></e>
+    <e lm="paleis"><i>palei</i><par n="hui/s__n_nt"/></e>
+    <e lm="prins"><i>prins</i><par n="ui__n_m"/></e>
+	<e lm="Sint"><i>Sint</i><par n="eb__n_m"/></e>
+    <e lm="Canadees"><i>Canadees</i><par n="pe/es__n_m"/></e>
+    <e lm="Afrikaan"><i>Afrika</i><par n="ma/an__n_m"/></e>
+	<e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
+	<e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
     <e lm="schip"><i>sch</i><par n="sch/ip__n_nt"/></e>
     <e lm="liniaal"><i>linia</i><par n="linia/al__n_nt"/></e>
     <e lm="liniaal"><i>linia</i><par n="ta/al__n_mf"/></e>
@@ -14868,6 +14922,9 @@
 <!-- prn.xml -->
 
 
+    <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
+	<e lm="zelf"><i>zelf</i><par n="zichzelf__prn"/></e>
+	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>

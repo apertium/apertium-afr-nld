@@ -9916,24 +9916,24 @@
 
     <pardef n="Frankrijk__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Afrika__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Nederlands__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Oostzee__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Europese_Unie__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Verenigde_Naties__np">
@@ -9963,32 +9963,32 @@
 
     <pardef n="van_der_Merwe__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Botha__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Hughes__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Wikipedia__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Apertium__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Linux__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="NAVO__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
 

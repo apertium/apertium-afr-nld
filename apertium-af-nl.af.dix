@@ -211,7 +211,7 @@
     </pardef>
 
     <pardef n="genoeg__det">
-      <e r="LR"><p><l/><r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="qnt"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1397,6 +1397,11 @@
     <e lm="hul"><i>hul</i><par n="my__det"/></e>
     <e lm="jul"><i>hul</i><par n="my__det"/></e>
 	
+	<e lm="saam"><i>saam</i><par n="met__pr"/></e>
+	<e lm="neer"><i>neer</i><par n="met__pr"/></e>
+	<e lm="raak"><i>raak</i><par n="met__pr"/></e>
+	<e lm="agterna"><i>agterna</i><par n="met__pr"/></e>
+	<e lm="weg"><i>weg</i><par n="met__pr"/></e>
 	<e lm="vanweë"><i>vanweë</i><par n="met__pr"/></e>
     <e lm="binne"><i>binne</i><par n="met__pr"/></e>
 	<e lm="rondom"><i>rondom</i><par n="met__pr"/></e>
@@ -2964,6 +2969,7 @@
     <e lm="Ethiopië"><i>Ethiopië</i><par n="Engeland__np"/></e>
     <e lm="Finland"><i>Finland</i><par n="Engeland__np"/></e>
     <e lm="Frankryk"><i>Frankryk</i><par n="Engeland__np"/></e>
+    <e lm="Frans"><i>Frans</i><par n="Engeland__np"/></e> <!-- Check -->
     <e lm="Duitsland"><i>Duitsland</i><par n="Engeland__np"/></e>
     <e lm="Gaboen"><i>Gaboen</i><par n="Engeland__np"/></e>
     <e lm="Ghana"><i>Ghana</i><par n="Engeland__np"/></e>
