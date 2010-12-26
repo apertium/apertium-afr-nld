@@ -15327,8 +15327,6 @@
     <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
     <e lm="doen"><i>d</i><par n="d/oen__vblex"/></e>
     <e lm="doen"><p><l>gedaan</l><r>doen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="delen"><i>de</i><par n="te/len__vblex"/></e>
-    <e lm="delen"><p><l>gedeeld</l><r>delen</r></p><par n="gesproken__vblex"/></e>
     <e lm="schrijven"><p><l>geschreven</l><r>schrijven</r></p><par n="gesproken__vblex"/></e>
     <e lm="schrijven"><i>schr</i><par n="dr/ijven__vblex"/></e>
     <e lm="baren"><i>ba</i><par n="ba/ren__vblex"/></e>
@@ -15426,8 +15424,6 @@
     <e lm="kenmerken"><p><l>gekenmerkt</l><r>kenmerken</r></p><par n="gesproken__vblex"/></e>
     <e lm="kiezen"><p><l>gekozen</l><r>kiezen</r></p><par n="gesproken__vblex"/></e>
     <e lm="kiezen"><i>k</i><par n="k/iezen__vblex"/></e>
-    <e lm="strijken"><p><l>gestreken</l><r>strijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="strijken"><i>str</i><par n="w/ijken__vblex"/></e>
     <e lm="bepalen"><i>bepa</i><par n="da/len__vblex"/></e>
     <e lm="bepalen"><p><l>bepaald</l><r>bepalen</r></p><par n="gesproken__vblex"/></e>
     <e lm="ontdekken"><i>ontdek</i><par n="dek/ken__vblex"/></e>
@@ -15674,8 +15670,6 @@
     <e lm="hangen"><i>h</i><par n="v/angen__vblex"/></e>
     <e lm="beginnen"><p><l>begonnen</l><r>beginnen</r></p><par n="gesproken__vblex"/></e>
     <e lm="beginnen"><i>beg</i><par n="w/innen__vblex"/></e>
-    <e lm="wijken"><p><l>geweken</l><r>wijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="wijken"><i>w</i><par n="w/ijken__vblex"/></e>
     <e lm="ontginnen"><p><l>ontgonnen</l><r>ontginnen</r></p><par n="gesproken__vblex"/></e>
     <e lm="ontginnen"><i>ontg</i><par n="w/innen__vblex"/></e>
     <e lm="pakken"><i>pak</i><par n="dek/ken__vblex"/></e>
@@ -15763,8 +15757,6 @@
     <e lm="eten"><p><l>gegeten</l><r>eten</r></p><par n="gesproken__vblex"/></e>
     <e lm="vorderen"><i>vorder</i><par n="jij/en__vblex"/></e>
     <e lm="vorderen"><p><l>vorderd</l><r>vorderen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="dagen"><i>da</i><par n="wa/gen__vblex"/></e>
-    <e lm="dagen"><p><l>gedaagd</l><r>dagen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bekronen"><i>bekro</i><par n="to/nen__vblex"/></e>
     <e lm="bekronen"><p><l>bekroond</l><r>bekronen</r></p><par n="gesproken__vblex"/></e>
     <e lm="oefenen"><i>oefen</i><par n="jij/en__vblex"/></e>

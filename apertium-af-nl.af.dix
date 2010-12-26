@@ -41,6 +41,7 @@
     <sdef n="sup"     c="Superlative"/>
     <sdef n="attr"    c="Attributive"/>
     <sdef n="pred"    c="Predicative"/>
+    <sdef n="part"    c="Partitive"/>
 
     <sdef n="qnt"/>
     <sdef n="ord"     c="Ordinal"/>
@@ -284,132 +285,23 @@
     </pardef>
 
     <pardef n="gro/ot__adj">
+      <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
-      <e>       <p><l>tere</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
-      <e>       <p><l>otst</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
-      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="/veel__adj">
+      <e>       <p><l>veels</l><r>veel<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>veel</l><r>veel<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>vele</l><r>veel<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
-      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
-      <e>       <p><l>mees</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
-      <e>       <p><l>meeste</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="konfidensi/eel__adj">
-      <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="pred"/></r></p></e>
-    </pardef>
-
-    <pardef n="ha/ar__adj">
-      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
-      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
-    </pardef>
-    <pardef n="outono/om__adj">
-      <e>       <p><l>om</l><r>om<s n="adj"/><s n="attr"/></r></p></e>
-      <e>       <p><l>me</l><r>om<s n="adj"/><s n="pred"/></r></p></e>
-    </pardef>
-    <pardef n="ons__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pos"/><s n="attr"/></r></p></e>
-      <e>       <p><l><b/>s'n</l><r><s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
-    </pardef>
-
-    <pardef n="dadelik__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>e</l><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="swart__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l/><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="sigba/ar__adj">
-      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="algeme/en__adj">
-      <e>       <p><l>en</l><r>en<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ne</l><r>en<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="seksue/el__adj">
-      <e>       <p><l>el</l><r>el<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>le</l><r>el<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="mal__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>le</l><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="vermoor__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>de</l><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="sleg__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>te</l><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="oorbegro/ot__adj">
-      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="se/er__adj">
-      <e>       <p><l>er</l><r>er<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>re</l><r>er<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="kwaa/d__adj">
-      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>i</l><r>d<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="doo/d__adj">
-      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ie</l><r>d<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="voka/al__adj">
-      <e>       <p><l>al</l><r>al<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>le</l><r>al<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="prematu/ur__adj">
-      <e>       <p><l>ur</l><r>ur<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>re</l><r>ur<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="klima/at__adj">
-      <e>       <p><l>at</l><r>at<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>te</l><r>at<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="europe/es__adj">
-      <e>       <p><l>es</l><r>es<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>se</l><r>es<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="weerlo/os__adj">
-      <e>       <p><l>os</l><r>os<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>se</l><r>os<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="vokati/ef__adj">
-      <e>       <p><l>ef</l><r>ef<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ewe</l><r>ef<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l>meer</l><r>veel<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e>       <p><l>meeste</l><r>veel<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="ra/ar__adj">
+      <e>       <p><l>ars</l><r>ar<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>re</l><r>ar<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e r="LR"><p><l>rer</l><r>ar<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -418,6 +310,7 @@
     </pardef>
 
     <pardef n="ho/og__adj">
+      <e>       <p><l>ogs</l><r>og<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>og</l><r>og<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ë</l><r>og<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ër</l><r>og<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -425,6 +318,7 @@
     </pardef>
 
     <pardef n="skra/al__adj">
+      <e>       <p><l>als</l><r>al<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>al</l><r>al<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>le</l><r>al<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ler</l><r>al<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -432,6 +326,7 @@
     </pardef>
 
     <pardef n="min__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>der</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -439,6 +334,7 @@
     </pardef>
 
     <pardef n="knap__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>per</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -446,6 +342,7 @@
     </pardef>
 
     <pardef n="ou__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>d</l><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -453,6 +350,7 @@
     </pardef>
 
     <pardef n="verna/am__adj">
+      <e>       <p><l>ams</l><r>am<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>am</l><r>am<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>me</l><r>am<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>mer</l><r>am<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -460,6 +358,7 @@
     </pardef>
 
     <pardef n="na/as__adj">
+      <e>       <p><l>as</l><r>as<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>as</l><r>as<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>se</l><r>as<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>der</l><r>as<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -467,6 +366,7 @@
     </pardef>
 
     <pardef n="jon/g__adj">
+      <e>       <p><l>ks</l><r>g<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>k</l><r>g<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>g</l><r>g<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ger</l><r>g<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -474,6 +374,7 @@
     </pardef>
 
     <pardef n="vroe/g__adj">
+      <e>       <p><l>gs</l><r>g<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>g</l><r>g<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ë</l><r>g<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ëer</l><r>g<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -481,6 +382,7 @@
     </pardef>
 
     <pardef n="sko/on__adj">
+      <e>       <p><l>ons</l><r>on<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>on</l><r>on<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ne</l><r>on<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ner</l><r>on<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -488,18 +390,15 @@
     </pardef>
 
     <pardef n="nu/ut__adj">
+      <e>       <p><l>uts</l><r>ut<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ut</l><r>ut<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>we</l><r>ut<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>wer</l><r>ut<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>utste</l><r>ut<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
-    <pardef n="absolu/ut__adj">
-      <e>       <p><l>ut</l><r>ut<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>te</l><r>ut<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
     <pardef n="/goed__adj">
+      <e>       <p><l>goeds</l><r>goed<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>goed</l><r>goed<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>goeie</l><r>goed<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>beter</l><r>goed<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -507,6 +406,7 @@
     </pardef>
 
     <pardef n="arm__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -514,6 +414,7 @@
     </pardef>
 
     <pardef n="maklik__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -521,35 +422,23 @@
     </pardef>
 
     <pardef n="klein__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-      <e>       <p><l>ster</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="gou/d__adj">
+      <e>       <p><l>ds</l><r>d<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>d</l><r>d<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>e</l><r>d<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>er</l><r>d<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>dste</l><r>d<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
-    <pardef n="binne__adj">
-      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>ste</l><r><s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="wy/d__adj">
-      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>e</l><r>e<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
-    <pardef n="bre/ed__adj">
-      <e>       <p><l>ed</l><r>ed<s n="adj"/><s n="pred"/></r></p></e>
-      <e>       <p><l>eë</l><r>ed<s n="adj"/><s n="attr"/></r></p></e>
-    </pardef>
-
     <pardef n="dik__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l></l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ker</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
@@ -557,11 +446,166 @@
     </pardef>
 
     <pardef n="la/ag__adj">
+      <e>       <p><l>ags</l><r>ag<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ag</l><r>ag<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ë</l><r>ag<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>ër</l><r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
-	  <e r="LR">       <p><l>er</l><r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e r="LR"><p><l>er</l><r>ag<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>agste</l><r>ag<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
+    </pardef>
+
+    <pardef n="konfidensi/eel__adj">
+      <e>       <p><l>eels</l><r>eel<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>eel</l><r>eel<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ële</l><r>eel<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="ha/ar__adj">
+      <e>       <p><l>ars</l><r>ar<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
+    </pardef>
+    <pardef n="outono/om__adj">
+      <e>       <p><l>oms</l><r>om<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>om</l><r>om<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>me</l><r>om<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="ons__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pos"/><s n="attr"/></r></p></e>
+      <e>       <p><l><b/>s'n</l><r><s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
+    </pardef>
+
+    <pardef n="dadelik__adj">
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>e</l><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="swart__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l/><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="sigba/ar__adj">
+      <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ars</l><r>ar<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>re</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="algeme/en__adj">
+      <e>       <p><l>en</l><r>en<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ens</l><r>en<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>ne</l><r>en<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="seksue/el__adj">
+      <e>       <p><l>el</l><r>el<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>els</l><r>el<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>le</l><r>el<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="mal__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>le</l><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="vermoor__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>de</l><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="sleg__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>te</l><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="oorbegro/ot__adj">
+      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="se/er__adj">
+      <e>       <p><l>er</l><r>er<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ers</l><r>er<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>re</l><r>er<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="kwaa/d__adj">
+      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ds</l><r>d<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>i</l><r>d<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="doo/d__adj">
+      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ds</l><r>d<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>ie</l><r>d<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="voka/al__adj">
+      <e>       <p><l>al</l><r>al<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>als</l><r>al<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>le</l><r>al<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="prematu/ur__adj">
+      <e>       <p><l>ur</l><r>ur<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>urs</l><r>ur<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>re</l><r>ur<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="klima/at__adj">
+      <e>       <p><l>at</l><r>at<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ats</l><r>at<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>te</l><r>at<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="europe/es__adj">
+      <e>       <p><l>es</l><r>es<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>es</l><r>es<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>se</l><r>es<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="weerlo/os__adj">
+      <e>       <p><l>os</l><r>os<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>os</l><r>os<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>se</l><r>os<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="vokati/ef__adj">
+      <e>       <p><l>ef</l><r>ef<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>efs</l><r>ef<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>ewe</l><r>ef<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="absolu/ut__adj">
+      <e>       <p><l>ut</l><r>ut<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>uts</l><r>ut<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>te</l><r>ut<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="binne__adj">
+      <e>       <p><l/><r><s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>ste</l><r><s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="wy/d__adj">
+      <e>       <p><l>d</l><r>d<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>ds</l><r>d<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>e</l><r>e<s n="adj"/><s n="attr"/></r></p></e>
+    </pardef>
+
+    <pardef n="bre/ed__adj">
+      <e>       <p><l>ed</l><r>ed<s n="adj"/><s n="pred"/></r></p></e>
+      <e>       <p><l>eds</l><r>ed<s n="adj"/><s n="part"/></r></p></e>
+      <e>       <p><l>eë</l><r>ed<s n="adj"/><s n="attr"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Nomen -->
@@ -576,7 +620,6 @@
     <pardef n="cmp-L">
       <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-      <e>       <p><l></l>          <r></r></p></e>
     </pardef>
 
     <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
@@ -2050,7 +2093,8 @@
     <e lm="element"><i>element</i><par n="bier__n"/></e>
     <e lm="voorbeeld"><i>voorbeeld</i><par n="bier__n"/></e>
     <e lm="klank"><i>klank</i><par n="bier__n"/></e>
-    <e lm="oor"><i>oor</i><par n="bier__n"/></e>
+    <!--<e lm="oor"><i>oor</i><par n="bier__n"/></e>-->
+    <e lm="oor"><i>o</i><par n="kanto/or__n"/></e>
     <e lm="eeu"><i>eeu</i><par n="bier__n"/></e>
     <e lm="aantal"><i>aantal</i><par n="bier__n"/></e>
     <e lm="kompleks"><i>kompleks</i><par n="bier__n"/></e>
@@ -2476,7 +2520,6 @@
 
     <e lm="trog"><i>tr</i><par n="s/og__n"/></e>  
 
-    <e lm="oor"><i>o</i><par n="kanto/or__n"/></e>
 
     <e lm="veteraan"><i>vetera</i><par n="ba/an__n"/></e>
     <e lm="baan"><i>ba</i><par n="ba/an__n"/></e>
@@ -6015,7 +6058,6 @@
     <e lm="innig"><i>innig</i><par n="maklik__adj"/></e>
     <e lm="interessant"><i>interessant</i><par n="maklik__adj"/></e>
     <e lm="intiem"><i>intiem</i><par n="maklik__adj"/></e>
-    <e lm="klein"><i>klein</i><par n="maklik__adj"/></e>
     <e lm="kommerwekkend"><i>kommerwekkend</i><par n="maklik__adj"/></e>
     <e lm="kort"><i>kort</i><par n="maklik__adj"/></e>
     <e lm="kragtig"><i>kragtig</i><par n="maklik__adj"/></e>

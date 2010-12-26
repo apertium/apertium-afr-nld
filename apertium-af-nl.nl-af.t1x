@@ -79,13 +79,14 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.al"/>
     </def-attr>
+    <def-attr n="loc_adj">
+      <attr-item tags="pred"/>
+      <attr-item tags="attr"/>
+      <attr-item tags="part"/>
+    </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
-      <attr-item tags="adj.pred"/>
-      <attr-item tags="adj.attr"/>
       <attr-item tags="adj.sint"/>
-      <attr-item tags="adj.sint.pred"/>
-      <attr-item tags="adj.sint.attr"/>
     </def-attr>
     <def-attr n="grau">
       <attr-item tags="comp"/>
@@ -208,6 +209,36 @@
             <lit v=""/>
           </let>
         </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="sl" part="a_adj"/>
+                <lit-tag v="adj.sint"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="adj.sint"/>
+              </equal>
+              <or>
+                <equal>
+                  <clip pos="1" side="sl" part="grau"/>
+                  <lit-tag v="comp"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="grau"/>
+                  <lit-tag v="sup"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="loc_adj"/>
+            <lit v=""/>
+          </let>
+        </when>
       </choose>
     </def-macro>
   </section-def-macros>
@@ -444,6 +475,7 @@
                   <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="a_adj"/>
                   <clip pos="1" side="tl" part="grau"/>
+                  <clip pos="1" side="tl" part="loc_adj"/>
                   <clip pos="1" side="tl" part="lemq"/>
                 </lu>
               </chunk>

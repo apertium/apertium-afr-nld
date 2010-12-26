@@ -473,7 +473,6 @@
 	<e><p><l>Brit<s n="n"/></l><r>Brit<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>deelstaat<s n="n"/></l><r>deelstaat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hospies<s n="n"/></l><r>hospies<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>skeeps<s n="n"/></l><r>schip<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>liniaal<s n="n"/></l><r>liniaal<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tovenaar<s n="n"/></l><r>tovenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lies<s n="n"/></l><r>lies<s n="n"/><s n="mf"/></r></p></e>
@@ -501,7 +500,8 @@
     <e><p><l>vlag<s n="n"/></l><r>vlag<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>minister<s n="n"/></l><r>minister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>room<s n="n"/></l><r>room<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>handel<s n="n"/></l><r>handel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gemeenskap<s n="n"/></l><r>gemeenschap<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>munisipaliteit<s n="n"/></l><r>gemeente<s n="n"/><s n="f"/></r></p></e>
@@ -571,7 +571,8 @@
     <e><p><l>skade<s n="n"/></l><r>schade<s n="n"/><s n="f"/></r></p></e> <!-- unc -->
     <e><p><l>legende<s n="n"/></l><r>legende<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kaptein<s n="n"/></l><r>kapitein<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>koper<s n="n"/></l><r>koper<s n="n"/><s n="m"/></r></p></e> <!-- unc -->
+    <e r="RL"><p><l>koper<s n="n"/></l><r>koper<s n="n"/><s n="m"/></r></p></e> <!--m: persoon die koopt -->
+    <e><p><l>koper<s n="n"/></l><r>koper<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>polisie<s n="n"/></l><r>politie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>woonbuurt<s n="n"/></l><r>woonwijk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tv<s n="n"/><s n="acr"/></l><r>tv<s n="n"/><s n="f"/></r></p></e>
@@ -641,7 +642,7 @@
     <e><p><l>beplanning<s n="n"/></l><r>planning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vrystelling<s n="n"/></l><r>vrijstelling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rug<s n="n"/></l><r>rug<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>eu<s n="n"/><s n="acr"/></l><r>EU<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>EU<s n="n"/><s n="acr"/></l><r>EU<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>wins<s n="n"/></l><r>winst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sone<s n="n"/></l><r>zone<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reformasie<s n="n"/></l><r>reformatie<s n="n"/><s n="f"/></r></p></e>
@@ -2505,7 +2506,7 @@
     <e><p><l>uitvinding<s n="n"/></l><r>uitvinding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uitvoering<s n="n"/></l><r>uitvoering<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uitwerking<s n="n"/></l><r>uitwerking<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>uniform<s n="n"/></l><r>uniform<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>uniform<s n="n"/></l><r>uniform<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>universiteit<s n="n"/></l><r>universiteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vaardigheid<s n="n"/></l><r>vaardigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vakansie<s n="n"/></l><r>vakantie<s n="n"/><s n="f"/></r></p></e>
@@ -4007,7 +4008,7 @@
 
 
     <!-- SECTION: Adjectives -->
-	<e><p><l>druk<s n="adj"/></l><r>druk<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>druk<s n="adj"/><s n="sint"/></l><r>druk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>vorig<s n="adj"/></l><r>vorig<s n="adj"/></r></p></e>
 	<e><p><l>antiek<s n="adj"/></l><r>antiek<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Christelik<s n="adj"/></l><r>Christelijk<s n="adj"/><s n="sint"/></r></p></e>
@@ -4032,7 +4033,7 @@
 	<e><p><l>Noors<s n="adj"/></l><r>Noors<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Litaus<s n="adj"/></l><r>Litouws<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>outonoom<s n="adj"/></l><r>autonoom<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>gewoon<s n="adj"/></l><r>gewoon<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>gewoon<s n="adj"/><s n="sint"/></l><r>gewoon<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>laat<s n="adj"/></l><r>laat<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>geleë<s n="adj"/></l><r>gelegen<s n="adj"/></r></p></e>
 	<e><p><l>oorlede<s n="adj"/></l><r>overleden<s n="adj"/></r></p></e>
@@ -5281,7 +5282,7 @@
     <e><p><l>lê<s n="vblex"/></l><r>leggen<s n="vblex"/></r></p></e>
     <e><p><l>doen<s n="vblex"/></l><r>doen<s n="vblex"/></r></p></e>
 
-    <e><p><l>deel<s n="vblex"/></l><r>delen<s n="vblex"/></r></p></e>
+    <!--<e><p><l>deel<s n="vblex"/></l><r>delen<s n="vblex"/></r></p></e>-->
     <e><p><l>skryf<s n="vblex"/></l><r>schrijven<s n="vblex"/></r></p></e>
     <e><p><l>baar<s n="vblex"/></l><r>baren<s n="vblex"/></r></p></e>
     <e><p><l>vorm<s n="vblex"/></l><r>vormen<s n="vblex"/></r></p></e>
@@ -5461,7 +5462,7 @@
     <e><p><l>hang<s n="vblex"/></l><r>hangen<s n="vblex"/></r></p></e>
     <e><p><l>begin<s n="vblex"/></l><r>beginnen<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>begin<s n="vblex"/></l><r>starten<s n="vblex"/></r></p></e>
-    <e><p><l>wyk<s n="vblex"/></l><r>wijken<s n="vblex"/></r></p></e>
+    <!--<e><p><l>wyk<s n="vblex"/></l><r>wijken<s n="vblex"/></r></p></e>-->
     <e><p><l>ontgin<s n="vblex"/></l><r>ontginnen<s n="vblex"/></r></p></e>
     <e><p><l>pak<s n="vblex"/></l><r>pakken<s n="vblex"/></r></p></e>
     <e><p><l>verdedig<s n="vblex"/></l><r>verdedigen<s n="vblex"/></r></p></e>
@@ -5506,7 +5507,7 @@
     <e><p><l>hoop<s n="vblex"/></l><r>hopen<s n="vblex"/></r></p></e>
     <e><p><l>eet<s n="vblex"/></l><r>eten<s n="vblex"/></r></p></e>
     <e><p><l>vorder<s n="vblex"/></l><r>vorderen<s n="vblex"/></r></p></e>
-    <e><p><l>daag<s n="vblex"/></l><r>dagen<s n="vblex"/></r></p></e>
+    <!--<e><p><l>daag<s n="vblex"/></l><r>dagen<s n="vblex"/></r></p></e>-->
     <e><p><l>bekroon<s n="vblex"/></l><r>bekronen<s n="vblex"/></r></p></e>
     <e><p><l>oefen<s n="vblex"/></l><r>oefenen<s n="vblex"/></r></p></e>
     <e><p><l>verwar<s n="vblex"/></l><r>verwarren<s n="vblex"/></r></p></e>
@@ -5606,7 +5607,7 @@
     <e><p><l>straf<s n="vblex"/></l><r>straffen<s n="vblex"/></r></p></e>
     <e><p><l>ontken<s n="vblex"/></l><r>ontkennen<s n="vblex"/></r></p></e>
     <e><p><l>bedink<s n="vblex"/></l><r>bedenken<s n="vblex"/></r></p></e>
-    <e><p><l>stry<s n="vblex"/></l><r>strijken<s n="vblex"/></r></p></e>
+    <!--<e><p><l>stry<s n="vblex"/></l><r>strijken<s n="vblex"/></r></p></e>-->
     <e><p><l>ontplof<s n="vblex"/></l><r>ontploffen<s n="vblex"/></r></p></e>
     <e><p><l>herower<s n="vblex"/></l><r>heroveren<s n="vblex"/></r></p></e>
     <e><p><l>bestry<s n="vblex"/></l><r>bestrijken<s n="vblex"/></r></p></e>
