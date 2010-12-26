@@ -310,7 +310,10 @@
       <e>       <p><l>ar</l><r>ar<s n="adj"/><s n="attr"/></r></p></e>
       <e>       <p><l>re</l><r>ar<s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
-
+    <pardef n="outono/om__adj">
+      <e>       <p><l>om</l><r>om<s n="adj"/><s n="attr"/></r></p></e>
+      <e>       <p><l>me</l><r>om<s n="adj"/><s n="pred"/></r></p></e>
+    </pardef>
     <pardef n="ons__adj">
       <e>       <p><l/><r><s n="adj"/><s n="pos"/><s n="attr"/></r></p></e>
       <e>       <p><l><b/>s'n</l><r><s n="adj"/><s n="pos"/><s n="pred"/></r></p></e>
@@ -1876,7 +1879,7 @@
     <e lm="duin"><i>duin</i><par n="bier__n"/></e>
     <e lm="tegniek"><i>tegniek</i><par n="bier__n"/></e>
     <e lm="bloeitydperk"><i>bloeitydperk</i><par n="bier__n"/></e>
-    <!--<e lm="vervoer"><i>vervoer</i><par n="bier__n"/></e>--><!-- check -->
+    <e lm="vervoer"><i>vervoer</i><par n="aalwyn__n"/></e>
     <e lm="teks"><i>teks</i><par n="bier__n"/></e>
     <e lm="kliniek"><i>kliniek</i><par n="bier__n"/></e>
     <e lm="praktisyn"><i>praktisyn</i><par n="bier__n"/></e>
@@ -6309,7 +6312,7 @@
     <e lm="verwant"><i>verwant</i><par n="dadelik__adj"/></e> 
     <e lm="oneindig"><i>oneindig</i><par n="dadelik__adj"/></e> 
     <e lm="bekend"><i>bekend</i><par n="dadelik__adj"/></e> 
-    <e lm="invloedryk"><i>invloedryk</i><par n="dadelik__adj"/></e> 
+    <e lm="invloedryk"><i>invloedryk</i><par n="maklik__adj"/></e> 
     <e lm="buitelands"><i>buitelands</i><par n="dadelik__adj"/></e> 
     <e lm="aangrensend"><i>aangrensend</i><par n="dadelik__adj"/></e> 
     <e lm="voormalig"><i>voormalig</i><par n="dadelik__adj"/></e> 
