@@ -283,12 +283,10 @@
       <e>       <p><l>jouzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>hemzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>haarzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>homzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>hetzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>       <p><l>onszelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>jullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>julzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>hullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>hulzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>julliezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e >      <p><l>henzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="d/eze__prn">
