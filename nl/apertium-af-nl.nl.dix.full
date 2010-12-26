@@ -293,7 +293,9 @@
     <pardef n="zichzelf__prn">
       <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
-
+    <pardef n="zelf__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -10221,7 +10223,7 @@
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
 
     <e lm="zichzelf"><i>zichzelf</i><par n="zichzelf__prn"/></e>
-	<e lm="zelf"><i>zelf</i><par n="zichzelf__prn"/></e>
+	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
@@ -12043,6 +12045,7 @@
     <e lm="Nepalees"><i>Nepale</i><par n="Nepale/es__adj"/></e>
     <e lm="Nigeriaans"><i>Nigeriaans</i><par n="fors__adj_sint"/></e>
     <e lm="Noords"><i>Noords</i><par n="fors__adj_sint"/></e>
+	<e lm="Noors"><i>Noors</i><par n="fors__adj_sint"/></e>
     <e lm="Numidisch"><i>Numidisch</i><par n="taps__adj"/></e>
     <e lm="Occitaans"><i>Occitaans</i><par n="fors__adj_sint"/></e>
     <e lm="Oekraïens"><i>Oekraïens</i><par n="fors__adj_sint"/></e>
@@ -14165,7 +14168,7 @@
     <e lm="Arabisch"><i>Arabisch</i><par n="OV__n_nt"/></e>
     <e lm="Aragonees"><i>Aragone</i><par n="Santome/es__n_nt"/></e>
     <e lm="Aragonees"><i>Aragone</i><par n="pe/es__n_m"/></e>
-    <e lm="Canadees"><i>Canadees</i><par n="pe/es__n_m"/></e>
+    <e lm="Canadees"><i>Canade</i><par n="pe/es__n_m"/></e>
     <e lm="Aramees"><i>Aramees</i><par n="OV__n_nt"/></e>
     <e lm="Argentijn"><i>Argentijn</i><par n="ui__n_m"/></e>
     <e lm="Argentinië"><i>Argentinië</i><par n="OV__n_nt"/></e>

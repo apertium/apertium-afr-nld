@@ -283,7 +283,7 @@
 
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 	<e><p><l>beide<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
-	<e><p><l>self<s n="prn"/></l><r>zelf<s n="prn"/></r></p></e>
+	<e><p><l>self<s n="prn"/></l><r>zelf<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 	<e><p><l>ander<s n="prn"/></l><r>ander<s n="prn"/></r></p></e>
     <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>dié<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
@@ -2440,7 +2440,6 @@
     <e><p><l>tafelblad<s n="n"/></l><r>tafelblad<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tafel<s n="n"/></l><r>tafel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tak<s n="n"/></l><r>tak<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>tamatie<s n="n"/></l><r>tomaat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tas<s n="n"/></l><r>tas<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>teater<s n="n"/></l><r>theater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>teelepel<s n="n"/></l><r>theelepel<s n="n"/><s n="m"/></r></p></e>
@@ -3671,7 +3670,7 @@
     <!-- SECTION: Proper names -->
 	
 
-	<e><p><l>Vilnius<s n="np"/><s n="top"/></l><r>Vilnius<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>Vilnius<s n="np"/><s n="top"/></l><r>Vilnius<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Johannes<s n="np"/><s n="ant"/><s n="m"/></l><r>Johannes<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Louis<s n="np"/><s n="ant"/><s n="m"/></l><r>Louis<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Engeland<s n="np"/><s n="top"/></l><r>Engeland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -4039,7 +4038,7 @@
 	<e><p><l>Pools<s n="adj"/></l><r>Pools<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Rooms<s n="adj"/></l><r>Rooms<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Italiaans<s n="adj"/></l><r>Italiaans<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>Germaans<s n="adj"/></l><r>Germaans<s n="adj"/></r></p></e>
+	<e><p><l>Germaans<s n="adj"/></l><r>Germaans<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Frans<s n="adj"/></l><r>Frans<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Deens<s n="adj"/></l><r>Deens<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Latyns<s n="adj"/></l><r>Latijns<s n="adj"/><s n="sint"/></r></p></e>
@@ -4050,7 +4049,7 @@
 	<e><p><l>gewoon<s n="adj"/></l><r>gewoon<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>laat<s n="adj"/></l><r>laat<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>geleë<s n="adj"/></l><r>gelegen<s n="adj"/></r></p></e>
-	<e><p><l>oorlede<s n="adj"/></l><r>overleden<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>oorlede<s n="adj"/></l><r>overleden<s n="adj"/></r></p></e>
 	<e><p><l>oop<s n="adj"/></l><r>open<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Sowjet<s n="adj"/></l><r>Sovjets<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>nieu<s n="adj"/></l><r>nieuw<s n="adj"/><s n="sint"/></r></p></e>
@@ -4905,7 +4904,7 @@
 	<e><p><l>voordat<s n="adv"/></l><r>voordat<s n="adv"/></r></p></e>
 	<e><p><l>nooit<s n="adv"/></l><r>nooit<s n="adv"/></r></p></e>
     <e><p><l>sodoende<s n="adv"/></l><r>zodoende<s n="adv"/></r></p></e>
-    <e><p><l>vanweë<s n="pr"/></l><r>vanwege<s n="pr"/></r></p></e>
+    <e><p><l>vanweë<s n="pr"/></l><r>vanwege<s n="adv"/></r></p></e>
     <e><p><l>gedurende<s n="adv"/></l><r>gedurende<s n="adv"/></r></p></e>   
 	<e><p><l>polities<s n="adv"/></l><r>politiek<s n="adv"/></r></p></e>
 	<e><p><l>hoewel<s n="adv"/></l><r>hoewel<s n="adv"/></r></p></e>
