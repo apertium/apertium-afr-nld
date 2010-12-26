@@ -6854,7 +6854,7 @@
 	<e lm="voer"><i>voer</i><par n="breek__vblex"/></e>
 	<e lm="stuur"><i>stuur</i><par n="breek__vblex"/></e>
 	<e lm="verkry"><i>verkry</i><par n="breek__vblex"/></e>
-	﻿<e lm="laat"><i>laat</i><par n="breek__vblex"/></e>
+	<e lm="laat"><i>laat</i><par n="breek__vblex"/></e>
 	<e lm="dra"><p><l>gedra</l><r>dra</r></p><par n="gebreek__vblex"/></e>
 	<e lm="vind"><p><l>gevind</l><r>vind</r></p><par n="gebreek__vblex"/></e>
 	<e lm="gee"><p><l>gegee</l><r>gee</r></p><par n="gebreek__vblex"/></e>
