@@ -481,11 +481,9 @@
     <e><p><l>infinitief<s n="n"/></l><r>infinitief<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>markies<s n="n"/></l><r>markies<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>kos<s n="n"/></l><r>kost<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>omgewings<s n="n"/></l><r>omgeving<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>spilmogendhede<s n="n"/></l><r>Asmogendheden<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>spies<s n="n"/></l><r>speer<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>kern<s n="n"/></l><r>kern<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>regter<s n="n"/></l><r>rechter<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>velies<s n="n"/></l><r>verlies<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huwelik<s n="n"/></l><r>huwelijk<s n="n"/><s n="nt"/></r></p></e>
@@ -1289,7 +1287,6 @@
     <e><p><l>woordeboek<s n="n"/></l><r>woordenboek<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>aantal<s n="n"/></l><r>aantal<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>aartappel<s n="n"/></l><r>aardappel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>afbeelding<s n="n"/></l><r>afbeelding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>appel<s n="n"/></l><r>appel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>appél<s n="n"/></l><r>appel<s n="n"/><s n="m"/></r></p></e>
@@ -1297,14 +1294,12 @@
     <e><p><l>boorling<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>inwoner<s n="n"/></l><r>inwoner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>broer<s n="n"/></l><r>broer<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>diens<s n="n"/></l><r>dienst<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>dorp<s n="n"/></l><r>dorp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>druif<s n="n"/></l><r>druif<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eeu<s n="n"/></l><r>eeuw<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>eiland<s n="n"/></l><r>eiland<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>feit<s n="n"/></l><r>feit<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gebied<s n="n"/></l><r>gebied<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>gebruiker<s n="n"/></l><r>gebruiker<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>geval<s n="n"/></l><r>geval<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>glas<s n="n"/></l><r>glas<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>grafika<s n="n"/></l><r>afbeelding<s n="n"/><s n="f"/></r></p></e>
@@ -1332,17 +1327,13 @@
     <e><p><l>moeder<s n="n"/></l><r>moeder<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>moment<s n="n"/></l><r>moment<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>musiek<s n="n"/></l><r>muziek<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>naam<s n="n"/></l><r>naam<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>navorsing<s n="n"/></l><r>onderzoek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nommer<s n="n"/></l><r>nummer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ondersoek<s n="n"/></l><r>onderzoek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ontbyt<s n="n"/></l><r>ontbijt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ontwikkeling<s n="n"/></l><r>ontwikkeling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oomblik<s n="n"/></l><r>moment<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>oorlog<s n="n"/></l><r>oorlog<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>ouderdom<s n="n"/></l><r>leeftijd<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>party<s n="n"/></l><r>partij<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>president<s n="n"/></l><r>president<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>punt<s n="n"/></l><r>punt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>reeks<s n="n"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rivier<s n="n"/></l><r>rivier<s n="n"/><s n="f"/></r></p></e>
@@ -1365,7 +1356,6 @@
     <e><p><l>taalgroep<s n="n"/></l><r>taalgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>terroristegroep<s n="n"/></l><r>terroristegroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>toneelgroep<s n="n"/></l><r>toneelgroep<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>werkgroep<s n="n"/></l><r>werkgroep<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>artikel<s n="n"/></l><r>artikel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kabel<s n="n"/></l><r>kabel<s n="n"/><s n="m"/></r></p></e>
 
@@ -1379,23 +1369,17 @@
     <e><p><l>taal<s n="n"/></l><r>taal<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tamatie<s n="n"/></l><r>tomaat<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>tante<s n="n"/></l><r>tante<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>teks<s n="n"/></l><r>tekst<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>titel<s n="n"/></l><r>titel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>tyd<s n="n"/></l><r>tijd<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>botter<s n="n"/></l><r>boter<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>ui<s n="n"/></l><r>ui<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>weergawe<s n="n"/></l><r>versie<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>versie<s n="n"/></l><r>versie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vleis<s n="n"/></l><r>vlees<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorbeeld<s n="n"/></l><r>voorbeeld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorbeeld<s n="n"/></l><r>voorbeeld<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>vorm<s n="n"/></l><r>vorm<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vrug<s n="n"/></l><r>vrucht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>weermag<s n="n"/></l><r>leger<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>weg<s n="n"/></l><r>weg<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>woord<s n="n"/></l><r>woord<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>wortel<s n="n"/></l><r>wortel<s n="n"/><s n="mf"/></r></p></e>
 
     <e><p><l>aalmoes<s n="n"/></l><r>aalmoes<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aanbeveling<s n="n"/></l><r>aanbeveling<s n="n"/><s n="f"/></r></p></e>
