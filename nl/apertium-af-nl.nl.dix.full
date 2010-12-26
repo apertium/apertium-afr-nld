@@ -10214,9 +10214,11 @@
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
 
     <e lm="zichzelf"><i>zichzelf</i><par n="zichzelf__prn"/></e>
+	<e lm="zelf"><i>zelf</i><par n="zichzelf__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
+	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
 
     <e lm="mekaar"><i>mekaar</i><par n="beide__prn"/></e>
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
@@ -11583,7 +11585,9 @@
 	<e lm="natuurlijk"><i>natuurlijk</i><par n="eng__adj_sint"/></e>
 	<e lm="onafhankelijk"><i>onafhankelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="makkelijk"><i>makkelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="Christelijk"><i>Christelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="specifiek"><i>specifiek</i><par n="eng__adj_sint"/></e>
+	<e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
 	<e lm="electrisch"><i>electrisch</i><par n="eng__adj_sint"/></e>
 	<e lm="moeilijk"><i>moeilijk</i><par n="eng__adj_sint"/></e>
 	<e lm="verantwoordelijk"><i>verantwoordelijk</i><par n="eng__adj_sint"/></e>
@@ -11599,6 +11603,7 @@
 	<e lm="mannelijk"><i>mannelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="landelijk"><i>landelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="middel"><i>middel</i><par n="nipt__adj"/></e>
+	<e lm="verder"><i>verder</i><par n="nipt__adj"/></e>
 	<e lm="leidend"><i>leidend</i><par n="eng__adj_sint"/></e>
 	<e lm="onmiddellijk"><i>onmiddellijk</i><par n="eng__adj_sint"/></e>
 	<e lm="architectonisch"><i>architectonisch</i><par n="fors__adj_sint"/></e>
@@ -11998,6 +12003,7 @@
     <e lm="Kasjoebisch"><i>Kasjoebisch</i><par n="fors__adj_sint"/></e>
     <e lm="Katangees"><i>Katange</i><par n="he/es__adj_sint"/></e>
     <e lm="Kazachs"><i>Kazachs</i><par n="fors__adj_sint"/></e>
+	<e lm="Kaaps"><i>Kaaps</i><par n="fors__adj_sint"/></e>
     <e lm="Keltisch"><i>Keltisch</i><par n="fors__adj_sint"/></e>
     <e lm="Kirgizisch"><i>Kirgizisch</i><par n="fors__adj_sint"/></e>
     <e lm="Koerdisch"><i>Koerdisch</i><par n="fors__adj_sint"/></e>
@@ -12427,6 +12433,7 @@
     <e lm="duizelingwekkend"><i>duizelingwekkend</i><par n="eng__adj_sint"/></e>
     <e lm="dun"><i>dun</i><par n="dun__adj_sint"/></e>
     <e lm="dusdanig"><i>dusdanig</i><par n="nipt__adj"/></e>
+	<e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
     <e lm="duur"><i>du</i><par n="pu/ur__adj_sint"/></e>
     <e lm="duurzaam"><i>duurza</i><par n="minza/am__adj_sint"/></e>
     <e lm="dwaas"><i>dwa</i><par n="dwa/as__adj_sint"/></e>
@@ -12951,6 +12958,7 @@
     <e lm="katholiek"><i>katholiek</i><par n="eng__adj_sint"/></e>
     <e lm="katoenen"><i>katoenen</i><par n="eren__adj"/></e>
     <e lm="keihard"><i>keihard</i><par n="nipt__adj"/></e>
+	<e lm="gelegen"><i>gelegen</i><par n="nipt__adj"/></e>
     <e lm="keizerlijk"><i>keizerlijk</i><par n="eng__adj_sint"/></e>
     <e lm="kenbaar"><i>kenba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="kennelijk"><i>kennelijk</i><par n="eng__adj_sint"/></e>
@@ -13022,6 +13030,7 @@
     <e lm="langdradig"><i>langdradig</i><par n="eng__adj_sint"/></e>
     <e lm="langzaam"><i>langza</i><par n="minza/am__adj_sint"/></e>
     <e lm="later"><i>later</i><par n="nipt__adj"/></e>
+	<e lm="destijds"><i>destijds</i><par n="taps__adj"/></e>
     <e lm="lateraal"><i>latera</i><par n="ora/al__adj"/></e>
     <e lm="lauw"><i>lauw</i><par n="eng__adj_sint"/></e>
     <e lm="lawaaierig"><i>lawaaierig</i><par n="eng__adj_sint"/></e>
@@ -13074,6 +13083,7 @@
     <e lm="lokaal"><i>loka</i><par n="ka/al__adj_sint"/></e>
     <e lm="lomp"><i>lomp</i><par n="eng__adj_sint"/></e>
     <e lm="loom"><i>lo</i><par n="lo/om__adj_sint"/></e>
+	<e lm="autonoom"><i>autono</i><par n="lo/om__adj_sint"/></e>
     <e lm="loos"><i>lo</i><par n="lo/os__adj_sint"/></e>
     <e lm="los"><i>los</i><par n="los__adj_sint"/></e>
     <e lm="loyaal"><i>loya</i><par n="ka/al__adj_sint"/></e>
@@ -14127,6 +14137,7 @@
     <e lm="Amharisch"><i>Amharisch</i><par n="OV__n_nt"/></e>
     <e lm="Amis"><i>Amis</i><par n="OV__n_nt"/></e>
     <e lm="Amsterdammer"><i>Amsterdammer</i><par n="led__n_m"/></e>
+	<e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
     <e lm="Anakalangu"><i>Anakalangu</i><par n="OV__n_nt"/></e>
     <e lm="Andi"><i>Andi</i><par n="OV__n_nt"/></e>
     <e lm="Andorrees"><i>Andorre</i><par n="pe/es__n_m"/></e>
@@ -14838,6 +14849,7 @@
     <e lm="Sinksen"><i>Sinksen</i><par n="OV__n_nt"/></e>
     <e lm="Sint-Maarten"><i>Sint-Maarten</i><par n="OV__n_nt"/></e>
     <e lm="Sint-Maarten"><i>Sint-Maarten</i><par n="eb__n_m"/></e>
+	<e lm="Sint"><i>Sint</i><par n="eb__n_m"/></e>
     <e lm="Sjor"><i>Sjor</i><par n="OV__n_nt"/></e>
     <e lm="Slavische"><i>Slavische</i><par n="rune__n_f"/></e>
     <e lm="Sleidingenaar"><i>Sleidingenaar</i><par n="led__n_m"/></e>
@@ -15709,6 +15721,7 @@
     <e lm="verdedigingsmeganisme"><i>verdedigingsmeganisme</i><par n="OV__n_nt"/></e>
     <e lm="alpinist"><i>alpinist</i><par n="ui__n_m"/></e>
     <e lm="altaar"><i>alta</i><par n="ka/ar__n_nt"/></e>
+	<e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
     <e lm="haar"><i>ha</i><par n="ka/ar__n_nt"/></e>
     <e lm="alternant"><i>alternant</i><par n="ui__n_m"/></e>
     <e lm="alternatief"><i>alternatie</i><par n="ho/f__n_nt"/></e>
@@ -24638,6 +24651,7 @@
     <e lm="staartstuk"><i>staartstuk</i><par n="bak__n_nt"/></e>
     <e lm="staartvin"><i>staartvin</i><par n="zon__n_f"/></e>
     <e lm="staat"><i>sta</i><par n="gra/at__n_m"/></e>
+	<e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
     <e lm="staatkunde"><i>staatkunde</i><par n="eb__n_f"/></e>
     <e lm="staatsblad"><i>staatsblad</i><par n="lot__n_nt"/></e>
     <e lm="staatsburger"><i>staatsburger</i><par n="led__n_m"/></e>
@@ -24905,6 +24919,7 @@
     <e lm="streektaal"><i>streekta</i><par n="ta/al__n_mf"/></e>
     <e lm="streep"><i>stre</i><par n="he/ep__n_mf"/></e>
     <e lm="strek"><i>strek</i><par n="fok__n_m"/></e>
+	<e lm="trek"><i>trek</i><par n="fok__n_m"/></e>
     <e lm="streling"><i>streling</i><par n="vering__n_f"/></e>
     <e lm="stremming"><i>stremming</i><par n="vering__n_f"/></e>
     <e lm="stremsel"><i>stremsel</i><par n="eon__n_nt"/></e>

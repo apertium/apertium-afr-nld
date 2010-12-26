@@ -1191,7 +1191,6 @@
     <e lm="hulleself"><p><l>hulself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="hulleself"><p><l>hulleself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 	<e lm="beide"><i>beide</i><par n="altwee__prn"/></e>
-	<e lm="paar"><i>paar</i><par n="altwee__prn"/></e>
 	<e lm="self"><i>self</i><par n="elkeen__prn"/></e>
 	<e lm="ander"><i>ander</i><par n="die_ander__prn"/></e>
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="die_ander__prn"/></e>-->
@@ -1886,7 +1885,7 @@
 	<e lm="prins"><i>prins</i><par n="bier__n"/></e>
 	<e lm="Sint"><i>Sint</i><par n="bier__n"/></e>
 	<e lm="Kanadees"><i>Kanade</i><par n="Kanade/es__n"/></e>
-	<e lm="Afrikaners"><i>Afrikaners</i><par n="Afrikaans__n"/></e>
+	<e lm="Afrikaner"><i>Afrikaner</i><par n="Afrikaans__n"/></e>
 	<e lm="Brit"><i>Brit</i><par n="lys__n"/></e>
 	<e lm="deelstaat"><i>deelsta</i><par n="resulta/at__n"/></e>
     <e lm="reg"><i>reg</i><par n="lys__n"/></e>
@@ -2106,6 +2105,7 @@
     <e lm="ambassade"><i>ambassade</i><par n="artikel__n"/></e>
     <e lm="registrasie"><i>registrasie</i><par n="artikel__n"/></e>
     <e lm="swendelaar"><i>swendelaar</i><par n="artikel__n"/></e>
+	<e lm="paar"><i>paar</i><par n="artikel__n"/></e>
     <e lm="minderjarige"><i>minderjarige</i><par n="artikel__n"/></e>
     <e lm="weergawe"><i>weergawe</i><par n="artikel__n"/></e>
     <e lm="burger"><i>burger</i><par n="artikel__n"/></e>

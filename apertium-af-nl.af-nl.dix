@@ -273,7 +273,9 @@
     <!-- SECTION: Pronouns -->
 
     <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-
+	<e><p><l>beide<s n="prn"/></l><r>beide<s n="prn"/></r></p></e>
+	<e><p><l>self<s n="prn"/></l><r>zelf<s n="prn"/></r></p></e>
+	<e><p><l>ander<s n="prn"/></l><r>ander<s n="prn"/></r></p></e>
     <e><p><l>wat<s n="prn"/><s n="itg"/></l><r>wat<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>dié<s n="prn"/><s n="dem"/></l><r>deze<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
     <e><p><l>daardie<s n="prn"/><s n="dem"/></l><r>die<s n="prn"/><s n="dem"/></r></p><par n="die_de"/></e>
@@ -433,6 +435,32 @@
     <e><p><l>XXII<s n="num"/></l><r>XXII<s n="num"/></r></p></e>
 
     <!-- SECTION: Nouns -->
+	<e><p><l>paar<s n="n"/></l><r>paar<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>slag<s n="n"/></l><r>slag<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trek<s n="n"/></l><r>trek<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>periode<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lyk<s n="n"/></l><r>lijk<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>vader<s n="n"/></l><r>vader<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bewoner<s n="n"/></l><r>bewoner<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>keiser<s n="n"/></l><r>keizer<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Duitser<s n="n"/></l><r>Duitser<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>goewerneur<s n="n"/></l><r>gouverneur<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>maan<s n="n"/></l><r>maan<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>leër<s n="n"/></l><r>leger<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>Latyn<s n="n"/></l><r>Latijn<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>landbou<s n="n"/></l><r>landbouw<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>opstand<s n="n"/></l><r>opstand<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bewind<s n="n"/></l><r>bewind<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>belang<s n="n"/></l><r>belang<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>strafdoel<s n="n"/></l><r>strafschop<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Spel<s n="n"/></l><r>spel<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>paleis<s n="n"/></l><r>paleis<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>prins<s n="n"/></l><r>prins<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Sint<s n="n"/></l><r>Sint<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Kanadees<s n="n"/></l><r>Canadees<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Afrikaner<s n="n"/></l><r>Afrikaan<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Brit<s n="n"/></l><r>Brit<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>deelstaat<s n="n"/></l><r>deelstaat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hospies<s n="n"/></l><r>hospies<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skeeps<s n="n"/></l><r>schip<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>liniaal<s n="n"/></l><r>liniaal<s n="n"/><s n="mf"/></r></p></e>
@@ -3981,6 +4009,38 @@
 
 
     <!-- SECTION: Adjectives -->
+	<e><p><l>druk<s n="adj"/></l><r>druk<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>vorig<s n="adj"/></l><r>vorig<s n="adj"/></r></p></e>
+	<e><p><l>antiek<s n="adj"/></l><r>antiek<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Christelik<s n="adj"/></l><r>Christelijk<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>verder<s n="adj"/></l><r>verder<s n="adj"/></r></p></e>
+	<e><p><l>later<s n="adj"/></l><r>later<s n="adj"/></r></p></e>
+	<e><p><l>Sweeds<s n="adj"/></l><r>Zweeds<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Joods<s n="adj"/></l><r>Joods<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>destyds<s n="adj"/></l><r>destijds<s n="adj"/></r></p></e>
+	<e><p><l>Indies<s n="adj"/></l><r>Indiaas<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Olimpies<s n="adj"/></l><r>olympisch<s n="adj"/></r></p></e>
+	<e><p><l>Russies<s n="adj"/></l><r>Russisch<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Slawies<s n="adj"/></l><r>Slavisch<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Grieks<s n="adj"/></l><r>Grieks<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Pools<s n="adj"/></l><r>Pools<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Rooms<s n="adj"/></l><r>Rooms<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Italiaans<s n="adj"/></l><r>Italiaans<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Germaans<s n="adj"/></l><r>Germaans<s n="adj"/></r></p></e>
+	<e><p><l>Frans<s n="adj"/></l><r>Frans<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Deens<s n="adj"/></l><r>Deens<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Latyns<s n="adj"/></l><r>Latijns<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Kaaps<s n="adj"/></l><r>Kaaps<s n="adj"/><<s n="sint"/>/r></p></e>
+	<e><p><l>Noors<s n="adj"/></l><r>Noors<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Litaus<s n="adj"/></l><r>Litouws<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>outonoom<s n="adj"/></l><r>autonoom<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>gewoon<s n="adj"/></l><r>gewoon<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>laat<s n="adj"/></l><r>laat<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>geleë<s n="adj"/></l><r>gelegen<s n="adj"/></r></p></e>
+	<e><p><l>oorlede<s n="adj"/></l><r>overleden<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>oop<s n="adj"/></l><r>open<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Sowjet<s n="adj"/></l><r>Sovjets<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>nieu<s n="adj"/></l><r>nieuw<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gematrikuleer<s n="adj"/></l><r>geboren<s n="adj"/></r></p></e>
     <e><p><l>opgemeet<s n="adj"/></l><r>opgemeten<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>onakkuraat<s n="adj"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>
