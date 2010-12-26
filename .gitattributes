@@ -51,3 +51,5 @@ dev/verbSep-NoParadigms.txt -text
 dev/verbSep.txt -text
 /modes.xml -text
 /nl-af.prob -text svneol=unset#unset
+nl/apertium-af-nl.nl.dix.full -text
+nl/update.sh -text
