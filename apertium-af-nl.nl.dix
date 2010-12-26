@@ -10908,7 +10908,6 @@
     <e lm="gisterochtend"><i>gisterochtend</i><par n="es__adv"/></e>
     <e lm="gistermiddag"><i>gistermiddag</i><par n="es__adv"/></e>
     <e lm="zowaar"><i>zowaar</i><par n="es__adv"/></e>
-    <e lm="achter"><i>achter</i><par n="es__adv"/></e>
     <e lm="voor de eerste slag"><i>voor<b/>de<b/>eerste<b/>slag</i><par n="es__adv"/></e>
     <e lm="veel"><i>veel</i><par n="es__adv"/></e>
     <e lm="echter"><i>echter</i><par n="es__adv"/></e>
@@ -10966,7 +10965,6 @@
     <e lm="voor"><i>voor</i><par n="es__adv"/></e>
     <e lm="omtrent"><i>omtrent</i><par n="es__adv"/></e>
     <e lm="daarop"><i>daarop</i><par n="es__adv"/></e>
-    <e lm="waarschijnlijk"><i>waarschijnlijk</i><par n="es__adv"/></e>
     <e lm="destijds"><i>destijds</i><par n="es__adv"/></e>
     <e lm="samen"><i>samen</i><par n="es__adv"/></e>
     <e lm="officieel"><i>officieel</i><par n="es__adv"/></e>
@@ -10988,8 +10986,6 @@
     <e lm="letterlijk"><i>letterlijk</i><par n="es__adv"/></e>
     <e lm="direct"><i>direct</i><par n="es__adv"/></e>
     <e lm="geen"><i>geen</i><par n="es__adv"/></e>
-    <e lm="grotendeels"><i>grotendeels</i><par n="es__adv"/></e>
-    <e lm="misschien"><i>misschien</i><par n="es__adv"/></e>
     <e lm="eindelijk"><i>eindelijk</i><par n="es__adv"/></e>
     <e lm="aanzienlijk"><i>aanzienlijk</i><par n="es__adv"/></e>
     <e lm="weg"><i>weg</i><par n="es__adv"/></e>
@@ -10997,8 +10993,6 @@
     <e lm="actief"><i>actief</i><par n="es__adv"/></e>
     <e lm="tipisch"><i>tipisch</i><par n="es__adv"/></e>
     <e lm="feitelijk"><i>feitelijk</i><par n="es__adv"/></e>
-    <e lm="breed"><i>breed</i><par n="es__adv"/></e>
-    <e lm="zeker"><i>zeker</i><par n="es__adv"/></e>
     <e lm="traditioneel"><i>traditioneel</i><par n="es__adv"/></e>
     <e lm="precies"><i>precies</i><par n="es__adv"/></e>
     <e lm="minder"><i>minder</i><par n="es__adv"/></e>
@@ -11105,7 +11099,6 @@
     <e lm="relatief"><i>relatief</i><par n="es__adv"/></e>
     <e lm="amper"><i>amper</i><par n="es__adv"/></e>
     <e lm="sedert"><i>sedert</i><par n="es__adv"/></e>
-    <e lm="tenminste"><i>tenminste</i><par n="es__adv"/></e>
     <e lm="onlangs"><i>onlangs</i><par n="es__adv"/></e>
     <e lm="buiten"><i>buiten</i><par n="es__adv"/></e>
     <e lm="voortdurend"><i>voortdurend</i><par n="es__adv"/></e>
@@ -11116,7 +11109,6 @@
     <e lm="definitief"><i>definitief</i><par n="es__adv"/></e>
     <e lm="selfs"><i>selfs</i><par n="es__adv"/></e>
     <e lm="graag"><i>graag</i><par n="es__adv"/></e>
-    <e lm="bijna"><i>bijna</i><par n="es__adv"/></e>
     <e lm="gisteren"><i>gisteren</i><par n="es__adv"/></e>
     <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
 <!-- cnj.xml -->
@@ -11661,7 +11653,6 @@
     <e lm="Afrikaan"><i>Afrika</i><par n="ma/an__n_m"/></e>
 	<e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
 	<e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
-    <e lm="schip"><i>sch</i><par n="sch/ip__n_nt"/></e>
     <e lm="liniaal"><i>linia</i><par n="linia/al__n_nt"/></e>
     <e lm="liniaal"><i>linia</i><par n="ta/al__n_mf"/></e>
     <e lm="tovenaar"><i>tovena</i><par n="lera/ar__n_m"/></e>
@@ -11686,6 +11677,8 @@
     <e lm="vlag"><i>vlag</i><par n="eg__n_mf"/></e>
     <e lm="minister"><i>minister</i><par n="led__n_m"/></e>
     <e lm="room"><i>room</i><par n="eb__n_m"/></e>
+    <e lm="kant"><i>kant</i><par n="lot__n_nt"/></e>
+    <e lm="kant"><i>kant</i><par n="ui__n_m"/></e>
     <e lm="kant"><i>kant</i><par n="lot__n_nt"/></e>
     <e lm="kant"><i>kant</i><par n="ui__n_m"/></e>
     <e lm="handel"><i>handel</i><par n="eb__n_m"/></e>
@@ -11760,6 +11753,8 @@
     <e lm="legende"><i>legende</i><par n="made__n_f"/></e>
     <e lm="legende"><i>legendee</i><par n="made__n_f"/></e>
     <e lm="kapitein"><i>kapitein</i><par n="ui__n_m"/></e>
+    <e lm="koper"><i>koper</i><par n="eon__n_nt"/></e>
+    <e lm="koper"><i>koper</i><par n="led__n_m"/></e>
     <e lm="koper"><i>koper</i><par n="eon__n_nt"/></e>
     <e lm="koper"><i>koper</i><par n="led__n_m"/></e>
     <e lm="politie"><i>politie</i><par n="eb__n_f"/></e>
@@ -14925,7 +14920,6 @@
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="enig iets"><i>enig<b/>iets</i><par n="mens__prn"/></e>
-    <!--<e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>-->
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="mens"><i>mens</i><par n="mens__prn"/></e>
@@ -15424,6 +15418,8 @@
     <e lm="kenmerken"><p><l>gekenmerkt</l><r>kenmerken</r></p><par n="gesproken__vblex"/></e>
     <e lm="kiezen"><p><l>gekozen</l><r>kiezen</r></p><par n="gesproken__vblex"/></e>
     <e lm="kiezen"><i>k</i><par n="k/iezen__vblex"/></e>
+    <e lm="strijken"><p><l>gestreken</l><r>strijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="strijken"><i>str</i><par n="w/ijken__vblex"/></e>
     <e lm="bepalen"><i>bepa</i><par n="da/len__vblex"/></e>
     <e lm="bepalen"><p><l>bepaald</l><r>bepalen</r></p><par n="gesproken__vblex"/></e>
     <e lm="ontdekken"><i>ontdek</i><par n="dek/ken__vblex"/></e>
@@ -15952,8 +15948,6 @@
     <e lm="ontkennen"><p><l>ontkend</l><r>ontkennen</r></p><par n="gesproken__vblex"/></e>
     <e lm="bedenken"><i>bed</i><par n="d/enken__vblex"/></e>
     <e lm="bedenken"><p><l>bedacht</l><r>bedenken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="strijken"><p><l>gestreken</l><r>strijken</r></p><par n="gesproken__vblex"/></e>
-    <e lm="strijken"><i>str</i><par n="w/ijken__vblex"/></e>
     <e lm="ontploffen"><i>ontplof</i><par n="puf/fen__vblex"/></e>
     <e lm="ontploffen"><p><l>ontploft</l><r>ontploffen</r></p><par n="gesproken__vblex"/></e>
     <e lm="heroveren"><i>herover</i><par n="jij/en__vblex"/></e>
