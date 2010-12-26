@@ -10004,16 +10004,19 @@
     <e lm="achter"><i>achter</i><par n="van__pr"/></e>
     <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
     <e lm="bij"><i>bij</i><par n="van__pr"/></e>
+	<e lm="waarbij"><i>waarbij</i><par n="van__pr"/></e>
     <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
     <e lm="boven"><i>boven</i><par n="van__pr"/></e>
     <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
     <e lm="door"><i>door</i><par n="van__pr"/></e>
     <e lm="in"><i>in</i><par n="van__pr"/></e>
+	<e lm="dankzij"><i>dankzij</i><par n="van__pr"/></e>
     <e lm="langs"><i>langs</i><par n="van__pr"/></e>
     <e lm="met"><i>met</i><par n="van__pr"/></e>
     <e lm="na"><i>na</i><par n="van__pr"/></e>
     <e lm="naar"><i>naar</i><par n="van__pr"/></e>
     <e lm="naast"><i>naast</i><par n="van__pr"/></e>
+	<e lm="daarnaast"><i>daarnaast</i><par n="van__pr"/></e>
     <e lm="om"><i>om</i><par n="van__pr"/></e>
     <e lm="onder"><i>onder</i><par n="van__pr"/></e>
     <e lm="op"><i>op</i><par n="van__pr"/></e>
@@ -10022,6 +10025,10 @@
     <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
     <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
     <e lm="te"><i>te</i><par n="van__pr"/></e>
+	<e lm="ten"><i>ten</i><par n="van__pr"/></e>
+	<e lm="ter"><i>ter</i><par n="van__pr"/></e>
+	<e lm="daarin"><i>daarin</i><par n="van__pr"/></e>
+	<e lm="per"><i>per</i><par n="van__pr"/></e>
     <e lm="tegen"><i>tegen</i><par n="van__pr"/></e>
     <e lm="tegenover"><i>tegenover</i><par n="van__pr"/></e>
     <e lm="tot"><i>tot</i><par n="van__pr"/></e>
@@ -10605,6 +10612,7 @@
     <e lm="eerdaags"><i>eerdaags</i><par n="es__adv"/></e>
     <e lm="eerder"><i>eerder</i><par n="es__adv"/></e>
     <e lm="eergister"><i>eergister</i><par n="es__adv"/></e>
+	<e lm="voordat"><i>voordat</i><par n="es__adv"/></e>
     <e lm="eergisteren"><i>eergisteren</i><par n="es__adv"/></e>
     <e lm="eerlijkheidshalve"><i>eerlijkheidshalve</i><par n="es__adv"/></e>
     <e lm="eerst"><i>eerst</i><par n="es__adv"/></e>
@@ -11474,6 +11482,8 @@
     <e lm="zoal"><i>zoal</i><par n="es__adv"/></e>
     <e lm="zodanig"><i>zodanig</i><par n="es__adv"/></e>
     <e lm="zodoende"><i>zodoende</i><par n="es__adv"/></e>
+	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
+	<e lm="gedurende"><i>gedurende</i><par n="es__adv"/></e>
     <e lm="zoek"><i>zoek</i><par n="es__adv"/></e>
     <e lm="zogenaamd"><i>zogenaamd</i><par n="es__adv"/></e>
     <e lm="zojuist"><i>zojuist</i><par n="es__adv"/></e>
@@ -27914,6 +27924,7 @@
     <e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
 
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
+	<e lm="Vilnius"><i>Vilnius</i><par n="Frankrijk__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
     <e lm="Parijs"><i>Parijs</i><par n="Nederlands__np"/></e>
     <e lm="Alacant"><i>Alacant</i><par n="Frankrijk__np"/></e>
@@ -28205,6 +28216,8 @@
     <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
     <e lm="Stephen"><i>Stephen</i><par n="Wynand__np"/></e>
     <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
+	<e lm="Johannes"><i>Johannes</i><par n="Wynand__np"/></e>
+	<e lm="Louis"><i>Louis</i><par n="Wynand__np"/></e>
 
     <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e>
     <e lm="Mieke"><i>Mieke</i><par n="Anrie__np"/></e>
@@ -28443,6 +28456,11 @@
     <e lm="afstellen"><i>afstel</i><par n ="afstel/len__vblex_sep"/></e>
     <e lm="afstellen"><p><l>stel</l><r>afstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afstellen"><p><l>afgesteld</l><r>afstellen</r></p><par n="gesproken__vblex_sep"/></e>
+	
+    <e lm="vrijstellen"><i>vrijstel</i><par n ="afstel/len__vblex_sep"/></e>
+    <e lm="vrijstellen"><p><l>stel</l><r>vrijstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="vrijstellen"><p><l>vrijgesteld</l><r>vrijstellen</r></p><par n="gesproken__vblex_sep"/></e>
+
     <e lm="afsterven"><i>afst</i><par n ="afst/erven__vblex_sep"/></e>
     <e lm="afsterven"><p><l>st</l><r>afst</r></p><par n="st/erven#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afsterven"><p><l>afgeaaid</l><r>afsterven</r></p><par n="gesproken__vblex_sep"/></e>
@@ -28691,7 +28709,11 @@
     <e lm="onderstellen"><p><l>ondergesteld</l><r>onderstellen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="ondervinden"><i>onderv</i><par n ="onderv/inden__vblex_sep"/></e>
     <e lm="ondervinden"><p><l>v</l><r>onderv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>onder</l><r></r></p></e>
-    <e lm="ondervinden"><p><l>ondergeaaid</l><r>ondervinden</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="ondervinden"><p><l>ondervonden</l><r>ondervinden</r></p><par n="gesproken__vblex_sep"/></e>
+	
+	<e lm="plaatsvinden"><i>plaatsv</i><par n ="onderv/inden__vblex_sep"/></e>
+    <e lm="plaatsvinden"><p><l>v</l><r>plaatsv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>plaats</l><r></r></p></e>
+    <e lm="plaatsvinden"><p><l>plaatsgevonden</l><r>plaatsvinden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="onderwerken"><i>onderwerk</i><par n ="inwerk/en__vblex_sep"/></e>
     <e lm="onderwerken"><p><l>werk</l><r>onderwerk</r></p><par n="werk/en#_in__vblex_sep"/><p><l><b/>onder</l><r></r></p></e>
     <e lm="onderwerken"><p><l>ondergewerkt</l><r>onderwerken</r></p><par n="gesproken__vblex_sep"/></e>
