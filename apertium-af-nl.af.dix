@@ -1068,6 +1068,7 @@
     <pardef n="prsubj__prn">
       <e>       <p><l>ek</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>jy</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>hy</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>sy</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>dit</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -1079,6 +1080,7 @@
     <pardef n="probj__prn">
       <e>       <p><l>my</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>jou</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>hom</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>haar</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>dit</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -1117,15 +1119,17 @@
       <e>       <p><l>wees</l><r>wees<s n="vbser"/><s n="inf"/></r></p></e>
       <e>       <p><l>is</l><r>wees<s n="vbser"/><s n="pres"/></r></p></e>
       <e>       <p><l>was</l><r>wees<s n="vbser"/><s n="past"/></r></p></e>
-      <e>       <p><l>synde</l><r>wees<s n="vbser"/><s n="pprs"/></r></p></e>
       <e>       <p><l>gewees</l><r>wees<s n="vbser"/><s n="pp"/></r></p></e>
+      <e>       <p><l>synde</l><r>wees<s n="vbser"/><s n="pprs"/></r></p></e>
+      <e r="LR"><p><l>wesend</l><r>wees<s n="vbser"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="/hê__vbhaver">
+      <e>       <p><l>hê</l><r>hê<s n="vbhaver"/><s n="inf"/></r></p></e>
       <e>       <p><l>het</l><r>hê<s n="vbhaver"/><s n="pres"/></r></p></e>
       <e>       <p><l>het</l><r>hê<s n="vbhaver"/><s n="past"/></r></p></e>
-      <e>       <p><l>hê</l><r>hê<s n="vbhaver"/><s n="inf"/></r></p></e>
       <e>       <p><l>gehad</l><r>hê<s n="vbhaver"/><s n="pp"/></r></p></e>
+      <e>       <p><l>hebbend</l><r>hê<s n="vbhaver"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="gebreek__vblex">
@@ -1136,11 +1140,13 @@
       <e>       <p><l/><r><s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="pp"/></r></p></e>
+      <e>       <p><l>end</l><r><s n="vblex"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="breek__vblex">
       <e>       <p><l/><r><s n="vblex"/><s n="pres"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>end</l><r><s n="vblex"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="/baar__vblex">
@@ -1153,6 +1159,7 @@
       <e>       <p><l>an</l><r>an<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>an</l><r>an<s n="vbmod"/><s n="pres"/></r></p></e>
       <e>       <p><l>on</l><r>an<s n="vbmod"/><s n="past"/></r></p></e>
+      <e>       <p><l>annend</l><r>an<s n="vbmod"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="s/al__vbmod">
@@ -1165,18 +1172,21 @@
       <e>       <p><l>t</l><r>t<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>t</l><r>t<s n="vbmod"/><s n="pres"/></r></p></e>
       <e>       <p><l>s</l><r>t<s n="vbmod"/><s n="past"/></r></p></e>
+      <e>       <p><l>tend</l><r>t<s n="vbmod"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="m/ag__vbmod">
       <e>       <p><l>ag</l><r>ag<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>ag</l><r>ag<s n="vbmod"/><s n="pres"/></r></p></e>
       <e>       <p><l>og</l><r>ag<s n="vbmod"/><s n="past"/></r></p></e>
+      <e>       <p><l>agend</l><r>ag<s n="vbmod"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="w/il__vbmod">
       <e>       <p><l>il</l><r>il<s n="vaux"/><s n="inf"/></r></p></e>
       <e>       <p><l>il</l><r>il<s n="vaux"/><s n="pres"/></r></p></e>
       <e>       <p><l>ou</l><r>il<s n="vaux"/><s n="past"/></r></p></e>
+      <e>       <p><l>illend</l><r>il<s n="vaux"/><s n="pprs"/></r></p></e> <!-- CHECK -->
     </pardef>
 
     <pardef n="behoort__vbmod">
@@ -1326,16 +1336,18 @@
     <e lm="honderdste"><i>honderdste</i><par n="tweede__det"/></e>
 
 
-<!--
     <e lm="een-en-twintigste"><i>een-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-twintigste"><i>twee-en-twintigste</i><par n="tweede__det"/></e>
-    <e lm="drie-en-twintigste"><i>drie-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="vier-en-twintigste"><i>vier-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="vyf-en-twintigste"><i>vyf-en-twintigste</i><par n="tweede__det"/></e>
+    <e lm="nege-en-twintigste"><i>nege-en-twintigste</i><par n="tweede__det"/></e>
+
+    <e lm="drie-en-veertigste"><i>drie-en-veertigste</i><par n="tweede__det"/></e>
+<!--
+    <e lm="drie-en-twintigste"><i>drie-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="ses-en-twintigste"><i>ses-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="sewe-en-twintigste"><i>sewe-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="agt-en-twintigste"><i>agt-en-twintigste</i><par n="tweede__det"/></e>
-    <e lm="nege-en-twintigste"><i>nege-en-twintigste</i><par n="tweede__det"/></e>
     <e lm="een-en-dertigste"><i>een-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-dertigste"><i>twee-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="drie-en-dertigste"><i>drie-en-dertigste</i><par n="tweede__det"/></e>
@@ -1347,7 +1359,6 @@
     <e lm="nege-en-dertigste"><i>nege-en-dertigste</i><par n="tweede__det"/></e>
     <e lm="een-en-veertigste"><i>een-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="twee-en-veertigste"><i>twee-en-veertigste</i><par n="tweede__det"/></e>
-    <e lm="drie-en-veertigste"><i>drie-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="vier-en-veertigste"><i>vier-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="vyf-en-veertigste"><i>vyf-en-veertigste</i><par n="tweede__det"/></e>
     <e lm="ses-en-veertigste"><i>ses-en-veertigste</i><par n="tweede__det"/></e>
@@ -1605,6 +1616,12 @@
 	<e lm="eerder"><i>eerder</i><par n="miskien__adv"/></e>
 	<e lm="voordat"><i>voordat</i><par n="miskien__adv"/></e>
 	<e lm="nooit"><i>nooit</i><par n="miskien__adv"/></e>
+	<e lm="ágter"><i>ágter</i><par n="miskien__adv"/></e>
+	<e lm="binne"><i>binne</i><par n="miskien__adv"/></e>
+	<e lm="gedurende die somer"><i>gedurende<b/>die<b/>somer</i><par n="miskien__adv"/></e>
+	<e lm="ál"><i>ál</i><par n="miskien__adv"/></e>
+	<e lm="laas"><i>laas</i><par n="miskien__adv"/></e>
+	<e lm="môre"><i>môre</i><par n="miskien__adv"/></e>
 
     <e lm="sleg"><i>sleg</i><par n="miskien__adv"/></e><!-- "badly", "poorly" ,, check -->
     <e lm="hoewel"><i>hoewel</i><par n="miskien__adv"/></e><!-- "though" -->

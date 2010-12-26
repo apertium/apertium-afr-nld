@@ -110,6 +110,7 @@
     <def-attr n="tipus_prn">
       <attr-item tags="prn.subj"/>
       <attr-item tags="prn.obj"/>
+      <attr-item tags="prn.ref"/>
     </def-attr>
     <def-attr n="pers">			<!-- Person -->
        <attr-item tags="p1"/>
@@ -579,10 +580,16 @@
             <choose>
               <when>
                 <test>
+                  <or>
+                  <equal>
+                    <clip pos="1" side="sl" part="temps"/>
+                    <lit-tag v="prs"/>
+                  </equal>
                   <equal>
                     <clip pos="1" side="sl" part="temps"/>
                     <lit-tag v="imp"/>
                   </equal>
+                  </or>
                 </test>
                 <let>
                   <clip pos="1" side="tl" part="temps"/>

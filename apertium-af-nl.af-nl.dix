@@ -296,7 +296,6 @@
 	<e><p><l>almal<s n="prn"/><s n="tn"/><s n="mf"/></l><r>allemaal<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
 	<e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="mf"/></l><r>enig<b/>iets<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
 	<e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
-    <e><p><l>die<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>de<b/>ander<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></l><r>'n<b/>ander<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>enigiets<s n="prn"/><s n="tn"/><s n="m"/></l><r>alles<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="m"/></l><r>iemand<b/>anders<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
@@ -4190,7 +4189,7 @@
     <e><p><l>Mediterreens<s n="adj"/></l><r>Mediterraans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geologies<s n="adj"/></l><r>geologisch<s n="adj"/></r></p></e>
     <e><p><l>kompleks<s n="adj"/></l><r>complex<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>meganies<s n="adj"/></l><r>mechanisch<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>meganies<s n="adj"/></l><r>mechanisch<s n="adj"/></r></p></e>
     <e><p><l>aanvanklik<s n="adj"/></l><r>aanvankelijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>radikaal<s n="adj"/></l><r>radicaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>effektief<s n="adj"/></l><r>effectief<s n="adj"/><s n="sint"/></r></p></e>
@@ -4884,7 +4883,8 @@
 
     <e><p><l>waarvan<s n="adv"/></l><r>waarvan<s n="adv"/></r></p></e>
     <e><p><l>daarvan<s n="adv"/></l><r>daarvan<s n="adv"/></r></p></e>
-    <e><p><l>naastenby<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>naastenby<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
+    <e><p><l>byna<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
 	<e><p><l>tog<s n="adv"/></l><r>toch<s n="adv"/></r></p></e>
 	<e><p><l>sowel<s n="adv"/></l><r>zowel<s n="adv"/></r></p></e>
 	<e><p><l>waaronder<s n="adv"/></l><r>waaronder<s n="adv"/></r></p></e>
@@ -4910,7 +4910,6 @@
 	<e><p><l>gisteroggend<s n="adv"/></l><r>gisterochtend<s n="adv"/></r></p></e>
 	<e><p><l>gistermiddag<s n="adv"/></l><r>gistermiddag<s n="adv"/></r></p></e>
 	<e><p><l>sowaar<s n="adv"/></l><r>zowaar<s n="adv"/></r></p></e>
-	<e><p><l>ágter<s n="adv"/></l><r>achter<s n="adv"/></r></p></e>
 	<e><p><l>vir<b/>die<b/>eerste<b/>slag<s n="adv"/></l><r>voor<b/>de<b/>eerste<b/>slag<s n="adv"/></r></p></e>
 	<e><p><l>baie<s n="adv"/></l><r>veel<s n="adv"/></r></p></e>
 	<e><p><l>egter<s n="adv"/></l><r>echter<s n="adv"/></r></p></e>
@@ -4920,6 +4919,7 @@
     <e><p><l>in<b/>die<b/>middel<s n="adv"/></l><r>in<b/>het<b/>midden<s n="adv"/></r></p></e>
     <e><p><l>in<b/>die<b/>wêreld<s n="adv"/></l><r>in<b/>de<b/>wereld<s n="adv"/></r></p></e>
     <e><p><l>ten<b/>minste<s n="adv"/></l><r>tenminste<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>tenminste<s n="adv"/></l><r>tenminste<s n="adv"/></r></p></e>
     <e><p><l>in<b/>die<b/>algemeen<s n="adv"/></l><r>in<b/>het<b/>algemeen<s n="adv"/></r></p></e>
     <e><p><l>ten<b/>volle<s n="adv"/></l><r>ten<b/>volle<s n="adv"/></r></p></e>
     <e><p><l>na<b/>bewering<s n="adv"/></l><r>naar<b/>verluidt<s n="adv"/></r></p></e>
@@ -4970,7 +4970,6 @@
     <e><p><l>voor<s n="adv"/></l><r>voor<s n="adv"/></r></p></e>
     <e><p><l>omtrent<s n="adv"/></l><r>omtrent<s n="adv"/></r></p></e>
     <e><p><l>daarop<s n="adv"/></l><r>daarop<s n="adv"/></r></p></e>
-    <e><p><l>waarskynlik<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>
     <e><p><l>destyds<s n="adv"/></l><r>destijds<s n="adv"/></r></p></e>
     <e><p><l>saam<s n="adv"/></l><r>samen<s n="adv"/></r></p></e>
     <e><p><l>amptelik<s n="adv"/></l><r>officieel<s n="adv"/></r></p></e>
@@ -4980,7 +4979,8 @@
     <e><p><l>waarna<s n="adv"/></l><r>waarna<s n="adv"/></r></p></e>
     <e><p><l>naamlik<s n="adv"/></l><r>namelijk<s n="adv"/></r></p></e>
     <e><p><l>genoeg<s n="adv"/></l><r>genoeg<s n="adv"/></r></p></e>
-    <e><p><l>agter<s n="adv"/></l><r>achter<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>agter<s n="adv"/></l><r>achter<s n="adv"/></r></p></e>
+	<e><p><l>ágter<s n="adv"/></l><r>achter<s n="adv"/></r></p></e>
     <e><p><l>ver<s n="adv"/></l><r>ver<s n="adv"/></r></p></e>
     <e><p><l>vroeg<s n="adv"/></l><r>vroeg<s n="adv"/></r></p></e>
     <e><p><l>onafhanklik<s n="adv"/></l><r>onafhankelijk<s n="adv"/></r></p></e>
@@ -4992,8 +4992,6 @@
     <e><p><l>letterlik<s n="adv"/></l><r>letterlijk<s n="adv"/></r></p></e>
     <e><p><l>direk<s n="adv"/></l><r>direct<s n="adv"/></r></p></e>
     <e><p><l>geen<s n="adv"/></l><r>geen<s n="adv"/></r></p></e>
-    <e><p><l>grootliks<s n="adv"/></l><r>grotendeels<s n="adv"/></r></p></e>
-    <e><p><l>dalk<s n="adv"/></l><r>misschien<s n="adv"/></r></p></e>
     <e><p><l>eintlik<s n="adv"/></l><r>eindelijk<s n="adv"/></r></p></e>
     <e><p><l>aansienlik<s n="adv"/></l><r>aanzienlijk<s n="adv"/></r></p></e>
     <e><p><l>weg<s n="adv"/></l><r>weg<s n="adv"/></r></p></e>
@@ -5001,8 +4999,6 @@
     <e><p><l>aktief<s n="adv"/></l><r>actief<s n="adv"/></r></p></e>
     <e><p><l>tipies<s n="adv"/></l><r>tipisch<s n="adv"/></r></p></e>
     <e><p><l>feitlik<s n="adv"/></l><r>feitelijk<s n="adv"/></r></p></e>
-    <e><p><l>wyd<s n="adv"/></l><r>breed<s n="adv"/></r></p></e>
-    <e><p><l>seker<s n="adv"/></l><r>zeker<s n="adv"/></r></p></e>
     <e><p><l>tradisioneel<s n="adv"/></l><r>traditioneel<s n="adv"/></r></p></e>
     <e><p><l>presies<s n="adv"/></l><r>precies<s n="adv"/></r></p></e>
     <e><p><l>min<s n="adv"/></l><r>minder<s n="adv"/></r></p></e>
@@ -5014,6 +5010,7 @@
     <e><p><l>werklik<s n="adv"/></l><r>werkelijk<s n="adv"/></r></p></e>
     <e><p><l>spesifiek<s n="adv"/></l><r>specifiek<s n="adv"/></r></p></e>
     <e><p><l>miskien<s n="adv"/></l><r>misschien<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>dalk<s n="adv"/></l><r>misschien<s n="adv"/></r></p></e>
     <e><p><l>onderskeidelik<s n="adv"/></l><r>respectievelijk<s n="adv"/></r></p></e>
     <e><p><l>streng<s n="adv"/></l><r>streng<s n="adv"/></r></p></e>
     <e><p><l>verby<s n="adv"/></l><r>verweg<s n="adv"/></r></p></e>
@@ -5046,7 +5043,8 @@
     <e><p><l>betreklik<s n="adv"/></l><r>betrekkelijk<s n="adv"/></r></p></e>
     <e><p><l>afsonderlik<s n="adv"/></l><r>afzonderlijk<s n="adv"/></r></p></e>
     <e><p><l>vrylik<s n="adv"/></l><r>vrijelijk<s n="adv"/></r></p></e>
-    <e><p><l>sekerlik<s n="adv"/></l><r>zeker<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>sekerlik<s n="adv"/></l><r>zeker<s n="adv"/></r></p></e>
+    <e><p><l>seker<s n="adv"/></l><r>zeker<s n="adv"/></r></p></e>
     <e><p><l>binnekort<s n="adv"/></l><r>binnenkort<s n="adv"/></r></p></e>
     <e><p><l>deeglik<s n="adv"/></l><r>degelijk<s n="adv"/></r></p></e>
     <e><p><l>behoorlik<s n="adv"/></l><r>behoorlijk<s n="adv"/></r></p></e>
@@ -5055,7 +5053,8 @@
     <e><p><l>trouens<s n="adv"/></l><r>trouwens<s n="adv"/></r></p></e>
     <e><p><l>hierin<s n="adv"/></l><r>hierin<s n="adv"/></r></p></e>
     <e><p><l>oor<s n="adv"/></l><r>over<s n="adv"/></r></p></e>
-    <e><p><l>onwaarskynlik<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>onwaarskynlik<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>
+    <e><p><l>waarskynlik<s n="adv"/></l><r>waarschijnlijk<s n="adv"/></r></p></e>
     <e><p><l>kultureel<s n="adv"/></l><r>cultureel<s n="adv"/></r></p></e>
     <e><p><l>agterna<s n="adv"/></l><r>achterna<s n="adv"/></r></p></e>
     <e><p><l>teë<s n="adv"/></l><r>tegen<s n="adv"/></r></p></e>
@@ -5064,6 +5063,7 @@
     <e><p><l>klaarblyklik<s n="adv"/></l><r>klaarblijkelijk<s n="adv"/></r></p></e>
     <e><p><l>benewens<s n="adv"/></l><r>aanvullend<s n="adv"/></r></p></e>
     <e><p><l>breedweg<s n="adv"/></l><r>breed<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>wyd<s n="adv"/></l><r>breed<s n="adv"/></r></p></e>
     <e><p><l>bo-op<s n="adv"/></l><r>boven<b/>op<s n="adv"/></r></p></e>
     <e><p><l>oorspronlik<s n="adv"/></l><r>oorspronkelijk<s n="adv"/></r></p></e>
     <e><p><l>meerendeels<s n="adv"/></l><r>meerendeels<s n="adv"/></r></p></e>
@@ -5109,11 +5109,11 @@
     <e><p><l>anders<s n="adv"/></l><r>anders<s n="adv"/></r></p></e>
     <e><p><l>ooit<s n="adv"/></l><r>ooit<s n="adv"/></r></p></e>
     <e><p><l>grotendeels<s n="adv"/></l><r>grotendeels<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>grootliks<s n="adv"/></l><r>grotendeels<s n="adv"/></r></p></e>
     <e><p><l>vervolgens<s n="adv"/></l><r>vervolgens<s n="adv"/></r></p></e>
     <e><p><l>relatief<s n="adv"/></l><r>relatief<s n="adv"/></r></p></e>
     <e><p><l>amper<s n="adv"/></l><r>amper<s n="adv"/></r></p></e>
     <e><p><l>sedert<s n="adv"/></l><r>sedert<s n="adv"/></r></p></e>
-    <e><p><l>tenminste<s n="adv"/></l><r>tenminste<s n="adv"/></r></p></e>
     <e><p><l>onlangs<s n="adv"/></l><r>onlangs<s n="adv"/></r></p></e>
     <e><p><l>buiten<s n="adv"/></l><r>buiten<s n="adv"/></r></p></e>
     <e><p><l>voortdurend<s n="adv"/></l><r>voortdurend<s n="adv"/></r></p></e>
@@ -5125,7 +5125,6 @@
     <e><p><l>selfs<s n="adv"/></l><r>selfs<s n="adv"/></r></p></e>
 
     <e><p><l>graag<s n="adv"/></l><r>graag<s n="adv"/></r></p></e>
-    <e><p><l>byna<s n="adv"/></l><r>bijna<s n="adv"/></r></p></e>
 
     <e><p><l>gister<s n="adv"/></l><r>gisteren<s n="adv"/></r></p></e>
     <e><p><l>altyd<s n="adv"/></l><r>altijd<s n="adv"/></r></p></e>

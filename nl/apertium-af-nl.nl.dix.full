@@ -10236,7 +10236,7 @@
 	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
-    <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
+    <!--<e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>-->
 	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
 
     <e lm="mekaar"><i>mekaar</i><par n="beide__prn"/></e>
@@ -10359,7 +10359,6 @@
     <e lm="helemaal aan het begin"><i>helemaal<b/>aan<b/>het<b/>begin</i><par n="es__adv"/></e>
     <e lm="zonder"><i>zonder</i><par n="es__adv"/></e>
     <e lm="hoewel"><i>hoewel</i><par n="es__adv"/></e>
-    <e lm="gedurende die laatste paar jaren"><i>gedurende<b/>die<b/>laatste<b/>paar<b/>jaren</i><par n="es__adv"/></e>
     <e lm="zodra"><i>zodra</i><par n="es__adv"/></e>
     <e lm="hierzo"><i>hierzo</i><par n="es__adv"/></e>
     <e lm="meerwaardig"><i>meerwaardig</i><par n="es__adv"/></e>
