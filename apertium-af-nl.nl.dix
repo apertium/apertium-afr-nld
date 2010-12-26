@@ -293,7 +293,9 @@
     <pardef n="zichzelf__prn">
       <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
-
+    <pardef n="zelf__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -10020,6 +10022,7 @@
     <e lm="Deens"><i>Deens</i><par n="fors__adj_sint"/></e>
     <e lm="Latijns"><i>Latijns</i><par n="fors__adj_sint"/></e>
 	<e lm="Kaaps"><i>Kaaps</i><par n="fors__adj_sint"/></e>
+	<e lm="Noors"><i>Noors</i><par n="fors__adj_sint"/></e>
     <e lm="Litouws"><i>Litouws</i><par n="fors__adj_sint"/></e>
 	<e lm="autonoom"><i>autono</i><par n="lo/om__adj_sint"/></e>
     <e lm="gewoon"><i>gewo</i><par n="scho/on__adj_sint"/></e>
@@ -10874,6 +10877,15 @@
     <e lm="waarvan"><i>waarvan</i><par n="es__adv"/></e>
     <e lm="daarvan"><i>daarvan</i><par n="es__adv"/></e>
     <e lm="bijna"><i>bijna</i><par n="es__adv"/></e>
+    <e lm="toch"><i>toch</i><par n="es__adv"/></e>
+    <e lm="zowel"><i>zowel</i><par n="es__adv"/></e>
+    <e lm="waaronder"><i>waaronder</i><par n="es__adv"/></e>
+    <e lm="eerder"><i>eerder</i><par n="es__adv"/></e>
+	<e lm="voordat"><i>voordat</i><par n="es__adv"/></e>
+    <e lm="nooit"><i>nooit</i><par n="es__adv"/></e>
+    <e lm="zodoende"><i>zodoende</i><par n="es__adv"/></e>
+	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
+	<e lm="gedurende"><i>gedurende</i><par n="es__adv"/></e>
     <e lm="politiek"><i>politiek</i><par n="es__adv"/></e>
     <e lm="hoewel"><i>hoewel</i><par n="es__adv"/></e>
     <e lm="helemaal aan het begin"><i>helemaal<b/>aan<b/>het<b/>begin</i><par n="es__adv"/></e>
@@ -11141,10 +11153,10 @@
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
     <e lm="verschillende"><i>verschillende</i><par n="verschillende__det"/></e>
     <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
+    <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
     <e lm="beide"><i>beide</i><par n="elke__det"/></e>
     <e lm="zulke"><i>zulke</i><par n="ander__det"/></e>
     <e lm="allemaal"><i>allemaal</i><par n="elke__det"/></e>
-    <e lm="vele"><i>vele</i><par n="sommige__det"/></e>
     <e lm="hoeveel"><i>hoeveel</i><par n="hoeveel__det"/></e>
     <e lm="vijftigste"><i>vijftigste</i><par n="tweede__det"/></e>
     <e lm="veertigste"><i>veertigste</i><par n="tweede__det"/></e>
@@ -11189,6 +11201,7 @@
     <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
     <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
     <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
+    <e lm="onze"><i>on</i><par n="on/ze__det"/></e>
     <e lm="laatst"><i>laatst</i><par n="tweede__det"/></e>
     <e lm="eerste"><i>eerste</i><par n="tweede__det"/></e>
     <e lm="tweede"><i>tweede</i><par n="tweede__det"/></e>
@@ -11224,6 +11237,9 @@
 <!-- np.xml -->
 
 
+	<e lm="Vilnius"><i>Vilnius</i><par n="Frankrijk__np"/></e>
+	<e lm="Johannes"><i>Johannes</i><par n="Wynand__np"/></e>
+	<e lm="Louis"><i>Louis</i><par n="Wynand__np"/></e>
     <e lm="Engeland"><i>Engeland</i><par n="Frankrijk__np"/></e>
     <e lm="Frankrijk"><i>Frankrijk</i><par n="Frankrijk__np"/></e>
     <e lm="York"><i>York</i><par n="Frankrijk__np"/></e>
@@ -11612,6 +11628,7 @@
 	<e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
     <e lm="slag"><i>slag</i><par n="ui__n_m"/></e>
 	<e lm="trek"><i>trek</i><par n="fok__n_m"/></e>
+    <e lm="periode"><i>periode</i><par n="made__n_f"/></e>
     <e lm="lijk"><i>lijk</i><par n="lot__n_nt"/></e>
     <e lm="vader"><i>vader</i><par n="led__n_m"/></e>
     <e lm="bewoner"><i>bewoner</i><par n="led__n_m"/></e>
@@ -11630,7 +11647,7 @@
     <e lm="paleis"><i>palei</i><par n="hui/s__n_nt"/></e>
     <e lm="prins"><i>prins</i><par n="ui__n_m"/></e>
 	<e lm="Sint"><i>Sint</i><par n="eb__n_m"/></e>
-    <e lm="Canadees"><i>Canadees</i><par n="pe/es__n_m"/></e>
+    <e lm="Canadees"><i>Canade</i><par n="pe/es__n_m"/></e>
     <e lm="Afrikaan"><i>Afrika</i><par n="ma/an__n_m"/></e>
 	<e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
 	<e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
@@ -13672,7 +13689,6 @@
     <e lm="tafelblad"><i>tafelblad</i><par n="lot__n_nt"/></e>
     <e lm="tafel"><i>tafel</i><par n="roe__n_mf"/></e>
     <e lm="tak"><i>tak</i><par n="fok__n_m"/></e>
-    <e lm="tomaat"><i>toma</i><par n="gra/at__n_mf"/></e>
     <e lm="tas"><i>tas</i><par n="as__n_mf"/></e>
     <e lm="theater"><i>theater</i><par n="eon__n_nt"/></e>
     <e lm="theelepel"><i>theelepel</i><par n="led__n_m"/></e>
@@ -14912,7 +14928,8 @@
 
     <e lm="te"><i>te</i><par n="te__preadv"/></e>
     <e lm="tamelijk"><i>tamelijk</i><par n="te__preadv"/></e>
-    <e lm="meeste"><i>meeste</i><par n="te__preadv"/></e>
+    <e lm="meest"><i>meest</i><par n="te__preadv"/></e>
+    <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
     <e lm="zo"><i>zo</i><par n="te__preadv"/></e>
     <e lm="veel"><i>veel</i><par n="te__preadv"/></e>
@@ -14923,7 +14940,7 @@
 
 
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
-	<e lm="zelf"><i>zelf</i><par n="zichzelf__prn"/></e>
+	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
 	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
@@ -14957,6 +14974,15 @@
 <!-- pr.xml -->
 
 
+    <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
+	<e lm="ten"><i>ten</i><par n="van__pr"/></e>
+	<e lm="daarin"><i>daarin</i><par n="van__pr"/></e>
+	<e lm="per"><i>per</i><par n="van__pr"/></e>
+	<e lm="ter"><i>ter</i><par n="van__pr"/></e>
+    <e lm="tegenover"><i>tegenover</i><par n="van__pr"/></e>
+	<e lm="daarnaast"><i>daarnaast</i><par n="van__pr"/></e>
+	<e lm="waarbij"><i>waarbij</i><par n="van__pr"/></e>
+	<e lm="dankzij"><i>dankzij</i><par n="van__pr"/></e>
     <e lm="meer als"><i>meer<b/>als</i><par n="van__pr"/></e>
     <e lm="samen met"><i>samen<b/>met</i><par n="van__pr"/></e>
     <e lm="zonder"><i>zonder</i><par n="van__pr"/></e>
@@ -15030,6 +15056,7 @@
     <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
     <e lm="waarop"><i>waarop</i><par n="van__pr"/></e>
     <e lm="weg"><i>weg</i><par n="van__pr"/></e>
+	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
 <!-- rel.xml -->
 
 
@@ -15050,6 +15077,46 @@
     <e lm="moeten"><i></i><par n="/moeten__vbmod"/></e>
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
     <e lm="mogen"><i></i><par n="/mogen__vbmod"/></e>
+    <e lm="dragen"><p><l>gedragen</l><r>dragen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dragen"><i>dr</i><par n="j/agen__vblex"/></e>
+    <e lm="vinden"><p><l>gevonden</l><r>vinden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vinden"><i>v</i><par n="b/inden__vblex"/></e>
+    <e lm="geven"><p><l>gegeven</l><r>geven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="geven"><i>g</i><par n="g/even__vblex"/></e>
+    <e lm="duiden"><i>duid</i><par n="jij/en__vblex"/></e>
+    <e lm="duiden"><p><l>geduid</l><r>duiden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdelen"><i>verde</i><par n="te/len__vblex"/></e>
+    <e lm="verdelen"><p><l>verdeeld</l><r>verdelen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="stellen"><i>stel</i><par n="rol/len__vblex"/></e>
+    <e lm="stellen"><p><l>gesteld</l><r>stellen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="dienen"><i>dien</i><par n="jij/en__vblex"/></e>
+    <e lm="dienen"><p><l>gediend</l><r>dienen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="winnen"><p><l>gewonnen</l><r>winnen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="winnen"><i>w</i><par n="w/innen__vblex"/></e>
+    <e lm="varen"><p><l>gevaren</l><r>varen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="varen"><i>v</i><par n="v/aren__vblex"/></e>
+    <e lm="dateren"><i>date</i><par n="ve/ren__vblex"/></e>
+    <e lm="dateren"><p><l>gedateerd</l><r>dateren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voeren"><i>voer</i><par n="jij/en__vblex"/></e>
+    <e lm="voeren"><p><l>gevoerd</l><r>voeren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="sturen"><i>stu</i><par n="tu/ren__vblex"/></e>
+    <e lm="sturen"><p><l>gestuurd</l><r>sturen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verkrijgen"><p><l>verkregen</l><r>verkrijgen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verkrijgen"><i>verkr</i><par n="r/ijgen__vblex"/></e>
+    <e lm="laten"><i>l</i><par n="l/aten__vblex"/></e>
+    <e lm="laten"><p><l>gelaten</l><r>laten</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overlijden"><p><l>overleden</l><r>overlijden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overlijden"><i>overl</i><par n="m/ijden__vblex"/></e>
+    <e lm="beïnvloeden"><i>beïnvloed</i><par n="jij/en__vblex"/></e>
+    <e lm="beïnvloeden"><p><l>beïnvloed</l><r>beïnvloeden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="vertegenwoordigen"><i>vertegenwoordig</i><par n="jij/en__vblex"/></e>
+    <e lm="vertegenwoordigen"><p><l>vertegenwoordigd</l><r>vertegenwoordigen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voltooien"><i>voltooi</i><par n="jij/en__vblex"/></e>
+    <e lm="voltooien"><p><l>voltooid</l><r>voltooien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voorzien"><p><l>voorzien</l><r>voorzien</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voorzien"><i>voorz</i><par n="z/ien__vblex"/></e>
+    <e lm="erkennen"><i>erken</i><par n="in/nen__vblex"/></e>
+    <e lm="erkennen"><p><l>erkend</l><r>erkennen</r></p><par n="gesproken__vblex"/></e>
     <e lm="behoren"><i>beho</i><par n="bo/ren__vblex"/></e>
     <e lm="behoren"><p><l>behoord</l><r>behoren</r></p><par n="gesproken__vblex"/></e>
     <e lm="vertellen"><i>vertel</i><par n="rol/len__vblex"/></e>
@@ -15104,6 +15171,12 @@
     <e lm="uitnodigen"><i>uitnodig</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="uitnodigen"><p><l>nodig</l><r>uitnodig</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
     <e lm="uitnodigen"><p><l>uitnodig</l><r>uitnodigen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="vrijstellen"><i>vrijstel</i><par n ="afstel/len__vblex_sep"/></e>
+    <e lm="vrijstellen"><p><l>stel</l><r>vrijstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="vrijstellen"><p><l>vrijgesteld</l><r>vrijstellen</r></p><par n="gesproken__vblex_sep"/></e>
+	<e lm="plaatsvinden"><i>plaatsv</i><par n ="onderv/inden__vblex_sep"/></e>
+    <e lm="plaatsvinden"><p><l>v</l><r>plaatsv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>plaats</l><r></r></p></e>
+    <e lm="plaatsvinden"><p><l>plaatsgevonden</l><r>plaatsvinden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="verplichten"><i>verplicht</i><par n="ent/en__vblex"/></e>
     <e lm="verplichten"><p><l>verplicht</l><r>verplichten</r></p><par n="gesproken__vblex"/></e>
     <e lm="benutten"><i>benut</i><par n="at/ten__vblex"/></e>
@@ -16403,7 +16476,7 @@
     <e lm="terugtrekken"><p><l>teruggeaaid</l><r>terugtrekken</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="ondervinden"><i>onderv</i><par n ="onderv/inden__vblex_sep"/></e>
     <e lm="ondervinden"><p><l>v</l><r>onderv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>onder</l><r></r></p></e>
-    <e lm="ondervinden"><p><l>ondergeaaid</l><r>ondervinden</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="ondervinden"><p><l>ondervonden</l><r>ondervinden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="ondervinden"><p><l>ondervonden</l><r>ondervinden</r></p><par n="gesproken__vblex"/></e>
     <e lm="ondervinden"><i>onderv</i><par n="b/inden__vblex"/></e>
     <e lm="invallen"><i>inv</i><par n ="aanv/allen__vblex_sep"/></e>

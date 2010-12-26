@@ -10003,6 +10003,7 @@
     <!-- SECTION: Prepositions -->
 
     <e lm="aan"><i>aan</i><par n="van__pr"/></e>
+    <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
     <e lm="achter"><i>achter</i><par n="van__pr"/></e>
     <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
     <e lm="bij"><i>bij</i><par n="van__pr"/></e>
@@ -10336,7 +10337,7 @@
     <e lm="veel"><i>veel</i><par n="te__preadv"/></e>
     <e lm="dan"><i>dan</i><par n="te__preadv"/></e>
     <e lm="meer"><i>meer</i><par n="te__preadv"/></e>
-    <e lm="meeste"><i>meeste</i><par n="te__preadv"/></e>
+    <e lm="meest"><i>meest</i><par n="te__preadv"/></e>
     <e lm="zo"><i>zo</i><par n="te__preadv"/></e>
     <e lm="tamelijk"><i>tamelijk</i><par n="te__preadv"/></e>
 

@@ -1,3 +1,4 @@
+dos2unix apertium-af-nl.nl.dix.full
 echo "Processing..."
 echo "" > n.xml
 for i in `lt-expand ../apertium-af-nl.af-nl.dix | grep '<n>' |  sed 's/:>:/:/g' | sed 's/:<:/:/g'  | cut -f2 -d':' | sed 's/><.*/>/g' | sed 's/</:/g' | sed 's/>//g' | sed 's/ /_/g'`; do
@@ -108,6 +109,9 @@ for i in `lt-expand ../apertium-af-nl.af-nl.dix | grep '<predet' | cut -f2 -d':'
 	cat apertium-af-nl.nl.dix.full | grep "lm=\"$lem\".*__$pos\"" >> predet.xml;
 done
 wc -l predet.xml
+
+cat apertium-af-nl.nl.dix.full | grep '<e lm="s" r="RL">' >> gen.xml
+wc -l gen.xml
 
 #####################################################################################
 

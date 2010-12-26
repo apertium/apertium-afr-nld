@@ -80,6 +80,7 @@
       <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adj">
+      <attr-item tags="adj"/>
       <attr-item tags="adj.pred"/>
       <attr-item tags="adj.attr"/>
       <attr-item tags="adj.sint"/>
@@ -139,7 +140,75 @@
     <def-var n="numero"/>
     <def-var n="caseFirstWord"/>
     <def-var n="nombre"/>
+    <def-var n="adj_h_1"/>
   </section-def-vars>
+    
+  <section-def-macros>
+    <def-macro n="f_adjectiu1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="sl" part="a_adj"/>
+                <lit-tag v="adj.sint"/>
+              </equal>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_adj"/>
+                  <lit-tag v="adj.sint"/>
+                </equal>
+              </not>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="grau"/>
+            <lit v=""/>
+          </let>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="grau"/>
+                  <lit-tag v="comp"/>
+                </equal>
+              </test>
+              <let>
+                <var n="adj_h_1"/>
+                <concat>
+                  <lit v="meer"/>
+                  <lit-tag v="preadv"/>
+                  <lit v="$ ^"/>
+                </concat>
+              </let>
+            </when>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="grau"/>
+                  <lit-tag v="sup"/>
+                </equal>
+              </test>
+              <let>
+                <var n="adj_h_1"/>
+                <concat>
+                  <lit v="mees"/>
+                  <lit-tag v="preadv"/>
+                  <lit v="$ ^"/>
+                </concat>
+              </let>
+            </when>
+          </choose>
+        </when>
+        <otherwise>
+          <let>
+            <var n="adj_h_1"/>
+            <lit v=""/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+  </section-def-macros>
 
   <section-rules>
 
@@ -360,15 +429,20 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <call-macro n="f_adjectiu1">
+          <with-param pos="1"/>
+        </call-macro> 
             <out>
               <chunk name="adj">
                 <tags>
                   <tag><lit-tag v="ADJ"/></tag>
                 </tags>
                 <lu>
-                  <clip pos="1" side="tl" part="lem"/>
+                  <var n="adj_h_1"/>
+                  <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="a_adj"/>
                   <clip pos="1" side="tl" part="grau"/>
+                  <clip pos="1" side="tl" part="lemq"/>
                 </lu>
               </chunk>
             </out>
