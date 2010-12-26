@@ -133,6 +133,7 @@
        <attr-item tags="past"/>
        <attr-item tags="pres"/>
        <attr-item tags="inf"/>
+       <attr-item tags="pprs"/>
      </def-attr>
   </section-def-attrs>
 
