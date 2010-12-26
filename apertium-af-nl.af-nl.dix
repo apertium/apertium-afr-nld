@@ -447,7 +447,7 @@
 	<e><p><l>paar<s n="n"/></l><r>paar<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>slag<s n="n"/></l><r>slag<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>trek<s n="n"/></l><r>trek<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>periode<s n="n"/></l><r><s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>periode<s n="n"/></l><r>periode<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>lyk<s n="n"/></l><r>lijk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>vader<s n="n"/></l><r>vader<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bewoner<s n="n"/></l><r>bewoner<s n="n"/><s n="m"/></r></p></e>
@@ -4904,7 +4904,9 @@
 	<e><p><l>eerder<s n="adv"/></l><r>eerder<s n="adv"/></r></p></e>
 	<e><p><l>voordat<s n="adv"/></l><r>voordat<s n="adv"/></r></p></e>
 	<e><p><l>nooit<s n="adv"/></l><r>nooit<s n="adv"/></r></p></e>
-    
+    <e><p><l>sodoende<s n="adv"/></l><r>zodoende<s n="adv"/></r></p></e>
+    <e><p><l>vanweë<s n="pr"/></l><r>vanwege<s n="pr"/></r></p></e>
+    <e><p><l>gedurende<s n="adv"/></l><r>gedurende<s n="adv"/></r></p></e>   
 	<e><p><l>polities<s n="adv"/></l><r>politiek<s n="adv"/></r></p></e>
 	<e><p><l>hoewel<s n="adv"/></l><r>hoewel<s n="adv"/></r></p></e>
 	<e><p><l>heel<b/>aan<b/>die<b/>begin<s n="adv"/></l><r>helemaal<b/>aan<b/>het<b/>begin<s n="adv"/></r></p></e>
