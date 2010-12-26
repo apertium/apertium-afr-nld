@@ -278,6 +278,19 @@
       <e>       <p><l>ze</l><r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="prref__prn"> 
+      <e>       <p><l>mijzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>jouzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>hemzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>haarzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>homzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>onszelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>jullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>julzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>hulzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="d/eze__prn">
       <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>it</l><r>eze<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -290,11 +303,8 @@
       <e>       <p><l>ie</l><r>ie<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="zichzelf__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="zelf__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -10218,12 +10228,13 @@
 
     <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
     <e lm="object pronouns"><i></i><par n="probj__prn"/></e>
+    <e lm="reflexive pronouns"><i></i><par n="prref__prn"/></e>
     <e lm="object 'unstressed' pronouns"><i></i><par n="probj_uns__prn"/></e>
 
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
 
-    <e lm="zichzelf"><i>zichzelf</i><par n="zichzelf__prn"/></e>
+    <e lm="zichzelf"><i>zichzelf</i><par n="zelf__prn"/></e>
 	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>

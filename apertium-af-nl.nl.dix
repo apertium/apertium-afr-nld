@@ -278,6 +278,19 @@
       <e>       <p><l>ze</l><r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="prref__prn"> 
+      <e>       <p><l>mijzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>jouzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>hemzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>haarzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>homzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>onszelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>jullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>julzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hullezelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>hulzelf</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="d/eze__prn">
       <e>       <p><l>eze</l><r>eze<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>it</l><r>eze<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -290,11 +303,8 @@
       <e>       <p><l>ie</l><r>ie<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="zichzelf__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-    </pardef>
     <pardef n="zelf__prn">
-      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -10884,7 +10894,6 @@
 	<e lm="voordat"><i>voordat</i><par n="es__adv"/></e>
     <e lm="nooit"><i>nooit</i><par n="es__adv"/></e>
     <e lm="zodoende"><i>zodoende</i><par n="es__adv"/></e>
-	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
 	<e lm="gedurende"><i>gedurende</i><par n="es__adv"/></e>
     <e lm="politiek"><i>politiek</i><par n="es__adv"/></e>
     <e lm="hoewel"><i>hoewel</i><par n="es__adv"/></e>
@@ -11229,6 +11238,10 @@
     <e lm="vierentwintigste"><i>vierentwintigste</i><par n="tweede__det"/></e>
     <e lm="vijfentwintigste"><i>vijfentwintigste</i><par n="tweede__det"/></e>
     <e lm="negeëntwintigste"><i>negeëntwintigste</i><par n="tweede__det"/></e>
+<!-- gen.xml -->
+
+    <e lm="s" r="RL"><p><l><a/>s</l><r>s<s n="gen"/></r></p></e>
+    <e lm="s" r="RL"><p><l><a/>s</l><r>s<s n="gen"/></r></p></e>
 <!-- ij.xml -->
 
 
@@ -11660,10 +11673,8 @@
     <e lm="vlies"><i>vlie</i><par n="hui/s__n_nt"/></e>
     <e lm="infinitief"><i>infinitie</i><par n="ho/f__n_m"/></e>
     <e lm="vis"><i>vis</i><par n="as__n_m"/></e>
-    <e lm="kost"><i>kost</i><par n="ui__n_m"/></e>
     <e lm="omgeving"><i>omgeving</i><par n="vering__n_f"/></e>
     <e lm="speer"><i>spe</i><par n="pe/er__n_mf"/></e>
-    <e lm="kern"><i>kern</i><par n="ui__n_m"/></e>
     <e lm="rechter"><i>rechter</i><par n="led__n_m"/></e>
     <e lm="verlies"><i>verlie</i><par n="hui/s__n_nt"/></e>
     <e lm="huwelijk"><i>huwelijk</i><par n="lot__n_nt"/></e>
@@ -12483,7 +12494,6 @@
     <e lm="kracht"><i>kracht</i><par n="hui__n_mf"/></e>
     <e lm="woordenboek"><i>woordenboek</i><par n="lot__n_nt"/></e>
     <e lm="aantal"><i>aantal</i><par n="mol__n_nt"/></e>
-    <e lm="aardappel"><i>aardappel</i><par n="sol__n_m"/></e>
     <e lm="afbeelding"><i>afbeelding</i><par n="vering__n_f"/></e>
     <e lm="appel"><i>appel</i><par n="sol__n_m"/></e>
     <e lm="appel"><i>appel</i><par n="sol__n_m"/></e>
@@ -12491,14 +12501,12 @@
     <e lm="inwoner"><i>inwoner</i><par n="led__n_m"/></e>
     <e lm="inwoner"><i>inwoner</i><par n="led__n_m"/></e>
     <e lm="broer"><i>broer</i><par n="led__n_m"/></e>
-    <e lm="dienst"><i>dienst</i><par n="ui__n_m"/></e>
     <e lm="dorp"><i>dorp</i><par n="lot__n_nt"/></e>
     <e lm="druif"><i>drui</i><par n="kol/f__n_mf"/></e>
     <e lm="eeuw"><i>eeuw</i><par n="hui__n_mf"/></e>
     <e lm="eiland"><i>eiland</i><par n="lot__n_nt"/></e>
     <e lm="feit"><i>feit</i><par n="lot__n_nt"/></e>
     <e lm="gebied"><i>gebied</i><par n="lot__n_nt"/></e>
-    <e lm="gebruiker"><i>gebruiker</i><par n="led__n_m"/></e>
     <e lm="geval"><i>geval</i><par n="mol__n_nt"/></e>
     <e lm="glas"><i>gla</i><par n="hui/s__n_nt"/></e>
     <e lm="afbeelding"><i>afbeelding</i><par n="vering__n_f"/></e>
@@ -12529,17 +12537,13 @@
     <e lm="moeder"><i>moeder</i><par n="roe__n_f"/></e>
     <e lm="moment"><i>moment</i><par n="lot__n_nt"/></e>
     <e lm="muziek"><i>muziek</i><par n="eb__n_f"/></e>
-    <e lm="naam"><i>na</i><par n="na/am__n_m"/></e>
     <e lm="onderzoek"><i>onderzoek</i><par n="lot__n_nt"/></e>
     <e lm="nummer"><i>nummer</i><par n="eon__n_nt"/></e>
     <e lm="onderzoek"><i>onderzoek</i><par n="lot__n_nt"/></e>
     <e lm="ontbijt"><i>ontbijt</i><par n="lot__n_nt"/></e>
     <e lm="ontwikkeling"><i>ontwikkeling</i><par n="vering__n_f"/></e>
     <e lm="moment"><i>moment</i><par n="lot__n_nt"/></e>
-    <e lm="oorlog"><i>oorlog</i><par n="ui__n_m"/></e>
-    <e lm="leeftijd"><i>leeftijd</i><par n="ui__n_m"/></e>
     <e lm="partij"><i>partij</i><par n="zooi__n_mf"/></e>
-    <e lm="president"><i>president</i><par n="ui__n_m"/></e>
     <e lm="punt"><i>punt</i><par n="ui__n_m"/></e>
     <e lm="serie"><i>serie</i><par n="tree__n_f"/></e>
     <e lm="rivier"><i>rivier</i><par n="vering__n_f"/></e>
@@ -12561,8 +12565,6 @@
     <e lm="taalgroep"><i>taalgroep</i><par n="hui__n_mf"/></e>
     <e lm="terroristegroep"><i>terroristegroep</i><par n="hui__n_mf"/></e>
     <e lm="toneelgroep"><i>toneelgroep</i><par n="hui__n_mf"/></e>
-    <e lm="werkgroep"><i>werkgroep</i><par n="vering__n_f"/></e>
-    <e lm="werkgroep"><i>werkgroep</i><par n="ui__n_m"/></e>
     <e lm="artikel"><i>artikel</i><par n="sol__n_nt"/></e>
     <e lm="kabel"><i>kabel</i><par n="led__n_m"/></e>
     <e lm="film"><i>film</i><par n="eb__n_m"/></e>
@@ -12575,25 +12577,18 @@
     <e lm="taal"><i>ta</i><par n="ta/al__n_mf"/></e>
     <e lm="tomaat"><i>toma</i><par n="gra/at__n_mf"/></e>
     <e lm="tante"><i>tante</i><par n="roe__n_f"/></e>
-    <e lm="tekst"><i>tekst</i><par n="ui__n_m"/></e>
     <e lm="titel"><i>titel</i><par n="led__n_m"/></e>
-    <e lm="tijd"><i>tijd</i><par n="vering__n_f"/></e>
-    <e lm="tijd"><i>tijd</i><par n="ui__n_m"/></e>
     <e lm="boter"><i>boter</i><par n="WO__n_mf"/></e>
-    <e lm="ui"><i>ui</i><par n="ui__n_m"/></e>
     <e lm="versie"><i>versie</i><par n="roe__n_f"/></e>
     <e lm="versie"><i>versie</i><par n="roe__n_f"/></e>
-    <e lm="vis"><i>vis</i><par n="as__n_m"/></e>
     <e lm="vlees"><i>vlees</i><par n="OV__n_nt"/></e>
     <e lm="voorbeeld"><i>voorbeeld</i><par n="lot__n_nt"/></e>
     <e lm="voorbeeld"><i>voorbeeld</i><par n="lot__n_nt"/></e>
-    <e lm="vorm"><i>vorm</i><par n="ui__n_m"/></e>
     <e lm="vrucht"><i>vrucht</i><par n="vering__n_f"/></e>
     <e lm="leger"><i>leger</i><par n="eon__n_nt"/></e>
     <e lm="weg"><i>weg</i><par n="ui__n_m"/></e>
     <e lm="woord"><i>woord</i><par n="lot__n_nt"/></e>
     <e lm="woord"><i>woord</i><par n="ui__n_m"/></e>
-    <e lm="wortel"><i>wortel</i><par n="ui__n_m"/></e>
     <e lm="aalmoes"><i>aalmoe</i><par n="soe/s__n_f"/></e>
     <e lm="aanbeveling"><i>aanbeveling</i><par n="vering__n_f"/></e>
     <e lm="aanbidding"><i>aanbidding</i><par n="vering__n_f"/></e>
@@ -14941,6 +14936,7 @@
 
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
 	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
+    <e lm="zichzelf"><i>zichzelf</i><par n="zelf__prn"/></e>
 	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
     <e lm="wat"><i>wat</i><par n="wat__prn"/></e>
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
@@ -14954,7 +14950,6 @@
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="enig iets"><i>enig<b/>iets</i><par n="mens__prn"/></e>
-    <e lm="zichzelf"><i>zichzelf</i><par n="zichzelf__prn"/></e>
     <e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
@@ -14970,6 +14965,7 @@
     <e lm="enig iets"><i>enig<b/>iets</i><par n="mens__prn"/></e>
     <e lm="subject pronouns"><i></i><par n="prsubj__prn"/></e>
     <e lm="object pronouns"><i></i><par n="probj__prn"/></e>
+    <e lm="reflexive pronouns"><i></i><par n="prref__prn"/></e>
     <e lm="object 'unstressed' pronouns"><i></i><par n="probj_uns__prn"/></e>
 <!-- pr.xml -->
 
@@ -15056,7 +15052,7 @@
     <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
     <e lm="waarop"><i>waarop</i><par n="van__pr"/></e>
     <e lm="weg"><i>weg</i><par n="van__pr"/></e>
-	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
+    <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
 <!-- rel.xml -->
 
 

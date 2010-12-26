@@ -48,7 +48,7 @@ for i in `lt-expand ../apertium-af-nl.af-nl.dix | grep '<prn>' |  sed 's/:>:/:/g
 	pos=`echo $i | cut -f2 -d':'`; 
 	cat apertium-af-nl.nl.dix.full | grep -e "lm=\"$lem\".*__$pos\"" -e "lm=\"$lem\".*<s n=\"$pos\"" >> prn.xml;
 done
-cat apertium-af-nl.nl.dix.full | grep -e "<e.*probj.*__prn" -e "<e.*prsubj.*__prn" >> prn.xml;
+cat apertium-af-nl.nl.dix.full | grep -e "<e.*probj.*__prn" -e "<e.*prref.*__prn" -e "<e.*prsubj.*__prn" >> prn.xml;
 wc -l prn.xml
 echo "" > det.xml
 for i in `lt-expand ../apertium-af-nl.af-nl.dix | grep '<det>' | sed 's/:>:/:/g' | sed 's/:<:/:/g' | cut -f2 -d':' | sed 's/><.*/>/g' | sed 's/</:/g' | sed 's/>//g' | sed 's/ /_/g'`; do 
@@ -110,6 +110,7 @@ for i in `lt-expand ../apertium-af-nl.af-nl.dix | grep '<predet' | cut -f2 -d':'
 done
 wc -l predet.xml
 
+echo "" > gen.xml
 cat apertium-af-nl.nl.dix.full | grep '<e lm="s" r="RL">' >> gen.xml
 wc -l gen.xml
 

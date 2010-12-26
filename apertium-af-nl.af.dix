@@ -1088,6 +1088,23 @@
       <e>       <p><l>mens</l><r>mens<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="prref__prn">
+      <e>       <p><l>myself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>jouself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>homself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>haarself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>homself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>onsself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>julleself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>julself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>hulleself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>hulself</l><r>prpers<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="self__prn">
+      <e>       <p><l></l><r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="dié__prn">
       <e>       <p><l/><r><s n="prn"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l/><r><s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
@@ -1187,11 +1204,11 @@
   <section id="main" type="standard">
     <e lm="pronoms personals de subjecte"><i/><par n="prsubj__prn"/></e>
     <e lm="pronoms personals d'objecte"><i/><par n="probj__prn"/></e>
+    <e lm="pronoms reflexius"><i/><par n="prref__prn"/></e>
 
-    <e lm="hulleself"><p><l>hulself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="hulleself"><p><l>hulleself</l><r>hulleself<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+	<e lm="self"><i>self</i><par n="self__prn"/></e>
+	<e lm="sigself"><i>sigself</i><par n="self__prn"/></e>
 	<e lm="beide"><i>beide</i><par n="altwee__prn"/></e>
-	<e lm="self"><i>self</i><par n="elkeen__prn"/></e>
 	<e lm="ander"><i>ander</i><par n="die_ander__prn"/></e>
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="die_ander__prn"/></e>-->
     <!--<e lm="een ander"><i>een<b/>ander</i><par n="die_ander__prn"/></e>--><!-- check this -->
