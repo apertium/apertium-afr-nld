@@ -46,6 +46,7 @@ dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
 dev/testvoc-summary.af-nl.txt -text
+dev/testvoc-summary.nl-af.txt -text
 dev/testvoc.sh -text
 dev/verbSep-NoParadigms.txt -text
 dev/verbSep.txt -text

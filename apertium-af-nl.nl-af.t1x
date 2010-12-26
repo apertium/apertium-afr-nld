@@ -104,6 +104,7 @@
       <attr-item tags="rel"/>
       <attr-item tags="rel.nn"/>
       <attr-item tags="rel.an"/>
+      <attr-item tags="rel.adv"/>
     </def-attr>
     <def-attr n="tipus_prn">
       <attr-item tags="prn.subj"/>

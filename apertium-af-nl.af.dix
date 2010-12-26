@@ -1579,7 +1579,7 @@
     <e lm="aan die grond"><i>aan<b/>die<b/>grond</i><par n="miskien__adv"/></e> 
     <e lm="aan die toeneem"><i>aan<b/>die<b/>toeneem</i><par n="miskien__adv"/></e> 
     <e lm="in die wêreld"><i>in<b/>die<b/>wêreld</i><par n="miskien__adv"/></e> 
-    <e lm="s die laaste paar jare"><i>s<b/>die<b/>laaste<b/>paar<b/>jare</i><par n="miskien__adv"/></e> 
+    <!--<e lm="s die laaste paar jare"><i>s<b/>die<b/>laaste<b/>paar<b/>jare</i><par n="miskien__adv"/></e> -->
 
     <e lm="in die algemeen"><i>in<b/>die<b/>algemeen</i><par n="miskien__adv"/></e><!-- generally -->
     <e lm="in beheer"><i>in<b/>beheer</i><par n="miskien__adv"/></e><!-- in charge-->
@@ -1648,7 +1648,7 @@
     <e lm="destyds"><i>destyds</i><par n="miskien__adv"/></e>
     <e lm="dig"><i>dig</i><par n="miskien__adv"/></e>
     <e lm="ekologies"><i>ekologies</i><par n="miskien__adv"/></e>
-    <e lm="s die somer"><i>s<b/>die<b/>somer</i><par n="miskien__adv"/></e>
+    <!--<e lm="s die somer"><i>s<b/>die<b/>somer</i><par n="miskien__adv"/></e>-->
     <e lm="meerwaardig"><i>meerwaardig</i><par n="miskien__adv"/></e>
     <e lm="nietemin"><i>nietemin</i><par n="miskien__adv"/></e>
     <e lm="of"><i>of</i><par n="miskien__adv"/></e>
