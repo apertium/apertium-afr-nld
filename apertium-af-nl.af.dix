@@ -629,7 +629,7 @@
     </pardef>
 
     <pardef n="poësie__n__unc"> <!-- unc -->
-      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
+      <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
       <!--<e>       <p><l/><r><s n="n"/><s n="unc"/><s n="sg"/></r></p></e>-->
     </pardef>
 
@@ -1305,9 +1305,10 @@
     <e lm="daardie"><i>daardie</i><par n="dié__det"/></e>
 
     <e lm="'n"><i>'n</i><par n="'n__det"/></e>
-    <e lm="‘n" r="LR"><p><l>‘n</l><r>'n</r></p><par n="'n__det"/></e>
-    <e lm="ŉ" r="LR"><p><l>ŉ</l><r>'n</r></p><par n="'n__det"/></e>
-    <e lm="’n" r="LR"><p><l>’n</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="'n" r="LR"><p><l>‘n</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="'n" r="LR"><p><l>ŉ</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="'n" r="LR"><p><l>’n</l><r>'n</r></p><par n="'n__det"/></e>
+    <e lm="'n" r="LR"><p><l>`n</l><r>'n</r></p><par n="'n__det"/></e>
 
 
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="ander__det"/></e>-->
