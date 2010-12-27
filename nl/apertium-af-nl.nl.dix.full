@@ -9085,7 +9085,6 @@
     </pardef>
     <pardef n="OV__n_nt">
       <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="morgenster__n_mf">
       <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -20059,7 +20058,7 @@
     <e lm="rijk"><i>rijk</i><par n="OV__n_nt"/></e>
     <e lm="zink"><i>zink</i><par n="OV__n_nt"/></e>
     <e lm="individu"><i>individu</i><par n="lot__n_nt"/></e>
-    <e lm="aardewerk"><i>aardewerk</i><par n="lot__n_nt"/></e>
+    <e lm="aardewerk"><i>aardewerk</i><par n="OV__n_nt"/></e>
     <e lm="bloeitijdperk"><i>bloeitijdperk</i><par n="lot__n_nt"/></e>
     <e lm="bolwerk"><i>bolwerk</i><par n="lot__n_nt"/></e>
     <e lm="watermerk"><i>watermerk</i><par n="lot__n_nt"/></e>
@@ -24935,7 +24934,7 @@
     <e lm="stuurwiel"><i>stuurwiel</i><par n="lot__n_nt"/></e>
     <e lm="stuwadoor"><i>stuwadoor</i><par n="led__n_m"/></e>
     <e lm="stuwdam"><i>stuwdam</i><par n="kim__n_m"/></e>
-    <e lm="aardrijkskunde"><i>aardrijkskunde</i><par n="eb__n_f"/></e>
+    <e lm="aardrijkskunde"><i>aardrijkskunde</i><par n="wol__n_f"/></e>
     <e lm="communicatiekunde"><i>communicatiekunde</i><par n="eb__n_f"/></e>
     <e lm="letterkunde"><i>letterkunde</i><par n="eb__n_f"/></e>
     <e lm="letterkunde"><i>letterkunde</i><par n="eb__n_f"/></e>
