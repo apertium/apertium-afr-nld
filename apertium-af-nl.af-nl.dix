@@ -477,7 +477,7 @@
     <e><p><l>tovenaar<s n="n"/></l><r>tovenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lies<s n="n"/></l><r>lies<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>slymvlies<s n="n"/></l><r>slymvlies<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>paniek<s n="n"/></l><r>paniek<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>paniek<s n="n"/></l><r>paniek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vlies<s n="n"/></l><r>vlies<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>infinitief<s n="n"/></l><r>infinitief<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
@@ -1154,7 +1154,7 @@
     <e><p><l>outokraat<s n="n"/></l><r>autokraat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nuusdiens<s n="n"/></l><r>nieuwsdienst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>naamlys<s n="n"/></l><r>namenlijst<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>mikrobiologie<s n="n"/></l><r>microbiologie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mikrobiologie<s n="n"/></l><r>microbiologie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>leerprogram<s n="n"/></l><r>studieprogramma<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>leerplan<s n="n"/></l><r>studieplan<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>konsultasie<s n="n"/></l><r>consultatie<s n="n"/><s n="f"/></r></p></e>
@@ -3650,7 +3650,7 @@
     <e><p><l>cm<s n="n"/><s n="acr"/></l><r>cm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>m<s n="n"/><s n="acr"/></l><r>m<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-    <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+    <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 	<e><p><l>mnr<s n="n"/></l><r>mnr<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 
@@ -5778,7 +5778,7 @@
 	<e><p><l>deurbring<s n="vblex"/><s n="sep"/></l><r>doorbrengen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>afstaan<s n="vblex"/><s n="sep"/></l><r>afstaan<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aanmoedig<s n="vblex"/><s n="sep"/></l><r>aanmoedigen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>onderdruk<s n="vblex"/><s n="sep"/></l><r>onderdrukken<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>onderdruk<s n="vblex"/><s n="sep"/></l><r>onderdrukken<s n="vblex"/></r></p></e>
 	<e><p><l>verrig<s n="vblex"/></l><r>verrichten<s n="vblex"/></r></p></e>
 	<e><p><l>aflê<s n="vblex"/><s n="sep"/></l><r>afleggen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opbou<s n="vblex"/><s n="sep"/></l><r>opbouwen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -5805,7 +5805,7 @@
 	<e><p><l>aangaan<s n="vblex"/><s n="sep"/></l><r>aangaan<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>voorberei<s n="vblex"/><s n="sep"/></l><r>voorbereiden<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terugtrek<s n="vblex"/><s n="sep"/></l><r>terugtrekken<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>ondervind<s n="vblex"/><s n="sep"/></l><r>ondervinden<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>ondervind<s n="vblex"/><s n="sep"/></l><r>ondervinden<s n="vblex"/></r></p></e>
 	<e><p><l>inval<s n="vblex"/><s n="sep"/></l><r>invallen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>indeel<s n="vblex"/><s n="sep"/></l><r>verdelen<s n="vblex"/></r></p></e>
 	<e><p><l>aandring<s n="vblex"/><s n="sep"/></l><r>aandringen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -5832,7 +5832,7 @@
 	<e><p><l>toedien<s n="vblex"/><s n="sep"/></l><r>toedienen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aantoon<s n="vblex"/><s n="sep"/></l><r>aantonen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aandoen<s n="vblex"/><s n="sep"/></l><r>aandoen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>onderbreek<s n="vblex"/><s n="sep"/></l><r>onderbreken<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>onderbreek<s n="vblex"/><s n="sep"/></l><r>onderbreken<s n="vblex"/></r></p></e>
 	<e><p><l>omkeer<s n="vblex"/><s n="sep"/></l><r>omkeren<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>ombou<s n="vblex"/><s n="sep"/></l><r>ombouwen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>instaan<s n="vblex"/><s n="sep"/></l><r>instaan<s n="vblex"/><s n="sep"/></r></p></e>
@@ -5869,7 +5869,7 @@
 	<e><p><l>aankla<s n="vblex"/><s n="sep"/></l><r>aanklagen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>teruggee<s n="vblex"/><s n="sep"/></l><r>teruggeven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terugneem<s n="vblex"/><s n="sep"/></l><r>terugnemen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>omvat<s n="vblex"/><s n="sep"/></l><r>omvatten<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>omvat<s n="vblex"/><s n="sep"/></l><r>omvatten<s n="vblex"/></r></p></e>
 	<e><p><l>voorskryf<s n="vblex"/><s n="sep"/></l><r>voorschrijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opdaag<s n="vblex"/><s n="sep"/></l><r>opdagen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>oorloop<s n="vblex"/><s n="sep"/></l><r>overlopen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -5888,11 +5888,11 @@
 	<e><p><l>uitbring<s n="vblex"/><s n="sep"/></l><r>uitbrengen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terugstuur<s n="vblex"/><s n="sep"/></l><r>terugsturen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>saambring<s n="vblex"/><s n="sep"/></l><r>samenbrengen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>omgee<s n="vblex"/><s n="sep"/></l><r>omgeven<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>omgee<s n="vblex"/><s n="sep"/></l><r>omgeven<s n="vblex"/></r></p></e>
 	<e><p><l>neerskryf<s n="vblex"/><s n="sep"/></l><r>opschrijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>inrig<s n="vblex"/><s n="sep"/></l><r>inrichten<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>hou<s n="vblex"/></l><r>houden<s n="vblex"/></r></p></e>
-	<e><p><l>omskryf<s n="vblex"/><s n="sep"/></l><r>omschrijven<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>omskryf<s n="vblex"/><s n="sep"/></l><r>omschrijven<s n="vblex"/></r></p></e>
 	<e><p><l>toewys<s n="vblex"/><s n="sep"/></l><r>toewijzen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>omsit<s n="vblex"/><s n="sep"/></l><r>omzetten<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aflaai<s n="vblex"/><s n="sep"/></l><r>downloaden<s n="vblex"/></r></p></e>
@@ -6001,7 +6001,7 @@
 	<e><p><l>wegvoer<s n="vblex"/><s n="sep"/></l><r>wegvoeren<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>terughou<s n="vblex"/><s n="sep"/></l><r>terughouden<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opdien<s n="vblex"/><s n="sep"/></l><r>opdienen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>oorval<s n="vblex"/><s n="sep"/></l><r>overvallen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>oorval<s n="vblex"/><s n="sep"/></l><r>overvallen<s n="vblex"/></r></p></e>
 	<e><p><l>oorhaal<s n="vblex"/><s n="sep"/></l><r>overhalen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>onderwerk<s n="vblex"/><s n="sep"/></l><r>onderwerken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>invul<s n="vblex"/><s n="sep"/></l><r>invullen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -6024,7 +6024,7 @@
 	<e><p><l>uitdryf<s n="vblex"/><s n="sep"/></l><r>uitdrijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>toelê<s n="vblex"/><s n="sep"/></l><r>toeleggen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opsit<s n="vblex"/><s n="sep"/></l><r>opzetten<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>oorspoel<s n="vblex"/><s n="sep"/></l><r>overspoelen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>oorspoel<s n="vblex"/><s n="sep"/></l><r>overspoelen<s n="vblex"/></r></p></e>
 	<e><p><l>omval<s n="vblex"/><s n="sep"/></l><r>omvallen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>inkyk<s n="vblex"/><s n="sep"/></l><r>inkijken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>afstel<s n="vblex"/><s n="sep"/></l><r>afstellen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -6075,7 +6075,7 @@
 	<e><p><l>teëwerk<s n="vblex"/><s n="sep"/></l><r>tegenwerken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opkyk<s n="vblex"/><s n="sep"/></l><r>opkijken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opkoop<s n="vblex"/><s n="sep"/></l><r>opkopen<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>onderbou<s n="vblex"/><s n="sep"/></l><r>onderbouwen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>onderbou<s n="vblex"/><s n="sep"/></l><r>onderbouwen<s n="vblex"/></r></p></e>
 	<e><p><l>omroep<s n="vblex"/><s n="sep"/></l><r>omroepen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>omgooi<s n="vblex"/><s n="sep"/></l><r>omgooien<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>deurstuur<s n="vblex"/><s n="sep"/></l><r>doorsturen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -6142,7 +6142,7 @@
 	<e><p><l>saamdryf<s n="vblex"/><s n="sep"/></l><r>samendrijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>saamdoen<s n="vblex"/><s n="sep"/></l><r>samendoen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opklink<s n="vblex"/><s n="sep"/></l><r>opklinken<s n="vblex"/><s n="sep"/></r></p></e>
-	<e><p><l>oorlê<s n="vblex"/><s n="sep"/></l><r>overleggen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>oorlê<s n="vblex"/><s n="sep"/></l><r>overleggen<s n="vblex"/></r></p></e>
 	<e><p><l>onderplaas<s n="vblex"/><s n="sep"/></l><r>onderplaatsen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>inspoel<s n="vblex"/><s n="sep"/></l><r>inspoelen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>inruim<s n="vblex"/><s n="sep"/></l><r>inruimen<s n="vblex"/><s n="sep"/></r></p></e>
