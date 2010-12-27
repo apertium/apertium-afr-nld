@@ -1235,6 +1235,8 @@
     <pardef n="behoort__vbmod">
       <e>       <p><l/><r><s n="vaux"/><s n="inf"/></r></p></e>
       <e>       <p><l/><r><s n="vaux"/><s n="pres"/></r></p></e>
+      <e>       <p><l>end</l><r><s n="vaux"/><s n="pprs"/></r></p></e>
+      <e>       <p><l/><r><s n="vaux"/><s n="pp"/></r></p></e>
     </pardef>
 
     <pardef n="aansien__vblex_sep">
@@ -8989,6 +8991,9 @@
 
     <e lm="hanteer"><i>hanteer</i><par n="breek__vblex"/></e>
     <e lm="hanteer"><p><l>gehanteer</l><r>hanteer</r></p><par n="gebreek__vblex"/></e>
+
+    <e lm="hardloop"><i>hardloop</i><par n="breek__vblex"/></e>
+    <e lm="hardloop"><p><l>gehardloop</l><r>loop</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="heers"><i>heers</i><par n="breek__vblex"/></e>
     <e lm="heers"><p><l>geheers</l><r>heers</r></p><par n="gebreek__vblex"/></e>
