@@ -4044,7 +4044,7 @@
     <!--<e><p><l>opgemeet<s n="adj"/></l><r>opgemeten<s n="adj"/></r></p></e>-->
     <!--<e><p><l>onakkuraat<s n="adj"/></l><r>slordig<s n="adj"/><s n="sint"/></r></p></e>-->
     <!--<e><p><l>gemeet<s n="adj"/></l><r>gemeten<s n="adj"/></r></p></e>-->
-    <e><p><l>oorgroot<s n="adj"/></l><r>overgroot<s n="adj"/><s n="sint"/></r></p></e>
+    <!--<e><p><l>oorgroot<s n="adj"/></l><r>overgroot<s n="adj"/><s n="sint"/></r></p></e>-->
     <e><p><l>belangrik<s n="adj"/><s n="sint"/></l><r>belangrijk<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Duits<s n="adj"/></l><r>Duits<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Afrikaans<s n="adj"/></l><r>Afrikaans<s n="adj"/><s n="sint"/></r></p></e>
@@ -5161,8 +5161,8 @@
 	<e><p><l>voltooi<s n="vblex"/></l><r>voltooien<s n="vblex"/></r></p></e>
 	<e><p><l>voorsien<s n="vblex"/></l><r>voorzien<s n="vblex"/></r></p></e>
 	<e><p><l>erken<s n="vblex"/></l><r>erkennen<s n="vblex"/></r></p></e>
-    <e><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>behoort<s n="vaux"/></l><r>behoren<s n="vblex"/></r></p></e>
+    <e><p><l>behoort<s n="vaux"/></l><r>behoren<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>behoort<s n="vblex"/></l><r>behoren<s n="vblex"/></r></p></e>
 	<e><p><l>verhaal<s n="vblex"/></l><r>vertellen<s n="vblex"/></r></p></e>
     <e><p><l>stig<s n="vblex"/></l><r>stichten<s n="vblex"/></r></p></e>
     <e><p><l>lei<s n="vblex"/></l><r>leiden<s n="vblex"/></r></p></e>
@@ -5177,7 +5177,8 @@
     <e><p><l>ag<s n="vblex"/></l><r>verklaren<s n="vblex"/></r></p></e>
     <e><p><l>beplan<s n="vblex"/></l><r>plannen<s n="vblex"/></r></p></e>
     <e><p><l>ry<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
-    <e><p><l>verhoed<s n="vblex"/></l><r>voorkomen<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>verhoed<s n="vblex"/></l><r>voorkomen<s n="vblex"/></r></p></e>
+    <e><p><l>voorkom<s n="vblex"/></l><r>voorkomen<s n="vblex"/></r></p></e>
     <e><p><l>verwag<s n="vblex"/></l><r>verwachten<s n="vblex"/></r></p></e>
     <e><p><l>berei<s n="vblex"/></l><r>bereiden<s n="vblex"/></r></p></e>
     <e><p><l>slaan<s n="vblex"/></l><r>slaan<s n="vblex"/></r></p></e>
@@ -5725,7 +5726,6 @@
 
 	<e><p><l>oprig<s n="vblex"/><s n="sep"/></l><r>oprichten<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>bestaan<s n="vblex"/></l><r>bestaan<s n="vblex"/></r></p></e>
-	<e><p><l>voorkom<s n="vblex"/></l><r>voorkomen<s n="vblex"/></r></p></e>
 	<e><p><l>opvolg<s n="vblex"/><s n="sep"/></l><r>opvolgen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>vervaardig<s n="vblex"/></l><r>vervaardigen<s n="vblex"/></r></p></e>
 	<e><p><l>terugkeer<s n="vblex"/><s n="sep"/></l><r>terugkeren<s n="vblex"/><s n="sep"/></r></p></e>

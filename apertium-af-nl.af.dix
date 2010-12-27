@@ -1234,11 +1234,13 @@
 
     <pardef n="behoort__vbmod">
       <e>       <p><l/><r><s n="vaux"/><s n="inf"/></r></p></e>
+      <e>       <p><l/><r><s n="vaux"/><s n="pres"/></r></p></e>
     </pardef>
 
     <pardef n="aansien__vblex_sep">
       <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/></r></p></e>
       <e>       <p><l/><r><s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
+      <e>       <p><l>end</l><r><s n="vblex"/><s n="sep"/><s n="pprs"/></r></p></e>
     </pardef>
 
     <pardef n="sien#_aan__vblex_sep">

@@ -491,75 +491,96 @@
         <choose>
 
           <when>
-            <test>     <!-- If it is third person singular in the present tense -->
-		  <and>
-                  <or>
-                    <equal>
-                      <clip pos="1" side="tl" part="temps"/>
-                      <lit-tag v="pp"/>
-                    </equal>
-                    <equal>
-                      <clip pos="1" side="tl" part="temps"/>
-                      <lit-tag v="past"/>
-                    </equal>
-                  </or>
-		  <not>
-                  <equal> 
-                    <clip pos="1" side="tl" part="a_verb"/>
-                    <lit-tag v="vblex.uns"/> 
-                  </equal>
-		  </not>
-		  <not>
-                  <equal> 
-                    <clip pos="1" side="tl" part="lem"/>
-                    <lit v="wees"/>                            <!-- be is a special case -->
-                  </equal>
-		  </not>
-		  </and>
+            <test>     
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_verb"/>
+                  <lit-tag v="vblex"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <lit-tag v="vblex.sep"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pres"/>
+                </equal>
+              </and>
             </test>
+
             <out>
-	      <chunk name="verb_participle">
+	      <chunk name="verb">
 	        <tags>
 		  <tag><lit-tag v="V"/></tag>
-		  <tag><lit-tag v="PART"/></tag>
 		</tags>
               <lu>
-                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="a_verb"/>
-                  <lit-tag v="pp"/>
+                  <lit-tag v="fm"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
               </lu>
               </chunk>
             </out>
           </when>
 
+
+
           <when>
-            <test>     <!-- If it is third person singular in the present tense -->
-                      <equal>
-                        <clip pos="1" side="tl" part="temps"/>
-                        <lit-tag v="past"/>
-                      </equal>
+            <test>     
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pp"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+              </or>
             </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pp"/>
+            </let>
+            <choose>
+              <when>
+                <test>
+                  <and>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="pp"/>
+                    </equal>
+                    <or>
+                      <equal>
+                        <clip pos="1" side="sl" part="a_verb"/>
+                        <lit-tag v="vblex.sep.fs"/>
+                      </equal>
+                      <equal>
+                        <clip pos="1" side="sl" part="a_verb"/>
+                        <lit-tag v="vblex.sep.fm"/>
+                      </equal>
+                    </or>
+                  </and>
+                </test>
+                <let>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <lit-tag v="vblex.sep"/>
+                </let>
+              </when>
+            </choose>
+
             <out>
-              <chunk name="verb">
-                <tags>
-                  <tag><lit-tag v="V"/></tag>
-                </tags>
-              <lu>
-                  <lit v="hê"/>
-                  <lit-tag v="vbhaver"/>
-                  <lit-tag v="pres"/>
-              </lu>
-	      </chunk>
-              <b/>
 	      <chunk name="verb_participle">
 	        <tags>
 		  <tag><lit-tag v="V"/></tag>
 		  <tag><lit-tag v="PART"/></tag>
 		</tags>
               <lu>
-                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="a_verb"/>
-		  <lit-tag v="inf"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <clip pos="1" side="tl" part="lemq"/>
               </lu>
               </chunk>
             </out>
@@ -583,6 +604,32 @@
                 <let>
                   <clip pos="1" side="tl" part="temps"/>
                   <lit-tag v="inf"/>
+                </let>
+              </when>
+            </choose>
+            <choose>
+              <when>
+                <test>
+                  <and>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="inf"/>
+                    </equal>
+                    <or>
+                      <equal>
+                        <clip pos="1" side="sl" part="a_verb"/>
+                        <lit-tag v="vblex.sep.fs"/>
+                      </equal>
+                      <equal>
+                        <clip pos="1" side="sl" part="a_verb"/>
+                        <lit-tag v="vblex.sep.fm"/>
+                      </equal>
+                    </or>
+                  </and>
+                </test>
+                <let>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <lit-tag v="vblex.sep"/>
                 </let>
               </when>
             </choose>
