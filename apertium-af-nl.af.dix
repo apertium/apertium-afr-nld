@@ -2429,7 +2429,7 @@
     <e lm="seun"><i>seun</i><par n="artikel__n"/></e>
     <e lm="skrotum"><i>skrotum</i><par n="artikel__n"/></e>
 	<e lm="antibiotikum"><i>antibiotikum</i><par n="artikel__n"/></e>
-	<e lm="antidepresivum"><i>antidepressivum</i><par n="artikel__n"/></e>
+	<e lm="antidepressant"><i>antidepressant/i><par n="bier__n"/></e>
     <e lm="kollega"><i>kollega</i><par n="artikel__n"/></e>
     <e lm="winkel"><i>winkel</i><par n="artikel__n"/></e>
     <e lm="opinie"><i>opinie</i><par n="artikel__n"/></e>
@@ -2758,7 +2758,7 @@
     <e lm="paraffien"><i>paraffien</i><par n="poësie__n__unc"/></e>
     <e lm="dagga"><i>dagga</i><par n="poësie__n__unc"/></e><!-- cannabis -->
     <e lm="analise"><i>analise</i><par n="poësie__n__unc"/></e><!-- calculus -->
-    <e lm="reeks"><i>reeks</i><par n="poësie__n__unc"/></e><!-- series -->
+    <e lm="reeks"><i>reeks</i><par n="bier__n"/></e><!-- series -->
     <e lm="brandstof"><i>brandstof</i><par n="poësie__n__unc"/></e><!-- "fuel" probably wrong -->
     <e lm="buiteland"><i>buiteland</i><par n="poësie__n__unc"/></e><!-- abroad -->
     <e lm="stilstand"><i>stilstand</i><par n="poësie__n__unc"/></e><!-- standstill -->
@@ -2903,7 +2903,7 @@
     <e lm="tellurium"><i>tellurium</i><par n="poësie__n__unc"/></e>
     <e lm="torium"><i>torium</i><par n="poësie__n__unc"/></e>
     <e lm="tin"><i>tin</i><par n="poësie__n__unc"/></e>
-    <e lm="titaan"><i>titaan</i><par n="poësie__n__unc"/></e>
+    <e lm="titaan"><i>tita</i><par n="ba/an__n"/></e>
     <e lm="uraan"><i>uraan</i><par n="poësie__n__unc"/></e>
     <e lm="vanadium"><i>vanadium</i><par n="poësie__n__unc"/></e>
     <e lm="waterstof"><i>waterstof</i><par n="poësie__n__unc"/></e>
@@ -3356,6 +3356,7 @@
     <e lm="wet"><i>wet</i><par n="lys__n"/></e><!-- law --><!-- wette -->
     <e lm="wetenskap"><i>wetenskap</i><par n="boodskap__n"/></e><!-- science --><!-- wetenskappe -->
     <e lm="wewenaar"><i>wewenaar</i><par n="artikel__n"/></e><!-- widower --><!-- wewenaars -->
+	<e lm="tovenaar"><i>tovenaar</i><par n="artikel__n"/>
     <e lm="whiskey"><i>whiskey</i><par n="artikel__n"/></e><!-- whisky --><!-- whiskeys -->
     <e lm="whisky"><i>whisky</i><par n="artikel__n"/></e><!-- whisky --><!-- whiskys -->
     <e lm="wiel"><i>wiel</i><par n="bier__n"/></e><!-- wheel --><!-- wiele -->
@@ -3451,7 +3452,7 @@
     
 
     <e lm="dag"><i>da</i><par n="vla/g__n"/></e>
-    <e lm="aandag"><i>aanda</i><par n="poësie__n__unc"/></e>
+    <e lm="aandag"><i>aandag</i><par n="poësie__n__unc"/></e>
     <e lm="verdrag"><i>verdra</i><par n="vla/g__n"/></e>
 
 
@@ -3969,7 +3970,6 @@
     <e lm="koei"><i>koei</i><par n="bier__n"/></e>
     <e lm="room"><i>room</i><par n="poësie__n__unc"/></e>
     <e lm="krisis"><i>krisis</i><par n="abakus__n"/></e>
-	<e lm="kommunis"><i>kommunisis</i><par n="abakus__n"/></e>
     <e lm="krokodil"><i>krokodil</i><par n="appèl__n"/></e>
     <e lm="skare"><i>skare</i><par n="artikel__n"/></e>
     <e lm="kruk"><i>kruk</i><par n="ongeluk__n"/></e>

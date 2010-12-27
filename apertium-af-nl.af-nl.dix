@@ -494,7 +494,7 @@
     <e><p><l>koerant<s n="n"/></l><r>krant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ma<s n="n"/></l><r>mam<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mag<s n="n"/></l><r>macht<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>Franse<s n="n"/></l><r>Fransman<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Frans<s n="n"/></l><r>Fransman<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dood<s n="n"/></l><r>dood<s n="n"/><s n="mf"/></r></p></e> <!-- unc -->
     <e><p><l>gemeente<s n="n"/></l><r>gemeente<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vlag<s n="n"/></l><r>vlag<s n="n"/><s n="mf"/></r></p></e>
@@ -542,7 +542,7 @@
     <e><p><l>verkeer<s n="n"/></l><r>verkeer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prestasie<s n="n"/></l><r>prestatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>navigasie<s n="n"/></l><r>navigatie<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>media<s n="n"/></l><r>medium<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>medium<s n="n"/></l><r>medium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hulp<s n="n"/></l><r>hulp<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>reaksie<s n="n"/></l><r>reactie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sektor<s n="n"/></l><r>sector<s n="n"/><s n="m"/></r></p></e>
@@ -626,7 +626,7 @@
     <e><p><l>siening<s n="n"/></l><r>zienswijze<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>koffie<s n="n"/></l><r>koffie<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ewenaar<s n="n"/></l><r>evenaar<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>klere<s n="n"/></l><r>kleding<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>klere<s n="n"/><s n="pl"/></l><r>kleding<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>woordeskat<s n="n"/></l><r>woordenschat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>inflasie<s n="n"/></l><r>inflatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bis<s n="n"/></l><r>toegift<s n="n"/><s n="mf"/></r></p></e>
@@ -866,7 +866,7 @@
     <e><p><l>geologie<s n="n"/></l><r>geologie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alchemie<s n="n"/></l><r>alchemie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verwerping<s n="n"/></l><r>verwerping<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>sosialis<s n="n"/></l><r>socialist<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Sosialis<s n="n"/></l><r>socialist<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>selfbeskikking<s n="n"/></l><r>zelfbeschikking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aardrykskunde<s n="n"/></l><r>aardrijkskunde<s n="n"/><s n="f"/></r></p></e> <!-- unc -->
     <e><p><l>tiemie<s n="n"/></l><r>tijm<s n="n"/><s n="nt"/></r></p></e>
@@ -1893,7 +1893,7 @@
     <e><p><l>kommissie<s n="n"/></l><r>commissie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kommunikasie<s n="n"/></l><r>communicatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kommunisme<s n="n"/></l><r>communisme<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>kommunis<s n="n"/></l><r>communist<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Kommunis<s n="n"/></l><r>communist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kompleksiteit<s n="n"/></l><r>complexiteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>konferensie<s n="n"/></l><r>conferentie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>konflik<s n="n"/></l><r>conflict<s n="n"/><s n="nt"/></r></p></e>
@@ -3151,7 +3151,7 @@
     <e><p><l>eienaarskap<s n="n"/></l><r>eigendomsrecht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>eindproduk<s n="n"/></l><r>eindproduct<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>emeritaat<s n="n"/></l><r>emeritaat<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>engels<s n="n"/></l><r>Engels<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Engels<s n="n"/></l><r>Engels<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>filament<s n="n"/></l><r>filament<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>formaat<s n="n"/></l><r>formaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>formeel<s n="n"/></l><r>formeel<s n="n"/><s n="nt"/></r></p></e>
@@ -3401,7 +3401,7 @@
     <e><p><l>vierkant<s n="n"/></l><r>plein<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vliegongeluk<s n="n"/></l><r>vliegongeluk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vloedwater<s n="n"/></l><r>vloedwater<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>vm<s n="n"/></l><r>vm<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vm<s n="n"/><s n="acr"/></l><r>vm<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorhof<s n="n"/></l><r>voorhof<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorhoof<s n="n"/></l><r>voorhoofd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>voorkoms<s n="n"/></l><r>uiterlijk<s n="n"/><s n="nt"/></r></p></e>
@@ -3419,7 +3419,7 @@
     <e><p><l>woongebied<s n="n"/></l><r>woongebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>woonstel<s n="n"/></l><r>appartement<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wortelstelsel<s n="n"/></l><r>wortelstelsel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>WWW<s n="n"/></l><r>www<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>WWW<s n="n"/><s n="acr"/></l><r>www<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ys<s n="n"/></l><r>ijs<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>wiskunde<s n="n"/></l><r>wiskunde<s n="n"/><s n="f"/></r></p></e>
