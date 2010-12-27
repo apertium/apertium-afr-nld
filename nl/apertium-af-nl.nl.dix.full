@@ -18363,10 +18363,10 @@
     <e lm="gegeten"><i>gegeten</i><par n="OV__n_nt"/></e>
     <e lm="hartfalen"><i>hartfalen</i><par n="OV__n_nt"/></e>
     <e lm="laden"><i>laden</i><par n="OV__n_nt"/></e>
-    <e lm="leven"><i>leven</i><par n="OV__n_nt"/></e>
+    <e lm="leven"><i>leven</i><par n="eon__n_nt"/></e>
     <e lm="leven"><i>leven</i><par n="OV__n_nt"/></e>
     <e lm="lijden"><i>lijden</i><par n="OV__n_nt"/></e>
-    <e lm="miljoen"><i>miljoen</i><par n="OV__n_nt"/></e>
+    <e lm="miljoen"><i>miljoen</i><par n="lot__n_nt"/></e>
     <e lm="nierfalen"><i>nierfalen</i><par n="OV__n_nt"/></e>
     <e lm="noordwesten"><i>noordwesten</i><par n="OV__n_nt"/></e>
     <e lm="ontdekken"><i>ontdekken</i><par n="OV__n_nt"/></e>
@@ -21194,7 +21194,7 @@
     <e lm="leidekker"><i>leidekker</i><par n="led__n_m"/></e>
     <e lm="leidekkerij"><i>leidekkerij</i><par n="vering__n_f"/></e>
     <e lm="leider"><i>leider</i><par n="led__n_m"/></e>
-    <e lm="leiding"><i>leiding</i><par n="eb__n_f"/></e>
+    <e lm="leiding"><i>leiding</i><par n="vering__n_f"/></e>
     <e lm="leisteen"><i>leisteen</i><par n="OV__n_nt"/></e>
     <e lm="leisteen"><i>leisteen</i><par n="eb__n_m"/></e>
     <e lm="leiwerk"><i>leiwerk</i><par n="OV__n_nt"/></e>
@@ -21269,7 +21269,7 @@
     <e lm="lichaam"><i>licha</i><par n="ra/am__n_nt"/></e>
     <e lm="lichaamsdeel"><i>lichaamsde</i><par n="ze/el__n_nt"/></e>
     <e lm="lichaamstemperatuur"><i>lichaamstemperatu</i><par n="ku/ur__n_f"/></e>
-    <e lm="licht"><i>licht</i><par n="OV__n_nt"/></e>
+    <e lm="licht"><i>licht</i><par n="lot__n_nt"/></e>
     <e lm="lichtbreking"><i>lichtbreking</i><par n="eb__n_f"/></e>
     <e lm="lichtekooi"><i>lichtekooi</i><par n="vering__n_f"/></e>
     <e lm="lichtjaar"><i>lichtja</i><par n="ka/ar__n_nt"/></e>
