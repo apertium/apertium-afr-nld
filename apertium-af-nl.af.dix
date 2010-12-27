@@ -119,8 +119,8 @@
     </pardef>
 
     <pardef n="ordinals">
-      <e><re>[0-9]+([.,][0-9]+)?de</re><p><l/><r><s n="num"/><s n="ord"/></r></p></e>
-      <e><re>[0-9]+([.,][0-9]+)?ste</re><p><l/><r><s n="num"/><s n="ord"/></r></p></e>
+      <e><re>[0-9]+</re><p><l>de</l><r>de<s n="num"/><s n="ord"/></r></p></e>
+      <e><re>[0-9]+</re><p><l>ste</l><r>ste<s n="num"/><s n="ord"/></r></p></e>
     </pardef>
 
     <pardef n="numeros">
@@ -9844,7 +9844,7 @@
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>
     <!--<e><par n="years"/></e>-->
-    <!--<e><par n="ordinals"/></e>-->
+    <e><par n="ordinals"/></e>
     <e><par n="numeros"/></e>
     <e><par n="coma"/></e>
     <e><par n="cometa"/></e>

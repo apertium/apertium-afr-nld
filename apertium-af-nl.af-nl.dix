@@ -5177,7 +5177,7 @@
     <e><p><l>ag<s n="vblex"/></l><r>verklaren<s n="vblex"/></r></p></e>
     <e><p><l>beplan<s n="vblex"/></l><r>plannen<s n="vblex"/></r></p></e>
     <e><p><l>ry<s n="vblex"/></l><r>reizen<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>verhoed<s n="vblex"/></l><r>voorkomen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>verhoed<s n="vblex"/></l><r>voorkomen<s n="vblex"/></r></p></e>
     <e><p><l>voorkom<s n="vblex"/></l><r>voorkomen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verwag<s n="vblex"/></l><r>verwachten<s n="vblex"/></r></p></e>
     <e><p><l>berei<s n="vblex"/></l><r>bereiden<s n="vblex"/></r></p></e>
@@ -6210,8 +6210,8 @@
     <e><i>-</i><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
     <e><i>'</i><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
 
-    <e><re>[0-9]+([.,][0-9]+)?de</re><p><l><s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
-    <e><re>[0-9]+([.,][0-9]+)?ste</re><p><l>s n="num"/><s n="ord"/></l><r><s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]+</re><p><l>de<s n="num"/><s n="ord"/></l><r>de<s n="num"/><s n="ord"/></r></p></e>
+    <e><re>[0-9]+</re><p><l>ste<s n="num"/><s n="ord"/></l><r>ste<s n="num"/><s n="ord"/></r></p></e>
 
 
   </section>

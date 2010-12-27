@@ -24,12 +24,19 @@
     <def-cat n="nom-cmp">
       <cat-item tags="n.*.cmp"/>
     </def-cat>
+    <def-cat n="prop">
+      <cat-item tags="np.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="prep_atp">
       <cat-item tags="pr.atp"/>
+    </def-cat>
+    <def-cat n="nie">
+      <cat-item lemma="nie" tags="adv"/>
+      <cat-item lemma="nie" tags="adv.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -112,6 +119,9 @@
       <attr-item tags="np.cog"/>
       <attr-item tags="np.org"/>
     </def-attr>
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+    </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
@@ -183,6 +193,7 @@
     <def-var n="numero"/>
     <def-var n="caseFirstWord"/>
     <def-var n="nombre"/>
+    <def-var n="seen_neg"/>
   </section-def-vars>
  
   <section-def-macros>
@@ -725,19 +736,20 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM GENITIVE">
+    <rule comment="REGLA: PROP GENITIVE">
     <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="prop"/>
         <pattern-item n="genitive"/>
       </pattern>
       <action>
         <out>
-          <chunk name="nom_gen" case="caseFirstWord">
+          <chunk name="prop_gen" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN.UNDET"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
+            <mlu>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
@@ -745,11 +757,11 @@
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
-	    <b/>
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <lit-tag v="gen"/>
             </lu>
+            </mlu>
           </chunk>
         </out>
         <let>
@@ -921,6 +933,42 @@
     </rule>
 
 
+    <rule comment="REGLA: nie">
+      <pattern>
+        <pattern-item n="nie"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <var n="seen_neg"/>
+                <lit v="true"/>
+              </equal>
+            </test>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="nie">
+                <tags>
+                  <tag><lit-tag v="ADV"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adv"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+              <let>
+                <var n="seen_neg"/>
+                <lit v="true"/>
+              </let>
+      </action>
+    </rule>
+
     <rule comment="REGLA: ADJ">
       <pattern>
         <pattern-item n="adj"/>
@@ -1072,6 +1120,10 @@
         <pattern-item n="sent"/>
       </pattern>
       <action>
+       <let>
+         <var n="seen_neg"/>
+         <lit v="false"/>
+       </let>
        <let>
          <var n="nombre"/>
          <lit-tag v="sg"/>
