@@ -2710,7 +2710,7 @@
     <e lm="km"><i>km</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
     <e lm="cm"><i>cm</i><par n="DNA__n"/></e><!-- centimetres ~ still acr. -->
     <e lm="m"><i>m</i><par n="DNA__n"/></e><!-- metres ~ still acr. -->
-    <e lm="vm"><i>vm</i><par n="EU_n"/></e><!-- AM = vm. (voor middag = before midday). -->
+    <e lm="vm"><i>vm</i><par n="EU__n"/></e><!-- AM = vm. (voor middag = before midday). -->
     <e lm="nm"><i>nm</i><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->
     <e lm="vm" r="LR"><p><l>am</l><r>vm</r></p><par n="DNA__n"/></e><!-- AM = vm. (voor middag = before midday). -->
     <e lm="nm" r="LR"><p><l>am</l><r>nm</r></p><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->

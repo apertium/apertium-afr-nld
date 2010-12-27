@@ -11671,7 +11671,7 @@
     <e lm="gemeenschap"><i>gemeenschap</i><par n="map__n_f"/></e>
     <e lm="gemeente"><i>gemeente</i><par n="made__n_f"/></e>
     <e lm="capaciteit"><i>capaciteit</i><par n="vering__n_f"/></e>
-    <e lm="unie"><i>unie</i><par n="eb__n_f"/></e>
+    <e lm="unie"><i>unie</i><par n="roe__n_f"/></e>
     <e lm="positie"><i>positie</i><par n="roe__n_f"/></e>
     <e lm="vader"><i>vader</i><par n="led__n_m"/></e>
     <e lm="rest"><i>rest</i><par n="hui__n_mf"/></e>
@@ -11719,7 +11719,7 @@
     <e lm="stap"><i>stap</i><par n="lap__n_m"/></e>
     <e lm="kandidaat"><i>kandida</i><par n="gra/at__n_m"/></e>
     <e lm="departement"><i>departement</i><par n="vering__n_f"/></e>
-    <e lm="fabricatie"><i>fabricatie</i><par n="eb__n_f"/></e>
+    <e lm="fabricatie"><i>fabricatie</i><par n="roe__n_f"/></e>
     <e lm="politiek"><i>politiek</i><par n="eb__n_f"/></e>
     <e lm="campagne"><i>campagne</i><par n="roe__n_mf"/></e>
     <e lm="voetbalafdeling"><i>voetbalafdeling</i><par n="vering__n_f"/></e>
@@ -11791,7 +11791,7 @@
     <e lm="stikstof"><i>stikstof</i><par n="WO__n_mf"/></e>
     <e lm="klem"><i>klem</i><par n="kom__n_mf"/></e>
     <e lm="ziel"><i>ziel</i><par n="hui__n_mf"/></e>
-    <e lm="statistiek"><i>statistiek</i><par n="eb__n_f"/></e>
+    <e lm="statistiek"><i>statistiek</i><par n="vering__n_f"/></e>
     <e lm="sneeuw"><i>sneeuw</i><par n="WO__n_mf"/></e>
     <e lm="auteursrecht"><i>auteursrecht</i><par n="lot__n_nt"/></e>
     <e lm="sneeuwval"><i>sneeuwval</i><par n="WO__n_mf"/></e>
@@ -12094,7 +12094,7 @@
     <e lm="antimoon"><i>antimoon</i><par n="OV__n_nt"/></e>
     <e lm="aloë"><i>aloë</i><par n="OV__n_nt"/></e>
     <e lm="webpagina"><i>webpagina</i><par n="ra__n_mf"/></e>
-    <e lm="toendra"><i>toendra</i><par n="eb__n_m"/></e>
+    <e lm="toendra"><i>toendra</i><par n="ra__n_m"/></e>
     <e lm="sonar"><i>sonar</i><par n="geluidstape__n_m"/></e>
     <e lm="schulp"><i>schulp</i><par n="zooi__n_mf"/></e>
     <e lm="configuratie"><i>configuratie</i><par n="roe__n_f"/></e>
@@ -13137,7 +13137,7 @@
     <e lm="bestand"><i>bestand</i><par n="lot__n_nt"/></e>
     <e lm="leer"><i>leer</i><par n="OV__n_nt"/></e>
     <e lm="leeuw"><i>leeuw</i><par n="ui__n_m"/></e>
-    <e lm="leiding"><i>leiding</i><par n="eb__n_f"/></e>
+    <e lm="leiding"><i>leiding</i><par n="vering__n_f"/></e>
     <e lm="leider"><i>leider</i><par n="led__n_m"/></e>
     <e lm="lelie"><i>lelie</i><par n="sjwa__n_mf"/></e>
     <e lm="sinaasappel"><i>sinaasappel</i><par n="sol__n_m"/></e>
@@ -13146,12 +13146,12 @@
     <e lm="lepel"><i>lepel</i><par n="led__n_m"/></e>
     <e lm="les"><i>les</i><par n="as__n_mf"/></e>
     <e lm="levering"><i>levering</i><par n="vering__n_f"/></e>
-    <e lm="leven"><i>leven</i><par n="OV__n_nt"/></e>
+    <e lm="leven"><i>leven</i><par n="eon__n_nt"/></e>
     <e lm="leven"><i>leven</i><par n="OV__n_nt"/></e>
     <e lm="lidmaatschap"><i>lidmaatschap</i><par n="dop__n_nt"/></e>
     <e lm="lidmaat"><i>lidma</i><par n="gra/at__n_m"/></e>
     <e lm="locatie"><i>locatie</i><par n="roe__n_f"/></e>
-    <e lm="licht"><i>licht</i><par n="OV__n_nt"/></e>
+    <e lm="licht"><i>licht</i><par n="lot__n_nt"/></e>
     <e lm="link"><i>link</i><par n="geluidstape__n_m"/></e>
     <e lm="licentie"><i>licentie</i><par n="roe__n_f"/></e>
     <e lm="literatuur"><i>literatuur</i><par n="eb__n_f"/></e>
@@ -13280,7 +13280,7 @@
     <e lm="ongelijkheid"><i>ongelijkhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="onzekerheid"><i>onzekerheid</i><par n="eb__n_f"/></e>
     <e lm="onrust"><i>onrust</i><par n="vering__n_f"/></e>
-    <e lm="onzuiverheid"><i>onzuiverheid</i><par n="eb__n_f"/></e>
+    <e lm="onzuiverheid"><i>onzuiverhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="ontbinding"><i>ontbinding</i><par n="vering__n_f"/></e>
     <e lm="ontdekking"><i>ontdekking</i><par n="vering__n_f"/></e>
     <e lm="ontmoeting"><i>ontmoeting</i><par n="vering__n_f"/></e>
@@ -13323,7 +13323,7 @@
     <e lm="oceaan"><i>ocea</i><par n="ma/an__n_m"/></e>
     <e lm="leeftijd"><i>leeftijd</i><par n="ui__n_m"/></e>
     <e lm="autoriteit"><i>autoriteit</i><par n="vering__n_f"/></e>
-    <e lm="ovaal"><i>ovaal</i><par n="OV__n_nt"/></e>
+    <e lm="ovaal"><i>ova</i><par n="ma/al__n_nt"/></e>
     <e lm="overheid"><i>overhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="paal"><i>pa</i><par n="ta/al__n_m"/></e>
     <e lm="stel"><i>stel</i><par n="mol__n_nt"/></e>
@@ -13360,7 +13360,7 @@
     <e lm="pen"><i>pen</i><par n="vin__n_mf"/></e>
     <e lm="peper"><i>peper</i><par n="led__n_m"/></e>
     <e lm="paard"><i>paard</i><par n="lot__n_nt"/></e>
-    <e lm="perkament"><i>perkament</i><par n="OV__n_nt"/></e>
+    <e lm="perkament"><i>perkament</i><par n="lot__n_nt"/></e>
     <e lm="vergunning"><i>vergunning</i><par n="vering__n_f"/></e>
     <e lm="persoonlijkheid"><i>persoonlijkhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="persoon"><i>perso</i><par n="to/on__n_m"/></e>
@@ -13434,7 +13434,7 @@
     <e lm="republiek"><i>republiek</i><par n="vering__n_f"/></e>
     <e lm="reserve"><i>reserve</i><par n="roe__n_mf"/></e>
     <e lm="resultaat"><i>resulta</i><par n="cita/at__n_nt"/></e>
-    <e lm="geur"><i>geur</i><par n="ui__n_m"/></e>
+    <e lm="reuk"><i>reuk</i><par n="eb__n_f"/></e>
     <e lm="reukwater"><i>reukwater</i><par n="eon__n_nt"/></e>
     <e lm="reus"><i>reu</i><par n="hal/s__n_m"/></e>
     <e lm="revolutie"><i>revolutie</i><par n="roe__n_f"/></e>
@@ -13638,7 +13638,7 @@
     <e lm="testament"><i>testament</i><par n="lot__n_nt"/></e>
     <e lm="tijger"><i>tijger</i><par n="led__n_m"/></e>
     <e lm="titaan"><i>tita</i><par n="ma/an__n_m"/></e>
-    <e lm="toekomst"><i>toekomst</i><par n="eb__n_f"/></e>
+    <e lm="toekomst"><i>toekomst</i><par n="vering__n_f"/></e>
     <e lm="toerist"><i>toerist</i><par n="ui__n_m"/></e>
     <e lm="toernooi"><i>toernooi</i><par n="lot__n_nt"/></e>
     <e lm="toestand"><i>toestand</i><par n="ui__n_m"/></e>
@@ -13988,7 +13988,7 @@
     <e lm="militarisme"><i>militarisme</i><par n="fascisme__n_nt"/></e>
     <e lm="eufemisme"><i>eufemisme</i><par n="lipide__n_nt"/></e>
     <e lm="dualisme"><i>dualisme</i><par n="fascisme__n_nt"/></e>
-    <e lm="verdedigingsmeganisme"><i>verdedigingsmeganisme</i><par n="OV__n_nt"/></e>
+    <e lm="verdedigingsmechanisme"><i>verdedigingsmechanisme</i><par n="eon__n_nt"/></e>
     <e lm="seksisme"><i>seksisme</i><par n="fascisme__n_nt"/></e>
     <e lm="pragmatisme"><i>pragmatisme</i><par n="fascisme__n_nt"/></e>
     <e lm="kannibalisme"><i>kannibalisme</i><par n="fascisme__n_nt"/></e>
@@ -14063,7 +14063,7 @@
     <e lm="zekerheid"><i>zekerhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="hoedanigheid"><i>hoedanighe</i><par n="oudhe/id__n_f"/></e>
     <e lm="gelijkheid"><i>gelijkheid</i><par n="eb__n_f"/></e>
-    <e lm="onzuiverheid"><i>onzuiverheid</i><par n="eb__n_f"/></e>
+    <e lm="onzuiverheid"><i>onzuiverhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="grootheid"><i>groothe</i><par n="oudhe/id__n_f"/></e>
     <e lm="verdeeldheid"><i>verdeeldheid</i><par n="eb__n_f"/></e>
     <e lm="zuiverheid"><i>zuiverheid</i><par n="eb__n_f"/></e>
@@ -14414,7 +14414,6 @@
     <e lm="gekreun"><i>gekreun</i><par n="OV__n_nt"/></e>
     <e lm="kwik"><i>kwik</i><par n="OV__n_nt"/></e>
     <e lm="laagtepunt"><i>laagtepunt</i><par n="lot__n_nt"/></e>
-    <e lm="laden"><i>laden</i><par n="OV__n_nt"/></e>
     <e lm="lawaai"><i>lawaai</i><par n="OV__n_nt"/></e>
     <e lm="leermateriaal"><i>leermateria</i><par n="ma/al__n_nt"/></e>
     <e lm="legaat"><i>lega</i><par n="cita/at__n_nt"/></e>
@@ -14467,7 +14466,6 @@
     <e lm="opzicht"><i>opzicht</i><par n="lot__n_nt"/></e>
     <e lm="opschrift"><i>opschrift</i><par n="lot__n_nt"/></e>
     <e lm="opzet"><i>opzet</i><par n="vot__n_mf"/></e>
-    <e lm="educatieve"><i>educatieve</i><par n="OV__n_nt"/></e>
     <e lm="wegennet"><i>wegennet</i><par n="OV__n_nt"/></e>
     <e lm="palladium"><i>palladium</i><par n="OV__n_nt"/></e>
     <e lm="park"><i>park</i><par n="lot__n_nt"/></e>
@@ -14563,10 +14561,8 @@
     <e lm="toilet"><i>toilet</i><par n="kot__n_nt"/></e>
     <e lm="toppunt"><i>toppunt</i><par n="lot__n_nt"/></e>
     <e lm="beslag"><i>beslag</i><par n="lot__n_nt"/></e>
-    <e lm="tuinieren"><i>tuinieren</i><par n="OV__n_nt"/></e>
     <e lm="tweekamerstelsel"><i>tweekamerstelsel</i><par n="eon__n_nt"/></e>
     <e lm="tijdschrift"><i>tijdschrift</i><par n="lot__n_nt"/></e>
-    <e lm="weggelaten"><i>weggelaten</i><par n="OV__n_nt"/></e>
     <e lm="uitsterven"><i>uitsterven</i><par n="OV__n_nt"/></e>
     <e lm="uranium"><i>uranium</i><par n="OV__n_nt"/></e>
     <e lm="vaatstelsel"><i>vaatstelsel</i><par n="eon__n_nt"/></e>
@@ -14631,7 +14627,7 @@
     <e lm="karaat"><i>kara</i><par n="cita/at__n_nt"/></e>
     <e lm="jodium"><i>jodium</i><par n="OV__n_nt"/></e>
     <e lm="broom"><i>broom</i><par n="OV__n_nt"/></e>
-    <e lm="miljoen"><i>miljoen</i><par n="OV__n_nt"/></e>
+    <e lm="miljoen"><i>miljoen</i><par n="lot__n_nt"/></e>
     <e lm="neon"><i>neon</i><par n="OV__n_nt"/></e>
     <e lm="onderwater"><i>onderwater</i><par n="eon__n_nt"/></e>
     <e lm="nitraat"><i>nitra</i><par n="cita/at__n_nt"/></e>
