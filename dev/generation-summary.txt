@@ -13,32 +13,12 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-      7 #zijn\<vbser\>\<pres\>\<p3\>\<sp\>	^zijn<vbser><pres><p3><sp>$
-      4 #schrijven\<vblex\>\<pres\>\<p3\>\<sp\>	^schrijven<vblex><pres><p3><sp>$
-      4 #hebben\<vbhaver\>\<past\>\<p3\>\<sp\>	^hebben<vbhaver><past><p3><sp>$
-      3 #worden\<vblex\>\<pres\>\<p3\>\<sp\>	^worden<vblex><pres><p3><sp>$
-      3 #proberen\<vblex\>\<pres\>\<p3\>\<sp\>	^proberen<vblex><pres><p3><sp>$
-      2 #zien\<vblex\>\<pres\>\<p3\>\<sp\>	^zien<vblex><pres><p3><sp>$
-      2 #voelen\<vblex\>\<pres\>\<p3\>\<sp\>	^voelen<vblex><pres><p3><sp>$
-      2 #verkiezen\<vblex\>\<pres\>\<p3\>\<sp\>	^verkiezen<vblex><pres><p3><sp>$
-      2 #geloven\<vblex\>\<pres\>\<p3\>\<sp\>	^geloven<vblex><pres><p3><sp>$
-      1 #zijn\<vbser\>\<past\>\<p3\>\<sp\>	^zijn<vbser><past><p3><sp>$
-      1 #wonen\<vblex\>\<pres\>\<p3\>\<sp\>	^wonen<vblex><pres><p3><sp>$
-      1 #weten\<vblex\>\<pres\>\<p3\>\<sp\>	^weten<vblex><pres><p3><sp>$
-      1 #werken\<vblex\>\<pres\>\<p3\>\<sp\>	^werken<vblex><pres><p3><sp>$
-      1 #vragen\<vblex\>\<pres\>\<p3\>\<sp\>	^vragen<vblex><pres><p3><sp>$
-      1 #verrichten\<vblex\>\<pres\>\<p3\>\<sp\>	^verrichten<vblex><pres><p3><sp>$
-      1 #vermijden\<vblex\>\<pres\>\<p3\>\<sp\>	^vermijden<vblex><pres><p3><sp>$
-      1 #stellen\<vblex\>\<pres\>\<p3\>\<sp\>	^stellen<vblex><pres><p3><sp>$
-      1 #merken\<vblex\>\<pres\>\<p3\>\<sp\>	^merken<vblex><pres><p3><sp>$
-      1 #komen\<vblex\>\<pres\>\<p3\>\<sp\>	^komen<vblex><pres><p3><sp>$
-      1 #kiezen\<vblex\>\<pres\>\<p3\>\<sp\>	^kiezen<vblex><pres><p3><sp>$
-      1 #helpen\<vblex\>\<pres\>\<p3\>\<sp\>	^helpen<vblex><pres><p3><sp>$
+      1 #doorstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorstaan<vblex><sep><fm><pres><p3><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
-   0 /tmp/af-nl.multiform
-   0 /tmp/af-nl.multibidix
-  21 /tmp/af-nl.tagmismatch
-  21 total
+  0 /tmp/af-nl.multiform
+  0 /tmp/af-nl.multibidix
+  1 /tmp/af-nl.tagmismatch
+  1 total
