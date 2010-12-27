@@ -1731,7 +1731,7 @@
     <e><p><l>geslag<s n="n"/></l><r>geslacht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gesprek<s n="n"/></l><r>gesprek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>getuie<s n="n"/></l><r>getuige<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>geur<s n="n"/></l><r>reuk<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>geur<s n="n"/></l><r>geur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>geval<s n="n"/></l><r>geval<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gewig<s n="n"/></l><r>gewicht<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gewoonte<s n="n"/></l><r>gewoonte<s n="n"/><s n="f"/></r></p></e>
@@ -3172,7 +3172,6 @@
     <e><p><l>geskenk<s n="n"/></l><r>geschenk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geskil<s n="n"/></l><r>geschil<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gevoel<s n="n"/></l><r>gevoel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>gevreet<s n="n"/></l><r>gegeten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geweet<s n="n"/></l><r>geweten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geweldpleging<s n="n"/></l><r>geweld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>goud<s n="n"/></l><r>goud<s n="n"/><s n="nt"/></r></p></e>
@@ -3638,7 +3637,7 @@
     <e><p><l>warmtekapasiteit<s n="n"/></l><r>warmtecapaciteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ekonomie<s n="n"/></l><r>economie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>evolusie<s n="n"/></l><r>evolutie<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>fisikus<s n="n"/></l><r>natuurkunde<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fisikus<s n="n"/></l><r>natuurkundige<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>veringstelsel<s n="n"/></l><r>wielophanging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sakeplan<s n="n"/></l><r>ondernemingsplan<s n="n"/><s n="nt"/></r></p></e>
 
