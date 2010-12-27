@@ -2712,7 +2712,7 @@
     <e lm="m"><i>m</i><par n="DNA__n"/></e><!-- metres ~ still acr. -->
     <e lm="vm"><i>vm</i><par n="EU__n"/></e><!-- AM = vm. (voor middag = before midday). -->
     <e lm="nm"><i>nm</i><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->
-    <e lm="vm" r="LR"><p><l>am</l><r>vm</r></p><par n="DNA__n"/></e><!-- AM = vm. (voor middag = before midday). -->
+    <e lm="vm" r="LR"><p><l>am</l><r>vm</r></p><par n="EU__n"/></e><!-- AM = vm. (voor middag = before midday). -->
     <e lm="nm" r="LR"><p><l>am</l><r>nm</r></p><par n="DNA__n"/></e><!-- PM = nm. (na middag = after middat). -->
 
     <!-- Abbreviations -->
@@ -2906,7 +2906,7 @@
     <e lm="yttrium"><i>yttrium</i><par n="poësie__n__unc"/></e>
 
 
-    <e lm="polisie"><i>polisie</i><par n="polisie__n"/></e>
+    <e lm="polisie"><i>polisie</i><par n="aalwyn__n"/></e>
     <e lm="media"><i>media</i><par n="polisie__n"/></e>
     <e lm="klere"><i>klere</i><par n="polisie__n"/></e>
     <e lm="personeel"><i>personeel</i><par n="aalwyn__n"/></e>
@@ -3781,7 +3781,6 @@
     <e lm="stryk"><i>stryk</i><par n="aalwyn__n"/></e>
     <e lm="Peter"><i>Peter</i><par n="Wynand__np"/></e>
     <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
-    <e lm="stryk"><i>stryk</i><par n="bier__n"/></e>
 
     <e lm="eed"><i>e</i><par n="e/ed__n"/></e>
     <e lm="golf"><i>gol</i><par n="alternatie/f__n"/></e>
@@ -3832,7 +3831,7 @@
     <e lm="bergreeks"><i>bergreeks</i><par n="bier__n"/></e>
     <e lm="bergspits"><i>bergspits</i><par n="bier__n"/></e>
     <e lm="ewenaar"><i>ewenaar</i><par n="artikel__n"/></e>
-    <e lm="bereidwilligheid"><i>bereidwillighe</i><par n="aalwyn__n"/></e>
+    <e lm="bereidwilligheid"><i>bereidwilligheid</i><par n="aalwyn__n"/></e>
     <e lm="uitmonding"><i>uitmonding</i><par n="artikel__n"/></e>
     <e lm="beoefening"><i>beoefening</i><par n="poësie__n__unc"/></e>
     <e lm="ui"><i>ui</i><par n="bier__n"/></e>
@@ -4086,7 +4085,7 @@
     <e lm="strandwolf"><i>strandwolf</i><par n="bier__n"/></e>
     <e lm="perd"><i>perd</i><par n="bier__n"/></e>
     <e lm="ideaal"><i>idea</i><par n="ta/al__n"/></e>
-    <e lm="invoer"><i>invoer</i><par n="bier__n"/></e>
+    <e lm="invoer"><i>invoer</i><par n="aalwyn__n"/></e>
     <e lm="indruk"><i>indruk</i><par n="ongeluk__n"/></e>
     <e lm="lus"><i>lus</i><par n="abakus__n"/></e>
     <e lm="indeks"><i>indeks</i><par n="bier__n"/></e>
@@ -4371,7 +4370,7 @@
     <e lm="versoek"><i>versoek</i><par n="bier__n"/></e>
     <e lm="pos"><i>pos</i><par n="aalwyn__n"/></e>
     <e lm="oproer"><i>oproer</i><par n="bier__n"/></e>
-    <e lm="pienk"><i>pienk</i><par n="bier__n"/></e>
+    <e lm="pienk"><i>pienk</i><par n="aalwyn__n"/></e>
     <e lm="genot"><i>genot</i><par n="aalwyn__n"/></e>
     <e lm="deursnee"><i>deursnee</i><par n="artikel__n"/></e>
     <e lm="berou"><i>berou</i><par n="aalwyn__n"/></e>
@@ -4504,8 +4503,8 @@
     <e lm="ejakulasie"><i>ejakulasie</i><par n="artikel__n"/></e>
     <e lm="emosie"><i>emosie</i><par n="artikel__n"/></e>
     <e lm="epidemie"><i>epidemie</i><par n="artikel__n"/></e>
-    <e lm="erosie"><i>erosie</i><par n="artikel__n"/></e>
-    <e lm="fisiologie"><i>fisiologie</i><par n="artikel__n"/></e>
+    <e lm="erosie"><i>erosie</i><par n="aalwyn__n"/></e>
+    <e lm="fisiologie"><i>fisiologie</i><par n="aalwyn__n"/></e>
     <e lm="fotografie"><i>fotografie</i><par n="aalwyn__n"/></e>
     <e lm="frekwensie"><i>frekwensie</i><par n="artikel__n"/></e>
     <e lm="geografie"><i>geografie</i><par n="aalwyn__n"/></e>
@@ -4898,7 +4897,7 @@
     <e lm="loodreg"><i>loodreg</i><par n="lys__n"/></e>
     <e lm="lynreg"><i>lynreg</i><par n="lys__n"/></e>
     <e lm="nagereg"><i>nagereg</i><par n="lys__n"/></e>
-    <e lm="onreg"><i>onreg</i><par n="lys__n"/></e>
+    <e lm="onreg"><i>onreg</i><par n="aalwyn__n"/></e>
     <e lm="patentreg"><i>patentreg</i><par n="lys__n"/></e>
     <e lm="reg"><i>reg</i><par n="lys__n"/></e>
     <e lm="visgereg"><i>visgereg</i><par n="lys__n"/></e>
@@ -5027,7 +5026,6 @@
     <e lm="bedrewenheid"><i>bedrewenheid</i><par n="aalwyn__n"/></e>
     <e lm="bedrywigheid"><i>bedrywighe</i><par n="besonderhe/id__n"/></e>
     <e lm="bekwaamheid"><i>bekwaamhe</i><par n="besonderhe/id__n"/></e>
-    <e lm="bereidwilligheid"><i>bereidwillighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besienswaardigheid"><i>besienswaardighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besigheid"><i>besighe</i><par n="besonderhe/id__n"/></e>
     <e lm="besonderheid"><i>besonderhe</i><par n="besonderhe/id__n"/></e>
@@ -5101,7 +5099,6 @@
     <e lm="werksaamheid"><i>werksaamheid</i><par n="aalwyn__n"/></e>
     <e lm="wetteloosheid"><i>wetteloosheid</i><par n="aalwyn__n"/></e>
     <e lm="wreedheid"><i>wreedhe</i><par n="besonderhe/id__n"/></e>
-    <e lm="wysheid"><i>wyshe</i><par n="besonderhe/id__n"/></e>
 
     <e lm="nywerheid"><i>nywerhe</i><par n="besonderhe/id__n"/></e>
     <e lm="aanwesigheid"><i>aanwesigheid</i><par n="aalwyn__n"/></e>
