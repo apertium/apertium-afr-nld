@@ -7120,7 +7120,7 @@
     </pardef>
     <pardef n="WO__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <!--<e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="tor__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -7976,11 +7976,11 @@
     </pardef>
     <pardef n="eb__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <!--<e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="eb__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <!--<e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="o/og__n_nt">
       <e>       <p><l>og</l><r>og<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>

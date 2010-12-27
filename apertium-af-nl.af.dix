@@ -3919,7 +3919,7 @@
     <e lm="kode"><i>kode</i><par n="artikel__n"/></e>
     <e lm="munt"><i>munt</i><par n="bier__n"/></e>
     <e lm="vermoë"><i>vermoë</i><par n="lughawe__n"/></e>
-    <e m="beaming"><i>beaming</i><par n="artikel__n"/></e>
+    <e lm="beaming"><i>beaming</i><par n="artikel__n"/></e>
     <e lm="draai"><i>draai</i><par n="bier__n"/></e>
     <e lm="Berlyn"><i>Berlyn</i><par n="Engeland__np"/></e>
     <e lm="byt"><i>byt</i><par n="bier__n"/></e>
