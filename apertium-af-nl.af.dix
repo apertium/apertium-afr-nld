@@ -6921,97 +6921,98 @@
 	<e lm="aanbeveel"><i>aanbeveel</i><par n="aansien__vblex_sep"/></e>
 	<e lm="aanbeveel"><p><l>beveel</l><r>aanbeveel</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
 	<e lm="aanbeveel"><p><l>aanbeveel</l><r>aanbeveel</r></p><par n="aangesien__vblex_sep"/></e>
-	<e lm="aanvaar"><i>aanvaar<par n="ontwikkel__vblex"/></e>
-	<e lm="dring"><i>dring<par n="breek__vblex"/></e>
+	<e lm="aanvaar"><i>aanvaar</i><par n="ontwikkel__vblex"/></e>
+	<e lm="dring"><i>dring</i><par n="breek__vblex"/></e>
 	<e lm="dring"><p><l>gedring</l><r>dring</r></p><par n="gebreek__vblex"/></e>
-	<e lm="druk"><i>druk<par n="breek__vblex"/></e>
+	<e lm="druk"><i>druk</i><par n="breek__vblex"/></e>
 	<e lm="druk"><p><l>gedruk</l><r>druk</r></p><par n="gebreek__vblex"/></e>
-	<e lm="dryf"><i>dryf<par n="breek__vblex"/></e>
+	<e lm="dryf"><i>dryf</i><par n="breek__vblex"/></e>
 	<e lm="dryf"><p><l>gedryf</l><r>dryf</r></p><par n="gebreek__vblex"/></e>
-	<e lm="genereer"><i>genereer<par n="breek__vblex"/></e>
+	<e lm="genereer"><i>genereer</i><par n="breek__vblex"/></e>
 	<e lm="genereer"><p><l>gegenereer</l><r>genereer</r></p><par n="gebreek__vblex"/></e>
-	<e lm="gooi"><i>gooi<par n="breek__vblex"/></e>
+	<e lm="gooi"><i>gooi</i><par n="breek__vblex"/></e>
 	<e lm="gooi"><p><l>gegooi</l><r>gooi</r></p><par n="gebreek__vblex"/></e>
-	<e lm="haal"><i>haal<par n="breek__vblex"/></e>
+	<e lm="haal"><i>haal</i></i><par n="breek__vblex"/></e>
 	<e lm="haal"><p><l>gehaal</l><r>haal</r></p><par n="gebreek__vblex"/></e>
-	<e lm="heg"><i>heg<par n="breek__vblex"/></e>
+	<e lm="heg"><i>heg</i><par n="breek__vblex"/></e>
 	<e lm="heg"><p><l>geheg</l><r>heg</r></p><par n="gebreek__vblex"/></e>
-	<e lm="keer"><i>keer<par n="breek__vblex"/></e>
+	<e lm="keer"><i>keer</i><par n="breek__vblex"/></e>
 	<e lm="keer"><p><l>gekeer</l><r>keer</r></p><par n="gebreek__vblex"/></e>
-	<e lm="kla"><i>kla<par n="breek__vblex"/></e>
+	<e lm="kla"><i>kla</i><par n="breek__vblex"/></e>
 	<e lm="kla"><p><l>gekla</l><r>kla</r></p><par n="gebreek__vblex"/></e>
-	<e lm="klim"><i>klim<par n="breek__vblex"/></e>
+	<e lm="klim"><i>klim</i><par n="breek__vblex"/></e>
 	<e lm="klim"><p><l>geklim</l><r>klim</r></p><par n="gebreek__vblex"/></e>
-	<e lm="klop"><i>klop<par n="breek__vblex"/></e>
+	<e lm="klop"><i>klop</i><par n="breek__vblex"/></e>
 	<e lm="klop"><p><l>geklop</l><r>klop</r></p><par n="gebreek__vblex"/></e>
-	<e lm="kyk"><i>kyk<par n="breek__vblex"/></e>
+	<e lm="kyk"><i>kyk</i><par n="breek__vblex"/></e>
 	<e lm="kyk"><p><l>gekyk</l><r>kyk</r></p><par n="gebreek__vblex"/></e>
-	<e lm="laai"><i>laai<par n="breek__vblex"/></e>
+	<e lm="laai"><i>laai</i><par n="breek__vblex"/></e>
 	<e lm="laai"><p><l>gelaai</l><r>laai</r></p><par n="gebreek__vblex"/></e>
-	<e lm="lok"><i>lok<par n="breek__vblex"/></e>
+	<e lm="lok"><i>lok</i><par n="breek__vblex"/></e>
 	<e lm="lok"><p><l>gelok</l><r>lok</r></p><par n="gebreek__vblex"/></e>
-	<e lm="los"><i>los<par n="breek__vblex"/></e>
+	<e lm="los"><i>los</i><par n="breek__vblex"/></e>
 	<e lm="los"><p><l>gelos</l><r>los</r></p><par n="gebreek__vblex"/></e>
-	<e lm="lyk"><i>lyk<par n="breek__vblex"/></e>
+	<e lm="lyk"><i>lyk</i><par n="breek__vblex"/></e>
 	<e lm="lyk"><p><l>gelyk</l><r>lyk</r></p><par n="gebreek__vblex"/></e>
-	<e lm="meld"><i>meld<par n="breek__vblex"/></e>
+	<e lm="meld"><i>meld</i><par n="breek__vblex"/></e>
 	<e lm="meld"><p><l>gemeld</l><r>meld</r></p><par n="gebreek__vblex"/></e>
-	<e lm="ondersoek"><i>ondersoek<par n="ontwikkel__vblex"/></e>
-	<e lm="pak"><i>pak<par n="breek__vblex"/></e>
+	<e lm="ondersoek"><i>ondersoek</i><par n="ontwikkel__vblex"/></e>
+	<e lm="pak"><i>pak</i><par n="breek__vblex"/></e>
 	<e lm="pak"><p><l>gepak</l><r>pak</r></p><par n="gebreek__vblex"/></e>
-	<e lm="pas"><i>pas<par n="breek__vblex"/></e>
+	<e lm="pas"><i>pas</i><par n="breek__vblex"/></e>
 	<e lm="pas"><p><l>gepas</l><r>pas</r></p><par n="gebreek__vblex"/></e>
-	<e lm="plaas"><i>plaas<par n="breek__vblex"/></e>
+	<e lm="plaas"><i>plaas</i><par n="breek__vblex"/></e>
 	<e lm="plaas"><p><l>geplaas</l><r>plaas</r></p><par n="gebreek__vblex"/></e>
-	<e lm="plant"><i>plant<par n="breek__vblex"/></e>
+	<e lm="plant"><i>plant</i><par n="breek__vblex"/></e>
 	<e lm="plant"><p><l>geplant</l><r>plant</r></p><par n="gebreek__vblex"/></e>
-	<e lm="rig"><i>rig<par n="breek__vblex"/></e>
+	<e lm="rig"><i>rig</i><par n="breek__vblex"/></e>
 	<e lm="rig"><p><l>gerig</l><r>rig</r></p><par n="gebreek__vblex"/></e>
-	<e lm="ruim"><i>ruim<par n="breek__vblex"/></e>
+	<e lm="ruim"><i>ruim</i><par n="breek__vblex"/></e>
 	<e lm="ruim"><p><l>geruim</l><r>ruim</r></p><par n="gebreek__vblex"/></e>
-	<e lm="saag"><i>saag<par n="breek__vblex"/></e>
+	<e lm="saag"><i>saag</i><par n="breek__vblex"/></e>
 	<e lm="saag"><p><l>gesaag</l><r>saag</r></p><par n="gebreek__vblex"/></e>
-	<e lm="sit"><i>sit<par n="breek__vblex"/></e>
+	<e lm="sit"><i>sit</i><par n="breek__vblex"/></e>
 	<e lm="sit"><p><l>gesit</l><r>sit</r></p><par n="gebreek__vblex"/></e>
-	<e lm="skuil"><i>skuil<par n="breek__vblex"/></e>
+	<e lm="skuil"><i>skuil</i><par n="breek__vblex"/></e>
 	<e lm="skuil"><p><l>geskuil</l><r>skuil</r></p><par n="gebreek__vblex"/></e>
-	<e lm="soek"><i>soek<par n="breek__vblex"/></e>
+	<e lm="soek"><i>soek</i><par n="breek__vblex"/></e>
 	<e lm="soek"><p><l>gesoek</l><r>soek</r></p><par n="gebreek__vblex"/></e>
-	<e lm="spoel"><i>spoel<par n="breek__vblex"/></e>
+	<e lm="spoel"><i>spoel</i><par n="breek__vblex"/></e>
 	<e lm="spoel"><p><l>gespoel</l><r>spoel</r></p><par n="gebreek__vblex"/></e>
-	<e lm="staar"><i>staar<par n="breek__vblex"/></e>
+	<e lm="staar"><i>staar</i><par n="breek__vblex"/></e>
 	<e lm="staar"><p><l>gestaar</l><r>staar</r></p><par n="gebreek__vblex"/></e>
-	<e lm="steel"><i>steel<par n="breek__vblex"/></e>
+	<e lm="steel"><i>steel</i><par n="breek__vblex"/></e>
 	<e lm="steel"><p><l>gesteel</l><r>steel</r></p><par n="gebreek__vblex"/></e>
-	<e lm="storm"><i>storm<par n="breek__vblex"/></e>
+	<e lm="storm"><i>storm</i><par n="breek__vblex"/></e>
 	<e lm="storm"><p><l>gestorm</l><r>storm</r></p><par n="gebreek__vblex"/></e>
-	<e lm="suip"><i>suip<par n="breek__vblex"/></e>
+	<e lm="suip"><i>suip</i><par n="breek__vblex"/></e>
 	<e lm="suip"><p><l>gesuip</l><r>suip</r></p><par n="gebreek__vblex"/></e>
-	<e lm="syfer"><i>syfer<par n="breek__vblex"/></e>
+	<e lm="syfer"><i>syfer</i><par n="breek__vblex"/></e>
 	<e lm="syfer"><p><l>gesyfer</l><r>syfer</r></p><par n="gebreek__vblex"/></e>
-	<e lm="teken"><i>teken<par n="breek__vblex"/></e>
+	<e lm="teken"><i>teken</i><par n="breek__vblex"/></e>
 	<e lm="teken"><p><l>geteken</l><r>teken</r></p><par n="gebreek__vblex"/></e>
-	<e lm="toon"><i>toon<par n="breek__vblex"/></e>
+	<e lm="toon"><i>toon</i><par n="breek__vblex"/></e>
 	<e lm="toon"><p><l>getoon</l><r>toon</r></p><par n="gebreek__vblex"/></e>
-	<e lm="tree"><i>tree<par n="breek__vblex"/></e>
+	<e lm="tree"><i>tree</i><par n="breek__vblex"/></e>
 	<e lm="tree"><p><l>getree</l><r>tree</r></p><par n="gebreek__vblex"/></e>
-	<e lm="tref"><i>tref<par n="breek__vblex"/></e>
+	<e lm="tref"><i>tref</i><par n="breek__vblex"/></e>
 	<e lm="tref"><p><l>getref</l><r>tref</r></p><par n="gebreek__vblex"/></e>
-	<e lm="trek"><i>trek<par n="breek__vblex"/></e>
+	<e lm="trek"><i>trek</i><par n="breek__vblex"/></e>
 	<e lm="trek"><p><l>getrek</l><r>trek</r></p><par n="gebreek__vblex"/></e>
-	<e lm="vat"><i>vat<par n="breek__vblex"/></e>
+	<e lm="vat"><i>vat</i><par n="breek__vblex"/></e>
 	<e lm="vat"><p><l>gevat</l><r>vat</r></p><par n="gebreek__vblex"/></e>
-	<e lm="verf"><i>verf<par n="breek__vblex"/></e>
+	<e lm="verf"><i>verf</i><par n="breek__vblex"/></e>
 	<e lm="verf"><p><l>geverf</l><r>verf</r></p><par n="gebreek__vblex"/></e>
-	<e lm="vertrek"><i>vertrek<par n="ontwikkel__vblex"/></e>
-	<e lm="voeg"><i>voeg<par n="breek__vblex"/></e>
+	<e lm="vertrek"><i>vertrek</i><par n="ontwikkel__vblex"/></e>
+	<e lm="voeg"><i>voeg</i><par n="breek__vblex"/></e>
 	<e lm="voeg"><p><l>gevoeg</l><r>voeg</r></p><par n="gebreek__vblex"/></e>
-	<e lm="vul"><i>vul<par n="breek__vblex"/></e>
+	<e lm="vul"><i>vul</i><par n="breek__vblex"/></e>
 	<e lm="vul"><p><l>gevul</l><r>vul</r></p><par n="gebreek__vblex"/></e>
-	<e lm="wend"><i>wend<par n="breek__vblex"/></e>
+	<e lm="wend"><i>wend</i><par n="breek__vblex"/></e>
 	<e lm="wend"><p><l>gewend</l><r>wend</r></p><par n="gebreek__vblex"/></e>
-	<e lm="wys"><i>wys<par n="breek__vblex"/></e>
+	<e lm="wys"><i>wys</i><par n="breek__vblex"/></e>
 	<e lm="wys"><p><l>gewys</l><r>wys</r></p><par n="gebreek__vblex"/></e>
+
 
     <e lm="kan"><i>k</i><par n="k/an__vbmod"/></e>
     <e lm="sal"><i>s</i><par n="s/al__vbmod"/></e>
