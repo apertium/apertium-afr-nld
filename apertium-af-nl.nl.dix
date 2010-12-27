@@ -11665,7 +11665,6 @@
     <e lm="minister"><i>minister</i><par n="led__n_m"/></e>
     <e lm="room"><i>room</i><par n="eb__n_m"/></e>
     <e lm="kant"><i>kant</i><par n="ui__n_m"/></e>
-    <e lm="kant"><i>kant</i><par n="ui__n_m"/></e>
     <e lm="handel"><i>handel</i><par n="eb__n_m"/></e>
     <e lm="gemeenschap"><i>gemeenschap</i><par n="map__n_f"/></e>
     <e lm="gemeente"><i>gemeente</i><par n="made__n_f"/></e>
@@ -14805,6 +14804,7 @@
     <e lm="thuis"><i>thuis</i><par n="OV__n_nt"/></e>
     <e lm="vrijdag"><i>vrijdag</i><par n="ui__n_m"/></e>
     <e lm="zaterdag"><i>zaterdag</i><par n="ui__n_m"/></e>
+    <e lm="zondag"><i>zondag</i><par n="ui__n_m"/></e>
     <e lm="warmtecapaciteit"><i>warmtecapaciteit</i><par n="vering__n_f"/></e>
     <e lm="economie"><i>economie</i><par n="eb__n_f"/></e>
     <e lm="evolutie"><i>evolutie</i><par n="roe__n_f"/></e>
@@ -14819,7 +14819,7 @@
     <e lm="cm"><i>cm</i><par n="km__n_m"/></e>
     <e lm="m"><i>m</i><par n="km__n_m"/></e>
     <e lm="mm"><i>mm</i><par n="km__n_m"/></e>
-    <e lm="R"><i>r</i><par n="km__n_m"/></e>
+    <e lm="R"><i>R</i><par n="km__n_m"/></e>
     <e lm="mnr"><i>mnr</i><par n="mnr__n_m"/></e>
     <e lm="v.Chr"><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
     <e lm="v.Chr" r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>

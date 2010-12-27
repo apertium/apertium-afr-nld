@@ -479,7 +479,7 @@
     <e><p><l>slymvlies<s n="n"/></l><r>slymvlies<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>paniek<s n="n"/></l><r>paniek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vlies<s n="n"/></l><r>vlies<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>infinitief<s n="n"/></l><r>infinitief<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>infinitief<s n="n"/></l><r>infinitief<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vis<s n="n"/></l><r>vis<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>markies<s n="n"/></l><r>markies<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>omgewings<s n="n"/></l><r>omgeving<s n="n"/><s n="mf"/></r></p></e>
@@ -500,8 +500,7 @@
     <e><p><l>vlag<s n="n"/></l><r>vlag<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>minister<s n="n"/></l><r>minister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>room<s n="n"/></l><r>room<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kant<s n="n"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>handel<s n="n"/></l><r>handel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gemeenskap<s n="n"/></l><r>gemeenschap<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>munisipaliteit<s n="n"/></l><r>gemeente<s n="n"/><s n="f"/></r></p></e>
@@ -2506,7 +2505,7 @@
     <e><p><l>uitvinding<s n="n"/></l><r>uitvinding<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uitvoering<s n="n"/></l><r>uitvoering<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uitwerking<s n="n"/></l><r>uitwerking<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>uniform<s n="n"/></l><r>uniform<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>uniform<s n="n"/></l><r>uniform<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>universiteit<s n="n"/></l><r>universiteit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vaardigheid<s n="n"/></l><r>vaardigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vakansie<s n="n"/></l><r>vakantie<s n="n"/><s n="f"/></r></p></e>
@@ -3191,7 +3190,8 @@
     <e><p><l>hoofkantoor<s n="n"/></l><r>hoofdkantoor<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hoofkwartier<s n="n"/></l><r>hoofdkantoor<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hotel<s n="n"/></l><r>hotel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>hout<s n="n"/></l><r>hout<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hout<s n="n"/></l><r>hout<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>hout<s n="n"/></l><r>hout<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huishouding<s n="n"/></l><r>huishouden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>huwelik<s n="n"/></l><r>huwelijk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ideaal<s n="n"/></l><r>ideaal<s n="n"/><s n="nt"/></r></p></e>
@@ -3650,7 +3650,7 @@
     <e><p><l>cm<s n="n"/><s n="acr"/></l><r>cm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>m<s n="n"/><s n="acr"/></l><r>m<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>mm<s n="n"/><s n="acr"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
-    <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>R<s n="n"/><s n="acr"/></l><r>R<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 	<e><p><l>mnr<s n="n"/></l><r>mnr<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 

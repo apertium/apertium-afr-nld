@@ -13947,7 +13947,7 @@
 
     <e lm="a"><i>a</i><par n="a__n_nt"/></e>
     <e lm="m"><i>m</i><par n="km__n_m"/></e>
-    <e lm="R"><i>r</i><par n="km__n_m"/></e>
+    <e lm="R"><i>R</i><par n="km__n_m"/></e>
     <e lm="e"><i>e</i><par n="e__n_f"/></e>
 
 
@@ -27108,6 +27108,7 @@
     <e lm="zangzaad"><i>zangzaad</i><par n="OV__n_nt"/></e>
     <e lm="zaponlak"><i>zaponlak</i><par n="fok__n_m"/></e>
     <e lm="zaterdag"><i>zaterdag</i><par n="ui__n_m"/></e>
+    <e lm="zondag"><i>zondag</i><par n="ui__n_m"/></e>
     <e lm="zaterdagamateur"><i>zaterdagamateur</i><par n="led__n_m"/></e>
     <e lm="zaterdagkrant"><i>zaterdagkrant</i><par n="vering__n_f"/></e>
     <e lm="zaterdagkrant"><i>zaterdagkrant</i><par n="ui__n_m"/></e>
