@@ -6932,7 +6932,7 @@
 	<e lm="genereer"><p><l>gegenereer</l><r>genereer</r></p><par n="gebreek__vblex"/></e>
 	<e lm="gooi"><i>gooi</i><par n="breek__vblex"/></e>
 	<e lm="gooi"><p><l>gegooi</l><r>gooi</r></p><par n="gebreek__vblex"/></e>
-	<e lm="haal"><i>haal</i></i><par n="breek__vblex"/></e>
+	<e lm="haal"><i>haal</i><par n="breek__vblex"/></e>
 	<e lm="haal"><p><l>gehaal</l><r>haal</r></p><par n="gebreek__vblex"/></e>
 	<e lm="heg"><i>heg</i><par n="breek__vblex"/></e>
 	<e lm="heg"><p><l>geheg</l><r>heg</r></p><par n="gebreek__vblex"/></e>
