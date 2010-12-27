@@ -637,7 +637,10 @@
     <pardef n="aalwyn__n"> 
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p></e>
     </pardef>
-
+    <pardef n="medi/um__n"> 
+      <e>       <p><l>um</l><r><s n="n"/><s n="sg"/></r></p></e>
+	  <e>       <p><l>a</l><r><s n="n"/><s n="pl"/></r></p></e>
+    </pardef>
     <pardef n="wêreld__n">
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e>       <p><l>e</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
@@ -1969,6 +1972,7 @@
 	<e lm="Latyn"><i>Latyn</i><par n="aalwyn__n"/></e>
 	<e lm="landbou"><i>landbou</i><par n="aalwyn__n"/></e>
 	<e lm="opstand"><i>opstand</i><par n="bier__n"/></e>
+	<e lm="duisend"><i>duisend</i><par n="bier__n"/></e>
 	<e lm="bewind"><i>bewind</i><par n="bier__n"/></e>
 	<e lm="belang"><i>belang</i><par n="bier__n"/></e>
 	<e lm="strafdoel"><i>strafdoel</i><par n="bier__n"/></e>
@@ -2017,6 +2021,7 @@
     <e lm="geskenk"><i>geskenk</i><par n="bier__n"/></e>
     <e lm="duin"><i>duin</i><par n="bier__n"/></e>
     <e lm="tegniek"><i>tegniek</i><par n="bier__n"/></e>
+	<e lm="paniek"><i>paniek</i><par n="bier__n"/></e>
     <e lm="bloeitydperk"><i>bloeitydperk</i><par n="bier__n"/></e>
     <e lm="vervoer"><i>vervoer</i><par n="aalwyn__n"/></e>
     <e lm="teks"><i>teks</i><par n="bier__n"/></e>
@@ -2423,6 +2428,8 @@
     <e lm="kollege"><i>kollege</i><par n="artikel__n"/></e>
     <e lm="seun"><i>seun</i><par n="artikel__n"/></e>
     <e lm="skrotum"><i>skrotum</i><par n="artikel__n"/></e>
+	<e lm="antibiotikum"><i>antibiotikum</i><par n="artikel__n"/></e>
+	<e lm="antidepresivum"><i>antidepressivum</i><par n="artikel__n"/></e>
     <e lm="kollega"><i>kollega</i><par n="artikel__n"/></e>
     <e lm="winkel"><i>winkel</i><par n="artikel__n"/></e>
     <e lm="opinie"><i>opinie</i><par n="artikel__n"/></e>
@@ -2743,7 +2750,7 @@
     <e lm="broederskap"><i>broederskap</i><par n="poësie__n__unc"/></e>
     <e lm="republikanisme"><i>republikanisme</i><par n="poësie__n__unc"/></e>
     <e lm="nasionalisme"><i>nasionalisme</i><par n="poësie__n__unc"/></e>
-    <!--<e lm="steun"><i>steun</i><par n="poësie__n__unc"/></e>-->
+    <e lm="steun"><i>steun</i><par n="artikel__n"/></e>
     <e lm="orde"><i>orde</i><par n="poësie__n__unc"/></e>
     <e lm="internet"><i>internet</i><par n="poësie__n__unc"/></e><!-- internets? -->
     <e lm="verkeer"><i>verkeer</i><par n="poësie__n__unc"/></e>
@@ -2765,7 +2772,7 @@
     <e lm="ekspressionisme"><i>ekspressionisme</i><par n="poësie__n__unc"/></e>
     <e lm="ekstremisme"><i>ekstremisme</i><par n="poësie__n__unc"/></e>
     <e lm="elektromagnetisme"><i>elektromagnetisme</i><par n="poësie__n__unc"/></e>
-    <e lm="eufemisme"><i>eufemisme</i><par n="poësie__n__unc"/></e>
+    <e lm="eufemisme"><i>eufemisme</i><par n="artikel__n"/></e>
     <e lm="fascisme"><i>fascisme</i><par n="poësie__n__unc"/></e>
     <e lm="federalisme"><i>federalisme</i><par n="poësie__n__unc"/></e>
     <e lm="feminisme"><i>feminisme</i><par n="poësie__n__unc"/></e>
@@ -2906,8 +2913,8 @@
     <e lm="yttrium"><i>yttrium</i><par n="poësie__n__unc"/></e>
 
 
-    <e lm="polisie"><i>polisie</i><par n="aalwyn__n"/></e>
-    <e lm="media"><i>media</i><par n="polisie__n"/></e>
+    <e lm="polisie"><i>polisie</i><par n="polisie__n"/></e>
+    <e lm="medium"><i>medium</i><par n="medi/um__n"/></e>
     <e lm="klere"><i>klere</i><par n="polisie__n"/></e>
     <e lm="personeel"><i>personeel</i><par n="aalwyn__n"/></e>
 
@@ -3288,6 +3295,8 @@
     <e lm="fokus"><i>fokus</i><par n="aalwyn__n"/></e>
     <e lm="bus"><i>bus</i><par n="abakus__n"/></e>
     <e lm="fout"><i>fout</i><par n="bier__n"/></e>
+	<e lm="vang"><i>vang</i><par n="bier__n"/></e>
+	<e lm="vlies"><i>vlies</i><par n="bier__n"/></e>
     <e lm="ongeluk"><i>ongeluk</i><par n="ongeluk__n"/></e>
     <e lm="sak"><i>sak</i><par n="ongeluk__n"/></e>
     <e lm="plastieksak"><i>plastieksak</i><par n="ongeluk__n"/></e>
@@ -3412,6 +3421,7 @@
 
     <e lm="advertensie"><i>advertensie</i><par n="artikel__n"/></e>
     <e lm="saak"><i>sa</i><par n="sa/ak__n"/></e>
+	<e lm="eenmansaak"><i>eenmansa</i><par n="sa/ak__n"/></e>
     <e lm="aandoening"><i>aandoening</i><par n="artikel__n"/></e>
     <e lm="agtervoegsel"><i>agtervoegsel</i><par n="artikel__n"/></e>
     <e lm="ouderdom"><i>ouderdom</i><par n="ouderdom__n"/></e>
@@ -3424,7 +3434,9 @@
     <e lm="alfabet"><i>alfabet</i><par n="lys__n"/></e>
     <e lm="gas"><i>gas</i><par n="lys__n"/></e>
     <e lm="alternatief"><i>alternatie</i><par n="alternatie/f__n"/></e>
+	<e lm="infinitief"><i>infinitie</i><par n="alternatie/f__n"/></e>
     <e lm="bedryf"><i>bedry</i><par n="alternatie/f__n"/></e>
+	<e lm="lyf"><i>ly</i><par n="alternatie/f__n"/></e>
     <e lm="motief"><i>motie</i><par n="alternatie/f__n"/></e>
     <e lm="dier"><i>dier</i><par n="bier__n"/></e>
     <e lm="sektor"><i>sektor</i><par n="aardbewing__n"/></e>
@@ -3625,7 +3637,7 @@
     <e lm="aanklaer"><i>aanklaer</i><par n="artikel__n"/></e><!-- plaintiff -->
 
     <e lm="tydperk"><i>tydperk</i><par n="bier__n"/></e><!-- era -->
-    <e lm="persent"><i>persent</i><par n="poësie__n__unc"/></e><!-- percent -->
+    <e lm="persent"><i>persent</i><par n="bier__n"/></e><!-- percent -->
     <e lm="einde"><i>einde</i><par n="artikel__n"/></e><!-- end -->
     <e lm="ontstaan"><i>ontstaan</i><par n="aalwyn__n"/></e><!-- origen -->
     <e lm="aar"><i>a</i><par n="staatsamptena/ar__n"/></e><!-- vein -->
@@ -3698,6 +3710,7 @@
     <e lm="fossiel"><i>fossiel</i><par n="bier__n"/></e><!-- fossil -->
     <e lm="politiek"><i>politiek</i><par n="Afrikaans__n"/></e><!-- politics -->
     <e lm="skaal"><i>ska</i><par n="ta/al__n"/></e><!-- scale -->
+	<e lm="liniaal"><i>linia</i><par n="ta/al__n"/></e>
     <e lm="spesialis"><i>spesialis</i><par n="lys__n"/></e><!-- specialist -->
     <e lm="satelliet"><i>satelliet</i><par n="lys__n"/></e><!-- satellite -->
     <e lm="volk"><i>volk</i><par n="bier__n"/></e><!-- nation -->
@@ -3771,11 +3784,12 @@
     <e lm="laagte"><i>laagte</i><par n="artikel__n"/></e>
     <e lm="keer"><i>ke</i><par n="atmosfe/er__n"/></e>
     <e lm="skiereiland"><i>skiereiland</i><par n="bier__n"/></e>
+	<e lm="spies"><i>spies</i><par n="bier__n"/></e>
     <e lm="Donau"><i>Donau</i><par n="Engeland__np"/></e>
     <e lm="Pruise"><i>Pruise</i><par n="Engeland__np"/></e>
     <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
     <e lm="Oeralgebergtes"><i>Oeralgebergtes</i><par n="Engeland__np"/></e>
-    <e lm="steppe"><i>steppe</i><par n="Afrikaans__n"/></e>
+    <e lm="steppe"><i>steppe</i><par n="artikel__n"/></e>
     <e lm="Varangerfjord"><i>Varangerfjord</i><par n="Engeland__np"/></e>
     <e lm="Galisië"><i>Galisië</i><par n="Engeland__np"/></e>
     <e lm="stryk"><i>stryk</i><par n="aalwyn__n"/></e>
@@ -3827,6 +3841,7 @@
     <e r="LR" lm="poliesman"><i>poliesman</i><par n="polisieman__n"/></e>
     <e lm="egpaar"><i>egpa</i><par n="staatsamptena/ar__n"/></e>
     <e lm="aksent"><i>aksent</i><par n="bier__n"/></e>
+	<e lm="lies"><i>lies</i><par n="bier__n"/></e>
     <e lm="bewussyn"><i>bewussyn</i><par n="aalwyn__n"/></e>
     <e lm="bergreeks"><i>bergreeks</i><par n="bier__n"/></e>
     <e lm="bergspits"><i>bergspits</i><par n="bier__n"/></e>
@@ -3838,7 +3853,7 @@
     <e lm="begrip"><i>begrip</i><par n="boodskap__n"/></e>
     <e lm="bejaarde"><i>bejaarde</i><par n="artikel__n"/></e>
     <e lm="vergifnis"><i>vergifnis</i><par n="poësie__n__unc"/></e>
-    <e lm="bylae"><i>bylae</i><par n="poësie__n__unc"/></e>
+    <e lm="bylae"><i>bylae</i><par n="artikel__n"/></e>
     <e lm="pyl"><i>pyl</i><par n="bier__n"/></e>
     <e lm="kuns"><i>kuns</i><par n="lys__n"/></e>
     <e lm="kunstenaar"><i>kunstenaar</i><par n="artikel__n"/></e>
@@ -3954,6 +3969,7 @@
     <e lm="koei"><i>koei</i><par n="bier__n"/></e>
     <e lm="room"><i>room</i><par n="poësie__n__unc"/></e>
     <e lm="krisis"><i>krisis</i><par n="abakus__n"/></e>
+	<e lm="kommunis"><i>kommunisis</i><par n="abakus__n"/></e>
     <e lm="krokodil"><i>krokodil</i><par n="appèl__n"/></e>
     <e lm="skare"><i>skare</i><par n="artikel__n"/></e>
     <e lm="kruk"><i>kruk</i><par n="ongeluk__n"/></e>
@@ -3969,7 +3985,7 @@
     <e lm="skat"><i>skat</i><par n="lys__n"/></e>
     <e lm="dood"><i>dood</i><par n="poësie__n__unc"/></e>
     <e lm="skuld"><i>skuld</i><par n="bier__n"/></e>
-    <e lm="dekor"><i>dekor</i><par n="poësie__n__unc"/></e>
+    <e lm="dekor"><i>dekor</i><par n="artikel__n"/></e>
     <e lm="hert"><i>hert</i><par n="bier__n"/></e>
     <e lm="graad"><i>gra</i><par n="da/ad__n"/></e>
     <e lm="lekkerny"><i>lekkerny</i><par n="bier__n"/></e>
@@ -4023,7 +4039,7 @@
     <e lm="gebeurtenis"><i>gebeurtenis</i><par n="abakus__n"/></e>
     <e lm="sentrale"><i>sentrale</i><par n="artikel__n"/></e>
     <e lm="uitgang"><i>uitgang</i><par n="bier__n"/></e>
-    <e lm="Eksodus"><i>Eksodus</i><par n="aalwyn__n"/></e>
+    <e lm="eksodus"><i>eksodus</i><par n="aalwyn__n"/></e>
     <e lm="uitvoer"><i>uitvoer</i><par n="aalwyn__n"/></e>
     <e lm="fee"><i>fe</i><par n="se/e__n"/></e>
     <e lm="plaas"><i>pla</i><par n="ka/as__n"/></e>
@@ -4049,7 +4065,7 @@
     <e lm="fontein"><i>fontein</i><par n="bier__n"/></e>
     <e lm="raam"><i>ra</i><par n="na/am__n"/></e>
     <e lm="raamwerk"><i>raamwerk</i><par n="bier__n"/></e>
-    <e lm="Franse"><i>Franse</i><par n="polisie__n"/></e>
+    <e lm="Frans"><i>Frans</i><par n="wêreld__n"/></e>
     <e lm="padda"><i>padda</i><par n="artikel__n"/></e>
     <e lm="vrug"><i>vrug</i><par n="lys__n"/></e>
     <e lm="fonds"><i>fonds</i><par n="bier__n"/></e>
@@ -4062,7 +4078,7 @@
     <e lm="kameelperd"><i>kameelperd</i><par n="bier__n"/></e>
     <e lm="goed"><i>goed</i><par n="goed__n"/></e>
     <e lm="kleindogter"><i>kleindogter</i><par n="artikel__n"/></e>
-    <e lm="gram"><i>gram</i><par n="poësie__n__unc"/></e>
+    <e lm="gram"><i>gram</i><par n="ouderdom__n"/></e>
     <e lm="druif"><i>drui</i><par n="alternatie/f__n"/></e>
     <e lm="gewoonte"><i>gewoonte</i><par n="artikel__n"/></e>
     <e lm="gimnastiek"><i>gimnastiek</i><par n="poësie__n__unc"/></e>
@@ -4291,6 +4307,7 @@
     <e lm="top"><i>top</i><par n="boodskap__n"/></e>
     <e lm="toernooi"><i>toernooi</i><par n="bier__n"/></e>
     <e lm="buis"><i>buis</i><par n="bier__n"/></e>
+	<e lm="tuis"><i>tuis</i><par n="aalwyn__n"/></e>
     <e lm="tulp"><i>tulp</i><par n="bier__n"/></e>
     <e lm="koffer"><i>koffer</i><par n="artikel__n"/></e>
     <e lm="oordrag"><i>oordrag</i><par n="lys__n"/></e>
@@ -4385,7 +4402,7 @@
     <e lm="geheel"><i>gehe</i><par n="voorde/el__n"/></e>
     <e lm="hout"><i>hout</i><par n="poësie__n__unc"/></e>
     <e lm="treffer"><i>treffer</i><par n="artikel__n"/></e>
-    <e lm="eer"><i>e</i><par n="poësie__n__unc"/></e>
+    <e lm="eer"><i>eer</i><par n="poësie__n__unc"/></e>
     <e lm="voorkoms"><i>voorkoms</i><par n="lys__n"/></e>
     <e lm="geraas"><i>geraas</i><par n="poësie__n__unc"/></e>
     <e lm="roman"><i>roman</i><par n="polisieman__n"/></e>
@@ -4560,6 +4577,7 @@
     <e lm="transaksie"><i>transaksie</i><par n="artikel__n"/></e>
     <e lm="trigonometrie"><i>trigonometrie</i><par n="aalwyn__n"/></e>
     <e lm="unifikasie"><i>unifikasie</i><par n="artikel__n"/></e>
+	<e lm="menstruasie"><i>menstruasie</i><par n="artikel__n"/></e>
     <e lm="ventilasie"><i>ventilasie</i><par n="artikel__n"/></e>
     <e lm="versie"><i>versie</i><par n="artikel__n"/></e>
 
@@ -4671,7 +4689,7 @@
     <e lm="atleet"><i>atle</i><par n="plane/et__n"/></e>
     <e lm="beet"><i>be</i><par n="plane/et__n"/></e>
     <e lm="dekreet"><i>dekre</i><par n="plane/et__n"/></e>
-    <e lm="eet"><i>e</i><par n="aalwyn__n"/></e>
+    <e lm="eet"><i>eet</i><par n="aalwyn__n"/></e>
     <e lm="gameet"><i>game</i><par n="plane/et__n"/></e>
     <e lm="geweet"><i>gewe</i><par n="plane/et__n"/></e>
     <e lm="komeet"><i>kome</i><par n="plane/et__n"/></e>
@@ -5102,7 +5120,7 @@
 
     <e lm="nywerheid"><i>nywerhe</i><par n="besonderhe/id__n"/></e>
     <e lm="aanwesigheid"><i>aanwesigheid</i><par n="aalwyn__n"/></e>
-    <e lm="akkuraatheid"><i>akkuraath</i><par n="besonderhe/id__n"/></e>
+    <e lm="akkuraatheid"><i>akkuraathe</i><par n="besonderhe/id__n"/></e>
     <e lm="apartheid"><i>apartheid</i><par n="aalwyn__n"/></e>
     <e lm="bekendheid"><i>bekendheid</i><par n="aalwyn__n"/></e>
     <e lm="belangrikheid"><i>belangrikhe</i><par n="besonderhe/id__n"/></e>
@@ -5741,6 +5759,7 @@
     <e lm="adjunkpresident"><i>adjunkpresident</i><par n="bier__n"/></e>
     <e lm="president"><i>president</i><par n="bier__n"/></e>
     <e lm="regterpresident"><i>regterpresident</i><par n="bier__n"/></e>
+	<e lm="regter"><i>regter</i><par n="artikel__n"/></e>
     <e lm="staatspresident"><i>staatspresident</i><par n="bier__n"/></e>
 
     <e lm="koerant"><i>koerant</i><par n="bier__n"/></e>

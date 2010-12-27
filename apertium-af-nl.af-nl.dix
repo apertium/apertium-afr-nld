@@ -572,9 +572,9 @@
     <e><p><l>kaptein<s n="n"/></l><r>kapitein<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>koper<s n="n"/></l><r>koper<s n="n"/><s n="m"/></r></p></e> <!--m: persoon die koopt -->
     <e><p><l>koper<s n="n"/></l><r>koper<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
-    <e><p><l>polisie<s n="n"/></l><r>politie<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>polisie<s n="n"/><s n="pl"/></l><r>politie<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>woonbuurt<s n="n"/></l><r>woonwijk<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>tv<s n="n"/><s n="acr"/></l><r>tv<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>TV<s n="n"/><s n="acr"/></l><r>tv<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gedagte<s n="n"/></l><r>gedachte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>myn<s n="n"/></l><r>mijn<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>publikasie<s n="n"/></l><r>publicatie<s n="n"/><s n="f"/></r></p></e>
@@ -666,7 +666,7 @@
     <e><p><l>eed<s n="n"/></l><r>eed<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prosedure<s n="n"/></l><r>procedure<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>poësie<s n="n"/></l><r>poëzie<s n="n"/><s n="f"/></r></p></e> <!-- unc -->
-    <e><p><l>vn<s n="n"/><s n="acr"/></l><r>vn<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>VN<s n="n"/><s n="acr"/></l><r>vn<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>senator<s n="n"/></l><r>senator<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pous<s n="n"/></l><r>paus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>infeksie<s n="n"/></l><r>infectie<s n="n"/><s n="f"/></r></p></e>
@@ -906,7 +906,7 @@
     <e><p><l>wolfram<s n="n"/></l><r>wolfraam<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>weerkaatsing<s n="n"/></l><r>weerkaatsing<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verhuising<s n="n"/></l><r>verhuizing<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>url<s n="n"/><s n="acr"/></l><r>url<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>URL<s n="n"/><s n="acr"/></l><r>url<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>terroris<s n="n"/></l><r>terrorist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>skeertuig<s n="n"/></l><r>luchtkussenvaartuig<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>raffinadery<s n="n"/></l><r>raffinaderij<s n="n"/><s n="f"/></r></p></e>
@@ -2040,7 +2040,7 @@
     <e><p><l>monster<s n="n"/></l><r>steekproef<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>monument<s n="n"/></l><r>monument<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>moontlikheid<s n="n"/></l><r>mogelijkheid<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>moor<s n="n"/></l><r>moor<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>Moor<s n="n"/></l><r>Moor<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>mossie<s n="n"/></l><r>mus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mos<s n="n"/></l><r>mos<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>motief<s n="n"/></l><r>motief<s n="n"/><s n="nt"/></r></p></e>
@@ -3107,7 +3107,7 @@
     <e><p><l>aanbod<s n="n"/></l><r>aanbod<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>aardoppervlak<s n="n"/></l><r>aardoppervlak<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>aas<s n="n"/></l><r>aas<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>afrikaans<s n="n"/></l><r>Afrikaans<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Afrikaans<s n="n"/></l><r>Afrikaans<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>afsetgebied<s n="n"/></l><r>afzetgebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>agentskap<s n="n"/></l><r>agentschap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>agtervoegsel<s n="n"/></l><r>achtervoegsel<s n="n"/><s n="nt"/></r></p></e>
@@ -3144,7 +3144,7 @@
     <e><p><l>drink<s n="n"/></l><r>drinken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>drinkwater<s n="n"/></l><r>drinkwater<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>duister<s n="n"/></l><r>duister<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>duits<s n="n"/></l><r>Duits<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Duits<s n="n"/></l><r>Duits<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>duplikaat<s n="n"/></l><r>duplicaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>dwing<s n="n"/></l><r>dwang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>eet<s n="n"/></l><r>eten<s n="n"/><s n="nt"/></r></p></e>
@@ -3196,7 +3196,7 @@
     <e><p><l>ideaal<s n="n"/></l><r>ideaal<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>idee<s n="n"/></l><r>idee<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>idioom<s n="n"/></l><r>idioom<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>id<s n="n"/></l><r>id<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>ID<s n="n"/></l><r>id<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ikoon<s n="n"/></l><r>pictogram<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>impak<s n="n"/></l><r>effect<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>individu<s n="n"/></l><r>individu<s n="n"/><s n="nt"/></r></p></e>
@@ -3260,7 +3260,7 @@
     <e><p><l>natuurreservaat<s n="n"/></l><r>natuurreservaat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>navigasie<s n="n"/></l><r>menu<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>navraag<s n="n"/></l><r>zoekwoord<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>nederlands<s n="n"/></l><r>Nederlands<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>Nederlands<s n="n"/></l><r>Nederlands<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>netwerk<s n="n"/></l><r>netwerk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nierversaking<s n="n"/></l><r>nierfalen<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>noorde<s n="n"/></l><r>noorden<s n="n"/><s n="nt"/></r></p></e>
@@ -3419,7 +3419,7 @@
     <e><p><l>woongebied<s n="n"/></l><r>woongebied<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>woonstel<s n="n"/></l><r>appartement<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wortelstelsel<s n="n"/></l><r>wortelstelsel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>www<s n="n"/></l><r>www<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>WWW<s n="n"/></l><r>www<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ys<s n="n"/></l><r>ijs<s n="n"/><s n="nt"/></r></p></e>
 
     <e><p><l>wiskunde<s n="n"/></l><r>wiskunde<s n="n"/><s n="f"/></r></p></e>
