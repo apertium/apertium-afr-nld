@@ -7120,7 +7120,6 @@
     </pardef>
     <pardef n="WO__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <!--<e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="tor__n_mf">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -7976,11 +7975,9 @@
     </pardef>
     <pardef n="eb__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <!--<e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="eb__n_f">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <!--<e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="cmp-R"/></e>-->
     </pardef>
     <pardef n="o/og__n_nt">
       <e>       <p><l>og</l><r>og<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -16592,14 +16589,14 @@
     <e lm="bewerking"><i>bewerking</i><par n="vering__n_f"/></e>
     <e lm="bewijs"><i>bewij</i><par n="hui/s__n_nt"/></e>
     <e lm="bewijsmateriaal"><i>bewijsmateriaal</i><par n="OV__n_nt"/></e>
-    <e lm="beeldmateriaal"><i>beeldmateriaal</i><par n="OV__n_nt"/></e>
+    <e lm="beeldmateriaal"><i>beeldmateria</i><par n="ma/al__n_nt"/></e>
     <e lm="bronmateriaal"><i>bronmateriaal</i><par n="OV__n_nt"/></e>
     <e lm="isolatiemateriaal"><i>isolatiemateriaal</i><par n="OV__n_nt"/></e>
     <e lm="leermateriaal"><i>leermateriaal</i><par n="OV__n_nt"/></e>
     <e lm="plantmateriaal"><i>plantmateriaal</i><par n="OV__n_nt"/></e>
     <e lm="bewijsstuk"><i>bewijsstuk</i><par n="bak__n_nt"/></e>
     <e lm="bewijsvoering"><i>bewijsvoering</i><par n="vering__n_f"/></e>
-    <e lm="bewind"><i>bewind</i><par n="OV__n_nt"/></e>
+    <e lm="bewind"><i>bewind</i><par n="lot__n_nt"/></e>
     <e lm="bewindsman"><i>bewinds</i><par n="zegs/man__n_m"/></e>
     <e lm="bewolking"><i>bewolking</i><par n="eb__n_f"/></e>
     <e lm="bewonderaar"><i>bewonderaar</i><par n="led__n_m"/></e>
