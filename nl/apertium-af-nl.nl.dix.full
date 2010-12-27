@@ -14111,7 +14111,7 @@
     <e lm="ATB"><i>ATB</i><par n="ra__n_m"/></e>
     <e lm="AWACS"><i>AWACS</i><par n="OV__n_nt"/></e>
     <e lm="tin"><i>tin</i><par n="OV__n_nt"/></e>
-    <e lm="ovaal"><i>ovaal</i><par n="OV__n_nt"/></e>
+    <e lm="ovaal"><i>ova</i><par n="ma/al__n_nt"/></e>
     <e lm="krypton"><i>krypton</i><par n="OV__n_nt"/></e>
     <e lm="gekreun"><i>gekreun</i><par n="OV__n_nt"/></e>
     <e lm="AWACS-vliegtuig"><i>AWACS-vliegtuig</i><par n="lot__n_nt"/></e>
@@ -14748,7 +14748,7 @@
     <e lm="PC"><i>PC</i><par n="OV__n_nt"/></e>
     <e lm="PC"><i>PC</i><par n="eb__n_m"/></e>
     <e lm="guerrilla"><i>guerrilla</i><par n="eb__n_m"/></e>
-    <e lm="toendra"><i>toendra</i><par n="eb__n_m"/></e>
+    <e lm="toendra"><i>toendra</i><par n="ra__n_m"/></e>
     <!--<e lm="PET"><i>PET</i><par n="WO__n_mf"/></e>-->
     <e lm="POTS"><i>POTS</i><par n="OV__n_nt"/></e>
     <e lm="POTS"><i>POTS</i><par n="eb__n_f"/></e>
@@ -15736,7 +15736,7 @@
     <e lm="alpengloeien"><i>alpengloeien</i><par n="OV__n_nt"/></e>
     <e lm="alpenhoorn"><i>alpenhoorn</i><par n="led__n_m"/></e>
     <e lm="alpinisme"><i>alpinisme</i><par n="OV__n_nt"/></e>
-    <e lm="verdedigingsmeganisme"><i>verdedigingsmeganisme</i><par n="OV__n_nt"/></e>
+    <e lm="verdedigingsmechanisme"><i>verdedigingsmechanisme</i><par n="eon__n_nt"/></e>
     <e lm="alpinist"><i>alpinist</i><par n="ui__n_m"/></e>
     <e lm="altaar"><i>alta</i><par n="ka/ar__n_nt"/></e>
 	<e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
@@ -18487,7 +18487,7 @@
     <e lm="faas"><i>fa</i><par n="da/as__n_mf"/></e>
     <e lm="fabeldier"><i>fabeldier</i><par n="lot__n_nt"/></e>
     <e lm="fabricaat"><i>fabrica</i><par n="cita/at__n_nt"/></e>
-    <e lm="fabricatie"><i>fabricatie</i><par n="eb__n_f"/></e>
+    <e lm="fabricatie"><i>fabricatie</i><par n="roe__n_f"/></e>
     <e lm="fabriek"><i>fabriek</i><par n="vering__n_f"/></e>
     <e lm="fabrikant"><i>fabrikant</i><par n="ui__n_m"/></e>
     <e lm="facelift"><i>facelift</i><par n="led__n_m"/></e>
@@ -22949,7 +22949,7 @@
     <e lm="perichondrium"><i>perichondri</i><par n="sacr/um__n_nt"/></e>
     <e lm="perikel"><i>perikel</i><par n="lot__n_nt"/></e>
     <e lm="periode"><i>periode</i><par n="made__n_f"/></e>
-    <e lm="perkament"><i>perkament</i><par n="OV__n_nt"/></e>
+    <e lm="perkament"><i>perkament</i><par n="lot__n_nt"/></e>
     <e lm="tegenovergestelde"><i>tegenovergestelde</i><par n="OV__n_nt"/></e>
     <e lm="omgekeerde"><i>omgekeerde</i><par n="OV__n_nt"/></e>
     <e lm="peroratie"><i>peroratie</i><par n="roe__n_f"/></e>
@@ -24693,7 +24693,7 @@
     <e lm="ongerechtigheid"><i>ongerechtigheid</i><par n="eb__n_f"/></e>
     <e lm="onwetendheid"><i>onwetendheid</i><par n="eb__n_f"/></e>
     <e lm="onzekerheid"><i>onzekerheid</i><par n="eb__n_f"/></e>
-    <e lm="onzuiverheid"><i>onzuiverheid</i><par n="eb__n_f"/></e>
+    <e lm="onzuiverheid"><i>onzuiverhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="saaklikheid"><i>saaklikheid</i><par n="eb__n_f"/></e>
     <e lm="uitspattigheid"><i>uitspattigheid</i><par n="eb__n_f"/></e>
     <e lm="verdeeldheid"><i>verdeeldheid</i><par n="eb__n_f"/></e>
@@ -24712,7 +24712,7 @@
     <e lm="startpunt"><i>startpunt</i><par n="lot__n_nt"/></e>
     <e lm="station"><i>station</i><par n="eon__n_nt"/></e>
     <e lm="stationsroman"><i>stationsroman</i><par n="led__n_m"/></e>
-    <e lm="statistiek"><i>statistiek</i><par n="eb__n_f"/></e>
+    <e lm="statistiek"><i>statistiek</i><par n="vering__n_f"/></e>
     <e lm="steek"><i>ste</i><par n="we/ek__n_m"/></e>
     <e lm="steekproef"><i>steekproe</i><par n="kol/f__n_mf"/></e>
     <e lm="steekspel"><i>steekspel</i><par n="lot__n_nt"/></e>
@@ -25315,7 +25315,7 @@
     <e lm="toegankelijkheid"><i>toegankelijkhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="toegankelijkheidssymbool"><i>toegankelijkheidssymbo</i><par n="rio/ol__n_nt"/></e>
     <e lm="toekan"><i>toekan</i><par n="led__n_m"/></e>
-    <e lm="toekomst"><i>toekomst</i><par n="eb__n_f"/></e>
+    <e lm="toekomst"><i>toekomst</i><par n="vering__n_f"/></e>
     <e lm="toelage"><i>toelage</i><par n="rune__n_f"/></e>
     <e lm="toelating"><i>toelating</i><par n="vering__n_f"/></e>
     <e lm="toelatingsexamen"><i>toelatingsexamen</i><par n="eon__n_nt"/></e>
@@ -26917,7 +26917,7 @@
     <e lm="chemie"><i>chemie</i><par n="eb__n_f"/></e>
     <e lm="harmonie"><i>harmonie</i><par n="eb__n_f"/></e>
     <e lm="tirannie"><i>tirannie</i><par n="eb__n_f"/></e>
-    <e lm="unie"><i>unie</i><par n="eb__n_f"/></e>
+    <e lm="unie"><i>unie</i><par n="roe__n_f"/></e>
     <e lm="pastorie"><i>pastorie</i><par n="eb__n_f"/></e>
     <e lm="veldtheorie"><i>veldtheorie</i><par n="eb__n_f"/></e>
     <e lm="compressie"><i>compressie</i><par n="eb__n_f"/></e>
