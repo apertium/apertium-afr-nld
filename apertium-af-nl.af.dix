@@ -4370,7 +4370,7 @@
     <e lm="pas"><i>pas</i><par n="abakus__n"/></e>
     <e lm="pers"><i>pers</i><par n="bier__n"/></e>
     <e lm="register"><i>register</i><par n="artikel__n"/></e>
-    <e lm="braaivleis"><i>braaivleis</i><par n="poësie__n__unc/></e>
+    <e lm="braaivleis"><i>braaivleis</i><par n="poësie__n__unc"/></e>
     <e lm="versoek"><i>versoek</i><par n="bier__n"/></e>
     <e lm="pos"><i>pos</i><par n="lys__n"/></e>
     <e lm="oproer"><i>oproer</i><par n="bier__n"/></e>
@@ -9636,6 +9636,7 @@
     <!-- Verbs that take 'become' in the past :: e.g. verwesenlik word = become realise = be realised -->
 
     <e lm="verwesenlik"><i>verwesenlik</i><par n="breek__vblex"/></e>
+    <e lm="verwesenlik"><p><l>verwesenlik</l><r>verwesenlik</r></p><par n="gebreek__vblex"/></e>
 
     <!-- Verbs that have no explicit past form -->
 
@@ -9772,6 +9773,8 @@
     <e lm="bestaan"><i>bestaan</i><par n="ontwikkel__vblex"/></e>
 
     <e lm="begin"><i>begin</i><par n="breek__vblex"/></e>
+    <e lm="begin"><p><l>gebegin</l><r>begin</r></p><par n="gebreek__vblex"/></e>
+
     <e lm="bekommerd"><i>bekommerd</i><par n="ontwikkel__vblex"/></e>
     <e lm="beteken"><i>beteken</i><par n="ontwikkel__vblex"/></e>
     <e lm="besef"><i>besef</i><par n="ontwikkel__vblex"/></e>
