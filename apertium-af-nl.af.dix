@@ -9093,7 +9093,7 @@
     <e lm="hanteer"><p><l>gehanteer</l><r>hanteer</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="hardloop"><i>hardloop</i><par n="breek__vblex"/></e>
-    <e lm="hardloop"><p><l>gehardloop</l><r>loop</r></p><par n="gebreek__vblex"/></e>
+    <e lm="hardloop"><p><l>gehardloop</l><r>hardloop</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="heers"><i>heers</i><par n="breek__vblex"/></e>
     <e lm="heers"><p><l>geheers</l><r>heers</r></p><par n="gebreek__vblex"/></e>
@@ -9622,15 +9622,12 @@
     <!-- =================================================================== -->
 
 
-    <e lm="gebruik"><i>gebruik</i><par n="breek__vblex"/></e>
-    <e lm="gesels"><i>gesels</i><par n="breek__vblex"/></e>
+    <e lm="gebruik"><i>gebruik</i><par n="ontwikkel__vblex"/></e>
+    <e lm="gesels"><i>gesels</i><par n="ontwikkel__vblex"/></e>
     <e lm="voorkom"><i>voorkom</i><par n="breek__vblex"/></e>
 
-
-    <!-- Verbs that have aan~  -->
-
-    <e lm="geniet"><i>geniet</i><par n="breek__vblex"/></e>
-    <e lm="gebeur"><i>gebeur</i><par n="breek__vblex"/></e>
+    <e lm="geniet"><i>geniet</i><par n="ontwikkel__vblex"/></e>
+    <e lm="gebeur"><i>gebeur</i><par n="ontwikkel__vblex"/></e>
     <e lm="oopmaak"><i>oopmaak</i><par n="breek__vblex"/></e>
 
     <!-- Verbs that take 'become' in the past :: e.g. verwesenlik word = become realise = be realised -->
