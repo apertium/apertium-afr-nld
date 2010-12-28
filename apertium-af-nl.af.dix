@@ -719,6 +719,7 @@
 
     <pardef n="artikel__n">
       <e>       <p><l/><r><s n="n"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e r="LR"><p><l>s</l><r><s n="n"/><s n="sg"/></r></p><par n="cmp-L"/></e>
       <e>       <p><l>s</l><r><s n="n"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
 
