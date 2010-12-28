@@ -41,8 +41,10 @@ dev/eval/eval.2010-12-23.wikipedia.2.apertium.txt -text
 dev/eval/eval.2010-12-27.wikipedia.1.google.txt -text
 dev/eval/eval.2010-12-27.wikipedia.2.google.txt -text
 dev/eval/evaluation-log.txt -text
-dev/generation-summary.txt -text
-dev/generation-test.sh -text
+dev/generation-summary.af-nl.txt -text
+dev/generation-summary.nl-af.txt -text
+dev/generation-test.af-nl.sh -text
+dev/generation-test.nl-af.sh -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
