@@ -54,6 +54,10 @@
     <def-cat n="prpers_obj">
       <cat-item lemma="prpers" tags="prn.obj.*"/>
     </def-cat>
+    <def-cat n="verbhaver">
+      <cat-item tags="vbhaver.pres"/>
+      <cat-item tags="vbhaver.past"/>
+    </def-cat>
     <def-cat n="verbmod_past">
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbhaver.past"/>
@@ -195,6 +199,81 @@
     <def-var n="nombre"/>
     <def-var n="seen_neg"/>
   </section-def-vars>
+
+  <section-def-lists>
+    <def-list n="aditzak_zijn">
+      <list-item v="aanbreken"/>
+      <list-item v="afdruipen"/>
+      <list-item v="aflopen"/>
+      <list-item v="aftreden"/>
+      <list-item v="bederven"/>
+      <list-item v="beginnen"/>
+      <list-item v="bevriezen"/>
+      <list-item v="bezwijken"/>
+      <list-item v="binnendringen"/>
+      <list-item v="binnenspringen"/>
+      <list-item v="binnentreden"/>
+      <list-item v="blijken"/>
+      <list-item v="blijven"/>
+      <list-item v="breken"/>
+      <list-item v="doorlopen"/>
+      <list-item v="doorschieten"/>
+      <list-item v="druipen"/>
+      <list-item v="duiken"/>
+      <list-item v="gaan"/>
+      <list-item v="genezen"/>
+      <list-item v="glijden"/>
+      <list-item v="klimmen"/>
+      <list-item v="komen"/>
+      <list-item v="krimpen"/>
+      <list-item v="kruipen"/>
+      <list-item v="langslopen"/>
+      <list-item v="lopen"/>
+      <list-item v="mislopen"/>
+      <list-item v="neerstrijken"/>
+      <list-item v="ontluiken"/>
+      <list-item v="ontstaan"/>
+      <list-item v="ophouden"/>
+      <list-item v="opklimmen"/>
+      <list-item v="optrekken"/>
+      <list-item v="overlijden"/>
+      <list-item v="oversteken"/>
+      <list-item v="raken"/>
+      <list-item v="rijden"/>
+      <list-item v="scheiden"/>
+      <list-item v="schijnen"/>
+      <list-item v="schrikken"/>
+      <list-item v="slijten"/>
+      <list-item v="sluiten"/>
+      <list-item v="smelten"/>
+      <list-item v="splijten"/>
+      <list-item v="springen"/>
+      <list-item v="spruiten"/>
+      <list-item v="sterven"/>
+      <list-item v="stijgen"/>
+      <list-item v="treden"/>
+      <list-item v="trekken"/>
+      <list-item v="uitvaren"/>
+      <list-item v="vallen"/>
+      <list-item v="varen"/>
+      <list-item v="veranderen"/>
+      <list-item v="verdrinken"/>
+      <list-item v="verdwijnen"/>
+      <list-item v="verschijnen"/>
+      <list-item v="voorkomen"/>
+      <list-item v="wandelen"/>
+      <list-item v="wijken"/>
+      <list-item v="worden"/>
+      <list-item v="zinken"/>
+      <list-item v="zwellen"/>
+      <list-item v="zwemmen"/>
+    </def-list>
+    <def-list n="neg_pron_adv">
+      <list-item v="niemand"/>
+      <list-item v="niks"/>
+    </def-list>
+  </section-def-lists>
+
  
   <section-def-macros>
     <def-macro n="f_concord2" npar="2">
@@ -430,6 +509,21 @@
         <pattern-item n="pron"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <list n="neg_pron_adv"/>
+              </in>
+            </test>
+            <let>
+              <var n="seen_neg"/>
+              <lit v="true"/>
+            </let>
+          </when>
+
+        </choose>
         <choose>
           <when>
             <test>
@@ -1109,6 +1203,122 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: verbhaver nie verbpp nie">
+      <pattern>
+        <pattern-item n="verbhaver"/>
+        <pattern-item n="nie"/>
+        <pattern-item n="verbpp"/>
+        <pattern-item n="nie"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="tl" part="lem"/>
+                <list n="aditzak_zijn"/>
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit v="zijn"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="vbser"/>
+            </let>
+          </when>
+
+        </choose>
+
+        <out>
+          <chunk name="verb_pp">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="3.4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adv"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_verb"/>
+              <clip pos="3" side="tl" part="temps"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="REGLA: verbhaver verbpp">
+      <pattern>
+        <pattern-item n="verbhaver"/>
+        <pattern-item n="verbpp"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="tl" part="lem"/>
+                <list n="aditzak_zijn"/>
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit v="zijn"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="vbser"/>
+            </let>
+          </when>
+
+        </choose>
+
+        <out>
+          <chunk name="verb_pp">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="3.4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: verbmod_past">
       <pattern>
