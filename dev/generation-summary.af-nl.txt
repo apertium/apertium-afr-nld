@@ -13,6 +13,8 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
+     17 #rol\<n\>\<mf\>\<sg\>\<cmp\>	^rol<n><mf><sg><cmp>$
+      1 #Krokodil\<n\>\<mf\>\<sg\>\<cmp\>	^Krokodil<n><mf><sg><cmp>$
       1 #doorstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorstaan<vblex><sep><fm><pres><p3><sg>$
 
 ===============================================================================
@@ -20,5 +22,5 @@ Summary
 ===============================================================================
   0 /tmp/af-nl.multiform
   0 /tmp/af-nl.multibidix
-  1 /tmp/af-nl.tagmismatch
-  1 total
+  3 /tmp/af-nl.tagmismatch
+  3 total
