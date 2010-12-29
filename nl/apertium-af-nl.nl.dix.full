@@ -10023,6 +10023,7 @@
     <!-- SECTION: Prepositions -->
 
     <e lm="aan"><i>aan</i><par n="van__pr"/></e>
+	<e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
     <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
     <e lm="achter"><i>achter</i><par n="van__pr"/></e>
     <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
@@ -10122,6 +10123,7 @@
 
 
     <e lm="alhoewel"><i>alhoewel</i><par n="dus__cnjadv"/></e>
+	<e lm="doordat"><i>doordat</i><par n="dus__cnjadv"/></e>
     <e lm="indien"><i>indien</i><par n="dus__cnjadv"/></e>
     <e lm="bijvoorbeeld"><i>bijvoorbeeld</i><par n="dus__cnjadv"/></e>
     <e lm="daarvoor"><i>daarvoor</i><par n="dus__cnjadv"/></e>
@@ -10243,9 +10245,18 @@
 
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
-
+	
+	<e lm="alles"><i>alles</i><par n="alles__prn"/></e>
+	<e lm="hetzelfde"><i>hetzelfde</i><par n="hetzelfde__prn"/></e>
     <e lm="zichzelf"><i>zichzelf</i><par n="zelf__prn"/></e>
 	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
+	<e lm="zich"><i>zich</i><par n="zelf__prn"/></e>
+	<e lm="men"><i>men</i><par n="beide__prn"/></e>
+	<e lm="dezelfde"><i>dezelfde</i><par n="alle__prn"/></e>
+	<e lm="elkaar"><i>elkaar</i><par n="beide__prn"/></e>
+	<e lm="elk"><i>elk</i><par n="elke__prn"/></e>
+	<e lm="niets"><i>niets</i><par n="mens__prn"/></e>
+	<e lm="allerlei"><i>allerlei</i><par n="allerlei__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <!--<e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>-->
@@ -10366,6 +10377,10 @@
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
     <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
+	
+	<e lm="met name"><i>met<b/>name</i><par n="es__adv"/></e>
+	<e lm="ervoor"><i>ervoor</i><par n="es__adv"/></e>
+	<e lm="met behulp van"><i>met<b/>behulp<b/>van</i><par n="es__adv"/></e>
 
 
     <e lm="helemaal aan het begin"><i>helemaal<b/>aan<b/>het<b/>begin</i><par n="es__adv"/></e>
@@ -11606,6 +11621,17 @@
 
 
     <!-- SECTION: Adjectives -->
+	
+	
+	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
+	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
+	<e lm="jarige"><i>jarige</i><par n="eng__adj_sint"/></e>
+	<e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
+	<e lm="single"><i>single</i><par n="cash__adj"/></e>
+	<e lm="toenmalig"><i>toenmalig</i><par n="eng__adj_sint"/></e>
+	<e lm="extra"><i>extra</i><par n="cash__adj"/></e>
+	<e lm="dergelijk"><i>dergelijk</i><par n="nipt__adj"/></e>
+
 
     <e lm="veel"><i></i><par n="/veel__adj_sint"/></e>
 	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
@@ -13988,7 +14014,16 @@
     <!--<e lm="x"><i>x</i><par n="x__n_mf"/></e>-->
     <!--<e lm="y"><i>y</i><par n="y__n_mf"/></e>-->
     <!--<e lm="z"><i>z</i><par n="z__n_mf"/></e>-->
-
+	
+	<e lm="plaats"><i>plaats</i><par n="hui__mf"/></e>
+	<e lm="meerdere"><i>meerdere</i><par n="wake__n_mf"/></e>
+	<e lm="FC"><i>FC</i><par n="ra__n_mf"/></e>
+	<e lm="cc"><i>cc</i><par n="km__n_m"/></e>
+	<e lm="type"><i>type</i><par n="tegelalgortime__n_nt"/></e>
+	<e lm="cup"><i>cup</i><par n="geluidstape__n_m"/></e>
+	<e lm="district"><i>district</i><par n="lot__n_nt"/></e>
+	<e lm="VS"><i>VS</i><par n="eb__n_f"/></e>
+	<e lm="verleden"><i>verleden</i><par n="eon__n_nt"/></e>
 
     <e lm="aluminium"><i>aluminium</i><par n="OV__n_nt"/></e>
     <e lm="dubbele"><i>dubbele</i><par n="OV__n_nt"/></e>
@@ -27880,6 +27915,36 @@
     <e lm="Nederlands"><i>Nederlands</i><par n="Nederlands__np"/></e>
     <e lm="Afrika"><i>Afrika</i><par n="Afrika__np"/></e>
     <e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
+	
+	<e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
+	<e lm="San Marino"><i>San<b/>Marino</i><par n="Afrika__np"/></e>
+	<e lm="San José"><i>San<b/>José</i><par n="Frankrijk__np"/></e>
+	<e lm="Utrecht"><i>Utrecht</i><par n="Frankrijk__np"/></e>
+	<e lm="Den Haag"><i>Den<b/>Haag</i><par n="Frankrijk__np"/></e>
+	<e lm="Den Helder"><i>Den<b/>Helder</i><par n="Frankrijk__np"/></e>
+	<e lm="Den Bosch"><i>Den<b/>Bosch</i><par n="Frankrijk__np"/></e>
+	<e lm="Rotterdam"><i>Rotterdam</i><par n="Frankrijk__np"/></e>
+	<e lm="Antwerpen"><i>Antwerpen</i><par n="Frankrijk__np"/></e>
+	<e lm="Groningen"><i>Groningen</i><par n="Frankrijk__np"/></e>
+	<e lm="La Coruña"><i>La<b/>Coruña</i><par n="Afrika__np"/></e>
+	<e lm="La Louvière"><i>La<b/>Louvière</i><par n="Frankrijk__np"/></e>
+	<e lm="La Paz"><i>La<b/>Paz</i><par n="Nederlands__np"/></e>
+	<e lm="Holland"><i>Holland</i><par n="Frankrijk__np"/></e>
+	<e lm="Nederlanden"><i>Nederlanden</i><par n="Frankrijk__np"/></e>
+	<e lm="Gent"><i>Gent</i><par n="Frankrijk__np"/></e>
+	<e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
+	<e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
+	<e lm="New Orleans"><i>New<b/>Orleans</i><par n="Nederlands__np"/></e>
+	<e lm="Napoleon"><i>Napoleon</i><par n="van_der_Merwe__np"/></e>
+
+
+	<e lm="Brabant"><i>Brabant</i><par n="Frankrijk__np"/></e>
+
+	
+	<e lm="Lodewijk"><i>Lodewijk</i><par n="Wynand__np"/></e>
+	<e lm="Harry"><i>Harry</i><par n="Harry__np"/></e>
+
+	<e lm="Karel"><i>Karel</i><par n="Wynand__np"/></e>
 
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
 	<e lm="Vilnius"><i>Vilnius</i><par n="Frankrijk__np"/></e>
