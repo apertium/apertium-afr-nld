@@ -11625,7 +11625,7 @@
 	
 	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
 	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
-	<e lm="jarige"><i>jarige</i><par n="eng__adj_sint"/></e>
+	<e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
 	<e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
 	<e lm="single"><i>single</i><par n="cash__adj"/></e>
 	<e lm="toenmalig"><i>toenmalig</i><par n="eng__adj_sint"/></e>
