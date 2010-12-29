@@ -709,7 +709,7 @@
       <action>
         <call-macro n="f_concord2">
           <with-param pos="1"/>
-          <with-param pos="3"/>
+          <with-param pos="4"/>
         </call-macro>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
@@ -856,13 +856,13 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ NOM-CMP NOM">
+    <rule comment="REGLA: ADJ NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-            <out>
+        <out>
           <chunk name="adj_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
