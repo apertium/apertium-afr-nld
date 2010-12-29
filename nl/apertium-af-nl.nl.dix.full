@@ -10254,7 +10254,6 @@
 	<e lm="men"><i>men</i><par n="beide__prn"/></e>
 	<e lm="dezelfde"><i>dezelfde</i><par n="alle__prn"/></e>
 	<e lm="elkaar"><i>elkaar</i><par n="beide__prn"/></e>
-	<e lm="elk"><i>elk</i><par n="elke__prn"/></e>
 	<e lm="niets"><i>niets</i><par n="mens__prn"/></e>
 	<e lm="allerlei"><i>allerlei</i><par n="allerlei__prn"/></e>
 
@@ -14015,7 +14014,7 @@
     <!--<e lm="y"><i>y</i><par n="y__n_mf"/></e>-->
     <!--<e lm="z"><i>z</i><par n="z__n_mf"/></e>-->
 	
-	<e lm="plaats"><i>plaats</i><par n="hui__mf"/></e>
+	<e lm="plaats"><i>plaats</i><par n="hui__n_mf"/></e>
 	<e lm="meerdere"><i>meerdere</i><par n="wake__n_mf"/></e>
 	<e lm="FC"><i>FC</i><par n="ra__n_mf"/></e>
 	<e lm="cc"><i>cc</i><par n="km__n_m"/></e>
