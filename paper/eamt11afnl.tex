@@ -1,0 +1,279 @@
+%
+% File eamt11.tex, adapted from eamt10.tex
+%
+% Contact: vincent@ccl.kuleuven.be
+
+%%% To ease future customizations, various replaceables have been paramaterized
+%%% as listed in the newcommands section
+
+\documentclass[11pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{eamt11}
+\usepackage{url}
+\usepackage{times}
+\usepackage[small,bf]{caption}
+\usepackage{latexsym}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+
+\newcommand{\confname}{EAMT 2011}
+\newcommand{\website}{http://www.eamt2011.eu/}
+\newcommand{\contactname}{the programme chairs Mikel Forcada \& Heidi De Praetere}
+\newcommand{\contactemail}{mlf@dlsi.ua.es} 
+\newcommand{\conffilename}{eamt11}
+\newcommand{\downloadsite}{http://www.eamt2011.eu/}
+\newcommand{\paperlength}{$8$ (eight)}
+\newcommand{\shortpaperlength}{$4$ (four)}
+
+\title{Rapid rule-based machine translation between Dutch and Afrikaans}
+
+\author{Pim Otte\\
+  Affiliation / Address line 1\\
+  Affiliation / Address line 2\\
+  Affiliation / Address line 3\\
+  {\tt email@domain}  \And
+  Francis M. Tyers\\
+  Dept. Lleng. i Sist. Inform.\\
+  Universitat d'Alacant\\
+  E-03070 Alacant \\
+  {\tt ftyers@dlsi.ua.es}}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+ This paper describes the design, development and evaluation of a machine
+ translation system between Dutch and Afrikaans developed over a period of
+ around a month.
+\end{abstract}
+
+\section{Introduction}
+
+\begin{itemize}
+\item languages, machine translation, existing work
+\end{itemize}
+
+\section{Method}
+
+The system is based on the Apertium machine translation platform.\footnote{\url{http://www.apertium.org}} The
+platform was originally aimed at the Romance languages of the Iberian
+peninsula, but has also been adapted for other, more distantly related,
+language pairs. The whole platform, both programs and data, are licensed
+under the Free Software Foundation's General Public
+Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL)
+and all the software and data for the 25 supported language pairs (and the
+other pairs being worked on) is available for download from the project
+website.
+
+\begin{itemize}
+\item development time, how apertium works (fig. 1)
+\end{itemize}
+
+\subsection{Existing resources}
+
+One existing resource was reused with very little modification, that is the 
+morphological analyser for Afrikaans created during a separate project on English--Afrikaans
+machine translation. Some changes were made. The structure of verb entries
+was wholly revised, and infrequent words were removed.
+
+\subsection{Resources created}
+
+\subsubsection{Dutch morphological analyser}
+
+The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
+morphological analyser were extracted semi-automatically from 
+Wiktionary,\footnote{\url{http://www.wiktionary.org}} a free online 
+dictionary that often includes inflectional information. In the case 
+of Dutch nouns it often (although not always) gives the gender and the 
+plural and diminutive forms (see for example Figure~\ref{fig:wikt1}).
+The category {\small {\tt Dutch nouns}} has a total of 10,610 entries,
+while the corresponding category on the Dutch Wiktionary has 13,176 entries.
+
+Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:02}.
+
+\begin{figure*}
+\centering
+\begin{small}
+\begin{tabular}{|l|}
+\hline
+{\large Dutch} \\
+~\\
+{\bf Etymology}\\
+~\\
+~{\em hoofd-} (``main, head'') + {\em stad} (``city'')\\
+~\\
+{\bf Pronunciation}\\
+~\\
+{\bf Noun}\\
+~\\
+{\bf hoofdstad} m. ({\em plural} hoofdsteden, {\em diminutive} hoofdstadje, {\em diminutive} plural hoofdstadjes) \\
+~\\
+~~~~1. capital city \\
+
+\hline
+\end{tabular}
+\end{small}
+\caption{English language Wiktionary article for Dutch \emph{hoofdstad} `capital city' 
+    {\small \url{http://en.wiktionary.org/wiki/hoofdstad}}}
+\label{fig:wikt1}
+\end{figure*}
+
+\subsubsection{Bilingual dictionary}
+
+\begin{itemize}
+\item wikipedia, wiktionary, cognates
+\end{itemize}
+
+\subsubsection{Transfer rules}
+
+\subsubsection{Compound words}
+
+
+Both Afrikaans and Dutch are languages in which words combine very
+productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
+`infrastructure development plan' and {\em personeelverminderingsprosedure}
+`personnel protection procedure'. As it is impractical to introduce
+all compound words into the lexicons, compound word analysis is performed on
+all unknown words. The analysis process works longest-match left-to-right
+using the same transducer as is used for morphological analysis.
+Results are restricted by two special
+symbols which do not appear in the output {\small {\tt compound-L}} and {\small {\tt compound-R}}.
+The {\small {\tt compound-L}} symbol is used for forms that can only appear on the
+left side (e.g. surface form) of a compound, where {\small {\tt compound-R}} is
+used for forms that can either appear in a compound, or end it.
+Epenthetics, that is linking letters that occur between compound words
+are also taken care of heuristically in this way. For example the -s-
+in ontwikkelingsplan or the -e- in EXAMPLE.
+
+
+\begin{figure*}
+\begin{small}
+\begin{verbatim}
+die personeelverminderingsprosedure
+
+^die<det><def><sg>$
+^personeel<n><sg><cmp>+vermindering<n><sg><cmp>+prosedure<n><sg>$
+
+^de<det><ind><mf><sg>$
+^personeel<n><nt><sg><cmp>$^terugdringing<n><f><sg><cmp>$^procedure<n><mf><sg>$
+
+de personeelterugdringingsprocedure
+\end{verbatim}
+\end{small}
+\end{figure*}
+
+There are some limitations to this method. For example although
+both {\em ontwikkeling-} and {\em ontwikkelings-} can be analysed as an internal part
+of a compound, only one of them can be generated. Which one will be generated
+is decided based on the inflectional paradigm to which the word belongs. For
+example {\small {\tt ontwikkeling$<$n$><$sg$><$cmp$>$}} will produce {\em ontwikkelings-} in generation,
+where {\small {\tt personeel$<$n$><$sg$><$cmp$>$}} will produce personeel.
+
+\subsubsection{Separable verbs}
+
+Another feature of Afrikaans and Dutch is separable verbs, for example
+the Afrikaans {\em uitgaan} `to go out'. This can appear in the following
+forms {\em uitgaan}, {\em gaan uit}, {\em uitgegaan}. Additionally the two constituent
+parts of the verb in {\em gaan uit}, the verb itself {\em gaan} and the particle
+{\em uit} may be separated by a word or phrase, {\em Ek gaan na die strand 
+uit} `I go out to the beach'.
+
+The following cases are supported,
+
+\begin{itemize}
+\item Infinitive: uitgaan $\rightarrow$ uitgaan
+\item Participle: uitgegaan $\rightarrow$ uitgegaan
+\item Non-separated: Ik ga uit naar het strand vandaag $\rightarrow$
+\item Subordinate: Hoe in de klas het licht uitging $\rightarrow$
+\end{itemize}
+
+Verbs separated by a word or phrase are currently translated word-for-word,
+so the particle and verb are translated. This causes a problem when the
+verb is not constructed equally in Afrikaans and Dutch. Also, when one part
+of the verb, for example in {\em aankondig} `to announce' does not exist as
+a stand-alone verb, {\em kondig} is not a word. Thus {\em ... kondig ... aan} `'
+cannot be analysed currently.
+
+A module is under development to handle separable verbs, but is currently
+in the prototype stage.
+
+There are currently 484 separable verbs defined in the bilingual
+dictionary. Of these, 439 are separable in both languages, 33 are
+separable in Afrikaans but not in Dutch, and 12 are separable in
+Dutch but not Afrikaans.
+
+\subsection{Current status}
+
+Dutch monolingual: 5,895
+Afrikaans monolingual: 6,285
+Bilingual: 5,813
+
+\section{Evaluation}
+
+The systems were evaluated in four ways. The first was the 
+coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, 
+that is for any given surface form at least one analysis is returned. This 
+may not be complete.} of the system. The second was the word error 
+rate (WER) of the translations produced when comparing with a 
+corrected sentence. The third was an analysis of the errors found by the second
+evaluation and finally a comparative evaluation with existing systems.
+
+\subsection{Coverage}
+
+Lexical coverage of the system is calculated over the Afrikaans and Dutch Wikipedias:
+Both corpora were split into four sections and coverage calculated over each of the 
+sections in order to calculate the standard deviation.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|c|r|r|}
+   \hline
+   {\bf Corpus}           & {\bf Tokens}    & {\bf Coverage}\\
+   \hline
+   {\tt af} Wikipedia     & 2,926,943       & 82.1\% $\pm$ 0.8 \\
+   \hline
+   {\tt nl} Wikipedia     & 18,569,183      & 78.3\% $\pm$ 0.85 \\
+   \hline
+  \end{tabular}
+    \caption{Na\"ive vocabulary coverage for the two morphological analysers.}
+    \label{table:coverage}
+  \end{center}
+\end{table}
+
+
+\subsection{Quantitative}
+
+\subsection{Qualitative}
+
+\subsection{Comparative}
+
+\section{Discussion}
+
+\subsection{Future work}
+
+\section*{Acknowledgements}
+
+Development of this system was partially supported by the Google Code-in,
+a contest to introduce pre-university students to contributing to open-source
+software.
+
+% \bibliography{\confname}
+
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Shetter and Ham}2002]{Shetter:02}
+Shetter, William~Z. and Ham, Esther.
+\newblock 2002.
+\newblock {\em Dutch: An Essential Grammar}, 9th~edition.
+\newblock Routledge, Oxford.
+
+\bibitem[\protect\citename{van Huyssteen and Pilon}2009]{Huyssteen:09}
+van Huyssteen, Gerhard and Pilon, Suléne
+\newblock 2009. 
+\newblock Rule-based Conversion of Closely-related Languages: A Dutch-to-Afrikaans Convertor. 
+\newblock {\em Proceedings of the 2009 Conference of the Pattern Recognition Association of South Africa}, Stellenbosch, SA
+\newblock 23--28.
+
+\end{thebibliography}
+
+\end{document}
