@@ -139,7 +139,7 @@
    <!-- SECTION: Conjunctions -->
 
    <pardef n="en__cnjcoo">
-    <e>       <p><l></l><rs><s n="cnjcoo"/></r></p></e>
+    <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
    </pardef>  
  
    <pardef n="omdat__cnjsub">

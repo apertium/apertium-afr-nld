@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüû</alphabet>
+   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñ</alphabet>
    <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
@@ -248,6 +248,7 @@
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+	  <e r="LR"><p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
@@ -313,7 +314,15 @@
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
-
+    <pardef n="hetzelfde__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></r></p></e>
+    </pardef>
+    <pardef n="alles__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="allerlei__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
     <pardef n="mens__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
@@ -9955,7 +9964,10 @@
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
-
+    <pardef n="Harry__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
     <pardef n="Anrie__np">
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -10011,7 +10023,7 @@
     <e lm="druk"><i>druk</i><par n="gek__adj_sint"/></e>
 	<e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
 	<e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
-	<e lm="Christelijk"><i>Christelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="christelijk"><i>christelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="verder"><i>verder</i><par n="nipt__adj"/></e>
     <e lm="later"><i>later</i><par n="nipt__adj"/></e>
     <e lm="Zweeds"><i>Zweeds</i><par n="fors__adj_sint"/></e>
@@ -11241,6 +11253,7 @@
     <e lm="Centraal-Azië"><i>Centraal-Azië</i><par n="Frankrijk__np"/></e>
     <e lm="Noord-Afrika"><i>Noord-Afrika</i><par n="Afrika__np"/></e>
     <e lm="Sisilië"><i>Sisilië</i><par n="Frankrijk__np"/></e>
+	<e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
     <e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
     <e lm="Midden-Oosten"><i>Midden-Oosten</i><par n="Frankrijk__np"/></e>
     <e lm="Sardinië"><i>Sardinië</i><par n="Frankrijk__np"/></e>
@@ -11441,6 +11454,7 @@
     <e lm="Rusland"><i>Rusland</i><par n="Frankrijk__np"/></e>
     <e lm="Rwanda"><i>Rwanda</i><par n="Afrika__np"/></e>
     <e lm="San Diego"><i>San<b/>Diego</i><par n="Afrika__np"/></e>
+	<e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
     <e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
     <e lm="Saoedi-Arabië"><i>Saoedi-Arabië</i><par n="Frankrijk__np"/></e>
     <e lm="Saoedi-Arabië"><i>Saoedi-Arabië</i><par n="Frankrijk__np"/></e>
@@ -14851,6 +14865,7 @@
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="allemaal"><i>allemaal</i><par n="mens__prn"/></e>
     <e lm="enig iets"><i>enig<b/>iets</i><par n="mens__prn"/></e>
+	<e lm="alles"><i>alles</i><par n="alles__prn"/></e>
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <e lm="mens"><i>mens</i><par n="mens__prn"/></e>
