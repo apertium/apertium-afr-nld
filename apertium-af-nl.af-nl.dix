@@ -469,7 +469,7 @@
 	<e><p><l>plaas<s n="n"/></l><r>plaats<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>meerdere<s n="n"/><s n="mf"/></l><r>meerdere<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>FC<s n="n"/></l><r>FC<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>cc<s n="n"/><s n="m"/></l><r>cc<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cc<s n="n"/><s n="acr"/></l><r>cc<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 	<e r="RL"><p><l>tipe<s n="n"/></l><r>type<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL"><p><l>kop<s n="n"/></l><r>cup<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>gebied<s n="n"/></l><r>district<s n="n"/><s n="nt"/></r></p></e>
@@ -3709,27 +3709,27 @@
 	<e><p><l>San<b/>Francisco<s n="np"/><s n="top"/></l><r>San<b/>Francisco<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>San<b/>Marino<s n="np"/><s n="top"/></l><r>San<b/>Marino<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>San<b/>José<s n="np"/><s n="top"/></l><r>San<b/>José<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Utrecht<s n="np"/><s n="top"/></l><r>Utrecht<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>Utrecht<s n="np"/><s n="top"/></l><r>Utrecht<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Karel<s n="np"/><s n="ant"/><s n="m"/></l><r>Karel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>Groningen<s n="np"/><s n="top"/></l><r>Groningen<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Den<b/>Haag<s n="np"/><s n="top"/></l><r>Den<b/>Haag<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Den<b/>Helder<s n="np"/><s n="top"/></l><r>Den<b/>Helder<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Den<b/>Bosch<s n="np"/><s n="top"/></l><r>Den<b/>Bosch<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Rotterdam<s n="np"/><s n="top"/></l><r>Rotterdam<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Antwerpen<s n="np"/><s n="top"/></l><r>Antwerpen<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>La<b/>Coruña<s n="np"/><s n="top"/></l><r>La<b/>Coruña<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>La<b/>Louvière<s n="np"/><s n="top"/></l><r>La<b/>Louvière<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>La<b/>Paz<s n="np"/><s n="top"/></l><r>La<b/>Paz<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Holland<s n="np"/><s n="top"/></l><r>Holland<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Lodewyk<s n="np"/><s n="ant"/><s n="m"/></l><r>Lodewijk<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+	<e><p><l>Groningen<s n="np"/><s n="top"/></l><r>Groningen<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Den<b/>Haag<s n="np"/><s n="top"/></l><r>Den<b/>Haag<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Den<b/>Helder<s n="np"/><s n="top"/></l><r>Den<b/>Helder<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Den<b/>Bosch<s n="np"/><s n="top"/></l><r>Den<b/>Bosch<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Rotterdam<s n="np"/><s n="top"/></l><r>Rotterdam<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Antwerpen<s n="np"/><s n="top"/></l><r>Antwerpen<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>La<b/>Coruña<s n="np"/><s n="top"/></l><r>La<b/>Coruña<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>La<b/>Louvière<s n="np"/><s n="top"/></l><r>La<b/>Louvière<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>La<b/>Paz<s n="np"/><s n="top"/></l><r>La<b/>Paz<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Holland<s n="np"/><s n="top"/></l><r>Holland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Nederlanden<s n="np"/><s n="top"/></l><r>Nederlanden<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>New<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>New<b/>Orleans<s n="np"/><s n="top"/></l><r>New<b/>Orleans<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Gent<s n="np"/><s n="top"/></l><r>Gent<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Brabant<s n="np"/><s n="top"/></l><r>Brabant<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Amerika<s n="np"/><s n="top"/></l><r>Amerika<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Nederlanden<s n="np"/><s n="top"/></l><r>Nederlanden<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Harry<s n="np"/><s n="ant"/><s n="m"/></l><r>Harry<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>New<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>New<b/>Orleans<s n="np"/><s n="top"/></l><r>New<b/>Orleans<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Napoleon<s n="np"/><s n="ant"/><s n="m"/></l><r>Napoleon<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>Gent<s n="np"/><s n="top"/></l><r>Gent<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>Brabant<s n="np"/><s n="top"/></l><r>Brabant<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>Lodewyk<s n="np"/><s n="ant"/><s n="m"/></l><r>Lodewijk<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	
 
 	<e><p><l>Vilnius<s n="np"/><s n="top"/></l><r>Vilnius<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -4084,11 +4084,11 @@
     <!-- SECTION: Adjectives -->
 	
 	<e><p><l>Belgies<s n="adj"/></l><r>Belgisch<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>bestaand<s n="adj"/></l><r>bestaand<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>geheel<s n="adj"/></l><r>geheel<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>bestaand<s n="adj"/></l><r>bestaand<s n="adj"/></r></p></e>
+	<e><p><l>geheel<s n="adj"/></l><r>geheel<s n="adj"/></r></p></e>
 	<e><p><l>vas<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>eg<s n="adj"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/></r></p></e>
 	<e><p><l>Vlaamees<s n="adj"/></l><r>Vlaams<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Japannees<s n="adj"/></l><r>Japans<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Chinees<s n="adj"/></l><r>Chinees<s n="adj"/><s n="sint"/></r></p></e>
@@ -4099,6 +4099,7 @@
 	<e><p><l>ongetroud<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
 	<e><p><l>destyds<s n="adj"/><s n="sint"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
+	<e><p><l>extra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
 	<e><p><l>sodanig<s n="adj"/></l><r>dergelijk<s n="adj"/></r></p></e>
 	<e><p><l>alleen<s n="adj"/></l><r>alleen<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>baie<s n="adj"/><s n="sint"/></l><r>zeer<s n="adj"/><s n="sint"/></r></p></e>
