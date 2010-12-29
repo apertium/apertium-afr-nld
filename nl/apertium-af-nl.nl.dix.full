@@ -139,7 +139,7 @@
    <!-- SECTION: Conjunctions -->
 
    <pardef n="en__cnjcoo">
-    <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
+    <e>       <p><l></l><rs><s n="cnjcoo"/></r></p></e>
    </pardef>  
  
    <pardef n="omdat__cnjsub">
@@ -319,6 +319,9 @@
     </pardef>
     <pardef n="alles__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="allerlei__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mfn"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="mens__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -9961,7 +9964,10 @@
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
-
+    <pardef n="Harry__np">
+      <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
     <pardef n="Anrie__np">
       <e>       <p><l/><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
