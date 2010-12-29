@@ -2425,7 +2425,6 @@
     <e><p><l>sosioloog<s n="n"/></l><r>socioloog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spanning<s n="n"/></l><r>spanning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spel<s n="n"/></l><r>spel<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>spesie<s n="n"/></l><r>soort<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spoed<s n="n"/></l><r>snelheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spoel<s n="n"/></l><r>spoel<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>sport<s n="n"/></l><r>sport<s n="n"/><s n="mf"/></r></p></e>
@@ -4101,14 +4100,14 @@
 	<e><p><l>destyds<s n="adj"/><s n="sint"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
 	<e><p><l>sodanig<s n="adj"/></l><r>dergelijk<s n="adj"/></r></p></e>
-	<e><p><l>alleen<s n="adj"/><s n="sint"/></l><r>alleen<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>alleen<s n="adj"/></l><r>alleen<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>baie<s n="adj"/><s n="sint"/></l><r>zeer<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>bleek<s n="adj"/></l><r>bleek<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>aanwezig<s n="adj"/></l><r>aanwezig<s n="adj"/></r></p></e>
+	<e><p><l>aanwesig<s n="adj"/></l><r>aanwezig<s n="adj"/></r></p></e>
 	<e><p><l>heet<s n="adj"/><s n="sint"/></l><r>heet<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>gelyk<s n="adj"/></l><r>gelijk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>gewild<s n="adj"/></l><r>populair<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>goue<s n="adj"/></l><r>gouden<s n="adj"/></r></p></e>
+	<e><p><l>gou<s n="adj"/></l><r>gouden<s n="adj"/></r></p></e>
 	<e><p><l>eintlik<s n="adj"/></l><r>eigenlijk<s n="adj"/></r></p></e>
 	<e><p><l>juis<s n="adj"/></l><r>juist<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>druk<s n="adj"/><s n="sint"/></l><r>druk<s n="adj"/><s n="sint"/></r></p></e>
@@ -4985,7 +4984,6 @@
 	<e><p><l>eer<s n="adv"/></l><r>ervoor<s n="adv"/></r></p></e>
 	<e><p><l>met<b/>behulp<b/>van<s n="adv"/></l><r>met<b/>behulp<b/>van<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>toe<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
-	<e><p><l>dikwels<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
 	<e><p><l>veral<s n="adv"/></l><r>vooral<s n="adv"/></r></p></e>
 	<e><p><l>alleen<s n="adv"/></l><r>alleen<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>baie<s n="adv"/></l><r>zeer<s n="adv"/></r></p></e>
@@ -5488,7 +5486,7 @@
     <e><p><l>betrokke<s n="vblex"/></l><r>betrekken<s n="vblex"/></r></p></e>
     <e><p><l>brei<s n="vblex"/></l><r>breien<s n="vblex"/></r></p></e>
     <e><p><l>teken<s n="vblex"/></l><r>tekenen<s n="vblex"/></r></p></e>
-    <e><p><l>sit<s n="vblex"/></l><r>zitten<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>sit<s n="vblex"/></l><r>zitten<s n="vblex"/></r></p></e>
 
     <e><p><l>behaal<s n="vblex"/></l><r>behalen<s n="vblex"/></r></p></e>
     <e><p><l>pas<s n="vblex"/></l><r>passen<s n="vblex"/></r></p></e>
