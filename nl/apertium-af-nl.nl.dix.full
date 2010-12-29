@@ -248,6 +248,7 @@
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+	  <e r="LR"><p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
@@ -313,7 +314,9 @@
     <pardef n="alle__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
-
+    <pardef n="hetzelfde__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></r></p></e>
+    </pardef>
     <pardef n="mens__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
