@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüû</alphabet>
+   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñ</alphabet>
    <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="np"      c="Proper noun"/>
@@ -316,6 +316,9 @@
     </pardef>
     <pardef n="hetzelfde__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></r></p></e>
+    </pardef>
+    <pardef n="alles__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/></r></p></e>
     </pardef>
     <pardef n="mens__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
