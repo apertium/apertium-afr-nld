@@ -143,7 +143,6 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 
 \subsubsection{Compound words}
 
-
 Both Afrikaans and Dutch are languages in which words combine very
 productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
 `infrastructure development plan' and {\em personeelverminderingsprosedure}
@@ -243,7 +242,7 @@ sections in order to calculate the standard deviation.
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{|c|r|r|}
+  \begin{tabular}{|l|r|r|}
    \hline
    {\bf Corpus}           & {\bf Tokens}    & {\bf Coverage}\\
    \hline
@@ -259,7 +258,47 @@ sections in order to calculate the standard deviation.
 
 \subsection{Compound words}
 
+In order to test the accuracy of the word compounding/decompounding strategy
+we tested two lists of words which received compound analyses from 
+the Wikipedia. This test was only conducted in the Afrikaans$\rightarrow$Dutch
+direction, but we expect similar results in the other direction. The first
+set of sentences was constructed by taking the highest frequency 1,000 words which received 
+a compound analysis, the second was by taking a list of all the words and selecting
+1,000 pseudo-randomly.\footnote{Using the Unix {\small {\tt unsort}} program.}
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|r|r|}
+   \hline
+   {\bf Corpus}    & {\bf Corr. Segment.}    & {\bf Corr. Trans.}\\
+   \hline
+   top-1,000       &                         &  ~ \\ 
+   \hline
+   random-1,000    &                         &  ~ \\ 
+   \hline
+  \end{tabular}
+    \caption{Compound word accuracy in analysis and translation.}
+    \label{table:compounds}
+  \end{center}
+\end{table}
+
+We include results for both correct segmentation (meaning the word was decompounded 
+correctly) and correct translation (meaning the word was translated correctly). This allows
+us to take into account the {\em free ride} phenomenon, whereby an incorrect analysis
+may lead to a correct translation.
+
 \subsection{Quantitative}
+
+The translation quality was measured using two metrics, the first was word error rate (WER), and the 
+second was position-independent word error rate (PER). Both metrics are based on the Levenshtein 
+distance \cite{Levenshtein:65} and were calculated for each of the sentences using the 
+{\small \texttt{apertium-eval-translator}} tool.\footnote{\url{http://sourceforge.net/project/showfiles.php?group_id=143781&package_id=206517}; Version 1.0, 4th October 2006.} Metrics based on word error rate were chosen as to be able to compare 
+the system against systems based on similar technology, and to assess the usefulness of the 
+system in a real setting, that is of translating for dissemination. 
+
+Two sets of 100 sentences were selected pseudo-randomly from Wikipedia. The first set contained 
+no unknown words, whereas the second set could contain unknown words. This is to give an idea
+of the performance of the system in `ideal' and `realistic' settings.
 
 \subsection{Qualitative}
 
@@ -286,11 +325,19 @@ Shetter, William~Z. and Ham, Esther.
 \newblock Routledge, Oxford.
 
 \bibitem[\protect\citename{van Huyssteen and Pilon}2009]{Huyssteen:09}
-van Huyssteen, Gerhard and Pilon, Suléne
+van Huyssteen, Gerhard and Pilon, Suléne.
 \newblock 2009. 
 \newblock Rule-based Conversion of Closely-related Languages: A Dutch-to-Afrikaans Convertor. 
 \newblock {\em Proceedings of the 2009 Conference of the Pattern Recognition Association of South Africa}, Stellenbosch, SA
 \newblock 23--28.
+
+\bibitem[\protect\citename{Levenshtein}1965]{Levenshtein:65}
+Levenshtein, Vladimir.
+\newblock 1965. 
+\newblock Binary codes capable of correcting deletions, insertions, and reversals
+\newblock {\em Doklady Akademii Nauk SSSR}
+\newblock 845--848.
+
 
 \end{thebibliography}
 
