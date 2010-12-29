@@ -72,13 +72,17 @@ website.
 \subsection{Existing resources}
 
 One existing resource was reused with very little modification, that is the 
-morphological analyser for Afrikaans created during a separate project on English--Afrikaans
+morphological transducer for Afrikaans created during a separate project on English--Afrikaans
 machine translation. Some changes were made. The structure of verb entries
 was wholly revised, and infrequent words were removed.
 
 \subsection{Resources created}
 
-\subsubsection{Dutch morphological analyser}
+\subsubsection{Dutch morphological transducer}
+
+There are a number of existing morphological analysers for Dutch, based on ...
+
+We chose to create a new analyser because... (tagset, gender, analysis/generation, free software)
 
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
@@ -221,12 +225,14 @@ Bilingual: 5,813
 
 \section{Evaluation}
 
-The systems were evaluated in four ways. The first was the 
+The system was evaluated in five ways. The first was the 
 coverage\footnote{Here coverage is defined as \emph{na\"ive coverage}, 
 that is for any given surface form at least one analysis is returned. This 
-may not be complete.} of the system. The second was the word error 
+may not be complete.} of the system. The second was an evaluation of the 
+compound analysis part of the system -- new with respect to other 
+Apertium language pairs. The third was the word error 
 rate (WER) of the translations produced when comparing with a 
-corrected sentence. The third was an analysis of the errors found by the second
+corrected sentence. The fouth was an analysis of the errors found by the second
 evaluation and finally a comparative evaluation with existing systems.
 
 \subsection{Coverage}
@@ -251,6 +257,7 @@ sections in order to calculate the standard deviation.
   \end{center}
 \end{table}
 
+\subsection{Compound words}
 
 \subsection{Quantitative}
 
