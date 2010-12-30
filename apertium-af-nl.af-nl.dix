@@ -477,7 +477,7 @@
 	<e><p><l>verlede<s n="n"/></l><r>verleden<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>regering<s n="n"/></l><r>regering<s n="n"/><s n="f"/></r></p></e>
 	<e r="RL"><p><l>einde<s n="n"/></l><r>eind<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>WK<s n="n"/></l><r>WK<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>WK<s n="n"/><s n="acr"/></l><r>WK<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>span<s n="n"/></l><r>team<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>kanton<s n="n"/></l><r>kanton<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>stuk<s n="n"/></l><r>stuk<s n="n"/><s n="nt"/></r></p></e>
@@ -4089,20 +4089,20 @@
 	<e><p><l>vas<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>eg<s n="adj"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/></r></p></e>
-	<e><p><l>Vlaamees<s n="adj"/></l><r>Vlaams<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Vlaams<s n="adj"/></l><r>Vlaams<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Japannees<s n="adj"/></l><r>Japans<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Chinees<s n="adj"/></l><r>Chinees<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ander<s n="adj"/></l><r>ander<s n="adj"/></r></p></e>
 	<e><p><l>koms<s n="adj"/></l><r>afkomstig<s n="adj"/></r></p></e>
-	<e><p><l>jarig<s n="adj"/><s n="sint"/></l><r>jarig<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>jarig<s n="adj"/></l><r>jarig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>genoem<s n="adj"/></l><r>genaamd<s n="adj"/></r></p></e>
 	<e><p><l>ongetroud<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
-	<e><p><l>destyds<s n="adj"/><s n="sint"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>destyds<s n="adj"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
 	<e><p><l>extra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>
 	<e><p><l>sodanig<s n="adj"/></l><r>dergelijk<s n="adj"/></r></p></e>
 	<e><p><l>alleen<s n="adj"/></l><r>alleen<s n="adj"/><s n="sint"/></r></p></e>
-	<e><p><l>baie<s n="adj"/><s n="sint"/></l><r>zeer<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>baie<s n="adj"/></l><r>zeer<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>bleek<s n="adj"/></l><r>bleek<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>aanwesig<s n="adj"/></l><r>aanwezig<s n="adj"/></r></p></e>
 	<e><p><l>heet<s n="adj"/><s n="sint"/></l><r>heet<s n="adj"/><s n="sint"/></r></p></e>
