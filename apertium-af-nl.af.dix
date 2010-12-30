@@ -1115,7 +1115,11 @@
       <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
-
+    <pardef n="dieselfde__prn">
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
     <pardef n="wat__prn">
       <e>       <p><l/><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -1291,7 +1295,7 @@
 	<e lm="beide"><i>beide</i><par n="altwee__prn"/></e>
 	<e lm="men"><i>men</i><par n="altwee__prn"/></e>
 	<e lm="ander"><i>ander</i><par n="die_ander__prn"/></e>
-	<e lm="dieselfde"><i>dieselfde</i><par n="die_ander__prn"/></e>
+	<e lm="dieselfde"><i>dieselfde</i><par n="dieselfde__prn"/></e>
     <!--<e lm="die ander"><i>die<b/>ander</i><par n="die_ander__prn"/></e>-->
     <!--<e lm="een ander"><i>een<b/>ander</i><par n="die_ander__prn"/></e>--><!-- check this -->
     <e lm="alle"><i>alle</i><par n="die_ander__prn"/></e><!-- check this -->
@@ -1685,6 +1689,7 @@
     <!-- SECTION: Adverbs -->
 	
 	<e lm="mede"><i>mede</i><par n="miskien__adv"/></e>	
+	<e lm="eer"><i>eer</i><par n="miskien__adv"/></e>	
 	<e lm="waardeur"><i>waardeur</i><par n="miskien__adv"/></e>	
 	<e lm="vas"><i>vas</i><par n="miskien__adv"/></e>	
 	<e lm="deesdae"><i>deesdae</i><par n="miskien__adv"/></e>
@@ -2025,11 +2030,14 @@
 	<e lm="keiser"><i>keiser</i><par n="artikel__n"/></e>
 	<e lm="Duitser"><i>Duitser</i><par n="artikel__n"/></e>
 	<e lm="goewerneur"><i>goewerneur</i><par n="artikel__n"/></e>
+	<e lm="kanton"><i>kanton</i><par n="artikel__n"/></e>
+	<e lm="stuk"><i>stuk</i><par n="artikel__n"/></e>
 	<e lm="maan"><i>ma</i><par n="ba/an__n"/></e>
 	<e lm="leër"><i>leër</i><par n="artikel__n"/></e>
 	<e lm="Latyn"><i>Latyn</i><par n="aalwyn__n"/></e>
 	<e lm="landbou"><i>landbou</i><par n="aalwyn__n"/></e>
 	<e lm="opstand"><i>opstand</i><par n="bier__n"/></e>
+	<e lm="kans"><i>kans</i><par n="bier__n"/></e>
 	<e lm="Romein"><i>Romein</i><par n="bier__n"/></e>
 	<e lm="stand"><i>stand</i><par n="bier__n"/></e>
 	<e lm="kampioen"><i>kampioen</i><par n="bier__n"/></e>
@@ -5985,6 +5993,7 @@
 	<e lm="vas"><i>vas</i><par n="swart__adj"/></e>
 	<e lm="druk"><i>druk</i><par n="dik__adj"/></e>
 	<e lm="vorig"><i>vorig</i><par n="dadelik__adj"/></e>
+	<e lm="aanwesig"><i>aanwesig</i><par n="dadelik__adj"/></e>
 	<e lm="Vlaams"><i>Vlaams</i><par n="dadelik__adj"/></e>
 	<e lm="destyds"><i>destyds</i><par n="dadelik__adj"/></e>
 	<e lm="ongetroud"><i>ongetroud</i><par n="dadelik__adj"/></e>

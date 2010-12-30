@@ -468,7 +468,7 @@
 	<e><p><l>Romein<s n="n"/></l><r>Romein<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>plaas<s n="n"/></l><r>plaats<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>meerdere<s n="n"/><s n="mf"/></l><r>meerdere<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>FC<s n="n"/></l><r>FC<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>FC<s n="n"/><s n="acr"/></l><r>FC<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>cc<s n="n"/><s n="acr"/></l><r>cc<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 	<e r="RL"><p><l>tipe<s n="n"/></l><r>type<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL"><p><l>kop<s n="n"/></l><r>cup<s n="n"/><s n="m"/></r></p></e>
@@ -3706,9 +3706,9 @@
 	<e><p><l>v.C<s n="n"/></l><r>v.Chr<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper names -->
-	<e><p><l>San<b/>Francisco<s n="np"/><s n="top"/></l><r>San<b/>Francisco<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>San<b/>Marino<s n="np"/><s n="top"/></l><r>San<b/>Marino<s n="np"/><s n="top"/></r></p></e>
-	<e><p><l>San<b/>José<s n="np"/><s n="top"/></l><r>San<b/>José<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>San<b/>Francisco<s n="np"/><s n="top"/></l><r>San<b/>Francisco<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>San<b/>Marino<s n="np"/><s n="top"/></l><r>San<b/>Marino<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>San<b/>José<s n="np"/><s n="top"/></l><r>San<b/>José<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Utrecht<s n="np"/><s n="top"/></l><r>Utrecht<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Karel<s n="np"/><s n="ant"/><s n="m"/></l><r>Karel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Groningen<s n="np"/><s n="top"/></l><r>Groningen<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
