@@ -11,6 +11,7 @@
 \usepackage{eamt11}
 \usepackage{url}
 \usepackage{times}
+\usepackage{multirow}
 \usepackage[small,bf]{caption}
 \usepackage{latexsym}
 \setlength\titlebox{6.5cm}    % Expanding the titlebox
@@ -248,7 +249,7 @@ sections in order to calculate the standard deviation.
    \hline
    {\tt af} Wikipedia     & 2,926,943       & 82.1\% $\pm$ 0.8 \\
    \hline
-   {\tt nl} Wikipedia     & 18,569,183      & 78.3\% $\pm$ 0.85 \\
+   {\tt nl} Wikipedia     & 18,569,183      & 80.5\% $\pm$  \\
    \hline
   \end{tabular}
     \caption{Na\"ive vocabulary coverage for the two morphological analysers.}
@@ -270,7 +271,7 @@ a compound analysis, the second was by taking a list of all the words and select
   \begin{center}
   \begin{tabular}{|l|r|r|}
    \hline
-   {\bf Corpus}    & {\bf Corr. Segment.}    & {\bf Corr. Trans.}\\
+   {\bf Corpus}    & {\bf Corr. Seg.}    & {\bf Corr. Trans.}\\
    \hline
    top-1,000       &                         &  ~ \\ 
    \hline
@@ -300,7 +301,68 @@ Two sets of 100 sentences were selected pseudo-randomly from Wikipedia. The firs
 no unknown words, whereas the second set could contain unknown words. This is to give an idea
 of the performance of the system in `ideal' and `realistic' settings.
 
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|c|r|r|}
+   \hline
+   {\bf Corpus}                & {\bf Dir.}  & {\bf WER}    & {\bf PER}\\
+   \hline
+   \multirow{2}{*}{ideal}      &  {\small {\tt af-nl}}      & 14.65 $\pm$ 1.5        &  14.17 $\pm$ 1.31 \\ 
+                               &  {\small {\tt nl-af}}      & 23.41 $\pm$ 1.24     & 22.96 $\pm$ 1.26 \\
+   \hline
+   \multirow{2}{*}{realistic}  &  {\small {\tt af-nl}}      &              &  ~ \\ 
+                               &  {\small {\tt nl-af}}      &              & ~ \\
+   \hline
+  \end{tabular}
+    \caption{Accuracy for the two test corpora as measured by Word Error Rate 
+        and Position-independent Word Error Rate.}
+    \label{table:quan}
+  \end{center}
+\end{table}
+
+
 \subsection{Qualitative}
+
+In order to inform ourselves of where the effort could be expanded in order to improve the 
+system we undertook a qualitative evaluation by reviewing the translation errors and 
+categorising them as in Table~\ref{table:qual}. An example of each of the kind of error
+is found below.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|c|r|r|}
+     \hline
+     {\bf Error type}    & {\bf Count} & {\bf Percentage of total} \\
+     \hline
+     Unknown word        &             & \\
+     Morphology          &             & \\
+     Disambiguation      &             & \\
+     Multiword           &             & \\
+     Syntactic transfer  &             & \\
+     Polysemy            &             & \\
+     Compounding         &             & \\
+     Separable verb      &             & \\
+     \hline
+  \end{tabular}
+    \caption{Contribution to total error by type}
+    \label{table:qual}
+  \end{center}
+\end{table}
+
+
+\subsubsection{Unknown word}
+%Hierdie besetting is in 1721 met die Verdrag van Nystad erken. \\
+%Deze bezetting is in 1721 met het Verdrag van *Nystad *erken. \\
+%Deze bezetting is in 1721 met het Verdrag van Nystad erkend. \\
+
+
+\subsubsection{Morphology}
+\subsubsection{Disambiguation}
+\subsubsection{Multiword}
+\subsubsection{Syntactic transfer}
+\subsubsection{Polysemy}
+\subsubsection{Compounding}
+\subsubsection{Separable verb}
 
 \subsection{Comparative}
 
