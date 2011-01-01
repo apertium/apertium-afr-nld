@@ -61,7 +61,9 @@ dev/verbSep.txt -text
 /nl-af-unsupervised.make -text
 /nl-af.automorf.bin -text svneol=unset#unset
 /nl-af.prob -text svneol=unset#unset
+nl-tagger-data/nl.crp -text
 nl-tagger-data/nl.crp.txt -text
+nl-tagger-data/nl.dic -text
 nl/apertium-af-nl.nl.dix.full -text
 nl/update.sh -text
 paper/Makefile -text

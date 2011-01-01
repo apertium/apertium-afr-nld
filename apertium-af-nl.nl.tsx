@@ -44,9 +44,13 @@
 			<tags-item tags="adv.*"/>
 			<tags-item tags="adv"/>
 		</def-label>
-		<def-label name ="VBLEX">
+		<def-label name ="VBLEXIMP">
 			<tags-item tags="vblex.imp.*"/>
+		</def-label>
+		<def-label name ="VBLEXINF">
 			<tags-item tags="vblex.inf"/>
+		</def-label>
+		<def-label name ="VBLEX">
 			<tags-item tags="vblex.past.*"/>
 			<tags-item tags="vblex.pres.*"/>
 			<tags-item tags="vblex.prs.*"/>
@@ -120,6 +124,16 @@
 		</def-label>			
 		
 	</tagset>
+	<forbid>
+		<label-sequence>
+			<label-item label="PRN"/>
+			<label-item label="VBLEXIMP"/>
+		</label-sequence>
+		<label-sequence>
+			<label-item label="PRN"/>
+			<label-item label="VBLEXINF"/>
+		</label-sequence>
+	</forbid>
 	
 
 </tagger>
