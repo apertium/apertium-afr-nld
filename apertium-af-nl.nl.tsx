@@ -100,10 +100,19 @@
 		</def-label>	
 		<def-label name="NUM">
 			<tags-item tags="num"/>
+			<tags-item tags="num.*"/>
 		</def-label>	
 		<def-label name="DET">
 			<tags-item tags="det.*"/>
-		</def-label>	
+		</def-label>
+		<def-label name="PUNC">
+			<tags-item tags="apos"/>
+			<tags-item tags="guio"/>
+			<tags-item tags="cm"/>
+			<tags-item tags="lpar"/>
+			<tags-item tags="rpar"/>
+		</def-label>			
+		
 	</tagset>
 	
 
