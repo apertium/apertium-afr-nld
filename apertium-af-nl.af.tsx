@@ -2,7 +2,7 @@
 <tagger name="afrikaans">
 <tagset>
 
-  <def-label name="DEURNOM" closed="true">
+  <def-label name="DEURNOUN" closed="true">
     <tags-item lemma="deur" tags="n.*"/>
   </def-label> 
   <def-label name="NA" closed="true">

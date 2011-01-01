@@ -1,6 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tagger name ="Dutch">
 	<tagset>
+		<def-label name="DEURNOUN" closed="true">
+			<tags-item lemma="deur" tags="n.*"/>
+		</def-label> 
+		<def-label name="NA" closed="true">
+			<tags-item lemma="na" tags="pr"/>
+		</def-label> 
+		<def-label name="OMTE" closed="true">
+			<tags-item lemma="om te" tags="pr"/>
+		</def-label> 
+		<def-label name="DEUR" closed="true">
+			<tags-item lemma="deur" tags="pr"/>
+		</def-label> 
+		<def-label name="VIR" closed="true">
+			<tags-item lemma="vir" tags="pr"/>
+		</def-label> 
+
 		<def-label name ="NOUN">
 			<tags-item tags="n.*"/>
 		</def-label>
@@ -93,4 +109,10 @@
 			<tags-item tags="num.*"/>
 		</def-label>
 	</tagset>
+	<forbid>
+	    <label-sequence>
+			<label-item label="DEURNOM"/>
+			<label-item label="DET"/>
+		</label-sequence>
+	</forbid>
 </tagger>
