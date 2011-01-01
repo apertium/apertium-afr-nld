@@ -6,6 +6,7 @@
 		</def-label>
 		<def-label name ="ADJPRED">
 			<tags-item tags="adj.pred"/>
+			<tags-item tags="adj.sint.pred"/>
 		</def-label>
 		<def-label name ="ADJATTR">
 			<tags-item tags="adj.attr"/>
@@ -72,6 +73,9 @@
 		</def-label>
 		<def-label name="NPTOP"/>
 			<tags-item tags="np.top.*"/>
+		</def-label>
+		<def-label name="NPCOG"/>
+			<tags-item tags="np.cog.*"/>
 		</def-label>
 		<def-label name="PR"/>
 			<tags-item tags="pr"/>

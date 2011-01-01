@@ -15,6 +15,7 @@
 		</def-label>
 		<def-label name ="ADJPRED">
 			<tags-item tags="adj.pred"/>
+			<tags-item tags="adj.sint.pred"/>
 		</def-label>
 		<def-label name ="ADJATTR">
 			<tags-item tags="adj.attr"/>
@@ -25,7 +26,6 @@
 			<tags-item tags="adj.part"/>
 		</def-label>
 		<def-label name ="ADJSINTPRED">
-			<tags-item tags="adj.sint.pred"/>
 			<tags-item tags="adj.sint.comp.pred"/>
 			<tags-item tags="adj.sint.sup.pred"/>
 		</def-label>
@@ -81,6 +81,9 @@
 		</def-label>
 		<def-label name="NPTOP">
 			<tags-item tags="np.top.*"/>
+		</def-label>
+		<def-label name="NPCOG">
+			<tags-item tags="np.cog.*"/>
 		</def-label>
 		<def-label name="PR">
 			<tags-item tags="pr"/>
