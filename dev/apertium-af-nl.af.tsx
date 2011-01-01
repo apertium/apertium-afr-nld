@@ -94,6 +94,9 @@
 		<def-label name="NPCOG"/>
 			<tags-item tags="np.cog.*"/>
 		</def-label>
+		<def-label name="NPAL">
+			<tags-item tags="np.al.*"/>
+		</def-label>
 		<def-label name="PR"/>
 			<tags-item tags="pr"/>
 		</def-label>	
