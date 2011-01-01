@@ -7058,6 +7058,8 @@
 	<e lm="begrawe"><i>begrawe</i><par n="ontwikkel__vblex"/></e>
 	<e lm="dring"><i>dring</i><par n="breek__vblex"/></e>
 	<e lm="dring"><p><l>gedring</l><r>dring</r></p><par n="gebreek__vblex"/></e>
+	<e lm="stoor"><i>stoor</i><par n="breek__vblex"/></e>
+	<e lm="stoor"><p><l>gestoor</l><r>stoor</r></p><par n="gebreek__vblex"/></e>
 	<e lm="plek"><i>plek</i><par n="breek__vblex"/></e>
 	<e lm="plek"><p><l>geplek</l><r>plek</r></p><par n="gebreek__vblex"/></e>
 	<e lm="promoveer"><i>promoveer</i><par n="breek__vblex"/></e>

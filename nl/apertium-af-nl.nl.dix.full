@@ -28390,6 +28390,9 @@
     <e lm="aanstaan"><i>aanst</i><par n ="aanst/aan__vblex_sep"/></e>
     <e lm="aanstaan"><p><l>st</l><r>aanst</r></p><par n="st/aan#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanstaan"><p><l>aangestaan</l><r>aanstaan</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="opslaan"><i>opsl</i><par n ="aanst/aan__vblex_sep"/></e>
+    <e lm="opslaan"><p><l>sl</l><r>opsl</r></p><par n="st/aan#_aan__vblex_sep"/><p><l><b/>op</l><r></r></p></e>
+    <e lm="opslaan"><p><l>opgeslagen</l><r>opslaan</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aansturen"><i>aanstu</i><par n ="aanstu/ren__vblex_sep"/></e>
     <e lm="aansturen"><p><l>stu</l><r>aanstu</r></p><par n="stu/ren#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aansturen"><p><l>aangestuurd</l><r>aansturen</r></p><par n="gesproken__vblex_sep"/></e>
