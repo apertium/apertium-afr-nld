@@ -46,7 +46,8 @@
 			<tags-item tags="adj.sint.*"/>
 		</def-label>
 		<def-label name ="ADV">
-			<tags-item tags="adj.adv"/>
+			<tags-item tags="adv.*"/>
+			<tags-item tags="adv"/>
 		</def-label>
 		<def-label name ="VBLEX">
 			<tags-item tags="vblex.imp.*"/>
@@ -109,6 +110,9 @@
 			<tags-item tags="num"/>
 		</def-label>
 	</tagset>
+		<def-label name="DET">
+			<tags-item tags="det.*"/>
+		</def-label>
 	<forbid>
 	    <label-sequence>
 			<label-item label="DEURNOM"/>
