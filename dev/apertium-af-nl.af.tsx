@@ -54,7 +54,7 @@
 			<tags-item tags="vblex.past.*"/>
 			<tags-item tags="vblex.pres.*"/>
 			<tags-item tags="vblex.prs.*"/>
-			<tags-item tags="vblex.pprs.*"/>
+			<tags-item tags="vblex.pprs"/>
 			<tags-item tags="vblex.pp"/>
 		</def-label>
 		<def-label name ="VAUX">
@@ -106,7 +106,7 @@
 			<tags-item tags="ij"/>
 		</def-label>		
 		<def-label name="NUM">
-			<tags-item tags="num.*"/>
+			<tags-item tags="num"/>
 		</def-label>
 	</tagset>
 	<forbid>
