@@ -24,6 +24,7 @@
 /apertium-af-nl.post-af.dix -text
 /apertium-af-nl.post-nl.dix -text
 /configure.ac -text
+dev/apertium-af-nl.af.tsx -text
 dev/apertium-af-nl.nl.dix.OLD -text
 dev/bidix-nouns.txt -text
 dev/bidix/pending_adjectives.txt -text

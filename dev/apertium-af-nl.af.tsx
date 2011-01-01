@@ -1,17 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tagger name ="Dutch">
 	<tagset>
-		<def-label name ="NOUNM">
-			<tags-item tags="n.m.*"/>
-		</def-label>
-		<def-label name ="NOUNF">
-			<tags-item tags="n.f.*"/>
-		</def-label>
-		<def-label name ="NOUNMF">
-			<tags-item tags="n.mf.*"/>
-		</def-label>
-		<def-label name ="NOUNNT">
-			<tags-item tags="n.nt.*"/>
+		<def-label name ="NOUN">
+			<tags-item tags="n.*"/>
 		</def-label>
 		<def-label name ="ADJPRED">
 			<tags-item tags="adj.pred"/>
@@ -38,7 +29,7 @@
 			<tags-item tags="adj.sint.*"/>
 		</def-label>
 		<def-label name ="ADV">
-			<tags-item tags="adj.adv.*"/>
+			<tags-item tags="adj.adv"/>
 		</def-label>
 		<def-label name ="VBLEX">
 			<tags-item tags="vblex.imp.*"/>
@@ -79,23 +70,23 @@
 		<def-label name="NPANT">
 			<tags-item tags="np.ant.*"/>
 		</def-label>
-		<def-label name="NPTOP">
+		<def-label name="NPTOP"/>
 			<tags-item tags="np.top.*"/>
 		</def-label>
-		<def-label name="PR">
+		<def-label name="PR"/>
 			<tags-item tags="pr"/>
-		</def-label>		
-		<def-label name="REL">
+		</def-label>	
+		<def-label name="REL"/>
 			<tags-item tags="rel.*"/>
 		</def-label>
 		<def-label name="PREADV">
 			<tags-item tags="preadv"/>
-		</def-label>
+		</def-label>	
 		<def-label name="IJ">
 			<tags-item tags="ij"/>
-		</def-label>	
+		</def-label>		
 		<def-label name="NUM">
 			<tags-item tags="num.*"/>
-		</def-label>	
+		</def-label>
 	</tagset>
 </tagger>
