@@ -20,7 +20,7 @@ $(TAGGER)/$(LANG1).dic: $(BASENAME).$(LANG1).dix $(PREFIX).automorf.bin
 	@echo "This may take some time. Please, take a cup of coffee and come back later.";
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	apertium-validate-tagger $(BASENAME).$(LANG1).tsx
-	lt-expand $(BASENAME).$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" |\
+	lt-expand $(BASENAME).$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" | grep -v 'DUE_TO_LT_PROC_HANG' |\
 	awk 'BEGIN{FS=":>:|:"}{print $$1 ".";}' | apertium-destxt >$(LANG1).dic.expanded
 	@echo "." >>$(LANG1).dic.expanded
 	@echo "?" >>$(LANG1).dic.expanded
@@ -35,7 +35,7 @@ $(TAGGER)/$(LANG1).dic: $(BASENAME).$(LANG1).dix $(PREFIX).automorf.bin
 	@echo "\\]" >>$(LANG1).dic.expanded
 	@echo "¿" >>$(LANG1).dic.expanded
 	@echo "¡" >>$(LANG1).dic.expanded
-	lt-proc -a $(PREFIX).automorf.bin <$(LANG1).dic.expanded | \
+	lt-proc  -e -w -a $(PREFIX).automorf.bin <$(LANG1).dic.expanded | \
 	apertium-filter-ambiguity $(BASENAME).$(LANG1).tsx > $@
 	rm $(LANG1).dic.expanded;
 
