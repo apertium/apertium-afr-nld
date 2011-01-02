@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tagger name ="Dutch">
 	<tagset>
+		<def-label name ="VANADV">
+			<tags-item lemma="van" tags="adv"/>
+		</def-label>
+		<def-label name ="NOUN">
+			<tags-item tags="n.*"/>
+		</def-label>
 		<def-label name ="NOUNM">
 			<tags-item tags="n.m.*"/>
 		</def-label>
@@ -22,6 +28,10 @@
 		</def-label>
 		<def-label name ="ADJATTR">
 			<tags-item tags="adj.attr"/>
+		</def-label>
+		<def-label name ="ADJPART">
+			<tags-item tags="adj.part"/>
+			<tags-item tags="adj.sint.part"/>
 		</def-label>
 		<def-label name ="ADJ">
 			<tags-item tags="adj.pred"/>
@@ -132,6 +142,14 @@
 		<label-sequence>
 			<label-item label="PRN"/>
 			<label-item label="VBLEXINF"/>
+		</label-sequence>
+		<label-sequence>
+			<label-item label="VANADV"/>
+			<label-item label="DET"/>
+		</label-sequence>
+		<label-sequence>
+			<label-item label="ADJPART"/>
+			<label-item label="NOUN"/>
 		</label-sequence>
 	</forbid>
 	
