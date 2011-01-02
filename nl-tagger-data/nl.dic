@@ -74,6 +74,7 @@
 ^beide/beide<prn><tn><mf><pl>/beide<det><ind><sg>$
 ^zulke/zulke<det><ind><sp>$
 ^wat/wat<prn><itg><mf><sp>/wat<rel><nn><mf><sp>/wat<det><itg><sp>$
+^de/de<det><def><mf><sg>$
 ^mijn/mijn<n><mf><sg>/mijn<det><pos><mfn><sp>$
 ^haar/haar<n><nt><sg>/prpers<prn><obj><p3><f><sg>/haar<det><pos><mfn><sp>$
 ^zijn/zijn<vbser><inf>/zijn<det><pos><mfn><sp>$
@@ -92,9 +93,10 @@
 ^plaatsen/plaats<n><mf><pl>/plaatsen<vblex><inf>/plaatsen<vblex><pres><pl>$
 ^uitgaven/uitgave<n><f><pl>/uitgeven<vblex><sep><fs><past><pl>$
 ^greep/greep<n><mf><sg>/grijpen<vblex><past><p1><sg>$
+^aanzoeken/aanzoek<n><nt><pl>/aanzoeken<vblex><sep><inf>/aanzoeken<vblex><sep><fs><pres><pl>$
 ^mens/mens<n><nt><sg>/mens<prn><tn><mf><sg>$
 ^wouden/woud<n><nt><pl>/willen<vaux><past><pl>$
-^te/te<pr>/te<preadv>$
+^te/te<preadv>/te<pr>$
 ^zo/zo<preadv>$
 ^zich/zich<prn><ref><p3><mf><sp>$
 ^ondanks/ondanks<pr>$
@@ -106,9 +108,11 @@
 ^zijnd/zijn<vbser><pprs>$
 ^hebben/hebben<vbhaver><inf>$
 ^moeten/moeten<vbmod><inf>$
-^opnemen/opnemen<vblex><sep><inf>$
+^opnemen/opnemen<vblex><sep><inf>/opnemen<vblex><sep><fs><pres><pl>$
+^opnam/opnemen<vblex><sep><fs><past><p1><sg>$
+^neem op/opnemen<vblex><sep><imp><sg>/opnemen<vblex><sep><fm><pres><p1><sg>$
 ^voorkom/voorkomen<vblex><imp><sg>/voorkomen<vblex><pres><p1><sg>/voorkomen<vblex><sep><fs><pres><p1><sg>$
-^voorkomen/voorkomen<vblex><inf>/voorkomen<vblex><pres><pl>/voorkomen<vblex><sep><inf>$
+^voorkomen/voorkomen<vblex><inf>/voorkomen<vblex><pres><pl>/voorkomen<vblex><sep><fs><pres><pl>$
 ^voorkwamen/voorkomen<vblex><past><pl>/voorkomen<vblex><sep><fs><past><pl>$
 ^doen/doen<vblex><imp><pl>/doen<vblex><inf>/doen<vblex><pres><pl>$
 ^,/,<cm>$
