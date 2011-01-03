@@ -134,6 +134,9 @@
 		<def-label name="PREADV" closed="true">
 			<tags-item tags="preadv"/>
 		</def-label>	
+		<def-label name="SE" closed="true">
+			<tags-item lemma="se" tags="gen"/>
+		</def-label>	
 		<def-label name="IJ" closed="true">
 			<tags-item tags="ij"/>
 		</def-label>		
