@@ -10,6 +10,7 @@
 /aclocal.m4 -text
 /af-nl-unsupervised.make -text
 /af-nl.prob -text
+af-tagger-data/af.crp.txt -text
 /apertium-af-nl.af-nl.dix -text
 /apertium-af-nl.af-nl.t1x -text
 /apertium-af-nl.af-nl.t2x -text

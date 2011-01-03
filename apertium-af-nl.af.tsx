@@ -116,32 +116,32 @@
 		<def-label name="NPANT">
 			<tags-item tags="np.ant.*"/>
 		</def-label>
-		<def-label name="NPTOP"/>
+		<def-label name="NPTOP">
 			<tags-item tags="np.top.*"/>
 		</def-label>
-		<def-label name="NPCOG"/>
+		<def-label name="NPCOG">
 			<tags-item tags="np.cog.*"/>
 		</def-label>
 		<def-label name="NPAL">
 			<tags-item tags="np.al.*"/>
 		</def-label>
-		<def-label name="PR"/>
+		<def-label name="PR" closed="true">
 			<tags-item tags="pr"/>
 		</def-label>	
-		<def-label name="REL"/>
+		<def-label name="REL" closed="true">
 			<tags-item tags="rel.*"/>
 		</def-label>
-		<def-label name="PREADV">
+		<def-label name="PREADV" closed="true">
 			<tags-item tags="preadv"/>
 		</def-label>	
-		<def-label name="IJ">
+		<def-label name="IJ" closed="true">
 			<tags-item tags="ij"/>
 		</def-label>		
-		<def-label name="NUM">
+		<def-label name="NUM" closed="true">
 			<tags-item tags="num"/>
 			<tags-item tags="num.*"/>
 		</def-label>
-		<def-label name="PUNC">
+		<def-label name="PUNC" closed="true">
 			<tags-item tags="apos"/>
 			<tags-item tags="guio"/>
 			<tags-item tags="cm"/>
@@ -149,7 +149,7 @@
 			<tags-item tags="rpar"/>
 		</def-label>
 		
-		<def-label name="DET">
+		<def-label name="DET" closed="true">
 			<tags-item tags="det.*"/>
 		</def-label>
 	</tagset>
