@@ -1,9 +1,7 @@
 ^enige/enig<adj><attr>$
 ^./.<sent>$
 ^enig/enig<adj><pred>$
-^Belgische/Belgisch<adj><sint><attr>$
 ^Belgischers/Belgisch<adj><sint><comp><part>$
-^Belgischer/Belgisch<adj><sint><comp><pred>$
 ^Belgisch/Belgisch<adj><sint><pred>/Belgisch<adj><sint><part>$
 ^Belgischte/Belgisch<adj><sint><sup><pred>/Belgisch<adj><sint><sup><attr>$
 ^bestaands/bestaand<adj><part>$
@@ -15,19 +13,15 @@
 ^anders/ander<adj><part>/anders<adv>$
 ^ander/ander<adj><pred>/ander<prn><tn><mf><sp>/ander<det><ind><sp>$
 ^single/single<adj><pred>/single<adj><attr>/single<adj><part>$
-^gouden/gouden<adj><pred>/gouden<adj><attr>$
 ^drukke/druk<adj><sint><attr>/drukken<vblex><prs><p1><sg>$
 ^druk/druk<adj><sint><pred>/drukken<vblex><imp><sg>/drukken<vblex><pres><p1><sg>$
-^latere/later<adj><attr>/laat<adj><sint><comp><attr>$
 ^laters/later<adj><part>/laat<adj><sint><comp><part>$
-^later/later<adj><pred>/laat<adj><sint><comp><pred>/later<adv>$
 ^destijds/destijds<adj><pred>/destijds<adj><part>/destijds<adv>$
 ^Pools/pool<n><m><pl>/Pools<adj><sint><pred>/Pools<adj><sint><part>$
 ^laatst/laat<adj><sint><sup><pred><nt>/laatst<adv>/laatst<det><ord><sp>$
 ^overleden/overleden<adj><pred>/overleden<adj><attr>/overlijden<vblex><pp>$
 ^open/open<adj><sint><pred>/open<adj><sint><attr>/openen<vblex><imp><sg>/openen<vblex><pres><p1><sg>$
 ^Duitsers/Duitser<n><m><pl>/Duits<adj><sint><comp><part>$
-^Duitser/Duitser<n><m><sg>/Duits<adj><sint><comp><pred>$
 ^verschillende/verschillend<adj><sint><attr>/verschillende<det><ind><pl>$
 ^meer/veel<adj><sint><comp><pred>/veel<adj><sint><comp><attr>/meer<preadv>$
 ^veel/veel<adj><sint><pred>/veel<adv>/veel<preadv>$
@@ -35,13 +29,10 @@
 ^centrale/centrale<n><f><sg>/centraal<adj><sint><attr>$
 ^Nederlands/Nederlands<n><nt><sg>/Nederlands<adj><sint><pred>/Nederlands<adj><sint><part>/Nederland<np><top><nt><sg>$
 ^militair/militair<n><m><sg>/militair<adj><pred>/militair<adv>$
-^nader/na<adj><sint><comp><pred>/naderen<vblex><imp><sg>/naderen<vblex><pres><p1><sg>$
 ^na/na<adj><sint><pred>/na<cnjadv>$
 ^vroeg/vroeg<adj><sint><pred>/vroeg<adv>/vragen<vblex><past><p1><sg>$
 ^wijs/wijs<adj><sint><pred>/wijs<adj><sint><part>/wijzen<vblex><imp><sg>/wijzen<vblex><pres><p1><sg>$
 ^wijst/wijs<adj><sint><sup><pred><nt>/wijzen<vblex><imp><pl>/wijzen<vblex><pres><p2><sg>$
-^nabijgelegen/nabijgelegen<adj><sint><pred>/nabijgelegen<adj><sint><attr>$
-^betrokken/betrokken<adj><sint><pred>/betrokken<adj><sint><attr>/betrekken<vblex><pp>$
 ^afgelopen/afgelopen<adj><pred>/afgelopen<adj><attr>/aflopen<vblex><sep><pp>$
 ^tamelijk/tamelijk<adj><sint><pred>/tamelijk<preadv>$
 ^vastgesteld/vastgesteld<adj><sint><pred>/vaststellen<vblex><sep><pp>$
@@ -106,10 +97,7 @@
 ^behoren/behoren<vblex><inf>/behoren<vblex><pres><pl>$
 ^behoorden/behoren<vblex><past><pl>$
 ^zijnd/zijn<vbser><pprs>$
-^hebben/hebben<vbhaver><inf>$
-^moeten/moeten<vbmod><inf>$
 ^opnemen/opnemen<vblex><sep><inf>/opnemen<vblex><sep><fs><pres><pl>$
-^opnam/opnemen<vblex><sep><fs><past><p1><sg>$
 ^neem op/opnemen<vblex><sep><imp><sg>/opnemen<vblex><sep><fm><pres><p1><sg>$
 ^voorkom/voorkomen<vblex><imp><sg>/voorkomen<vblex><pres><p1><sg>/voorkomen<vblex><sep><fs><pres><p1><sg>$
 ^voorkomen/voorkomen<vblex><inf>/voorkomen<vblex><pres><pl>/voorkomen<vblex><sep><fs><pres><pl>$
