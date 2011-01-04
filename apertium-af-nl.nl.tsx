@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tagger name ="Dutch">
 	<tagset>
+		<def-label name ="EVERYTHING">
+			<tags-item tags="*"/>
+		</def-label>
 		<def-label name ="VANADV">
 			<tags-item lemma="van" tags="adv"/>
 		</def-label>
