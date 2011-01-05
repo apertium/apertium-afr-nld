@@ -66,3 +66,4 @@ paper/Makefile -text
 paper/eamt11.bst -text
 paper/eamt11.sty -text
 paper/eamt11afnl.tex -text
+/pending-tests.sh -text
