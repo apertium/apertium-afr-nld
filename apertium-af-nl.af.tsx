@@ -59,6 +59,14 @@
 			<tags-item tags="vblex.pprs"/>
 			<tags-item tags="vblex.pp"/>
 		</def-label>
+		<def-label name ="INF">
+			<tags-item tags="vblex.inf"/>
+			<tags-item tags="vbhaver.inf"/>
+			<tags-item tags="vbser.inf"/>
+			<tags-item tags="vaux.inf"/>
+			<tags-item tags="vbmod.inf"/>
+			
+		</def-label>
 		<def-label name ="VBLEXPP">
 			<tags-item tags="vblex.pp"/>
 		</def-label>
@@ -196,28 +204,13 @@
 		  <label-item label="VMODPP"/>
 		</label-sequence> 
 		<label-sequence>
+			<label-item label="INF"/>
 			<label-item label="PRNSUBJ"/>
-			<label-item label="VBLEXINF"/>
 		</label-sequence> 
 		<label-sequence>
 		  <label-item label="PRNSUBJ"/>
-		  <label-item label="VHAVEINF"/>
+		  <label-item label="INF"/>
 		</label-sequence>
-		<label-sequence>
-		  <label-item label="PRNSUBJ"/>
-		  <label-item label="VBLEXINF"/>
-		</label-sequence>
-		<label-sequence>
-		  <label-item label="VBLEXINF"/>
-		  <label-item label="PRNSUBJ"/>
-		</label-sequence>
-		<label-sequence>
-		  <label-item label="PRNSUBJ"/>
-		  <label-item label="VBMODINF"/>
-		</label-sequence>
-		<label-sequence>
-		  <label-item label="VBMODINF"/>
-		  <label-item label="PRNSUBJ"/>
-		</label-sequence>
+
 	</forbid>
 </tagger>
