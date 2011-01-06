@@ -5416,6 +5416,7 @@
     <e lm="landmeter"><i>landmeter</i><par n="artikel__n"/></e>
     <e lm="magnetometer"><i>magnetometer</i><par n="artikel__n"/></e>
     <e lm="meter"><i>meter</i><par n="artikel__n"/></e>
+	<e lm="vierkante meter"><i>vierkante<b/>meter</i><par n="artikel__n"/></e>
     <e lm="millimeter"><i>millimeter</i><par n="artikel__n"/></e>
     <e lm="nanometer"><i>nanometer</i><par n="artikel__n"/></e>
     <e lm="opmeter"><i>opmeter</i><par n="artikel__n"/></e>

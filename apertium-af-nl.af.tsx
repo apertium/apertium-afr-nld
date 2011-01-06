@@ -233,9 +233,5 @@
 		  <label-item label="BAIEADJ"/>
 		  <label-item label="ADJALL"/>
 		</label-sequence>
-		<label-sequence>
-		  <label-item label="VIERKANTNOUN"/>
-		  <label-item label="METER"/>
-		</label-sequence>
 	</forbid>
 </tagger>
