@@ -45,6 +45,9 @@
 			<tags-item tags="adj.sint.comp.attr"/>
 			<tags-item tags="adj.sint.sup.attr"/>
 		</def-label>
+		<def-label name ="ADJALL">
+			<tags-item tags="adj.*"/>
+		</def-label>
 		<def-label name ="ADJSINT">
 			<tags-item tags="adj.sint.*"/>
 		</def-label>
@@ -182,6 +185,10 @@
 	    <label-sequence>
 			<label-item label="DEURNOM"/>
 			<label-item label="DET"/>
+		</label-sequence>
+	    <label-sequence>
+			<label-item label="DEURNOM"/>
+			<label-item label="ADJALL"/>
 		</label-sequence>
 	   <label-sequence>
 		  <label-item label="VHAVEPP"/>
