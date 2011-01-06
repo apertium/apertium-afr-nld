@@ -71,6 +71,9 @@
 		<def-label name ="VBMOD">
 			<tags-item tags="vbmod.*"/>
 		</def-label>
+		<def-label name ="VBMODINF">
+			<tags-item tags="vbmod.inf"/>
+		</def-label>
 		<def-label name ="VBMODPP">
 			<tags-item tags="vbmod.pp"/>
 		</def-label>
@@ -112,6 +115,12 @@
 		</def-label>
 		<def-label name ="PRNSUBJ" closed="true">
 			<tags-item tags="prn.subj.*"/>
+		</def-label>
+		<def-label name ="PRNSUBJSG" closed="true">
+			<tags-item tags="prn.subj.*.sg"/>
+		</def-label>
+		<def-label name ="PRNSUBJPL" closed="true">
+			<tags-item tags="prn.subj.*.pl"/>
 		</def-label>
 		<def-label name="NPANT">
 			<tags-item tags="np.ant.*"/>
@@ -193,6 +202,22 @@
 		<label-sequence>
 		  <label-item label="PRNSUBJ"/>
 		  <label-item label="VHAVEINF"/>
+		</label-sequence>
+		<label-sequence>
+		  <label-item label="PRNSUBJ"/>
+		  <label-item label="VBLEXINF"/>
+		</label-sequence>
+		<label-sequence>
+		  <label-item label="VBLEXINF"/>
+		  <label-item label="PRNSUBJ"/>
+		</label-sequence>
+		<label-sequence>
+		  <label-item label="PRNSUBJ"/>
+		  <label-item label="VBMODINF"/>
+		</label-sequence>
+		<label-sequence>
+		  <label-item label="VBMODINF"/>
+		  <label-item label="PRNSUBJ"/>
 		</label-sequence>
 	</forbid>
 </tagger>

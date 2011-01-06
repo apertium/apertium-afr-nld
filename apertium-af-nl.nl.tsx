@@ -14,8 +14,15 @@
 			<tags-item lemma="de" tags="det.def.mf.sg"/>
 			<tags-item lemma="de" tags="det.def.mfn.pl"/>
 		</def-label>
+		<def-label name ="HET">
+			<tags-item lemma="de" tags="det.def.nt.sg"/>
+		</def-label>
 		<def-label name ="NOUN">
 			<tags-item tags="n.*"/>
+		</def-label>
+		<def-label name ="NOUNPL">
+			<tags-item tags="n.*.pl.*"/>
+			<tags-item tags="n.*.pl"/>
 		</def-label>
 		<def-label name ="NOUNM">
 			<tags-item tags="n.m.*"/>
@@ -248,6 +255,10 @@
 			<label-item label="PRNSUBJP3"/>
 			<label-item label="VERBP2"/>
 		</label-sequence>		
+		<label-sequence>
+			<label-item label="HET"/>
+			<label-item label="NOUNPL"/>
+		</label-sequence>	
 	</forbid>
 	
 
