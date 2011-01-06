@@ -4,6 +4,9 @@
 		<def-label name="DEURNOUN" closed="true">
 			<tags-item lemma="deur" tags="n.*"/>
 		</def-label> 
+		<def-label name="BAIEADJ" closed="true">
+			<tags-item lemma="baie" tags="adj.*"/>
+		</def-label> 
 		<def-label name="NA" closed="true">
 			<tags-item lemma="na" tags="pr"/>
 		</def-label> 
@@ -218,6 +221,9 @@
 		  <label-item label="PRNSUBJ"/>
 		  <label-item label="INF"/>
 		</label-sequence>
-
+		<label-sequence>
+		  <label-item label="BAIEADJ"/>
+		  <label-item label="ADJALL"/>
+		</label-sequence>
 	</forbid>
 </tagger>
