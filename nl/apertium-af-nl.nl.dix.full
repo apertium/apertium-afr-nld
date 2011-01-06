@@ -7002,8 +7002,8 @@
       <e>       <p><l></l><r><s n="adj"/><s n="pred"/></r></p></e>
     </pardef>
     <pardef n="o/or__n_nt">
-      <e>       <p><l>or</l><r>r<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e>       <p><l>ren</l><r>r<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l>or</l><r>or<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>ren</l><r>or<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
     <pardef n="wol__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
@@ -11625,6 +11625,7 @@
 	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
 	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
 	<e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
+	<e lm="vierkant"><i>vierkant</i><par n="eng__adj_sint"/></e>
 	<e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
 	<e lm="single"><i>single</i><par n="cash__adj"/></e>
 	<e lm="toenmalig"><i>toenmalig</i><par n="eng__adj_sint"/></e>
@@ -22557,7 +22558,7 @@
     <e lm="ooi"><i>ooi</i><par n="vering__n_f"/></e>
     <e lm="ooievaar"><i>ooieva</i><par n="lera/ar__n_m"/></e>
     <e lm="oom"><i>oom</i><par n="led__n_m"/></e>
-    <e lm="oor"><i>oo</i><par n="o/or__n_nt"/></e>
+    <e lm="oor"><i>o</i><par n="o/or__n_nt"/></e>
     <e lm="oorbel"><i>oorbel</i><par n="el__n_mf"/></e>
     <e lm="oord"><i>oord</i><par n="lot__n_nt"/></e>
     <e lm="oordeel"><i>oorde</i><par n="ze/el__n_nt"/></e>

@@ -4,6 +4,14 @@
 		<def-label name="DEURNOUN" closed="true">
 			<tags-item lemma="deur" tags="n.*"/>
 		</def-label> 
+		<def-label name="VIERKANTNOUN" closed="true">
+			<tags-item lemma="vierkant" tags="n.*"/>
+		</def-label> 
+
+		<def-label name="METER" closed="true">
+			<tags-item lemma="meter" tags="n.*"/>
+		</def-label> 
+
 		<def-label name="BAIEADJ" closed="true">
 			<tags-item lemma="baie" tags="adj.*"/>
 		</def-label> 
@@ -224,6 +232,10 @@
 		<label-sequence>
 		  <label-item label="BAIEADJ"/>
 		  <label-item label="ADJALL"/>
+		</label-sequence>
+		<label-sequence>
+		  <label-item label="VIERKANTNOUN"/>
+		  <label-item label="METER"/>
 		</label-sequence>
 	</forbid>
 </tagger>
