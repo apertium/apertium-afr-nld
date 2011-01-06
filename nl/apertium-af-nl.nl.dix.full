@@ -28324,6 +28324,9 @@
     <e lm="aanblijven"><i>aanbl</i><par n ="aanbl/ijven__vblex_sep"/></e>
     <e lm="aanblijven"><p><l>bl</l><r>aanbl</r></p><par n="bl/ijven#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanblijven"><p><l>aangebleven</l><r>aanblijven</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="afblijven"><i>afbl</i><par n ="aanbl/ijven__vblex_sep"/></e>
+    <e lm="afblijven"><p><l>bl</l><r>afbl</r></p><par n="bl/ijven#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afblijven"><p><l>afgebleven</l><r>afblijven</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanbouwen"><i>aanbouw</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="aanbouwen"><p><l>bouw</l><r>aanbouw</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbouwen"><p><l>aangebouwd</l><r>aanbouwen</r></p><par n="gesproken__vblex_sep"/></e>

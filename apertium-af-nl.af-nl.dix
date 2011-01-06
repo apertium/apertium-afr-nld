@@ -1337,6 +1337,7 @@
     <e><p><l>akademikus<s n="n"/></l><r>academicus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aanvaal<s n="n"/></l><r>aanval<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>uur<s n="n"/></l><r>uur<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>buur<s n="n"/></l><r>buur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>trein<s n="n"/></l><r>trein<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>boom<s n="n"/></l><r>boom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reg<s n="n"/></l><r>recht<s n="n"/><s n="nt"/></r></p></e>
@@ -5275,6 +5276,7 @@
     <e><p><l>mag<s n="vbmod"/></l><r>mogen<s n="vbmod"/></r></p></e>
 
 	<e><p><l>kry<s n="vblex"/></l><r>krijgen<s n="vblex"/></r></p></e>
+	<e><p><l>bid<s n="vblex"/></l><r>bidden<s n="vblex"/></r></p></e>
 	<e><p><l>omrand<s n="vblex"/></l><r>grenzen<s n="vblex"/></r></p></e>
 	<e><p><l>ontstaan<s n="vblex"/></l><r>ontstaan<s n="vblex"/></r></p></e>
 	<e><p><l>rekord<s n="vblex"/></l><r>opnemen<s n="vblex"/><s n="sep"/></r></p></e>
@@ -6072,6 +6074,7 @@
 	<e><p><l>oorlaat<s n="vblex"/><s n="sep"/></l><r>overlaten<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aanloop<s n="vblex"/><s n="sep"/></l><r>aanlopen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>aanbly<s n="vblex"/><s n="sep"/></l><r>aanblijven<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>afbly<s n="vblex"/><s n="sep"/></l><r>afblijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>opsoek<s n="vblex"/><s n="sep"/></l><r>opzoeken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>oortrek<s n="vblex"/><s n="sep"/></l><r>overtrekken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>inbring<s n="vblex"/><s n="sep"/></l><r>inbrengen<s n="vblex"/><s n="sep"/></r></p></e>

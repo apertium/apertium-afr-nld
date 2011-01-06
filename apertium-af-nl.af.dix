@@ -3488,6 +3488,7 @@
 
     <e lm="avontuur"><i>avontu</i><par n="avontu/ur__n"/></e>
     <e lm="uur"><i>u</i><par n="avontu/ur__n"/></e>
+	<e lm="buur"><i>bu</i><par n="avontu/ur__n"/></e>
     <e lm="duur"><i>duur</i><par n="aalwyn__n"/></e>
     <e lm="literatuur"><i>literatuur</i><par n="aalwyn__n"/></e>
     <e lm="figuur"><i>figu</i><par n="avontu/ur__n"/></e>
@@ -7058,6 +7059,8 @@
 	<e lm="begrawe"><i>begrawe</i><par n="ontwikkel__vblex"/></e>
 	<e lm="dring"><i>dring</i><par n="breek__vblex"/></e>
 	<e lm="dring"><p><l>gedring</l><r>dring</r></p><par n="gebreek__vblex"/></e>
+	<e lm="bid"><i>bid</i><par n="breek__vblex"/></e>
+	<e lm="bid"><p><l>gebid</l><r>bid</r></p><par n="gebreek__vblex"/></e>
 	<e lm="stoor"><i>stoor</i><par n="breek__vblex"/></e>
 	<e lm="stoor"><p><l>gestoor</l><r>stoor</r></p><par n="gebreek__vblex"/></e>
 	<e lm="plek"><i>plek</i><par n="breek__vblex"/></e>
@@ -7296,7 +7299,11 @@
     <e lm="aanbly"><i>aanbly</i><par n="aansien__vblex_sep"/></e>
     <e lm="aanbly"><p><l>bly</l><r>aanbly</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbly"><p><l>aangebly</l><r>aanbly</r></p><par n="aangesien__vblex_sep"/></e>
-
+	
+    <e lm="afbly"><i>afbly</i><par n="aansien__vblex_sep"/></e>
+    <e lm="afbly"><p><l>bly</l><r>afbly</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afbly"><p><l>afgebly</l><r>afbly</r></p><par n="aangesien__vblex_sep"/></e>
+	
     <e lm="aanbou"><i>aanbou</i><par n="aansien__vblex_sep"/></e>
     <e lm="aanbou"><p><l>bou</l><r>aanbou</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbou"><p><l>aangebou</l><r>aanbou</r></p><par n="aangesien__vblex_sep"/></e>
