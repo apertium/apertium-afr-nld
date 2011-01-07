@@ -45,6 +45,7 @@ dev/eval/eval.2010-12-23.wikipedia.2.apertium.txt -text
 dev/eval/eval.2010-12-27.wikipedia.1.google.txt -text
 dev/eval/eval.2010-12-27.wikipedia.2.google.txt -text
 dev/eval/eval.2011-01-07.wikipedia.3.apertium.txt -text
+dev/eval/eval.2011-01-07.wikipedia.3.google.txt -text
 dev/eval/evaluation-log.txt -text
 dev/generation-summary.af-nl.txt -text
 dev/generation-summary.nl-af.txt -text
