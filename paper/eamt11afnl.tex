@@ -287,7 +287,7 @@ a compound analysis, the second was by taking a list of all the words and select
    \hline
    top-1,000       & 914                 &  776 \\ 
    \hline
-   random-1,000    &                         &  ~ \\ 
+   random-1,000    & 957                 &  801 \\ 
    \hline
   \end{tabular}
     \caption{Compound word accuracy in analysis and translation.}
@@ -298,7 +298,7 @@ a compound analysis, the second was by taking a list of all the words and select
 We include results for both correct segmentation (meaning the word was decompounded 
 correctly) and correct translation (meaning the word was translated correctly). This allows
 us to take into account the {\em free ride} phenomenon, whereby an incorrect analysis
-may lead to a correct translation. There were 19 free rides in the top-1,000, and xxx free 
+may lead to a correct translation. There were 19 free rides in the top-1,000, and 5 free 
 rides in the random-1,000.
 
 \subsection{Quantitative}
@@ -378,6 +378,12 @@ is found below.
 \subsubsection{Separable verb}
 
 \subsection{Comparative}
+
+% compare against google
+% part of the problem with this: google may use some of the sentences that appear in our corpus for training
+% not possible 
+
+% tried to compare against d2ac, but were not able to get access to their evaluation texts.
 
 \section{Discussion}
 
