@@ -152,6 +152,9 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 
 \subsubsection{Compound words}
 
+%% give some statistics for what percentage of words are compounds in dutch/afrikaans
+%% give some justification for only doing noun-noun compounds (e.g. more frequent, easier to identify??)
+
 Both Afrikaans and Dutch are languages in which words combine very
 productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
 `infrastructure development plan' and {\em personeelverminderingsprosedure}
@@ -282,7 +285,7 @@ a compound analysis, the second was by taking a list of all the words and select
    \hline
    {\bf Corpus}    & {\bf Corr. Seg.}    & {\bf Corr. Trans.}\\
    \hline
-   top-1,000       &                         &  ~ \\ 
+   top-1,000       & 914                 &  776 \\ 
    \hline
    random-1,000    &                         &  ~ \\ 
    \hline
@@ -295,7 +298,8 @@ a compound analysis, the second was by taking a list of all the words and select
 We include results for both correct segmentation (meaning the word was decompounded 
 correctly) and correct translation (meaning the word was translated correctly). This allows
 us to take into account the {\em free ride} phenomenon, whereby an incorrect analysis
-may lead to a correct translation.
+may lead to a correct translation. There were 19 free rides in the top-1,000, and xxx free 
+rides in the random-1,000.
 
 \subsection{Quantitative}
 
