@@ -7,6 +7,9 @@
     <def-cat n="verb">
       <cat-item name="verb"/>
     </def-cat>
+    <def-cat n="verb_pp">
+      <cat-item name="verb_pp"/>
+    </def-cat>
      <def-cat n="nom_gen">
       <cat-item name="nom_gen"/>
     </def-cat>
@@ -111,6 +114,53 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="CHUNK: verb_pp">
+      <pattern>
+        <pattern-item n="verb_pp"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" part="pers"/>
+                <lit-tag v="PD"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="pers"/>
+              <lit-tag v="p3"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
 </section-rules>
 </postchunk>
