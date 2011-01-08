@@ -849,7 +849,7 @@
     <e><p><l>chloor<s n="n"/></l><r>chloor<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>vermenging<s n="n"/></l><r>vermenging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mynwerker<s n="n"/></l><r>mijnwerker<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>krui<s n="n"/></l><r>kruid<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>krui<s n="n"/></l><r>kruid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>berillium<s n="n"/></l><r>berillium<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
     <e><p><l>weerstandsbeweging<s n="n"/></l><r>weerstandsbeweging<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>swael<s n="n"/></l><r>zwavel<s n="n"/><s n="nt"/></r></p></e> <!-- unc -->
@@ -4762,6 +4762,7 @@
 
     <e><p><l>ou<s n="adj"/><s n="sint"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>groot<s n="adj"/><s n="sint"/></l><r>groot<s n="adj"/><s n="sint"/></r></p></e>
+    <e slr="1"><p><l>groot:1<s n="adj"/><s n="sint"/></l><r>groot:1<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rooi<s n="adj"/></l><r>rood<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>siek<s n="adj"/><s n="sint"/></l><r>ziek<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>openbaar<s n="adj"/></l><r>openbaar<s n="adj"/><s n="sint"/></r></p></e>

@@ -288,7 +288,7 @@
     <pardef n="gro/ot__adj">
       <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
-      <e>       <p><l>te</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e> <!-- great / tall -->
       <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
@@ -432,7 +432,8 @@
     <pardef n="klein__adj">
       <e>       <p><l>s</l><r><s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
-      <e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <e>       <p><l/><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
+      <!--<e>       <p><l>e</l><r><s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>-->
       <e>       <p><l>er</l><r><s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>ste</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>

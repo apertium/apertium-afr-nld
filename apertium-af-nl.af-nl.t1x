@@ -268,14 +268,32 @@
       <list-item v="zwellen"/>
       <list-item v="zwemmen"/>
     </def-list>
-    <def-list n="neg_pron_adv">
+    <def-list n="neg_pron_adv_det">
       <list-item v="niemand"/>
       <list-item v="niks"/>
+      <list-item v="geen"/>
     </def-list>
   </section-def-lists>
 
  
   <section-def-macros>
+    <def-macro n="f_check_neg1" npar="1">
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <list n="neg_pron_adv_det"/>
+              </in>
+            </test>
+            <let>
+              <var n="seen_neg"/>
+              <lit v="true"/>
+            </let>
+          </when>
+        </choose>
+    </def-macro>
+
     <def-macro n="f_concord2" npar="2">
         <choose>
           <when>
@@ -514,7 +532,7 @@
             <test>
               <in caseless="yes">
                 <clip pos="1" side="sl" part="lem"/>
-                <list n="neg_pron_adv"/>
+                <list n="neg_pron_adv_det"/>
               </in>
             </test>
             <let>
@@ -669,6 +687,9 @@
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
+        <call-macro n="f_check_neg1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
@@ -710,6 +731,9 @@
         <call-macro n="f_concord2">
           <with-param pos="1"/>
           <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_check_neg1">
+          <with-param pos="1"/>
         </call-macro>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
@@ -770,6 +794,9 @@
           <with-param pos="1"/>
           <with-param pos="3"/>
         </call-macro>
+        <call-macro n="f_check_neg1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="det_nom" case="caseFirstWord">
             <tags>
@@ -818,6 +845,9 @@
         <call-macro n="f_concord2">
           <with-param pos="1"/>
           <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_check_neg1">
+          <with-param pos="1"/>
         </call-macro>
         <out>
           <chunk name="det_adj_nom" case="caseFirstWord">
