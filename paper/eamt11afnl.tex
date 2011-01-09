@@ -348,7 +348,7 @@ of the kind of error is found below.
   \begin{center}
   \begin{tabular}{|l|c|r|r|}
      \hline
-     {\bf Error type}    & {\bf Count} & {\bf Percentage of total} \\
+     {\bf Error type}    & {\bf Count} & {\bf \% of total} \\
      \hline
      Unknown word        & 147         & \\
      Morphology          & 3           & \\
@@ -367,13 +367,16 @@ of the kind of error is found below.
   \end{center}
 \end{table}
 
-
 \subsubsection{Unknown word}
 
-\ex. \label{ex:exist} 
+The example in~\ref{ex:unk} shows two errors caused by unknown words. The first error {\em Nystad} 
+is a {\em free ride}, meaning that although it is an error it does not effect the final quality
+of the translation. 
+
+\ex. \label{ex:unk} 
     Hierdie besetting is in 1721 met die Verdrag van Nystad erken. \\
-    Deze bezetting is in 1721 met het Verdrag van *Nystad *erken. \\
-    Deze bezetting is in 1721 met het Verdrag van Nystad erkend. \\
+    Deze bezetting is in 1721 met het Verdrag van {\em *Nystad} {\em *erken}. \\
+    Deze bezetting is in 1721 met het Verdrag van {\em Nystad} {\em erkend}. \\
 
 \subsubsection{Morphology}
 
@@ -384,21 +387,23 @@ an apostrophe instead. A similar situation could erise if the preceding word end
 case the word takes -'s instead of -s.
 
 \ex. \label{ex:exposs} 
-    Pi is ook bekend as Archimedes se konstante. \\
-   *Pi is ook bekend als {\em *Archimedess} *konstante. \\
-    Pi is ook bekend als {\em Archimedes'} constante.\\
+   ...~ook bekend as Archimedes se konstante. \\
+   ...~ook~bekend~als~{\em *Archimedess}~*konstante. \\
+   ...~ook bekend als {\em Archimedes'} constante.\\
+   `[Pi is] also known as Archimedes' constant.'
 
 \subsubsection{Disambiguation}
 
 One of the biggest disambiguation problems for Afrikaans is distinguishing between short infinitive and present 
 tense, which are morphologically the same. In example~\ref{ex:exdisam}, in the Afrikaans sentence, the verb 
-{\em volg} `' could be present tense or infinitive. It has been tagged as infinitive, where present tense 
+{\em volg} `follow' could be present tense or infinitive. It has been tagged as infinitive, where present tense 
 is the correct option.
 
 \ex. \label{ex:exdisam} 
     Hier volg 'n lys van hoofstede. \\
     Hier {\em volgen} een lijst van hoofdsteden. \\
-    Hier {\em volgt} een lijst van hoofdsteden. \\
+    Hier {\em volgt} een lijst van hoofdsteden.  \\
+   `Here follows a list of capital cities.'
 
 Distinguishing between these two analyses is a difficult problem for a bigram part-of-speech tagger.
 
@@ -410,9 +415,10 @@ cause additional issues with the article of {\em wereld} `world' as that is incl
 phrase {\em over de hele} `over the whole'.
 
 \ex. \label{ex:exmw} 
-    In die laaste dekades het ook Duitse argitekte begin om projekte dwarsoor die wêreld aan te pak. \\
-    In de laatst decenniën heeft ook Duitse architecten beginnen om projecten overdwars de wereld aan te pakken. \\
-    In de laatste decenniën zijn ook Duitse architecten begonnen om projecten over de hele wereld aan te pakken. \\
+    Duitse argitekte het begin om projekte dwarsoor die wêreld aan te pak. \\
+    Duitse architecten heeft begin om projecten {\em overdwars} de wereld aan te pakken. \\
+    Duitse architecten zijn begonnen om projecten {\em over de hele} wereld aan te pakken. \\
+   `In the last decades German architects have begun to take on projects all over the world.'
 
 \subsubsection{Syntactic transfer}
 
@@ -446,6 +452,7 @@ research, while the latter is used for samples of substances, or samples from an
     Analitiese chemie is die analise van materiaalmonsters ... \\
     Analytische chemie is de analyse van {\em materiaalsteekproeven} ... \\
     Analytische chemie is de analyse van {\em materiaalmonsters} ... \\
+   `Analytical chemistry is the analysis of material samples ...'
 
 Choosing the correct translation would require a module for lexical selection. However, it might also
 be worth changing the default translation.
@@ -465,9 +472,12 @@ The error due to compounding in this example is `Middel-Europa'. This word has b
     De {\em autoindustrie} is de economische basis van *Oshawa, ... \\
     De {\em auto-industrie} is de economische basis van Oshawa, ... \\
 
-The error in this example is due to a specific rule in the Dutch language in regards to compounds. If a compound is built-up from two words as such that 
-the two vowels around the splitting point constitute a sound on their own, which means the word could be mispronounced,
- a hyphen should be used to distinquish the different parts of the compound. This phenomenom is known in Dutch as `klinkerbotsing'. 
+The error in this example is due to a specific rule in Dutch to do with 
+compounds, \emph{klinkerbotsing}. If a compound is built-up from two words as such 
+that the two vowels around the splitting point constitute a sound on their own, 
+which means the word could be mispronounced, a hyphen should be used to distinguish 
+the different parts of the compound. 
+
 \subsubsection{Separable verb}
 
 \ex. \label{ex:exsepverb} 
