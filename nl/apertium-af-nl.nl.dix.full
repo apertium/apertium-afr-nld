@@ -11744,6 +11744,7 @@
     <!-- SECTION: Prepositions -->
 
     <e lm="aan"><i>aan</i><par n="van__pr"/></e>
+	<e lm="er"><i>er</i><par n="van__pr"/></e>
 	<e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
     <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
     <e lm="achter"><i>achter</i><par n="van__pr"/></e>
@@ -14719,6 +14720,7 @@
     <e lm="ironisch"><i>ironisch</i><par n="fors__adj_sint"/></e>
     <e lm="islamitisch"><i>islamitisch</i><par n="fors__adj_sint"/></e>
     <e lm="isogeen"><i>isoge</i><par n="isoge/en__adj"/></e>
+	<e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
     <e lm="ivoren"><i>ivoren</i><par n="eren__adj"/></e>
     <e lm="jaarlijks"><i>jaarlijks</i><par n="taps__adj"/></e>
     <e lm="jaloers"><i>jaloers</i><par n="fors__adj_sint"/></e>
@@ -15005,6 +15007,7 @@
     <e lm="onaanvaardbaar"><i>onaanvaardba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbedoeld"><i>onbedoeld</i><par n="nipt__adj"/></e>
     <e lm="onbekwaam"><i>onbekwa</i><par n="minza/am__adj_sint"/></e>
+	<e lm="onbedachtzaam"><i>onbedachtzaam</i><par n="minza/am__adj_sint"/></e>
     <e lm="onbelastbaar"><i>onbelastba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbereikbaar"><i>onbereikba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbetaalbaar"><i>onbetaalba</i><par n="ga/ar__adj_sint"/></e>
@@ -15128,6 +15131,7 @@
     <e lm="orbitaal"><i>orbita</i><par n="ora/al__adj"/></e>
     <e lm="organisch"><i>organisch</i><par n="fors__adj_sint"/></e>
     <e lm="origineel"><i>origine</i><par n="he/el__adj_sint"/></e>
+	<e lm="multicultureel"><i>multiculture</i><par n="he/el__adj_sint"/></e>
     <e lm="oud"><i>oud</i><par n="eng__adj_sint"/></e>
     <e lm="ouderloos"><i>ouderlo</i><par n="werklo/os__adj"/></e>
     <e lm="ouderwets"><i>ouderwets</i><par n="fors__adj_sint"/></e>
@@ -29986,6 +29990,7 @@
     <e lm="Dalí"><i>Dalí</i><par n="Botha__np"/></e>
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e>
+	<e lm="De Beauvoir"><i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Hughes__np"/></e>
     <e lm="Mandela"><i>Mandela</i><par n="Botha__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>

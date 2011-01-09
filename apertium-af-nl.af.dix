@@ -1504,6 +1504,7 @@
     <e lm="jul"><i>hul</i><par n="my__det"/></e>
 	
 	<e lm="saam"><i>saam</i><par n="met__pr"/></e>
+	<e lm="daar"><i>daar</i><par n="met__pr"/></e>
 	<e lm="neer"><i>neer</i><par n="met__pr"/></e>
 	<e lm="ondanks"><i>ondanks</i><par n="met__pr"/></e>
 	<e lm="raak"><i>raak</i><par n="met__pr"/></e>
@@ -2023,6 +2024,7 @@
 	<e lm="premier"><i>premier</i><par n="artikel__n"/></e>
 	<e lm="niveau"><i>niveau</i><par n="artikel__n"/></e>
 	<e lm="klooster"><i>klooster</i><par n="artikel__n"/></e>
+	<e lm="ouer"><i>ouer</i><par n="artikel__n"/></e>
 	<e lm="lyk"><i>lyk</i><par n="artikel__n"/></e>
 	<e lm="meerdere"><i>meerdere</i><par n="artikel__n"/></e>
 	<e lm="hit"><i>hit</i><par n="artikel__n"/></e>
@@ -2040,6 +2042,7 @@
 	<e lm="opstand"><i>opstand</i><par n="bier__n"/></e>
 	<e lm="kans"><i>kans</i><par n="bier__n"/></e>
 	<e lm="Romein"><i>Romein</i><par n="bier__n"/></e>
+	<e lm="vriend"><i>vriend</i><par n="bier__n"/></e>
 	<e lm="stand"><i>stand</i><par n="bier__n"/></e>
 	<e lm="kampioen"><i>kampioen</i><par n="bier__n"/></e>
 	<e lm="duisend"><i>duisend</i><par n="bier__n"/></e>
@@ -2995,6 +2998,7 @@
     <e lm="Smith"><i>Smith</i><par n="van_der_Merwe__np"/></e>
     <e lm="Warhol"><i>Warhol</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e> 
+	<e lm="De Beauvoir"><i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Dalí"><i>Dalí</i><par n="van_der_Merwe__np"/></e> 
     <e lm="Stellenbosch"><i>Stellenbosch</i><par n="van_der_Merwe__np"/></e> 
@@ -5992,6 +5996,7 @@
 	<e lm="heet"><i>he</i><par n="he/et__adj"/></e>
     <e lm="veel"><i></i><par n="/veel__adj"/></e>
 	<e lm="extra"><i>extra</i><par n="swart__adj"/></e>
+	<e lm="hout"><i>hout</i><par n="swart__adj"/></e>
 	<e lm="baie"><i>baie</i><par n="swart__adj"/></e>
 	<e lm="vas"><i>vas</i><par n="swart__adj"/></e>
 	<e lm="druk"><i>druk</i><par n="dik__adj"/></e>
@@ -6003,6 +6008,7 @@
 	<e lm="ongetroud"><i>ongetroud</i><par n="dadelik__adj"/></e>
 	<e lm="jarig"><i>jarig</i><par n="dadelik__adj"/></e>
 	<e lm="gou"><i>gou</i><par n="dadelik__adj"/></e>
+	<e lm="ou"><i>ou</i><par n="dadelik__adj"/></e>
 	<e lm="juis"><i>juis</i><par n="dadelik__adj"/></e>
 	<e lm="gelyk"><i>gelyk</i><par n="dadelik__adj"/></e>
 	<e lm="genoem"><i>genoem</i><par n="dadelik__adj"/></e>
@@ -6043,6 +6049,7 @@
 	<e lm="nieu"><i>nieu</i><par n="swart__adj"/></e>
     <e lm="betrokke"><i>betrokke</i><par n="swart__adj"/></e>
     <e lm="betroubaar"><i>betrouba</i><par n="sigba/ar__adj"/></e>
+	<e lm="eetbaar"><i>eetba</i><par n="sigba/ar__adj"/></e>
     <e lm="openbaar"><i>openba</i><par n="sigba/ar__adj"/></e>
     <e lm="bevaarbaar"><i>bevaarba</i><par n="sigba/ar__adj"/></e>
     <e lm="daagliks"><i>daagliks</i><par n="dadelik__adj"/></e>
@@ -6275,6 +6282,7 @@
     <e lm="wys"><i>wys</i><par n="maklik__adj"/></e>
     <e lm="ysig"><i>ysig</i><par n="maklik__adj"/></e>
     <e lm="ywerig"><i>ywerig</i><par n="maklik__adj"/></e>
+	<e lm="duur"><i>du</i><par n="prematu/ur__adj"/></e>
 
     <!-- Winterstream -->
     <e lm="koud"><i>kou</i><par n="gou/d__adj"/></e>
@@ -6298,6 +6306,7 @@
     <e lm="kubies"><i>kubies</i><par n="dadelik__adj"/></e><!--  cubic,expensive__adj -->
     <e lm="visueel"><i>visue</i><par n="seksue/el__adj"/></e><!--  visual,expensive__adj -->
     <e lm="formeel"><i>forme</i><par n="seksue/el__adj"/></e>
+	<e lm="multikultureel"><i>multikulture</i><par n="seksue/el__adj"/></e>
 	<e lm="geheel"><i>gehe</i><par n="seksue/el__adj"/></e>
     <e lm="voortydig"><i>voortydig</i><par n="dadelik__adj"/></e><!--  premature,expensive__adj -->
     <e lm="inert"><i>inert</i><par n="dadelik__adj"/></e><!--  inert,long/__adj -->
@@ -6657,7 +6666,9 @@
 
     <!-- <e lm="dieselfde"><i>dieselfde</i><par n="dadelik__adj"/></e> -->
     <e lm="algemeen"><i>algeme</i><par n="algeme/en__adj"/></e>
+	<e lm="steen"><i>steen</i><par n="algeme/en__adj"/></e>
 	<e lm="alleen"><i>alle</i><par n="algeme/en__adj"/></e>
+	<e lm="datgeen"><i>datge</i><par n="algeme/en__adj"/></e>
 
     <e lm="linker"><i>linker</i><par n="binne__adj"/></e><!-- A bit out of place here -->
     <e lm="middel"><i>middel</i><par n="binne__adj"/></e><!-- A bit out of place here -->
@@ -7032,6 +7043,7 @@
     <e lm="hoog"><i>ho</i><par n="ho/og__adj"/></e><!-- high -->
     <e lm="knap"><i>knap</i><par n="knap__adj"/></e><!-- tight + many other meanings -->
     <e lm="vernaam"><i>verna</i><par n="verna/am__adj"/></e><!-- important -->
+	<e lm="onbedagsaam"><i>onbedagsa</i><par n="verna/am__adj"/>
     <e lm="lang"><i>lang</i><par n="min__adj"/></e><!-- long -->
     <e lm="skraal"><i>skra</i><par n="skra/al__adj"/></e><!-- slim -->
     <e lm="arm"><i>arm</i><par n="arm__adj"/></e><!-- poor -->
@@ -7062,6 +7074,8 @@
 	<e lm="begrawe"><i>begrawe</i><par n="ontwikkel__vblex"/></e>
 	<e lm="dring"><i>dring</i><par n="breek__vblex"/></e>
 	<e lm="dring"><p><l>gedring</l><r>dring</r></p><par n="gebreek__vblex"/></e>
+	<e lm="reën"><i>reën</i><par n="breek__vblex"/></e>
+	<e lm="reën"><p><l>gereg</l><r>reën</r></p><par n="gebreek__vblex"/></e>
 	<e lm="bid"><i>bid</i><par n="breek__vblex"/></e>
 	<e lm="bid"><p><l>gebid</l><r>bid</r></p><par n="gebreek__vblex"/></e>
 	<e lm="stoor"><i>stoor</i><par n="breek__vblex"/></e>
@@ -7930,6 +7944,9 @@
     <e lm="instel"><i>instel</i><par n="aansien__vblex_sep"/></e>
     <e lm="instel"><p><l>stel</l><r>instel</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
     <e lm="instel"><p><l>ingestel</l><r>instel</r></p><par n="aangesien__vblex_sep"/></e>
+    <e lm="vasstel"><i>vasstel</i><par n="aansien__vblex_sep"/></e>
+    <e lm="vasstel"><p><l>stel</l><r>vasstel</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>vas</l><r></r></p></e>
+    <e lm="vasstel"><p><l>vasgestel</l><r>vasstel</r></p><par n="aangesien__vblex_sep"/></e>
 
     <e lm="instuur"><i>instuur</i><par n="aansien__vblex_sep"/></e>
     <e lm="instuur"><p><l>stuur</l><r>instuur</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>in</l><r></r></p></e>

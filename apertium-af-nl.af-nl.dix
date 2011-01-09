@@ -197,6 +197,7 @@
     <!-- SECTION: Prepositions -->
 	<e><p><l>sedert<s n="pr"/></l><r>sinds<s n="pr"/></r></p></e>
 	<e><p><l>ondanks<s n="pr"/></l><r>ondanks<s n="pr"/></r></p></e>
+	<e><p><l>daar<s n="pr"/></l><r>er<s n="pr"/></r></p></e>
 	
 	<e><p><l>rondom<s n="pr"/></l><r>rondom<s n="pr"/></r></p></e>
 	<e><p><l>ten<s n="pr"/></l><r>ten<s n="pr"/></r></p></e>
@@ -464,6 +465,8 @@
     <e><p><l>XXII<s n="num"/></l><r>XXII<s n="num"/></r></p></e>
 
     <!-- SECTION: Nouns -->
+	<e><p><l>vriend<s n="n"/></l><r>vriend<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ouer<s n="n"/></l><r>ouder<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>Romein<s n="n"/></l><r>Romein<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>plaas<s n="n"/></l><r>plaats<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>meerdere<s n="n"/></l><r>meerdere<s n="n"/><s n="mf"/></r></p></e>
@@ -4071,6 +4074,7 @@
     <e><p><l>Dalí<s n="np"/><s n="cog"/><s n="mf"/></l><r>Dalí<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Fischer<s n="np"/><s n="cog"/><s n="mf"/></l><r>Fischer<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Hitler<s n="np"/><s n="cog"/><s n="mf"/></l><r>Hitler<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+	<e><p><l>De<b/>Beauvoir<s n="np"/><s n="cog"/><s n="mf"/></l><r>De<b/>Beauvoir<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Hughes<s n="np"/><s n="cog"/><s n="mf"/></l><r>Hughes<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Mandela<s n="np"/><s n="cog"/><s n="mf"/></l><r>Mandela<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Shakespeare<s n="np"/><s n="cog"/><s n="mf"/></l><r>Shakespeare<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -4082,7 +4086,14 @@
 
 
     <!-- SECTION: Adjectives -->
-	
+	<e><p><l>ou<s n="adj"/></l><r>oud<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>multikultureel<s n="adj"/></l><r>multicultureel<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>duur<s n="adj"/></l><r>duur<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>steen<s n="adj"/></l><r>stenen<s n="adj"/></r></p></e>
+	<e><p><l>datgeen<s n="adj"/></l><r>datgeen<s n="adj"/></r></p></e>
+	<e><p><l>onbedagsaam<s n="adj"/></l><r>onbedachtzaam<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>hout<s n="adj"/></l><r>houten<s n="adj"/></r></p></e>
+	<e><p><l>eetbaar<s n="adj"/></l><r>eetbaar<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Belgies<s n="adj"/></l><r>Belgisch<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>bestaand<s n="adj"/></l><r>bestaand<s n="adj"/></r></p></e>
 	<e><p><l>geheel<s n="adj"/></l><r>geheel<s n="adj"/></r></p></e>
@@ -4830,7 +4841,8 @@
     <e><p><l>ideaal<s n="adj"/></l><r>ideaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>industrieel<s n="adj"/></l><r>industrieel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>informeel<s n="adj"/></l><r>informeel<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>inheems<s n="adj"/></l><r>inheems<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>inheems<s n="adj"/></l><r>inheems<s n="adj"/></r></p></e>
+	<e><p><l>inheems<s n="adj"/></l><r>autochtoon<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>innig<s n="adj"/><s n="sint"/></l><r>innig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>interessant<s n="adj"/><s n="sint"/></l><r>interessant<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>intiem<s n="adj"/><s n="sint"/></l><r>intiem<s n="adj"/><s n="sint"/></r></p></e>
@@ -5276,6 +5288,7 @@
     <e><p><l>kan<s n="vbmod"/></l><r>kunnen<s n="vbmod"/></r></p></e>
     <e><p><l>mag<s n="vbmod"/></l><r>mogen<s n="vbmod"/></r></p></e>
 
+	<e><p><l>reën<s n="vblex"/></l><r>regenen<s n="vblex"/></r></p></e>
 	<e><p><l>kry<s n="vblex"/></l><r>krijgen<s n="vblex"/></r></p></e>
 	<e><p><l>bid<s n="vblex"/></l><r>bidden<s n="vblex"/></r></p></e>
 	<e><p><l>omrand<s n="vblex"/></l><r>grenzen<s n="vblex"/></r></p></e>
@@ -5905,6 +5918,7 @@
 	<e><p><l>inkeer<s n="vblex"/><s n="sep"/></l><r>inkeren<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>onderskei<s n="vblex"/><s n="sep"/></l><r>onderscheiden<s n="vblex"/></r></p></e>
 	<e><p><l>instel<s n="vblex"/><s n="sep"/></l><r>instellen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>vaststel<s n="vblex"/><s n="sep"/></l><r>vasstellen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>uitdeel<s n="vblex"/><s n="sep"/></l><r>uitdelen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>uitspreek<s n="vblex"/><s n="sep"/></l><r>uitdrukken<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>uitbreek<s n="vblex"/><s n="sep"/></l><r>uitbreken<s n="vblex"/><s n="sep"/></r></p></e>
