@@ -14,6 +14,9 @@
 \usepackage{multirow}
 \usepackage[small,bf]{caption}
 \usepackage{latexsym}
+\usepackage{gb4e}
+\usepackage{linguex} %think it has to be the last package
+
 \setlength\titlebox{6.5cm}    % Expanding the titlebox
 
 \newcommand{\confname}{EAMT 2011}
@@ -90,8 +93,6 @@ was wholly revised, and infrequent words were removed.
 There are a number of existing morphological analysers for Dutch, based on ...
 
 We chose to create a new analyser because... (tagset, gender, analysis/generation, free software)
-
-
 
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
@@ -209,10 +210,10 @@ parts of the verb in {\em sla op}, the verb itself {\em sla} and the particle
 The following cases are supported,
 
 \begin{itemize}
-\item Infinitive: opslaan $\rightarrow$ stoor
+\item Infinitive: opslaan $\rightarrow$ stoor 
 \item Participle: opgeslagen $\rightarrow$ gestoor
 \item Non-separated: Ik ga uit naar het strand vandaag $\rightarrow$
-\item Subordinate: Toen ik snel mijn bestanden opsloeg $\rightarrow$
+\item Subordinate: Toen ik snel mijn bestanden opsloeg $\rightarrow$ 
 \end{itemize}
 
 Verbs separated by a word or phrase are currently translated word-for-word,
@@ -339,9 +340,9 @@ of the performance of the system in `ideal' and `realistic' settings.
 \subsection{Qualitative}
 
 In order to inform ourselves of where the effort could be expanded in order to improve the 
-system we undertook a qualitative evaluation by reviewing the translation errors and 
-categorising them as in Table~\ref{table:qual}. An example of each of the kind of error
-is found below.
+system we undertook a qualitative evaluation by reviewing the translation errors from the Afrikaans
+to Dutch direction and categorising them as in Table~\ref{table:qual}. An example of each 
+of the kind of error is found below.
 
 \begin{table}
   \begin{center}
@@ -349,14 +350,16 @@ is found below.
      \hline
      {\bf Error type}    & {\bf Count} & {\bf Percentage of total} \\
      \hline
-     Unknown word        &             & \\
-     Morphology          &             & \\
-     Disambiguation      &             & \\
-     Multiword           &             & \\
-     Syntactic transfer  &             & \\
-     Polysemy            &             & \\
-     Compounding         &             & \\
-     Separable verb      &             & \\
+     Unknown word        & 147         & \\
+     Morphology          & 3           & \\
+     Disambiguation      & 106         & \\
+     Multiword           & 6           & \\
+     Syntactic transfer  & 263         & \\
+     Polysemy            & 23          & \\
+     Compounding         & 6           & \\
+     Separable verb      & 3           & \\
+     \hline
+     Total               &             & \\
      \hline
   \end{tabular}
     \caption{Contribution to total error by type}
@@ -366,10 +369,11 @@ is found below.
 
 
 \subsubsection{Unknown word}
-%Hierdie besetting is in 1721 met die Verdrag van Nystad erken. \\
-%Deze bezetting is in 1721 met het Verdrag van *Nystad *erken. \\
-%Deze bezetting is in 1721 met het Verdrag van Nystad erkend. \\
 
+\ex. \label{ex:exist} 
+    Hierdie besetting is in 1721 met die Verdrag van Nystad erken. \\
+    Deze bezetting is in 1721 met het Verdrag van *Nystad *erken. \\
+    Deze bezetting is in 1721 met het Verdrag van Nystad erkend. \\
 
 \subsubsection{Morphology}
 \subsubsection{Disambiguation}

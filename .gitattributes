@@ -68,8 +68,12 @@ dev/verbSep.txt -text
 nl/apertium-af-nl.nl.dix.full -text
 nl/update.sh -text
 paper/Makefile -text
+paper/cgloss4e.sty -text
 paper/eamt11.bst -text
 paper/eamt11.sty -text
 paper/eamt11afnl.tex -text
+paper/gb4e.sty -text
+paper/linguex.sty -text
+paper/linguho.sty -text
 /pending-tests.sh -text
 /wiki-tests.sh -text
