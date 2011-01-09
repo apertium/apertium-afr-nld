@@ -201,7 +201,7 @@ where {\small {\tt personeel$<$n$><$sg$><$cmp$>$}} will produce personeel.
 \subsubsection{Separable verbs}
 
 Another feature of Afrikaans and Dutch is separable verbs, for example
-the Afrikaans {\em opslaan} `to save'. This can appear in the following
+the Dutch {\em opslaan} `to save'. This can appear in the following
 forms {\em opslaan}, {\em sla op}, {\em opgeslagen}. Additionally the two constituent
 parts of the verb in {\em sla op}, the verb itself {\em sla} and the particle
 {\em op} may be separated by a word or phrase, {\em Ik sla mijn bestanden op}
@@ -376,12 +376,97 @@ of the kind of error is found below.
     Deze bezetting is in 1721 met het Verdrag van Nystad erkend. \\
 
 \subsubsection{Morphology}
+
+\ex. \label{ex:exposs} 
+    Pi is ook bekend as Archimedes se konstante (nie dieselfde as Archimedes se getal nie) en Ludolph se getal. \\
+   *Pi is ook bekend als *Archimedess *konstante (niet #dezelfde als *Archimedess *getal ) en *Ludolphs *getal. \\
+    Pi is ook bekend als Archimedes' constante (niet dezelfde als Archimedes' getal ) en Ludolphs getal.\\
+
+This is an issue with possesive "se" from Afrikaans. In Dutch this can be translated with a possesive "s" added to the preceding noun,
+ or a construction using the preposition "van". However, names or words that end in -s, -x, or generally, end in a sound like -s,
+ cannot take another -s and take an apostrophe instead. A similar situation could erise if the preceding word ends in a vowel,
+ in which case the word takes -'s instead of -s.
+
 \subsubsection{Disambiguation}
+
+\ex. \label{ex:exdisam} 
+    In 1843 verklaar die Britte die stad tot 'n kolonie. \\
+    In 1843 verklaren de Britten de stad tot een kolonie. \\
+    In 1843 verklaarden de Britten de stad tot een kolonie.\\
+
+In this example, in the Afrikaans sentence, the verb "verklaar" could be tagged as being one of present tense, past tense,
+ infinitive or past participle. It has been tagged as present tense, which led to a translation which is not correct in Dutch, 
+because the Dutch language does not allow the use of the present tense if an event is in the past,
+ even if the sentence is in narrative style, like in this example.
+
 \subsubsection{Multiword}
+
+\ex. \label{ex:exmw} 
+    In die laaste dekades het ook Duitse argitekte begin om projekte dwarsoor die wêreld aan te pak. \\
+    In de laatst decenniën heeft ook Duitse architecten beginnen om projecten overdwars de wereld aan te pakken. \\
+    In de laatste decenniën zijn ook Duitse architecten begonnen om projecten over de hele wereld aan te pakken. \\
+
+This example is causing problems because it is hard, if not impossible to catch the meaning of the Afrikaans "dwarsoor" in one Dutch word.
+ An appropriate multiword could fix this, but might cause additional issues with the article of "wereld" as that is included in the phrase "over de hele"
+
 \subsubsection{Syntactic transfer}
+
+\ex. \label{ex:exsgpl} 
+    Hier volg 'n lys van hoofstede. \\
+    Hier volgen een lijst van hoofdsteden. \\
+    Hier volgt een lijst van hoofdsteden. \\
+
+Here the plural verb does not match the singular subject, the noun "lijst".
+ This could be solved by identifying the subject of the sentence and matching the plurality of the verb with it.
+
+\ex. \label{ex:exhavebe} 
+    Die belangrikste rol wat die vroue egter in die stryd teen apartheid gespeel het, was die beweging teen die uitreiking van pasboeke vir vroue. \\
+    De belangrijkste rol wat de vrouwen echter in de strijd tegen apartheid gespeeld heeft, was de beweging tegen de uitreiking van pasboeken voor vrouwen. \\
+    De belangrijkste rol die de vrouwen echter in de strijd tegen apartheid gespeeld hebben, was de beweging tegen de uitreiking van pasboeken voor vrouwen. \\
+
+Afrikaans uses the verb "hê" (to have) with all past participles, whereas Dutch uses the verb "zijn" (to be) in cases of, amongst others, verbs that imply movement. This could be fixed by tracking past participles and their auxiliary verbs.
+
 \subsubsection{Polysemy}
+
+\ex. \label{ex:expolysem} 
+    Analitiese chemie is die analise van materiaalmonsters om sodoende hul chemiese samestelling en struktuur te verstaan.
+    Analytische chemie is de analyse van materiaalsteekproeven om zodoende hun chemische samenstelling en structuur te verstaan.
+    Analytische chemie is de analyse van materiaalmonsters om zodoende hun chemische samenstelling en structuur te bepalen.
+
+This sentence has two errors due to polysemy. The Afrikaans "monster", here as plural as the right part of a compound, 
+can mean either steekproef or monster (both mean sample in English). However, the former is generally used in the context of statistical research, 
+while the latter is used for samples of substances, or samples from animals. The other error due to polysemy is "verstaan".
+ This Afrikaans word can be translated as "verstaan" in Dutch, but this means "to catch" (as in "to hear", "to understand"), 
+which is clearly wrong in this example. The correct translation here is "bepalen" (to determine) 
+
 \subsubsection{Compounding}
+
+\ex. \label{ex:excompsplit} 
+    Die graanopbrengs per hektaar is laer as in Middel-Europa. \\
+    De *graanopbrengs per *hektaar is lager als in Middel-Europa. \\
+    De graanopbrengst per hectare is lager dan in Midden-Europa. \\
+
+The error due to compounding in this example is "Middel-Europa". This word has been translated by splitting it up and translating the seperate parts.
+ However, while normally the Afrikaans "Middel" can be translated correctly as "middel", in the case of geographical names, the only correct translation is "Midden".
+
+\ex. \label{ex:excomphyphen} 
+    Die motornywerheid is die ekonomiese basis van Oshawa, en die stad huisves die grootste Kanadese monteerplase en hoofkwartier van General Motors, wat oorspronklik in die jaar 1876 as McLaughlin Carriage Company gestig is. \\
+    De autoindustrie is de economische basis van *Oshawa, en de stad *huisves de grootste Canadezen *monteerplase en hoofdkantoor van *General Auto's, wat oorspronkelijk in het jaar 1876 als *McLaughlin *Carriage *Company gesticht is. \\
+    De auto-industrie is de economische basis van Oshawa, en de stad huisvest de grootste Canadeze monteerplaatsen en het hoofdkantoor van General Motors, wat oorspronkelijk in het jaar 1876 als McLaughlin Carriage Company gesticht is. \\
+
+The error in this example is due to a specific rule in the Dutch language in regards to compounds. If a compound is built-up from two words as such that 
+the two vowels around the splitting point constitute a sound on their own, which means the word could be mispronounced,
+ a hyphen should be used to distinquish the different parts of the compound. This phenomenom is known in Dutch as "klinkerbotsing". 
 \subsubsection{Separable verb}
+
+\ex. \label{ex:exsepverb} 
+    Twee jaar later ruk die situasie in die land onder die indruk van massabetogings hand uit. \\
+    Twee jaar later *ruk de situatie in het land onder de indruk van *massabetogings hand uit. \\
+    Twee jaar later loopt de situatie in het land onder de invloed van massabetogingen uit de hand. \\
+
+This is a classic example of a seperable verb which is not recognised as such. The Afrikaans "ruk ... hand uit" corresponds with
+ the Dutch seperable verb (and expression) "loopt ... uit de hand" However, "ruk" (to pull) in itself could never be translated as "lopen" (to walk). 
+Solving this is a significant MT challenge and is not easily fixable.  
 
 \subsection{Comparative}
 
