@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
+    <def-cat n="sent">
+      <cat-item name="punt"/>
+    </def-cat>
     <def-cat n="unknown">
       <cat-item name="unknown"/>
     </def-cat>
     <def-cat n="verb">
       <cat-item name="verb"/>
     </def-cat>
+    <def-cat n="verbhaver">
+      <cat-item name="verbhaver"/>
+    </def-cat>
     <def-cat n="verb_pp">
       <cat-item name="verb_pp"/>
+    </def-cat>
+    <def-cat n="uns_inf">
+      <cat-item name="uns_inf"/>
     </def-cat>
      <def-cat n="nom_gen">
       <cat-item name="nom_gen"/>
@@ -34,9 +43,15 @@
       <attr-item tags="n"/>
       <attr-item tags="np"/>
     </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="pp"/>
+    </def-attr>
   </section-def-attrs>
 <section-def-vars>
     <def-var n="paraula"/>
+    <def-var n="seen_hebben"/>
+    <def-var n="seen_te"/>
   </section-def-vars>
 
 
@@ -161,6 +176,90 @@
       </action>
     </rule>
 
+    <rule comment="CHUNK: verbhaver">
+      <pattern>
+        <pattern-item n="verbhaver"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" part="pers"/>
+                <lit-tag v="PD"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="pers"/>
+              <lit-tag v="p3"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" part="nbr"/>
+                <lit-tag v="ND"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let><var n="seen_hebben"/><lit v="1"/></let>
+      </action>
+    </rule>
+
+    <rule comment="CHUNK: uns_inf">
+      <pattern>
+        <pattern-item n="uns_inf"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <var n="seen_hebben"/>
+                <lit v="1"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="temps"/>
+              <lit-tag v="pp"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let><var n="seen_hebben"/><lit v="1"/></let>
+      </action>
+    </rule>
+    <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+        <let><var n="seen_hebben"/><lit v="0"/></let>
+        <let><var n="seen_te"/><lit v="0"/></let>
+      </action>
+    </rule>
 
 </section-rules>
 </postchunk>

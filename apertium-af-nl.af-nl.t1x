@@ -54,9 +54,16 @@
     <def-cat n="prpers_obj">
       <cat-item lemma="prpers" tags="prn.obj.*"/>
     </def-cat>
+    <def-cat n="verbinf">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vblex.*.inf"/>
+      <cat-item tags="vblex.*.inf.*"/>
+      <cat-item tags="vblex.inf.*"/>
+    </def-cat>
     <def-cat n="verbhaver">
       <cat-item tags="vbhaver.pres"/>
       <cat-item tags="vbhaver.past"/>
+      <cat-item tags="vbhaver.pres.*"/> 
     </def-cat>
     <def-cat n="verbmod_past">
       <cat-item tags="vbser.past"/>
@@ -78,11 +85,8 @@
       <cat-item tags="vaux.pres"/>
       <cat-item tags="vbmod.pres"/>
       <cat-item tags="vbser.past"/>
-      <cat-item tags="vbhaver.pres"/> 
-      <cat-item tags="vbhaver.past"/> 
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vbser.pres.*"/>
-      <cat-item tags="vbhaver.pres.*"/> 
     </def-cat>
 
     <def-cat n="prep"> <!-- preposition -->
@@ -197,6 +201,7 @@
     <def-var n="numero"/>
     <def-var n="caseFirstWord"/>
     <def-var n="nombre"/>
+    <def-var n="tipus_inf"/>
     <def-var n="seen_neg"/>
   </section-def-vars>
 
@@ -1356,6 +1361,58 @@
     </rule>
 
 
+    <rule comment="REGLA: verbinf">
+      <pattern>
+        <pattern-item n="verbinf"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <or> <!-- ver, ont, be, ge -->
+                <begins-with>
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="ver"/>
+                </begins-with>
+                <begins-with>
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="ont"/>
+                </begins-with>
+              </or>
+            </test>
+            <let>
+              <var n="tipus_inf"/>
+              <lit v="uns_inf"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="tipus_inf"/>
+              <lit v="inf"/>
+            </let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk namefrom="tipus_inf">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="tipus_inf"/>
+          <lit v="inf"/>
+        </let>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: verbhaver verbpp">
       <pattern>
@@ -1434,6 +1491,84 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: verbhaver">
+      <pattern>
+        <pattern-item n="verbhaver"/>
+      </pattern>
+      <action>
+          <choose>
+            <when>
+              <test>
+                <and>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="vblex.sep"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vblex"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="temps"/>
+                    <lit-tag v="pres"/>
+                  </equal>
+                </and>
+              </test>
+              <let>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="fm.pres"/>
+              </let>
+            </when>
+            <when>
+              <test>
+                <and>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vblex.sep"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="vblex"/>
+                  </equal>
+                  <or>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="fs.pres"/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="tl" part="temps"/>
+                      <lit-tag v="fm.pres"/>
+                    </equal>
+                  </or>
+                </and>
+              </test>
+              <let>
+                <clip pos="1" side="tl" part="temps"/>
+                <lit-tag v="pres"/>
+              </let>
+            </when>
+
+          </choose>
+        <out>
+          <chunk name="verbhaver">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="tl" part="temps_noloc"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+              <tag><lit-tag v="ND"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="3.4"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: verbfin">
       <pattern>
