@@ -14,6 +14,7 @@
 \usepackage{multirow}
 \usepackage[small,bf]{caption}
 \usepackage{latexsym}
+\usepackage{graphicx}
 \usepackage{gb4e}
 \usepackage{linguex} %think it has to be the last package
 
@@ -53,9 +54,28 @@
 
 \section{Introduction}
 
-The Dutch language is West-Germanic and is spoken by nearly 23 million people, which are mostly from the Netherlands and Flanders, the Dutch-speaking part of Belgium and a minority lives in former colonies of the Netherlands, such as Surinam, Aruba and the Netherlands Antilles. The Dutch language as it is today, started developing in the 16th century in the major trade cities, such as Amsterdam and Antwerp. \cite{Shetter:02}  Afrikaans is spoken by at least 5 million people, mainly in South-Africa. Afrikaans is a variety of Dutch that probably originates from the Dutch that was spoken by the Dutch colonists of the Cape Colony, from the pidginisation in the mouths of  the non-white inhabitants of the Cape or from a combination of these two factors. In 1925 Afrikaans replaced Dutch as an official language, to be the joint official language together with English. Currently Afrikaans is one of the eleven national languages. \cite{Donaldson:93}
-In this paper we will describe the development of apertium-af-nl, an Afrikaans and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch are largely mutually intelligible, this machine translation system focuses on dissemination, the production of text for the purpose of being post-edited and then being published. Previous work in Afrikaans and Dutch machine translation is described in \cite{Huyssteen:09} 
-The paper is laid out as follows, firstly, we will describe the reuse and creations of resources. We will then discuss several grammatical features of Afrikaans and Dutch and how these were incorporated in the machine-translation system. We will then present a section in which the system is evaluated. Finally, we will discuss the system and future work that could be done.
+The Dutch language is West-Germanic and is spoken by nearly 23 million people, which are 
+mostly from the Netherlands and Flanders, the Dutch-speaking part of Belgium and a minority 
+live in former colonies of the Netherlands, such as Suriname, Aruba and the Netherlands 
+Antilles. The Dutch language as it is today, started developing in the 16th century in the 
+major trade cities, such as Amsterdam and Antwerp \cite{Shetter:02}.  Afrikaans is spoken 
+by at least 5 million people, mainly in South Africa but also in Namibia. Afrikaans is a 
+variety of Dutch that originates from the Dutch that was spoken by the Dutch colonists of 
+the Cape Colony. In 1925 Afrikaans replaced Dutch as an official language in South Africa, to 
+be the joint official language together with English. Currently Afrikaans is one of the 
+eleven national languages \cite{Donaldson:93}.
+
+In this paper we will describe the development of {\small {\tt apertium-af-nl}}, an Afrikaans 
+and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch 
+are largely mutually intelligible, this machine translation system focuses on dissemination, the 
+production of text for the purpose of being post-edited and then being published. Previous 
+work in Afrikaans and Dutch machine translation is described in \cite{Huyssteen:09}.
+
+The paper is laid out as follows, firstly, we will describe the reuse and creations of 
+resources. We will then discuss several grammatical features of Afrikaans and Dutch and how 
+these were incorporated in the machine-translation system. We will then present a section 
+in which the system is evaluated. Finally, we will discuss the system and future work that 
+could be done.
 
 
 \begin{itemize}
@@ -74,6 +94,15 @@ Licence\footnote{\url{http://www.fsf.org/licensing/licenses/gpl.html}} (GPL)
 and all the software and data for the 25 supported language pairs (and the
 other pairs being worked on) is available for download from the project
 website.
+
+\begin{figure*}
+  \centering
+  \includegraphics[scale=0.8]{apertium2.pdf}
+  \caption{Modular architecture of the Apertium MT
+    platform. The compound analysis and generation modules are included at the morphological
+    analyser and morphological generator stages respectively.}
+\label{fg:apertium}
+\end{figure*}
 
 \begin{itemize}
 \item development time, how apertium works (fig. 1)
@@ -161,7 +190,7 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 Both Afrikaans and Dutch are languages in which nouns combine very
 productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
 `infrastructure development plan' and {\em personeelverminderingsprosedure}
-`personnel protection procedure'. As it is impractical to introduce
+`personnel reduction procedure'. As it is impractical to introduce
 all compound words into the lexicons, compound word analysis is performed on
 all unknown words. The analysis process works longest-match left-to-right
 using the same transducer as is used for morphological analysis.
@@ -351,7 +380,7 @@ of the kind of error is found below.
      {\bf Error type}    & {\bf Count} & {\bf \% of total} \\
      \hline
      Unknown word        & 147         & \\
-     Morphology          & 3           & \\
+     Morphology          & 0           & \\
      Disambiguation      & 106         & \\
      Multiword           & 6           & \\
      Syntactic transfer  & 263         & \\
@@ -380,17 +409,7 @@ of the translation.
 
 \subsubsection{Morphology}
 
-Example~\ref{ex:exposs} shows an issue with possesive `se' from Afrikaans. In Dutch this can be translated 
-with a possesive `s' added to the preceding noun, or a construction using the preposition `van'. However, 
-names or words that end in -s, -x, or generally, end in a sound like -s, cannot take another -s and take 
-an apostrophe instead. A similar situation could erise if the preceding word ends in a vowel, in which 
-case the word takes -'s instead of -s.
-
-\ex. \label{ex:exposs} 
-   ...~ook bekend as Archimedes se konstante. \\
-   ...~ook~bekend~als~{\em *Archimedess}~*konstante. \\
-   ...~ook bekend als {\em Archimedes'} constante.\\
-   `[Pi is] also known as Archimedes' constant.'
+Morphology errors would be errors caused by incorrect analysis or generation in the morphological analysers.
 
 \subsubsection{Disambiguation}
 
@@ -431,6 +450,7 @@ of movement verbs.
     Die sand het dan saam met die water weggespoel. \\
     Het zand {\em heeft} dan samen met het water weggespoeld. \\
     Het zand {\em is} dan samen met het water weggespoeld. \\
+   `The sand is ...'
 
 In \ref{ex:exsgpl} the singular verb does not match the plural subject, the noun {\em vrouwen} `woman'. This 
 could be solved by identifying the subject of the sentence and matching the plurality 
@@ -463,6 +483,7 @@ be worth changing the default translation.
     Die graanopbrengs per hektaar is laer as in Middel-Europa. \\
     De *graanopbrengs per *hektaar is lager als in {\em Middel-Europa}. \\
     De graanopbrengst per hectare is lager dan in {\em Midden-Europa}. \\
+   `The grain production per hectare is greater than in Central Europe.'
 
 The error due to compounding in this example is `Middel-Europa'. This word has been translated by splitting it up and translating the seperate parts.
  However, while normally the Afrikaans `Middel' can be translated correctly as `middel', in the case of geographical names, the only correct translation is `Midden'.
@@ -471,6 +492,7 @@ The error due to compounding in this example is `Middel-Europa'. This word has b
     Die motornywerheid is die ekonomiese basis van Oshawa, ...  \\
     De {\em autoindustrie} is de economische basis van *Oshawa, ... \\
     De {\em auto-industrie} is de economische basis van Oshawa, ... \\
+   `The car industry is the economic base of Oshawa, ...'
 
 The error in this example is due to a specific rule in Dutch to do with 
 compounds, \emph{klinkerbotsing}. If a compound is built-up from two words as such 
