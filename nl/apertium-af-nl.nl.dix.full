@@ -7005,9 +7005,6 @@
       <e>       <p><l>or</l><r>or<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e>       <p><l>ren</l><r>or<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
-    <pardef n="wol__n_m">
-      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
-    </pardef>
     <pardef n="Zwe/ed__n_m">
       <e>       <p><l>ed</l><r>ed<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e>       <p><l>den</l><r>ed<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
@@ -7016,9 +7013,6 @@
       <e>       <p><l>en</l><r><s n="adj"/><s n="attr"/></r></p></e>
       <e>       <p><l>s</l><r><s n="adj"/><s n="part"/></r></p></e>
       <e>       <p><l></l><r><s n="adj"/><s n="pred"/></r></p></e>
-    </pardef>
-    <pardef n="wol__n_f">
-      <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
     </pardef>
     <pardef n="wis__adj">
       <e>       <p><l>se</l><r><s n="adj"/><s n="attr"/></r></p></e>
@@ -7076,6 +7070,14 @@
       <e>       <p><l>amst</l><r>am<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
     </pardef>
     <pardef n="ui__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    </pardef>
+    <pardef n="zegekrans__n_m"> <!-- posss -->
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    </pardef>
+    <pardef n="vlaai__n_m"> <!-- posss -->
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e>       <p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
     </pardef>
@@ -15120,7 +15122,7 @@
     <e lm="aagje"><i>aagje</i><par n="roe__n_f"/></e>
     <e lm="upgrade"><i>upgrade</i><par n="roe__n_f"/></e>
     <e lm="aagt"><i>aagt</i><par n="ui__n_m"/></e>
-    <e lm="aai"><i>aai</i><par n="ui__n_m"/></e>
+    <e lm="aai"><i>aai</i><par n="vlaai__n_m"/></e>
     <e lm="aaibaarheidsfactor"><i>aaibaarheidsfactor</i><par n="ui__n_m"/></e>
     <e lm="vorm"><i>vorm</i><par n="ui__n_m"/></e>
     <e lm="aak"><i>a</i><par n="a/ak__n_f"/></e>
@@ -15298,7 +15300,7 @@
     <e lm="aanzicht"><i>aanzicht</i><par n="lot__n_nt"/></e>
     <e lm="aanzoek"><i>aanzoek</i><par n="lot__n_nt"/></e>
     <e lm="aap"><i>aa</i><par n="aa/p__n_m"/></e>
-    <e lm="aapmens"><i>aapmens</i><par n="ui__n_m"/></e>
+    <e lm="aapmens"><i>aapmens</i><par n="zegekrans__n_m"/></e>
     <e lm="aar"><i>a</i><par n="a/r__n_m"/></e>
     <e lm="aardalkalimetaal"><i>aardalkalimeta</i><par n="ma/al__n_nt"/></e>
     <e lm="aardappel"><i>aardappel</i><par n="sol__n_m"/></e>
@@ -15312,7 +15314,7 @@
     <e lm="aardbaan"><i>aardba</i><par n="la/an__n_mf"/></e>
     <e lm="aardbei"><i>aardbei</i><par n="hui__n_mf"/></e>
     <e lm="aardbeienplant"><i>aardbeienplant</i><par n="ui__n_m"/></e>
-    <e lm="aardbeienvlaai"><i>aardbeienvlaai</i><par n="ui__n_m"/></e>
+    <e lm="aardbeienvlaai"><i>aardbeienvlaai</i><par n="vlaai__n_m"/></e>
     <e lm="aardbeiplant"><i>aardbeiplant</i><par n="hui__n_mf"/></e>
     <e lm="aardbeirood"><i>aardbeirood</i><par n="OV__n_nt"/></e>
     <e lm="aardbeving"><i>aardbeving</i><par n="vering__n_f"/></e>
@@ -15406,7 +15408,7 @@
     <e lm="abonneenummer"><i>abonneenummer</i><par n="eon__n_nt"/></e>
     <e lm="abonnement"><i>abonnement</i><par n="lot__n_nt"/></e>
     <e lm="abortus"><i>abortus</i><par n="as__n_m"/></e>
-    <e lm="abortusarts"><i>abortusarts</i><par n="ui__n_m"/></e>
+    <e lm="abortusarts"><i>abortusarts</i><par n="zegekrans__n_m"/></e>
     <e lm="abortusinstituut"><i>abortusinstitu</i><par n="debu/ut__n_nt"/></e>
     <e lm="abortuskliniek"><i>abortuskliniek</i><par n="vering__n_f"/></e>
     <e lm="abortuspil"><i>abortuspil</i><par n="el__n_mf"/></e>
@@ -15510,7 +15512,7 @@
     <e lm="acrylzuur"><i>acrylzuur</i><par n="OV__n_nt"/></e>
     <e lm="acteur"><i>acteur</i><par n="led__n_m"/></e>
     <e lm="actie"><i>actie</i><par n="roe__n_f"/></e>
-    <e lm="actieradius"><i>actieradius</i><par n="ui__n_m"/></e>
+    <e lm="actieradius"><i>actieradius</i><par n="zegekrans__n_m"/></e>
     <e lm="actinide"><i>actinide</i><par n="lipide__n_nt"/></e>
     <e lm="actinium"><i>actinium</i><par n="OV__n_nt"/></e>
     <e lm="activiteit"><i>activiteit</i><par n="vering__n_f"/></e>
@@ -15539,7 +15541,7 @@
     <e lm="adaptatiestoornis"><i>adaptatiestoornis</i><par n="as__n_f"/></e>
     <e lm="adaptatievermogen"><i>adaptatievermogen</i><par n="OV__n_nt"/></e>
     <e lm="adapter"><i>adapter</i><par n="roe__n_mf"/></e>
-    <e lm="addax"><i>addax</i><par n="ui__n_m"/></e>
+    <e lm="addax"><i>addax</i><par n="zegekrans__n_m"/></e>
     <e lm="adder"><i>adder</i><par n="roe__n_f"/></e>
     <e lm="additief"><i>additie</i><par n="ho/f__n_nt"/></e>
     <e lm="adel"><i>adel</i><par n="eb__n_m"/></e>
@@ -15901,7 +15903,7 @@
     <e lm="antibioticum"><i>antibiotic</i><par n="sacr/um__n_nt"/></e>
     <e lm="antiblokkeersysteem"><i>antiblokkeersyste</i><par n="ze/em__n_nt"/></e>
     <e lm="anticholinergicum"><i>anticholinergic</i><par n="sacr/um__n_nt"/></e>
-    <e lm="anticlimax"><i>anticlimax</i><par n="ui__n_m"/></e>
+    <e lm="anticlimax"><i>anticlimax</i><par n="zegekrans__n_m"/></e>
     <e lm="anticoagulans"><i>anticoagulan</i><par n="agen/s__n_nt"/></e>
     <e lm="anticonceptie"><i>anticonceptie</i><par n="eb__n_f"/></e>
     <e lm="anticonceptiemiddel"><i>anticonceptiemiddel</i><par n="lot__n_nt"/></e>
@@ -16046,7 +16048,7 @@
     <e lm="artillerie"><i>artillerie</i><par n="eb__n_f"/></e>
     <e lm="artillerist"><i>artillerist</i><par n="ui__n_m"/></e>
     <e lm="artrose"><i>artrose</i><par n="eb__n_f"/></e>
-    <e lm="arts"><i>arts</i><par n="ui__n_m"/></e>
+    <e lm="arts"><i>arts</i><par n="zegekrans__n_m"/></e>
     <e lm="as"><i>as</i><par n="as__n_mf"/></e>
     <e lm="as-groot"><i>as-groot</i><par n="OV__n_nt"/></e>
     <e lm="as-klein"><i>as-klein</i><par n="OV__n_nt"/></e>
@@ -16217,7 +16219,7 @@
     <e lm="baken"><i>baken</i><par n="eon__n_nt"/></e>
     <e lm="baker"><i>baker</i><par n="led__n_m"/></e>
     <e lm="baker"><i>baker</i><par n="roe__n_f"/></e>
-    <e lm="bakfiets"><i>bakfiets</i><par n="ui__n_m"/></e>
+    <e lm="bakfiets"><i>bakfiets</i><par n="zegekrans__n_m"/></e>
     <e lm="bakkebaard"><i>bakkebaard</i><par n="ui__n_m"/></e>
     <e lm="bakker"><i>bakker</i><par n="led__n_m"/></e>
     <e lm="bakkerij"><i>bakkerij</i><par n="vering__n_f"/></e>
@@ -16330,7 +16332,7 @@
     <e lm="beddenkussen"><i>beddenkussen</i><par n="eon__n_nt"/></e>
     <e lm="beddenlaken"><i>beddenlaken</i><par n="eon__n_nt"/></e>
     <e lm="beddensprei"><i>beddensprei</i><par n="vering__n_f"/></e>
-    <e lm="beddensprei"><i>beddensprei</i><par n="ui__n_m"/></e>
+    <e lm="beddensprei"><i>beddensprei</i><par n="vlaai__n_m"/></e>
     <e lm="bedding"><i>bedding</i><par n="vering__n_f"/></e>
     <e lm="bedekking"><i>bedekking</i><par n="roe__n_f"/></e>
     <e lm="bedel"><i>bedel</i><par n="led__n_m"/></e>
@@ -16688,7 +16690,7 @@
     <e lm="bibliothecaresse"><i>bibliothecaresse</i><par n="rune__n_f"/></e>
     <e lm="bibliothecaris"><i>bibliothecaris</i><par n="as__n_m"/></e>
     <e lm="bibliotheek"><i>bibliothe</i><par n="be/ek__n_f"/></e>
-    <e lm="biceps"><i>biceps</i><par n="ui__n_m"/></e>
+    <e lm="biceps"><i>biceps</i><par n="zegekrans__n_m"/></e>
     <e lm="bidonville"><i>bidonville</i><par n="roe__n_f"/></e>
     <e lm="bidsprinkhaan"><i>bidsprinkha</i><par n="ma/an__n_m"/></e>
     <e lm="bieb"><i>bieb</i><par n="roe__n_f"/></e>
@@ -16997,7 +16999,7 @@
     <e lm="bordpapier"><i>bordpapier</i><par n="OV__n_nt"/></e>
     <e lm="borduursel"><i>borduursel</i><par n="eon__n_nt"/></e>
     <e lm="borg"><i>borg</i><par n="ui__n_m"/></e>
-    <e lm="pers"><i>pers</i><par n="ui__n_m"/></e>
+    <e lm="pers"><i>pers</i><par n="zegekrans__n_m"/></e>
     <e lm="borgsom"><i>borgsom</i><par n="kom__n_mf"/></e>
     <e lm="borgtocht"><i>borgtocht</i><par n="ui__n_m"/></e>
     <e lm="borium"><i>borium</i><par n="OV__n_nt"/></e>
@@ -17057,7 +17059,7 @@
     <e lm="bovenlip"><i>bovenlip</i><par n="lap__n_m"/></e>
     <e lm="bovenwoning"><i>bovenwoning</i><par n="vering__n_f"/></e>
     <e lm="bowl"><i>bowl</i><par n="led__n_m"/></e>
-    <e lm="box"><i>box</i><par n="ui__n_m"/></e>
+    <e lm="box"><i>box</i><par n="zegekrans__n_m"/></e>
     <e lm="boycot"><i>boycot</i><par n="led__n_m"/></e>
     <e lm="braadpan"><i>braadpan</i><par n="ren__n_m"/></e>
     <e lm="braak"><i>braak</i><par n="WO__n_mf"/></e>
@@ -17436,7 +17438,7 @@
     <e lm="clatraat"><i>clatra</i><par n="cita/at__n_nt"/></e>
     <e lm="claustrofobie"><i>claustrofobie</i><par n="fee__n_f"/></e>
     <e lm="clausule"><i>clausule</i><par n="roe__n_f"/></e>
-    <e lm="climax"><i>climax</i><par n="ui__n_m"/></e>
+    <e lm="climax"><i>climax</i><par n="zegekrans__n_m"/></e>
     <e lm="cliënt"><i>cliënt</i><par n="ui__n_m"/></e>
     <e lm="clown"><i>clown</i><par n="led__n_m"/></e>
     <e lm="club"><i>club</i><par n="led__n_m"/></e>
@@ -17710,7 +17712,7 @@
     <e lm="dankbaarheid"><i>dankbaarhe</i><par n="oudhe/id__n_f"/></e>
     <e lm="danklied"><i>danklied</i><par n="ei__n_nt"/></e>
     <e lm="dankzegging"><i>dankzegging</i><par n="vering__n_f"/></e>
-    <e lm="dans"><i>dans</i><par n="ui__n_m"/></e>
+    <e lm="dans"><i>dans</i><par n="zegekrans__n_m"/></e>
     <e lm="danser"><i>danser</i><par n="led__n_m"/></e>
     <e lm="danseres"><i>danseres</i><par n="as__n_f"/></e>
     <e lm="dansvloer"><i>dansvloer</i><par n="ui__n_m"/></e>
@@ -18019,7 +18021,7 @@
     <e lm="doorn"><i>doorn</i><par n="sol__n_m"/></e>
     <e lm="doornappel"><i>doornappel</i><par n="led__n_m"/></e>
     <e lm="doornenkroon"><i>doornenkro</i><par n="bo/on__n_mf"/></e>
-    <e lm="doornhaai"><i>doornhaai</i><par n="ui__n_m"/></e>
+    <e lm="doornhaai"><i>doornhaai</i><par n="vlaai__n_m"/></e>
     <e lm="doorslag"><i>doorslag</i><par n="ui__n_m"/></e>
     <e lm="doorsnede"><i>doorsnede</i><par n="made__n_mf"/></e>
     <e lm="doorsnee"><i>doorsne</i><par n="doorsne/e__n_mf"/></e>
@@ -18045,7 +18047,7 @@
     <e lm="draagbaar"><i>draagba</i><par n="ba/ar__n_mf"/></e>
     <e lm="draagstoel"><i>draagstoel</i><par n="ui__n_m"/></e>
     <e lm="draagvlak"><i>draagvlak</i><par n="bak__n_nt"/></e>
-    <e lm="draai"><i>draai</i><par n="ui__n_m"/></e>
+    <e lm="draai"><i>draai</i><par n="vlaai__n_m"/></e>
     <e lm="draai-inversieas"><i>draai-inversieas</i><par n="as__n_mf"/></e>
     <e lm="draaiboek"><i>draaiboek</i><par n="lot__n_nt"/></e>
     <e lm="draaier"><i>draaier</i><par n="led__n_m"/></e>
@@ -18064,7 +18066,7 @@
     <e lm="dreiging"><i>dreiging</i><par n="vering__n_f"/></e>
     <e lm="drempel"><i>drempel</i><par n="led__n_m"/></e>
     <e lm="drenkeling"><i>drenkeling</i><par n="ui__n_m"/></e>
-    <e lm="dreumes"><i>dreumes</i><par n="ui__n_m"/></e>
+    <e lm="dreumes"><i>dreumes</i><par n="zegekrans__n_m"/></e>
     <e lm="dreun"><i>dreun</i><par n="ui__n_m"/></e>
     <e lm="drevel"><i>drevel</i><par n="led__n_m"/></e>
     <e lm="driehoek"><i>driehoek</i><par n="ui__n_m"/></e>
@@ -18291,7 +18293,7 @@
     <e lm="eindredacteur"><i>eindredacteur</i><par n="led__n_m"/></e>
     <e lm="eindsignaal"><i>eindsigna</i><par n="ma/al__n_nt"/></e>
     <e lm="eindstreep"><i>eindstre</i><par n="he/ep__n_f"/></e>
-    <e lm="eis"><i>eis</i><par n="ui__n_m"/></e>
+    <e lm="eis"><i>eis</i><par n="zegekrans__n_m"/></e>
     <e lm="eiwit"><i>eiwit</i><par n="kot__n_nt"/></e>
     <e lm="ekster"><i>ekster</i><par n="roe__n_mf"/></e>
     <e lm="eksteroog"><i>ekstero</i><par n="lo/og__n_nt"/></e>
@@ -18338,7 +18340,7 @@
     <e lm="ellepijp"><i>ellepijp</i><par n="vering__n_f"/></e>
     <e lm="ellips"><i>ellips</i><par n="hui__n_mf"/></e>
     <e lm="els"><i>els</i><par n="vering__n_f"/></e>
-    <e lm="els"><i>els</i><par n="ui__n_m"/></e>
+    <e lm="els"><i>els</i><par n="zegekrans__n_m"/></e>
     <e lm="emancipatie"><i>emancipatie</i><par n="roe__n_f"/></e>
     <e lm="embleem"><i>emble</i><par n="ze/em__n_nt"/></e>
     <e lm="embolie"><i>embolie</i><par n="fee__n_f"/></e>
@@ -18591,7 +18593,7 @@
     <e lm="fatsoen"><i>fatsoen</i><par n="OV__n_nt"/></e>
     <e lm="fauna"><i>fauna</i><par n="ra__n_mf"/></e>
     <e lm="fauteuil"><i>fauteuil</i><par n="led__n_m"/></e>
-    <e lm="fax"><i>fax</i><par n="ui__n_m"/></e>
+    <e lm="fax"><i>fax</i><par n="zegekrans__n_m"/></e>
     <e lm="fazant"><i>fazant</i><par n="ui__n_m"/></e>
     <e lm="façade"><i>façade</i><par n="made__n_f"/></e>
     <e lm="façadisme"><i>façadisme</i><par n="eon__n_nt"/></e>
@@ -18671,7 +18673,7 @@
     <e lm="flat"><i>flat</i><par n="led__n_m"/></e>
     <e lm="flatgebouw"><i>flatgebouw</i><par n="lot__n_nt"/></e>
     <e lm="flauwte"><i>flauwte</i><par n="rune__n_f"/></e>
-    <e lm="fleemkous"><i>fleemkous</i><par n="ui__n_m"/></e>
+    <e lm="fleemkous"><i>fleemkous</i><par n="zegekrans__n_m"/></e>
     <e lm="flegmone"><i>flegmone</i><par n="flegmone__n_mf"/></e>
     <e lm="flens"><i>flen</i><par n="hal/s__n_m"/></e>
     <e lm="flerecijn"><i>flerecijn</i><par n="OV__n_nt"/></e>
@@ -18679,7 +18681,7 @@
     <e lm="flessentrekker"><i>flessentrekker</i><par n="led__n_m"/></e>
     <e lm="flexie"><i>flexie</i><par n="roe__n_f"/></e>
     <e lm="flikker"><i>flikker</i><par n="led__n_m"/></e>
-    <e lm="flits"><i>flits</i><par n="ui__n_m"/></e>
+    <e lm="flits"><i>flits</i><par n="zegekrans__n_m"/></e>
     <e lm="flitspaal"><i>flitspa</i><par n="ta/al__n_m"/></e>
     <e lm="flitspuit"><i>flitspuit</i><par n="vering__n_f"/></e>
     <e lm="floers"><i>floers</i><par n="lot__n_nt"/></e>
@@ -18716,7 +18718,7 @@
     <e lm="fontein"><i>fontein</i><par n="ui__n_m"/></e>
     <e lm="fooi"><i>fooi</i><par n="hui__n_mf"/></e>
     <e lm="fopspeen"><i>fopspe</i><par n="fopspe/en__n_mf"/></e>
-    <e lm="forens"><i>forens</i><par n="ui__n_m"/></e>
+    <e lm="forens"><i>forens</i><par n="zegekrans__n_m"/></e>
     <e lm="formaliteit"><i>formaliteit</i><par n="vering__n_f"/></e>
     <e lm="formant"><i>formant</i><par n="ui__n_m"/></e>
     <e lm="formatiemoeheid"><i>formatiemoeheid</i><par n="formatiemoeheid__n_f"/></e>
@@ -18796,7 +18798,7 @@
     <e lm="föhn"><i>föhn</i><par n="led__n_m"/></e>
     <e lm="g-groot"><i>g-groot</i><par n="OV__n_nt"/></e>
     <e lm="g-klein"><i>g-klein</i><par n="OV__n_nt"/></e>
-    <e lm="gaai"><i>gaai</i><par n="ui__n_m"/></e>
+    <e lm="gaai"><i>gaai</i><par n="vlaai__n_m"/></e>
     <e lm="gaaibol"><i>gaaibol</i><par n="eb__n_m"/></e>
     <e lm="gaaibolder"><i>gaaibolder</i><par n="led__n_m"/></e>
     <e lm="gaal"><i>ga</i><par n="ta/al__n_f"/></e>
@@ -19244,7 +19246,7 @@
     <e lm="gezondheidscertificaat"><i>gezondheidscertifica</i><par n="cita/at__n_nt"/></e>
     <e lm="gezwel"><i>gezwel</i><par n="mol__n_nt"/></e>
     <e lm="geïnteresseerde"><i>geïnteresseerde</i><par n="rune__n_m"/></e>
-    <e lm="gids"><i>gids</i><par n="ui__n_m"/></e>
+    <e lm="gids"><i>gids</i><par n="zegekrans__n_m"/></e>
     <e lm="gidsfossiel"><i>gidsfossiel</i><par n="lot__n_nt"/></e>
     <e lm="giebel"><i>giebel</i><par n="led__n_m"/></e>
     <e lm="giek"><i>giek</i><par n="ui__n_m"/></e>
@@ -19310,7 +19312,7 @@
     <e lm="gluten"><i>gluten</i><par n="OV__n_nt"/></e>
     <e lm="glycogeen"><i>glycogeen</i><par n="OV__n_nt"/></e>
     <e lm="gneis"><i>gneis</i><par n="lot__n_nt"/></e>
-    <e lm="gneis"><i>gneis</i><par n="ui__n_m"/></e>
+    <e lm="gneis"><i>gneis</i><par n="zegekrans__n_m"/></e>
     <e lm="gnoe"><i>gnoe</i><par n="led__n_m"/></e>
     <e lm="gnoom"><i>gno</i><par n="bo/om__n_m"/></e>
     <e lm="goal"><i>goal</i><par n="led__n_m"/></e>
@@ -19535,7 +19537,7 @@
     <e lm="gyroscoop"><i>gyrosco</i><par n="ko/op__n_m"/></e>
     <e lm="haaf"><i>ha</i><par n="ha/af__n_mf"/></e>
     <e lm="haag"><i>ha</i><par n="za/ag__n_mf"/></e>
-    <e lm="haai"><i>haai</i><par n="ui__n_m"/></e>
+    <e lm="haai"><i>haai</i><par n="vlaai__n_m"/></e>
     <e lm="haaienaanval"><i>haaienaanval</i><par n="el__n_m"/></e>
     <e lm="haaientand"><i>haaientand</i><par n="ui__n_m"/></e>
     <e lm="haak"><i>ha</i><par n="za/ak__n_m"/></e>
@@ -19615,7 +19617,7 @@
     <e lm="hangmat"><i>hangmat</i><par n="hut__n_mf"/></e>
     <e lm="hangslot"><i>hangslot</i><par n="lot__n_nt"/></e>
     <e lm="hap"><i>hap</i><par n="lap__n_m"/></e>
-    <e lm="hapax"><i>hapax</i><par n="ui__n_m"/></e>
+    <e lm="hapax"><i>hapax</i><par n="zegekrans__n_m"/></e>
     <e lm="har"><i>har</i><par n="tor__n_mf"/></e>
     <e lm="hardcore"><i>hardcore</i><par n="eb__n_m"/></e>
     <e lm="harder"><i>harder</i><par n="led__n_m"/></e>
@@ -19626,7 +19628,7 @@
     <e lm="hardloper"><i>hardloper</i><par n="led__n_m"/></e>
     <e lm="hardware"><i>hardware</i><par n="WO__n_mf"/></e>
     <e lm="haring"><i>haring</i><par n="ui__n_m"/></e>
-    <e lm="haringhaai"><i>haringhaai</i><par n="ui__n_m"/></e>
+    <e lm="haringhaai"><i>haringhaai</i><par n="vlaai__n_m"/></e>
     <e lm="hark"><i>hark</i><par n="hui__n_mf"/></e>
     <e lm="harmonica"><i>harmonica</i><par n="tv__n_f"/></e>
     <e lm="harmonium"><i>harmonium</i><par n="eon__n_nt"/></e>
@@ -19634,7 +19636,7 @@
     <e lm="harp"><i>harp</i><par n="hui__n_mf"/></e>
     <e lm="harpoen"><i>harpoen</i><par n="ui__n_m"/></e>
     <e lm="hars"><i>hars</i><par n="lot__n_nt"/></e>
-    <e lm="hars"><i>hars</i><par n="ui__n_m"/></e>
+    <e lm="hars"><i>hars</i><par n="zegekrans__n_m"/></e>
     <e lm="hart"><i>hart</i><par n="lot__n_nt"/></e>
     <e lm="hartaandoening"><i>hartaandoening</i><par n="vering__n_f"/></e>
     <e lm="hartaanval"><i>hartaanval</i><par n="el__n_m"/></e>
@@ -19848,7 +19850,7 @@
     <e lm="hondenriem"><i>hondenriem</i><par n="hui__n_mf"/></e>
     <e lm="hondenvanger"><i>hondenvanger</i><par n="led__n_m"/></e>
     <e lm="hondenweer"><i>hondenweer</i><par n="OV__n_nt"/></e>
-    <e lm="hondshaai"><i>hondshaai</i><par n="ui__n_m"/></e>
+    <e lm="hondshaai"><i>hondshaai</i><par n="vlaai__n_m"/></e>
     <e lm="hondsvot"><i>hondsvot</i><par n="kot__n_nt"/></e>
     <e lm="hondsvot"><i>hondsvot</i><par n="vot__n_mf"/></e>
     <e lm="hongersnood"><i>hongersno</i><par n="Jo/od__n_m"/></e>
@@ -19945,7 +19947,7 @@
     <e lm="hui"><i>hui</i><par n="hui__n_mf"/></e>
     <e lm="huichelaar"><i>huichela</i><par n="lera/ar__n_m"/></e>
     <e lm="huid"><i>huid</i><par n="hui__n_mf"/></e>
-    <e lm="huidarts"><i>huidarts</i><par n="ui__n_m"/></e>
+    <e lm="huidarts"><i>huidarts</i><par n="zegekrans__n_m"/></e>
     <e lm="huidspecialist"><i>huidspecialist</i><par n="ui__n_m"/></e>
     <e lm="huidziekte"><i>huidziekte</i><par n="made__n_f"/></e>
     <e lm="huif"><i>hui</i><par n="kol/f__n_mf"/></e>
@@ -19954,7 +19956,7 @@
     <e lm="huik"><i>huik</i><par n="hui__n_mf"/></e>
     <e lm="huis"><i>hui</i><par n="hui/s__n_nt"/></e>
     <e lm="huisarrest"><i>huisarrest</i><par n="OV__n_nt"/></e>
-    <e lm="huisarts"><i>huisarts</i><par n="ui__n_m"/></e>
+    <e lm="huisarts"><i>huisarts</i><par n="zegekrans__n_m"/></e>
     <e lm="huisbaas"><i>huisba</i><par n="fa/as__n_m"/></e>
     <e lm="huiscavia"><i>huiscavia</i><par n="tv__n_f"/></e>
     <e lm="huisdier"><i>huisdier</i><par n="lot__n_nt"/></e>
@@ -20084,7 +20086,7 @@
     <e lm="impresario"><i>impresario</i><par n="ra__n_m"/></e>
     <e lm="impressie"><i>impressie</i><par n="roe__n_f"/></e>
     <e lm="improvisatie"><i>improvisatie</i><par n="roe__n_f"/></e>
-    <e lm="impuls"><i>impuls</i><par n="ui__n_m"/></e>
+    <e lm="impuls"><i>impuls</i><par n="zegekrans__n_m"/></e>
     <e lm="inademing"><i>inademing</i><par n="vering__n_f"/></e>
     <e lm="inauguratie"><i>inauguratie</i><par n="roe__n_f"/></e>
     <e lm="inbetzitneming"><i>inbetzitneming</i><par n="vering__n_f"/></e>
@@ -20544,7 +20546,7 @@
     <e lm="kerntaak"><i>kernta</i><par n="ta/ak__n_mf"/></e>
     <e lm="kerrie"><i>kerrie</i><par n="eb__n_m"/></e>
     <e lm="kerriegeel"><i>kerriegeel</i><par n="OV__n_nt"/></e>
-    <e lm="kers"><i>kers</i><par n="ui__n_m"/></e>
+    <e lm="kers"><i>kers</i><par n="zegekrans__n_m"/></e>
     <e lm="kerselaar"><i>kersela</i><par n="lera/ar__n_m"/></e>
     <e lm="kersentaart"><i>kersentaart</i><par n="vering__n_f"/></e>
     <e lm="kerst"><i>kerst</i><par n="WO__n_mf"/></e>
@@ -20628,7 +20630,7 @@
     <e lm="kim"><i>kim</i><par n="kom__n_mf"/></e>
     <e lm="kin"><i>kin</i><par n="ren__n_m"/></e>
     <e lm="kind"><i>kind</i><par n="kind__n_nt"/></e>
-    <e lm="kinderarts"><i>kinderarts</i><par n="ui__n_m"/></e>
+    <e lm="kinderarts"><i>kinderarts</i><par n="zegekrans__n_m"/></e>
     <e lm="kinderboek"><i>kinderboek</i><par n="lot__n_nt"/></e>
     <e lm="kinderdagverblijf"><i>kinderdagverblij</i><par n="ho/f__n_nt"/></e>
     <e lm="kinderhoek"><i>kinderhoek</i><par n="ui__n_m"/></e>
@@ -20795,7 +20797,7 @@
     <e lm="koddebeier"><i>koddebeier</i><par n="led__n_m"/></e>
     <e lm="koe"><i>koe</i><par n="koe__n_f"/></e>
     <e lm="koeienstal"><i>koeienstal</i><par n="el__n_m"/></e>
-    <e lm="koeienvlaai"><i>koeienvlaai</i><par n="ui__n_m"/></e>
+    <e lm="koeienvlaai"><i>koeienvlaai</i><par n="vlaai__n_m"/></e>
     <e lm="koek"><i>koek</i><par n="ui__n_m"/></e>
     <e lm="koekenpan"><i>koekenpan</i><par n="koekenpan__n_mf"/></e>
     <e lm="koekoek"><i>koekoek</i><par n="ui__n_m"/></e>
@@ -20806,7 +20808,7 @@
     <e lm="koepel"><i>koepel</i><par n="led__n_m"/></e>
     <e lm="koerier"><i>koerier</i><par n="led__n_m"/></e>
     <e lm="koerierster"><i>koerierster</i><par n="roe__n_f"/></e>
-    <e lm="koers"><i>koers</i><par n="ui__n_m"/></e>
+    <e lm="koers"><i>koers</i><par n="zegekrans__n_m"/></e>
     <e lm="koersaanpassing"><i>koersaanpassing</i><par n="vering__n_f"/></e>
     <e lm="koersaanwijzer"><i>koersaanwijzer</i><par n="led__n_m"/></e>
     <e lm="koersafwijking"><i>koersafwijking</i><par n="vering__n_f"/></e>
@@ -21142,7 +21144,7 @@
     <e lm="lampekap"><i>lampekap</i><par n="mop__n_mf"/></e>
     <e lm="lamprei"><i>lamprei</i><par n="vering__n_f"/></e>
     <e lm="lamprei"><i>lamprei</i><par n="lot__n_nt"/></e>
-    <e lm="lamprei"><i>lamprei</i><par n="ui__n_m"/></e>
+    <e lm="lamprei"><i>lamprei</i><par n="vlaai__n_m"/></e>
     <e lm="lancet"><i>lancet</i><par n="kot__n_nt"/></e>
     <e lm="land"><i>land</i><par n="lot__n_nt"/></e>
     <e lm="landarbeider"><i>landarbeider</i><par n="led__n_m"/></e>
@@ -21176,7 +21178,7 @@
     <e lm="lapsus"><i>lapsus</i><par n="as__n_m"/></e>
     <e lm="laptop"><i>laptop</i><par n="led__n_m"/></e>
     <e lm="larie"><i>larie</i><par n="eb__n_f"/></e>
-    <e lm="larynx"><i>larynx</i><par n="ui__n_m"/></e>
+    <e lm="larynx"><i>larynx</i><par n="zegekrans__n_m"/></e>
     <e lm="las"><i>las</i><par n="as__n_mf"/></e>
     <e lm="lasagne"><i>lasagne</i><par n="roe__n_mf"/></e>
     <e lm="last"><i>last</i><par n="ui__n_m"/></e>
@@ -21185,7 +21187,7 @@
     <e lm="lasteraar"><i>lasteraar</i><par n="led__n_m"/></e>
     <e lm="lastpak"><i>lastpak</i><par n="fok__n_m"/></e>
     <e lm="latei"><i>latei</i><par n="vering__n_f"/></e>
-    <e lm="latei"><i>latei</i><par n="ui__n_m"/></e>
+    <e lm="latei"><i>latei</i><par n="vlaai__n_m"/></e>
     <e lm="lauwer"><i>lauwer</i><par n="ui__n_m"/></e>
     <e lm="lava"><i>lava</i><par n="WO__n_mf"/></e>
     <e lm="lavakoepel"><i>lavakoepel</i><par n="led__n_m"/></e>
@@ -21386,7 +21388,7 @@
     <e lm="linguïstiek"><i>linguïstiek</i><par n="eb__n_f"/></e>
     <e lm="liniaal"><i>linia</i><par n="ta/al__n_mf"/></e>
     <e lm="linkerhand"><i>linkerhand</i><par n="hui__n_mf"/></e>
-    <e lm="linkerpijltoets"><i>linkerpijltoets</i><par n="ui__n_m"/></e>
+    <e lm="linkerpijltoets"><i>linkerpijltoets</i><par n="zegekrans__n_m"/></e>
     <e lm="linnengoed"><i>linnengoed</i><par n="OV__n_nt"/></e>
     <e lm="lint"><i>lint</i><par n="lot__n_nt"/></e>
     <e lm="lintvoeg"><i>lintvoeg</i><par n="hui__n_mf"/></e>
@@ -21442,7 +21444,7 @@
     <e lm="loodgieter"><i>loodgieter</i><par n="led__n_m"/></e>
     <e lm="loodlijn"><i>loodlijn</i><par n="hui__n_mf"/></e>
     <e lm="loodlijst"><i>loodlijst</i><par n="hui__n_mf"/></e>
-    <e lm="loods"><i>loods</i><par n="ui__n_m"/></e>
+    <e lm="loods"><i>loods</i><par n="zegekrans__n_m"/></e>
     <e lm="loodwit"><i>loodwit</i><par n="OV__n_nt"/></e>
     <e lm="loofbos"><i>loofbos</i><par n="es__n_nt"/></e>
     <e lm="loog"><i>lo</i><par n="lo/og__n_nt"/></e>
@@ -21505,7 +21507,7 @@
     <e lm="lux"><i>lux</i><par n="WO__n_mf"/></e>
     <e lm="lymfangitis"><i>lymfangitis</i><par n="eb__n_f"/></e>
     <e lm="lymfoom"><i>lymfo</i><par n="ato/om__n_nt"/></e>
-    <e lm="lynx"><i>lynx</i><par n="ui__n_m"/></e>
+    <e lm="lynx"><i>lynx</i><par n="zegekrans__n_m"/></e>
     <e lm="lyofilisaat"><i>lyofilisa</i><par n="cita/at__n_nt"/></e>
     <e lm="lysosoom"><i>lysoso</i><par n="ato/om__n_nt"/></e>
     <e lm="mRNA"><i>mRNA</i><par n="OV__n_nt"/></e>
@@ -21753,9 +21755,9 @@
     <e lm="meningsverschil"><i>meningsverschil</i><par n="mol__n_nt"/></e>
     <e lm="menopauze"><i>menopauze</i><par n="WO__n_mf"/></e>
     <e lm="mens"><i>mens</i><par n="lot__n_nt"/></e>
-    <e lm="mens"><i>mens</i><par n="ui__n_m"/></e>
+    <e lm="mens"><i>mens</i><par n="zegekrans__n_m"/></e>
     <e lm="mensaap"><i>mensa</i><par n="ja/ap__n_m"/></e>
-    <e lm="mensenhaai"><i>mensenhaai</i><par n="ui__n_m"/></e>
+    <e lm="mensenhaai"><i>mensenhaai</i><par n="vlaai__n_m"/></e>
     <e lm="mensensmokkel"><i>mensensmokkel</i><par n="eb__n_m"/></e>
     <e lm="mensheid"><i>mensheid</i><par n="eb__n_f"/></e>
     <e lm="menstruatie"><i>menstruatie</i><par n="roe__n_f"/></e>
@@ -22551,7 +22553,7 @@
     <e lm="ooft"><i>ooft</i><par n="OV__n_nt"/></e>
     <e lm="oog"><i>o</i><par n="o/og__n_nt"/></e>
     <e lm="oogappel"><i>oogappel</i><par n="led__n_m"/></e>
-    <e lm="oogarts"><i>oogarts</i><par n="ui__n_m"/></e>
+    <e lm="oogarts"><i>oogarts</i><par n="zegekrans__n_m"/></e>
     <e lm="oogmerk"><i>oogmerk</i><par n="lot__n_nt"/></e>
     <e lm="oogschaduw"><i>oogschaduw</i><par n="vering__n_f"/></e>
     <e lm="oogst"><i>oogst</i><par n="ui__n_m"/></e>
@@ -22865,7 +22867,7 @@
     <e lm="pap"><i>pap</i><par n="map__n_f"/></e>
     <e lm="papaja"><i>papaja</i><par n="ra__n_m"/></e>
     <e lm="papaver"><i>papaver</i><par n="roe__n_mf"/></e>
-    <e lm="papegaai"><i>papegaai</i><par n="ui__n_m"/></e>
+    <e lm="papegaai"><i>papegaai</i><par n="vlaai__n_m"/></e>
     <e lm="papegaaiduiker"><i>papegaaiduiker</i><par n="led__n_m"/></e>
     <e lm="paperclip"><i>paperclip</i><par n="led__n_m"/></e>
     <e lm="papier"><i>papier</i><par n="lot__n_nt"/></e>
@@ -22937,7 +22939,7 @@
     <e lm="patroonheilige"><i>patroonheilige</i><par n="rune__n_m"/></e>
     <e lm="pauk"><i>pauk</i><par n="hui__n_mf"/></e>
     <e lm="paumelle"><i>paumelle</i><par n="led__n_m"/></e>
-    <e lm="paus"><i>paus</i><par n="ui__n_m"/></e>
+    <e lm="paus"><i>paus</i><par n="zegekrans__n_m"/></e>
     <e lm="pauw"><i>pauw</i><par n="ui__n_m"/></e>
     <e lm="pauwenbloem"><i>pauwenbloem</i><par n="hui__n_mf"/></e>
     <e lm="pauze"><i>pauze</i><par n="vete__n_mf"/></e>
@@ -23044,9 +23046,9 @@
     <e lm="pijl"><i>pijl</i><par n="ui__n_m"/></e>
     <e lm="pijler"><i>pijler</i><par n="led__n_m"/></e>
     <e lm="pijlinktvis"><i>pijlinktvis</i><par n="as__n_m"/></e>
-    <e lm="pijlomhoogtoets"><i>pijlomhoogtoets</i><par n="ui__n_m"/></e>
-    <e lm="pijlomlaagtoets"><i>pijlomlaagtoets</i><par n="ui__n_m"/></e>
-    <e lm="pijltjestoets"><i>pijltjestoets</i><par n="ui__n_m"/></e>
+    <e lm="pijlomhoogtoets"><i>pijlomhoogtoets</i><par n="zegekrans__n_m"/></e>
+    <e lm="pijlomlaagtoets"><i>pijlomlaagtoets</i><par n="zegekrans__n_m"/></e>
+    <e lm="pijltjestoets"><i>pijltjestoets</i><par n="zegekrans__n_m"/></e>
     <e lm="pijn"><i>pijn</i><par n="hui__n_mf"/></e>
     <e lm="pijnappel"><i>pijnappel</i><par n="led__n_m"/></e>
     <e lm="pijnappelklier"><i>pijnappelklier</i><par n="hui__n_mf"/></e>
@@ -23191,7 +23193,7 @@
     <e lm="pollepel"><i>pollepel</i><par n="led__n_m"/></e>
     <e lm="pollevij"><i>pollevij</i><par n="vering__n_f"/></e>
     <e lm="polonium"><i>polonium</i><par n="OV__n_nt"/></e>
-    <e lm="pols"><i>pols</i><par n="ui__n_m"/></e>
+    <e lm="pols"><i>pols</i><par n="zegekrans__n_m"/></e>
     <e lm="polshorloge"><i>polshorloge</i><par n="eon__n_nt"/></e>
     <e lm="polsslagader"><i>polsslagader</i><par n="heler__n_mf"/></e>
     <e lm="klokketoren"><i>klokketoren</i><par n="heler__n_mf"/></e>
@@ -23324,7 +23326,7 @@
     <e lm="prikkeldraad"><i>prikkeldraad</i><par n="OV__n_nt"/></e>
     <e lm="prikkeldraad"><i>prikkeldraad</i><par n="eb__n_m"/></e>
     <e lm="principe"><i>principe</i><par n="eon__n_nt"/></e>
-    <e lm="prins"><i>prins</i><par n="ui__n_m"/></e>
+    <e lm="prins"><i>prins</i><par n="zegekrans__n_m"/></e>
     <e lm="prinses"><i>prinses</i><par n="as__n_f"/></e>
     <e lm="print"><i>print</i><par n="led__n_m"/></e>
     <e lm="printer"><i>printer</i><par n="led__n_m"/></e>
@@ -23578,7 +23580,7 @@
     <e lm="rechtbank"><i>rechtbank</i><par n="hui__n_mf"/></e>
     <e lm="rechter"><i>rechter</i><par n="hui__n_mf"/></e>
     <e lm="rechterhand"><i>rechterhand</i><par n="hui__n_mf"/></e>
-    <e lm="rechterpijltoets"><i>rechterpijltoets</i><par n="ui__n_m"/></e>
+    <e lm="rechterpijltoets"><i>rechterpijltoets</i><par n="zegekrans__n_m"/></e>
     <e lm="rechthoek"><i>rechthoek</i><par n="ui__n_m"/></e>
     <e lm="rechtsgeding"><i>rechtsgeding</i><par n="OV__n_nt"/></e>
     <e lm="rechtsgeleerde"><i>rechtsgeleerde</i><par n="rune__n_m"/></e>
@@ -23617,7 +23619,7 @@
     <e lm="reet"><i>re</i><par n="me/et__n_mf"/></e>
     <e lm="referaat"><i>refera</i><par n="cita/at__n_nt"/></e>
     <e lm="reflector"><i>reflector</i><par n="sol__n_m"/></e>
-    <e lm="reflex"><i>reflex</i><par n="ui__n_m"/></e>
+    <e lm="reflex"><i>reflex</i><par n="zegekrans__n_m"/></e>
     <e lm="refractie"><i>refractie</i><par n="roe__n_f"/></e>
     <e lm="regeerakkoord"><i>regeerakkoord</i><par n="lot__n_nt"/></e>
     <e lm="regel"><i>regel</i><par n="led__n_m"/></e>
@@ -23628,7 +23630,7 @@
     <e lm="regenbak"><i>regenbak</i><par n="fok__n_m"/></e>
     <e lm="regenboog"><i>regenbo</i><par n="bo/og__n_m"/></e>
     <e lm="regenboogforel"><i>regenboogforel</i><par n="el__n_mf"/></e>
-    <e lm="regenboogtrui"><i>regenboogtrui</i><par n="ui__n_m"/></e>
+    <e lm="regenboogtrui"><i>regenboogtrui</i><par n="vlaai__n_m"/></e>
     <e lm="regenboogvlies"><i>regenboogvlie</i><par n="hui/s__n_nt"/></e>
     <e lm="regenbui"><i>regenbui</i><par n="hui__n_mf"/></e>
     <e lm="regendruppel"><i>regendruppel</i><par n="led__n_m"/></e>
@@ -23720,7 +23722,7 @@
     <e lm="retraite"><i>retraite</i><par n="roe__n_f"/></e>
     <e lm="retributie"><i>retributie</i><par n="roe__n_f"/></e>
     <e lm="retriever"><i>retriever</i><par n="led__n_m"/></e>
-    <e lm="reu"><i>reu</i><par n="ui__n_m"/></e>
+    <e lm="reu"><i>reu</i><par n="vlaai__n_m"/></e>
     <e lm="reukwater"><i>reukwater</i><par n="eon__n_nt"/></e>
     <e lm="reus"><i>reu</i><par n="hal/s__n_m"/></e>
     <e lm="reuzel"><i>reuzel</i><par n="eb__n_m"/></e>
@@ -23833,7 +23835,7 @@
     <e lm="rokade"><i>rokade</i><par n="roe__n_f"/></e>
     <e lm="rokkenjager"><i>rokkenjager</i><par n="led__n_m"/></e>
     <e lm="rol"><i>rol</i><par n="el__n_mf"/></e>
-    <e lm="rolmops"><i>rolmops</i><par n="ui__n_m"/></e>
+    <e lm="rolmops"><i>rolmops</i><par n="zegekrans__n_m"/></e>
     <e lm="rolstoel"><i>rolstoel</i><par n="ui__n_m"/></e>
     <e lm="roltrap"><i>roltrap</i><par n="lap__n_m"/></e>
     <e lm="rolverdeling"><i>rolverdeling</i><par n="vering__n_f"/></e>
@@ -24836,7 +24838,7 @@
     <e lm="stijlfiguur"><i>stijlfigu</i><par n="ku/ur__n_f"/></e>
     <e lm="stikstof"><i>stikstof</i><par n="WO__n_mf"/></e>
     <e lm="stilte"><i>stilte</i><par n="made__n_f"/></e>
-    <e lm="stimulans"><i>stimulans</i><par n="ui__n_m"/></e>
+    <e lm="stimulans"><i>stimulans</i><par n="zegekrans__n_m"/></e>
     <e lm="stimulatie"><i>stimulatie</i><par n="roe__n_f"/></e>
     <e lm="stinkdier"><i>stinkdier</i><par n="lot__n_nt"/></e>
     <e lm="stiptheid"><i>stiptheid</i><par n="eb__n_f"/></e>
@@ -24982,7 +24984,7 @@
     <e lm="stuurwiel"><i>stuurwiel</i><par n="lot__n_nt"/></e>
     <e lm="stuwadoor"><i>stuwadoor</i><par n="led__n_m"/></e>
     <e lm="stuwdam"><i>stuwdam</i><par n="kim__n_m"/></e>
-    <e lm="aardrijkskunde"><i>aardrijkskunde</i><par n="wol__n_f"/></e>
+    <e lm="aardrijkskunde"><i>aardrijkskunde</i><par n="eb__n_f"/></e>
     <e lm="communicatiekunde"><i>communicatiekunde</i><par n="eb__n_f"/></e>
     <e lm="letterkunde"><i>letterkunde</i><par n="eb__n_f"/></e>
     <e lm="letterkunde"><i>letterkunde</i><par n="eb__n_f"/></e>
@@ -25137,7 +25139,7 @@
     <e lm="tamboerijn"><i>tamboerijn</i><par n="ui__n_m"/></e>
     <e lm="tampat"><i>tampat</i><par n="led__n_m"/></e>
     <e lm="tand"><i>tand</i><par n="ui__n_m"/></e>
-    <e lm="tandarts"><i>tandarts</i><par n="ui__n_m"/></e>
+    <e lm="tandarts"><i>tandarts</i><par n="zegekrans__n_m"/></e>
     <e lm="tandenborstel"><i>tandenborstel</i><par n="led__n_m"/></e>
     <e lm="tandenstoker"><i>tandenstoker</i><par n="led__n_m"/></e>
     <e lm="tandpasta"><i>tandpasta</i><par n="ra__n_m"/></e>
@@ -25279,7 +25281,7 @@
     <e lm="terts"><i>terts</i><par n="vering__n_f"/></e>
     <e lm="terugblik"><i>terugblik</i><par n="fok__n_m"/></e>
     <e lm="terugtocht"><i>terugtocht</i><par n="ui__n_m"/></e>
-    <e lm="terugtoets"><i>terugtoets</i><par n="ui__n_m"/></e>
+    <e lm="terugtoets"><i>terugtoets</i><par n="zegekrans__n_m"/></e>
     <e lm="terugtrekking"><i>terugtrekking</i><par n="vering__n_f"/></e>
     <e lm="tesseract"><i>tesseract</i><par n="ui__n_m"/></e>
     <e lm="test"><i>test</i><par n="ui__n_m"/></e>
@@ -25381,7 +25383,7 @@
     <e lm="toestel"><i>toestel</i><par n="mol__n_nt"/></e>
     <e lm="toestemming"><i>toestemming</i><par n="vering__n_f"/></e>
     <e lm="toetreding"><i>toetreding</i><par n="vering__n_f"/></e>
-    <e lm="toets"><i>toets</i><par n="ui__n_m"/></e>
+    <e lm="toets"><i>toets</i><par n="zegekrans__n_m"/></e>
     <e lm="toetsenbord"><i>toetsenbord</i><par n="lot__n_nt"/></e>
     <e lm="toetsenist"><i>toetsenist</i><par n="ui__n_m"/></e>
     <e lm="toeval"><i>toeval</i><par n="mol__n_nt"/></e>
@@ -25645,7 +25647,7 @@
     <e lm="tyfoon"><i>tyfoon</i><par n="led__n_m"/></e>
     <e lm="typograaf"><i>typogra</i><par n="biogra/af__n_m"/></e>
     <e lm="ufo"><i>ufo</i><par n="ra__n_m"/></e>
-    <e lm="ui"><i>ui</i><par n="ui__n_m"/></e>
+    <e lm="ui"><i>ui</i><par n="vlaai__n_m"/></e>
     <e lm="uienlucht"><i>uienlucht</i><par n="hui__n_mf"/></e>
     <e lm="uienoogst"><i>uienoogst</i><par n="ui__n_m"/></e>
     <e lm="uiensoep"><i>uiensoep</i><par n="hui__n_mf"/></e>
@@ -25802,7 +25804,7 @@
     <e lm="vauxhall"><i>vauxhall</i><par n="heler__n_mf"/></e>
     <e lm="vazalstaat"><i>vazalsta</i><par n="gra/at__n_m"/></e>
     <e lm="vee"><i>vee</i><par n="OV__n_nt"/></e>
-    <e lm="veearts"><i>veearts</i><par n="ui__n_m"/></e>
+    <e lm="veearts"><i>veearts</i><par n="zegekrans__n_m"/></e>
     <e lm="veeartsenij"><i>veeartsenij</i><par n="eb__n_f"/></e>
     <e lm="veehoeve"><i>veehoeve</i><par n="vete__n_mf"/></e>
     <e lm="veelhoek"><i>veelhoek</i><par n="ui__n_m"/></e>
@@ -26116,11 +26118,11 @@
     <e lm="vizier"><i>vizier</i><par n="ui__n_m"/></e>
     <e lm="vla"><i>vla</i><par n="ra__n_mf"/></e>
     <e lm="vlaag"><i>vla</i><par n="za/ag__n_mf"/></e>
-    <e lm="vlaai"><i>vlaai</i><par n="ui__n_m"/></e>
+    <e lm="vlaai"><i>vlaai</i><par n="vlaai__n_m"/></e>
     <e lm="vlag"><i>vlag</i><par n="eg__n_mf"/></e>
     <e lm="vlaggenlijn"><i>vlaggenlijn</i><par n="hui__n_mf"/></e>
     <e lm="vlaggenmast"><i>vlaggenmast</i><par n="ui__n_m"/></e>
-    <e lm="vlaktaks"><i>vlaktaks</i><par n="ui__n_m"/></e>
+    <e lm="vlaktaks"><i>vlaktaks</i><par n="zegekrans__n_m"/></e>
     <e lm="vlakte"><i>vlakte</i><par n="made__n_f"/></e>
     <e lm="vlam"><i>vlam</i><par n="kom__n_mf"/></e>
     <e lm="vlas"><i>vlas</i><par n="OV__n_nt"/></e>
@@ -26336,7 +26338,7 @@
     <e lm="vrijstaat"><i>vrijsta</i><par n="gra/at__n_m"/></e>
     <e lm="vroedvrouw"><i>vroedvrouw</i><par n="vering__n_f"/></e>
     <e lm="vrouw"><i>vrouw</i><par n="vering__n_f"/></e>
-    <e lm="vrouwenarts"><i>vrouwenarts</i><par n="ui__n_m"/></e>
+    <e lm="vrouwenarts"><i>vrouwenarts</i><par n="zegekrans__n_m"/></e>
     <e lm="vrucht"><i>vrucht</i><par n="vering__n_f"/></e>
     <e lm="vruchtbaarheid"><i>vruchtbaarheid</i><par n="eb__n_f"/></e>
     <e lm="vruchtensap"><i>vruchtensap</i><par n="dop__n_nt"/></e>
@@ -26570,7 +26572,7 @@
     <e lm="welzijn"><i>welzijn</i><par n="OV__n_nt"/></e>
     <e lm="wenk"><i>wenk</i><par n="ui__n_m"/></e>
     <e lm="wenkbrauw"><i>wenkbrauw</i><par n="hui__n_mf"/></e>
-    <e lm="wens"><i>wens</i><par n="ui__n_m"/></e>
+    <e lm="wens"><i>wens</i><par n="zegekrans__n_m"/></e>
     <e lm="wensbron"><i>wensbron</i><par n="vin__n_mf"/></e>
     <e lm="energiebron"><i>energiebron</i><par n="vin__n_mf"/></e>
     <e lm="oliebron"><i>oliebron</i><par n="vin__n_mf"/></e>
@@ -26715,7 +26717,7 @@
     <e lm="wiskunde"><i>wiskunde</i><par n="eb__n_f"/></e>
     <e lm="wiskundige"><i>wiskundige</i><par n="rune__n_m"/></e>
     <e lm="wisselkantoor"><i>wisselkanto</i><par n="ko/or__n_nt"/></e>
-    <e lm="wisselkoers"><i>wisselkoers</i><par n="ui__n_m"/></e>
+    <e lm="wisselkoers"><i>wisselkoers</i><par n="zegekrans__n_m"/></e>
     <e lm="wisselkoersstelsel"><i>wisselkoersstelsel</i><par n="eon__n_nt"/></e>
     <e lm="wisselkoerssysteem"><i>wisselkoerssyste</i><par n="ze/em__n_nt"/></e>
     <e lm="wisselwachter"><i>wisselwachter</i><par n="led__n_m"/></e>
@@ -26985,7 +26987,7 @@
     <e lm="zaakwaarneming"><i>zaakwaarneming</i><par n="vering__n_f"/></e>
     <e lm="zaal"><i>za</i><par n="ta/al__n_m"/></e>
     <e lm="zaalarts"><i>zaalarts</i><par n="vering__n_f"/></e>
-    <e lm="zaalarts"><i>zaalarts</i><par n="ui__n_m"/></e>
+    <e lm="zaalarts"><i>zaalarts</i><par n="zegekrans__n_m"/></e>
     <e lm="zaalcompetitie"><i>zaalcompetitie</i><par n="roe__n_f"/></e>
     <e lm="zaaleigenaar"><i>zaaleigena</i><par n="lera/ar__n_m"/></e>
     <e lm="zaaleigenaar"><i>zaaleigena</i><par n="zaaleigena/ar__n_f"/></e>
@@ -27186,12 +27188,12 @@
     <e lm="zeebaak"><i>zeeba</i><par n="ta/ak__n_mf"/></e>
     <e lm="zeebad"><i>zeebad</i><par n="lot__n_nt"/></e>
     <e lm="zeebadplaats"><i>zeebadplaats</i><par n="vering__n_f"/></e>
-    <e lm="zeebadplaats"><i>zeebadplaats</i><par n="ui__n_m"/></e>
-    <e lm="rustplaats"><i>rustplaats</i><par n="ui__n_m"/></e>
-    <e lm="schuilplaats"><i>schuilplaats</i><par n="ui__n_m"/></e>
-    <e lm="slaapplaats"><i>slaapplaats</i><par n="ui__n_m"/></e>
-    <e lm="speelplaats"><i>speelplaats</i><par n="ui__n_m"/></e>
-    <e lm="vergaderplaats"><i>vergaderplaats</i><par n="ui__n_m"/></e>
+    <e lm="zeebadplaats"><i>zeebadplaats</i><par n="zegekrans__n_m"/></e>
+    <e lm="rustplaats"><i>rustplaats</i><par n="zegekrans__n_m"/></e>
+    <e lm="schuilplaats"><i>schuilplaats</i><par n="zegekrans__n_m"/></e>
+    <e lm="slaapplaats"><i>slaapplaats</i><par n="zegekrans__n_m"/></e>
+    <e lm="speelplaats"><i>speelplaats</i><par n="zegekrans__n_m"/></e>
+    <e lm="vergaderplaats"><i>vergaderplaats</i><par n="zegekrans__n_m"/></e>
     <e lm="zeebaken"><i>zeebaken</i><par n="eon__n_nt"/></e>
     <e lm="zeebioloog"><i>zeebiolo</i><par n="bo/og__n_m"/></e>
     <e lm="zeebodem"><i>zeebodem</i><par n="led__n_m"/></e>
@@ -27240,7 +27242,7 @@
     <e lm="zeeleeuw"><i>zeeleeuw</i><par n="ui__n_m"/></e>
     <e lm="zeelelie"><i>zeelelie</i><par n="roe__n_mf"/></e>
     <e lm="zeeleven"><i>zeeleven</i><par n="OV__n_nt"/></e>
-    <e lm="zeeloods"><i>zeeloods</i><par n="ui__n_m"/></e>
+    <e lm="zeeloods"><i>zeeloods</i><par n="zegekrans__n_m"/></e>
     <e lm="zeelt"><i>zeelt</i><par n="hui__n_mf"/></e>
     <e lm="zeeluipaard"><i>zeeluipaard</i><par n="ui__n_m"/></e>
     <e lm="zeem"><i>ze</i><par n="ze/em__n_m"/></e>
@@ -27312,7 +27314,7 @@
     <e lm="zefier"><i>zefier</i><par n="ui__n_m"/></e>
     <e lm="zeg"><i>zeg</i><par n="eb__n_m"/></e>
     <e lm="zege"><i>zege</i><par n="led__n_m"/></e>
-    <e lm="zegekrans"><i>zegekrans</i><par n="ui__n_m"/></e>
+    <e lm="zegekrans"><i>zegekrans</i><par n="zegekrans__n_m"/></e>
     <e lm="zegel"><i>zegel</i><par n="led__n_m"/></e>
     <e lm="zegelring"><i>zegelring</i><par n="ui__n_m"/></e>
     <e lm="zegen"><i>zegen</i><par n="led__n_m"/></e>
