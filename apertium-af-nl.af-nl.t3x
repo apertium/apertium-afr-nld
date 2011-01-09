@@ -81,6 +81,9 @@
       <action>
         <out>
           <lu>
+            <lit v="~"/>
+          </lu>
+          <lu>
             <clip pos="1" part="whole"/>
             <lit v="~"/>
           </lu>

@@ -360,6 +360,28 @@
           <r>s<b/></r>
         </p>
       </e>
+      <e>
+        <!-- ~*Archimedes~ ~s -->
+        <p><l><a/></l><r></r></p>
+        <par n="caracter_general"/>
+        <re>[A-Z][a-z]+s</re>
+        <p>
+          <l><a/><b/><a/>s<b/></l>
+          <r>'<b/></r>
+        </p>
+      </e>
+      <e>
+        <!-- ~*Aphrodite~ ~s -->
+        <p><l><a/></l><r></r></p>
+        <par n="caracter_general"/>
+        <re>[A-Z][a-z]+[aeiou]</re>
+        <p>
+          <l><a/><b/><a/>s<b/></l>
+          <r>'s<b/></r>
+        </p>
+      </e>
+
+
   </section>
 
 </dictionary>
