@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 
 <transfer default="chunk">
 <section-def-cats>
@@ -1058,7 +1058,40 @@
         </let>
       </action>
     </rule>
-
+    <rule comment="REGLA: NOM GENITIVE">
+    <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="genitive"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prop_gen" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.UNDET"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <lit-tag v="gen"/>
+            </lu>
+            </mlu>
+          </chunk>
+        </out>
+        <let>
+          <var n="caseFirstWord"/>
+          <lit v="aa"/>
+        </let>
+      </action>
+    </rule>
     <rule comment="REGLA: ADJ CONJ ADJ NOM">
       <pattern>
         <pattern-item n="adj"/>
