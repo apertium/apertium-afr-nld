@@ -69,7 +69,12 @@ In this paper we will describe the development of {\small {\tt apertium-af-nl}},
 and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch 
 are largely mutually intelligible, this machine translation system focuses on dissemination, the 
 production of text for the purpose of being post-edited and then being published. Previous 
-work in Afrikaans and Dutch machine translation is described in \cite{Huyssteen:09}.
+work in Afrikaans and Dutch machine translation is described in \cite{Huyssteen:09}. The reason
+we have chosen to work with a rule-based approach, instead of the ubiquitous statistic approach,
+is that the latter needs high-quality parallel corpora of both languages. The only freely available
+Afrikaans Dutch corpus, is KDE4 \frootnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}}. We feel
+that these corpora do not approach the quality neccisated and the fact that Afrikaans and Dutch
+are closely related languages made a rule-based approach favourable to the statistical approach.
 
 The paper is laid out as follows, firstly, we will describe the reuse and creations of 
 resources. We will then discuss several grammatical features of Afrikaans and Dutch and how 
@@ -103,6 +108,11 @@ website.
     analyser and morphological generator stages respectively.}
 \label{fg:apertium}
 \end{figure*}
+
+{\small {\tt apertium-af-nl}} has been developed over the course of one and a half months.
+The vast majority of the work has been done by a PhD student and a Dutch secondary 
+school student. However, since for both this was not paid, nor for school, there were 
+very few full 8-hour days of work during this period.
 
 \begin{itemize}
 \item development time, how apertium works (fig. 1)
@@ -163,6 +173,18 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 
 \subsubsection{Bilingual dictionary}
 
+The bilingual dictionary has been developed in several ways. After the morphological 
+analysers for both languages were large enough, exact matches from the dictionaries
+were automatically added to the bilingual dictionary. Proper names were added in the
+way that is described in \cite{Tyers:08}. After that cognates were added. There are several
+small common spelling differences between the Afrikaans and Dutch languages. For example,
+where the letter `y' in Afrikaans is used quite often, the Dutch languages uses `ij' in these words.
+The bilingual dictionary was expanded further by categorising these spelling differences and
+automatically adding translations to the bilingual dictionary if the spelling difference was the
+only difference between the two words. Finally, some entries were done by hand.
+This includes closed categories, but also words that frequently appeared in Wikipedia
+which were not yet in the bilingual dictionary.
+
 \begin{itemize}
 \item wikipedia, wiktionary, cognates
 \end{itemize}
@@ -170,6 +192,17 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 \subsubsection{Transfer rules}
 
 %%Dutch cannot use the present tense in past situations (not even in narrative style)
+
+Several transfer rules used in {\small {\tt apertium-af-nl}}  are characteristic for the
+Afrikaans and Dutch languages. We will discuss some of these transfer rules below.
+
+Firstly, Afrikaans has no genitives. Instead, the word `se' is used to indicate possesion. 
+Therefore, a transfer rule has been added to remove the `se' and instead make the preceding
+noun a genetive.
+
+%af:Die vrou se seun.
+%nl:De vrouws zoon.
+%gloss:DEF.ARTICLE woman.NOUN.GEN son.NOUN
 
 \begin{itemize}
 \item Concordance of article and complement
@@ -201,7 +234,8 @@ left side (e.g. surface form) of a compound, where {\small {\tt compound-R}} is
 used for forms that can either appear in a compound, or end it.
 Epenthetics, that is linking letters that occur between compound words
 are also taken care of heuristically in this way. For example the -s-
-in ontwikkelingsplan or the -e- in EXAMPLE.
+in ontwikkelingsplan, the -en- in pannenkoek and the -e- in paardebloem.
+ Notice that the epenthetic -e- is not productive, that is, it is not used in new compounds.
 
 
 \begin{figure*}
@@ -558,6 +592,13 @@ Levenshtein, Vladimir.
 \newblock Binary codes capable of correcting deletions, insertions, and reversals
 \newblock {\em Doklady Akademii Nauk SSSR}
 \newblock 845--848.
+
+\bibitem[\protect\citename{Tyers and Pienaar}2008]{Tyers:08}
+Tyers, F. M. and Pienaar, J. A.
+\newblock 2008. 
+\newblock Extracting bilingual word pairs from Wikipedia
+\newblock {\em Proceedings of the SALTMIL Workshop at the Language Resources and Evaluation Conference}, LREC2008
+\newblock 19--22. [slides]
 
 
 \end{thebibliography}
