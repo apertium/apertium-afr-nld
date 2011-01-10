@@ -11741,6 +11741,14 @@
 
 
     <e lm="enig"><i>enig</i><par n="gans__adj"/></e>
+    <e lm="oud"><i>oud</i><par n="eng__adj_sint"/></e>
+	<e lm="multicultureel"><i>multiculture</i><par n="he/el__adj_sint"/></e>
+    <e lm="duur"><i>du</i><par n="pu/ur__adj_sint"/></e>
+    <e lm="stenen"><i>stenen</i><par n="eren__adj"/></e>
+	<e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
+	<e lm="onbedachtzaam"><i>onbedachtzaam</i><par n="minza/am__adj_sint"/></e>
+    <e lm="houten"><i>houten</i><par n="eren__adj"/></e>
+    <e lm="eetbaar"><i>eetba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="Belgisch"><i>Belgisch</i><par n="fors__adj_sint"/></e>
     <e lm="bestaand"><i>bestaand</i><par n="nipt__adj"/></e>
     <e lm="geheel"><i>gehe</i><par n="gehe/el__adj"/></e>
@@ -12491,7 +12499,7 @@
     <e lm="ideaal"><i>idea</i><par n="ka/al__adj_sint"/></e>
     <e lm="industrieel"><i>industri</i><par n="parti/eel__adj_sint"/></e>
     <e lm="informeel"><i>informe</i><par n="he/el__adj_sint"/></e>
-    <e lm="inheems"><i>inheems</i><par n="taps__adj"/></e>
+    <e lm="autochtoon"><i>autochto</i><par n="scho/on__adj_sint"/></e>
 	<e lm="innig"><i>innig</i><par n="eng__adj_sint"/></e>
     <e lm="interessant"><i>interessant</i><par n="eng__adj_sint"/></e>
 	<e lm="intiem"><i>intiem</i><par n="eng__adj_sint"/></e>
@@ -13010,6 +13018,7 @@
 
 
     <e lm="s" r="RL"><p><l><a/>s</l><r>s<s n="gen"/></r></p></e>
+    <e lm="~" r="RL"><p><l><a/></l><r><a/></r></p></e>
 <!-- ij.xml -->
 
 
@@ -13377,6 +13386,7 @@
     <e lm="Dalí"><i>Dalí</i><par n="Botha__np"/></e>
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e>
+	<e lm="De Beauvoir"><i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Hughes__np"/></e>
     <e lm="Mandela"><i>Mandela</i><par n="Botha__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>
@@ -13433,6 +13443,8 @@
 <!-- n.xml -->
 
 
+    <e lm="vriend"><i>vriend</i><par n="Belg__n_m"/></e>
+    <e lm="ouder"><i>ouder</i><par n="led__n_m"/></e>
     <e lm="Romein"><i>Romein</i><par n="Belg__n_m"/></e>
 	<e lm="plaats"><i>plaats</i><par n="zoneclips__n_mf"/></e>
     <e lm="plaats"><i>plaats</i><par n="zoneclips__n_mf"/></e>
@@ -16736,6 +16748,7 @@
 
     <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
 	<e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
+	<e lm="er"><i>er</i><par n="van__pr"/></e>
     <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
 	<e lm="ten"><i>ten</i><par n="van__pr"/></e>
 	<e lm="daarin"><i>daarin</i><par n="van__pr"/></e>
@@ -16841,6 +16854,8 @@
     <e lm="moeten"><i></i><par n="/moeten__vbmod"/></e>
     <e lm="kunnen"><i></i><par n="/kunnen__vbmod"/></e>
     <e lm="mogen"><i></i><par n="/mogen__vbmod"/></e>
+    <e lm="regenen"><i>regen</i><par n="jij/en__vblex"/></e>
+    <e lm="regenen"><p><l>geregend</l><r>regenen</r></p><par n="gesproken__vblex"/></e>
     <e lm="krijgen"><p><l>gekregen</l><r>krijgen</r></p><par n="gesproken__vblex"/></e>
     <e lm="krijgen"><i>kr</i><par n="r/ijgen__vblex"/></e>
     <e lm="bidden"><p><l>gebeden</l><r>bidden</r></p><par n="gesproken__vblex"/></e>

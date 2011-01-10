@@ -1024,14 +1024,14 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: PROP GENITIVE">
+    <rule comment="REGLA: NOM GENITIVE">
     <pattern>
-        <pattern-item n="prop"/>
+        <pattern-item n="nom"/>
         <pattern-item n="genitive"/>
       </pattern>
       <action>
         <out>
-          <chunk name="prop_gen" case="caseFirstWord">
+          <chunk name="nom_gen" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN.UNDET"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>

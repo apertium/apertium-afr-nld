@@ -5,6 +5,8 @@ Translating corpus for generation test (this could take some time)... done.
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
+      1 uitgedrukt /ɒ ~	^uitdrukken<vblex><sep><pp>$ /ɒ ^~$
+      1 artikels'/artikelens	^artikel<n><nt><pl>+s<gen>$
 
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
@@ -13,14 +15,27 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-     17 #rol\<n\>\<mf\>\<sg\>\<cmp\>	^rol<n><mf><sg><cmp>$
+   1542 #dezelfde\<prn\>\<tn\>\<mfn\>\<sp\>	^dezelfde<prn><tn><mfn><sp>$
+    465 #naast\<adj\>\<pred\>	^naast<adj><pred>$
+    286 #Naast\<adj\>\<pred\>	^Naast<adj><pred>$
+     95 #naast\<adj\>\<attr\>	^naast<adj><attr>$
+     85 #Dezelfde\<prn\>\<tn\>\<mfn\>\<sp\>	^Dezelfde<prn><tn><mfn><sp>$
+     48 #naast\<adj\>\<sup\>\<pred\>	^naast<adj><sup><pred>$
+     46 #Naast\<adj\>\<attr\>	^Naast<adj><attr>$
+     44 #naast\<adj\>\<sup\>\<attr\>	^naast<adj><sup><attr>$
+     26 #rol\<n\>\<mf\>\<sg\>\<cmp\>	^rol<n><mf><sg><cmp>$
+     15 #naast\<adj\>\<comp\>\<pred\>	^naast<adj><comp><pred>$
+      3 #km\<n\>\<acr\>\<m\>\<sg\>+s\<gen\>	^km<n><acr><m><sg>+s<gen>$
+      1 #tabel\<n\>\<mf\>\<sg\>\<cmp\>	^tabel<n><mf><sg><cmp>$
+      1 #Naast\<adj\>\<sup\>\<pred\>	^Naast<adj><sup><pred>$
+      1 #naast\<adj\>\<comp\>\<attr\>	^naast<adj><comp><attr>$
+      1 #M\<n\>\<acr\>\<m\>\<sg\>+s\<gen\>	^M<n><acr><m><sg>+s<gen>$
       1 #Krokodil\<n\>\<mf\>\<sg\>\<cmp\>	^Krokodil<n><mf><sg><cmp>$
-      1 #doorstaan\<vblex\>\<sep\>\<fm\>\<pres\>\<p3\>\<sg\>	^doorstaan<vblex><sep><fm><pres><p3><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
-  0 /tmp/af-nl.multiform
-  0 /tmp/af-nl.multibidix
-  3 /tmp/af-nl.tagmismatch
-  3 total
+   2 /tmp/af-nl.multiform
+   0 /tmp/af-nl.multibidix
+  16 /tmp/af-nl.tagmismatch
+  18 total

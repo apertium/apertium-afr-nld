@@ -113,6 +113,7 @@ wc -l predet.xml
 echo "" > gen.xml
 cat apertium-af-nl.nl.dix.full | grep '<e lm="s" r="RL">' >> gen.xml
 wc -l gen.xml
+cat apertium-af-nl.nl.dix.full | grep '<e lm="~" r="RL">' >> gen.xml
 
 #####################################################################################
 
