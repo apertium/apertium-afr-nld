@@ -36940,12 +36940,12 @@
     <e lm="zich inlaten"><i>zich<b/>inl</i><par n ="achterl/aten__vblex_sep"/></e>
     <e lm="zich inlaten"><p><l>l</l><r>zich<b/>inl</r></p><par n="l/aten#_achter__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
     <e lm="zich inlaten"><p><l>ingelaten</l><r>zich<b/>inlaten</r></p><par n="gesproken__vblex_sep"/></e>
-    <e lm="zich indenken"><i>zich_ind</i><par n="doord/enken__vblex_sep"/></e>
-    <e lm="zich indenken"><p><l>d</l><r>zich_ind</r></p><par n="d/enken#_door__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
-    <e lm="zich indenken"><p><l>ingedacht</l><r>zich_indenken</r></p><par n="gesproken__vblex_sep"/></e>
-    <e lm="zich inlaten"><i>zich_inl</i><par n="achterl/aten__vblex_sep"/></e>
-    <e lm="zich inlaten"><p><l>l</l><r>zich_inl</r></p><par n="l/aten#_achter__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
-    <e lm="zich inlaten"><p><l>ingelaten</l><r>zich_inlaten</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="zich indenken"><i>zich<b/>ind</i><par n="doord/enken__vblex_sep"/></e>
+    <e lm="zich indenken"><p><l>d</l><r>zich<b/>ind</r></p><par n="d/enken#_door__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
+    <e lm="zich indenken"><p><l>ingedacht</l><r>zich<b/>indenken</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="zich inlaten"><i>zich<b/>inl</i><par n="achterl/aten__vblex_sep"/></e>
+    <e lm="zich inlaten"><p><l>l</l><r>zich<b/>inl</r></p><par n="l/aten#_achter__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
+    <e lm="zich inlaten"><p><l>ingelaten</l><r>zich<b/>inlaten</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="zwartmaken"><i>zwartma</i><par n="aanma/ken__vblex_sep"/></e>
     <e lm="zwartmaken"><p><l>ma</l><r>zwartma</r></p><par n="ma/ken#_aan__vblex_sep"/><p><l><b/>zwart</l><r></r></p></e>
     <e lm="zwartmaken"><p><l>zwartgemaakt</l><r>zwartmaken</r></p><par n="gesproken__vblex_sep"/></e>
