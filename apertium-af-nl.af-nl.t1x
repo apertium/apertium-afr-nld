@@ -21,6 +21,10 @@
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="adj_comp">
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.sint.comp"/>
+    </def-cat>
     <def-cat n="nom-cmp">
       <cat-item tags="n.*.cmp"/>
     </def-cat>
@@ -37,6 +41,9 @@
     <def-cat n="nie">
       <cat-item lemma="nie" tags="adv"/>
       <cat-item lemma="nie" tags="adv.*"/>
+    </def-cat>
+    <def-cat n="as_preadv">
+      <cat-item lemma="as" tags="preadv"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
