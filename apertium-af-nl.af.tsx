@@ -27,6 +27,9 @@
 		<def-label name="VIR" closed="true">
 			<tags-item lemma="vir" tags="pr"/>
 		</def-label> 
+		<def-label name="ASPREADV" closed="true">
+			<tags-item lemma="as" tags="preadv"/>
+		</def-label> 
 
 		<def-label name ="NOUN">
 			<tags-item tags="n.*"/>
@@ -37,6 +40,9 @@
 		<def-label name ="ADJPRED">
 			<tags-item tags="adj.pred"/>
 			<tags-item tags="adj.sint.pred"/>
+		</def-label>
+		<def-label name ="ADJCOMP">
+			<tags-item tags="adj.sint.comp.*"/>
 		</def-label>
 		<def-label name ="ADJATTR">
 			<tags-item tags="adj.attr"/>
@@ -234,4 +240,10 @@
 		  <label-item label="ADJALL"/>
 		</label-sequence>
 	</forbid>
+	<enforce-rules>
+		<enforce-after label="ADJCOMP">
+			<label-set>
+				<label-item label="ASPREADV"/>
+			</label-set>
+    </enforce-after>
 </tagger>
