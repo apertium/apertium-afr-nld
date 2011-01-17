@@ -213,6 +213,7 @@
 
   <section-def-vars>
     <def-var n="numero"/>
+    <def-var n="adj_h"/>
     <def-var n="caseFirstWord"/>
     <def-var n="nombre"/>
     <def-var n="tipus_inf"/>
@@ -1770,34 +1771,58 @@
 			<pattern-item n="as"/>
 		</pattern>
 		<action>
+                  <choose> 
+                    <when>
+                      <test> 
+                        <and>
+                          <equal>
+                            <clip pos="2" side="sl" part="a_adj"/>
+                            <lit-tag v="adj"/>
+                          </equal>
+                          <equal>
+                            <clip pos="2" side="tl" part="a_adj"/>
+                            <lit-tag v="adj.sint"/>
+                          </equal>
+                        </and>
+                      </test>
+                      <let>
+                        <var n="adj_h"/>
+                        <lit v=""/>
+                      </let>
+                    </when>
+                    <otherwise>
+                      <let>
+                        <var n="adj_h"/>
+                        <concat>
+                          <clip pos="1" side="tl" part="whole"/>
+                          <lit v="$"/>
+                          <b pos="1"/>
+                          <lit v="^"/>
+                        </concat>
+                      </let>
+                    </otherwise>
+                  </choose>
 			<out>
 				<chunk name="meer_adj" case="caseFirstWord">
 					<tags>
 						<tag><lit-tag v="SA"/></tag>
 					</tags>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>
-						<clip pos="1" side="tl" part="a_adj"/>
-						<clip pos="1" side="tl" part="grau"/>
-						<lit v="attr"/>
-					</lu>					
-					<b pos="1"/>
-					<lu>
+                                                <var n="adj_h"/>
 						<clip pos="2" side="tl" part="lem"/>
 						<clip pos="2" side="tl" part="a_adj"/>
-						<clip pos="2" side="tl" part="grau"/>
-						<lit v="attr"/>
+						<clip pos="1" side="tl" part="grau"/>
+						<lit-tag v="pred"/>
 					</lu>
-					
 				</chunk>
+			<b pos="2"/>
 				<chunk name="as" case="caseFirstWord">
 					
 					<tags>
 						<tag><lit-tag v="prep"/></tag>
 					</tags>
-					<b pos="2"/>
 					<lu>
-						<lit-tag v="dan"/>	
+						<lit v="dan"/>	
 						<lit-tag v="preadv"/>
 					</lu>
 				</chunk>
