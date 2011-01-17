@@ -1793,7 +1793,7 @@
 						<tag><lit-tag v="prep"/></tag>
 					</tags>
 					<lu>
-						<clip pos="1" side="tl" part="lem"/>	
+						<clip pos="3" side="tl" part="lem"/>	
 						<lit-tag v="preadv"/>
 					</lu>
 				</chunk>
