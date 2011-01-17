@@ -22,8 +22,13 @@
       <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="adj_comp">
-      <cat-item tags="adj.comp"/>
-      <cat-item tags="adj.sint.comp"/>
+      <cat-item tags="adj.sint.comp.*"/>
+    </def-cat>
+    <def-cat n="veel_comp">
+      <cat-item lemma="veel" tags="adj.sint.comp"/>
+    </def-cat>
+    <def-cat n="as">
+      <cat-item lemma="as"/>
     </def-cat>
     <def-cat n="nom-cmp">
       <cat-item tags="n.*.cmp"/>
@@ -1755,8 +1760,44 @@
         </out>
       </action>
     </rule>
-
-
+	
+	<rule comment="REGLA: MEER ADJ AS">
+		<pattern>
+			<pattern-item n="veel_comp"/>
+			<pattern-item n="adj"/>
+			<pattern-item n="as"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk name="meer_adj" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="SA"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adj"/>
+						<clip pos="1" side="tl" part="grau"/>
+					</lu>					
+					<b pos="1"/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_adj"/>
+						<clip pos="2" side="tl" part="grau"/>
+					</lu>
+					<b pos="2"/>
+				</chunk>
+				<chunk name="as" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="prep"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>	
+						<lit-tag v="preadv"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
   </section-rules>
 
 </transfer>
