@@ -28,7 +28,9 @@
       <cat-item lemma="veel" tags="adj.sint.comp"/>
     </def-cat>
     <def-cat n="as">
-      <cat-item lemma="as"/>
+      <cat-item lemma="as" tags="preadv"/>
+	  <cat-item lemma="as" tags="prep"/>
+	  <cat-item lemma="as" tags="cnjsub"/>
     </def-cat>
     <def-cat n="nom-cmp">
       <cat-item tags="n.*.cmp"/>
