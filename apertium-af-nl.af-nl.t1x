@@ -1791,10 +1791,11 @@
 					
 				</chunk>
 				<chunk name="as" case="caseFirstWord">
-					<b pos="2"/>
+					
 					<tags>
 						<tag><lit-tag v="prep"/></tag>
 					</tags>
+					<b pos="2"/>
 					<lu>
 						<lit-tag v="dan"/>	
 						<lit-tag v="preadv"/>
