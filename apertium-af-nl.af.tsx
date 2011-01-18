@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<tagger name ="Dutch">
+<tagger name ="Afrikaans">
 	<tagset>
 		<def-label name="DEURNOUN" closed="true">
 			<tags-item lemma="deur" tags="n.*"/>
@@ -245,5 +245,6 @@
 			<label-set>
 				<label-item label="ASPREADV"/>
 			</label-set>
-    </enforce-after>
+		</enforce-after>
+	</enforce-rules>
 </tagger>
