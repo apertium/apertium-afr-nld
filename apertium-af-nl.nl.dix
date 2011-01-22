@@ -16767,7 +16767,6 @@
     <e lm="samen"><i>samen</i><par n="van__pr"/></e>
     <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
     <e lm="inclusief"><i>inclusief</i><par n="van__pr"/></e>
-    <e lm="minder als"><i>minder<b/>als</i><par n="van__pr"/></e>
     <e lm="tot en met"><i>tot<b/>en<b/>met</i><par n="van__pr"/></e>
     <e lm="ten spijte"><i>ten<b/>spijte</i><par n="van__pr"/></e>
     <e lm="in plaats van"><i>in<b/>plaats<b/>van</i><par n="van__pr"/></e>
@@ -16797,7 +16796,6 @@
     <e lm="zo als"><i>zo<b/>als</i><par n="van__pr"/></e>
     <e lm="overeenkomstig met"><i>overeenkomstig<b/>met</i><par n="van__pr"/></e>
     <e lm="om te"><i>om<b/>te</i><par n="van__pr"/></e>
-    <e lm="minder als"><i>minder<b/>als</i><par n="van__pr"/></e>
     <e lm="behalve voor"><i>behalve<b/>voor</i><par n="van__pr"/></e>
     <e lm="als gevolg van"><i>als<b/>gevolg<b/>van</i><par n="van__pr"/></e>
     <e lm="te"><i>te</i><par n="van__pr"/></e>
@@ -16985,6 +16983,9 @@
     <e lm="vrijstellen"><i>vrijstel</i><par n ="afstel/len__vblex_sep"/></e>
     <e lm="vrijstellen"><p><l>stel</l><r>vrijstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="vrijstellen"><p><l>vrijgesteld</l><r>vrijstellen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="afslaan"><i>afsl</i><par n ="aanst/aan__vblex_sep"/></e>
+    <e lm="afslaan"><p><l>sl</l><r>afsl</r></p><par n="st/aan#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afslaan"><p><l>afgeslagen</l><r>afslaan</r></p><par n="gesproken__vblex_sep"/></e>
 	<e lm="plaatsvinden"><i>plaatsv</i><par n ="onderv/inden__vblex_sep"/></e>
     <e lm="plaatsvinden"><p><l>v</l><r>plaatsv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>plaats</l><r></r></p></e>
     <e lm="plaatsvinden"><p><l>plaatsgevonden</l><r>plaatsvinden</r></p><par n="gesproken__vblex_sep"/></e>
