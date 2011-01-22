@@ -204,6 +204,18 @@ noun a genetive.
 %nl:De vrouws zoon.
 %gloss:DEF.ARTICLE woman.NOUN.GEN son.NOUN
 
+Secondly, the verb `he' (to have) is the only verb used in Afrikaans as auxiliary
+verb with a past participle. In Dutch the verbs `hebben' and `zijn' (to have, to be)
+are both used, the latter mostly in cases of movement and a few exceptional cases, the
+former in all others. To handle this, two transfer rules have been added, to handle the
+patterns `have + past participle' and `have + nie + past participle + nie', which change the
+verb to have into the verb to be, when the past participle is found in a list of verbs that go with
+`zijn'.
+
+%af:Ek het geval.
+%nl:Ik ben gevallen.
+%gloss: PERSPRNSUBJ.P1.SG have.VERB fallen.PP
+
 \begin{itemize}
 \item Concordance of article and complement
 \item Concordance between subject and verb
@@ -222,8 +234,8 @@ noun a genetive.
 
 Both Afrikaans and Dutch are languages in which nouns combine very
 productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
-`infrastructure development plan' and {\em personeelverminderingsprosedure}
-`personnel reduction procedure'. As it is impractical to introduce
+`infrastructure development plan' and {\em lugmagbasis}
+`air force base'. As it is impractical to introduce
 all compound words into the lexicons, compound word analysis is performed on
 all unknown words. The analysis process works longest-match left-to-right
 using the same transducer as is used for morphological analysis.
@@ -235,19 +247,19 @@ used for forms that can either appear in a compound, or end it.
 Epenthetics, that is linking letters that occur between compound words
 are also taken care of heuristically in this way. For example the -s-
 in ontwikkelingsplan, the -en- in pannenkoek and the -e- in paardebloem.
- Notice that the epenthetic -e- is not productive, that is, it is not used in new compounds.
+ Notice that the epenthetic -e- is not productive in the Dutch language, that is, it is not used in new compounds.
 
 
 \begin{figure*}
 \begin{small}
 \begin{verbatim}
-die personeelverminderingsprosedure
+die lugmagbasis
 
 ^die<det><def><sg>$
-^personeel<n><sg><cmp>+vermindering<n><sg><cmp>+prosedure<n><sg>$
+^lug<n><sg><cmp>+mag<n><sg><cmp>+basis<n><sg>$
 
 ^de<det><ind><mf><sg>$
-^personeel<n><nt><sg><cmp>$^terugdringing<n><f><sg><cmp>$^procedure<n><mf><sg>$
+^lucht<n><mf><sg><cmp>$^macht<n><mf><sg><cmp>$^basis<n><f><sg>$
 
 de personeelterugdringingsprocedure
 \end{verbatim}
@@ -255,28 +267,28 @@ de personeelterugdringingsprocedure
 \end{figure*}
 
 There are some limitations to this method. For example although
-both {\em ontwikkeling-} and {\em ontwikkelings-} can be analysed as an internal part
+both {\em macht-} and {\em machts-} can be analysed as an internal part
 of a compound, only one of them can be generated. Which one will be generated
 is decided based on the inflectional paradigm to which the word belongs. For
 example {\small {\tt ontwikkeling$<$n$><$sg$><$cmp$>$}} will produce {\em ontwikkelings-} in generation,
-where {\small {\tt personeel$<$n$><$sg$><$cmp$>$}} will produce personeel.
+where {\small {\tt macht$<$n$><$sg$><$cmp$>$}} will produce {\em macht-}.
 
 \subsubsection{Separable verbs}
 
 Another feature of Afrikaans and Dutch is separable verbs, for example
-the Dutch {\em opslaan} `to save'. This can appear in the following
-forms {\em opslaan}, {\em sla op}, {\em opgeslagen}. Additionally the two constituent
-parts of the verb in {\em sla op}, the verb itself {\em sla} and the particle
-{\em op} may be separated by a word or phrase, {\em Ik sla mijn bestanden op}
- `I save my files'.
+the word {\em afslaan} `to turn, to decline, to stop'. This can appear in the following
+forms {\em afslaan}, {\em sla af}, {\em afgeslagen}. Additionally the two constituent
+parts of the verb in {\em sla af}, the verb itself {\em sla} and the particle
+{\em af} may be separated by a word or phrase, {\em Ik sla het aanbod af.}
+ `I decline the offer'.
 
 The following cases are supported,
 
 \begin{itemize}
-\item Infinitive: opslaan $\rightarrow$ stoor 
-\item Participle: opgeslagen $\rightarrow$ gestoor
-\item Non-separated: Ik ga uit naar het strand vandaag $\rightarrow$
-\item Subordinate: Toen ik snel mijn bestanden opsloeg $\rightarrow$ 
+\item Infinitive: afslaan $\rightarrow$ afslaan 
+\item Participle: afgeslagen $\rightarrow$ afgeslaan
+\item Non-separated: Ik sla af naar rechts. $\rightarrow$ Ek slaan af na rechts
+\item Subordinate: Toen ik het aanbod afsloeg $\rightarrow$ Toe ek die aanbod afslaan
 \end{itemize}
 
 Verbs separated by a word or phrase are currently translated word-for-word,
