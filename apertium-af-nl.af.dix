@@ -7279,6 +7279,10 @@
     <e lm="afsien"><i>afsien</i><par n="aansien__vblex_sep"/></e>
     <e lm="afsien"><p><l>sien</l><r>afsien</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afsien"><p><l>afgesien</l><r>afsien</r></p><par n="aangesien__vblex_sep"/></e>
+	
+    <e lm="afslaan"><i>afslaan</i><par n="aansien__vblex_sep"/></e>
+    <e lm="afslaan"><p><l>slaan</l><r>afslaan</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
+    <e lm="afslaan"><p><l>afgeslaan</l><r>afslaan</r></p><par n="aangesien__vblex_sep"/></e>
 
     <e lm="omkom"><i>omkom</i><par n="aansien__vblex_sep"/></e>
     <e lm="omkom"><p><l>kom</l><r>omkom</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
