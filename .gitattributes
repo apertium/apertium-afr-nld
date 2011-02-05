@@ -68,6 +68,7 @@ dev/verbSep.txt -text
 nl/apertium-af-nl.nl.dix.full -text
 nl/update.sh -text
 paper/Makefile -text
+paper/apertium2.pdf -text
 paper/cgloss4e.sty -text
 paper/eamt11.bst -text
 paper/eamt11.sty -text
