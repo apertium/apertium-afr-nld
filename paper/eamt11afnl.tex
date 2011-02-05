@@ -49,7 +49,9 @@
 \begin{abstract}
  This paper describes the design, development and evaluation of a machine
  translation system between Dutch and Afrikaans developed over a period of
- around a month.
+ around a month. The system relies heavily on the re-use of existing 
+ publically available resources such as Wiktionary, Wikipedia and the 
+ Apertium machine translation platform.
 \end{abstract}
 
 \section{Introduction}
@@ -65,28 +67,26 @@ the Cape Colony. In 1925 Afrikaans replaced Dutch as an official language in Sou
 be the joint official language together with English. Currently Afrikaans is one of the 
 eleven national languages \cite{Donaldson:93}.
 
-In this paper we will describe the development of {\small {\tt apertium-af-nl}}, an Afrikaans 
+In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
 and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch 
 are largely mutually intelligible, this machine translation system focuses on dissemination, the 
-production of text for the purpose of being post-edited and then being published. Previous 
-work in Afrikaans and Dutch machine translation is described in \cite{Huyssteen:09}. The reason
-we have chosen to work with a rule-based approach, instead of the ubiquitous statistic approach,
-is that the latter needs high-quality parallel corpora of both languages. The only freely available
-Afrikaans Dutch corpus, is KDE4.\footnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}} We feel
-that these corpora do not approach the quality neccisated and the fact that Afrikaans and Dutch
-are closely related languages made a rule-based approach favourable to the statistical approach.
+production of text for the purpose of being post-edited and then being published. 
+
+This is not the first system to work with this language pair, \newcite{Huyssteen:09} describe
+a rule-based system to convert in a single direction from Dutch to Afrikaans. 
+The reason we have chosen to work with a rule-based approach, instead of the ubiquitous 
+corpus-based/statistical approach, is that the latter needs parallel corpora of both 
+languages. The only freely available Afrikaans--Dutch corpus, is 
+KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}} translated via English. We 
+feel that these corpora do not approach the quality required and the fact that Afrikaans 
+and Dutch are closely related languages made a rule-based approach favourable to the 
+statistical approach.
 
 The paper is laid out as follows, firstly, we will describe the reuse and creations of 
 resources. We will then discuss several grammatical features of Afrikaans and Dutch and how 
-these were incorporated in the machine-translation system. We will then present a section 
+these were treated in the machine-translation system. We will then present a section 
 in which the system is evaluated. Finally, we will discuss the system and future work that 
 could be done.
-
-
-\begin{itemize}
-\item languages, machine translation, existing work
-\item rationale: no free corpora of dutch--afrikaans.
-\end{itemize}
 
 \section{Method}
 
@@ -110,13 +110,9 @@ website.
 \end{figure*}
 
 {\small {\tt apertium-af-nl}} has been developed over the course of one and a half months.
-The vast majority of the work has been done by a PhD student and a Dutch secondary 
-school student. However, since for both this was not paid, nor for school, there were 
+The vast majority of the work has been done by a Dutch secondary school student supervised 
+by a PhD student. However, since for both this was not paid, nor for school, there were 
 very few full 8-hour days of work during this period.
-
-\begin{itemize}
-\item development time, how apertium works (fig. 1)
-\end{itemize}
 
 \subsection{Existing resources}
 
@@ -129,9 +125,25 @@ was wholly revised, and infrequent words were removed.
 
 \subsubsection{Dutch morphological transducer}
 
-There are a number of existing morphological analysers for Dutch, based on ...
+There are a number of existing morphological analysers for Dutch \cite{Bosch:07,Laureys:04,DePauw:04},
+some of which also function as morphological generators. Our decision to make a new morphological 
+analyser was based on the following rationale:
 
-We chose to create a new analyser because... (tagset, gender, analysis/generation, free software)
+\begin{itemize}
+\item Licence: Neither the CELEX morphological databse for Dutch \cite{Laureys:04},
+    nor the finite-state morphological transducer in the FLaVoR project \cite{DePauw:04}
+    are available under a free licence. As our objective is to publish and distribute 
+    the system described here, this made them unusable.
+\item Bidirectional: We wanted the dictionary to be able to be used for both
+    morphological analysis and generation. Other analysers, for example the 
+    one described in \newcite{Bosch:07} are only designed for analysis.
+\item Tagset: When creating a new machine translation system, it is convenient
+    if the tags which represent the same or similar features are equivalent in the 
+    morphological analysers/generators for each of the languages,
+    e.g. {\small {\tt $<$sg$>$}} on both sides for `Singular' instead 
+    of {\small {\tt $<$sg$>$}} on one side and {\small {\tt +Sing}} on 
+    the other.
+\end{itemize}
 
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
@@ -144,9 +156,9 @@ while the corresponding category on the Dutch Wiktionary has 13,176 entries.
 
 Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:02}.
 
-\begin{figure*}
+\begin{figure}
 \centering
-\begin{small}
+\begin{tiny}
 \begin{tabular}{|l|}
 \hline
 {\large Dutch} \\
@@ -159,24 +171,24 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 ~\\
 {\bf Noun}\\
 ~\\
-{\bf hoofdstad} m. ({\em plural} hoofdsteden, {\em diminutive} hoofdstadje, {\em diminutive} plural hoofdstadjes) \\
+{\bf hoofdstad} m. ({\em pl} hoofdsteden, {\em dimin} hoofdstadje, {\em dimin pl} hoofdstadjes) \\
 ~\\
 ~~~~1. capital city \\
 
 \hline
 \end{tabular}
-\end{small}
+\end{tiny}
 \caption{English language Wiktionary article for Dutch \emph{hoofdstad} `capital city' 
     {\small \url{http://en.wiktionary.org/wiki/hoofdstad}}}
 \label{fig:wikt1}
-\end{figure*}
+\end{figure}
 
 \subsubsection{Bilingual dictionary}
 
 The bilingual dictionary has been developed in several ways. After the morphological 
 analysers for both languages were large enough, exact matches from the dictionaries
 were automatically added to the bilingual dictionary. Proper names were added in the
-way that is described in \cite{Tyers:08}. After that cognates were added. There are several
+way that is described in \newcite{Tyers:08}. After that cognates were added. There are several
 small common spelling differences between the Afrikaans and Dutch languages. For example,
 where the letter `y' in Afrikaans is used quite often, the Dutch languages uses `ij' in these words.
 The bilingual dictionary was expanded further by categorising these spelling differences and
@@ -184,10 +196,6 @@ automatically adding translations to the bilingual dictionary if the spelling di
 only difference between the two words. Finally, some entries were done by hand.
 This includes closed categories, but also words that frequently appeared in Wikipedia
 which were not yet in the bilingual dictionary.
-
-\begin{itemize}
-\item wikipedia, wiktionary, cognates
-\end{itemize}
 
 \subsubsection{Transfer rules}
 
@@ -570,7 +578,15 @@ Solving this is a significant MT challenge and is not easily fixable.
 
 \section{Discussion}
 
+We have presented a bi-directional rule-based machine translation between Dutch and Afrikaans, 
+two closely-related Germanic languages. The system gives promising results, but does not offer
+any improvement in translation quality over another publically available system. 
+
 \subsection{Future work}
+
+The three biggest issues in the system come from lack of dictionary coverage, poor morphological
+disambiguation and insufficient syntactic transfer. Thus these areas are ones that we intend to 
+concentrate on.
 
 \section*{Acknowledgements}
 
@@ -613,7 +629,32 @@ Tyers, F. M. and Pienaar, J. A.
 \newblock 2008. 
 \newblock Extracting bilingual word pairs from Wikipedia
 \newblock {\em Proceedings of the SALTMIL Workshop at the Language Resources and Evaluation Conference}, LREC2008
-\newblock 19--22. [slides]
+\newblock 19--22. 
+
+\bibitem[\protect\citename{Bosch et al.}2007]{Bosch:07}
+Van den Bosch, A., Busser, G.J., Daelemans, W., and Canisius, S.
+\newblock 2007. 
+\newblock An efficient memory-based morphosyntactic tagger and parser for Dutch
+\newblock {\em Selected Papers of the 17th Computational Linguistics in the Netherlands Meeting} 
+\newblock 99--114.
+
+\bibitem[\protect\citename{DePauw et al.}2004]{DePauw:04}
+De Pauw, G., Laureys, T., Daelemans, W., and Van Hamme, H.
+\newblock 2004. 
+\newblock A Comparison of Two Different Approaches to Morphological Analysis of Dutch
+\newblock {\em Proceedings of the Workshop of the ACL Special Interest Group on Computational Phonology (SIGPHON), ACL2004} 
+
+\bibitem[\protect\citename{Laureys et al.}2004]{Laureys:04}
+Laureys, T., De Pauw, G., Van hamme, H., Daelemans, W., and Van Compernolle, D.
+\newblock 2004. 
+\newblock Evaluation and adaptation of the Celex Dutch morphological database
+\newblock {\em Proceedings of the 4th International Conference on Language Resources and Evaluation (LREC 2004)}
+\newblock 1247--1250.
+
+
+
+
+
 
 
 \end{thebibliography}
