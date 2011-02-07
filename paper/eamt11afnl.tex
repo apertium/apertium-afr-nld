@@ -189,31 +189,33 @@ The bilingual dictionary has been developed in several ways. After the morpholog
 analysers for both languages were large enough, exact matches from the dictionaries
 were automatically added to the bilingual dictionary. Proper names were added in the
 way that is described in \newcite{Tyers:08}. After that cognates were added. There are several
-small common spelling differences between the Afrikaans and Dutch languages. For example,
-where the letter `y' in Afrikaans is used quite often, the Dutch languages uses `ij' in these words.
+small common spelling differences between Afrikaans and Dutch. For example,
+where the letter `y' in Afrikaans is used quite often, Dutch uses `ij' in these words.
 The bilingual dictionary was expanded further by categorising these spelling differences and
 automatically adding translations to the bilingual dictionary if the spelling difference was the
 only difference between the two words. Finally, some entries were done by hand.
 This includes closed categories, but also words that frequently appeared in Wikipedia
 which were not yet in the bilingual dictionary.
 
-\subsubsection{Transfer rules}
+\subsection{Transfer rules}
+
+A total of 32 transfer rules have been written for the direction Afrikaans$\rightarrow$Dutch and
+15 for the direction Dutch$\rightarrow$Afrikaans. We will discuss some of these transfer rules below.
+
+\subsubsection{Afrikaans to Dutch}
 
 %%Dutch cannot use the present tense in past situations (not even in narrative style)
 
-Several transfer rules used in {\small {\tt apertium-af-nl}}  are characteristic for the
-Afrikaans and Dutch languages. We will discuss some of these transfer rules below.
-
-Firstly, Afrikaans has no genitives. Instead, the word `se' is used to indicate possesion. 
+Afrikaans has no word-attached genitives. The word \emph{se} is used to indicate possesion. 
 Therefore, a transfer rule has been added to remove the `se' and instead make the preceding
-noun a genetive.
+noun genitive.
 
 %af:Die vrou se seun.
 %nl:De vrouws zoon.
 %gloss:DEF.ARTICLE woman.NOUN.GEN son.NOUN
 
-Secondly, the verb `he' (to have) is the only verb used in Afrikaans as auxiliary
-verb with a past participle. In Dutch the verbs `hebben' and `zijn' (to have, to be)
+The verb \emph{hê} `have' is the only verb used in Afrikaans as auxiliary
+verb with a past participle. In Dutch the verbs \emph{hebben} `to have' and \emph{zijn} `to be' 
 are both used, the latter mostly in cases of movement and a few exceptional cases, the
 former in all others. To handle this, two transfer rules have been added, to handle the
 patterns `have + past participle' and `have + nie + past participle + nie', which change the
@@ -224,8 +226,14 @@ verb to have into the verb to be, when the past participle is found in a list of
 %nl:Ik ben gevallen.
 %gloss: PERSPRNSUBJ.P1.SG have.VERB fallen.PP
 
+% \item Concordance of article and complement
+
+Nouns in Afrikaans do not exhibit gender, where nouns in Dutch can be one of four genders,
+neuter, masculine, feminine or common. The definite article \emph{het}, \emph{die} in Dutch must agree with 
+the noun it modifies. A number of transfer rules were written for patterns such as `determiner + noun',
+`determiner + adjective + noun', etc. which propagate the gender of the head noun to the article.
+
 \begin{itemize}
-\item Concordance of article and complement
 \item Concordance between subject and verb
 \item Removal of negation scope marker
 \end{itemize}
@@ -254,9 +262,8 @@ left side (e.g. surface form) of a compound, where {\small {\tt compound-R}} is
 used for forms that can either appear in a compound, or end it.
 Epenthetics, that is linking letters that occur between compound words
 are also taken care of heuristically in this way. For example the -s-
-in ontwikkelingsplan, the -en- in pannenkoek and the -e- in paardebloem.
- Notice that the epenthetic -e- is not productive in the Dutch language, that is, it is not used in new compounds.
-
+in \emph{ontwikkelingsplan}, the -en- in \emph{pannenkoek} and the -e- in \emph{paardebloem}.
+Notice that the epenthetic -e- is not productive in Dutch, that is, it is not used in new compounds.
 
 \begin{figure*}
 \begin{small}
@@ -278,8 +285,8 @@ There are some limitations to this method. For example although
 both {\em macht-} and {\em machts-} can be analysed as an internal part
 of a compound, only one of them can be generated. Which one will be generated
 is decided based on the inflectional paradigm to which the word belongs. For
-example {\small {\tt ontwikkeling$<$n$><$sg$><$cmp$>$}} will produce {\em ontwikkelings-} in generation,
-where {\small {\tt macht$<$n$><$sg$><$cmp$>$}} will produce {\em macht-}.
+example {\small {\tt ontwikkeling$<$n$><$sg$><$cmp$>$}} will always produce {\em ontwikkelings-} in generation,
+where {\small {\tt macht$<$n$><$sg$><$cmp$>$}} will always produce {\em macht-}.
 
 \subsubsection{Separable verbs}
 
@@ -361,8 +368,8 @@ we tested two lists of words which received compound analyses from
 the Wikipedia. This test was only conducted in the Afrikaans$\rightarrow$Dutch
 direction, but we expect similar results in the other direction. The first
 set of sentences was constructed by taking the highest frequency 1,000 words which received 
-a compound analysis, the second was by taking a list of all the words and selecting
-1,000 pseudo-randomly.\footnote{Using the Unix {\small {\tt unsort}} program.} A total 
+a compound analysis from the corpus, the second was by taking a list of all the words and selecting
+1,000 pseudo-randomly.\footnote{Using the Unix {\small {\tt unsort}} program.} A total of
 6,866 unknown words from the corpus received a compound analysis.
 
 \begin{table}
@@ -463,6 +470,8 @@ of the translation.
     Deze bezetting is in 1721 met het Verdrag van {\em Nystad} {\em erkend}. \\
     `This occupation has been acknowledged in 1721 with the Treaty of Nystand.'
 
+The unknown words are marked with asterisk.
+
 \subsubsection{Morphology}
 
 Morphology errors would be errors caused by incorrect analysis or generation in the morphological analysers.
@@ -542,8 +551,10 @@ be worth changing the default translation.
     De graanopbrengst per hectare is lager dan in {\em Midden-Europa}. \\
    `The grain production per hectare is smaller than in Central Europe.'
 
-The error due to compounding in this example is `Middel-Europa'. This word has been translated by splitting it up and translating the seperate parts.
- However, while normally the Afrikaans `Middel' can be translated correctly as `middel', in the case of geographical names, the only correct translation is `Midden'.
+The error due to compounding in this example is `Middel-Europa'. This word has been translated by 
+splitting it up and translating the seperate parts.
+However, while normally the Afrikaans `Middel' can be translated correctly as `middel', in the 
+case of geographical names, the only correct translation is `Midden'.
 
 \ex. \label{ex:excomphyphen} 
     Die motornywerheid is die ekonomiese basis van Oshawa, ...  \\
@@ -560,13 +571,15 @@ the different parts of the compound.
 \subsubsection{Separable verb}
 
 \ex. \label{ex:exsepverb} 
-    Twee jaar later ruk die situasie in die land onder die indruk van massabetogings hand uit. \\
-    Twee jaar later {\em *ruk} de situatie in het land onder de indruk van *massabetogings {\em hand uit}. \\
-    Twee jaar later {\em loopt} de situatie in het land onder de invloed van massabetogingen {\em uit de hand}. \\
-    `Two years later the situation got out of control under the influence of mass protests.'
+    'n Jaar later ruk die situasie in die land onder die indruk van massabetogings hand uit. \\
+    Een jaar later {\em *ruk} de situatie in het land onder de indruk van *massabetogings {\em hand uit}. \\
+    Een jaar later {\em loopt} de situatie in het land onder de invloed van massabetogingen {\em uit de hand}. \\
+    `A year later the situation got out of control under the influence of mass protests.'
 
-This is a classic example of a seperable verb which is not recognised as such. The Afrikaans `ruk ... hand uit' corresponds with
- the Dutch seperable verb (and expression) `loopt ... uit de hand' However, `ruk' (to pull) in itself could never be translated as `lopen' (to walk). 
+This is a classic example of a seperable verb which is not recognised as such. The 
+Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch seperable verb (and 
+expression) \emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
+could never be translated as \emph{lopen} `to walk'. 
 Solving this is a significant MT challenge and is not easily fixable.  
 
 \subsection{Comparative}
