@@ -25,6 +25,7 @@
 /apertium-af-nl.post-af.dix -text
 /apertium-af-nl.post-nl.dix -text
 /configure.ac -text
+dev/MULTIWORDS-AND-RULES -text
 dev/apertium-af-nl.af-old.tsx -text
 dev/apertium-af-nl.nl.dix.OLD -text
 dev/bidix-nouns.txt -text
@@ -39,6 +40,7 @@ dev/bidix/pending_pronouns.txt -text
 dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
+dev/eval/compounds/compounds.random -text
 dev/eval/compounds/compounds.top -text
 dev/eval/eval.2010-12-23.wikipedia.1.apertium.txt -text
 dev/eval/eval.2010-12-23.wikipedia.2.apertium.txt -text
@@ -49,6 +51,7 @@ dev/eval/eval.2011-01-07.wikipedia.3.google.txt -text
 dev/eval/eval.2011-01-07.wikipedia.4.apertium.txt -text
 dev/eval/eval.2011-01-07.wikipedia.4.google.txt -text
 dev/eval/evaluation-log.txt -text
+dev/eval/run-eval.py -text
 dev/generation-summary.af-nl.txt -text
 dev/generation-summary.nl-af.txt -text
 dev/generation-test.af-nl.sh -text
@@ -57,6 +60,8 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/nl.wikt.speling.txt -text
+dev/run-corpus.sh -text
+dev/tenses -text
 dev/testvoc-summary.af-nl.txt -text
 dev/testvoc-summary.nl-af.txt -text
 dev/testvoc.sh -text

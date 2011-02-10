@@ -1,0 +1,51 @@
+==
+Ek werk;	I work
+Jy werk;	You work
+Hy werk;	He works
+Sy werk;	She works
+Dit werk;	It works
+Ons werk;	We work
+Julle werk;	You work
+Hulle werk;	They work
+Ek is aan die werk;	I am working
+Ek sit en werk;	I am working
+Ek werk nie;	I don't work
+Werk!;	Work!
+Moenie werk nie!;	Don't work!
+Ek sal werk;	I will work
+Ek gaan werk;	I'm going to work
+Ek het gewerk;	I worked
+Ek was aan die werk;	I was working
+Ek het gesit en werk;	I have been working
+Ek het nie gewerk nie;	I wasn't working
+Hy sal dit gedoen het;	He will have done it
+Hy moes dit gedoen het;	He must have done it
+As jy nie so veel sou eet nie ...;	If you didn't eat as much ...
+
+==
+Suid-Afrika se hoofstad
+ons bure se vriende se seun
+
+==
+
+Ek weet nie;	I don't know
+Hy bid nooit;	He never prays
+Weet jy dit nie?;	Don't you know that ?
+Ek ken hom nie;	I don't know him
+Geen mens weet nie;	No one knows
+Ek ken nie daardie man nie;	I don't know that man
+Jy let nie op nie;	You're not paying attention
+Hy sal nie kom nie;	He won't come
+Hy het nie gekom nie;	He hasn't come
+Hy kom nie;	He doesn't come
+Ek het nie geweet dat hy sou kom nie;	I didn't know that he would be coming
+Ek het geweet dat hy nie sou kom nie;	I knew that he wouldn't be coming
+Mense wat nie rook nie lewe langer;	People who don't smoke live longer
+Hy kan nie kom nie want hy is siek;	He can't come because he is sick
+Dis nie so moeilik om Afrikaans te leer nie;	It isn't so difficult to learn Afrikaans
+Ek weet niks nie;	I know nothing
+Hy skryf nooit nie;	He never writes
+Ek ken niemand nie;	I don't know anyone
+
+
+>>> Rule?!? --- Count negatives and do not output >1 if one appears in a clause.
