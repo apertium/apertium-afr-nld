@@ -441,12 +441,11 @@ of the kind of error is found below.
      {\bf Error type}    & {\bf Count} & {\bf \% of total} \\
      \hline
      Unknown word         & 147         & 26.5 \\
-     Morphology           & 0           & 0 \\
+     Morphology           & 28          & 5.1 \\
      Disambiguation       & 106         & 19.1 \\
      Multiword            & 6           & 1.1 \\
-     Syntactic transfer   & 263         & 47.5 \\
+     Syntactic transfer   & 235         & 42.4 \\
      ~~~- Verb plurality  & 99          & 17.9 \\
-     ~~~- Gender          & 28          & 5.1 \\
      ~~~- Auxiliary verbs & 13          & 2.3 \\ 
      ~~~- Relative Pronoun& 11          & 2.0 \\
      ~~~- Capitalisation  & 10          & 1.8 \\
@@ -480,7 +479,17 @@ The unknown words are marked with asterisk.
 
 \subsubsection{Morphology}
 
-Morphology errors would be errors caused by incorrect analysis or generation in the morphological analysers.
+Most errors in the morphological analyser were caused by a flaw in the automatic extraction process.
+\ref{ex:exmorph} shows a morphological error due to gender. The country `DDR' is feminine, which
+should go with the determiner `de'. However, because it is marked as neutrum in the morphological analyser,
+it is translated with `het'. The vast majority of countries are in fact neutrum, but `DDR' is not. This could
+be fixed by changing the gender in the morphological analyser by hand.
+
+\ex. \label{ex:exmorph}
+    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats - en partyleier op. \\
+    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats - en *partyleier op. \\
+    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als staats- en partijleider op. \\
+    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as state and party leader.
 
 \subsubsection{Disambiguation}
 
@@ -521,17 +530,6 @@ of the verb with it.
     De belangrijkste rol wat de vrouwen echter in de strijd tegen apartheid gespeeld {\em heeft}, ... \\
     De belangrijkste rol die de \underline{vrouwen} echter in de strijd tegen apartheid gespeeld {\em hebben}, ... \\
     `The most important part that women played in the struggle against apartheid, ...' 
-
-\ref{ex:exgender} shows a syntactic transfer error due to gender. The country `DDR' is feminine, which
-should go with the determiner `de'. However, because it is marked as neutrum in the morphological analyser,
-it is translated with `het'. The vast majority of countries are in fact neutrum, but `DDR' is not. This could
-be fixed by changing the gender in the morphological analyser.
-
-\ex. \label{ex:exgender}
-    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats - en partyleier op. \\
-    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats - en *partyleier op. \\
-    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als staats- en partijleider op. \\
-    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as state and party leader.
 
 Afrikaans uses the verb {\em hê} `have' with all past participles, whereas Dutch uses the 
 verb {\em zijn} `be' in cases of, amongst others, verbs that imply movement. This could be fixed 
