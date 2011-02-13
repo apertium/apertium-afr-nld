@@ -440,25 +440,28 @@ of the kind of error is found below.
      \hline
      {\bf Error type}    & {\bf Count} & {\bf \% of total} \\
      \hline
-     Unknown word         & 147         & 26.5 \\
-     Morphology           & 28          & 5.1 \\
-     Disambiguation       & 106         & 19.1 \\
-     Multiword            & 6           & 1.1 \\
      Syntactic transfer   & 235         & 42.4 \\
-     ~~~- Verb plurality  & 99          & 17.9 \\
+     \hline
+     ~~~- Verb concordance & 99          & 17.9 \\
      ~~~- Auxiliary verbs & 13          & 2.3 \\ 
-     ~~~- Relative Pronoun& 11          & 2.0 \\
+     ~~~- Relative pronoun& 11          & 2.0 \\
      ~~~- Capitalisation  & 10          & 1.8 \\
-     ~~~- Chunking Error  & 9           & 1.6 \\
+     ~~~- Chunking error  & 9           & 1.6 \\
      ~~~- Other           & 93          & 16.8 \\
+     \hline
+     Unknown word         & 147         & 26.5 \\
+     Disambiguation       & 106         & 19.1 \\
+     Morphology           & 28          & 5.1 \\
      Polysemy             & 23          & 4.2 \\
+     Multiword            & 6           & 1.1 \\
      Compounding          & 6           & 1.1 \\
      Separable verb       & 3           & 0.5 \\
      \hline
      Total                & 554         & 100 \\
      \hline
   \end{tabular}
-    \caption{Contribution to total error by type}
+    \caption{Contribution to total error by type. Syntactic transfer errors are split into 
+      further categories.}
     \label{table:qual}
   \end{center}
 \end{table}
@@ -480,16 +483,19 @@ The unknown words are marked with asterisk.
 \subsubsection{Morphology}
 
 Most errors in the morphological analyser were caused by a flaw in the automatic extraction process.
-\ref{ex:exmorph} shows a morphological error due to gender. The country `DDR' is feminine, which
-should go with the determiner `de'. However, because it is marked as neutrum in the morphological analyser,
-it is translated with `het'. The vast majority of countries are in fact neutrum, but `DDR' is not. This could
-be fixed by changing the gender in the morphological analyser by hand.
+The example in \ref{ex:exmorph} shows a morphological error due to gender. The 
+country \emph{DDR} `GDR' is feminine, which should go with the determiner `de'. However, because 
+it is marked as neuter in the morphological analyser, it is translated with `het'. The vast 
+majority of countries are in fact neuter, but \emph{DDR} is not. 
 
 \ex. \label{ex:exmorph}
-    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats - en partyleier op. \\
-    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats - en *partyleier op. \\
+    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats- en partyleier op. \\
+    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats- en *partyleier op. \\
     In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als staats- en partijleider op. \\
     `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as state and party leader.
+
+Errors of this type could be fixed with a more thorough revision of the morphological
+analyser.
 
 \subsubsection{Disambiguation}
 
@@ -556,9 +562,11 @@ sentence on a semantic level, which means it is unlikely to be solved anytime so
 
 Capitalisation is generally straightforward. An exception forms the case in which the sentence
 starts with an apostrophe in one language and does not start with that in the other. Afrikaans
-regularly uses `'n' as determiner and while in Dutch this word is used in speech, it is not used in writing.
-Therefore in \ref{ex:excapitals} the translation has a capitalisation error. Obviously, `een' should be
-capitalised, while `Pet' should not be. This could be solved by altering the set of transfer rules.
+regularly uses \emph{'n} as determiner and while in Dutch this word is used in speech, it is 
+not used in writing. Therefore in \ref{ex:excapitals} the translation has a 
+capitalisation error. The word \emph{een} should be capitalised, while \emph{Pet} should not 
+be. In Apertium, changes in word case are performed in the syntactic transfer stage, thus this 
+could be solved by altering the set of transfer rules.
 
 \ex. \label{ex:excapitals} 
     'n Pet vorm ook deel van die uniform. \\
@@ -567,28 +575,31 @@ capitalised, while `Pet' should not be. This could be solved by altering the set
     `A cap is also part of the uniform.' 
 
 Apertium uses fixed length chuncks for transfer. In example \ref{ex:chunking} there is an error
-due to that. `preciese' (exact) is an adjective with `grens' (border). While there is a pattern
+due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{grens} `border'. While there is a pattern
 `adj cc adj noun', there was no pattern `adj adj cc adj noun'. This causes the chunker to put
 `preciese' in a seperate chunk, which results in the predicative form, rather than the attributive.
-This error could be fixed by adding the aforementioned pattern.
 
 \ex. \label{ex:chunking}
     In die ooste is daar geen presiese geografiese of geologiese grens tussen Europa en Asië nie. \\
     In het oosten is daar geen {\em precies} geografische of geologische grens tussen Europa en Azië niet. \\ 
-    In het oosten is er geen {\em precieze} geografische of geologische grens tussen Europa en Azië. \\
+    In het oosten is er geen {\em precieze} geografische of geologische \underline{grens} tussen Europa en Azië. \\
     `In the east there is no exact geographical or geological border between Europe and Asia.' 
+
+This error could be fixed by adding the aforementioned pattern.
 
 \ex. \label{ex:exother1}
     In beginsel kan jy aan Wikipedia meewerk sonder om enige besprekingsblaaie te lees. \\
-    In principe kan jij aan Wikipedia *meewerk zonder om enig *besprekingsblaaie te lezen. \\
+    In principe kan jij aan Wikipedia *meewerk zonder {\em om} enig *besprekingsblaaie {\em te} lezen. \\
     In principe kan jij aan Wikipedia meewerken zonder enige besprekingsbladen te lezen. \\
     `In principle you can work on Wikipedia without reading any talkpages.'
 
 \ex. \label{ex:exother2}
     Morrison trek na Parys met die plan om te fokus op sy skryfwerk. \\
-    *Morrison trekken naar Parijs met de plan om te concentreren op zijn *skryfwerk. \\
-    Morrison trekt naar Parijs met het plan om zich te concentreren op zijn schrijfwerk. \\
+    *Morrison trekken naar Parijs met de plan {\em om te} concentreren op zijn *skryfwerk. \\
+    Morrison trekt naar Parijs met het plan {\em om} zich {\em te} concentreren op zijn schrijfwerk. \\
     `Morrison moves to Paris with the plan of focussing on his writing work.'
+
+
 
 \subsubsection{Polysemy}
 
