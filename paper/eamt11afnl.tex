@@ -445,7 +445,13 @@ of the kind of error is found below.
      Disambiguation       & 106         & 19.1 \\
      Multiword            & 6           & 1.1 \\
      Syntactic transfer   & 263         & 47.5 \\
-     ~~~- Auxiliary verbs & ?           & ? \\ 
+     ~~~- Verb plurality  & 99          & 17.9 \\
+     ~~~- Gender          & 28          & 5.1 \\
+     ~~~- Auxiliary verbs & 13          & 2.3 \\ 
+     ~~~- Relative Pronoun& 11          & 2.0 \\
+     ~~~- Capitalisation  & 10          & 1.8 \\
+     ~~~- Chunking Error  & 9           & 1.6 \\
+     ~~~- Other           & 93          & 16.8 \\
      Polysemy             & 23          & 4.2 \\
      Compounding          & 6           & 1.1 \\
      Separable verb       & 3           & 0.5 \\
@@ -506,6 +512,27 @@ phrase {\em over de hele} `over the whole'.
 
 \subsubsection{Syntactic transfer}
 
+In \ref{ex:exsgpl} the singular verb does not match the plural subject, the noun {\em vrouwen} `woman'. This 
+could be solved by identifying the subject of the sentence and matching the plurality 
+of the verb with it.
+
+\ex. \label{ex:exsgpl} 
+    Die belangrikste rol wat die vroue egter in die stryd teen apartheid gespeel het, ... \\
+    De belangrijkste rol wat de vrouwen echter in de strijd tegen apartheid gespeeld {\em heeft}, ... \\
+    De belangrijkste rol die de \underline{vrouwen} echter in de strijd tegen apartheid gespeeld {\em hebben}, ... \\
+    `The most important part that women played in the struggle against apartheid, ...' 
+
+\ref{ex:exgender} shows a syntactic transfer error due to gender. The country `DDR' is feminine, which
+should go with the determiner `de'. However, because it is marked as neutrum in the morphological analyser,
+it is translated with `het'. The vast majority of countries are in fact neutrum, but `DDR' is not. This could
+be fixed by changing the gender in the morphological analyser.
+
+\ex. \label{ex:exgender}
+    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats - en partyleier op. \\
+    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats - en *partyleier op. \\
+    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als staats- en partijleider op. \\
+    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as state and party leader.
+
 Afrikaans uses the verb {\em hê} `have' with all past participles, whereas Dutch uses the 
 verb {\em zijn} `be' in cases of, amongst others, verbs that imply movement. This could be fixed 
 by tracking the auxiliary verb in a sentence and alter it if the past participle is in a list
@@ -517,15 +544,37 @@ of movement verbs.
     Het zand {\em is} dan samen met het water weggespoeld. \\
    `The sand is washed away along with the water.'
 
-In \ref{ex:exsgpl} the singular verb does not match the plural subject, the noun {\em vrouwen} `woman'. This 
-could be solved by identifying the subject of the sentence and matching the plurality 
-of the verb with it.
+Another issue are relative pronouns. The Afrikaans language uses the word `wat', where the
+Dutch word equivalent depends on the antecedent. In Dutch `wat' is used when i.e. the antecedent
+is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is `formules', for which the appropriate
+relative pronoun is `die'. Solving this problem requires the ability to analyse the
+sentence on a semantic level, which means it is unlikely to be solved anytime soon.
 
-\ex. \label{ex:exsgpl} 
-    Die belangrikste rol wat die vroue egter in die stryd teen apartheid gespeel het, ... \\
-    De belangrijkste rol wat de vrouwen echter in de strijd tegen apartheid gespeeld {\em heeft}, ... \\
-    De belangrijkste rol die de \underline{vrouwen} echter in de strijd tegen apartheid gespeeld {\em hebben}, ... \\
-    `The most important part that women played in the struggle against apartheid, ...' 
+\ex. \label{ex:exrelpro}
+    Pi kom voor in baie formules in meetkunde wat sirkels en sfere betrek. \\
+    *Pi komen voor in vele *formules in meetkunde {\em wat} cirkels en *sfere betrekken. \\
+    Pi komt voor in vele \underline{formules} in meetkunde {\em die} cirkels en bollen betrekken. \\
+    `Pi appears in many formulas in geometry which concern circles and spheres.' 
+
+Capitalisation is generally straightforward. An exception forms the case in which the sentence
+starts with an apostrophe in one language and does not start with that in the other. Afrikaans
+regularly uses `'n' as determiner and while in Dutch this word is used in speech, it is not used in writing.
+Therefore in \ref{ex:excapitals} the translation has a capitalisation error. Obviously, `een' should be
+capitalised, while `Pet' should not be. This could be solved by altering the set of transfer rules.
+
+\ex. \label{ex:excapitals} 
+    'n Pet vorm ook deel van die uniform. \\
+    een Pet vormen ook deel van het uniform. \\
+    Een pet vormt ook deel van het uniform. \\
+    `A cap is also part of the uniform.' 
+
+
+\ex. \label{ex:chunking}
+
+    In die ooste is daar geen presiese geografiese of geologiese grens tussen Europa en Asië nie. \\
+    In het oosten is daar geen precies geografische of geologische grens tussen Europa en Azië niet. \\ 
+    In het oosten is er geen precieze geografische of geologische grens tussen Europa en Azië. \\
+    `In the east there is no exact geographical or geological border between Europe and Asia.' 
 
 \subsubsection{Polysemy}
 
@@ -577,9 +626,10 @@ the different parts of the compound.
     `A year later the situation got out of control under the influence of mass protests.'
 
 This is a classic example of a seperable verb which is not recognised as such. The 
-Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch seperable verb (and 
-expression) \emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
-could never be translated as \emph{lopen} `to walk'. 
+Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch expression
+\emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
+could never be translated as \emph{lopen} `to walk'. Note that `uit de hand lopen' 
+ technically is not a seperable verb, but it poses the exact same problem as one.
 Solving this is a significant MT challenge and is not easily fixable.  
 
 \subsection{Comparative}
