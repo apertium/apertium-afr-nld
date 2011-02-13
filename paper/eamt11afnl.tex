@@ -566,12 +566,16 @@ capitalised, while `Pet' should not be. This could be solved by altering the set
     Een pet vormt ook deel van het uniform. \\
     `A cap is also part of the uniform.' 
 
+Apertium uses fixed length chuncks for transfer. In example \ref{ex:chunking} there is an error
+due to that. `preciese' (exact) is an adjective with `grens' (border). While there is a pattern
+`adj cc adj noun', there was no pattern `adj adj cc adj noun'. This causes the chunker to put
+`preciese' in a seperate chunk, which results in the predicative form, rather than the attributive.
+This error could be fixed by adding the aforementioned pattern.
 
 \ex. \label{ex:chunking}
-
     In die ooste is daar geen presiese geografiese of geologiese grens tussen Europa en Asië nie. \\
-    In het oosten is daar geen precies geografische of geologische grens tussen Europa en Azië niet. \\ 
-    In het oosten is er geen precieze geografische of geologische grens tussen Europa en Azië. \\
+    In het oosten is daar geen {\em precies} geografische of geologische grens tussen Europa en Azië niet. \\ 
+    In het oosten is er geen {\em precieze} geografische of geologische grens tussen Europa en Azië. \\
     `In the east there is no exact geographical or geological border between Europe and Asia.' 
 
 \subsubsection{Polysemy}
