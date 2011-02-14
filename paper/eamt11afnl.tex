@@ -117,9 +117,10 @@ very few full 8-hour days of work during this period.
 \subsection{Existing resources}
 
 One existing resource was reused with very little modification, that is the 
-morphological transducer for Afrikaans created during a separate project on English--Afrikaans
-machine translation. Some changes were made. The structure of verb entries
-was wholly revised, and infrequent words were removed.
+morphological transducer for Afrikaans created during a separate, currently dormant, 
+project on English--Afrikaans machine translation. Some changes were made. The structure 
+of verb entries was wholly revised, and infrequent words, and words for which a translation
+could not be found, were removed.
 
 \subsection{Resources created}
 
@@ -200,7 +201,8 @@ which were not yet in the bilingual dictionary.
 \subsection{Transfer rules}
 
 A total of 32 transfer rules have been written for the direction Afrikaans$\rightarrow$Dutch and
-15 for the direction Dutch$\rightarrow$Afrikaans. We will discuss some of these transfer rules below.
+15 for the direction Dutch$\rightarrow$Afrikaans. Some of these transfer rules are discussed 
+below.
 
 \subsubsection{Afrikaans to Dutch}
 
@@ -263,7 +265,8 @@ used for forms that can either appear in a compound, or end it.
 Epenthetics, that is linking letters that occur between compound words
 are also taken care of heuristically in this way. For example the -s-
 in \emph{ontwikkelingsplan}, the -en- in \emph{pannenkoek} and the -e- in \emph{paardebloem}.
-Notice that the epenthetic -e- is not productive in Dutch, that is, it is not used in new compounds.
+Notice that the epenthetic -e- is not productive in Dutch, that is, it is not used 
+in new compounds.
 
 \begin{figure*}
 \begin{small}
@@ -361,6 +364,10 @@ sections in order to calculate the standard deviation.
   \end{center}
 \end{table}
 
+The database dump of the Dutch Wikipedia was from the 1st November 2010, and that
+of the Afrikaans Wikipedia from the 31st July 2009. Both database dumps were 
+stripped of formatting.
+
 \subsection{Compound words}
 
 In order to test the accuracy of the word compounding/decompounding strategy
@@ -425,6 +432,10 @@ of the performance of the system in `ideal' and `realistic' settings.
     \label{table:quan}
   \end{center}
 \end{table}
+
+% blah confidence intervals
+Confidence intervals were calculated through the bootstrap 
+resampling \cite{Efron:94} method as described by \newcite{Koehn:04}.
 
 
 \subsection{Qualitative}
@@ -548,10 +559,10 @@ of movement verbs.
     Het zand {\em is} dan samen met het water weggespoeld. \\
    `The sand is washed away along with the water.'
 
-Another issue are relative pronouns. The Afrikaans language uses the word `wat', where the
-Dutch word equivalent depends on the antecedent. In Dutch `wat' is used when i.e. the antecedent
-is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is `formules', for which the appropriate
-relative pronoun is `die'. Solving this problem requires the ability to analyse the
+Another issue are relative pronouns. The Afrikaans language uses the word {\em wat}, where the
+Dutch word equivalent depends on the antecedent. In Dutch {\em wat} is used when i.e. the antecedent
+is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is {\em formules}, for which the appropriate
+relative pronoun is {\em die}. Solving this problem requires the ability to analyse the
 sentence on a semantic level, which means it is unlikely to be solved anytime soon.
 
 \ex. \label{ex:exrelpro}
@@ -560,9 +571,9 @@ sentence on a semantic level, which means it is unlikely to be solved anytime so
     Pi komt voor in vele \underline{formules} in meetkunde {\em die} cirkels en bollen betrekken. \\
     `Pi appears in many formulas in geometry which concern circles and spheres.' 
 
-Capitalisation is generally straightforward. An exception forms the case in which the sentence
-starts with an apostrophe in one language and does not start with that in the other. Afrikaans
-regularly uses \emph{'n} as determiner and while in Dutch this word is used in speech, it is 
+Capitalisation is generally straightforward. An exception is when a sentence
+starts with an apostrophe in one language and does not start with that in the other. The Afrikaans
+indefinite article is \emph{'n}, and while in Dutch this word is used in speech, it is 
 not used in writing. Therefore in \ref{ex:excapitals} the translation has a 
 capitalisation error. The word \emph{een} should be capitalised, while \emph{Pet} should not 
 be. In Apertium, changes in word case are performed in the syntactic transfer stage, thus this 
@@ -575,7 +586,8 @@ could be solved by altering the set of transfer rules.
     `A cap is also part of the uniform.' 
 
 Apertium uses fixed length chuncks for transfer. In example \ref{ex:chunking} there is an error
-due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{grens} `border'. While there is a pattern
+due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{grens} `border'. While 
+there is a pattern
 `adj cc adj noun', there was no pattern `adj adj cc adj noun'. This causes the chunker to put
 `preciese' in a seperate chunk, which results in the predicative form, rather than the attributive.
 
@@ -588,17 +600,14 @@ due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{gr
 This error could be fixed by adding the aforementioned pattern.
 
 Example \ref{ex:exother1} is one of those that was included in the `other' category of syntactic
-transfer errors. \emph{om te} is a phrase that prefaces infinitives in both Afrikaans and Dutch
-However, it is the case that it is not automatically correct in Dutch, if \emph{om te} is used in
-Afrikaans. Example \ref{ex:exother1} is an example of an incorrect Dutch translation 
-if \emph{om te} is kept. The fact that \emph{om te} is seperable, makes this problem
-even harder to solve.
+transfer errors. The words \emph{om te} come before infinitives in both Afrikaans and Dutch, much like
+\emph{to} in English. However, the behaviour is not identical in Afrikaans as in Dutch.
 
 \ex. \label{ex:exother1}
     In beginsel kan jy aan Wikipedia meewerk sonder om enige besprekingsblaaie te lees. \\
     In principe kan jij aan Wikipedia *meewerk zonder {\em om} enig *besprekingsblaaie {\em te} lezen. \\
     In principe kan jij aan Wikipedia meewerken zonder enige besprekingsbladen te lezen. \\
-    `In principle you can work on Wikipedia without reading any talkpages.'
+    `In principle you can work on Wikipedia without reading any talk pages.'
 
 This in contrast to example \ref{ex:exother2}, where \emph{om te} is kept as it is, which is correct
 if the reflexive pronoun \emph{zich} is added. 
@@ -608,8 +617,6 @@ if the reflexive pronoun \emph{zich} is added.
     *Morrison trekken naar Parijs met de plan {\em om te} concentreren op zijn *skryfwerk. \\
     Morrison trekt naar Parijs met het plan {\em om} zich {\em te} concentreren op zijn schrijfwerk. \\
     `Morrison moves to Paris with the plan of focussing on his writing work.'
-
-
 
 \subsubsection{Polysemy}
 
@@ -697,17 +704,64 @@ software.
 
 \begin{thebibliography}{}
 
+\bibitem[\protect\citename{Bosch et al.}2007]{Bosch:07}
+Van den Bosch, A., Busser, G.J., Daelemans, W., and Canisius, S.
+\newblock 2007. 
+\newblock An efficient memory-based morphosyntactic tagger and parser for Dutch.
+\newblock {\em Selected Papers of the 17th Computational Linguistics in the Netherlands Meeting} 
+\newblock 99--114.
+
+\bibitem[\protect\citename{DePauw et al.}2004]{DePauw:04}
+De Pauw, G., Laureys, T., Daelemans, W., and Van Hamme, H.
+\newblock 2004. 
+\newblock A Comparison of Two Different Approaches to Morphological Analysis of Dutch.
+\newblock {\em Proceedings of the Workshop of the ACL Special Interest Group on Computational Phonology (SIGPHON), ACL2004} 
+
+\bibitem[\protect\citename{Donaldson}1993]{Donaldson:93}
+Donaldson, Bruce C.
+\newblock 1993.
+\newblock {\em A grammar of Afrikaans}.
+\newblock Walter de Gruyter, Berlin
+
+\bibitem[\protect\citename{Efron and Tibshirani}1994]{Efron:94}
+Efron, B. and Tibshirani, R. J.
+\newblock 1994. 
+\newblock {\em An introduction to the Bootstrap}.
+\newblock CRC Press
+
+\bibitem[\protect\citename{Koehn}2004]{Koehn:04}
+Koehn, P.
+\newblock 2004. 
+\newblock Statistical significance tests for machine translation evaluation.
+\newblock {\em Proceedings of the Conference on Empirical Methods in Natural Language Processing}
+\newblock 388--395.
+
+\bibitem[\protect\citename{Laureys et al.}2004]{Laureys:04}
+Laureys, T., De Pauw, G., Van hamme, H., Daelemans, W., and Van Compernolle, D.
+\newblock 2004. 
+\newblock Evaluation and adaptation of the Celex Dutch morphological database.
+\newblock {\em Proceedings of the 4th International Conference on Language Resources and Evaluation (LREC 2004)}
+\newblock 1247--1250.
+
+\bibitem[\protect\citename{Levenshtein}1965]{Levenshtein:65}
+Levenshtein, Vladimir.
+\newblock 1965. 
+\newblock Binary codes capable of correcting deletions, insertions, and reversals.
+\newblock {\em Doklady Akademii Nauk SSSR}
+\newblock 845--848.
+
+\bibitem[\protect\citename{Tyers and Pienaar}2008]{Tyers:08}
+Tyers, F. M. and Pienaar, J. A.
+\newblock 2008. 
+\newblock Extracting bilingual word pairs from Wikipedia.
+\newblock {\em Proceedings of the SALTMIL Workshop at the Language Resources and Evaluation Conference}, LREC2008
+\newblock 19--22. 
+
 \bibitem[\protect\citename{Shetter and Ham}2002]{Shetter:02}
 Shetter, William~Z. and Ham, Esther.
 \newblock 2002.
 \newblock {\em Dutch: An Essential Grammar}, 9th~edition.
 \newblock Routledge, Oxford.
-
-\bibitem[\protect\citename{Donaldson}1993]{Donaldson:93}
-Donaldson, Bruce C.
-\newblock 1993.
-\newblock {\em A grammar of Afrikaans}
-\newblock Walter de Gruyter, Berlin
 
 \bibitem[\protect\citename{van Huyssteen and Pilon}2009]{Huyssteen:09}
 van Huyssteen, Gerhard and Pilon, Suléne.
@@ -715,44 +769,6 @@ van Huyssteen, Gerhard and Pilon, Suléne.
 \newblock Rule-based Conversion of Closely-related Languages: A Dutch-to-Afrikaans Convertor. 
 \newblock {\em Proceedings of the 2009 Conference of the Pattern Recognition Association of South Africa}, Stellenbosch, SA
 \newblock 23--28.
-
-\bibitem[\protect\citename{Levenshtein}1965]{Levenshtein:65}
-Levenshtein, Vladimir.
-\newblock 1965. 
-\newblock Binary codes capable of correcting deletions, insertions, and reversals
-\newblock {\em Doklady Akademii Nauk SSSR}
-\newblock 845--848.
-
-\bibitem[\protect\citename{Tyers and Pienaar}2008]{Tyers:08}
-Tyers, F. M. and Pienaar, J. A.
-\newblock 2008. 
-\newblock Extracting bilingual word pairs from Wikipedia
-\newblock {\em Proceedings of the SALTMIL Workshop at the Language Resources and Evaluation Conference}, LREC2008
-\newblock 19--22. 
-
-\bibitem[\protect\citename{Bosch et al.}2007]{Bosch:07}
-Van den Bosch, A., Busser, G.J., Daelemans, W., and Canisius, S.
-\newblock 2007. 
-\newblock An efficient memory-based morphosyntactic tagger and parser for Dutch
-\newblock {\em Selected Papers of the 17th Computational Linguistics in the Netherlands Meeting} 
-\newblock 99--114.
-
-\bibitem[\protect\citename{DePauw et al.}2004]{DePauw:04}
-De Pauw, G., Laureys, T., Daelemans, W., and Van Hamme, H.
-\newblock 2004. 
-\newblock A Comparison of Two Different Approaches to Morphological Analysis of Dutch
-\newblock {\em Proceedings of the Workshop of the ACL Special Interest Group on Computational Phonology (SIGPHON), ACL2004} 
-
-\bibitem[\protect\citename{Laureys et al.}2004]{Laureys:04}
-Laureys, T., De Pauw, G., Van hamme, H., Daelemans, W., and Van Compernolle, D.
-\newblock 2004. 
-\newblock Evaluation and adaptation of the Celex Dutch morphological database
-\newblock {\em Proceedings of the 4th International Conference on Language Resources and Evaluation (LREC 2004)}
-\newblock 1247--1250.
-
-
-
-
 
 
 
