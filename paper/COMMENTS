@@ -1,0 +1,164 @@
+===============================================================================
+De: 	F Wolff <friedel@translate.org.za>
+Per a: 	ftyers@prompsit.com
+Assumpte: 	Re: article
+Data: 	Wed, 16 Feb 2011 00:25:15 +0200 (15/02/11 22:25:15)
+===============================================================================
+
+Ok, this is some notes from my read through the article. It mixes
+general and specific, large and small issues here, simply so that I know
+it is done and sent before I run out of time to write it nicely. Sorry
+if anything sounds blunt or harsh - definitely not intended. It is a
+nice article, I think.
+
+
+Abstract doesn't say much, but that was just an impression.
+
+I think there are more than 5 million Afrikaans speakers. I think we
+need a better source here.
+
+The reference to Donaldson looks very strange - it is from 1993 but
+comes after talking about the eleven official languages that only came
+into law in 1996 (if I remember correctly).
+
+"parallel corpora for both languages" sound strange. "parallel corpus
+for the two languages"?
+
+http://opus.lingfil.uu.se/KDE4v2.php
+404 - should be http://opus.lingfil.uu.se/KDE4.php  I guess
+
+
+I guess this is the KDE translations that are pivoted over English? You
+could do the same for other stuff like Firefox, OpenOffice.org, GNOME,
+etc. with the big difference being that these Afrikaans translations
+were done by humans. Most of the KDE stuff is completely unusable for
+anything, in my opinion (last time I looked, anyway).  We have a tool to
+do that in the Translate Toolkit - poswap. I think this will do that.
+For an easier ride, you could download the two language databases from
+open-tran.eu and link them up easily. Lots of data, but includes
+garbage, like KDE. This is also obviously pivoted, and in domains where
+I think we might differ more on a lexical level, and even stylistic ones
+(Dutch uses infinitives for UI buttons, whereas we usually use
+imperative).
+
+
+Figure 2 is really small to read.
+
+The section on number of nouns in Wiktionary is worded in a confusing
+way. I assume the 10610 is from the _English_ wiktionary? People not
+familiar with wiktionary might not understand why the Dutch nouns have a
+corresponding category on the Dutch wiktionary - where else would they
+be than the Dutch wiktionary (of course _I_ know :-)
+
+"After the morphological analysers for both languages were large enough"
+How do you measure the size of an analyser? Is "coverage" or something
+else meant?
+
+Under 2.2.2 I really miss something about false friends. Van Huyssteen
+and Pilon mentioned this, and I think it is an important to handle. It
+is also easy to at least do something about it (like rip theirs). Their
+license is CC-by, but I guess you can also get a list or two on the web
+with different licenses, and we can maybe at least try to compile it by
+hand. I think this is a shortcoming, specifically because it was
+discussed in the only prior publication in this field.
+
+2.3.1: I _think_ Afrikaans has word-attached genitives (except that I
+don't know what they are). They are only in archaic forms, I think, so
+maybe you have a reference there? I'm not good with these things, but
+maybe we should just make sure.
+
+"have + nie ..." - a bit strange mixing English and Afrikaans here.
+
+In general, I find it a bit hard to work out if an example text (usually
+nicely italicised) is Dutch or Afrikaans, so I guess an unfamiliar
+reader might struggle as well. Maybe a convention of appending (af) or
+(nl) afterwards might help in some cases, although it could clutter
+things, so it is just an idea. It is probably only important in a few
+cases.
+
+The 3 bullets at the end of 2.3.1 is a bit strange... where do they fit
+in?
+
+2.3.2 - of course compounds can contain more than just nouns. Some forms
+with adjectives also combine productively, usually in 3 part compounds.
+
+"infrastruktuurontwikkelingsplan" should be hyphenated as
+"in-fra-struk-tuur-ont-wik-kel-ings-plan" if it is going to be
+hyphenated.
+
+
+I don't really get compound-L and compound-R, but maybe my background is
+just lacking here. Do you mean that something like "ontwikkelings" (with
+the -s-) can only occur on the "left" of a compound?
+
+2.4 needs some text to explain the numbers
+
+3 - the fifth evaluation was not done or reported on later (3.5), so
+maybe take it out here?
+
+Should table 3 still get the "realistic" scores?
+
+"Another issue are relative pronouns" - are -> is?
+
+
+I think the English is wrong here:
+
+Die sand het dan saam met die water weggespoel.
+Het zand heeft dan samen met het water weggespoeld.
+Het zand is dan samen met het water weggespoeld.
+‘The sand is washed away along with the water.’
+
+I think the Dutch here is passive past tense, so I think the English
+should be "The sand was washed away along with the water." A direct
+translation for the Afrikaans from me would rather be "Then the sand got
+washed away with the water." or "Then the sand was washed away with the
+water." but it could depend on context, I guess.
+
+Typo: chuncks
+
+I think the correction to error 9 has more to it. Here the confusion of
+the with-or-without-final '-e' in the adjectives of Afrikaans should be
+taken into account, I think. If it is there, the adjective necessarily
+describes the noun, but if it isn't there and the adjective can
+optionally take it before a noun, it means that the adjective describes
+the following adjective. I'm not sure how that would influence the
+Dutch, but it seems as if the proposed solution might be a bit too
+simple. Example:
+
+Die onlangs verwagte reën het gekom.
+The recent  expected rain have came. (literal)
+The recently expected rain arrived. (+-)
+
+Here "onlangs" describes "verwagte", not "reën". Not sure if that is
+relevant, though.
+
+
+The hyphenation is wrong for "meewerk". It should be "mee-werk" (even
+for Dutch, I assume)
+
+No solution is offered for error 10. I guess it has to do with the way
+the infinitive works in Dutch after "zonder"?
+
+
+"algemeen" not italicised at the end of 3.4.6 (there are some
+inconsistencies with Afrikaans/Dutch words that aren't always
+italicised)
+
+The rule about "klinkerbotsing" exists in Afrikaans as well. I think we
+just call it "vokaalopeenhoping", although I immediately knew what
+"klinkerbotsing" meant.
+
+
+"’n Jaar later ruk die situasie in die land onder die indruk van
+massabetogings hand uit."
+I see this in [[af:Duitsland]], but it is a strange sentence, so if you
+can use another example, it might avoid a double take by an Afrikaans
+reader, as I had. The "onder die indruk van" sounds strange to me.
+
+3.5 still outstanding.
+
+
+I hope this helps. This work is really exciting!
+
+Friedel
+===============================================================================

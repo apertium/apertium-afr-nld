@@ -72,6 +72,7 @@ dev/verbSep.txt -text
 /nl-af.prob -text svneol=unset#unset
 nl/apertium-af-nl.nl.dix.full -text
 nl/update.sh -text
+paper/COMMENTS -text
 paper/Makefile -text
 paper/apertium2.pdf -text
 paper/cgloss4e.sty -text
