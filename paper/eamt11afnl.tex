@@ -71,14 +71,14 @@ eleven national languages \cite{Donaldson:93}.
 In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
 and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch 
 are largely mutually intelligible, this machine translation system focuses on dissemination, the 
-production of text for the purpose of being post-edited and then being published. 
+translation of text for the purpose of being post-edited and then being published. 
 
 This is not the first system to work with this language pair, \newcite{Huyssteen:09} describe
 a rule-based system to convert in a single direction from Dutch to Afrikaans. 
 The reason we have chosen to work with a rule-based approach, instead of the ubiquitous 
 corpus-based/statistical approach, is that the latter needs parallel corpora of both 
 languages. The only freely available Afrikaans--Dutch corpus, is 
-KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}} translated via English. We 
+KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}}, which is translated via English. We 
 feel that these corpora do not approach the quality required and the fact that Afrikaans 
 and Dutch are closely related languages made a rule-based approach favourable to the 
 statistical approach.
@@ -112,15 +112,15 @@ website.
 
 {\small {\tt apertium-af-nl}} has been developed over the course of one and a half months.
 The vast majority of the work has been done by a Dutch secondary school student supervised 
-by a PhD student. However, since for both this was not paid, nor for school, there were 
+by a PhD student. However, since for the latter this was not paid and for the former it was not for school, there were 
 very few full 8-hour days of work during this period.
 
 \subsection{Existing resources}
 
-One existing resource was reused with very little modification, that is the 
-morphological transducer for Afrikaans created during a separate, currently dormant, 
-project on English--Afrikaans machine translation. Some changes were made. The structure 
-of verb entries was wholly revised, and infrequent words, and words for which a translation
+One existing resource was reused with very little modification: the 
+morphological transducer for Afrikaans, which was created during a separate, currently dormant, 
+project on English--Afrikaans machine translation. However, some changes were made. The structure 
+of verb entries was wholly revised, and both infrequent words and words for which a translation
 could not be found, were removed.
 
 \subsection{Resources created}
@@ -132,7 +132,7 @@ some of which also function as morphological generators. Our decision to make a 
 analyser was based on the following rationale:
 
 \begin{itemize}
-\item Licence: Neither the CELEX morphological databse for Dutch \cite{Laureys:04},
+\item Licence: Neither the CELEX morphological database for Dutch \cite{Laureys:04},
     nor the finite-state morphological transducer in the FLaVoR project \cite{DePauw:04}
     are available under a free licence. As our objective is to publish and distribute 
     the system described here, this made them unusable.
@@ -192,11 +192,11 @@ analysers for both languages were large enough, exact matches from the dictionar
 were automatically added to the bilingual dictionary. Proper names were added in the
 way that is described in \newcite{Tyers:08}. After that cognates were added. There are several
 small common spelling differences between Afrikaans and Dutch. For example,
-where the letter `y' in Afrikaans is used quite often, Dutch uses `ij' in these words.
+where the letter `y' in Afrikaans is used, Dutch often uses the digraph `ij'.
 The bilingual dictionary was expanded further by categorising these spelling differences and
 automatically adding translations to the bilingual dictionary if the spelling difference was the
 only difference between the two words. Finally, some entries were done by hand.
-This includes closed categories, but also words that frequently appeared in Wikipedia
+This included closed categories, but also words that frequently appeared in Wikipedia
 which were not yet in the bilingual dictionary.
 
 \subsection{Transfer rules}
@@ -218,7 +218,7 @@ noun genitive.
 %gloss:DEF.ARTICLE woman.NOUN.GEN son.NOUN
 
 The verb \emph{hê} `have' is the only verb used in Afrikaans as auxiliary
-verb with a past participle. In Dutch the verbs \emph{hebben} `to have' and \emph{zijn} `to be' 
+verb with a past participle. In Dutch the verbs \emph{hebben} `have' and \emph{zijn} `be' 
 are both used, the latter mostly in cases of movement and a few exceptional cases, the
 former in all others. To handle this, two transfer rules have been added, to handle the
 patterns `have + past participle' and `have + nie + past participle + nie', which change the
@@ -263,7 +263,7 @@ symbols which do not appear in the output {\small {\tt compound-L}} and {\small 
 The {\small {\tt compound-L}} symbol is used for forms that can only appear on the
 left side (e.g. surface form) of a compound, where {\small {\tt compound-R}} is
 used for forms that can either appear in a compound, or end it.
-Epenthetics, that is linking letters that occur between compound words
+Epenthetics, that is linking letters that occur between compound words,
 are also taken care of heuristically in this way. For example the -s-
 in \emph{ontwikkelingsplan}, the -en- in \emph{pannenkoek} and the -e- in \emph{paardebloem}.
 Notice that the epenthetic -e- is not productive in Dutch, that is, it is not used 
@@ -313,8 +313,8 @@ The following cases are supported,
 Verbs separated by a word or phrase are currently translated word-for-word,
 so the particle and verb are translated. This causes a problem when the
 verb is not constructed equally in Afrikaans and Dutch. Also, when one part
-of the verb, for example in {\em aankondig} `to announce' does not exist as
-a stand-alone verb, {\em kondig} is not a word. Thus {\em ... kondig ... aan} 
+of the verb, does not exist as a stand-alone verb, it is not recognised by the analyser.
+for example in {\em aankondig} `to announce' {\em kondig} is not a word. Thus {\em ... kondig ... aan} 
 cannot be analysed currently.
 
 A module is under development to handle separable verbs, but is currently
@@ -375,7 +375,7 @@ In order to test the accuracy of the word compounding/decompounding strategy
 we tested two lists of words which received compound analyses from 
 the Wikipedia. This test was only conducted in the Afrikaans$\rightarrow$Dutch
 direction, but we expect similar results in the other direction. The first
-set of sentences was constructed by taking the highest frequency 1,000 words which received 
+set of sentences was constructed by taking the 1,000 most frequent words which received 
 a compound analysis from the corpus, the second was by taking a list of all the words and selecting
 1,000 pseudo-randomly.\footnote{Using the Unix {\small {\tt unsort}} program.} A total of
 6,866 unknown words from the corpus received a compound analysis.
@@ -429,7 +429,8 @@ of the performance of the system in `ideal' and `realistic' settings.
    \hline
   \end{tabular}
     \caption{Accuracy for the two test corpora as measured by Word Error Rate 
-        and Position-independent Word Error Rate.}
+        and Position-independent Word Error Rate with confidence intervals
+        at 95\% confidence.}
     \label{table:quan}
   \end{center}
 \end{table}
@@ -680,6 +681,8 @@ Solving this is a significant MT challenge and is not easily fixable.
 % compare against google
 % part of the problem with this: google may use some of the sentences that appear in our corpus for training
 % not possible 
+% Google does better in verbs, but still has problems with it.
+% Google sometimes fails to remove the scope marker for long sentences (where Apertium succeeds)
 
 % tried to compare against d2ac, but were not able to get access to their evaluation texts.
 
