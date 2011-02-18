@@ -17,10 +17,11 @@ Abstract doesn't say much, but that was just an impression.
 I think there are more than 5 million Afrikaans speakers. I think we
 need a better source here.
 
-The reference to Donaldson looks very strange - it is from 1993 but
-comes after talking about the eleven official languages that only came
-into law in 1996 (if I remember correctly).
-
+~The reference to Donaldson looks very strange - it is from 1993 but
+~comes after talking about the eleven official languages that only came
+~into law in 1996 (if I remember correctly).
+~
+~
 ~ "parallel corpora for both languages" sound strange. "parallel corpus
 ~ for the two languages"?
 ~ 
@@ -79,9 +80,9 @@ cases.
 The 3 bullets at the end of 2.3.1 is a bit strange... where do they fit
 in?
 
-2.3.2 - of course compounds can contain more than just nouns. Some forms
-with adjectives also combine productively, usually in 3 part compounds.
-
+~2.3.2 - of course compounds can contain more than just nouns. Some forms
+~with adjectives also combine productively, usually in 3 part compounds.
+~
 ~ "infrastruktuurontwikkelingsplan" should be hyphenated as
 ~ "in-fra-struk-tuur-ont-wik-kel-ings-plan" if it is going to be
 ~ hyphenated.
@@ -116,30 +117,30 @@ Should table 3 still get the "realistic" scores?
 ~ 
 ~ Typo: chuncks
 ~ 
-I think the correction to error 9 has more to it. Here the confusion of
-the with-or-without-final '-e' in the adjectives of Afrikaans should be
-taken into account, I think. If it is there, the adjective necessarily
-describes the noun, but if it isn't there and the adjective can
-optionally take it before a noun, it means that the adjective describes
-the following adjective. I'm not sure how that would influence the
-Dutch, but it seems as if the proposed solution might be a bit too
-simple. Example:
-
-Die onlangs verwagte reën het gekom.
-The recent  expected rain have came. (literal)
-The recently expected rain arrived. (+-)
-
-Here "onlangs" describes "verwagte", not "reën". Not sure if that is
-relevant, though.
-
-
+~I think the correction to error 9 has more to it. Here the confusion of
+~the with-or-without-final '-e' in the adjectives of Afrikaans should be
+~taken into account, I think. If it is there, the adjective necessarily
+~describes the noun, but if it isn't there and the adjective can
+~optionally take it before a noun, it means that the adjective describes
+~the following adjective. I'm not sure how that would influence the
+~Dutch, but it seems as if the proposed solution might be a bit too
+~simple. Example:
+~
+~Die onlangs verwagte reën het gekom.
+~The recent  expected rain have came. (literal)
+~The recently expected rain arrived. (+-)
+~
+~Here "onlangs" describes "verwagte", not "reën". Not sure if that is
+~relevant, though.
+~
+~
 ~ The hyphenation is wrong for "meewerk". It should be "mee-werk" (even
 ~ for Dutch, I assume)
 ~ 
-No solution is offered for error 10. I guess it has to do with the way
-the infinitive works in Dutch after "zonder"?
-
-
+~No solution is offered for error 10. I guess it has to do with the way
+~the infinitive works in Dutch after "zonder"?
+~
+~
 ~ "algemeen" not italicised at the end of 3.4.6 (there are some
 ~ inconsistencies with Afrikaans/Dutch words that aren't always
 ~ italicised)
@@ -148,12 +149,12 @@ the infinitive works in Dutch after "zonder"?
 ~ just call it "vokaalopeenhoping", although I immediately knew what
 ~ "klinkerbotsing" meant.
 ~ 
-
-"’n Jaar later ruk die situasie in die land onder die indruk van
-massabetogings hand uit."
-I see this in [[af:Duitsland]], but it is a strange sentence, so if you
-can use another example, it might avoid a double take by an Afrikaans
-reader, as I had. The "onder die indruk van" sounds strange to me.
+~
+~"’n Jaar later ruk die situasie in die land onder die indruk van
+~massabetogings hand uit."
+~I see this in [[af:Duitsland]], but it is a strange sentence, so if you
+~can use another example, it might avoid a double take by an Afrikaans
+~reader, as I had. The "onder die indruk van" sounds strange to me.
 
 3.5 still outstanding.
 

@@ -65,8 +65,8 @@ major trade cities, such as Amsterdam and Antwerp \cite{Shetter:02}.  Afrikaans 
 by at least 5 million people, mainly in South Africa but also in Namibia. Afrikaans is a 
 variety of Dutch that originates from the Dutch that was spoken by the Dutch colonists of 
 the Cape Colony. In 1925 Afrikaans replaced Dutch as an official language in South Africa, to 
-be the joint official language together with English. Currently Afrikaans is one of the 
-eleven national languages \cite{Donaldson:93}.
+be the joint official language together with English. \cite{Donaldson:93} Currently Afrikaans is one of the 
+eleven national languages. 
 
 In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
 and Dutch machine-translation system based on the Apertium platform. Since Afrikaans and Dutch 
@@ -209,7 +209,7 @@ below.
 
 %%Dutch cannot use the present tense in past situations (not even in narrative style)
 
-Afrikaans has no word-attached genitives. The word \emph{se} is used to indicate possesion. 
+Afrikaans has no word-attached genitive\cite{Donaldson:93}.s. The word \emph{se} is used to indicate possesion. 
 Therefore, a transfer rule has been added to remove the `se' and instead make the preceding
 noun genitive.
 
@@ -221,7 +221,7 @@ The verb \emph{hê} `have' is the only verb used in Afrikaans as auxiliary
 verb with a past participle. In Dutch the verbs \emph{hebben} `have' and \emph{zijn} `be' 
 are both used, the latter mostly in cases of movement and a few exceptional cases, the
 former in all others. To handle this, two transfer rules have been added, to handle the
-patterns `have + past participle' and `hê + nie + past participle + nie', which change the
+patterns `hê + past participle' and `hê + nie + past participle + nie', which change the
 verb to have into the verb to be, when the past participle is found in a list of verbs that go with
 `zijn'.
 
@@ -251,13 +251,14 @@ the noun it modifies. A number of transfer rules were written for patterns such 
 %% give some statistics for what percentage of words are compounds in dutch/afrikaans
 %% give some justification for only doing noun-noun compounds (e.g. more frequent, easier to identify??)
 
-Both Afrikaans and Dutch are languages in which nouns combine very
+Both Afrikaans and Dutch are languages in which words combine very
 productively into compounds. For example the words {\em infrastruktuurontwikkelingsplan}
 `infrastructure development plan' and {\em lugmagbasis}
 `air force base'. As it is impractical to introduce
 all compound words into the lexicons, compound word analysis is performed on
 all unknown words. The analysis process works longest-match left-to-right
-using the same transducer as is used for morphological analysis.
+using the same transducer as is used for morphological analysis. This process only
+looks for compounds made up of just nouns, because they are more frequent than other compounds.
 Results are restricted by two special
 symbols which do not appear in the output {\small {\tt compound-L}} and {\small {\tt compound-R}}.
 The {\small {\tt compound-L}} symbol is used for forms that can only appear on the
@@ -611,6 +612,10 @@ transfer errors. The words \emph{om te} come before infinitives in both Afrikaan
     In principe kan jij aan Wikipedia meewerken zonder enige besprekingsbladen te lezen. \\
     `In principle you can work on Wikipedia without reading any talk pages.'
 
+Dutch cannot have \emph{om te} after a preposition, in this case `zonder' (without). A simple transfer rule could fix this
+for the case that \emph{om te} is next to each other. However, in the case that it is seperated it requires
+a transfer rule for every combination possible between \emph{om} and \emph{te} or special variables tracking the
+occurence of \emph{te}.
 This in contrast to example \ref{ex:exother2}, where \emph{om te} is kept as it is, which is correct
 if the reflexive pronoun \emph{zich} is added. 
 
@@ -665,10 +670,10 @@ the different parts of the compound.
 \subsubsection{Separable verb}
 
 \ex. \label{ex:exsepverb} 
-    'n Jaar later ruk die situasie in die land onder die indruk van massabetogings hand uit. \\
-    Een jaar later {\em *ruk} de situatie in het land onder de indruk van *massabetogings {\em hand uit}. \\
-    Een jaar later {\em loopt} de situatie in het land onder de invloed van massabetogingen {\em uit de hand}. \\
-    `A year later the situation got out of control under the influence of mass protests.'
+    'n Jaar later ruk die situasie in die land deur massabetogings hand uit. \\
+    een Jaar later {\em *ruk} de situatie in het land door *massabetogings {\em hand uit}. \\
+    Een jaar later {\em loopt} de situatie in het land door massabetogingen {\em uit de hand}. \\
+    `A year later the situation got out of control because of mass protests.'
 
 This is a classic example of a seperable verb which is not recognised as such. The 
 Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch expression
