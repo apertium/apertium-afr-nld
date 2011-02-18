@@ -12,7 +12,7 @@
 \usepackage{url}
 \usepackage{times}
 \usepackage{multirow}
-\usepackage[english]{babel}
+\usepackage[afrikaans,dutch,english]{babel}
 \usepackage[small,bf]{caption}
 \usepackage{latexsym}
 \usepackage{graphicx}
@@ -76,9 +76,9 @@ translation of text for the purpose of being post-edited and then being publishe
 This is not the first system to work with this language pair, \newcite{Huyssteen:09} describe
 a rule-based system to convert in a single direction from Dutch to Afrikaans. 
 The reason we have chosen to work with a rule-based approach, instead of the ubiquitous 
-corpus-based/statistical approach, is that the latter needs parallel corpora of both 
+corpus-based/statistical approach, is that the latter needs parallel corpora for the two 
 languages. The only freely available Afrikaans--Dutch corpus, is 
-KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4v2.php}}, which is translated via English. We 
+KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4.php}}, which is translated via English. We 
 feel that these corpora do not approach the quality required and the fact that Afrikaans 
 and Dutch are closely related languages made a rule-based approach favourable to the 
 statistical approach.
@@ -149,11 +149,11 @@ analyser was based on the following rationale:
 
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
-Wiktionary,\footnote{\url{http://www.wiktionary.org}} a free online 
-dictionary that often includes inflectional information. In the case 
+Wiktionary,\footnote{\url{http://www.wiktionary.org}} a free online, multilingual
+dictionary that often includes inflectional information. On the English Wiktionary, in the case 
 of Dutch nouns it often (although not always) gives the gender and the 
 plural and diminutive forms (see for example Figure~\ref{fig:wikt1}).
-The category {\small {\tt Dutch nouns}} has a total of 10,610 entries,
+The category {\small {\tt Dutch nouns}} in the English Wiktionary has a total of 10,610 entries,
 while the corresponding category on the Dutch Wiktionary has 13,176 entries.
 
 Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:02}.
@@ -187,8 +187,8 @@ Closed categories were added by hand based on a grammar of Dutch \cite{Shetter:0
 
 \subsubsection{Bilingual dictionary}
 
-The bilingual dictionary has been developed in several ways. After the morphological 
-analysers for both languages were large enough, exact matches from the dictionaries
+The bilingual dictionary has been developed in several ways.
+Exact matches from the dictionaries
 were automatically added to the bilingual dictionary. Proper names were added in the
 way that is described in \newcite{Tyers:08}. After that cognates were added. There are several
 small common spelling differences between Afrikaans and Dutch. For example,
@@ -221,7 +221,7 @@ The verb \emph{hê} `have' is the only verb used in Afrikaans as auxiliary
 verb with a past participle. In Dutch the verbs \emph{hebben} `have' and \emph{zijn} `be' 
 are both used, the latter mostly in cases of movement and a few exceptional cases, the
 former in all others. To handle this, two transfer rules have been added, to handle the
-patterns `have + past participle' and `have + nie + past participle + nie', which change the
+patterns `have + past participle' and `hê + nie + past participle + nie', which change the
 verb to have into the verb to be, when the past participle is found in a list of verbs that go with
 `zijn'.
 
@@ -327,9 +327,9 @@ Dutch but not Afrikaans.
 
 \subsection{Current status}
 
-Dutch monolingual: 6,031
-Afrikaans monolingual: 6,401
-Bilingual: 5,965
+In terms of dictionary entries, the pair currently has 7,258 entries in the Afrikaans
+morphological dictionary, 7,048 in the Dutch morphological dictionary and 5,982 in the 
+Bilingual dictionary.
 
 \section{Evaluation}
 
@@ -559,9 +559,9 @@ of movement verbs.
     Die sand het dan saam met die water weggespoel. \\
     Het zand {\em heeft} dan samen met het water weggespoeld. \\
     Het zand {\em is} dan samen met het water weggespoeld. \\
-   `The sand is washed away along with the water.'
+   `The sand was washed away along with the water.'
 
-Another issue are relative pronouns. The Afrikaans language uses the word {\em wat}, where the
+Another issue is relative pronouns. The Afrikaans language uses the word {\em wat}, where the
 Dutch word equivalent depends on the antecedent. In Dutch {\em wat} is used when i.e. the antecedent
 is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is {\em formules}, for which the appropriate
 relative pronoun is {\em die}. Solving this problem requires the ability to analyse the
@@ -587,7 +587,7 @@ could be solved by altering the set of transfer rules.
     Een pet vormt ook deel van het uniform. \\
     `A cap is also part of the uniform.' 
 
-Apertium uses fixed length chuncks for transfer. In example \ref{ex:chunking} there is an error
+Apertium uses fixed length chunks for transfer. In example \ref{ex:chunking} there is an error
 due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{grens} `border'. While 
 there is a pattern
 `adj cc adj noun', there was no pattern `adj adj cc adj noun'. This causes the chunker to put
@@ -624,7 +624,7 @@ if the reflexive pronoun \emph{zich} is added.
 
 The sentence in \ref{ex:expolysem} has an error due to polysemy. The Afrikaans {\em algemene}, here as
 an attributive adjective, can be translated into Dutch as either {\em algemeen} or {\em voorkomend} 
-(the former means `general', the latter `common' in English). While the Afrikaans word algemeen is used
+(the former means `general', the latter `common' in English). While the Afrikaans word {\em algemeen} is used
 for both of these, they have a distinct meaning in Dutch.
 
 \ex. \label{ex:expolysem} 
@@ -656,7 +656,8 @@ case of geographical names, the only correct translation is `Midden'.
    `The car industry is the economic base of Oshawa, ...'
 
 The error in this example is due to a specific rule in Dutch to do with 
-compounds, \emph{klinkerbotsing}. If a compound is built-up from two words as such 
+compounds, \emph{klinkerbotsing} -- which also exists in Afrikaans 
+as \emph{vokaalopeenhoping}. If a compound is built-up from two words as such 
 that the two vowels around the splitting point constitute a sound on their own, 
 which means the word could be mispronounced, a hyphen should be used to distinguish 
 the different parts of the compound. 
