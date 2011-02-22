@@ -57,7 +57,7 @@ need a better source here.
 ~ 
 Under 2.2.2 I really miss something about false friends. Van Huyssteen
 and Pilon mentioned this, and I think it is an important to handle. It
-is also easy to at least do something about it (like rip theirs). Their
+is also easy to at least do something about it (like rip theirs). Their  "review the list of false friends in .Van... to see if any translations can be improved"
 license is CC-by, but I guess you can also get a list or two on the web
 with different licenses, and we can maybe at least try to compile it by
 hand. I think this is a shortcoming, specifically because it was
@@ -70,7 +70,7 @@ discussed in the only prior publication in this field.
 ~
 ~ "have + nie ..." - a bit strange mixing English and Afrikaans here.
 ~ 
-In general, I find it a bit hard to work out if an example text (usually
+In general, I find it a bit hard to work out if an example text (usually   "in all examples, first line afrikaans, second line dutch,..."
 nicely italicised) is Dutch or Afrikaans, so I guess an unfamiliar
 reader might struggle as well. Maybe a convention of appending (af) or
 (nl) afterwards might help in some cases, although it could clutter
