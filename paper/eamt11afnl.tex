@@ -57,10 +57,10 @@
 
 \section{Introduction}
 
-The Dutch language is West-Germanic and is spoken by nearly 23 million people, which are 
+Dutch is a West-Germanic language spoken by nearly 23 million people, 
 mostly from the Netherlands and Flanders, the Dutch-speaking part of Belgium and a minority 
 live in former colonies of the Netherlands, such as Suriname, Aruba and the Netherlands 
-Antilles. The Dutch language as it is today, started developing in the 16th century in the 
+Antilles. Dutchlanguage as it is today, started developing in the 16th century in the 
 major trade cities, such as Amsterdam and Antwerp \cite{Shetter:02}.  Afrikaans is spoken 
 by at least 5 million people, mainly in South Africa but also in Namibia. Afrikaans is a 
 variety of Dutch that originates from the Dutch that was spoken by the Dutch colonists of 
@@ -406,40 +406,199 @@ rides in the random-1,000.
 
 \subsection{Quantitative}
 
-The translation quality was measured using two metrics, the first was word error rate (WER), and the 
-second was position-independent word error rate (PER). Both metrics are based on the Levenshtein 
-distance \cite{Levenshtein:65} and were calculated for each of the sentences using the 
-{\small \texttt{apertium-eval-translator}} tool.\footnote{\url{http://sourceforge.net/project/showfiles.php?group_id=143781&package_id=206517}; Version 1.0, 4th October 2006.} Metrics based on word error rate were chosen as to be able to compare 
+The translation quality was measured using word error rate (WER).
+This metric is based on the Levenshtein distance \cite{Levenshtein:65} and was calculated for each of the sentences using the 
+{\small \texttt{apertium-eval-translator}} tool.\footnote{\url{http://sourceforge.net/project/showfiles.php?group_id=143781&package_id=206517}; Version 1.0, 4th October 2006.} A metric based on word error rate was chosen as to be able to compare 
 the system against systems based on similar technology, and to assess the usefulness of the 
 system in a real setting, that is of translating for dissemination. 
 
-Two sets of 100 sentences were selected pseudo-randomly from Wikipedia. The first set contained 
-no unknown words, whereas the second set could contain unknown words. This is to give an idea
+Four sets of 100 sentences were selected pseudo-randomly from Wikipedia.\footnote{The test corpora can be downloaded
+  from \url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-af-nl/dev/eval}} The first two sets (C1, C3) contained 
+no unknown words, whereas the second two sets could contain unknown words (C2, C4). This is to give an idea
 of the performance of the system in `ideal' and `realistic' settings.
 
-\begin{table}
+\begin{table*}
   \begin{center}
-  \begin{tabular}{|l|c|r|r|}
+  \begin{tabular}{|l|l|r|r|r|r|}
    \hline
-   {\bf Corpus}                & {\bf Dir.}  & {\bf WER}    & {\bf PER}\\
+   {\bf Dir.} & {\bf System}             & {\bf C1}          & {\bf C2} & {\bf C3} & {\bf C4} \\ 
    \hline
-   \multirow{2}{*}{ideal}      &  {\small {\tt af-nl}}      & 14.65 $\pm$ 1.5        &  14.17 $\pm$ 1.31 \\ 
-                               &  {\small {\tt nl-af}}      & 23.41 $\pm$ 1.24     & 22.96 $\pm$ 1.26 \\
+   \multirow{2}{*}{af-nl}  & {\small Apertium}  & 16.625 $\pm$ 1.465 & 23.405 $\pm$ 1.235 & 15.225 $\pm$ 1.735 & 22.195 $\pm$ 2.515 \\ 
+                           & {\small Google}  & {\bf 9.485 $\pm$ 1.115} & {\bf 10.575 $\pm$ 1.795} & {\bf 7.63 $\pm$ 1.45} & {\bf 12.185 $\pm$ 1.545} \\ 
    \hline
-   \multirow{2}{*}{realistic}  &  {\small {\tt af-nl}}      &              &  ~ \\ 
-                               &  {\small {\tt nl-af}}      &              & ~ \\
+    \multirow{2}{*}{nl-af} & {\small Apertium }  & {\bf 15.435 $\pm$ 1.885}  & {\bf 21.72 $\pm$ 1.06} & {\bf 18.375 $\pm$ 2.785} & {\bf 24.975 $\pm$ 2.075} \\
+                           & {\small Google }  & 21.81 $\pm$ 1.72& 	25.71 $\pm$ 1.22&	24.31 $\pm$ 3.22&	30.965 $\pm$ 2.385 \\ 
+
    \hline
   \end{tabular}
-    \caption{Accuracy for the two test corpora as measured by Word Error Rate 
-        and Position-independent Word Error Rate with confidence intervals
-        at 95\% confidence.}
+    \caption{Accuracy for the test corpora for the two systems as measured by Word Error Rate 
+        with 95\% confidence interval.}
     \label{table:quan}
   \end{center}
-\end{table}
+\end{table*}
+
+For the Dutch to Afrikaans direction, the sentences were translated by the system, and then
+posteditted by a native speaker. For the Afrikaans to Dutch direction, we took the reference 
+translation, as posteditted by the native speaker and used it as a source of Dutch to be translated
+to Afrikaans, then used the original Afrikaans sentence as a reference translation.
+
+% =========================================================%
+% AF->NL WER
+% =========================================================%
+% eval.2010-12-23.wikipedia.1.apertium.txt
+%   16.45875 in [ 15.16 , 18.09 ]
+%   Score: 16.625 +/- 1.465
+
+% eval.2010-12-23.wikipedia.2.apertium.txt:
+%   23.39125 in [ 22.17 , 24.64 ]
+%   Score: 23.405 +/- 1.235
+
+% eval.2011-01-07.wikipedia.3.apertium.txt
+%   15.67375 in [ 13.49 , 16.96 ]
+%   Score: 15.225 +/- 1.735
+
+% eval.2011-01-07.wikipedia.4.apertium.txt
+%   22.5475 in [ 19.68 , 24.71 ]
+%   Score: 22.195 +/- 2.515
+% ========================================================= %
+% AF->NL PER
+% ========================================================= %
+% eval.2010-12-23.wikipedia.1.apertium.txt
+%   16.055 in [ 14.94 , 17.37 ]
+%   Score: 16.155 +/- 1.215
+
+% eval.2010-12-23.wikipedia.2.apertium.txt
+%   22.98875 in [ 21.70 , 24.21 ]
+%   Score: 22.955 +/- 1.255
+
+% eval.2011-01-07.wikipedia.3.apertium.txt
+%   15.54375 in [ 13.49 , 16.69 ]
+%   Score: 15.09 +/- 1.6
+
+% eval.2011-01-07.wikipedia.4.apertium.txt
+%   22.32 in [ 19.58 , 24.47 ]
+%   Score: 22.025 +/- 2.445
+
+
+
+% ========================================================= %
+% AF->NL WER
+% ========================================================= %
+% eval.2010-12-27.wikipedia.1.google.txt
+%     9.41375 in [ 8.37 , 10.60 ]
+%     Score: 9.485 +/- 1.115
+%     
+% eval.2010-12-27.wikipedia.2.google.txt
+%     10.94 in [ 8.78 , 12.37 ]
+%     Score: 10.575 +/- 1.795
+%     
+% eval.2011-01-07.wikipedia.3.google.txt
+%     7.54625 in [ 6.18 , 9.08 ]
+%     Score: 7.63 +/- 1.45
+%     
+% eval.2011-01-07.wikipedia.4.google.txt
+%     11.7225 in [ 10.64 , 13.73 ]
+%     Score: 12.185 +/- 1.545
+%     
+% ========================================================= %
+% AF->NL PER
+% ========================================================= %
+% eval.2010-12-27.wikipedia.1.google.txt
+%     8.8275 in [ 7.94 , 9.96 ]
+%     Score: 8.95 +/- 1.01
+%     
+% eval.2010-12-27.wikipedia.2.google.txt
+%     10.94 in [ 8.78 , 12.37 ]
+%     Score: 10.575 +/- 1.795
+%     
+% eval.2011-01-07.wikipedia.3.google.txt
+%     7.17875 in [ 5.96 , 8.82 ]
+%     Score: 7.39 +/- 1.43
+%     
+% eval.2011-01-07.wikipedia.4.google.txt
+%     11.6075 in [ 10.54 , 13.53 ]
+%     Score: 12.035 +/- 1.495
+%     
+
+% NL->AF WER:
+% eval.2010-12-23.wikipedia.1.apertium.txt
+%     15.62125 in [ 13.55 , 17.32 ]
+%     Score: 15.435 +/- 1.885
+%     
+% eval.2010-12-23.wikipedia.2.apertium.txt
+%     22.02375 in [ 20.66 , 22.78 ]
+%     Score: 21.72 +/- 1.06
+%     
+% eval.2011-01-07.wikipedia.3.apertium.txt
+%     17.9675 in [ 15.59 , 21.16 ]
+%     Score: 18.375 +/- 2.785
+%     
+% eval.2011-01-07.wikipedia.4.apertium.txt
+%     25.7025 in [ 22.90 , 27.05 ]
+%     Score: 24.975 +/- 2.075
+%
+% NL->AF PER:
+%     
+% eval.2010-12-23.wikipedia.1.apertium.txt
+%     14.765 in [ 13.04 , 15.97 ]
+%     Score: 14.505 +/- 1.465
+%     
+% eval.2010-12-23.wikipedia.2.apertium.txt
+%     21.56375 in [ 20.54 , 22.50 ]
+%     Score: 21.52 +/- 0.98
+%     
+% eval.2011-01-07.wikipedia.3.apertium.txt
+%     17.05875 in [ 14.75 , 19.69 ]
+%     Score: 17.22 +/- 2.47
+%     
+% eval.2011-01-07.wikipedia.4.apertium.txt
+%     24.98875 in [ 22.07 , 26.45 ]
+%     Score: 24.26 +/- 2.19
+%     
+
+
+% NL->AF WER:     
+% eval.2010-12-27.wikipedia.1.google.txt
+%     21.6725 in [ 20.09 , 23.53 ]
+%     Score: 21.81 +/- 1.72
+%     
+% eval.2010-12-27.wikipedia.2.google.txt
+%     25.8025 in [ 24.49 , 26.93 ]
+%     Score: 25.71 +/- 1.22
+%     
+% eval.2011-01-07.wikipedia.3.google.txt
+%     24.98125 in [ 21.09 , 27.53 ]
+%     Score: 24.31 +/- 3.22
+%     
+% eval.2011-01-07.wikipedia.4.google.txt
+%     31.6775 in [ 28.58 , 33.35 ]
+%     Score: 30.965 +/- 2.385
+%
+% NL->AF PER:     
+%
+% eval.2010-12-27.wikipedia.1.google.txt
+%     20.75 in [ 18.82 , 22.44 ]
+%     Score: 20.63 +/- 1.81
+%     
+% eval.2010-12-27.wikipedia.2.google.txt
+%     25.1975 in [ 24.01 , 26.31 ]
+%     Score: 25.16 +/- 1.15
+%     
+% eval.2011-01-07.wikipedia.3.google.txt
+%     23.49125 in [ 19.75 , 25.74 ]
+%     Score: 22.745 +/- 2.995
+%     
+% eval.2011-01-07.wikipedia.4.google.txt
+%     30.425 in [ 27.40 , 31.95 ]
+%     Score: 29.675 +/- 2.275
+%     
+
+
+
 
 % blah confidence intervals
 Confidence intervals were calculated through the bootstrap 
-resampling \cite{Efron:94} method as described by \newcite{Koehn:04}.
+resampling method as described by \newcite{Koehn:04}.
 
 
 \subsection{Qualitative}
@@ -685,6 +844,17 @@ Solving this is a significant MT challenge and is not easily fixable.
 
 \subsection{Comparative}
 
+We compared our system to the other available MT system for Afrikaans to Dutch and Dutch to Afrikaans, 
+Google Translate\footnote{\url{http://translate.google.com/}}, a popular web-based statistical machine
+translation system. The evaluation was performed in the same way, the test corpora were translated with 
+Google, and then post-editted.
+
+For Afrikaans to Dutch, Google substantially outperforms the prototype Apertium system. With error rates 
+reduced by a half. For Dutch to Afrikaans, the Apertium system performs better, although this could 
+be due to the method used for testing the Dutch to Afrikaans direction favours more literal translations. E.g. 
+it does not rely on post-edition. Another possible explanation could be that there are substantially bigger
+monolingual corpora for Dutch than for Afrikaans for building language models.
+
 % compare against google
 % part of the problem with this: google may use some of the sentences that appear in our corpus for training
 % not possible 
@@ -696,8 +866,9 @@ Solving this is a significant MT challenge and is not easily fixable.
 \section{Discussion}
 
 We have presented a bi-directional rule-based machine translation between Dutch and Afrikaans, 
-two closely-related Germanic languages. The system gives promising results, but does not offer
-any improvement in translation quality over another publically available system.
+two closely-related Germanic languages. The system gives promising results, and offers an improvement
+in translation quality in the Dutch to Afrikaans direction over another publically available system, 
+but does not offer any improvement in translation quality in the Afrikaans to Dutch direction.
 
 \subsection{Future work}
 
@@ -706,10 +877,10 @@ disambiguation and insufficient syntactic transfer. Thus these areas are ones th
 concentrate on.
 
 \section*{Acknowledgements}
-
-Development of this system was partially supported by the Google Code-in,
-a contest to introduce pre-university students to contributing to open-source
-software.
+\emph{Removed for review}
+%Development of this system was partially supported by the Google Code-in,
+%a contest to introduce pre-university students to contributing to open-source
+%software.
 
 % \bibliography{\confname}
 
@@ -733,12 +904,6 @@ Donaldson, Bruce C.
 \newblock 1993.
 \newblock {\em A grammar of Afrikaans}.
 \newblock Walter de Gruyter, Berlin
-
-\bibitem[\protect\citename{Efron and Tibshirani}1994]{Efron:94}
-Efron, B. and Tibshirani, R. J.
-\newblock 1994. 
-\newblock {\em An introduction to the Bootstrap}.
-\newblock CRC Press
 
 \bibitem[\protect\citename{Koehn}2004]{Koehn:04}
 Koehn, P.
