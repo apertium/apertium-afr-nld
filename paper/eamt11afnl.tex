@@ -663,10 +663,10 @@ it is marked as neuter in the morphological analyser, it is translated with `het
 majority of countries are in fact neuter, but \emph{DDR} is not. 
 
 \ex. \label{ex:exmorph}
-    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as staats- en partyleier op. \\
-    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *staats- en *partyleier op. \\
-    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als staats- en partijleider op. \\
-    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as state and party leader.
+    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as partyleier op. \\
+    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *partyleier op. \\
+    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als partijleider op. \\
+    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as party leader.
 
 Errors of this type could be fixed with a more thorough revision of the morphological
 analyser.
@@ -689,15 +689,15 @@ Distinguishing between these two analyses is a difficult problem for a bigram pa
 \subsubsection{Multiword}
 
 Example~\ref{ex:exmw} is causing problems because it is hard, if not impossible, to catch the meaning of the 
-Afrikaans `{\em dwarsoor}  ' in one Dutch word. An appropriate multiword could fix this, but might 
-cause additional issues with the article of {\em wereld} `world' as that is included in the 
-phrase {\em over de hele} `over the whole'.
+Afrikaans `{\em dwarsoor}  ' in one Dutch word. An appropriate multiword has solved the initial problem, but this 
+causes additional issues with the article of {\em wereld} `world' as that is included in the 
+phrase {\em over de hele} `all over the'.
 
 \ex. \label{ex:exmw} 
-    Duitse argitekte het begin om projekte dwarsoor die wêreld aan te pak. \\
-    Duitse architecten heeft begin om projecten {\em overdwars} de wereld aan te pakken. \\
-    Duitse architecten zijn begonnen om projecten {\em over de hele} wereld aan te pakken. \\
-   `German architects have begun to take on projects all over the world.'
+    Duitse argitekte pak projekte dwarsoor die wêreld aan. \\
+    Duitse architecten pakken projecten {\em over de hele de} wereld aan. \\
+    Duitse architecten pakken projecten {\em over de hele} wereld aan \\
+   `German architects are taking on projects all over the world.'
 
 \subsubsection{Syntactic transfer}
 
@@ -755,10 +755,10 @@ there is a pattern
 `preciese' in a seperate chunk, which results in the predicative form, rather than the attributive.
 
 \ex. \label{ex:chunking}
-    In die ooste is daar geen presiese geografiese of geologiese grens tussen Europa en Asië nie. \\
-    In het oosten is daar geen {\em precies} geografische of geologische grens tussen Europa en Azië niet. \\ 
-    In het oosten is er geen {\em precieze} geografische of geologische \underline{grens} tussen Europa en Azië. \\
-    `In the east there is no exact geographical or geological border between Europe and Asia.' 
+    Daar is geen presiese geografiese of geologiese grens tussen Europa en Asië nie. \\
+    Daar is geen {\em precies} geografische of geologische grens tussen Europa en Azië niet. \\ 
+    Er is geen {\em precieze} geografische of geologische \underline{grens} tussen Europa en Azië. \\
+    `There is no exact geographical or geological border between Europe and Asia.' 
 
 This error could be fixed by adding the aforementioned pattern.
 
@@ -802,17 +802,12 @@ Choosing the correct translation would require a module for lexical selection. H
 be worth changing the default translation.
 
 \subsubsection{Compounding}
-
-\ex. \label{ex:excompsplit} 
-    Die graanopbrengs per hektaar is laer as in Middel-Europa. \\
-    De *graanopbrengs per *hektaar is lager als in {\em Middel-Europa}. \\
-    De graanopbrengst per hectare is lager dan in {\em Midden-Europa}. \\
-   `The grain production per hectare is smaller than in Central Europe.'
-
-The error due to compounding in this example is `Middel-Europa'. This word has been translated by 
-splitting it up and translating the seperate parts.
-However, while normally the Afrikaans `Middel' can be translated correctly as `middel', in the 
-case of geographical names, the only correct translation is `Midden'.
+The error in example \ref{ex:excomphyphen} is due to a specific rule in Dutch to do with 
+compounds, \emph{klinkerbotsing} -- which also exists in Afrikaans 
+as \emph{vokaalopeenhoping}. If a compound is built-up from two words as such 
+that the two vowels around the splitting point constitute a sound on their own, 
+which means the word could be mispronounced, a hyphen should be used to distinguish 
+the different parts of the compound. 
 
 \ex. \label{ex:excomphyphen} 
     Die motornywerheid is die ekonomiese basis van Oshawa, ...  \\
@@ -820,14 +815,15 @@ case of geographical names, the only correct translation is `Midden'.
     De {\em auto-industrie} is de economische basis van Oshawa, ... \\
    `The car industry is the economic base of Oshawa, ...'
 
-The error in this example is due to a specific rule in Dutch to do with 
-compounds, \emph{klinkerbotsing} -- which also exists in Afrikaans 
-as \emph{vokaalopeenhoping}. If a compound is built-up from two words as such 
-that the two vowels around the splitting point constitute a sound on their own, 
-which means the word could be mispronounced, a hyphen should be used to distinguish 
-the different parts of the compound. 
 
 \subsubsection{Separable verb}
+
+Example \ref{ex:exsepverb} demonstrates the problem with seperable verbs. The 
+Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch expression
+\emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
+could never be translated as \emph{lopen} `to walk'. Note that `uit de hand lopen' 
+ technically is not a seperable verb, but it poses the exact same problem as one.
+Solving this is a significant MT challenge and is not easily fixable.  
 
 \ex. \label{ex:exsepverb} 
     'n Jaar later ruk die situasie in die land deur massabetogings hand uit. \\
@@ -835,12 +831,7 @@ the different parts of the compound.
     Een jaar later {\em loopt} de situatie in het land door massabetogingen {\em uit de hand}. \\
     `A year later the situation got out of control because of mass protests.'
 
-This is a classic example of a seperable verb which is not recognised as such. The 
-Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch expression
-\emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
-could never be translated as \emph{lopen} `to walk'. Note that `uit de hand lopen' 
- technically is not a seperable verb, but it poses the exact same problem as one.
-Solving this is a significant MT challenge and is not easily fixable.  
+
 
 \subsection{Comparative}
 
