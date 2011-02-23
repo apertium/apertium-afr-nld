@@ -80,8 +80,7 @@ corpus-based/statistical approach, is that the latter needs parallel corpora for
 languages. The only freely available Afrikaans--Dutch corpus, is 
 KDE4\footnote{\url{http://opus.lingfil.uu.se/KDE4.php}}, which is translated via English and 
 domain specific. We feel that these corpora do not approach the quality required for the
-statistical approach, and the fact that Afrikaans and Dutch are closely related languages 
-makes a rule-based approach favourable.
+statistical approach, which makes the rule-based approach favourable.
 
 The paper is laid out as follows: firstly, we will describe the reuse and creations of 
 resources. We will then discuss several grammatical features of Afrikaans and Dutch and how 
@@ -191,8 +190,7 @@ The bilingual dictionary has been developed in several ways.
 Exact matches from the dictionaries
 were automatically added to the bilingual dictionary. Proper names were added in the
 way that is described in \newcite{Tyers:08}. After that cognates were added. There are several
-small common spelling differences between Afrikaans and Dutch. For example,
-where the letter `y' in Afrikaans is used, Dutch often uses the digraph `ij'.
+small common spelling differences between Afrikaans and Dutch. 
 The bilingual dictionary was expanded further by categorising these spelling differences and
 automatically adding translations to the bilingual dictionary if the spelling difference was the
 only difference between the two words. Finally, some entries were done by hand.
@@ -305,10 +303,10 @@ parts of the verb in {\em sla af}, the verb itself {\em sla} and the particle
 The following cases are supported,
 
 \begin{itemize}
-\item Infinitive: afslaan $\rightarrow$ afslaan 
-\item Participle: afgeslagen $\rightarrow$ afgeslaan
-\item Non-separated: Ik sla af naar rechts. $\rightarrow$ Ek slaan af na regs
-\item Subordinate: Toen ik de bal afsloeg $\rightarrow$ Toe ek die bal afslaan
+\item Infinitive: afslaan $\rightarrow$ afslaan `to turn'
+\item Participle: afgeslagen $\rightarrow$ afgeslaan `turned'
+\item Non-separated: Ik sla af naar rechts. $\rightarrow$ Ek slaan af na regs `I turned to the right' 
+\item Subordinate: Toen ik de bal afsloeg $\rightarrow$ Toe ek die bal afslaan `When I teed off the ball'
 \end{itemize}
 
 Verbs separated by a word or phrase are currently translated word-for-word,
@@ -605,7 +603,9 @@ resampling method as described by \newcite{Koehn:04}.
 In order to inform ourselves of where the effort could be expanded in order to improve the 
 system we undertook a qualitative evaluation by reviewing the translation errors from the Afrikaans
 to Dutch direction and categorising them as in Table~\ref{table:qual}. An example of each 
-of the kind of error is found below.
+of the kind of error is found below. In all examples, the first sentence is Afrikaans, the second
+the Dutch machine translation, the third the post-editted Dutch and the fourth is the English
+translation of the sentence.
 
 \begin{table}
   \begin{center}
@@ -662,10 +662,10 @@ it is marked as neuter in the morphological analyser, it is translated with `het
 majority of countries are in fact neuter, but \emph{DDR} is not. 
 
 \ex. \label{ex:exmorph}
-    In die DDR volg Erich Honecker in 1971 Walter Ulbricht as partyleier op. \\
-    In {\em het} DDR volgen *Erich *Honecker in 1971 *Walter *Ulbricht als *partyleier op. \\
-    In {\em de} DDR volgt Erich Honecker in 1971 Walter Ulbricht als partijleider op. \\
-    `In the DDR Erich Honecker succeeds Walter Ulbricht in 1971 as party leader.
+    In die DDR volg Erich Honecker Walter Ulbricht as partyleier op. \\
+    In {\em het} DDR volgen *Erich *Honecker *Walter *Ulbricht dan *partyleier op. \\
+    In {\em de} DDR volgt Erich Honecker Walter Ulbricht als partijleider op. \\
+    `In the DDR Erich Honecker succeeds Walter Ulbricht as party leader.
 
 Errors of this type could be fixed with a more thorough revision of the morphological
 analyser.
@@ -735,8 +735,7 @@ sentence on a semantic level, which means it is unlikely to be solved anytime so
 
 Capitalisation is generally straightforward. An exception is when a sentence
 starts with an apostrophe in one language and does not start with that in the other. The Afrikaans
-indefinite article is \emph{'n}, and while in Dutch this word is used in speech, it is 
-not used in writing. Therefore in \ref{ex:excapitals} the translation has a 
+indefinite article is \emph{'n}, which cannot be capitalised. Therefore in \ref{ex:excapitals} the translation has a 
 capitalisation error. The word \emph{een} should be capitalised, while \emph{Pet} should not 
 be. In Apertium, changes in word case are performed in the syntactic transfer stage, thus this 
 could be solved by altering the set of transfer rules.
@@ -772,17 +771,15 @@ transfer errors. The words \emph{om te} come before infinitives in both Afrikaan
     `You can work on Wikipedia without reading any talk pages.'
 
 Dutch cannot have \emph{om te} after a preposition, in this case `zonder' (without). A simple transfer rule could fix this
-for the case that \emph{om te} is next to each other. However, in the case that it is seperated it requires
-a transfer rule for every combination possible between \emph{om} and \emph{te} or special variables tracking the
-occurence of \emph{te}.
-This in contrast to example \ref{ex:exother2}, where \emph{om te} is kept as it is, which is correct
-if the reflexive pronoun \emph{zich} is added. 
-
-\ex. \label{ex:exother2}
-    Morrison trek na Parys met die plan om te fokus op sy skryfwerk. \\
-    *Morrison trekken naar Parijs met de plan {\em om te} concentreren op zijn *skryfwerk. \\
-    Morrison trekt naar Parijs met het plan {\em om} zich {\em te} concentreren op zijn schrijfwerk. \\
-    `Morrison moves to Paris with the plan of focussing on his writing work.'
+for the case that \emph{om te} is next to each other. However, in the case that it is seperated it is harder to solve.
+%This in contrast to example \ref{ex:exother2}, where \emph{om te} is kept as it is, which is correct
+%if the reflexive pronoun \emph{zich} is added. 
+%
+%\ex. \label{ex:exother2}
+%    Morrison trek na Parys met die plan om te fokus op sy skryfwerk. \\
+%    *Morrison trekken naar Parijs met de plan {\em om te} concentreren op zijn *skryfwerk. \\
+%    Morrison trekt naar Parijs met het plan {\em om} zich {\em te} concentreren op zijn schrijfwerk. \\
+%    `Morrison moves to Paris with the plan of focussing on his writing work.'
 
 \subsubsection{Polysemy}
 
@@ -825,10 +822,10 @@ could never be translated as \emph{lopen} `to walk'. Note that `uit de hand lope
 Solving this is a significant MT challenge and is not easily fixable.  
 
 \ex. \label{ex:exsepverb} 
-    'n Jaar later ruk die situasie in die land deur massabetogings hand uit. \\
-    een Jaar later {\em *ruk} de situatie in het land door *massabetogings {\em hand uit}. \\
-    Een jaar later {\em loopt} de situatie in het land door massabetogingen {\em uit de hand}. \\
-    `A year later the situation got out of control because of mass protests.'
+    Die situasie ruk deur massabetogings hand uit. \\
+    De situatie {\em *ruk} door *massabetogings {\em hand uit}. \\
+    De situatie {\em loopt} door massabetogingen {\em uit de hand}. \\
+    `The situation got out of control because of mass protests.'
 
 
 
@@ -864,7 +861,8 @@ but does not offer any improvement in translation quality in the Afrikaans to Du
 
 The three biggest issues in the system come from lack of dictionary coverage, poor morphological
 disambiguation and insufficient syntactic transfer. Thus these areas are ones that we intend to 
-concentrate on.
+concentrate on. In addition, false friends have not specifically been looked at. We could review
+the list of false friends in \cite{Huyssteen:09} to see if any translations could be improved.
 
 \section*{Acknowledgements}
 \emph{Removed for review}
