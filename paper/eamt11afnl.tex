@@ -58,7 +58,7 @@
 \section{Introduction}
 
 Dutch is a West-Germanic language spoken by nearly 23 million people, 
-mostly from the Netherlands and Flanders, the Dutch-speaking part of Belgium and a minority 
+mostly from the Netherlands and Flanders, the Dutch-speaking part of Belgium, and a minority 
 living in former colonies of the Netherlands, such as Suriname, Aruba and the Netherlands 
 Antilles. Dutch, as it is today, started developing in the 16th century in the 
 major trade cities, such as Amsterdam and Antwerp \cite{Shetter:02}.  Afrikaans is spoken 
@@ -221,7 +221,7 @@ verb with a past participle. In Dutch the verbs \emph{hebben} `have' and \emph{z
 are both used, the latter mostly in cases of movement and a few exceptional cases, the
 former in all others. To handle this, two transfer rules have been added, to handle the
 patterns `hê + past participle' and `hê + nie + past participle + nie', which change the
-verb to have into the verb to be, when the past participle is found in a list of verbs that go with
+verb `to have' into the verb `to be', when the past participle is found in a list of verbs that go with
 `zijn'.
 
 %af:Ek het geval.
@@ -649,7 +649,7 @@ of the translation.
     Hierdie besetting is in 1721 met die Verdrag van Nystad erken. \\
     Deze bezetting is in 1721 met het Verdrag van {\em *Nystad} {\em *erken}. \\
     Deze bezetting is in 1721 met het Verdrag van {\em Nystad} {\em erkend}. \\
-    `This occupation has been acknowledged in 1721 with the Treaty of Nystand.'
+    `This occupation has been acknowledged in 1721 with the Treaty of Nystad.'
 
 The unknown words are marked with asterisk.
 
@@ -688,7 +688,7 @@ Distinguishing between these two analyses is a difficult problem for a bigram pa
 \subsubsection{Multiword}
 
 Example~\ref{ex:exmw} is causing problems because it is hard, if not impossible, to catch the meaning of the 
-Afrikaans `{\em dwarsoor}  ' in one Dutch word. An appropriate multiword has solved the initial problem, but this 
+Afrikaans {\em dwarsoor} in one Dutch word. An appropriate multiword has solved the initial problem, but this 
 causes additional issues with the article of {\em wereld} `world' as that is included in the 
 phrase {\em over de hele} `all over the'.
 
@@ -721,8 +721,8 @@ of movement verbs.
     Het zand {\em is} dan samen met het water weggespoeld. \\
    `The sand was washed away along with the water.'
 
-Another issue is relative pronouns. The Afrikaans language uses the word {\em wat}, where the
-Dutch word equivalent depends on the antecedent. In Dutch {\em wat} is used when i.e. the antecedent
+Another issue is relative pronouns. The Afrikaans language uses the word {\em wat}, where the equivalent
+Dutch word depends on the antecedent. In Dutch {\em wat} is used when i.e. the antecedent
 is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is {\em formules}, for which the appropriate
 relative pronoun is {\em die}. Solving this problem requires the ability to analyse the
 sentence on a semantic level, which means it is unlikely to be solved anytime soon.
@@ -749,7 +749,7 @@ could be solved by altering the set of transfer rules.
 Apertium uses fixed length chunks for transfer. In example \ref{ex:chunking} there is an error
 due to this: \emph{preciese} `exact, precise' is an adjective modifying \emph{grens} `border'. While 
 there is a pattern
-`adj cc adj noun', there was no pattern `adj adj cc adj noun'. This causes the chunker to put
+`adj cc adj noun', there is no pattern `adj adj cc adj noun'. This causes the chunker to put
 `preciese' in a seperate chunk, which results in the predicative form, rather than the attributive.
 
 \ex. \label{ex:chunking}
