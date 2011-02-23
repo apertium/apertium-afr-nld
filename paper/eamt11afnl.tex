@@ -65,7 +65,7 @@ major trade cities, such as Amsterdam and Antwerp \cite{Shetter:02}.  Afrikaans 
 by at least 5 million people, mainly in South Africa but also in Namibia. Afrikaans is a 
 variety of Dutch that originates from that spoken by the Dutch colonists of 
 the Cape Colony. In 1925 Afrikaans replaced Dutch as an official language in South Africa, to 
-be the joint official language together with English. \cite{Donaldson:93} Currently, Afrikaans is one of the 
+be the joint official language together with English \cite{Donaldson:93}. Currently, Afrikaans is one of the 
 eleven national languages. 
 
 In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
@@ -209,7 +209,7 @@ below.
 
 %%Dutch cannot use the present tense in past situations (not even in narrative style)
 
-Afrikaans hardly uses the word-attached genitive \cite{Donaldson:93} \emph{s}. The word \emph{se} is used to indicate possesion. 
+Afrikaans hardly uses the word-attached genitive \emph{s} \cite{Donaldson:93}. The word \emph{se} is used to indicate possesion. 
 Therefore, a transfer rule has been added to remove the \emph{se} and instead make the preceding
 noun genitive. Note that in Dutch the genitive is not the preferred translation. A construction using
 the word \emph{van} `of' would be preferable, but would need restructuring of the phrase. 
@@ -260,7 +260,7 @@ all unknown words. The analysis process works longest-match left-to-right
 using the same transducer as is used for morphological analysis. This process only
 looks for compounds made up of just nouns, because they are more frequent than other compounds.
 Results are restricted by two special
-symbols which do not appear in the output {\small {\tt compound-L}} and {\small {\tt compound-R}}.
+symbols which do not appear in the output, {\small {\tt compound-L}} and {\small {\tt compound-R}}.
 The {\small {\tt compound-L}} symbol is used for forms that can only appear on the
 left side (e.g. surface form) of a compound, where {\small {\tt compound-R}} is
 used for forms that can either appear in a compound, or end it.
@@ -341,7 +341,7 @@ may not be complete.} of the system. The second was an evaluation of the
 compound analysis part of the system -- new with respect to other 
 Apertium language pairs. The third was the word error 
 rate (WER) of the translations produced when comparing with a 
-corrected sentence. The fouth was an analysis of the errors found by the second
+corrected sentence. The fourth was an analysis of the errors found by the second
 evaluation and finally a comparative evaluation with existing systems.
 
 \subsection{Coverage}
@@ -437,8 +437,8 @@ of the performance of the system in `ideal' and `realistic' settings.
 \end{table*}
 
 For the Dutch to Afrikaans direction, the sentences were translated by the system, and then
-posteditted by a native speaker. For the Afrikaans to Dutch direction, we took the reference 
-translation, as posteditted by the native speaker and used it as a source of Dutch to be translated
+postedited by a native speaker. For the Afrikaans to Dutch direction, we took the reference 
+translation, as postedited by the native speaker and used it as a source of Dutch to be translated
 to Afrikaans, then used the original Afrikaans sentence as a reference translation.
 
 % =========================================================%
@@ -819,7 +819,7 @@ the different parts of the compound.
 
 Example \ref{ex:exsepverb} demonstrates the problem with seperable verbs. The 
 Afrikaans \emph{ruk ... hand uit} corresponds with the Dutch expression
-\emph{loopt ... uit de hand} However, \emph{ruk} `to pull' in itself 
+\emph{loopt ... uit de hand}. However, \emph{ruk} `to pull' in itself 
 could never be translated as \emph{lopen} `to walk'. Note that `uit de hand lopen' 
  technically is not a seperable verb, but it poses the exact same problem as one.
 Solving this is a significant MT challenge and is not easily fixable.  
@@ -837,9 +837,9 @@ Solving this is a significant MT challenge and is not easily fixable.
 We compared our system to the other available MT system for Afrikaans to Dutch and Dutch to Afrikaans, 
 Google Translate\footnote{\url{http://translate.google.com/}}, a popular web-based statistical machine
 translation system. The evaluation was performed in the same way, the test corpora were translated with 
-Google, and then post-editted.
+Google, and then post-edited.
 
-For Afrikaans to Dutch, Google substantially outperforms the prototype Apertium system. With error rates 
+For Afrikaans to Dutch, Google substantially outperforms the prototype Apertium system, with error rates 
 reduced by a half. For Dutch to Afrikaans, the Apertium system performs better, although this could 
 be due to the method used for testing the Dutch to Afrikaans direction favours more literal translations. E.g. 
 it does not rely on post-edition. Another possible explanation could be that there are substantially bigger
