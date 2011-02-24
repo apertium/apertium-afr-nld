@@ -32,16 +32,18 @@
 
 \title{Rapid rule-based machine translation between Dutch and Afrikaans}
 
-\author{Pim Otte\\
-  Mendelcollege\\
-  Pim Mulierlaan 4\\
-  2024 BT Haarlem\\
-  {\tt 5666@mendelcollege.nl}  \And
-  Francis M. Tyers\\
-  Dept. Lleng. i Sist. Inform.\\
-  Universitat d'Alacant\\
-  E-03070 Alacant \\
-  {\tt ftyers@dlsi.ua.es}}
+\author{
+%Pim Otte\\
+%  Mendelcollege\\
+%  Pim Mulierlaan 4\\
+%  2024 BT Haarlem\\
+%  {\tt 5666@mendelcollege.nl}  \And
+%  Francis M. Tyers\\
+%  Dept. Lleng. i Sist. Inform.\\
+%  Universitat d'Alacant\\
+%  E-03070 Alacant \\
+%  {\tt ftyers@dlsi.ua.es}
+}
 
 \date{}
 
@@ -52,7 +54,9 @@
  translation system between Dutch and Afrikaans developed over a period of
  around a month. The system relies heavily on the re-use of existing 
  publically available resources such as Wiktionary, Wikipedia and the 
- Apertium machine translation platform.
+ Apertium machine translation platform. A method of translating compound
+ words between the languages by means of left-to-right longest match
+ lookup is also introduced and evaluated.
 \end{abstract}
 
 \section{Introduction}
@@ -410,7 +414,8 @@ the system against systems based on similar technology, and to assess the useful
 system in a real setting, that is of translating for dissemination. 
 
 Four sets of 100 sentences were selected pseudo-randomly from Wikipedia.\footnote{The test corpora can be downloaded
-  from \url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-af-nl/dev/eval}} The first two sets (C1, C3) contained 
+  from {\em removed for review} %\url{https://apertium.svn.sourceforge.net/svnroot/apertium/staging/apertium-af-nl/dev/eval}
+} The first two sets (C1, C3) contained 
 no unknown words, whereas the second two sets could contain unknown words (C2, C4). This is to give an idea
 of the performance of the system in `ideal' and `realistic' settings.
 
@@ -721,11 +726,10 @@ of movement verbs.
     Het zand {\em is} dan samen met het water weggespoeld. \\
    `The sand was washed away along with the water.'
 
-Another issue is relative pronouns. The Afrikaans language uses the word {\em wat}, where the equivalent
+Another issue is relative pronouns. Afrikaans always uses the word {\em wat}, where the equivalent
 Dutch word depends on the antecedent. In Dutch {\em wat} is used when i.e. the antecedent
-is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is {\em formules}, for which the appropriate
-relative pronoun is {\em die}. Solving this problem requires the ability to analyse the
-sentence on a semantic level, which means it is unlikely to be solved anytime soon.
+is an entire sentence. In this case \ref{ex:exrelpro} the antecedent is {\em formules}, for 
+which the appropriate relative pronoun is {\em die}. 
 
 \ex. \label{ex:exrelpro}
     Pi kom voor in baie formules in meetkunde wat sirkels en sfere betrek. \\
