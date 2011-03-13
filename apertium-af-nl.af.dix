@@ -1319,6 +1319,7 @@
 
     <e lm="se"><i>se</i><par n="se__gen"/></e>
 
+
     <e lm="dat"><i>dat</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wie"><i>wie</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
@@ -4376,7 +4377,6 @@
     <e lm="stof"><i>sto</i><par n="afsto/f__n"/></e>
     <e lm="sport"><i>sport</i><par n="bier__n"/></e>
     <e lm="lente"><i>lente</i><par n="artikel__n"/></e>
-    <e lm="vierkant"><i>vierkant</i><par n="bier__n"/></e>
     <e lm="suiker"><i>suiker</i><par n="artikel__n"/></e>
     <e lm="styl"><i>styl</i><par n="bier__n"/></e>
     <e lm="ondersteuner"><i>ondersteuner</i><par n="artikel__n"/></e>
@@ -6106,6 +6106,7 @@
     <e lm="geredelik"><i>geredelik</i><par n="maklik__adj"/></e>
     <e lm="gerieflik"><i>gerieflik</i><par n="maklik__adj"/></e>
     <e lm="gevaarlik"><i>gevaarlik</i><par n="maklik__adj"/></e>
+
     <e lm="lelik"><i>lelik</i><par n="maklik__adj"/></e>
     <e lm="maklik"><i>maklik</i><par n="maklik__adj"/></e>
     <e lm="moeilik"><i>moeilik</i><par n="maklik__adj"/></e>
@@ -6666,7 +6667,7 @@
 
     <!-- <e lm="dieselfde"><i>dieselfde</i><par n="dadelik__adj"/></e> -->
     <e lm="algemeen"><i>algeme</i><par n="algeme/en__adj"/></e>
-	<e lm="steen"><i>steen</i><par n="algeme/en__adj"/></e>
+	<e lm="steen"><i>ste</i><par n="algeme/en__adj"/></e>
 	<e lm="alleen"><i>alle</i><par n="algeme/en__adj"/></e>
 	<e lm="datgeen"><i>datge</i><par n="algeme/en__adj"/></e>
 
