@@ -298,7 +298,7 @@
 	<e><p><l>sig<s n="prn"/><s n="ref"/></l><r>zich<s n="prn"/><s n="ref"/></r></p></e>
 	<e><p><l>men<s n="prn"/><s n="tn"/></l><r>men<s n="prn"/><s n="tn"/></r></p></e>
 	<e><p><l>mekaar<s n="prn"/><s n="tn"/></l><r>elkaar<s n="prn"/><s n="tn"/></r></p></e>
-	<e><p><l>dieselfde<s n="prn"/><s n="tn"/><s n="mf"/></l><r>dezelfde<s n="prn"/><s n="tn"/><s n="mfn"/></r></p></e>
+	<e><p><l>dieselfde<s n="prn"/><s n="tn"/><s n="mf"/></l><r>dezelfde<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
 	<e><p><l>elk<s n="prn"/><s n="tn"/></l><r>elk<s n="prn"/><s n="tn"/></r></p></e>
 	<e><p><l>dieselfde<s n="prn"/><s n="tn"/></l><r>hetzelfde<s n="prn"/><s n="tn"/></r></p></e>
 	<e><p><l>niks<s n="prn"/><s n="tn"/></l><r>niets<s n="prn"/><s n="tn"/></r></p></e>
@@ -3138,6 +3138,7 @@
     <e><p><l>raam<s n="n"/></l><r>raam<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rog<s n="n"/></l><r>rog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>romp<s n="n"/></l><r>romp<s n="n"/><s n="m"/></r></p></e>
+
     <e><p><l>ruiter<s n="n"/></l><r>ruiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ski<s n="n"/></l><r>ski<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spook<s n="n"/></l><r>spook<s n="n"/><s n="nt"/></r></p></e>
@@ -5575,7 +5576,7 @@
     <e><p><l>bewoon<s n="vblex"/></l><r>bewonen<s n="vblex"/></r></p></e>
     <e><p><l>benodig<s n="vblex"/></l><r>benodigen<s n="vblex"/></r></p></e>
     <e><p><l>verhuis<s n="vblex"/></l><r>verhuizen<s n="vblex"/></r></p></e>
-    <e><p><l>stoor<s n="vblex"/></l><r>storen<s n="vblex"/></r></p></e>
+    <e><p><l>stoor<s n="vblex"/></l><r>opslaan<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>bestudeer<s n="vblex"/></l><r>bestuderen<s n="vblex"/></r></p></e>
     <e><p><l>daal<s n="vblex"/></l><r>dalen<s n="vblex"/></r></p></e>
     <e><p><l>ontmoet<s n="vblex"/></l><r>ontmoeten<s n="vblex"/></r></p></e>
@@ -5812,7 +5813,7 @@
     <e><p><l>bloei<s n="vblex"/></l><r>bloeien<s n="vblex"/></r></p></e>
     <e><p><l>begelei<s n="vblex"/></l><r>begeleiden<s n="vblex"/></r></p></e>
     <e><p><l>verloof<s n="vblex"/></l><r>verloven<s n="vblex"/></r></p></e>
-    <e><p><l>vasstel<s n="vblex"/></l><r>vaststellen<s n="vblex"/><s n="sep"/></r></p></e>
+    <e><p><l>vasstel<s n="vblex"/><s n="sep"/></l><r>vaststellen<s n="vblex"/><s n="sep"/></r></p></e>
     <e><p><l>verklein<s n="vblex"/></l><r>verkleinen<s n="vblex"/></r></p></e>
     <e><p><l>vergoed<s n="vblex"/></l><r>vergoeden<s n="vblex"/></r></p></e>
     <e><p><l>baklei<s n="vblex"/></l><r>bakkeleien<s n="vblex"/></r></p></e>

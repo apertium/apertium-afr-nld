@@ -11746,7 +11746,7 @@
     <e lm="duur"><i>du</i><par n="pu/ur__adj_sint"/></e>
     <e lm="stenen"><i>stenen</i><par n="eren__adj"/></e>
 	<e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
-	<e lm="onbedachtzaam"><i>onbedachtzaam</i><par n="minza/am__adj_sint"/></e>
+	<e lm="onbedachtzaam"><i>onbedachtza</i><par n="minza/am__adj_sint"/></e>
     <e lm="houten"><i>houten</i><par n="eren__adj"/></e>
     <e lm="eetbaar"><i>eetba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="Belgisch"><i>Belgisch</i><par n="fors__adj_sint"/></e>
@@ -11838,6 +11838,7 @@
     <e lm="Nederlands"><i>Nederlands</i><par n="fors__adj_sint"/></e>
     <e lm="militair"><i>militair</i><par n="nipt__adj"/></e>
     <e lm="zuidelijk"><i>zuidelijk</i><par n="eng__adj_sint"/></e>
+	<e lm="naast"><i>naast</i><par n="nipt__adj"/></e>
     <e lm="zogenaamd"><i>zogenaamd</i><par n="nipt__adj"/></e>
     <e lm="noordelijk"><i>noordelijk</i><par n="eng__adj_sint"/></e>
     <e lm="katholiek"><i>katholiek</i><par n="eng__adj_sint"/></e>
@@ -16758,6 +16759,7 @@
 	<e lm="daarnaast"><i>daarnaast</i><par n="van__pr"/></e>
 	<e lm="waarbij"><i>waarbij</i><par n="van__pr"/></e>
 	<e lm="dankzij"><i>dankzij</i><par n="van__pr"/></e>
+    <e lm="meer dan"><i>meer<b/>dan</i><par n="van__pr"/></e>
     <e lm="samen met"><i>samen<b/>met</i><par n="van__pr"/></e>
     <e lm="zonder"><i>zonder</i><par n="van__pr"/></e>
     <e lm="boven"><i>boven</i><par n="van__pr"/></e>
@@ -16767,6 +16769,7 @@
     <e lm="samen"><i>samen</i><par n="van__pr"/></e>
     <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
     <e lm="inclusief"><i>inclusief</i><par n="van__pr"/></e>
+    <e lm="minder dan"><i>minder<b/>dan</i><par n="van__pr"/></e>
     <e lm="tot en met"><i>tot<b/>en<b/>met</i><par n="van__pr"/></e>
     <e lm="ten spijte"><i>ten<b/>spijte</i><par n="van__pr"/></e>
     <e lm="in plaats van"><i>in<b/>plaats<b/>van</i><par n="van__pr"/></e>
@@ -16796,6 +16799,7 @@
     <e lm="zo als"><i>zo<b/>als</i><par n="van__pr"/></e>
     <e lm="overeenkomstig met"><i>overeenkomstig<b/>met</i><par n="van__pr"/></e>
     <e lm="om te"><i>om<b/>te</i><par n="van__pr"/></e>
+    <e lm="minder dan"><i>minder<b/>dan</i><par n="van__pr"/></e>
     <e lm="behalve voor"><i>behalve<b/>voor</i><par n="van__pr"/></e>
     <e lm="als gevolg van"><i>als<b/>gevolg<b/>van</i><par n="van__pr"/></e>
     <e lm="te"><i>te</i><par n="van__pr"/></e>
@@ -17411,8 +17415,9 @@
     <e lm="benodigen"><p><l>benodigd</l><r>benodigen</r></p><par n="gesproken__vblex"/></e>
     <e lm="verhuizen"><i>verhui</i><par n="lui/zen__vblex"/></e>
     <e lm="verhuizen"><p><l>verhuisd</l><r>verhuizen</r></p><par n="gesproken__vblex"/></e>
-    <e lm="storen"><i>sto</i><par n="bo/ren__vblex"/></e>
-    <e lm="storen"><p><l>gestoord</l><r>storen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="opslaan"><i>opsl</i><par n ="aanst/aan__vblex_sep"/></e>
+    <e lm="opslaan"><p><l>sl</l><r>opsl</r></p><par n="st/aan#_aan__vblex_sep"/><p><l><b/>op</l><r></r></p></e>
+    <e lm="opslaan"><p><l>opgeslagen</l><r>opslaan</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="bestuderen"><i>bestude</i><par n="ve/ren__vblex"/></e>
     <e lm="bestuderen"><p><l>bestudeerd</l><r>bestuderen</r></p><par n="gesproken__vblex"/></e>
     <e lm="dalen"><i>da</i><par n="da/len__vblex"/></e>

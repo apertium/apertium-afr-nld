@@ -11800,7 +11800,7 @@
     <e lm="in plaats van"><i>in<b/>plaats<b/>van</i><par n="van__pr"/></e>
     <e lm="jegens"><i>jegens</i><par n="van__pr"/></e>
     <e lm="met ingang van"><i>met<b/>ingang<b/>van</i><par n="van__pr"/></e>
-    <e lm="minder als"><i>minder<b/>als</i><par n="van__pr"/></e>
+    <e lm="minder dan"><i>minder<b/>dan</i><par n="van__pr"/></e>
     <e lm="nadat"><i>nadat</i><par n="van__pr"/></e>
     <e lm="namens"><i>namens</i><par n="van__pr"/></e>
     <e lm="neer"><i>neer</i><par n="van__pr"/></e>
@@ -11832,7 +11832,7 @@
     <e lm="zo als"><i>zo<b/>als</i><par n="van__pr"/></e>
     <e lm="zoveel als"><i>zoveel<b/>als</i><par n="van__pr"/></e>
 
-    <e lm="meer als"><i>meer<b/>dan</i><par n="van__pr"/></e>
+    <e lm="meer dan"><i>meer<b/>dan</i><par n="van__pr"/></e>
     <e lm="samen met"><i>samen<b/>met</i><par n="van__pr"/></e>
     <e lm="tot bij"><i>tot<b/>bij</i><par n="van__pr"/></e>
 
@@ -13346,6 +13346,7 @@
 	
 	
 	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
+	<e lm="naast"><i>naast</i><par n="nipt__adj"/></e>
 	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
 	<e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
 	<e lm="vierkant"><i>vierkant</i><par n="eng__adj_sint"/></e>
@@ -15008,7 +15009,7 @@
     <e lm="onaanvaardbaar"><i>onaanvaardba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbedoeld"><i>onbedoeld</i><par n="nipt__adj"/></e>
     <e lm="onbekwaam"><i>onbekwa</i><par n="minza/am__adj_sint"/></e>
-	<e lm="onbedachtzaam"><i>onbedachtzaam</i><par n="minza/am__adj_sint"/></e>
+	<e lm="onbedachtzaam"><i>onbedachtza</i><par n="minza/am__adj_sint"/></e>
     <e lm="onbelastbaar"><i>onbelastba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbereikbaar"><i>onbereikba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbetaalbaar"><i>onbetaalba</i><par n="ga/ar__adj_sint"/></e>
