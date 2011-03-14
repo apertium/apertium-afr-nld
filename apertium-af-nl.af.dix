@@ -1320,6 +1320,7 @@
     <e lm="se"><i>se</i><par n="se__gen"/></e>
 
 
+
     <e lm="dat"><i>dat</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wie"><i>wie</i><par n="wie__rel"/></e><!-- this has like a million other meanings -->
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e><!-- this has like a million other meanings -->
@@ -9691,9 +9692,6 @@
 
     <e lm="varieer"><i>varieer</i><par n="breek__vblex"/></e>
     <e lm="varieer"><p><l>gevarieer</l><r>varieer</r></p><par n="gebreek__vblex"/></e>
-
-    <e lm="vasstel"><i>vasstel</i><par n="breek__vblex"/></e>
-    <e lm="vasstel"><p><l>gevasstel</l><r>vasstel</r></p><par n="gebreek__vblex"/></e>
 
 
     <e lm="veg"><i>veg</i><par n="breek__vblex"/></e>
