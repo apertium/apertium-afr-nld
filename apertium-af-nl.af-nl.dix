@@ -2481,7 +2481,7 @@
     <e><p><l>swaartekrag<s n="n"/></l><r>zwaartekracht<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>swakheid<s n="n"/></l><r>zwakte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>swangerskap<s n="n"/></l><r>zwangerschap<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>sweep<s n="n"/></l><r>veeg<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sweep<s n="n"/></l><r>veeg<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>syfer<s n="n"/></l><r>cijfer<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>taalkundige<s n="n"/></l><r>taalkundige<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tafelblad<s n="n"/></l><r>tafelblad<s n="n"/><s n="nt"/></r></p></e>
@@ -4092,7 +4092,7 @@
 	<e><p><l>duur<s n="adj"/></l><r>duur<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>steen<s n="adj"/></l><r>stenen<s n="adj"/></r></p></e>
 	<e><p><l>datgeen<s n="adj"/></l><r>datgeen<s n="adj"/></r></p></e>
-	<e><p><l>onbedagsaam<s n="adj"/></l><r>onbedachtzaam<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>onbedagsaam<s n="adj"/><s n="sint"/></l><r>onbedachtzaam<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>hout<s n="adj"/></l><r>houten<s n="adj"/></r></p></e>
 	<e><p><l>eetbaar<s n="adj"/></l><r>eetbaar<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Belgies<s n="adj"/></l><r>Belgisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -5299,7 +5299,7 @@
 	<e><p><l>blyk<s n="vblex"/></l><r>blijken<s n="vblex"/></r></p></e>
 	<e><p><l>geld<s n="vblex"/></l><r>gelden<s n="vblex"/></r></p></e>
 	<e><p><l>promoveer<s n="vblex"/></l><r>promoveren<s n="vblex"/></r></p></e>
-	<e><p><l>oorneem<s n="vblex"/></l><r>overnemen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>oorneem<s n="vblex"/><s n="sep"/></l><r>overnemen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>sit<s n="vblex"/></l><r>zetten<s n="vblex"/></r></p></e>
 	<e><p><l>plek<s n="vblex"/></l><r>plaatsen<s n="vblex"/></r></p></e>
 	<e><p><l>ry<s n="vblex"/></l><r>rijden<s n="vblex"/></r></p></e>

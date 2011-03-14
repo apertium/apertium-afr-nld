@@ -1118,6 +1118,7 @@
     </pardef>
     <pardef n="dieselfde__prn">
       <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e>       <p><l/><r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l/><r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
