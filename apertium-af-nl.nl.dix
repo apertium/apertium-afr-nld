@@ -394,7 +394,7 @@
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>moete</l><r>moeten<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>gemoeten</l><r>moeten<s n="vbmod"/><s n="pp"/></r></p></e>
+      <!--<e>       <p><l>gemoeten</l><r>moeten<s n="vbmod"/><s n="pp"/></r></p></e>-->
     </pardef>
 
     <pardef n="/kunnen__vbmod">
@@ -412,7 +412,7 @@
       <e>       <p><l>kon</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>konden</l><r>kunnen<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>gekund</l><r>kunnen<s n="vbmod"/><s n="pp"/></r></p></e>
+      <!--<e>       <p><l>gekund</l><r>kunnen<s n="vbmod"/><s n="pp"/></r></p></e>-->
     </pardef>
 
     <pardef n="/mogen__vbmod">
@@ -437,7 +437,7 @@
       <e>       <p><l>moge</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>mogen</l><r>mogen<s n="vbmod"/><s n="prs"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>gemogen</l><r>mogen<s n="vbmod"/><s n="pp"/></r></p></e>
+      <!--<e>       <p><l>gemogen</l><r>mogen<s n="vbmod"/><s n="pp"/></r></p></e>-->
     </pardef>
 
     <pardef n="/willen__vaux">
@@ -460,12 +460,12 @@
       <e r="LR"><p><l>wou</l><r>willen<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>wouden</l><r>willen<s n="vaux"/><s n="past"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>gewild</l><r>willen<s n="vaux"/><s n="pp"/></r></p></e>
+      <!--<e>       <p><l>gewild</l><r>willen<s n="vaux"/><s n="pp"/></r></p></e>-->
     </pardef>
 
     <pardef n="/zullen__vaux">
       <e>       <p><l>zullen</l><r>zullen<s n="vaux"/><s n="inf"/></r></p></e>
-      <e>       <p><l>zullend</l><r>zullen<s n="vaux"/><s n="pprs"/></r></p></e>
+      <!--<e>       <p><l>zullend</l><r>zullen<s n="vaux"/><s n="pprs"/></r></p></e>-->
 
       <e>       <p><l>zal</l><r>zullen<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>zult</l><r>zullen<s n="vaux"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6893,9 +6893,9 @@
 
     <pardef n="km__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e><p><l>'s</l><r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
       <e>       <p><l></l><r><s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>'s</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+      <e><p><l>'s</l><r><s n="n"/><s n="acr"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="corp/us__n_nt">
@@ -10206,9 +10206,9 @@
     </pardef>
 
     <pardef n="ve/eg__n_mf">
-      <e>       <p><l>eg</l><r>eg<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e>       <p><l>eg</l><r>eg<s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e><p><l>egs</l><r>eg<s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
-      <e>       <p><l>gen</l><r>eg<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l>gen</l><r>eg<s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
       <e><p><l>gens</l><r>eg<s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 

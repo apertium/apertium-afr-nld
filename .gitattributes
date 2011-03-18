@@ -71,7 +71,9 @@ dev/verbSep.txt -text
 /nl-af-unsupervised.make -text
 /nl-af.prob -text svneol=unset#unset
 nl/apertium-af-nl.nl.dix.full -text
+nl/trimDict.py -text
 nl/update.sh -text
+nl/update_n.sh -text
 paper/COMMENTS -text
 paper/Makefile -text
 paper/apertium2.pdf -text
