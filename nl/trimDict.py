@@ -31,4 +31,16 @@ for line in exp:
             posFileDict['cnj'].writelines(fulldixDict.get((lemma, pos),""))
         else:
             posFileDict['otr'].writelines(fulldixDict.get((lemma, pos),""))
-    #fulldixDict[(lemma, pos)] = ""
+
+#For which lemma's don't match.
+lemPosList = [('subject pronouns','prn'),('object pronouns','prn'),
+              ('reflexive pronouns','prn'),
+              ('object\'unstressed\' pronouns','prn')]
+for pair in lemPosList:
+    try:
+        posFileDict[pair[1]].writelines(fulldixDict.get(pair,""))
+    except KeyError:
+        if pos == 'cnjcoo' or pos == 'cnjsub' or pos == 'cnjadv':
+            posFileDict['cnj'].writelines(fulldixDict.get(pair,""))
+        else:
+            posFileDict['otr'].writelines(fulldixDict.get(pair,""))    
