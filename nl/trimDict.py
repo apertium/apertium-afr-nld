@@ -35,7 +35,7 @@ for line in exp:
 #For which lemma's don't match.
 lemPosList = [('subject pronouns','prn'),('object pronouns','prn'),
               ('reflexive pronouns','prn'),
-              ('object\'unstressed\' pronouns','prn')]
+              ('object \'unstressed\' pronouns','prn')]
 for pair in lemPosList:
     try:
         posFileDict[pair[1]].writelines(fulldixDict.get(pair,""))
