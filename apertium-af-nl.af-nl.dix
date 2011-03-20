@@ -3139,6 +3139,7 @@
     <e><p><l>rog<s n="n"/></l><r>rog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>romp<s n="n"/></l><r>romp<s n="n"/><s n="m"/></r></p></e>
 
+
     <e><p><l>ruiter<s n="n"/></l><r>ruiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ski<s n="n"/></l><r>ski<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spook<s n="n"/></l><r>spook<s n="n"/><s n="nt"/></r></p></e>
@@ -4999,7 +5000,7 @@
 	<e><p><l>met<b/>name<s n="adv"/></l><r>met<b/>name<s n="adv"/></r></p></e>
 	<e><p><l>eer<s n="adv"/></l><r>ervoor<s n="adv"/></r></p></e>
 	<e><p><l>met<b/>behulp<b/>van<s n="adv"/></l><r>met<b/>behulp<b/>van<s n="adv"/></r></p></e>
-	<e r="RL"><p><l>toe<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
+	<e><p><l>toe<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
 	<e><p><l>veral<s n="adv"/></l><r>vooral<s n="adv"/></r></p></e>
 	<e><p><l>alleen<s n="adv"/></l><r>alleen<s n="adv"/></r></p></e>
 	<e r="RL"><p><l>baie<s n="adv"/></l><r>zeer<s n="adv"/></r></p></e>
@@ -5253,7 +5254,6 @@
     <e><p><l>vandag<s n="adv"/></l><r>vandaag<s n="adv"/></r></p></e>
     <e><p><l>dus<s n="adv"/></l><r>dus<s n="adv"/></r></p></e>
 
-    <e><p><l>toe<s n="adv"/></l><r>toe<s n="adv"/></r></p></e>
     <e><p><l>soms<s n="adv"/></l><r>soms<s n="adv"/></r></p></e>
     <e><p><l>verder<s n="adv"/></l><r>verder<s n="adv"/></r></p></e>
     <e><p><l>meestal<s n="adv"/></l><r>meestal<s n="adv"/></r></p></e>

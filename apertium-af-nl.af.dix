@@ -1694,6 +1694,7 @@
     <!-- SECTION: Adverbs -->
 	
 	<e lm="mede"><i>mede</i><par n="miskien__adv"/></e>	
+	<e lm="toe"><i>toe</i><par n="miskien__adv"/></e>	
 	<e lm="eer"><i>eer</i><par n="miskien__adv"/></e>	
 	<e lm="waardeur"><i>waardeur</i><par n="miskien__adv"/></e>	
 	<e lm="vas"><i>vas</i><par n="miskien__adv"/></e>	
@@ -2007,8 +2008,7 @@
     <e lm="só"><i>só</i><par n="taamlik__preadv"/></e>
 
     <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
-   
-    <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
+
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
     <e lm="hoekom"><i>hoekom</i><par n="hoe__adv"/></e>
     
