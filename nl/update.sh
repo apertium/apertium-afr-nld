@@ -30,4 +30,4 @@ echo "</section>" >> $DIX
 T=`expr $LENGTH - $TAIL`;
 tail -n $T apertium-af-nl.nl.dix.full >> $DIX;
 
-cp nl.dix ../apertium-af-nl.nl2.dix
+cp nl.dix ../apertium-af-nl.nl.dix
