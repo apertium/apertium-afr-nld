@@ -7185,9 +7185,9 @@
     </pardef>
 
     <pardef n="el__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
-      <e><p><l>len</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>len</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
       <e><p><l>lens</l><r><s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
@@ -7902,7 +7902,7 @@
       <e>       <p><l>en</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
       <e><p><l>ens</l><r><s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
       <e r="LR"><p><l>s</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
-      <e><p><l>s'</l><r><s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+      <e r="LR"><p><l>s'</l><r><s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="biogra/af__n_m">
