@@ -6881,6 +6881,11 @@
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
     </pardef>
 	<!-- SECTION: NOUNS -->
+    <pardef n="Olympische Spelen__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
     <pardef n="v.Chr.__n_mf">
       <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -13609,6 +13614,7 @@
     <e lm="politiek"><i>politiek</i><par n="eb__n_f"/></e>
     <e lm="campagne"><i>campagne</i><par n="hui__n_mf"/></e>
     <e lm="voetbalafdeling"><i>voetbalafdeling</i><par n="vering__n_f"/></e>
+    <e lm="Olympische Spelen"><i>Olympische<b/>Spelen</i><par n="Olympische Spelen__n_m"/></e>
     <e lm="bijbel"><i>bijbel</i><par n="led__n_m"/></e>
     <!--<e lm="bijbel"><i>bijbel</i><par n="geluidstape__n_m"/></e>-->
     <e lm="oprichting"><i>oprichting</i><par n="vering__n_f"/></e>
@@ -16695,6 +16701,7 @@
     <!--<e lm="a"><i>a</i><par n="a__n_f"/></e>-->
     <!--<e lm="a"><i>a</i><par n="a__n_m"/></e>-->
     <e lm="e"><i>e</i><par n="e__n_f"/></e>
+    <e lm="UTC"><i>UTC</i><par n="mnr__n_m"/></e>
     <e lm="km"><i>km</i><par n="km__n_m"/></e>
     <e lm="nm"><i>nm</i><par n="km__n_m"/></e>
     <e lm="cm"><i>cm</i><par n="km__n_m"/></e>

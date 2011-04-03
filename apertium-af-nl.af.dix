@@ -385,7 +385,7 @@
       <e>       <p><l>gs</l><r>g<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>g</l><r>g<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
       <e>       <p><l>ë</l><r>g<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
-      <e>       <p><l>ëer</l><r>g<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
+      <e>       <p><l>ër</l><r>g<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e>
       <e>       <p><l>gste</l><r>g<s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
@@ -2443,6 +2443,7 @@
     <e lm="uitbeelding"><i>uitbeelding</i><par n="artikel__n"/></e>
     <e lm="uitreiking"><i>uitreiking</i><par n="artikel__n"/></e>
     <e lm="uitrusting"><i>uitrusting</i><par n="artikel__n"/></e>
+
     <e lm="uitstraling"><i>uitstraling</i><par n="artikel__n"/></e>
     <e lm="uitvoering"><i>uitvoering</i><par n="artikel__n"/></e>
     <e lm="uitwerking"><i>uitwerking</i><par n="artikel__n"/></e>
@@ -2783,14 +2784,15 @@
     <e lm="ID"><i>ID</i><par n="DNA__n"/></e>
     <e lm="SAL"><i>SAL</i><par n="DNA__n"/></e><!-- Suid-Afrikaanse Lugdiens  -->
     <e lm="EU"><i>EU</i><par n="EU__n"/></e>
-	<e lm="VSA"><i>VSA</i><par n="EU__n"/></e>
+    <e lm="UTC"><i>UTC</i><par n="EU__n"/></e>
+    <e lm="VSA"><i>VSA</i><par n="EU__n"/></e>
     <e lm="URL"><i>URL</i><par n="DNA__n"/></e>
-	<e lm="WK"><i>WK</i><par n="DNA__n"/></e>
+    <e lm="WK"><i>WK</i><par n="DNA__n"/></e>
     <e lm="WWW"><i>WWW</i><par n="EU__n"/></e>
     <e lm="TV"><i>TV</i><par n="DNA__n"/></e>
-	<e lm="cc"><i>cc</i><par n="DNA__n"/></e>
-	<e lm="FC"><i>FC</i><par n="DNA__n"/></e>
-    <e lm="mm"><i>mm</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
+    <e lm="cc"><i>cc</i><par n="DNA__n"/></e>
+    <e lm="FC"><i>FC</i><par n="DNA__n"/></e>
+    <e lm="mm"><i>mm</i><par n="DNA__n"/></e><!-- milimetres ~ still acr. -->
     <e lm="km"><i>km</i><par n="DNA__n"/></e><!-- kilometres ~ still acr. -->
     <e lm="cm"><i>cm</i><par n="DNA__n"/></e><!-- centimetres ~ still acr. -->
     <e lm="m"><i>m</i><par n="DNA__n"/></e><!-- metres ~ still acr. -->
@@ -2991,6 +2993,7 @@
 
 
     <e lm="polisie"><i>polisie</i><par n="polisie__n"/></e>
+    <e lm="Olimpiese Spele"><i>Olimpiese<b/>Spele</i><par n="polisie__n"/></e>
     <e lm="medium"><i>medium</i><par n="medi/um__n"/></e>
     <e lm="klere"><i>klere</i><par n="polisie__n"/></e>
     <e lm="personeel"><i>personeel</i><par n="aalwyn__n"/></e>

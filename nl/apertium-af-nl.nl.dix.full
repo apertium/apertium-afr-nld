@@ -6881,6 +6881,11 @@
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
     </pardef>
 	<!-- SECTION: NOUNS -->
+    <pardef n="Olympische Spelen__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
     <pardef n="v.Chr.__n_mf">
       <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -15839,6 +15844,7 @@
     <e lm="v.Chr"><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
     <e lm="v.Chr" r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>
 
+    <e lm="UTC"><i>UTC</i><par n="mnr__n_m"/></e>
     <e lm="km"><i>km</i><par n="km__n_m"/></e>
     <e lm="mm"><i>mm</i><par n="km__n_m"/></e>
     <e lm="nm"><i>nm</i><par n="km__n_m"/></e>
@@ -24471,6 +24477,7 @@
     <e lm="overheidsinterventie"><i>overheidsinterventie</i><par n="roe__n_f"/></e>
     <e lm="overheidspolitiek"><i>overheidspolitiek</i><par n="eb__n_f"/></e>
     <e lm="vriendjespolitiek"><i>vriendjespolitiek</i><par n="eb__n_f"/></e>
+    <e lm="Olympische Spelen"><i>Olympische<b/>Spelen</i><par n="Olympische Spelen__n_m"/></e>
     <e lm="overhemd"><i>overhemd</i><par n="lot__n_nt"/></e>
     <e lm="overheveling"><i>overheveling</i><par n="eb__n_f"/></e>
     <e lm="overhoring"><i>overhoring</i><par n="vering__n_f"/></e>

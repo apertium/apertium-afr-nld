@@ -619,6 +619,7 @@
     <e><p><l>politiek<s n="n"/></l><r>politiek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>veldtog<s n="n"/></l><r>campagne<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>sokkerafdeling<s n="n"/></l><r>voetbalafdeling<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Olimpiese<b/>Spele<s n="n"/></l><r>Olympische<b/>Spelen<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bybel<s n="n"/></l><r>bijbel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oprigting<s n="n"/></l><r>oprichting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sensus<s n="n"/></l><r>volkstelling<s n="n"/><s n="f"/></r></p></e>
@@ -3140,6 +3141,7 @@
     <e><p><l>romp<s n="n"/></l><r>romp<s n="n"/><s n="m"/></r></p></e>
 
 
+
     <e><p><l>ruiter<s n="n"/></l><r>ruiter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ski<s n="n"/></l><r>ski<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>spook<s n="n"/></l><r>spook<s n="n"/><s n="nt"/></r></p></e>
@@ -3701,6 +3703,7 @@
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>e<s n="n"/></l><r>e<s n="n"/><s n="f"/></r></p></e>
 
+    <e><p><l>UTC<s n="n"/><s n="acr"/></l><r>UTC<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>km<s n="n"/><s n="acr"/></l><r>km<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>nm<s n="n"/><s n="acr"/></l><r>nm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
     <e><p><l>cm<s n="n"/><s n="acr"/></l><r>cm<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
@@ -4768,6 +4771,7 @@
     <e><p><l>onekonomies<s n="adj"/></l><r>oneconomisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geredigeer<s n="adj"/></l><r>geredigeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>gemotiveer<s n="adj"/></l><r>gemotiveerd<s n="adj"/><s n="sint"/></r></p></e>
+
     <e><p><l>gekopieer<s n="adj"/></l><r>gekopieerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>geklassifiseer<s n="adj"/></l><r>geklassificeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>oorspronklik<s n="adj"/></l><r>oorspronkelijk<s n="adj"/><s n="sint"/></r></p></e>
