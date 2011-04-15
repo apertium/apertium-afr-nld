@@ -14540,6 +14540,7 @@
     <e lm="genetisch"><i>genetisch</i><par n="taps__adj"/></e>
     <e lm="geniaal"><i>genia</i><par n="ka/al__adj_sint"/></e>
     <e lm="genoemd"><i>genoemd</i><par n="nipt__adj"/></e>
+    <e lm="laatstgenoemd"><i>laatstgenoemd</i><par n="nipt__adj"/></e>
     <e lm="geodetisch"><i>geodetisch</i><par n="taps__adj"/></e>
     <e lm="geografisch"><i>geografisch</i><par n="taps__adj"/></e>
     <e lm="geologisch"><i>geologisch</i><par n="gans__adj"/></e>
@@ -15920,7 +15921,8 @@
     <e lm="Afghaan"><i>Afgha</i><par n="ma/an__n_m"/></e>
     <e lm="Afghaanse"><i>Afghaanse</i><par n="rune__n_f"/></e>
     <e lm="Afrihili"><i>Afrihili</i><par n="platina__n_nt"/></e>
-    <e lm="Afrikaan"><i>Afrikaan</i><par n="eb__n_m"/></e>
+    <e lm="Afrikaan"><i>Afrika</i><par n="ma/an__n_m"/></e>
+    <e lm="Afrikaner"><i>Afrikaner</i><par n="led__n_m"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="nieuws__n_nt"/></e>
     <e lm="Agatu"><i>Agatu</i><par n="platina__n_nt"/></e>
     <e lm="Aguaruna"><i>Aguaruna</i><par n="platina__n_nt"/></e>
@@ -16769,6 +16771,7 @@
     <e lm="WO"><i>WO</i><par n="WO__n_nt"/></e>
     <e lm="WSW'er"><i>WSW'er</i><par n="led__n_m"/></e>
     <e lm="Waal"><i>Wa</i><par n="ta/al__n_m"/></e>
+    <e lm="kardinaal"><i>kardina</i><par n="ta/al__n_m"/></e>
     <e lm="Waals"><i>Waals</i><par n="nieuws__n_nt"/></e>
     <e lm="Wallisiaans"><i>Wallisiaans</i><par n="nieuws__n_nt"/></e>
     <e lm="Wampar"><i>Wampar</i><par n="OV__n_nt"/></e>
@@ -30030,6 +30033,7 @@
     <e lm="aankondigen"><p><l>aangekondigd</l><r>aankondigen</r></p><par n="gesproken__vblex_sep"/></e>
 
 
+
     <e lm="aanmoedigen"><i>aanmoedig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="aanmoedigen"><p><l>moedig</l><r>aanmoedig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanmoedigen"><p><l>aangemoedigd</l><r>aanmoedigen</r></p><par n="gesproken__vblex_sep"/></e>
@@ -30108,6 +30112,12 @@
     <e lm="aannemen"><i>aann</i><par n ="aann/emen__vblex_sep"/></e>
     <e lm="aannemen"><p><l>n</l><r>aann</r></p><par n="n/emen#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aannemen"><p><l>aangenomen</l><r>aannemen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="waarnemen"><i>waarn</i><par n ="aann/emen__vblex_sep"/></e>
+    <e lm="waarnemen"><p><l>n</l><r>waarn</r></p><par n="n/emen#_aan__vblex_sep"/><p><l><b/>waar</l><r></r></p></e>
+    <e lm="waarnemen"><p><l>waargenomen</l><r>waarnemen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="deelnemen"><i>deeln</i><par n ="aann/emen__vblex_sep"/></e>
+    <e lm="deelnemen"><p><l>n</l><r>deeln</r></p><par n="n/emen#_aan__vblex_sep"/><p><l><b/>deel</l><r></r></p></e>
+    <e lm="deelnemen"><p><l>deelgenomen</l><r>deelnemen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanplanten"><i>aanplant</i><par n ="aanplant/en__vblex_sep"/></e>
     <e lm="aanplanten"><p><l>plant</l><r>aanplant</r></p><par n="plant/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanplanten"><p><l>aangeplant</l><r>aanplanten</r></p><par n="gesproken__vblex_sep"/></e>
