@@ -84,5 +84,8 @@ paper/eamt11afnl.tex -text
 paper/gb4e.sty -text
 paper/linguex.sty -text
 paper/linguho.sty -text
+paper/poster/Makefile -text
+paper/poster/a0header.ps -text
+paper/poster/eamt2011_poster.tex -text
 /pending-tests.sh -text
 /wiki-tests.sh -text
