@@ -49,10 +49,10 @@
 % make the box for the address smaller by the same amount.
 \begin{minipage}[b]{0.65\linewidth} 
 \veryHuge \bf 
-\textsf{Rule-based Breton to French machine translation}
+\textsf{Rapid rule-based machine translation between Dutch and Afrikaans}
 \\[1cm]
-\huge \bf Francis M. Tyers,\\
-\huge \rm Universitat d'Alacant
+\huge \bf Pim Otte, Francis M. Tyers,\\
+\huge \rm Mendelcollege, Universitat d'Alacant
 \end{minipage}
 % Make box 0.35 X width of poster for address  
 \begin{minipage}[b]{0.35\linewidth} 
@@ -94,128 +94,85 @@ Spain\\
 
 \section{Introduction}
 
-\begin{center}
-\begin{minipage}[b]{20cm}
-\centering
-\includegraphics[width=170mm]{bzh_izel_uhel.pdf}
-\end{minipage}\\
-\vspace{0.5cm}
-\textbf{Figure 1:} Map of \emph{Breizh} (Brittany), with the traditionally Breton-speaking area, \emph{Breizh-Izel} (Lower Brittany) 
-in the west.
-\end{center}
-\vspace{1.0cm}
-
 \noindent
-Breton is a Celtic language of the Brythonic branch largely spoken in Brittany in the north-west
-of France. Historically it was spoken only in the north-western part of Brittany, \textbf{Breizh-Izel} 
-(Lower Brittany). In \textbf{Breizh-Uhel} (Higher Brittany), traditionally Romance languages are spoken.
+{\bf Dutch} is a West-Germanic language spoken by nearly 23 million people, mostly from the 
+Netherlands and Flanders. {\bf Afrikaans} is spoken by at least 5 million people, mainly in 
+South-Africa,but also in Namibia. Afrikaans is a variety of Dutch that originates from that 
+spoken by the the Dutch colonists of the Cape Colony. In 1925 Afrikaans replaced Dutch as
+an official language in South-Africa, to be the joint official language together with English.
 
 \vspace{1.5cm}
-\begin{center}
-\begin{tabular}{c|c|c|c|c}
-\hline
-{\bf Breton}  & {\bf Welsh}      & {\bf Irish}  & {\bf French} & {\bf English}\\
-\hline
-ti      & t\^y       & teach   & maison & house \\
-dour    & d\^wr      & uisce   & eau & water \\
-mab     & mab        & mac     & fils & son \\
-penn    & pen        & ceann   & tête & head \\
-%%%%ki      & ci         & cù      & chien & dog \\
-aval    & afal       & ubhal   & pomme & apple \\ 
-amzer   & amser      & aimsir  & temps & time \\
-skrivañ & ysgrifennu & scríobh & écrire & write\\
-\hline
-\end{tabular}\\
-\vspace{0.5cm}
-\textbf{Table 1:} Comparative table of three Celtic languages, French and English
-\end{center}
-\vspace{0.5cm}
 
-\noindent
-According to \textbf{Ofis ar Brezhoneg}, the number of native speakers
-of Breton is around 188,000 as of May 2010. The number is decreasing at a rate of at 
-least one per hour, although the number of new speakers, as a result of bilingual education
-for children, in the form of \textbf{Diwan}, \textbf{Div Yezh} and \textbf{Dihun} schools 
-and adult education, has been increasing steadily since the 1970s.
-
-\vspace{0.7cm}
-
-\begin{center}
-\begin{minipage}[b]{20cm}
-\includegraphics[width=200mm]{breton_speakers.pdf}
-\end{minipage}\\
-\textbf{Figure 2:} The decline of the Breton speaking population 1900--2010
-\end{center}
-
-\subsection{Why Breton--French machine translation?}
-To provide broadly intelligible translations of Breton text for French speakers, enabling:
-
-\begin{itemize}
- \item French speakers to follow the news in the Breton-speaking community
- \item Communication in Breton without excluding those who do not speak it
- \begin{itemize}
-  \item Organisations to keep minutes and notes in Breton 
-  \item Breton speakers to maintain shared email conversations in Breton 
- \end{itemize}
-  \item Vocabulary assistance to learners of Breton 
-\end{itemize}
-
-%%Like other Celtic languages, Breton exhibits the phenomenon of initial consonant mutation. This occurs when
-%%the initial consonant of a word changes based on morpho-syntactic context. \\
-%%
-%%\begin{center}
-%%\begin{minipage}[b]{600pt}
-%%\noindent
-%%`father' $\rightarrow$ \emph{tad}\\
-%%`my father' $\rightarrow$ ma \emph{zad}\\
-%%`your father' $\rightarrow$ da \emph{dad}\\
-%%\end{minipage}\\
-%%\textbf{Figure 3:} The word \emph{tad} `father', example of initial consonant mutation
-%%\vspace{0.5cm}
-%%\end{center}
-%%
-
-\vspace{1.5cm}
-\section{Components}
+\section{Method}
 
 \noindent
 The system is based on {\bf Apertium} (\url{http://www.apertium.org/}), a free/open-source rule-based
-machine translation platform.\\
+machine translation platform. To create the language pair we used an existing resource and created 
+several new ones. \\
 
 \begin{center}
 \begin{minipage}[b]{26cm}
-\includegraphics[width=260mm]{apertium2brfr.pdf}
+\includegraphics[width=260mm]{apertium2.pdf}
 \end{minipage}\\
 \textbf{Figure 4:} Modules of the Apertium translation system
 \vspace{0.3cm}
 \end{center}
 
-\subsection{Morphological analysis}
+
+\vspace{1.5cm}
+
+\subsection{Existing resources}
 
 \noindent
-The Breton morphological analyser returns, for every Breton word, the 
-possible lexical forms (analyses) of the word. For the sentence \emph{Gallout a 
-ran ober an dra-se.} `I can do that [thing].'\\
+We reused the morphological transducer for Afrikaans, created during a currently dormant English-Afrikaans
+Machine Translation project.\\
 
-\begin{center}
-\begin{minipage}[b]{25cm}
-\begin{small}
-\begin{verbatim}
-^Gallout/Gallout<vblex><inf>$ 
-^a/a<pr>/a<vpart><subj>/mont<vblex><pri><p3><sg>$ 
-^ran/ober<vblex><pri><p1><sg>$ 
-^ober/ober<vblex><inf>/ober<n><m><sg>$ 
-^an/an<det><def><sp>/mont<vblex><pri><p1><sg>$ 
-^dra/tra<n><m><sg>$ 
-^-se/se<adv>$
-^./.<sent>$
-\end{verbatim}
-\end{small}
-\end{minipage}\\
-~\\
-\textbf{Figure 5:} Output of morphological analysis with a finite-state transducer
+\subsection{Resources created}
+
+\subsubsection{Dutch morphological transducer}
+A new Dutch morphological transducer was created, because existing ones were unsuitable for several reasons:
+
+\begin{itemize}
+ \item Non-free license
+ \item Not bidirectional
+ \item Tagset different from Afrikaans transducer
+\end{itemize}
+
 \vspace{0.5cm}
-\end{center}
+
+\noident
+The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
+morphological analyser were extracted semi-automatically from 
+Wiktionary, (\url{http://www.wiktionary.org}), which has entries like \ref{fig:wikt1}
+Closed categories were added by hand based on a grammar of Dutch.
+\vspace{0.5cm}
+
+\begin{figure}
+\centering
+\begin{tiny}
+\begin{tabular}{|l|}
+\hline
+{\large Dutch} \\
+~\\
+{\bf Etymology}\\
+~\\
+~{\em hoofd-} (``main, head'') + {\em stad} (``city'')\\
+~\\
+{\bf Pronunciation}\\
+~\\
+{\bf Noun}\\
+~\\
+{\bf hoofdstad} m. ({\em pl} hoofdsteden, {\em dimin} hoofdstadje, {\em dimin pl} hoofdstadjes) \\
+~\\
+~~~~1. capital city \\
+
+\hline
+\end{tabular}
+\end{tiny}
+\caption{English language Wiktionary article for Dutch \emph{hoofdstad} `capital city' 
+    {\small {http://en.wiktionary.org/wiki/hoofdstad}}}
+\label{fig:wikt1}
+\end{figure}
 \vspace{0.5cm}
 
 \noindent
@@ -498,3 +455,4 @@ work on the system.
 
 \end{multicols}
 \end{document}
+
