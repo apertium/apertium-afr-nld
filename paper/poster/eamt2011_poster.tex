@@ -100,8 +100,10 @@ Netherlands and Flanders. {\bf Afrikaans} is spoken by at least 5 million people
 South-Africa,but also in Namibia. Afrikaans is a variety of Dutch that originates from that 
 spoken by the the Dutch colonists of the Cape Colony. In 1925 Afrikaans replaced Dutch as
 an official language in South-Africa, to be the joint official language together with English.
+In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
+and Dutch machine-translation system
 
-\vspace{1.5cm}
+\vspace{0.5cm}
 
 \section{Method}
 
@@ -114,12 +116,12 @@ several new ones. \\
 \begin{minipage}[b]{26cm}
 \includegraphics[width=260mm]{apertium2.pdf}
 \end{minipage}\\
-\textbf{Figure 4:} Modules of the Apertium translation system
+\textbf{Figure 1:} Modules of the Apertium translation system
 \vspace{0.3cm}
 \end{center}
 
 
-\vspace{1.5cm}
+\vspace{0.5cm}
 
 \subsection{Existing resources}
 
@@ -143,317 +145,165 @@ A new Dutch morphological transducer was created, because existing ones were uns
 \noindent
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
-Wiktionary, (\url{http://www.wiktionary.org}), which has entries like \ref{fig:wikt1}
+Wiktionary, (\url{http://www.wiktionary.org}), which has entries like in {\bf Figure 2}
 Closed categories were added by hand based on a grammar of Dutch.
 \vspace{0.5cm}
 
-\begin{minipage}
-\begin{figure}
-\centering
-\begin{tiny}
-\begin{tabular}{|l|}
-\hline
-{\large Dutch} \\
-~\\
-{\bf Etymology}\\
-~\\
-~{\em hoofd-} (``main, head'') + {\em stad} (``city'')\\
-~\\
-{\bf Pronunciation}\\
-~\\
-{\bf Noun}\\
-~\\
-{\bf hoofdstad} m. ({\em pl} hoofdsteden, {\em dimin} hoofdstadje, {\em dimin pl} hoofdstadjes) \\
-~\\
-~~~~1. capital city \\
+\begin{center}
+\begin{minipage}[b]{26cm}
+\includegraphics[width=260mm]{hoofdstad.png}
+\end{minipage}\\
+\textbf{Figure 2:} Example of Wiktionary entry: Hoofdstad
+\label{wikt1}
+\vspace{0.3cm}
+\end{center}
 
-\hline
-\end{tabular}
-\end{tiny}
-\caption{English language Wiktionary article for Dutch \emph{hoofdstad} `capital city' 
-    {\small http://en.wiktionary.org/wiki/hoofdstad}}
-\label{fig:wikt1}
-\end{figure}
-\end{minipage}
+
 \vspace{0.5cm}
 
 \noindent
 The analyser has a coverage of between 87--90\% over two free corpora of Breton (Wikipedia and \emph{Bremaik}).
 
-\subsection{Part-of-speech tagging}
+\subsubsection{Bilingual dictionary}
 
 \noindent
-The part-of-speech tagging module for the system is based on two technologies, the first is 
-Constraint Grammar, which uses linguist-written rules to disambiguate
-morphologically ambiguous words based on sentence context. The second is a
-bigram HMM part-of-speech tagger.
-
-\subsubsection{Constraint grammar}
-
-\noindent
-The Breton constraint grammar has been written manually and contains 206 rules
-for disambiguating Breton sentences. \\
-
-\begin{center}
-\begin{minipage}[b]{25cm}
-\begin{small}
-\begin{verbatim}
-^Gallout/Gallout<vblex><inf>$    
-^a/a<vpart><subj>$                   SELECT:194
-^ran/ober<vblex><pri><p1><sg>$ 
-^ober/ober<vblex><inf>$              REMOVE:205
-^an/an<det><def><sp>$                REMOVE:322
-^dra/tra<n><m><sg>$ 
-^-se/se<adv>$
-^./.<sent>$
-\end{verbatim}
-\end{small}
-\end{minipage}\\
-~\\
-\textbf{Figure 6:} Morphological disambiguation with constraint grammar
-\vspace{0.5cm}
-\end{center}
-
-\noindent
-An extract from the constraint grammar rule set:\\
-
-\begin{small}
-\begin{verbatim}
-  # ex.  "Dav e vije"
-  SELECT:194 Vpart IF (1C VerbFin);
-
-  # ex.  "Ober a ra gwestell"
-  REMOVE:205 ("ober" n) IF (NOT -1 Det);
-
-  # ex.  "An dud a zeu da Roazhon"
-  REMOVE:322 VerbFin IF (0 Det) (1 NC);
-\end{verbatim}
-\end{small}
-
-\subsubsection{HMM-based tagger}
-
-\noindent
-The HMM-based tagger was trained on a database dump of the Breton Wikipedia (\url{http://br.wikipedia.org}) and
-chooses a single analysis where the constraint grammar does not perform a complete disambiguation.\\
-
-\subsection{Bilingual dictionary}
-
-\noindent
-The bilingual dictionary, or transfer lexicon contains mappings between lemmas,
-parts-of-speech and other tags. For example, to indicate to the transfer stage
-that gender and number need to be inserted, or to indicate a change in a feature.\\
-
-\begin{center}
-\begin{minipage}[b]{26cm}
-\begin{small}
-\begin{verbatim}
-<l>an<s n="det"/></l><r>le<s n="det"/></r><par n="sp_GDND"/>
-<l>se<s n="adv"/></l><r>ci<s n="adv"/></r>
-<l>tra<s n="n"/><s n="m"/></l><r>chose<s n="n"/><s n="f"/></r>
-<l>gallout<s n="vblex"/></l><r>pouvoir<s n="vbmod"/></r>
-<l>ober<s n="vblex"/></l><r>faire<s n="vblex"/></r>
-\end{verbatim}
-\end{small}
-\end{minipage}\\
-~\\
-\textbf{Figure 7:} Extract from the bilingual dictionary
-\vspace{0.3cm}
-\end{center}
+The bilingual dictionary was developed by adding exact matches, extracting proper names
+from Wikipedia, adding cognates, words which often have a small spelling difference and adding
+some entries by hand, such as closed categories and frequently missing words.
 
 \subsection{Transfer rules}
+Several transfer rules were added.
 
-\noindent
-The structural transfer process is split into three parts. Rules are written in XML (see example in Figure 9).
-
-\subsubsection{Chunker}
-
-\noindent
-Local transfer operations and chunking are performed by the first stage. The output in Figure 8 is generated by two rules.  The first takes a sequence of an infinitive verb, followed by a verbal particle and a form of 
-the auxiliary \emph{ober} `to do' and outputs the infinitive verb conjugated according 
-to the auxiliary. The second rule (see Figure 9) takes a sequence of determiner, followed by a noun and a 
-demonstrative adverb and outputs a demonstrative determiner followed by the noun.\\
-
-\begin{center}
-\begin{minipage}[b]{26cm}
-\begin{small}
-\begin{verbatim}
-^Verbcj<SV><vbmod><pri><p1><sg>{^pouvoir<vbmod><pri><4><5>$}$ 
-^faire<SV><vblex><inf><sg>{^faire<vblex><inf>$}$ 
-^det_nom<SN><f><sg>{^ce<det><dem><2><3>$ ^chose<n><2><3>$}$
-^punt<sent>{^.<sent>$}$
-\end{verbatim}
-\end{small}
-\end{minipage}\\
-~\\
-\textbf{Figure 8:} Output from the the first transfer stage
-\vspace{0.5cm}
-\end{center}
-\vspace{0.2cm}
+\subsubsection{Afrikaans to Dutch}
+An example of an Afrikaans to Dutch transfer rule, which handles the auxiliary verb, can be seen in
+{\bf Figure 3}
 
 \begin{center}
 \begin{minipage}[b]{25cm}
 \begin{small}
 \begin{verbatim}
-<rule comment="REGLA: an dra-se : cette chose">
-  <pattern>
-    <pattern-item n="det"/>
-    <pattern-item n="nom"/>
-    <pattern-item n="dem"/>
-  </pattern>
-  <action>
-    <call-macro n="f_concord2">
-      <with-param pos="2"/>
-      <with-param pos="1"/>
-    </call-macro>
-    <out>
-      <chunk name="det_nom">
-        <tags>
-          <tag><lit-tag v="SN"/></tag>
-          <tag><var n="genero"/></tag>
-          <tag><var n="numero"/></tag>
-        </tags>
-        <lu>
-          <lit v="ce"/>
-          <lit-tag v="det.dem"/>
-          <clip pos="1" side="tl" part="gen" link-to="2"/>
-          <clip pos="1" side="tl" part="nbr" link-to="3"/>
-        </lu>
-        <b pos="1"/>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-          <clip pos="2" side="tl" part="a_nom"/>
-          <clip pos="2" side="tl" part="gen" link-to="2"/>
-          <clip pos="2" side="tl" part="nbr" link-to="3"/>
-        </lu>
-      </chunk>
-    </out>
-  </action>
-</rule>
+    <rule comment="REGLA: nie">
+      <pattern>
+        <pattern-item n="nie"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <var n="seen_neg"/>
+                <lit v="true"/>
+              </equal>
+            </test>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="nie">
+                <tags>
+                  <tag><lit-tag v="ADV"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adv"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+        <let>
+         <var n="seen_neg"/>
+         <lit v="true"/>
+        </let>
+      </action>
+    </rule>
 \end{verbatim}
 \end{small}
 \end{minipage}\\
 ~\\
-\textbf{Figure 9:} Rule to translate a demonstrative noun phrase
+\textbf{Figure 3:} Transfer rule for the pattern "have + past participle"
 \vspace{0.5cm}
 \end{center}
-\vspace{0.2cm}
 
-\subsubsection{Interchunk}
-
-\noindent
-The second stage of transfer, \emph{interchunk} performs global operations between chunks. For example
-the insertion and concordance of a missing subject pronoun as in Figure 9.\\
+\subsubsection{Compound words}
+In both Afrikaans and Dutch words can combine very productively into compounds.
+{\small {\tt apertium-af-nl}} can handle compounds that consist of one or more nouns, 
+such as the one in {\bf Figure 4}. \\
 
 \begin{center}
 \begin{minipage}[b]{26cm}
 \begin{small}
 \begin{verbatim}
-^Prnperssubj<SN>{^je<prn><tn><p1><mf><sg>$}$ 
-^verbcj<SV><vbmod><pri><p1><sg>{^pouvoir<vbmod><pri><4><5>$}$ 
-^faire<SV><vblex><inf><sg>{^faire<vblex><inf>$}$ 
-^det_nom<SN><f><sg>{^ce<det><dem><2><3>$ ^chose<n><2><3>$}$
-^punt<sent>{^.<sent>$}$
+lugmag
+
+^lug<n><sg><cmp>+mag<n><sg>$
+
+^lucht<n><mf><sg><cmp>$^macht<n><mf><sg>$
+
+luchtmacht
 \end{verbatim}
 \end{small}
 \end{minipage}\\
-~\\
-\textbf{Figure 10:} Output from the second transfer stage
 \end{center}
+~\\
+\textbf{Figure 4:} Example of compound analysis: lugmag (air force)
 
-\subsubsection{Postchunk}
+
+
+\subsection{Seperable verbs}
 
 \noindent
-The third stage performs cleanup operations and merges linked 
-tags.\\
+The system can handle seperable verbs, which exist both in Afrikaans and Dutch, as
+long as there are no other phrases between the seperated parts.\\
 
-\begin{center}
+\section{Evaluation}
+\noindent
+We evaluated the system in several ways: Naïve coverage, compound analysis, qualitative, quantitative and comparative
+
+\subsection{Coverage}
+
+\noindent
+Naïve coverage was calculated over Wikipedia corpora.\\
+
+
 \begin{minipage}[b]{25cm}
-\begin{small}
-\begin{verbatim}
-^Je<prn><tn><p1><mf><sg>$ 
-^pouvoir<vbmod><pri><p1><sg>$ 
-^faire<vblex><inf>$ 
-^ce<det><dem><f><sg>$ ^chose<n><f><sg>$
-^.<sent>$
-\end{verbatim}
-\end{small}
-\end{minipage}\\
-~\\
-\textbf{Figure 11:} Output of the third stage of transfer 
-%\vspace{0.2cm}
-\end{center}
-
-\subsection{Morphological generator}
-
-\noindent
-The morphological generator for French takes a sequence of lexical forms and generates the appropriate surface forms. 
-\vspace{0.3cm}
 \begin{center}
-\begin{minipage}[b]{26cm}
-\begin{small}
-\begin{verbatim}
-  Je peux faire cette chose.
-\end{verbatim}
-\end{small}
+  \begin{tabular}{|l|r|r|}
+   \hline
+   {\bf Corpus}           & {\bf Tokens}    & {\bf Coverage}\\
+   \hline
+   {\tt af} Wikipedia     & 2,926,943       & 82.1\% $\pm$ 0.8 \\
+   \hline
+   {\tt nl} Wikipedia     & 18,569,183      & 80.5\% $\pm$ 0.7 \\
+   \hline
+  \end{tabular}
+    
+ \end{center}
+ \textbf{Table 1:} Na\"ive vocabulary coverage for the two morphological analysers.
 \end{minipage}\\
-\vspace{0.3cm}
-\textbf{Figure 12:} Output of the morphological generator
-\end{center}
 
-\section{Evaluation} 
-
+\subsection{Compound words}
 \noindent
-The evaluation used Word error rate (WER) and position-independent word error rate (PER).
-A corpus of 398 sentences (5,804 words) was extracted from the Bremaik archives. Sentences were extracted
-fitting the following conditions: No unknown words and between 5--30 words long. \\
+To test the accuracy of the compound word analysis, we marked words as correctly segmented and/or 
+correctly translated, this test was performed in the Afrikaans$\rightarrow$Dutch direction.
 
+\begin{minipage}[b]{25cm}
   \begin{center}
-  \begin{tabular}{l|r|r}
+  \begin{tabular}{|l|r|r|}
    \hline
-   {\bf Version }   & {\bf WER}  & {\bf PER}  \\
-   \hline 
-   \texttt{{\small word-for-word}} & 59\% & 39\% \\
-   \texttt{{\small apertium-br-fr 0.1}}        & 41\% & 23\% \\
-   \texttt{{\small apertium-br-fr 0.2}}        & 38\% & 22\% \\
+   {\bf Corpus}    & {\bf Corr. Seg.}    & {\bf Corr. Trans.}\\
    \hline
-  \end{tabular}\\
-~\\
-    \textbf{Table 2:} Word error rate and position-independent word error rate 
+   top-1,000       & 914                 &  776 \\ 
+   \hline
+   random-1,000    & 957                 &  801 \\ 
+   \hline
+  \end{tabular}
   \end{center}
-\vspace{0.5cm}
-The big difference in the scores for WER and PER is because only 
-local reordering is performed, constituent reordering is reserved for simple phrases.
+  \textbf{Table 2:} Compound word accuracy in analysis and translation.
+\end{minipage}\\
 
-\section{Future work}
 
-\noindent
-The performance of the system could be improved by:
 
-\begin{itemize}
-  \item Improving coverage 
-  \item Better source language disambiguation
-  \item Lexical selection
-  \item Deeper transfer
-\end{itemize}
-
-\section*{Acknowledgements}
-
-\noindent
-Funded by: Grup Transducens, Ofis ar Brezhoneg, and Prompsit Language Engineering.
-Many thanks to the Ofis ar Brezhoneg, in particular its director Fulup Jakez for his
-work on the system. 
-
-\flushright
-\begin{minipage}[b]{0.8\linewidth}
-% this is empty space
-%\includegraphics[width=7.8cm]{logoprompsit.pdf}\hspace{0.8cm}
-%\includegraphics[width=3.5cm]{logo_ofis_liv.pdf}\hspace{0.5cm}
-%\includegraphics[width=4.5cm]{apertium_open_box_box.pdf}
-\end{minipage}
-
-\vskip 0.1cm
-\hrule
-\vskip 0.1cm
 
 \end{multicols}
 \end{document}
