@@ -47,7 +47,7 @@
 % Make a box 0.55* width of poster for title and names
 % If your title is long, replace 0.55 with something bigger and 
 % make the box for the address smaller by the same amount.
-\begin{minipage}[b]{0.65\linewidth} 
+\begin{minipage}[b]{0.75\linewidth} 
 \veryHuge \bf 
 \textsf{Rapid rule-based machine translation between Dutch and Afrikaans}
 \\[1cm]
@@ -55,7 +55,7 @@
 \huge \rm Mendelcollege, Universitat d'Alacant
 \end{minipage}
 % Make box 0.35 X width of poster for address  
-\begin{minipage}[b]{0.35\linewidth} 
+\begin{minipage}[b]{0.25\linewidth} 
 \Large Departament de Llenguatges i Sistemes Inform\`{a}tics\\
 Universitat d'Alacant\\
 E-03071 Alacant\\
@@ -100,8 +100,16 @@ Netherlands and Flanders. {\bf Afrikaans} is spoken by at least 5 million people
 South-Africa,but also in Namibia. Afrikaans is a variety of Dutch that originates from that 
 spoken by the the Dutch colonists of the Cape Colony. In 1925 Afrikaans replaced Dutch as
 an official language in South-Africa, to be the joint official language together with English.
-In this paper we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
+On this poster we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
 and Dutch machine-translation system
+
+\begin{center}
+\begin{minipage}[b]{26cm}
+\includegraphics[width=260mm]{mapdutchworld.png}
+\end{minipage}\\
+\textbf{Figure 1:} Where Afrikaans or Dutch is spoken as official language.
+\vspace{0.3cm}
+\end{center}
 
 \vspace{0.5cm}
 
@@ -116,7 +124,7 @@ several new ones. \\
 \begin{minipage}[b]{26cm}
 \includegraphics[width=260mm]{apertium2.pdf}
 \end{minipage}\\
-\textbf{Figure 1:} Modules of the Apertium translation system
+\textbf{Figure 2:} Modules of the Apertium translation system
 \vspace{0.3cm}
 \end{center}
 
@@ -145,7 +153,7 @@ A new Dutch morphological transducer was created, because existing ones were uns
 \noindent
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
-Wiktionary, (\url{http://www.wiktionary.org}), which has entries like in {\bf Figure 2}
+Wiktionary, (\url{http://www.wiktionary.org}), which has entries like in {\bf Figure 3}
 Closed categories were added by hand based on a grammar of Dutch.
 \vspace{0.5cm}
 
@@ -153,16 +161,13 @@ Closed categories were added by hand based on a grammar of Dutch.
 \begin{minipage}[b]{26cm}
 \includegraphics[width=260mm]{hoofdstad.png}
 \end{minipage}\\
-\textbf{Figure 2:} Example of Wiktionary entry: Hoofdstad
+\textbf{Figure 3:} Example of Wiktionary entry: hoofdstad
 \label{wikt1}
 \vspace{0.3cm}
 \end{center}
 
 
 \vspace{0.5cm}
-
-\noindent
-The analyser has a coverage of between 87--90\% over two free corpora of Breton (Wikipedia and \emph{Bremaik}).
 
 \subsubsection{Bilingual dictionary}
 
@@ -176,7 +181,7 @@ Several transfer rules were added.
 
 \subsubsection{Afrikaans to Dutch}
 An example of an Afrikaans to Dutch transfer rule, which handles the auxiliary verb, can be seen in
-{\bf Figure 3}
+{\bf Figure 4}
 
 \begin{center}
 \begin{minipage}[b]{25cm}
@@ -221,14 +226,14 @@ An example of an Afrikaans to Dutch transfer rule, which handles the auxiliary v
 \end{small}
 \end{minipage}\\
 ~\\
-\textbf{Figure 3:} Transfer rule for the pattern "have + past participle"
+\textbf{Figure 4:} Transfer rule for handling negation.
 \vspace{0.5cm}
 \end{center}
 
 \subsubsection{Compound words}
 In both Afrikaans and Dutch words can combine very productively into compounds.
 {\small {\tt apertium-af-nl}} can handle compounds that consist of one or more nouns, 
-such as the one in {\bf Figure 4}. \\
+such as the one in {\bf Figure 5}. \\
 
 \begin{center}
 \begin{minipage}[b]{26cm}
@@ -246,11 +251,11 @@ luchtmacht
 \end{minipage}\\
 \end{center}
 ~\\
-\textbf{Figure 4:} Example of compound analysis: lugmag (air force)
+\textbf{Figure 5:} Example of compound analysis: lugmag (air force)
 
 
 
-\subsection{Seperable verbs}
+\subsubsection{Seperable verbs}
 
 \noindent
 The system can handle seperable verbs, which exist both in Afrikaans and Dutch, as
@@ -285,7 +290,7 @@ Naïve coverage was calculated over Wikipedia corpora.\\
 \subsection{Compound words}
 \noindent
 To test the accuracy of the compound word analysis, we marked words as correctly segmented and/or 
-correctly translated, this test was performed in the Afrikaans$\rightarrow$Dutch direction.
+correctly translated, this test was performed in the Afrikaans$\rightarrow$Dutch direction. \\
 
 \begin{minipage}[b]{25cm}
   \begin{center}
@@ -302,6 +307,96 @@ correctly translated, this test was performed in the Afrikaans$\rightarrow$Dutch
   \textbf{Table 2:} Compound word accuracy in analysis and translation.
 \end{minipage}\\
 
+\subsection{Quantitative}  
+\noindent
+The translation quality was measured using word error rate (WER). For this we used sets
+of 100 sentences from Wikipedia. The set C1 could not contain any unknown words, set C2 could. \\ 
+\begin{minipage}[b]{25cm}
+\begin{center}
+  \begin{tabular}{|l|l|r|r|}
+   \hline
+   {\bf Dir.} & {\bf System}             & {\bf C1}          & {\bf C2} \\ 
+   \hline
+   {af-nl}  & {\small Apertium}  & 16.625 $\pm$ 1.465 & 23.405 $\pm$ 1.235 \\
+            & {\small Google}  & {\bf 9.485 $\pm$ 1.115} & {\bf 10.575 $\pm$ 1.795} \\
+   \hline
+   {nl-af} & {\small Apertium }  & {\bf 15.435 $\pm$ 1.885}  & {\bf 21.72 $\pm$ 1.06} \\
+           & {\small Google }  & 21.81 $\pm$ 1.72& 	25.71 $\pm$ 1.22	\\
+
+   \hline
+  \end{tabular}
+    
+    \label{table:quan}
+  \end{center}
+	\textbf{Table 3:} Accuracy for the test corpora for the two systems as measured by Word Error Rate 
+        with 95\% confidence interval.
+\end{minipage}\\
+
+\subsection{Qualitative}
+To discover which areas of the system could use the most improvement we reviewed the translation errors
+in the Afrikaans$\rightarrow$Dutch direction and categorised them as in {\bf Table 4}. \\
+\begin{minipage}[b]{25cm}
+  \begin{center}
+  \begin{tabular}{|l|c|r|r|}
+     \hline
+     {\bf Error type}    & {\bf Count} & {\bf \% of total} \\
+     \hline
+     Syntactic transfer   & 235         & 42.4 \\
+     \hline
+     ~~~- Verb concordance & 99          & 17.9 \\
+     ~~~- Auxiliary verbs & 13          & 2.3 \\ 
+     ~~~- Relative pronoun& 11          & 2.0 \\
+     ~~~- Capitalisation  & 10          & 1.8 \\
+     ~~~- Chunking error  & 9           & 1.6 \\
+     ~~~- Other           & 93          & 16.8 \\
+     \hline
+     Unknown word         & 147         & 26.5 \\
+     Disambiguation       & 106         & 19.1 \\
+     Morphology           & 28          & 5.1 \\
+     Polysemy             & 23          & 4.2 \\
+     Multiword            & 6           & 1.1 \\
+     Compounding          & 6           & 1.1 \\
+     Separable verb       & 3           & 0.5 \\
+     \hline
+     Total                & 554         & 100 \\
+     \hline
+  \end{tabular}
+    
+  \end{center}  
+     \textbf{Table 4:} Contribution to total error by type. Syntactic transfer errors are split into 
+      further categories.
+    
+\end{minipage}\\
+
+\subsection{Quantitative}
+Finally, we compared {\small {\tt apertium-af-nl}} with Google translate, using WER. The results 
+are in {\bf Table 3}. {\bf Figure 6} is an example of an error, caused by wrong disambiguation. \\
+
+\begin{itemize}
+    \item[] Hier volg 'n lys van hoofstede. 
+    \item[] Hier {\em volgen} een lijst van hoofdsteden. 
+    \item[] Hier {\em volgt} een lijst van hoofdsteden.  
+    \item[] `Here follows a list of capital cities.' 
+\end{itemize}
+\textbf{Figure 6:} Example of disambiguation error.
+
+\section{Discussion}
+We have presented a bi-directional rule-based machine translation system between Dutch and Afrikaans.
+The system gives promising results and offers improvement in the Dutch$\rightarrow$Afrikaans direction
+over another public system, but does not offer improvement in quality in the other direction.
+
+\subsection{Future work}
+The three biggest issues in the system are:
+\begin{itemize}
+ \item Lack of dictionary coverage
+ \item Poor morphological disambiguation
+ \item Inssuficient syntactic transfer
+\end{itemize}
+
+\section*{Acknowledgements}
+Development of this system was partially supported by the Google Code-in,
+a contest to introduce pre-university students to contributing to open-source
+software. 
 
 
 

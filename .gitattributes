@@ -89,5 +89,6 @@ paper/poster/a0header.ps -text
 paper/poster/apertium2.pdf -text
 paper/poster/eamt2011_poster.tex -text
 paper/poster/hoofdstad.png -text
+paper/poster/mapdutchworld.png -text
 /pending-tests.sh -text
 /wiki-tests.sh -text
