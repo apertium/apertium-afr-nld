@@ -86,6 +86,7 @@ paper/linguex.sty -text
 paper/linguho.sty -text
 paper/poster/Makefile -text
 paper/poster/a0header.ps -text
+paper/poster/apertium.png -text
 paper/poster/apertium2.pdf -text
 paper/poster/eamt2011_poster.tex -text
 paper/poster/hoofdstad.png -text
