@@ -56,11 +56,9 @@
 \end{minipage}
 % Make box 0.35 X width of poster for address  
 \begin{minipage}[b]{0.25\linewidth} 
-\Large Departament de Llenguatges i Sistemes Inform\`{a}tics\\
-Universitat d'Alacant\\
-E-03071 Alacant\\
-Spain\\
-email: ftyers@prompsit.com
+\Large 
+Contact: 5666@mendelcollege.nl, ftyers@dlsi.ua.es \\
+
 \end{minipage}
 %% Make box 0.05*width of poster for EU Shield graphic
 %\begin{minipage}[b]{0.05\linewidth}
@@ -97,7 +95,7 @@ email: ftyers@prompsit.com
 \noindent
 {\bf Dutch} is a West-Germanic language spoken by nearly 23 million people, mostly from the 
 Netherlands and Flanders. {\bf Afrikaans} is spoken by at least 5 million people, mainly in 
-South-Africa,but also in Namibia. Afrikaans is a variety of Dutch that originates from that 
+South-Africa, but also in Namibia. Afrikaans also belongs to the West-Germanic language family and originates from the language 
 spoken by the the Dutch colonists of the Cape Colony. In 1925 Afrikaans replaced Dutch as
 an official language in South-Africa, to be the joint official language together with English.
 On this poster we will describe the development of {\small {\tt apertium-af-nl}}, a bi-directional Afrikaans 
@@ -144,7 +142,7 @@ A new Dutch morphological transducer was created, because existing ones were uns
 
 \begin{itemize}
  \item Non-free licence
- \item Not bidirectional
+ \item Not bidirectional (only analysis, not generation)
  \item Tagset different from Afrikaans transducer
 \end{itemize}
 
@@ -153,8 +151,8 @@ A new Dutch morphological transducer was created, because existing ones were uns
 \noindent
 The open categories (nouns, verbs, adjectives, adverbs) for the Dutch 
 morphological analyser were extracted semi-automatically from 
-Wiktionary, (\url{http://www.wiktionary.org}), which has entries like in {\bf Figure 3}
-Closed categories were added by hand based on a grammar of Dutch.
+Wiktionary, (\url{http://www.wiktionary.org}), which has entries like in {\bf Figure 3}. The resulting analyser entries were all hand checked.
+Closed categories were added by hand based on the grammar of Dutch of Shetter and Ham.
 \vspace{0.5cm}
 
 \begin{center}
@@ -254,11 +252,11 @@ luchtmacht
 
 
 
-\subsubsection{Seperable verbs}
+\subsubsection{Separable verbs}
 
 \noindent
-The system can handle seperable verbs, which exist both in Afrikaans and Dutch, as
-long as there are no other phrases between the seperated parts.\\
+The system can handle separable verbs, which exist both in Afrikaans and Dutch, as
+long as there are no other phrases between the separated parts.\\
 
 \section{Evaluation}
 \noindent
@@ -367,7 +365,7 @@ in the Afrikaans$\rightarrow$Dutch direction and categorised them as in {\bf Tab
     
 \end{minipage}\\
 
-\subsection{Quantitative}
+\subsection{Comparative}
 Finally, we compared {\small {\tt apertium-af-nl}} with Google translate, using WER. The results 
 are in {\bf Table 3}. {\bf Figure 6} is an example of an error, caused by wrong disambiguation. \\
 
@@ -379,23 +377,22 @@ are in {\bf Table 3}. {\bf Figure 6} is an example of an error, caused by wrong 
 \end{itemize}
 \textbf{Figure 6:} Example of disambiguation error.
 
-\section{Discussion}
+\section{Future work}
 We have presented a bi-directional rule-based machine translation system between Dutch and Afrikaans.
 The system gives promising results and offers improvement in the Dutch$\rightarrow$Afrikaans direction
 over another public system, but does not offer improvement in quality in the other direction.
 
-\subsection{Future work}
 The three biggest issues in the system are:
 \begin{itemize}
- \item Lack of dictionary coverage
- \item Poor morphological disambiguation
- \item Inssuficient syntactic transfer
+ \item Lack of dictionary coverage -- some common words are missing, such as kalender, rewolosie, binneland, silwer
+ \item Poor morphological disambiguation -- work is needed to be able to, e.g. distinguish better between present and infinitive in Afrikaans
+ \item Insufficient syntactic transfer -- separable constructions need more support, amongst which separable verbs and auxiliary verbs with participles.
 \end{itemize}
 
 \section*{Acknowledgements}
 Development of this system was partially supported by the Google Code-in,
 a contest to introduce pre-university students to contributing to open-source
-software. 
+software. This work has also received the support of the Spanish Ministry of Science and Innovation through project TIN2009-14009-C02-01.
 
 
 \includegraphics{apertium.png}
