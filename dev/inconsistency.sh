@@ -1,4 +1,3 @@
-#!/bin/bash
 TMPDIR=/tmp
 
 if [[ $1 = "nl-af" ]]; then
