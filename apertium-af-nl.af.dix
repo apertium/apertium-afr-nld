@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáéíóúýÁÉÍÓÚÝÅåÆæØøÞþÐð</alphabet>
 
@@ -1703,6 +1703,7 @@
 	<e lm="mede"><i>mede</i><par n="miskien__adv"/></e>
 	<e lm="omstreeks"><i>omstreeks</i><par n="miskien__adv"/></e>	
 	<e lm="toe"><i>toe</i><par n="miskien__adv"/></e>	
+	<e lm="daartoe"><i>daartoe</i><par n="miskien__adv"/></e>
 	<e lm="eer"><i>eer</i><par n="miskien__adv"/></e>	
 	<e lm="waardeur"><i>waardeur</i><par n="miskien__adv"/></e>	
 	<e lm="vas"><i>vas</i><par n="miskien__adv"/></e>	
@@ -2046,6 +2047,7 @@
 	<e lm="Duitser"><i>Duitser</i><par n="artikel__n"/></e>
 	<e lm="goewerneur"><i>goewerneur</i><par n="artikel__n"/></e>
 	<e lm="kanton"><i>kanton</i><par n="artikel__n"/></e>
+	<e lm="stadion"><i>stadion</i><par n="artikel__n"/></e>
 	<e lm="stuk"><i>stuk</i><par n="artikel__n"/></e>
 	<e lm="maan"><i>ma</i><par n="ba/an__n"/></e>
 	<e lm="Afrikaan"><i>Afrika</i><par n="ba/an__n"/></e>
@@ -2144,6 +2146,7 @@
     <e lm="miljoen"><i>miljoen</i><par n="bier__n"/></e>
     <e lm="sakekern"><i>sakekern</i><par n="bier__n"/></e>
     <e lm="gebou"><i>gebou</i><par n="bier__n"/></e>
+    <e lm="kerkgebou"><i>kerkgebou</i><par n="bier__n"/></e>
     <e lm="munisipaliteit"><i>munisipaliteit</i><par n="bier__n"/></e>
     <e lm="etnisiteit"><i>etnisiteit</i><par n="bier__n"/></e>
     <e lm="wond"><i>wond</i><par n="bier__n"/></e>
@@ -2294,6 +2297,7 @@
     <e lm="lepel"><i>lepel</i><par n="artikel__n"/></e>
     <e lm="teelepel"><i>teelepel</i><par n="artikel__n"/></e>
     <e lm="veroweraar"><i>veroweraar</i><par n="artikel__n"/></e>
+    <e lm="leraar"><i>leraar</i><par n="artikel__n"/></e>
     <e lm="indringer"><i>indringer</i><par n="artikel__n"/></e>
     <e lm="ingenieur"><i>ingenieur</i><par n="artikel__n"/></e>
     <e lm="samevatting"><i>samevatting</i><par n="artikel__n"/></e>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñ</alphabet>
    <sdefs>
@@ -20622,6 +20622,7 @@
     <e lm="geboorteplaats"><i>geboorteplaats</i><par n="zoneclips__n_mf"/></e>
     <e lm="geboorteregister"><i>geboorteregister</i><par n="eon__n_nt"/></e>
     <e lm="gebouw"><i>gebouw</i><par n="lot__n_nt"/></e>
+    <e lm="kerkgebouw"><i>kerkgebouw</i><par n="lot__n_nt"/></e>
     <e lm="gebrek"><i>gebrek</i><par n="OV__n_nt"/></e>
     <e lm="gebroed"><i>gebroed</i><par n="OV__n_nt"/></e>
     <e lm="gebruik"><i>gebruik</i><par n="lot__n_nt"/></e>

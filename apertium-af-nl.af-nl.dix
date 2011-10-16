@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <!-- Symbol definitions -->
@@ -2083,7 +2083,7 @@
     <e><p><l>mening<s n="n"/></l><r>mening<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mens<s n="n"/></l><r>mens<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mes<s n="n"/></l><r>mes<s n="n"/><s n="nt"/></r></p></e>
-    <e r="RL"><p><l>meter<s n="n"/></l><r>meter<s n="n"/><s n="f"/></r></p></e> <!-- godmother -->
+    <e><p><l>meter<s n="n"/></l><r>peetmoeder<s n="n"/><s n="f"/></r></p></e> <!-- godmother -->
     <e><p><l>meter<s n="n"/></l><r>meter<s n="n"/><s n="m"/></r></p></e> <!-- metre/meter -->
     <e><p><l>metode<s n="n"/></l><r>methode<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>middel<s n="n"/></l><r>middel<s n="n"/><s n="nt"/></r></p></e>
@@ -2168,6 +2168,7 @@
     <e><p><l>ondersoek<s n="n"/></l><r>onderzoek<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ondervinding<s n="n"/></l><r>ervaring<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>onderwyser<s n="n"/></l><r>leraar<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>leraar<s n="n"/></l><r>leraar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>onenigheid<s n="n"/></l><r>onenigheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ongelykheid<s n="n"/></l><r>ongelijkheid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>onsekerheid<s n="n"/></l><r>onzekerheid<s n="n"/><s n="f"/></r></p></e>
@@ -2444,6 +2445,7 @@
     <e><p><l>staatshoof<s n="n"/></l><r>staatshoofd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>staat<s n="n"/></l><r>staat<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stadium<s n="n"/></l><r>stadium<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>stadion<s n="n"/></l><r>stadion<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>staking<s n="n"/></l><r>staking<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stamgebied<s n="n"/></l><r>stam<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stamhoof<s n="n"/></l><r>stamhoofd<s n="n"/><s n="nt"/></r></p></e>
@@ -2762,6 +2764,7 @@
 
     <e><p><l>man<s n="n"/></l><r>man<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gebou<s n="n"/></l><r>gebouw<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>kerkgebou<s n="n"/></l><r>kerkgebouw<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>stad<s n="n"/></l><r>stad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>voorstad<s n="n"/></l><r>voorstad<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hoofstad<s n="n"/></l><r>hoofdstad<s n="n"/><s n="f"/></r></p></e>
@@ -5015,6 +5018,7 @@
 	<e><p><l>met<b/>name<s n="adv"/></l><r>met<b/>name<s n="adv"/></r></p></e>
 	<e><p><l>eer<s n="adv"/></l><r>ervoor<s n="adv"/></r></p></e>
 	<e><p><l>omstreeks<s n="adv"/></l><r>omstreeks<s n="adv"/></r></p></e>
+	<e><p><l>daartoe<s n="adv"/></l><r>ertoe<s n="adv"/></r></p></e>
 	<e><p><l>met<b/>behulp<b/>van<s n="adv"/></l><r>met<b/>behulp<b/>van<s n="adv"/></r></p></e>
 	<e><p><l>toe<s n="adv"/></l><r>toen<s n="adv"/></r></p></e>
 	<e><p><l>veral<s n="adv"/></l><r>vooral<s n="adv"/></r></p></e>

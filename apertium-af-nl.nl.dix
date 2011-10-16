@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñ</alphabet>
    <sdefs>
@@ -12651,6 +12651,7 @@
 	<e lm="met name"><i>met<b/>name</i><par n="es__adv"/></e>
 	<e lm="ervoor"><i>ervoor</i><par n="es__adv"/></e>
     <e lm="omstreeks"><i>omstreeks</i><par n="es__adv"/></e>
+    <e lm="ertoe"><i>ertoe</i><par n="es__adv"/></e>
 	<e lm="met behulp van"><i>met<b/>behulp<b/>van</i><par n="es__adv"/></e>
     <e lm="toen"><i>toen</i><par n="es__adv"/></e>
     <e lm="vooral"><i>vooral</i><par n="es__adv"/></e>
@@ -15090,8 +15091,7 @@
     <e lm="mens"><i>mens</i><par n="lot__n_nt"/></e>
     <e lm="mens"><i>mens</i><par n="zegekrans__n_m"/></e>
     <e lm="mes"><i>mes</i><par n="es__n_nt"/></e>
-    <e lm="meter"><i>meter</i><par n="led__n_m"/></e>
-    <e lm="meter"><i>meter</i><par n="roe__n_f"/></e>
+    <e lm="peetmoeder"><i>peetmoeder</i><par n="roe__n_f"/></e>
     <e lm="meter"><i>meter</i><par n="led__n_m"/></e>
     <e lm="meter"><i>meter</i><par n="roe__n_f"/></e>
     <e lm="methode"><i>methode</i><par n="made__n_f"/></e>
@@ -15175,6 +15175,7 @@
     <e lm="onderneming"><i>onderneming</i><par n="vering__n_f"/></e>
     <e lm="onderzoek"><i>onderzoek</i><par n="lot__n_nt"/></e>
     <e lm="ervaring"><i>ervaring</i><par n="vering__n_f"/></e>
+    <e lm="leraar"><i>lera</i><par n="lera/ar__n_m"/></e>
     <e lm="leraar"><i>lera</i><par n="lera/ar__n_m"/></e>
     <e lm="onenigheid"><i>onenighe</i><par n="oudhe/id__n_f"/></e>
     <e lm="ongelijkheid"><i>ongelijkhe</i><par n="oudhe/id__n_f"/></e>
@@ -15453,6 +15454,7 @@
     <e lm="staatshoofd"><i>staatshoofd</i><par n="lot__n_nt"/></e>
     <e lm="staat"><i>sta</i><par n="gra/at__n_m"/></e>
     <e lm="stadium"><i>stadi</i><par n="atri/um__n_nt"/></e>
+    <e lm="stadion"><i>stadion</i><par n="eon__n_nt"/></e>
     <e lm="staking"><i>staking</i><par n="vering__n_f"/></e>
     <e lm="stam"><i>stam</i><par n="kim__n_m"/></e>
     <e lm="stamhoofd"><i>stamhoofd</i><par n="lot__n_nt"/></e>
@@ -15772,6 +15774,7 @@
     <e lm="ijzer"><i>ijzer</i><par n="OV__n_nt"/></e>
     <e lm="man"><i>man</i><par n="ren__n_m"/></e>
     <e lm="gebouw"><i>gebouw</i><par n="lot__n_nt"/></e>
+    <e lm="kerkgebouw"><i>kerkgebouw</i><par n="lot__n_nt"/></e>
     <e lm="stad"><i>st</i><par n="st/ad__n_f"/></e>
     <e lm="voorstad"><i>voorst</i><par n="st/ad__n_f"/></e>
     <e lm="hoofdstad"><i>hoofdst</i><par n="st/ad__n_f"/></e>
