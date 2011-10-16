@@ -2083,8 +2083,8 @@
     <e><p><l>mening<s n="n"/></l><r>mening<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mens<s n="n"/></l><r>mens<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mes<s n="n"/></l><r>mes<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>meter<s n="n"/></l><r>peetmoeder<s n="n"/><s n="f"/></r></p></e> <!-- godmother -->
-    <e><p><l>meter<s n="n"/></l><r>meter<s n="n"/><s n="m"/></r></p></e> <!-- metre/meter -->
+    <e r="RL"><p><l>meter<s n="n"/></l><r>peetmoeder<s n="n"/><s n="f"/></r></p></e> <!-- godmother -->
+    <e><p><l>meter<s n="n"/></l><r>meter<s n="n"/><s n="mf"/></r></p></e> <!-- metre/meter -->
     <e><p><l>metode<s n="n"/></l><r>methode<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>middel<s n="n"/></l><r>middel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>militêr<s n="n"/></l><r>militair<s n="n"/><s n="m"/></r></p></e>
