@@ -2055,6 +2055,7 @@
 	<e lm="Latyn"><i>Latyn</i><par n="aalwyn__n"/></e>
 	<e lm="landbou"><i>landbou</i><par n="aalwyn__n"/></e>
 	<e lm="opstand"><i>opstand</i><par n="bier__n"/></e>
+	<e lm="bevel"><i>bevel</i><par n="bier__n"/></e>
 	<e lm="kans"><i>kans</i><par n="bier__n"/></e>
 	<e lm="Romein"><i>Romein</i><par n="bier__n"/></e>
 	<e lm="vriend"><i>vriend</i><par n="bier__n"/></e>
@@ -6022,10 +6023,12 @@
 	<e lm="baie"><i>baie</i><par n="swart__adj"/></e>
 	<e lm="vas"><i>vas</i><par n="swart__adj"/></e>
 	<e lm="druk"><i>druk</i><par n="dik__adj"/></e>
+	<e lm="swak"><i>swak</i><par n="dik__adj"/></e>
 	<e lm="vorig"><i>vorig</i><par n="dadelik__adj"/></e>
 	<e lm="aanwesig"><i>aanwesig</i><par n="dadelik__adj"/></e>
 	<e lm="vierkant"><i>vierkant</i><par n="dadelik__adj"/></e>
 	<e lm="Vlaams"><i>Vlaams</i><par n="dadelik__adj"/></e>
+	<e lm="Kelties"><i>Kelties</i><par n="dadelik__adj"/></e>
 	<e lm="destyds"><i>destyds</i><par n="dadelik__adj"/></e>
 	<e lm="ongetroud"><i>ongetroud</i><par n="dadelik__adj"/></e>
 	<e lm="jarig"><i>jarig</i><par n="dadelik__adj"/></e>
@@ -7101,6 +7104,9 @@
 	<e lm="deelneem"><i>deelneem</i><par n="aansien__vblex_sep"/></e>
 	<e lm="deelneem"><p><l>neem</l><r>deelneem</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>deel</l><r></r></p></e>
 	<e lm="deelneem"><p><l>deelgeneem</l><r>deelneem</r></p><par n="aangesien__vblex_sep"/></e>
+	<e lm="inlyf"><i>inlyf</i><par n="aansien__vblex_sep"/></e>
+	<e lm="inlyf"><p><l>lyf</l><r>inlyf</r></p><par n="sien#_aan__vblex_sep"/><p><l><b/>deel</l><r></r></p></e>
+	<e lm="inlyf"><p><l>ingelyf</l><r>inlyf</r></p><par n="aangesien__vblex_sep"/></e>
 	<e lm="aanvaar"><i>aanvaar</i><par n="ontwikkel__vblex"/></e>
 	<e lm="begrawe"><i>begrawe</i><par n="ontwikkel__vblex"/></e>
 	<e lm="dring"><i>dring</i><par n="breek__vblex"/></e>

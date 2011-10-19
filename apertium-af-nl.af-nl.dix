@@ -525,6 +525,8 @@
 	<e><p><l>Latyn<s n="n"/></l><r>Latijn<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>landbou<s n="n"/></l><r>landbouw<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>opstand<s n="n"/></l><r>opstand<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bevel<s n="n"/></l><r>bevel<s n="n"/><s n="nt"/></r></p></e>
+	<e r="RL"><p><l>bevel<s n="n"/></l><r>commando<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>bewind<s n="n"/></l><r>bewind<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>belang<s n="n"/></l><r>belang<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>strafdoel<s n="n"/></l><r>strafschop<s n="n"/><s n="m"/></r></p></e>
@@ -4118,6 +4120,7 @@
 	<e><p><l>eg<s n="adj"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/></r></p></e>
 	<e><p><l>Vlaams<s n="adj"/></l><r>Vlaams<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>Kelties<s n="adj"/></l><r>Keltisch<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Japannees<s n="adj"/></l><r>Japans<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Chinees<s n="adj"/></l><r>Chinees<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ander<s n="adj"/></l><r>ander<s n="adj"/></r></p></e>
@@ -4142,6 +4145,7 @@
 	<e><p><l>eintlik<s n="adj"/></l><r>eigenlijk<s n="adj"/></r></p></e>
 	<e><p><l>juis<s n="adj"/></l><r>juist<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>druk<s n="adj"/><s n="sint"/></l><r>druk<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>swak<s n="adj"/><s n="sint"/></l><r>zwak<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>vorig<s n="adj"/></l><r>vorig<s n="adj"/></r></p></e>
 	<e><p><l>antiek<s n="adj"/></l><r>antiek<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Christelik<s n="adj"/></l><r>christelijk<s n="adj"/><s n="sint"/></r></p></e>
@@ -5324,6 +5328,7 @@
 	<e><p><l>oorneem<s n="vblex"/><s n="sep"/></l><r>overnemen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>waarneem<s n="vblex"/><s n="sep"/></l><r>waarnemen<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>deelneem<s n="vblex"/><s n="sep"/></l><r>deelnemen<s n="vblex"/><s n="sep"/></r></p></e>
+	<e><p><l>inlyf<s n="vblex"/><s n="sep"/></l><r>inlijven<s n="vblex"/><s n="sep"/></r></p></e>
 	<e><p><l>sit<s n="vblex"/></l><r>zetten<s n="vblex"/></r></p></e>
 	<e><p><l>plek<s n="vblex"/></l><r>plaatsen<s n="vblex"/></r></p></e>
 	<e><p><l>ry<s n="vblex"/></l><r>rijden<s n="vblex"/></r></p></e>

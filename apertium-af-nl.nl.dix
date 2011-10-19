@@ -550,6 +550,38 @@
       <e><p><l>ijve</l><r>ijven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ijve</l><r>ijven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
+    <pardef n="inlij/ven__vblex_sep">
+      <e><p><l>ven</l><r>ven<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
+      <e><p><l>fden</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ved</l><r>ven<s n="vblex"/><s n="sep"/><s n="pprs"/></r></p></e>
+      <e><p><l>ven</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e><p><l>f</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ft</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ft</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ven</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fs"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="lij/ven#_in__vblex_sep">
+      <e><p><l>f</l><r>ven<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e><p><l>ft</l><r>ven<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e><p><l>fden</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="pl"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>fde</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ven</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e><p><l>f</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ft</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ft</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ven</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="pl"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ve</l><r>ven<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="aanbouw/en__vblex_sep">
       <e>       <p><l>en</l><r>en<s n="vblex"/><s n="sep"/><s n="inf"/></r></p></e>
       <e>       <p><l>den</l><r>en<s n="vblex"/><s n="sep"/><s n="fs"/><s n="past"/><s n="pl"/></r></p></e>
@@ -11761,6 +11793,7 @@
     <e lm="echt"><i>echt</i><par n="eng__adj_sint"/></e>
     <e lm="enorm"><i>enorm</i><par n="gans__adj"/></e>
     <e lm="Vlaams"><i>Vlaams</i><par n="fors__adj_sint"/></e>
+    <e lm="Keltisch"><i>Keltisch</i><par n="fors__adj_sint"/></e>
     <e lm="Japans"><i>Japans</i><par n="fors__adj_sint"/></e>
     <e lm="Chinees"><i>Chine</i><par n="he/es__adj_sint"/></e>
 	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
@@ -11785,6 +11818,7 @@
     <e lm="eigenlijk"><i>eigenlijk</i><par n="nipt__adj"/></e>
     <e lm="juist"><i>juist</i><par n="eng__adj_sint"/></e>
     <e lm="druk"><i>druk</i><par n="gek__adj_sint"/></e>
+    <e lm="zwak"><i>zwak</i><par n="gek__adj_sint"/></e>
 	<e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
 	<e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
 	<e lm="christelijk"><i>christelijk</i><par n="eng__adj_sint"/></e>
@@ -13530,6 +13564,8 @@
     <e lm="Latijn"><i>Latijn</i><par n="OV__n_nt"/></e>
     <e lm="landbouw"><i>landbouw</i><par n="OV__n_nt"/></e>
     <e lm="opstand"><i>opstand</i><par n="Belg__n_m"/></e>
+    <e lm="bevel"><i>bevel</i><par n="lot__n_nt"/></e>
+    <e lm="commando"><i>commando</i><par n="Bo__n_nt"/></e>
     <e lm="bewind"><i>bewind</i><par n="lot__n_nt"/></e>
     <e lm="belang"><i>belang</i><par n="lot__n_nt"/></e>
     <e lm="strafschop"><i>strafschop</i><par n="lap__n_m"/></e>
@@ -16917,6 +16953,9 @@
     <e lm="deelnemen"><i>deeln</i><par n ="aann/emen__vblex_sep"/></e>
     <e lm="deelnemen"><p><l>n</l><r>deeln</r></p><par n="n/emen#_aan__vblex_sep"/><p><l><b/>deel</l><r></r></p></e>
     <e lm="deelnemen"><p><l>deelgenomen</l><r>deelnemen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="inlijven"><i>inlij</i><par n ="inlij/ven__vblex_sep"/></e>
+    <e lm="inlijven"><p><l>lij</l><r>inlij</r></p><par n="lij/ven#_in__vblex_sep"/><p><l><b/>in</l><r></r></p></e>
+    <e lm="inlijven"><p><l>ingelijfd</l><r>inlijven</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="zetten"><i>zet</i><par n="at/ten__vblex"/></e>
     <e lm="zetten"><p><l>gezet</l><r>zetten</r></p><par n="gesproken__vblex"/></e>
     <e lm="plaatsen"><i>plaats</i><par n="fax/en__vblex"/></e>
