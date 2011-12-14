@@ -159,6 +159,22 @@
             <clip pos="2" part="whole"/>
           </lu>
         </out>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <lu-count/>
+                <lit v="3"/>
+              </equal>
+            </test>
+            <out>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" part="whole"/>
+              </lu>
+            </out>
+          </when>
+        </choose>
       </action>
     </rule>
 
