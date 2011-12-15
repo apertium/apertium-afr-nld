@@ -35,9 +35,8 @@ $(TAGGER)/$(LANG1).dic: $(BASENAME).$(LANG1).dix $(PREFIX).automorf.bin
 	@echo "\\]" >>$(LANG1).dic.expanded
 	@echo "¿" >>$(LANG1).dic.expanded
 	@echo "¡" >>$(LANG1).dic.expanded
-	lt-proc -e -w -a $(PREFIX).automorf.bin <$(LANG1).dic.expanded | \
+	lt-proc -e $(PREFIX).automorf.bin <$(LANG1).dic.expanded | \
 	apertium-filter-ambiguity $(BASENAME).$(LANG1).tsx > $@
-	rm $(LANG1).dic.expanded;
 
 $(TAGGER)/$(LANG1).crp: $(PREFIX).automorf.bin $(TAGGER)/$(LANG1).crp.txt
 	apertium-destxt < $(TAGGER)/$(LANG1).crp.txt | lt-proc -e -w $(PREFIX).automorf.bin > $(TAGGER)/$(LANG1).crp
