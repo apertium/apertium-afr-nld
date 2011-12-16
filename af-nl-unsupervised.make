@@ -1,4 +1,4 @@
-TAGGER_UNSUPERVISED_ITERATIONS=8
+TAGGER_UNSUPERVISED_ITERATIONS=4
 BASENAME=apertium-af-nl
 LANG1=af
 LANG2=nl
@@ -44,3 +44,4 @@ $(TAGGER)/$(LANG1).crp: $(PREFIX).automorf.bin $(TAGGER)/$(LANG1).crp.txt
 clean:
 	rm -f $(PREFIX).prob
 	rm -f $(PREFIX).prob
+

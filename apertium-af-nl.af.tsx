@@ -72,13 +72,6 @@
 			<tags-item tags="adv.*"/>
 			<tags-item tags="adv"/>
 		</def-label>
-		<def-label name ="VBLEX">
-			<tags-item tags="vblex.inf"/>
-			<tags-item tags="vblex.past"/>
-			<tags-item tags="vblex.pres"/>
-			<tags-item tags="vblex.pprs"/>
-			<tags-item tags="vblex.pp"/>
-		</def-label>
 		<def-label name ="INF">
 			<tags-item tags="vblex.inf"/>
 			<tags-item tags="vbhaver.inf"/>
@@ -86,13 +79,21 @@
 			<tags-item tags="vaux.inf"/>
 			<tags-item tags="vbmod.inf"/>
 			
+            </def-label>
+       <def-label name ="VBLEX">
+			<tags-item tags="vblex.inf"/>
+			<tags-item tags="vblex.past"/>
+			<tags-item tags="vblex.pres"/>
+			<tags-item tags="vblex.pprs"/>
+			<tags-item tags="vblex.pp"/>
 		</def-label>
+		
 		<def-label name ="VBLEXPP">
 			<tags-item tags="vblex.pp"/>
 		</def-label>
-		<def-label name ="VBLEXINF">
+        <def-label name ="VBLEXINF">
 			<tags-item tags="vblex.inf"/>
-		</def-label>
+        </def-label>
 		<def-label name ="VAUX">
 			<tags-item tags="vaux.*"/>
 		</def-label>
@@ -138,12 +139,15 @@
 		<def-label name ="CNJADV" closed="true">
 			<tags-item tags="cnjadv"/>
 		</def-label>
-		<def-label name ="PRN" closed="true">
+        <!--<def-label name ="PRN" closed="true">
 			<tags-item tags="prn.*"/>
-		</def-label>
+        </def-label>-->
 		<def-label name ="PRNSUBJ" closed="true">
 			<tags-item tags="prn.subj.*"/>
-		</def-label>
+        </def-label>
+        <def-label name ="PRN" closed="true">
+			<tags-item tags="prn.*"/>
+        </def-label>
 		<def-label name ="PRNSUBJSG" closed="true">
 			<tags-item tags="prn.subj.*.sg"/>
 		</def-label>
@@ -211,10 +215,10 @@
 		  <label-item label="VHAVEPP"/>
 		  <label-item label="PAST"/>
 		</label-sequence>
-		 <label-sequence>
+        <!--<label-sequence>
 		  <label-item label="VHAVEPP"/>
 		  <label-item label="VBLEXINF"/>
-		</label-sequence>
+        </label-sequence>-->
 		<label-sequence>
 		  <label-item label="PRNSUBJ"/>
 		  <label-item label="VBLEXPP"/>
@@ -235,6 +239,15 @@
 		  <label-item label="PRNSUBJ"/>
 		  <label-item label="INF"/>
 		</label-sequence>
+        <label-sequence>
+          <label-item label="PRNSUBJ"/>
+          <label-item label="NOUN"/>
+        </label-sequence>
+        <label-sequence>
+          <label-item label="PRNSUBJ"/>
+          <label-item label="INF"/>
+        </label-sequence>
+		
 		<label-sequence>
 		  <label-item label="BAIEADJ"/>
 		  <label-item label="ADJALL"/>
