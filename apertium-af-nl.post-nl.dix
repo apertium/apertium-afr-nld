@@ -354,6 +354,19 @@
   </pardefs>
 
   <section id="main" type="standard">
+      <!-- Hij ~zal niet ~komen ~.~. -->
+      <e>
+        <p>
+          <l><a/></l>
+          <r></r>
+        </p>
+        <re>[A-Za-z]+</re>
+        <p>
+          <l><b/><a/>.</l>
+          <r>.</r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l><a/><b/><a/>s<b/></l>

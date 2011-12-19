@@ -7,6 +7,9 @@
     <def-cat n="unknown">
       <cat-item name="unknown"/>
     </def-cat>
+    <def-cat n="inf">
+      <cat-item name="inf"/>
+    </def-cat>
     <def-cat n="verb">
       <cat-item name="verb"/>
     </def-cat>
@@ -74,6 +77,23 @@
       </action>
     </rule>
 
+    <rule comment="CHUNK: inf">
+      <pattern>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <lit v="~"/>
+          </lu>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="CHUNK: verb">
       <pattern>
         <pattern-item n="verb"/>
@@ -109,6 +129,9 @@
         </choose>
 
         <out>
+          <lu>
+            <lit v="~"/>
+          </lu>
           <lu>
             <clip pos="1" part="whole"/>
           </lu>
