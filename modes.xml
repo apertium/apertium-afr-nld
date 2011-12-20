@@ -22,6 +22,10 @@
         <file name="apertium-af-nl.af-nl.t3x"/>
         <file name="af-nl.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n">
+	<file name="apertium-af-nl.post-nl.t1x"/>
+        <file name="af-nl.post.t1x.bin"/>
+      </program>
       <program name="lt-proc -g">
         <file name="af-nl.autogen.bin"/>
       </program>

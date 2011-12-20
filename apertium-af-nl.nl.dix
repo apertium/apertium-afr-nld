@@ -90,8 +90,8 @@
    <!-- SECTION: Punctuation -->
 
     <pardef n="separa">
-      <e r="LR"><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
-      <e r="RL"><p><l><a/></l><r/></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <!--<e r="RL"><p><l><a/></l><r/></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>-->
     </pardef>
 
     <pardef n="cometa">
