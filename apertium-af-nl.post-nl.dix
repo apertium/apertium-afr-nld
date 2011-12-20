@@ -85,12 +85,6 @@
         <i>a</i>
       </e>
       <e>
-        <p>
-	  <l><a/>e</l>
-	  <r>e</r>
-	</p>
-      </e>
-      <e>
         <i>e</i>
       </e>
       <e>
@@ -199,158 +193,6 @@
         <i>ç</i>
       </e>
     </pardef>
-
-    <pardef n="à">
-      <e>
-        <p>
-          <l><b/><a/>les</l>
-          <r>aux</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le<b/></l>
-          <r>à<b/>l'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le<b/></l>
-          <r>au<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le</l>
-          <r>au</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      <e>
-        <p>
-          <l><b/></l>
-          <r>à<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-      <e>
-        <p>
-          <l><b/></l>
-          <r>à<b/></r>
-        </p>
-        <par n="vocals"/>
-      </e>
-    </pardef>
-
-    <pardef n="de">
-      <e>
-        <p>
-          <l><b/><a/>les</l>
-          <r>es</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le<b/></l>
-          <r>e<b/>l'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le<b/></l>
-          <r>u<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-      <e>
-        <p>
-          <l><b/><a/>le</l>
-          <r>u</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      <e>
-        <p>
-          <l><b/></l>
-          <r>'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><b/></l>
-          <r>e<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-    </pardef>
-    
-    <pardef n="le">
-      <e>
-        <p>
-          <l><a/>les</l>
-          <r>e<b/>les</r>
-        </p>
-        <par n="caracter_general"/>
-      </e>
-      <e>
-        <p>
-          <l><a/>le<b/></l>
-          <r>e<b/>l'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-    </pardef>
-    
-  <pardef n="je">
-      <e>
-        <p>
-          <l><a/>me<b/></l>
-          <r>e<b/>m'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><a/>te<b/></l>
-          <r>e<b/>t'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><a/>le<b/></l>
-          <r>e<b/>l'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l><a/>se<b/></l>
-          <r>e<b/>s'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r>'</r>
-        </p>
-        <par n="vocals"/>
-      </e>
-      <e>
-        <p>
-          <l/>
-          <r>e<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-    </pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -362,10 +204,16 @@
         </p>
         <re>[A-Za-z]+</re>
         <p>
-          <l><b/><a/>.</l>
-          <r>.</r>
+          <l><b/><a/></l>
+          <r><b/></r>
+        </p>
+        <re>[A-Za-z]+</re>
+        <p>
+          <l><b/><a/>.<a/>.</l>
+          <r>..</r>
         </p>
       </e>
+
       <e>
         <p>
           <l><a/></l>
