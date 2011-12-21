@@ -24,8 +24,8 @@
     <def-cat n="adj_comp">
       <cat-item tags="adj.sint.comp.*"/>
     </def-cat>
-    <def-cat n="veel_comp">
-      <cat-item lemma="veel" tags="adj.sint.comp"/>
+    <def-cat n="meer">
+      <cat-item lemma="meer" tags="preadv"/>
     </def-cat>
     <def-cat n="as">
       <cat-item lemma="as" tags="preadv"/>
@@ -152,6 +152,11 @@
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
     </def-attr>
+    <def-attr n="a_state">
+      <attr-item tags="attr"/>
+      <attr-item tags="pred"/>
+      <attr-item tags="part"/>
+    </def-attr>
     <def-attr n="stress">
       <attr-item tags="uns"/>
     </def-attr>
@@ -218,6 +223,7 @@
     <def-var n="nombre"/>
     <def-var n="tipus_inf"/>
     <def-var n="seen_neg"/>
+    <def-var n="adj_grau"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -1762,7 +1768,7 @@
 	
 	<rule comment="REGLA: MEER ADJ AS">
 		<pattern>
-			<pattern-item n="veel_comp"/>
+			<pattern-item n="meer"/>
 			<pattern-item n="adj"/>
 			<pattern-item n="as"/>
 		</pattern>
@@ -1785,6 +1791,10 @@
                         <var n="adj_h"/>
                         <lit v=""/>
                       </let>
+                      <let>
+                        <var n="adj_grau"/>
+                        <lit-tag v="comp"/>
+                      </let>
                     </when>
                     <otherwise>
                       <let>
@@ -1796,6 +1806,10 @@
                           <lit v="^"/>
                         </concat>
                       </let>
+                      <let>
+                          <var n="adj_grau"/>
+                          <lit v=""/>
+                        </let>
                     </otherwise>
                   </choose>
 			<out>
@@ -1804,14 +1818,14 @@
 						<tag><lit-tag v="SA"/></tag>
 					</tags>
 					<lu>
-                                                <var n="adj_h"/>
+                        <var n="adj_h"/>
 						<clip pos="2" side="tl" part="lem"/>
 						<clip pos="2" side="tl" part="a_adj"/>
-						<clip pos="1" side="tl" part="grau"/>
-						<lit-tag v="pred"/>
+                        <var n="adj_grau"/>
+                        <clip pos="2" side="tl" part="a_state"/>
 					</lu>
 				</chunk>
-			<b pos="2"/>
+                <b pos="2"/>
 				<chunk name="as" case="caseFirstWord">
 					
 					<tags>

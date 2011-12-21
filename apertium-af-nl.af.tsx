@@ -30,7 +30,7 @@
 		<def-label name="ASPREADV" closed="true">
 			<tags-item lemma="as" tags="preadv"/>
 		</def-label> 
-
+        
 		<def-label name ="NOUN">
 			<tags-item tags="n.*"/>
 		</def-label>
@@ -42,7 +42,7 @@
 			<tags-item tags="adj.sint.pred"/>
 		</def-label>
 		<def-label name ="ADJCOMP">
-			<tags-item tags="adj.sint.comp.*"/>
+			<tags-item tags="adj.sint.comp"/>
 		</def-label>
 		<def-label name ="ADJATTR">
 			<tags-item tags="adj.attr"/>
