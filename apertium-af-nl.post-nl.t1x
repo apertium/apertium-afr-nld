@@ -1,46 +1,60 @@
+<?xml version="1.0"?>
 <transfer>
+  <section-def-cats>
+    <def-cat n="punct">
+      <cat-item lemma="," tags="cm"/>
+      <cat-item lemma="." tags="sent"/>
+      <cat-item lemma=";" tags="sent"/>
+      <cat-item lemma=":" tags="sent"/>
+    </def-cat>
 
-	<section-def-cats>
-		<def-cat n="tot">
-			<cat-item lemma="*" tags="*"/>		
-			<cat-item tags="*"/>
-			<cat-item tags="*.*"/>
-		</def-cat>
-		<def-cat n="verb">
-			<cat-item tags="vblex.*"/>
-		</def-cat>
-		<def-cat n="prnenc">
-			<cat-item tags="prn.enc.*"/>
-		</def-cat>
-	</section-def-cats>
+    <def-cat n="any">
+      <cat-item tags=""/>        <!-- unknown words -->
+      <cat-item tags="*"/>
+    </def-cat>
 
-	<section-def-attrs>
-		<def-attr n="a_adj">
-			<attr-item tags="adj"/>
-		</def-attr>
-	</section-def-attrs>
+  </section-def-cats>
 
-	<section-def-vars>
-		<def-var n="nombre"/>
-	</section-def-vars>
+  <section-def-attrs>
+    <def-attr n="a_punct">
+      <attr-item tags="sent"/>
+      <attr-item tags="cm"/>
+    </def-attr>
+  </section-def-attrs>
 
-	<section-rules>
-<!-- Print ~ before every word -->
-		<rule comment="REGLA: TOT">
-			<pattern>
-				<pattern-item n="tot"/>
-			</pattern>
+  <section-def-vars>
+    <def-var n="last_punct"/>
+  </section-def-vars>
 
-			<action>
-			<out> <!-- Print ~ before every word -->
-			<lu><lit v="~"/></lu>
-			<lu><clip pos="1" side="tl" part="whole"/></lu>
-			</out>
-			</action>
-		</rule>
-
-
-	</section-rules>
-
+  <section-rules>
+    <rule>
+      <pattern>
+        <pattern-item n="any"/>
+        <pattern-item n="punct"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <b pos="1"/>
+                <lit v=" "/>
+              </equal>
+            </test>
+            <out>
+              <lu><clip pos="1" side="tl" part="whole"/></lu>
+              <lu><clip pos="2" side="tl" part="whole"/></lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu><clip pos="1" side="tl" part="whole"/></lu>
+              <b pos="1"/>
+              <lu><clip pos="2" side="tl" part="whole"/></lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+  </section-rules>
 </transfer>
-
