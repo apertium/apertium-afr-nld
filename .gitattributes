@@ -41,6 +41,7 @@ dev/bidix/pending_pronouns.txt -text
 dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
+dev/entries[!!-~]afrikaans.txt -text
 dev/eval/compounds/compounds.random -text
 dev/eval/compounds/compounds.top -text
 dev/eval/eval.2010-12-23.wikipedia.1.apertium.txt -text
