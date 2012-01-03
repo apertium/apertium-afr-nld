@@ -26,6 +26,7 @@
 /apertium-af-nl.post-nl.t1x -text
 /configure.ac -text
 dev/MULTIWORDS-AND-RULES -text
+dev/Nederlandse[!!-~]entries[!!-~].txt -text
 dev/af-rootwords.txt -text
 dev/apertium-af-nl.af-old.tsx -text
 dev/apertium-af-nl.nl.dix.OLD -text
