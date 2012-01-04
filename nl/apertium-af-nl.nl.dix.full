@@ -10448,10 +10448,10 @@
       <e><p><l>dens</l><r>ed<s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
-    <pardef n="﻿onderba/as__n_m">
-      <e>       <p><l>as</l><r>﻿as<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+    <pardef n="onderba/as__n_m">
+      <e>       <p><l>as</l><r>as<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
       <e><p><l>as'</l><r>as<s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
-      <e>       <p><l>zen</l><r>﻿as<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e>       <p><l>zen</l><r>as<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
       <e><p><l>zens</l><r>as<s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
@@ -20169,7 +20169,7 @@
     <e lm="epistel"><i>epistel</i><par n="led__n_m"/></e>
     <e lm="epithelioom"><i>epithelio</i><par n="ato/om__n_nt"/></e>
     <e lm="eponiem"><i>eponiem</i><par n="lot__n_nt"/></e>
-    <e lm="﻿aanhouden"><i>﻿aanhouden</i><par n="OV__n_nt"/></e>
+    <e lm="aanhouden"><i>aanhouden</i><par n="OV__n_nt"/></e>
     <e lm="beantwoorden"><i>beantwoorden</i><par n="OV__n_nt"/></e>
     <e lm="drinken"><i>drinken</i><par n="OV__n_nt"/></e>
     <e lm="dwingen"><i>dwingen</i><par n="OV__n_nt"/></e>
@@ -37021,5 +37021,26 @@
     <e><par n="guionet"/></e>
     <e><par n="paresq"/></e>
     <e><par n="pardret"/></e>
-  </section>
+    <e lm="Australisch"><i>Australisch</i><par n="fors_adj_sint"/></e>
+    <e lm="laatstgenoemd"><i>laatstgenoemd</i><par n="__adj"/></e>
+    <e lm="metropolitaans"><i>metropolitaans</i><par n="Tibetaans_adj_sint"/></e>
+    <e lm="gelijkaardig"> <i> gelijkaardig</i><par n="eng_adj_sint"/></e>
+    <e lm="Ottomaans"><i>Ottomaans</i><par n="Tibetaans__adj_sint"/></e>
+    <e lm="wissel"><i>wissel</i><par n="__n_"/></e>
+    <e lm="zelfstandig"><i>zelfstandig</i><par n="opstandig__adj_sint"/></e>
+    <e lm="overwegend"><i>overwegend</i><par n="te__preadv"/></e>
+    <e lm="miljardste"><i>miljardste</i><par n="tweede__det"/></e>
+    <e lm="Frankisch"><i>Frankisch</i><par n="fors__adj_sint"/></e>
+    <e lm="optreden"><i>optreden</i><par n="eon__n_nt"/></e>
+    <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
+    <e lm="Berlijns"><i>Berlijns</i><par n="gans_adj"/></e>
+    <e lm="Byzantijns"><i>Byzantijns</i><par n="fors__adj_sint"/></e>
+    <e lm="kustlijn"><i>kustlijn</i><par n="akst__n_mf"/></e>
+    <e lm="Keizerlijk"><i>Keizerlijk</i><par n="es__adv"/></e>
+    <e lm="Geallieerden"><i>Geallieerden</i><par n="Olympische spelen__n_m"/></e>
+    <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
+    <e lm="blanke"><i>blanke</i><par n="made__n_mf"/></e>
+    <e lm="Athene"><i>Athene</i><par n="Frankrijk__np"/></e>
+    <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
+ </section>
 </dictionary>
