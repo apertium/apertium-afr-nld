@@ -90,8 +90,8 @@
    <!-- SECTION: Punctuation -->
 
     <pardef n="separa">
-      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
-      <!--<e r="RL"><p><l><a/></l><r/></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>-->
+      <e r="LR"><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e r="RL"><p><l><a/></l><r/></p><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="cometa">
@@ -12678,6 +12678,27 @@
     <e lm="nieuw"><i>nieuw</i><par n="eng__adj_sint"/></e>
     <e lm="Brits"><i>Brits</i><par n="fors__adj_sint"/></e>
 	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
+    <e lm="Australisch"><i>Australisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Chinees"><i>Chine</i><par n="he/es__adj_sint"/></e>
+    <e lm="koloniaal"><i>kolonia</i><par n="ora/al__adj"/></e>
+    <e lm="gelijkaardig"><i>gelijkaardig</i><par n="eng__adj_sint"/></e>
+    <e lm="oranje"><i>oranje</i><par n="roze__adj_sint"/></e>
+    <e lm="Ottomaans"><i>Ottomaans</i><par n="Tibetaans__adj_sint"/></e>
+    <e lm="zelfstandig"><i>zelfstandig</i><par n="opstandig__adj_sint"/></e>
+    <e lm="Arabisch"><i>Arabisch</i><par n="fors__adj_sint"/></e>
+    <e lm="geschikt"><i>geschikt</i><par n="eng__adj_sint"/></e>
+    <e lm="Frankisch"><i>Frankisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Atlantisch"><i>Atlantisch</i><par n="gans__adj"/></e>
+    <e lm="overzees"><i>overzees</i><par n="taps__adj"/></e>
+    <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
+    <e lm="Berlijns"><i>Berlijns</i><par n="gans__adj"/></e>
+    <e lm="groeiend"><i>groeiend</i><par n="nipt__adj"/></e>
+    <e lm="keizerlijk"><i>keizerlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
+    <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
+    <e lm="bijzonder"><i>bijzonder</i><par n="fier__adj_sint"/></e>
+    <e lm="donker"><i>donker</i><par n="fier__adj_sint"/></e>
+    <e lm="Pruisisch"><i>Pruisisch</i><par n="taps__adj"/></e>
 <!-- adv.xml -->
 
     <e lm="hoe"><i>hoe</i><par n="hoe__adv"/></e>
@@ -12957,6 +12978,10 @@
     <e lm="graag"><i>graag</i><par n="es__adv"/></e>
     <e lm="gisteren"><i>gisteren</i><par n="es__adv"/></e>
     <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
+    <e lm="vaak"><i>vaak</i><par n="es__adv"/></e>
+    <e lm="helemaal"><i>helemaal</i><par n="es__adv"/></e>
+    <e lm="intussen"><i>intussen</i><par n="es__adv"/></e>
+    <e lm="enzovoort"><i>enzovoort</i><par n="es__adv"/></e>
 <!-- cnj.xml -->
 
     <e lm="en"><i>en</i><par n="en__cnjcoo"/></e>
@@ -12997,6 +13022,9 @@
     <e lm="terwijl"><i>terwijl</i><par n="dus__cnjadv"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="dus__cnjadv"/></e>
     <e lm="waarmee"><i>waarmee</i><par n="dus__cnjadv"/></e>
+    <e lm="omdat"><i>omdat</i><par n="dus__cnjadv"/></e>
+    <e lm="totdat"><i>totdat</i><par n="dus__cnjadv"/></e>
+    <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
 <!-- det.xml -->
 
     <e lm="ander"><i>ander</i><par n="ander__det"/></e>
@@ -13078,6 +13106,7 @@
     <e lm="vierentwintigste"><i>vierentwintigste</i><par n="tweede__det"/></e>
     <e lm="vijfentwintigste"><i>vijfentwintigste</i><par n="tweede__det"/></e>
     <e lm="negeëntwintigste"><i>negeëntwintigste</i><par n="tweede__det"/></e>
+    <e lm="miljardste"><i>miljardste</i><par n="tweede__det"/></e>
 <!-- gen.xml -->
 
 
@@ -13458,6 +13487,7 @@
     <e lm="van der Merwe"><i>van<b/>der<b/>Merwe</i><par n="van_der_Merwe__np"/></e>
     <e lm="van Vuuren"><i>van<b/>Vuuren</i><par n="van_der_Merwe__np"/></e>
     <e lm="Warhol"><i>Warhol</i><par n="van_der_Merwe__np"/></e>
+    <e lm="Athene"><i>Athene</i><par n="Frankrijk__np"/></e>
 <!-- num.xml -->
 
     <e lm="één"><i>één</i><par n="één__num"/></e>
@@ -16758,6 +16788,35 @@
     <e lm="mnr"><i>mnr</i><par n="mnr__n_m"/></e>
     <e lm="v.Chr"><i>v.Chr</i><par n="v.Chr.__n_mf"/></e>
     <e lm="v.Chr" r="LR"><p><l>v.<b/>Chr</l><r>v.Chr</r></p><par n="v.Chr.__n_mf"/></e>
+    <e lm="vrede"><i>vrede</i><par n="hui__n_mf"/></e>
+    <e lm="tehuis"><i>tehui</i><par n="hui/s__n_nt"/></e>
+    <e lm="wissel"><i>wissel</i><par n="hui__n_mf"/></e>
+    <e lm="revolutie"><i>revolutie</i><par n="roe__n_f"/></e>
+    <e lm="Jood"><i>Jo</i><par n="Jo/od__n_m"/></e>
+    <e lm="gezin"><i>gezin</i><par n="ven__n_nt"/></e>
+    <e lm="gunst"><i>gunst</i><par n="vering__n_f"/></e>
+    <e lm="godsdienst"><i>godsdienst</i><par n="Belg__n_m"/></e>
+    <e lm="meer"><i>me</i><par n="me/er__n_nt"/></e>
+    <e lm="toegang"><i>toegang</i><par n="Belg__n_m"/></e>
+    <e lm="bijnaam"><i>bijna</i><par n="na/am__n_m"/></e>
+    <e lm="bijdrage"><i>bijdrage</i><par n="rune__n_f"/></e>
+    <e lm="aarde"><i>aarde</i><par n="yoga__n_mf"/></e>
+    <e lm="voorwerp"><i>voorwerp</i><par n="lot__n_nt"/></e>
+    <e lm="kerkgebouw"><i>kerkgebouw</i><par n="lot__n_nt"/></e>
+    <e lm="optreden"><i>optreden</i><par n="eon__n_nt"/></e>
+    <e lm="zetel"><i>zetel</i><par n="led__n_m"/></e>
+    <e lm="overeenkomst"><i>overeenkomst</i><par n="vering__n_f"/></e>
+    <e lm="plein"><i>plein</i><par n="lot__n_nt"/></e>
+    <e lm="kustlijn"><i>kustlijn</i><par n="akst__n_mf"/></e>
+    <e lm="Geallieerden"><i>Geallieerden</i><par n="Olympische Spelen__n_m"/></e>
+    <e lm="blanke"><i>blanke</i><par n="made__n_mf"/></e>
+    <e lm="grondgebied"><i>grondgebied</i><par n="lot__n_nt"/></e>
+    <e lm="oorlog"><i>oorlog</i><par n="Belg__n_m"/></e>
+    <e lm="heerser"><i>heerser</i><par n="led__n_m"/></e>
+    <e lm="slaaf"><i>sla</i><par n="la/af__n_m"/></e>
+    <e lm="kroon"><i>kro</i><par n="bo/on__n_f"/></e>
+    <e lm="beurt"><i>beurt</i><par n="akst__n_mf"/></e>
+    <e lm="aanspraak"><i>aanspra</i><par n="ta/ak__n_mf"/></e>
 <!-- otr.xml -->
 
     <e lm="zijn"><i/><par n="/zijn__vbser"/></e>
@@ -16776,6 +16835,7 @@
     <e lm="zo"><i>zo</i><par n="te__preadv"/></e>
     <e lm="zo"><i>zo</i><par n="te__preadv"/></e>
     <e lm="veel"><i>veel</i><par n="te__preadv"/></e>
+    <e lm="overwegend"><i>overwegend</i><par n="te__preadv"/></e>
 <!-- predet.xml -->
 
 <!-- prn.xml -->

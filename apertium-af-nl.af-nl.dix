@@ -6412,17 +6412,13 @@
 
     <e><re>[0-9]+</re><p><l>de<s n="num"/><s n="ord"/></l><r>de<s n="num"/><s n="ord"/></r></p></e>
     <e><re>[0-9]+</re><p><l>ste<s n="num"/><s n="ord"/></l><r>ste<s n="num"/><s n="ord"/></r></p></e>
-    
-    
-    
     <e><p><l>nogtans<s n="cnjcoo"/></l><r>nochtans<s n="cnjcoo"/></r></p></e>
     <e><p><l>omstreeks<s n="pr"/></l><r>omstreeks<s n="pr"/></r></p></e>
-    <e><p><l>Australies<s n="adj"/></l>Australisch<r><s n=adj/></r></p></e>
+    <e><p><l>Australies<s n="adj"/></l><r>Australisch<s n="adj"/></r></p></e>
     <e><p><l>Sjinees<s n="adj"/></l><r>Chinees<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>talle<s n="adj"/></l><r>aantal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>federaal<s n="adj"/></l><r>federaal<s n="adj"/></r></p></e>
     <e><p><l>koloniaal<s n="adj"/></l><r>koloniaal<s n="adj"/></r></p></e>
-    <e><p><l>metropolitaans<s n="adj"/></l><r>metropolitaans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heelwat<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
     <e><p><l>vrede<s n="n"/></l><r>vrede<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>soortgelyk<s n="adj"/></l><r>gelijkaardig<s n="adj"/><s n="sint"/></r></p></e>
@@ -6459,7 +6455,7 @@
     <e><p><l>overeenkoms<s n="n"/></l><r>overeenkomst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Atlanties<s n="adj"/></l><r>Atlantisch<s n="adj"/></r></p></e>
     <e><p><l>plein<s n="n"/></l><r>plein<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>oversees<s n="adj"/></l><r>overzees<s n="adj"/><s n=""/></r></p></e>
+    <e><p><l>oversees<s n="adj"/></l><r>overzees<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Berlyns<s n="adj"/></l><r>Berlijns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Orthodoks<s n="adj"/></l><r>Orthodox<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>heeltemaal<s n="adv"/></l><r>helemaal<s n="adv"/></r></p></e>

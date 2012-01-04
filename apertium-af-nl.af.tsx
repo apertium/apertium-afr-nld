@@ -30,7 +30,7 @@
 		<def-label name="ASPREADV" closed="true">
 			<tags-item lemma="as" tags="preadv"/>
 		</def-label> 
-        
+         
 		<def-label name ="NOUN">
 			<tags-item tags="n.*"/>
 		</def-label>
