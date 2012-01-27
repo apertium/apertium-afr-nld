@@ -30,8 +30,6 @@ dev/MULTIWORDS-AND-RULES -text
 dev/Nederlandse[!!-~]entries[!!-~].txt -text
 dev/Tweetalig.txt -text
 dev/af-rootwords.txt -text
-dev/apertium-af-nl.af-old.tsx -text
-dev/apertium-af-nl.nl.dix.OLD -text
 dev/bidix-nouns.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text

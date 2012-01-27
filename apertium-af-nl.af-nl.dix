@@ -477,6 +477,8 @@
 	<e r="RL"><p><l>tipe<s n="n"/></l><r>type<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL"><p><l>kop<s n="n"/></l><r>cup<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>gebied<s n="n"/></l><r>district<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>tekort<s n="n"/></l><r>tekort<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>geskrift<s n="n"/></l><r>geschrift<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>VSA<s n="n"/><s n="acr"/></l><r>VS<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>verlede<s n="n"/></l><r>verleden<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>regering<s n="n"/></l><r>regering<s n="n"/><s n="f"/></r></p></e>
@@ -498,14 +500,19 @@
 	<e><p><l>voedsel<s n="n"/></l><r>voedsel<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>motor<s n="n"/></l><r>motor<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kampioen<s n="n"/></l><r>kampioen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>weerstand<s n="n"/></l><r>weerstand<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>Amerikaner<s n="n"/></l><r>Amerikaan<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>leeftyd<s n="n"/></l><r>leeftijd<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>hertog<s n="n"/></l><r>hertog<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>niveau<s n="n"/></l><r>niveau<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>middel<s n="n"/></l><r>midden<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>kans<s n="n"/></l><r>kans<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>nederlaag<s n="n"/></l><r>nederlaag<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>kant<s n="n"/></l><r>zijde<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dier<s n="n"/></l><r>dier<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL"><p><l>verhouding<s n="n"/></l><r>relatie<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>premier<s n="n"/></l><r>premier<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>redakteur<s n="n"/></l><r>redacteur<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>ploeg<s n="n"/></l><r>ploeg<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>hit<s n="n"/></l><r>hit<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>speler<s n="n"/></l><r>speler<s n="n"/><s n="m"/></r></p></e>
@@ -521,11 +528,14 @@
 	<e><p><l>Duitser<s n="n"/></l><r>Duitser<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>goewerneur<s n="n"/></l><r>gouverneur<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>maan<s n="n"/></l><r>maan<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kieser<s n="n"/></l><r>kiezer<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>leër<s n="n"/></l><r>leger<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>Latyn<s n="n"/></l><r>Latijn<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>landbou<s n="n"/></l><r>landbouw<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>opstand<s n="n"/></l><r>opstand<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>handelaar<s n="n"/></l><r>handelaar<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bevel<s n="n"/></l><r>bevel<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>tydstip<s n="n"/></l><r>tijdstip<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL"><p><l>bevel<s n="n"/></l><r>commando<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>bewind<s n="n"/></l><r>bewind<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>belang<s n="n"/></l><r>belang<s n="n"/><s n="nt"/></r></p></e>
@@ -586,9 +596,11 @@
     <e><p><l>setlaar<s n="n"/></l><r>kolonist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kolonis<s n="n"/></l><r>kolonist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>graad<s n="n"/></l><r>graad<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>kerkraad<s n="n"/></l><r>kerkraad<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vloei<s n="n"/></l><r>stroom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>data<s n="n"/></l><r>datum<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>privaat<s n="n"/></l><r>toilet<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>verloop<s n="n"/></l><r>verloop<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>steun<s n="n"/></l><r>steun<s n="n"/><s n="m"/></r></p></e> <!-- unc -->
     <e><p><l>loopbaan<s n="n"/></l><r>carrière<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>band<s n="n"/></l><r>band<s n="n"/><s n="m"/></r></p></e>
@@ -644,6 +656,7 @@
     <e><p><l>polisie<s n="n"/><s n="pl"/></l><r>politie<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>woonbuurt<s n="n"/></l><r>woonwijk<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>TV<s n="n"/><s n="acr"/></l><r>tv<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ANC<s n="n"/><s n="acr"/></l><r>ANC<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gedagte<s n="n"/></l><r>gedachte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>myn<s n="n"/></l><r>mijn<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>publikasie<s n="n"/></l><r>publicatie<s n="n"/><s n="f"/></r></p></e>
@@ -3142,6 +3155,7 @@
     <e><p><l>moordenaar<s n="n"/></l><r>moordenaar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>net<s n="n"/></l><r>net<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>omvang<s n="n"/></l><r>omvang<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aanvang<s n="n"/></l><r>aanvang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ondersteuner<s n="n"/></l><r>ondersteuner<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ongeluk<s n="n"/></l><r>ongeluk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ontploffing<s n="n"/></l><r>ontploffing<s n="n"/><s n="f"/></r></p></e>
@@ -3250,6 +3264,8 @@
     <e><p><l>geweet<s n="n"/></l><r>geweten<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>geweldpleging<s n="n"/></l><r>geweld<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>goud<s n="n"/></l><r>goud<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>steenkool<s n="n"/></l><r>steenkool<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>silwer<s n="n"/></l><r>silver<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>grafmonument<s n="n"/></l><r>grafmonument<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>gras<s n="n"/></l><r>gras<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>groen<s n="n"/></l><r>groen<s n="n"/><s n="nt"/></r></p></e>
@@ -4031,6 +4047,7 @@
     <e><p><l>Amsterdam<s n="np"/><s n="top"/></l><r>Amsterdam<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 
     <e><p><l>Adriaan<s n="np"/><s n="ant"/><s n="m"/></l><r>Adriaan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Aleksander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Albert<s n="np"/><s n="ant"/><s n="m"/></l><r>Albert<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Anne<s n="np"/><s n="ant"/><s n="f"/></l><r>Anne<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4044,6 +4061,7 @@
     <e><p><l>Charles<s n="np"/><s n="ant"/><s n="m"/></l><r>Charles<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>David<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Edward<s n="np"/><s n="ant"/><s n="m"/></l><r>Edward<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Eduard<s n="np"/><s n="ant"/><s n="m"/></l><r>Eduard<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Elizabeth<s n="np"/><s n="ant"/><s n="f"/></l><r>Elizabeth<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Frank<s n="np"/><s n="ant"/><s n="m"/></l><r>Frank<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Frederik<s n="np"/><s n="ant"/><s n="m"/></l><r>Frederik<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -4071,6 +4089,7 @@
     <e><p><l>Willem<s n="np"/><s n="ant"/><s n="m"/></l><r>Willem<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>William<s n="np"/><s n="ant"/><s n="m"/></l><r>William<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Wynand<s n="np"/><s n="ant"/><s n="m"/></l><r>Wynand<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Wladimir<s n="np"/><s n="ant"/><s n="m"/></l><r>Vladimir<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Pieter<s n="np"/><s n="ant"/><s n="m"/></l><r>Pieter<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesus<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -4128,6 +4147,7 @@
 	<e><p><l>jarig<s n="adj"/></l><r>jarig<s n="adj"/><s n="sint"/></r></p></e>
 	<e r="RL"><p><l>genoem<s n="adj"/></l><r>genaamd<s n="adj"/></r></p></e>
 	<e><p><l>genoem<s n="adj"/></l><r>genoemd<s n="adj"/></r></p></e>
+	<e><p><l>laasgenoem<s n="adj"/></l><r>laatstgenoemd<s n="adj"/></r></p></e>
 	<e><p><l>laasgenoem<s n="adj"/></l><r>laatstgenoemd<s n="adj"/></r></p></e>
 	<e><p><l>ongetroud<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
 	<e><p><l>destyds<s n="adj"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
@@ -6430,6 +6450,9 @@
     <e><p><l>koninklik<s n="adj"/></l><r>koninklijk<s n="adj"/></r></p></e>
     <e><p><l>Ottomaans<s n="adj"/></l><r>Ottomaans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>wissel<s n="n"/></l><r>wissel<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>spreker<s n="n"/></l><r>spreker<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oorblyfsel<s n="n"/></l><r>overblijfsel<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>gehalte<s n="n"/></l><r>gehalte<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rewolusie<s n="n"/></l><r>revolutie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Jood<s n="n"/></l><r>Jood<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gesin<s n="n"/></l><r>gezin<s n="n"/><s n="m"/></r></p></e>
@@ -6486,7 +6509,8 @@
     <e><p><l>Sosialisties<s n="adj"/></l><r>Sosialistisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Pruisies<s n="adj"/></l><r>Pruisisch<s n="adj"/></r></p></e>
     <e><p><l>Westers<s n="adj"/></l><r>Westers<s n="adj"/></r></p></e>
-    
+    <e><p><l>waarvoor<s n="adv"/></l><r>waarvoor<s n="adv"/></r></p></e>
+    <e><p><l>behalwe<s n="adv"/></l><r>behalve<s n="adv"/></r></p></e>
   </section>
 
 </dictionary>
