@@ -482,6 +482,8 @@
 	<e><p><l>VSA<s n="n"/><s n="acr"/></l><r>VS<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>verlede<s n="n"/></l><r>verleden<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>regering<s n="n"/></l><r>regering<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ooreenkoms<s n="n"/></l><r>overeenkomst<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>afkoms<s n="n"/></l><r>afkomst<s n="n"/><s n="f"/></r></p></e>
 	<e r="RL"><p><l>einde<s n="n"/></l><r>eind<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>WK<s n="n"/><s n="acr"/></l><r>WK<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>span<s n="n"/></l><r>team<s n="n"/><s n="nt"/></r></p></e>
@@ -521,6 +523,7 @@
 	<e><p><l>slag<s n="n"/></l><r>slag<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>trek<s n="n"/></l><r>trek<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>periode<s n="n"/></l><r>periode<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spoorlyn<s n="n"/></l><r>spoorlijn<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>lyk<s n="n"/></l><r>lijk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>vader<s n="n"/></l><r>vader<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bewoner<s n="n"/></l><r>bewoner<s n="n"/><s n="m"/></r></p></e>
@@ -597,12 +600,14 @@
     <e><p><l>kolonis<s n="n"/></l><r>kolonist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>graad<s n="n"/></l><r>graad<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kerkraad<s n="n"/></l><r>kerkraad<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>vloei<s n="n"/></l><r>stroom<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>vloei<s n="n"/></l><r>stroom<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stroom<s n="n"/></l><r>stroom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>data<s n="n"/></l><r>datum<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>privaat<s n="n"/></l><r>toilet<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>verloop<s n="n"/></l><r>verloop<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>steun<s n="n"/></l><r>steun<s n="n"/><s n="m"/></r></p></e> <!-- unc -->
     <e><p><l>loopbaan<s n="n"/></l><r>carrière<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>spelling<s n="n"/></l><r>spelling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>band<s n="n"/></l><r>band<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>versameling<s n="n"/></l><r>verzameling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tsaar<s n="n"/></l><r>tsaar<s n="n"/><s n="m"/></r></p></e>
@@ -612,20 +617,33 @@
     <e><p><l>reël<s n="n"/></l><r>regel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kompetisie<s n="n"/></l><r>competitie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>toekenning<s n="n"/></l><r>toewijzing<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kookkuns<s n="n"/></l><r>kookkunst<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>letter<s n="n"/></l><r>letter<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kritiek<s n="n"/></l><r>kritiek<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>eer<s n="n"/></l><r>eer<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>vlakte<s n="n"/></l><r>vlakte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>duur<s n="n"/></l><r>duur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aandag<s n="n"/></l><r>aandacht<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>besoeker<s n="n"/></l><r>bezoeker<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>omgang<s n="n"/></l><r>omgang<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vooruitgang<s n="n"/></l><r>vooruitgang<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aar<s n="n"/></l><r>ader<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>loop<s n="n"/></l><r>loop<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>verkeer<s n="n"/></l><r>verkeer<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>rekord<s n="n"/></l><r>record<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>verkeer<s n="n"/></l><r>verkeer<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vliegtui<s n="n"/></l><r>vliegtuig<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>prestasie<s n="n"/></l><r>prestatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>navigasie<s n="n"/></l><r>navigatie<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>medium<s n="n"/></l><r>medium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hulp<s n="n"/></l><r>hulp<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>reaksie<s n="n"/></l><r>reactie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sektor<s n="n"/></l><r>sector<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>skilder<s n="n"/></l><r>schilder<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>roete<s n="n"/></l><r>route<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>aanhanger<s n="n"/></l><r>aanhanger<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>boustyl<s n="n"/></l><r>bouwstijl<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>afgevaardigde<s n="n"/></l><r>afgevaardigde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vriend<s n="n"/></l><r>vriend<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>samelewing<s n="n"/></l><r>samenleving<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>produksie<s n="n"/></l><r>productie<s n="n"/><s n="f"/></r></p></e>
@@ -2523,6 +2541,7 @@
     <e><p><l>teistering<s n="n"/></l><r>intimidatie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>teken<s n="n"/></l><r>teken<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>teks<s n="n"/></l><r>tekst<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>tekst<s n="n"/></l><r>tekst<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>telefoonlyn<s n="n"/></l><r>telefoonlijn<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>telefoon<s n="n"/></l><r>telefoon<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>telegram<s n="n"/></l><r>telegram<s n="n"/><s n="nt"/></r></p></e>
@@ -4132,10 +4151,14 @@
 	<e><p><l>onbedagsaam<s n="adj"/><s n="sint"/></l><r>onbedachtzaam<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>hout<s n="adj"/></l><r>houten<s n="adj"/></r></p></e>
 	<e><p><l>eetbaar<s n="adj"/></l><r>eetbaar<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>apart<s n="adj"/></l><r>apart<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>hedendaags<s n="adj"/></l><r>hedendaags<s n="adj"/><s n="sint"/></r></p></e>
+	<e><p><l>kerklik<s n="adj"/></l><r>kerkelijk<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>Belgies<s n="adj"/></l><r>Belgisch<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>bestaand<s n="adj"/></l><r>bestaand<s n="adj"/></r></p></e>
 	<e><p><l>geheel<s n="adj"/></l><r>geheel<s n="adj"/></r></p></e>
 	<e><p><l>vas<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
+	<e r="LR"><p><l>vast<s n="adj"/></l><r>vast<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>eg<s n="adj"/></l><r>echt<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/></r></p></e>
 	<e><p><l>Vlaams<s n="adj"/></l><r>Vlaams<s n="adj"/><s n="sint"/></r></p></e>
@@ -4148,7 +4171,7 @@
 	<e r="RL"><p><l>genoem<s n="adj"/></l><r>genaamd<s n="adj"/></r></p></e>
 	<e><p><l>genoem<s n="adj"/></l><r>genoemd<s n="adj"/></r></p></e>
 	<e><p><l>laasgenoem<s n="adj"/></l><r>laatstgenoemd<s n="adj"/></r></p></e>
-	<e><p><l>laasgenoem<s n="adj"/></l><r>laatstgenoemd<s n="adj"/></r></p></e>
+    <e><p><l>laasgenoemde<s n="adv"/></l><r>laatstgenoemde<s n="adv"/></r></p></e>
 	<e><p><l>ongetroud<s n="adj"/></l><r>single<s n="adj"/></r></p></e>
 	<e><p><l>destyds<s n="adj"/></l><r>toenmalig<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>ekstra<s n="adj"/></l><r>extra<s n="adj"/></r></p></e>

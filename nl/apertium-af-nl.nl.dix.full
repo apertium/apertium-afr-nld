@@ -12139,6 +12139,7 @@
 	
 	<e lm="met name"><i>met<b/>name</i><par n="es__adv"/></e>
 	<e lm="ervoor"><i>ervoor</i><par n="es__adv"/></e>
+	<e lm="laatstgenoemde"><i>laatstgenoemde</i><par n="es__adv"/></e>
 	<e lm="met behulp van"><i>met<b/>behulp<b/>van</i><par n="es__adv"/></e>
 
 
@@ -13386,6 +13387,8 @@
 	<e lm="naast"><i>naast</i><par n="nipt__adj"/></e>
 	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
 	<e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
+	<e lm="apart"><i>apart</i><par n="eng__adj_sint"/></e>
+	<e lm="kerkelijk"><i>kerkelijk</i><par n="eng__adj_sint"/></e>
 	<e lm="vierkant"><i>vierkant</i><par n="eng__adj_sint"/></e>
 	<e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
 	<e lm="single"><i>single</i><par n="cash__adj"/></e>
@@ -17649,6 +17652,7 @@
     <e lm="anjelier"><i>anjelier</i><par n="vering__n_f"/></e>
     <e lm="anker"><i>anker</i><par n="eon__n_nt"/></e>
     <e lm="recordcijfer"><i>recordcijfer</i><par n="eon__n_nt"/></e>
+    <e lm="record"><i>record</i><par n="eon__n_nt"/></e>
     <e lm="bevolkingscijfer"><i>bevolkingscijfer</i><par n="eon__n_nt"/></e>
     <e lm="annexatie"><i>annexatie</i><par n="roe__n_f"/></e>
     <e lm="anode"><i>anode</i><par n="made__n_f"/></e>
@@ -18186,6 +18190,7 @@
     <e lm="behang"><i>behang</i><par n="OV__n_nt"/></e>
     <e lm="aanhouden"><i>aanhouden</i><par n="OV__n_nt"/></e>
     <e lm="behanger"><i>behanger</i><par n="led__n_m"/></e>
+    <e lm="aanhanger"><i>aanhanger</i><par n="led__n_m"/></e>
     <e lm="behangpatroongroep"><i>behangpatroongroep</i><par n="akst__n_mf"/></e>
     <e lm="behangtafel"><i>behangtafel</i><par n="hui__n_mf"/></e>
     <e lm="beheer"><i>beheer</i><par n="OV__n_nt"/></e>
@@ -25987,6 +25992,7 @@
     <e lm="schrijfinkt"><i>schrijfinkt</i><par n="eb__n_m"/></e>
     <e lm="schrijfster"><i>schrijfster</i><par n="roe__n_f"/></e>
     <e lm="schrijfstijl"><i>schrijfstijl</i><par n="Belg__n_m"/></e>
+    <e lm="bouwstijl"><i>bouwstijl</i><par n="Belg__n_m"/></e>
     <e lm="schrijftafel"><i>schrijftafel</i><par n="hui__n_mf"/></e>
     <e lm="schrijfwijze"><i>schrijfwijze</i><par n="wake__n_mf"/></e>
     <e lm="schrijnwerker"><i>schrijnwerker</i><par n="led__n_m"/></e>
