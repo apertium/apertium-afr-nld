@@ -11778,9 +11778,23 @@
 
     <e lm="enig"><i>enig</i><par n="gans__adj"/></e>
     <e lm="oud"><i>oud</i><par n="eng__adj_sint"/></e>
+	<e lm="direct"><i>direct</i><par n="eng__adj_sint"/></e>
+    <e lm="provinciaal"><i>provincia</i><par n="ora/al__adj"/></e>
+    <e lm="IJslands"><i>IJslands</i><par n="fors__adj_sint"/></e>
+    <e lm="Braziliaans"><i>Braziliaans</i><par n="fors__adj_sint"/></e>
+    <e lm="Fins"><i>Fins</i><par n="fors__adj_sint"/></e>
+    <e lm="Turks"><i>Turks</i><par n="fors__adj_sint"/></e>
+    <e lm="Zwitsers"><i>Zwitsers</i><par n="fors__adj_sint"/></e>
+    <e lm="godsdienstig"><i>godsdienstig</i><par n="eng__adj_sint"/></e>
+    <e lm="toekomstig"><i>toekomstig</i><par n="eng__adj_sint"/></e>
+    <e lm="overblijvend"><i>overblijvend</i><par n="eng__adj_sint"/></e>
+    <e lm="overzees"><i>overzees</i><par n="taps__adj"/></e>
+    <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
 	<e lm="multicultureel"><i>multiculture</i><par n="he/el__adj_sint"/></e>
     <e lm="duur"><i>du</i><par n="pu/ur__adj_sint"/></e>
     <e lm="stenen"><i>stenen</i><par n="eren__adj"/></e>
+    <e lm="daaropvolgend"><i>daaropvolgend</i><par n="gans__adj"/></e>
+	<e lm="toenemend"><i>toenemend</i><par n="nipt__adj"/></e>
 	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
 	<e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
 	<e lm="onbedachtzaam"><i>onbedachtza</i><par n="minza/am__adj_sint"/></e>
@@ -11790,6 +11804,8 @@
     <e lm="hedendaags"><i>hedendaags</i><par n="fors__adj_sint"/></e>
 	<e lm="kerkelijk"><i>kerkelijk</i><par n="eng__adj_sint"/></e>
     <e lm="Belgisch"><i>Belgisch</i><par n="fors__adj_sint"/></e>
+    <e lm="archeologisch"><i>archeologisch</i><par n="taps__adj"/></e>
+    <e lm="archeologisch"><i>archeologisch</i><par n="taps__adj"/></e>
     <e lm="bestaand"><i>bestaand</i><par n="nipt__adj"/></e>
     <e lm="geheel"><i>gehe</i><par n="gehe/el__adj"/></e>
     <e lm="vast"><i>vast</i><par n="eng__adj_sint"/></e>
@@ -11798,6 +11814,7 @@
     <e lm="enorm"><i>enorm</i><par n="gans__adj"/></e>
     <e lm="Vlaams"><i>Vlaams</i><par n="fors__adj_sint"/></e>
     <e lm="Keltisch"><i>Keltisch</i><par n="fors__adj_sint"/></e>
+    <e lm="islamitisch"><i>islamitisch</i><par n="fors__adj_sint"/></e>
     <e lm="Japans"><i>Japans</i><par n="fors__adj_sint"/></e>
     <e lm="Chinees"><i>Chine</i><par n="he/es__adj_sint"/></e>
 	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
@@ -12683,15 +12700,24 @@
     <e lm="Brits"><i>Brits</i><par n="fors__adj_sint"/></e>
 	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
     <e lm="Australisch"><i>Australisch</i><par n="fors__adj_sint"/></e>
+	<e lm="metropolitaans"><i>metropolitaans</i><par n="fors__adj_sint"/></e>
     <e lm="Chinees"><i>Chine</i><par n="he/es__adj_sint"/></e>
+	<e lm="federaal"><i>federa</i><par n="ka/al__adj_sint"/></e>
     <e lm="koloniaal"><i>kolonia</i><par n="ora/al__adj"/></e>
     <e lm="gelijkaardig"><i>gelijkaardig</i><par n="eng__adj_sint"/></e>
+    <e lm="Baltisch"><i>Baltisch</i><par n="fors__adj_sint"/></e>
     <e lm="oranje"><i>oranje</i><par n="roze__adj_sint"/></e>
+	<e lm="koninklijk"><i>koninklijk</i><par n="eng__adj_sint"/></e>
     <e lm="Ottomaans"><i>Ottomaans</i><par n="Tibetaans__adj_sint"/></e>
     <e lm="zelfstandig"><i>zelfstandig</i><par n="opstandig__adj_sint"/></e>
     <e lm="Arabisch"><i>Arabisch</i><par n="fors__adj_sint"/></e>
     <e lm="geschikt"><i>geschikt</i><par n="eng__adj_sint"/></e>
     <e lm="Frankisch"><i>Frankisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Gotisch"><i>Gotisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Normandisch"><i>Normandisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Scandinavisch"><i>Scandinavisch</i><par n="fors__adj_sint"/></e>
+    <e lm="Schots"><i>Schots</i><par n="fors__adj_sint"/></e>
+    <e lm="Iers"><i>Iers</i><par n="fors__adj_sint"/></e>
     <e lm="Atlantisch"><i>Atlantisch</i><par n="gans__adj"/></e>
     <e lm="overzees"><i>overzees</i><par n="taps__adj"/></e>
     <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
@@ -12702,7 +12728,9 @@
     <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
     <e lm="bijzonder"><i>bijzonder</i><par n="fier__adj_sint"/></e>
     <e lm="donker"><i>donker</i><par n="fier__adj_sint"/></e>
+    <e lm="socialistisch"><i>socialistisch</i><par n="fors__adj_sint"/></e>
     <e lm="Pruisisch"><i>Pruisisch</i><par n="taps__adj"/></e>
+    <e lm="westers"><i>westers</i><par n="fors__adj_sint"/></e>
 <!-- adv.xml -->
 
 	<e lm="laatstgenoemde"><i>laatstgenoemde</i><par n="es__adv"/></e>
@@ -12984,6 +13012,7 @@
     <e lm="gisteren"><i>gisteren</i><par n="es__adv"/></e>
     <e lm="altijd"><i>altijd</i><par n="es__adv"/></e>
     <e lm="vaak"><i>vaak</i><par n="es__adv"/></e>
+	<e lm="grootschaals"><i>grootschaals</i><par n="es__adv"/></e>
     <e lm="helemaal"><i>helemaal</i><par n="es__adv"/></e>
     <e lm="intussen"><i>intussen</i><par n="es__adv"/></e>
     <e lm="enzovoort"><i>enzovoort</i><par n="es__adv"/></e>
@@ -13028,8 +13057,10 @@
     <e lm="terwijl"><i>terwijl</i><par n="dus__cnjadv"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="dus__cnjadv"/></e>
     <e lm="waarmee"><i>waarmee</i><par n="dus__cnjadv"/></e>
+    <e lm="nochtans"><i>nochtans</i><par n="en__cnjcoo"/></e>
     <e lm="omdat"><i>omdat</i><par n="dus__cnjadv"/></e>
     <e lm="totdat"><i>totdat</i><par n="dus__cnjadv"/></e>
+    <e lm="behalve"><i>behalve</i><par n="omdat__cnjsub"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
 <!-- det.xml -->
 
@@ -13468,7 +13499,7 @@
     <e lm="Willem"><i>Willem</i><par n="Wynand__np"/></e>
     <e lm="William"><i>William</i><par n="Wynand__np"/></e>
     <e lm="Wynand"><i>Wynand</i><par n="Wynand__np"/></e>
-	<e lm="Vladimir"><i>Louis</i><par n="Wynand__np"/></e>
+	<e lm="Vladimir"><i>Vladimir</i><par n="Wynand__np"/></e>
     <e lm="Pieter"><i>Pieter</i><par n="Wynand__np"/></e>
     <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
     <e lm="Jan"><i>Jan</i><par n="Wynand__np"/></e>
@@ -13672,7 +13703,7 @@
     <e lm="kolonist"><i>kolonist</i><par n="breedte__n_f"/></e>
     <e lm="kolonist"><i>kolonist</i><par n="breedte__n_f"/></e>
     <e lm="graad"><i>gra</i><par n="na/ad__n_m"/></e>
-    <e lm="kerkraad"><i>ra</i><par n="na/ad__n_m"/></e>
+    <e lm="kerkraad"><i>kerkra</i><par n="na/ad__n_m"/></e>
     <e lm="stroom"><i>stro</i><par n="bo/om__n_m"/></e>
     <e lm="stroom"><i>stro</i><par n="bo/om__n_m"/></e>
     <e lm="datum"><i>dat</i><par n="dat/um__n_m"/></e>
@@ -13690,7 +13721,7 @@
     <e lm="regel"><i>regel</i><par n="led__n_m"/></e>
     <e lm="competitie"><i>competitie</i><par n="roe__n_f"/></e>
     <e lm="toewijzing"><i>toewijzing</i><par n="vering__n_f"/></e>
-    <e lm="kookkunst"><i>kookkunst</i><par n="eb__n_f"/></e>
+    <e lm="kookkunst"><i>kookkunst</i><par n="vering__n_f"/></e>
     <e lm="letter"><i>letter</i><par n="ader__n_f"/></e>
     <e lm="kritiek"><i>kritiek</i><par n="eb__n_f"/></e>
     <e lm="eer"><i>eer</i><par n="AJC__n_mf"/></e>
@@ -13750,6 +13781,7 @@
     <e lm="koper"><i>koper</i><par n="OV__n_nt"/></e>
     <e lm="koper"><i>koper</i><par n="eb__n_m"/></e>
     <e lm="politie"><i>politie</i><par n="soesa__n_f"/></e>
+    <e lm="inkomsten"><i>inkomsten</i><par n="Olympische Spelen__n_m"/></e>
     <e lm="woonwijk"><i>woonwijk</i><par n="akst__n_mf"/></e>
     <e lm="tv"><i>tv</i><par n="tv__n_f"/></e>
     <e lm="ANC"><i>ANC</i><par n="A4__n_nt"/></e>
@@ -16847,7 +16879,6 @@
     <e lm="toegang"><i>toegang</i><par n="Belg__n_m"/></e>
     <e lm="bijnaam"><i>bijna</i><par n="na/am__n_m"/></e>
     <e lm="bijdrage"><i>bijdrage</i><par n="rune__n_f"/></e>
-    <e lm="aarde"><i>aarde</i><par n="yoga__n_mf"/></e>
     <e lm="voorwerp"><i>voorwerp</i><par n="lot__n_nt"/></e>
     <e lm="kerkgebouw"><i>kerkgebouw</i><par n="lot__n_nt"/></e>
     <e lm="optreden"><i>optreden</i><par n="eon__n_nt"/></e>
@@ -16930,6 +16961,7 @@
 <!-- pr.xml -->
 
     <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
+    <e lm="daartoe"><i>daartoe</i><par n="van__pr"/></e>
 	<e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
 	<e lm="er"><i>er</i><par n="van__pr"/></e>
     <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
@@ -17016,6 +17048,7 @@
     <e lm="waarop"><i>waarop</i><par n="van__pr"/></e>
     <e lm="weg"><i>weg</i><par n="van__pr"/></e>
     <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
+    <e lm="omstreeks"><i>omstreeks</i><par n="van__pr"/></e>
 <!-- rel.xml -->
 
     <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
@@ -17030,6 +17063,27 @@
 
     <e lm="regenen"><i>regen</i><par n="jij/en__vblex"/></e>
     <e lm="regenen"><p><l>geregend</l><r>regenen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verduidelijken"><i>verduidelijk</i><par n="fax/en__vblex"/></e>
+    <e lm="verduidelijken"><p><l>verduidelijkt</l><r>verduidelijken</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ervaren"><p><l>ervaren</l><r>ervaren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="ervaren"><i>erv</i><par n="v/aren__vblex"/></e>
+    <e lm="verdrijven"><p><l>verdreven</l><r>verdrijven</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verdrijven"><i>verdr</i><par n="dr/ijven__vblex"/></e>
+    <e lm="bijvoegen"><i>bijvoeg</i><par n="aanbeland/en__vblex_sep"/></e>
+    <e lm="bijvoegen"><p><l>voeg</l><r>bijvoeg</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>bij</l><r></r></p></e>
+    <e lm="bijvoegen"><p><l>bijgevoegd</l><r>bijvoegen</r></p><par n="gesproken__vblex_sep"/></e>
+    <e lm="produceren"><i>produce</i><par n="ve/ren__vblex"/></e>
+    <e lm="produceren"><p><l>geproduceerd</l><r>produceren</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbieden"><p><l>verboden</l><r>verbieden</r></p><par n="gesproken__vblex"/></e>
+    <e lm="verbieden"><i>verb</i><par n="z/ieden__vblex"/></e>
+    <e lm="verbouwen"><i>verbouw</i><par n="jij/en__vblex"/></e>
+    <e lm="verbouwen"><p><l>verbouwd</l><r>verbouwen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="herbouwen"><i>herbouw</i><par n="jij/en__vblex"/></e>
+    <e lm="herbouwen"><p><l>herbouwd</l><r>herbouwen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voldoen"><p><l>voldaan</l><r>voldoen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="voldoen"><i>vold</i><par n="d/oen__vblex"/></e>
+    <e lm="overleven"><i>overle</i><par n="le/ven__vblex"/></e>
+    <e lm="overleven"><p><l>overleefd</l><r>overleven</r></p><par n="gesproken__vblex"/></e>
     <e lm="dwingen"><p><l>gedwongen</l><r>dwingen</r></p><par n="gesproken__vblex"/></e>
     <e lm="dwingen"><i>dw</i><par n="d/ingen__vblex"/></e>
     <e lm="huisvesten"><i>huisvest</i><par n="ent/en__vblex"/></e>
