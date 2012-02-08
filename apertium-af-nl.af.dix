@@ -1702,7 +1702,6 @@
 	
 	<e lm="mede"><i>mede</i><par n="miskien__adv"/></e>
 	<e lm="waarvoor"><i>waarvoor</i><par n="miskien__adv"/></e>
-	<e lm="behalwe"><i>behalwe</i><par n="miskien__adv"/></e>
 	<e lm="intussen"><i>intussen</i><par n="miskien__adv"/></e>
 	<e lm="omstreeks"><i>omstreeks</i><par n="miskien__adv"/></e>	
 	<e lm="toe"><i>toe</i><par n="miskien__adv"/></e>	
@@ -3488,7 +3487,7 @@
     <e lm="watt"><i>watt</i><par n="artikel__n"/></e><!-- watt --><!-- watts -->
     <e lm="webwerf"><i>webwer</i><par n="alternatie/f__n"/></e><!-- web site --><!-- webwerwe -->
     <e lm="wedloop"><i>wedlo</i><par n="aanko/op__n"/></e><!-- run RACE --><!-- wedlope -->
-    <e lm="verloop"><i>verlo</i><par n="aalwyn__n"/></e><!-- progress -->
+    <e lm="verloop"><i>verloop</i><par n="aalwyn__n"/></e><!-- progress -->
     <e lm="wedren"><i>wedren</i><par n="polisieman__n"/></e><!-- race --><!-- wedrenne -->
 	<e lm="span"><i>span</i><par n="polisieman__n"/></e>
     <e lm="wedstryd"><i>wedstryd</i><par n="bier__n"/></e><!-- game match --><!-- wedstryde -->
@@ -3691,7 +3690,7 @@
     <e lm="aflewering"><i>aflewering</i><par n="aardbewing__n"/></e><!-- delivery -->
     <e lm="afstand"><i>afstand</i><par n="bier__n"/></e><!-- distance -->
     <e lm="aftrede"><i>aftrede</i><par n="poësie__n__unc"/></e><!-- retirement -->
-    <e lm="vrede"><i>vrede</i><par n="poësie__n__unc"/></e><!-- peace -->
+    <e lm="vrede"><i>vrede</i><par n="artikel__n"/></e><!-- peace -->
     <e lm="afwyking"><i>afwyking</i><par n="aardbewing__n"/></e><!-- offset -->
     <e lm="agenda"><i>agenda</i><par n="artikel__n"/></e><!-- agenda -->
     <e lm="agtergrond"><i>agtergrond</i><par n="bier__n"/></e><!-- background -->
@@ -3973,7 +3972,7 @@
     <e lm="weste"><i>weste</i><par n="aalwyn__n"/></e>
     <e lm="frase"><i>frase</i><par n="artikel__n"/></e>
     <e lm="spraak"><i>spraak</i><par n="aalwyn__n"/></e>
-    <e lm="aanspraak"><i>aanspraak</i><par n="aalwyn__n"/></e>
+    <e lm="aanspraak"><i>aanspra</i><par n="afspra/ak__n"/></e>
     <e lm="afsondering"><i>afsondering</i><par n="artikel__n"/></e>
     <e lm="grondslag"><i>grondsl</i><par n="sa/ag__n"/></e>
     <e lm="briefwisseling"><i>briefwisseling</i><par n="bier__n"/></e>
@@ -6080,6 +6079,7 @@
 	<e lm="druk"><i>druk</i><par n="dik__adj"/></e>
 	<e lm="swak"><i>swak</i><par n="dik__adj"/></e>
 	<e lm="vorig"><i>vorig</i><par n="dadelik__adj"/></e>
+	<e lm="groeiend"><i>groeiend</i><par n="dadelik__adj"/></e>
 	<e lm="keiserlik"><i>keiserlik</i><par n="dadelik__adj"/></e>
 	<e lm="hedendaags"><i>hedendaags</i><par n="dadelik__adj"/></e>
 	<e lm="kerklik"><i>kerklik</i><par n="dadelik__adj"/></e>
@@ -9334,7 +9334,7 @@
     <e lm="baseer"><p><l>gebaseer</l><r>baseer</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="produseer"><i>produseer</i><par n="breek__vblex"/></e>
-    <e lm="produseer"><p><l>geproduseer</l><r>baseer</r></p><par n="gebreek__vblex"/></e>
+    <e lm="produseer"><p><l>geproduseer</l><r>produseer</r></p><par n="gebreek__vblex"/></e>
 
     <e lm="bied"><i>bied</i><par n="breek__vblex"/></e>
     <e lm="bied"><p><l>gebied</l><r>bied</r></p><par n="gebreek__vblex"/></e>
@@ -10256,6 +10256,7 @@
     <e lm="kardinaal"><i>kardina</i><par n="ta/al__n"/></e>
     <e lm="bekend"><i>bekend</i><par n="arm__adj"/></e>
     <e lm="nogtan"><i>nogtans</i><par n="en__cnjcoo"/></e>
+    <e lm="waartydens"><i>waartydens</i><par n="en__cnjcoo"/></e>
     <e lm="omstreeks"><i>omstreeks</i><par n="met__pr"/></e>
     <e lm="kalender"><i>kalender</i><par n="artikel__n"/></e>
     <e lm="Australies"><i>Australies</i><par n="dadelik__adj"/></e>
@@ -10272,7 +10273,8 @@
     <e lm="daartoe"><i>daartoe</i><par n="met__pr"/></e>
     <e lm="Westers"><i>Westers</i><par n="dadelik__adj"/></e>
     <e lm="totdat"><i>totdat</i><par n="dat__cnjsub"/></e>
-    <e lm="tuiste"><i>tuiste</i><par n="aalwyn__n"/></e>
+    <e lm="tuiste"><i>tuiste</i><par n="artikel__n"/></e>
+    <e lm="blanke"><i>blanke</i><par n="artikel__n"/></e>
     <e lm="Kelties"><i>Kelties</i><par n="dadelik__adj"/></e>
     <e lm="Balties"><i>Balties</i><par n="dadelik__adj"/></e>
     <e lm="oranje"><i>oranje</i><par n="swart__adj"/></e>
@@ -10291,57 +10293,55 @@
     <e lm="Boer"><i>Boer</i><par n="bier__n"/></e>
     <e lm="Stadion"><i>Stadion</i><par n="artikel__n"/></e>
     <e lm="meer"><i>me</i><par n="atmosfe/er__n"/></e>
-<e lm="behalwe"><i>behalwe</i><par n="dat__cnjsub"/></e>
-<e lm="toegang"><i>toegang</i><par n="bier__n"/></e>
-<e lm="grootskaals"><i>grootskaals</i><par n="miskien__adv"/></e>
-<e lm="bynaam"><i>byna</i><par n="na/am__n"/></e>
-<e lm="Arabies"><i>Arabies</i><par n="dadelik__adj"/></e>
-<e lm="bydra"><i>bydra</i><par n="artikel__n"/></e> <!-- meervoud: bydrae -->
-<e lm="oorwegend"><i>oorwegend</i><par n="taamlik__preadv"/></e>
-<e lm="aard"><i>aard</i><par n="bier__n"/></e>
-<e lm="geskik"><i>geskik</i><par n="arm__adj"/></e>
-<e lm="voorwerp"><i>voorwerp</i><par n="bier__n"/></e>
-<e lm="miljardste"><i>miljardste</i><par n="tweede__det"/></e>
-<e lm="kerkgebou"><i>kerkgebou</i><par n="bier__n"/></e>
-<e lm="Japannees"><i>Japanne</i><par n="europe/es__adj"/></e>
-<e lm="Russies"><i>Russies</i><par n="dadelik__adj"/></e>
-<e lm="Frankies"><i>Frankies</i><par n="dadelik__adj"/></e>
-<e lm="optrede"><i>optrede</i><par n="artikel__n"/></e>	 	
-<e lm="setel"><i>setel</i><par n="artikel__n"/></e>
-<e lm="Atlanties"><i>Atlanties</i><par n="dadelik__adj"/></e>
-<e lm="plein"><i>plein</i><par n="bier__n"/></e>
-<e lm="oversees"><i>overse</i><par n="europe/es__adj"/></e>		
-<e lm="Berlyns"><i>Berlyns</i><par n="dadelik__adj"/></e>
-<e lm="Orthodoks"><i>Orthodoks</i><par n="dadelik__adj"/></e>	
-<e lm="heeltemaal"><i>heeltemaal</i><par n="miskien__adv"/></e>
-<e lm="gereformeerd"><i>gereformeerd</i><par n="dadelik__adj"/></e>
-<e lm="Skandinawië"><i>Skandinawië</i><par n="Engeland__np"/></e>	
-<e lm="Bisantyns"><i>Bisantyns</i><par n="dadelik__adj"/></e>
-<e lm="hoërskool"><i>hoërsko</i><par n="sko/ol__n"/></e>
-<e lm="intussen"><i>intussen</i><par n="miskien__adv"/></e>
-<e lm="kuslyn"><i>kuslyn</i><par n="bier__n"/></e>
-<e lm="Keiserlik"><i>Keiserlik</i><par n="dadelik__adj"/></e>		
-<e lm="Geallieerde"><i>Geallieerde</i><par n="aalwyn__n"/></e>
-<e lm="ensovoorts"><i>ensovoorts</i><par n="miskien__adv"/></e>	
-<e lm="blank"><i>blank</i><par n="swart__adj"/></e>
-<e lm="besonder"><i>besonder</i><par n="dadelik__adj"/></e>
-<e lm="Middeleeus"><i>Middeleeus</i><par n="dadelik__adj"/></e>
-<e lm="grondgebied"><i>grondgebied</i><par n="bier__n"/></e>
-<e lm="Athene"><i>Athene</i><par n="Engeland__np"/></e>
-<e lm="donker"><i>donker</i><par n="min__adj"/></e>
-<e lm="Provinsiaal"><i>Provinsia</i><par n="voka/al__adj"/></e>
-<e lm="Ierland"><i>Ierland</i><par n="Engeland__np"/></e>
-<e lm="vliegtuig"><i>vliegtuig</i><par n="bier__n"/></e>
-<e lm="oorlog"><i>oorlog</i><par n="artikel__n"/></e> <!-- meervoud: oorloë -->
-<e lm="heerser"><i>heerser</i><par n="artikel__n"/></e>
-<e lm="slaaf"><i>slaa</i><par n="alternatie/f__n"/></e>
-<e lm="kroon"><i>kro</i><par n="perso/on__n"/></e>
-<e lm="beurt"><i>beurt</i><par n="bier__n"/></e>
-<e lm="aanspraak"><i>aanspraak</i><par n="aalwyn__n"/></e>
-<e lm="Sosialisties"><i>Sosialisti</i><par n="europe/es__adj"/></e>
-<e lm="Pruisies"><i>Pruisi</i><par n="europe/es__adj"/></e>
-  
-  </section>
+    <e lm="behalwe"><i>behalwe</i><par n="dat__cnjsub"/></e>
+    <e lm="toegang"><i>toegang</i><par n="bier__n"/></e>
+    <e lm="grootskaals"><i>grootskaals</i><par n="miskien__adv"/></e>
+    <e lm="bynaam"><i>byna</i><par n="na/am__n"/></e>
+    <e lm="Arabies"><i>Arabies</i><par n="dadelik__adj"/></e>
+    <e lm="bydra"><i>bydra</i><par n="artikel__n"/></e> <!-- meervoud: bydrae -->
+    <e lm="oorwegend"><i>oorwegend</i><par n="taamlik__preadv"/></e>
+    <e lm="geskik"><i>geskik</i><par n="arm__adj"/></e>
+    <e lm="voorwerp"><i>voorwerp</i><par n="bier__n"/></e>
+    <e lm="miljardste"><i>miljardste</i><par n="tweede__det"/></e>
+    <e lm="kerkgebou"><i>kerkgebou</i><par n="bier__n"/></e>
+    <e lm="Japannees"><i>Japanne</i><par n="europe/es__adj"/></e>
+    <e lm="Russies"><i>Russies</i><par n="dadelik__adj"/></e>
+    <e lm="Frankies"><i>Frankies</i><par n="dadelik__adj"/></e>
+    <e lm="optrede"><i>optrede</i><par n="artikel__n"/></e>	 	
+    <e lm="setel"><i>setel</i><par n="artikel__n"/></e>
+    <e lm="Atlanties"><i>Atlanties</i><par n="dadelik__adj"/></e>
+    <e lm="plein"><i>plein</i><par n="bier__n"/></e>
+    <e lm="oversees"><i>overse</i><par n="europe/es__adj"/></e>		
+    <e lm="Berlyns"><i>Berlyns</i><par n="dadelik__adj"/></e>
+    <e lm="Orthodoks"><i>Orthodoks</i><par n="dadelik__adj"/></e>	
+    <e lm="heeltemaal"><i>heeltemaal</i><par n="miskien__adv"/></e>
+    <e lm="gereformeerd"><i>gereformeerd</i><par n="dadelik__adj"/></e>
+    <e lm="Skandinawië"><i>Skandinawië</i><par n="Engeland__np"/></e>	
+    <e lm="Bisantyns"><i>Bisantyns</i><par n="dadelik__adj"/></e>
+    <e lm="hoërskool"><i>hoërsko</i><par n="sko/ol__n"/></e>
+    <e lm="intussen"><i>intussen</i><par n="miskien__adv"/></e>
+    <e lm="kuslyn"><i>kuslyn</i><par n="bier__n"/></e>
+    <e lm="Keiserlik"><i>Keiserlik</i><par n="dadelik__adj"/></e>		
+    <e lm="Geallieerde"><i>Geallieerde</i><par n="polisie__n"/></e>
+    <e lm="ensovoorts"><i>ensovoorts</i><par n="miskien__adv"/></e>	
+    <e lm="blank"><i>blank</i><par n="swart__adj"/></e>
+    <e lm="besonder"><i>besonder</i><par n="dadelik__adj"/></e>
+    <e lm="Middeleeus"><i>Middeleeus</i><par n="dadelik__adj"/></e>
+    <e lm="grondgebied"><i>grondgebied</i><par n="bier__n"/></e>
+    <e lm="Athene"><i>Athene</i><par n="Engeland__np"/></e>
+    <e lm="donker"><i>donker</i><par n="min__adj"/></e>
+    <e lm="Provinsiaal"><i>Provinsia</i><par n="voka/al__adj"/></e>
+    <e lm="Ierland"><i>Ierland</i><par n="Engeland__np"/></e>
+    <e lm="vliegtuig"><i>vliegtuig</i><par n="bier__n"/></e>
+    <e lm="oorlog"><i>oorlog</i><par n="artikel__n"/></e> <!-- meervoud: oorloë -->
+    <e lm="heerser"><i>heerser</i><par n="artikel__n"/></e>
+    <e lm="slaaf"><i>slaa</i><par n="alternatie/f__n"/></e>
+    <e lm="kroon"><i>kro</i><par n="perso/on__n"/></e>
+    <e lm="beurt"><i>beurt</i><par n="bier__n"/></e>
+    <e lm="Sosialisties"><i>Sosialisti</i><par n="europe/es__adj"/></e>
+    <e lm="Pruisies"><i>Pruisi</i><par n="europe/es__adj"/></e>
+      
+</section>
 
   <section id="final" type="inconditional">
     <e><par n="separa"/></e>

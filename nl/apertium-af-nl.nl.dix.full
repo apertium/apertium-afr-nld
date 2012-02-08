@@ -15910,7 +15910,7 @@
     <e lm="vet"><i>vet</i><par n="kot__n_nt"/></e>
     <e lm="A-bom"><i>A-bom</i><par n="kom__n_mf"/></e>
     <e lm="A4"><i>A4</i><par n="A4__n_nt"/></e>
-    <e lm="ANC"><i>ANC</i><par n="A4__n_nt"/></e>
+    <e lm="ANC"><i>ANC</i><par n="OV__n_nt"/></e>
     <e lm="A4-formaat"><i>A4-formaat</i><par n="OV__n_nt"/></e>
     <e lm="AAW-voorziening"><i>AAW-voorziening</i><par n="vering__n_f"/></e>
     <e lm="ABC"><i>ABC</i><par n="OV__n_nt"/></e>
@@ -37050,11 +37050,12 @@
     <e lm="Scandinavisch"><i>Scandinavisch</i><par n="fors__adj_sint"/></e>
     <e lm="optreden"><i>optreden</i><par n="eon__n_nt"/></e>
     <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
-    <e lm="Berlijns"><i>Berlijns</i><par n="gans__adj"/></e>
+    <e lm="Berlijns"><i>Berlijns</i><par n="fors__adj_sint"/></e>
     <e lm="Byzantijns"><i>Byzantijns</i><par n="fors__adj_sint"/></e>
     <e lm="kustlijn"><i>kustlijn</i><par n="akst__n_mf"/></e>
     <e lm="Geallieerden"><i>Geallieerden</i><par n="Olympische Spelen__n_m"/></e>
     <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
+    <e lm="gereformeerd"><i>gereformeerd</i><par n="eng__adj_sint"/></e>
     <e lm="blanke"><i>blanke</i><par n="made__n_mf"/></e>
     <e lm="Athene"><i>Athene</i><par n="Frankrijk__np"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>

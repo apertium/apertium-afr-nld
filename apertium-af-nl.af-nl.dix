@@ -4070,7 +4070,7 @@
     <e><p><l>Adriaan<s n="np"/><s n="ant"/><s n="m"/></l><r>Adriaan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Aleksander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Albert<s n="np"/><s n="ant"/><s n="m"/></l><r>Albert<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Anne<s n="np"/><s n="ant"/><s n="f"/></l><r>Anne<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Anrie<s n="np"/><s n="ant"/><s n="f"/></l><r>Anrie<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Hanna<s n="np"/><s n="ant"/><s n="f"/></l><r>Hanna<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4260,7 +4260,6 @@
     <e><p><l>volgende<s n="adj"/></l><r>volgend<s n="adj"/></r></p></e>
     <e><p><l>Engels<s n="adj"/></l><r>Engels<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Europees<s n="adj"/></l><r>Europees<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>Russiese<s n="adj"/></l><r>Russisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Romeins<s n="adj"/></l><r>Romeins<s n="adj"/><s n="sint"/></r></p></e>
     <e r="LR"><p><l>tal<s n="adj"/></l><r>veel<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>veel<s n="adj"/><s n="sint"/></l><r>veel<s n="adj"/><s n="sint"/></r></p></e>
@@ -6489,12 +6488,12 @@
     <e><p><l>metropolitaans<s n="adj"/></l><r>metropolitaans<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Sjinees<s n="adj"/></l><r>Chinees<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>talle<s n="adj"/></l><r>aantal<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>federaal<s n="adj"/></l><r>federaal<s n="adj"/></r></p></e>
+    <e><p><l>federaal<s n="adj"/></l><r>federaal<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>koloniaal<s n="adj"/></l><r>koloniaal<s n="adj"/></r></p></e>
-    <e><p><l>heelwat<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>heelwat<s n="adv"/></l><r>vaak<s n="adv"/></r></p></e>
     <e><p><l>vrede<s n="n"/></l><r>vrede<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>soortgelyk<s n="adj"/></l><r>gelijkaardig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>daartoe<s n="cnjadv"/></l><r>omdat<s n="cnjadv"/></r></p></e>				
+    <e r="LR"><p><l>daartoe<s n="cnjadv"/></l><r>omdat<s n="cnjadv"/></r></p></e>				
     <e><p><l>totdat<s n="cnjsub"/></l><r>totdat<s n="cnjadv"/></r></p></e>
     <e><p><l>tuiste<s n="n"/></l><r>tehuis<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>Balties<s n="adj"/></l><r>Baltisch<s n="adj"/><s n="sint"/></r></p></e>
@@ -6519,7 +6518,6 @@
     <e><p><l>Arabies<s n="adj"/></l><r>Arabisch<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>bydra<s n="n"/></l><r>bijdrage<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oorwegend<s n="preadv"/></l><r>overwegend<s n="preadv"/></r></p></e>
-    <e><p><l>aard<s n="n"/></l><r>aard<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>geskik<s n="adj"/></l><r>geschikt<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>voorwerp<s n="n"/></l><r>voorwerp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>miljardste<s n="det"/></l><r>miljardste<s n="det"/></r></p></e>
@@ -6532,7 +6530,6 @@
     <e><p><l>Iers<s n="adj"/></l><r>Iers<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>optrede<s n="n"/></l><r>optreden<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>setel<s n="n"/></l><r>zetel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>overeenkoms<s n="n"/></l><r>overeenkomst<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Atlanties<s n="adj"/></l><r>Atlantisch<s n="adj"/></r></p></e>
     <e><p><l>plein<s n="n"/></l><r>plein<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>oversees<s n="adj"/></l><r>overzees<s n="adj"/></r></p></e>
@@ -6541,7 +6538,7 @@
     <e><p><l>heeltemaal<s n="adv"/></l><r>helemaal<s n="adv"/></r></p></e>
     <e><p><l>gereformeerd<s n="adj"/></l><r>gereformeerd<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>groeiend<s n="adj"/></l><r>groeiend<s n="adj"/></r></p></e>
-    <e><p><l>Bisantyns<s n="adj"/></l><r>Bysantijns<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>Bisantyns<s n="adj"/></l><r>Byzantijns<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>hoërskool<s n="n"/></l><r>Hogeschool<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>intussen<s n="adv"/></l><r>intussen<s n="adv"/></r></p></e>
     <e><p><l>kuslyn<s n="n"/></l><r>kustlijn<s n="n"/><s n="mf"/></r></p></e>
@@ -6551,9 +6548,9 @@
     <e><p><l>blank<s n="adj"/></l><r>blank<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>blanke<s n="n"/></l><r>blanke<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>besonder<s n="adj"/></l><r>bijzonder<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>Middeleeus<s n="adj"/></l><r>Middeleeuws<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>Middeleeus<s n="adj"/></l><r>middeleeuws<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>grondgebied<s n="n"/></l><r>grondgebied<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>Athene<s n="np"/><s n="top"/></l><r>Athene<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Athene<s n="np"/><s n="top"/></l><r>Athene<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
     <e><p><l>donker<s n="adj"/></l><r>donker<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>Provinsiaal<s n="adj"/></l><r>Provinciaal<s n="adj"/></r></p></e>
     <e><p><l>waartydens<s n="cnjcoo"/></l><r>terwijl<s n="cnjcoo"/></r></p></e>

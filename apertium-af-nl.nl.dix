@@ -11890,7 +11890,6 @@
     <e lm="volgend"><i>volgend</i><par n="gans__adj"/></e>
     <e lm="Engels"><i>Engels</i><par n="fors__adj_sint"/></e>
     <e lm="Europees"><i>Europe</i><par n="he/es__adj_sint"/></e>
-    <e lm="Russisch"><i>Russisch</i><par n="fors__adj_sint"/></e>
     <e lm="Romeins"><i>Romeins</i><par n="fors__adj_sint"/></e>
     <e lm="veel"><i></i><par n="/veel__adj_sint"/></e>
     <e lm="veel"><i></i><par n="/veel__adj_sint"/></e>
@@ -12721,12 +12720,15 @@
     <e lm="Atlantisch"><i>Atlantisch</i><par n="gans__adj"/></e>
     <e lm="overzees"><i>overzees</i><par n="taps__adj"/></e>
     <e lm="overzees"><i>overze</i><par n="Nepale/es__adj"/></e>
-    <e lm="Berlijns"><i>Berlijns</i><par n="gans__adj"/></e>
+    <e lm="Berlijns"><i>Berlijns</i><par n="fors__adj_sint"/></e>
+    <e lm="gereformeerd"><i>gereformeerd</i><par n="eng__adj_sint"/></e>
     <e lm="groeiend"><i>groeiend</i><par n="nipt__adj"/></e>
+    <e lm="Byzantijns"><i>Byzantijns</i><par n="fors__adj_sint"/></e>
     <e lm="keizerlijk"><i>keizerlijk</i><par n="eng__adj_sint"/></e>
     <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
     <e lm="blank"><i>blank</i><par n="eng__adj_sint"/></e>
     <e lm="bijzonder"><i>bijzonder</i><par n="fier__adj_sint"/></e>
+    <e lm="middeleeuws"><i>middeleeuws</i><par n="fors__adj_sint"/></e>
     <e lm="donker"><i>donker</i><par n="fier__adj_sint"/></e>
     <e lm="socialistisch"><i>socialistisch</i><par n="fors__adj_sint"/></e>
     <e lm="Pruisisch"><i>Pruisisch</i><par n="taps__adj"/></e>
@@ -13784,7 +13786,7 @@
     <e lm="inkomsten"><i>inkomsten</i><par n="Olympische Spelen__n_m"/></e>
     <e lm="woonwijk"><i>woonwijk</i><par n="akst__n_mf"/></e>
     <e lm="tv"><i>tv</i><par n="tv__n_f"/></e>
-    <e lm="ANC"><i>ANC</i><par n="A4__n_nt"/></e>
+    <e lm="ANC"><i>ANC</i><par n="OV__n_nt"/></e>
     <e lm="gedachte"><i>gedachte</i><par n="made__n_f"/></e>
     <e lm="mijn"><i>mijn</i><par n="zooi__n_mf"/></e>
     <e lm="publicatie"><i>publicatie</i><par n="roe__n_f"/></e>
@@ -16883,7 +16885,6 @@
     <e lm="kerkgebouw"><i>kerkgebouw</i><par n="lot__n_nt"/></e>
     <e lm="optreden"><i>optreden</i><par n="eon__n_nt"/></e>
     <e lm="zetel"><i>zetel</i><par n="led__n_m"/></e>
-    <e lm="overeenkomst"><i>overeenkomst</i><par n="vering__n_f"/></e>
     <e lm="plein"><i>plein</i><par n="lot__n_nt"/></e>
     <e lm="kustlijn"><i>kustlijn</i><par n="akst__n_mf"/></e>
     <e lm="Geallieerden"><i>Geallieerden</i><par n="Olympische Spelen__n_m"/></e>
