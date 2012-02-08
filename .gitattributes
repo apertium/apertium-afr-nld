@@ -95,4 +95,5 @@ paper/poster/eamt2011_poster.tex -text
 paper/poster/hoofdstad.png -text
 paper/poster/mapdutchworld.png -text
 /pending-tests.sh -text
+/regression-tests.sh -text
 /wiki-tests.sh -text
