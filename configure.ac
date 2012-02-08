@@ -4,13 +4,13 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-af-nl], [0.1], [naudefj@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-af-nl], [0.1], no-define)
+AC_INIT([apertium-af-nl], [0.2.0], [otte.pim@gmail.com])
+AM_INIT_AUTOMAKE([apertium-af-nl], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
-PKG_CHECK_MODULES(APERTIUM, apertium-3.2 >= 3.1.0)
+PKG_CHECK_MODULES(APERTIUM, apertium-3.2 >= 3.2.0)
 
 APERTIUM_VER=30
 
