@@ -32,7 +32,7 @@ $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 
 $(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
-	lt-comp lr $(BASENAME).$(LANG2).dix $@
+	lt-comp lr $(BASENAME).$(LANG2).dix $@ $(BASENAME).$(LANG2).acx
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -79,6 +79,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(LANG1).dix \
+	   $(BASENAME).$(LANG2).acx \
+	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).post-$(LANG1).dix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(PREFIX1).dix \
