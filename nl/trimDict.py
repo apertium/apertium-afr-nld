@@ -1,6 +1,6 @@
-#Usage: Place in apertium-af-nl/nl
-fulldix = open('apertium-af-nl.nl.dix.full', 'r')
-exp = open('/tmp/apertium-af-nl.af-nl.exp', 'r')
+#Usage: Place in apertium-nld-fry/nl
+fulldix = open('apertium-nld-fry.nld.dix.full', 'r')
+exp = open('/tmp/apertium-nld-fry.nld-fry.exp', 'r')
 posList = ['n','vaux','vblex', 'adj', 'adv', 'pr', 'prn', 'det',
            'np', 'cnj', 'num', 'ij', 'rel', 'preadv', 'predet', 'otr'
            ]
@@ -21,7 +21,8 @@ for line in fulldix:
         
         
 for line in exp:
-    lanPart = line[line.rfind(':')+1:]
+    #lanPart = line[line.rfind(':')+1:]
+    lanPart = line[:line.rfind(':')];
     lemma = lanPart[:lanPart.find("<")]
     pos = lanPart[lanPart.find("<")+1:lanPart.find(">")]
     try:

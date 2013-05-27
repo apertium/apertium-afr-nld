@@ -1,33 +1,33 @@
-dos2unix apertium-af-nl.nl.dix.full
+dos2unix apertium-nld-fry.nld.dix.full
 echo "Processing..."
-`lt-expand ../apertium-af-nl.af-nl.dix | grep -v '__REGEXP__' > /tmp/apertium-af-nl.af-nl.exp`
+`lt-expand ../apertium-nld-fry.nld-fry.dix | grep -v '__REGEXP__' > /tmp/apertium-nld-fry.nld-fry.exp`
 
 
-HEAD=`grep -nH '<section id="main"' apertium-af-nl.nl.dix.full  | cut -f2 -d':'`;
-TAIL=`grep -nH '</section>' apertium-af-nl.nl.dix.full  | head -1 | tail -1 | cut -f2 -d':'`;
-LENGTH=`cat apertium-af-nl.nl.dix.full | wc -l`;
-DIX=nl.dix
+HEAD=`grep -nH '<section id="main"' apertium-nld-fry.nld.dix.full  | cut -f2 -d':'`;
+TAIL=`grep -nH '</section>' apertium-nld-fry.nld.dix.full  | head -1 | tail -1 | cut -f2 -d':'`;
+LENGTH=`cat apertium-nld-fry.nld.dix.full | wc -l`;
+DIX=nld.dix
 
 `python trimDict.py`
 
 
 echo "" > gen.xml
-cat apertium-af-nl.nl.dix.full | grep '<e lm="s" r="RL">' >> gen.xml
+cat apertium-nld-fry.nld.dix.full | grep '<e lm="s" r="RL">' >> gen.xml
 wc -l gen.xml
-cat apertium-af-nl.nl.dix.full | grep '<e lm="~" r="RL">' >> gen.xml
+cat apertium-nld-fry.nld.dix.full | grep '<e lm="~" r="RL">' >> gen.xml
 
 #####################################################################################
 
 echo "" > $DIX
-head -n $HEAD apertium-af-nl.nl.dix.full > $DIX
+head -n $HEAD apertium-nld-fry.nld.dix.full > $DIX
 for i in *.xml; do 
-	echo "<!-- "$i" -->" >> $DIX
+	echo "    <!-- SECTION: "$i" -->" >> $DIX
 	echo "" >> $DIX
 	cat $i >> $DIX
 done
 echo "</section>" >> $DIX
 
 T=`expr $LENGTH - $TAIL`;
-tail -n $T apertium-af-nl.nl.dix.full >> $DIX;
+tail -n $T apertium-nld-fry.nld.dix.full >> $DIX;
 
-cp nl.dix ../apertium-af-nl.nl.dix
+cp nld.dix ../apertium-nld-fry.nld.dix
