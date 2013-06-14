@@ -37021,6 +37021,7 @@
     <e><par n="guionet"/></e>
     <e><par n="paresq"/></e>
     <e><par n="pardret"/></e>
+<!--
     <e lm="Australisch"><i>Australisch</i><par n="fors_adj_sint"/></e>
     <e lm="laatstgenoemd"><i>laatstgenoemd</i><par n="__adj"/></e>
     <e lm="metropolitaans"><i>metropolitaans</i><par n="Tibetaans_adj_sint"/></e>
@@ -37042,5 +37043,6 @@
     <e lm="blanke"><i>blanke</i><par n="made__n_mf"/></e>
     <e lm="Athene"><i>Athene</i><par n="Frankrijk__np"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
+-->
  </section>
 </dictionary>
