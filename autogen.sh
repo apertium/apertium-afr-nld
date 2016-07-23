@@ -30,6 +30,5 @@ export PKG_CONFIG_PATH
 ACLOCAL_PATH="${ACLOCAL_PATH}:${PREFIX}/share/aclocal"
 export ACLOCAL_PATH
 
-
 # Pass on all args to configure
 autoreconf -fi && ./configure "$@"
