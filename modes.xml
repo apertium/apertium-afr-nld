@@ -1,273 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="af-nl" install="yes">
+  <mode name="afr-nld" install="yes">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="af-nl.prob"/>
+        <file name="afr-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.af-nl.t1x"/>
-        <file name="af-nl.t1x.bin"/>
-        <file name="af-nl.autobil.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t1x"/>
+        <file name="afr-nld.t1x.bin"/>
+        <file name="afr-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.af-nl.t2x"/>
-        <file name="af-nl.t2x.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t2x"/>
+        <file name="afr-nld.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.af-nl.t3x"/>
-        <file name="af-nl.t3x.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t3x"/>
+        <file name="afr-nld.t3x.bin"/>
       </program>
       <program name="apertium-transfer -n">
-	<file name="apertium-af-nl.post-nl.t1x"/>
-        <file name="af-nl.post.t1x.bin"/>
+	<file name="apertium-afr-nld.post-nl.t1x"/>
+        <file name="afr-nld.post.t1x.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="af-nl.autogen.bin"/>
+        <file name="afr-nld.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="af-nl.autopgen.bin"/>
+        <file name="afr-nld.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="af-nl-morph" install="no">
+  <mode name="afr-nld-morph" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="af-nl-tagger" install="no">
+  <mode name="afr-nld-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="af-nl.prob"/>
+        <file name="afr-nld.prob"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="af-nl-chunker" install="no">
+  <mode name="afr-nld-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="af-nl.prob"/>
+        <file name="afr-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.af-nl.t1x"/>
-        <file name="af-nl.t1x.bin"/>
-        <file name="af-nl.autobil.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t1x"/>
+        <file name="afr-nld.t1x.bin"/>
+        <file name="afr-nld.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="nl-af-nocmpd" install="no">
+  <mode name="nld-afr-nocmpd" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.nl-af.t1x"/>
-        <file name="nl-af.t1x.bin"/>
-        <file name="nl-af.autobil.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t1x"/>
+        <file name="nld-afr.t1x.bin"/>
+        <file name="nld-afr.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.nl-af.t2x"/>
-        <file name="nl-af.t2x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t2x"/>
+        <file name="nld-afr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.nl-af.t3x"/>
-        <file name="nl-af.t3x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t3x"/>
+        <file name="nld-afr.t3x.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="nl-af.autogen.bin"/>
+        <file name="nld-afr.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="nl-af" install="yes">
+  <mode name="nld-afr" install="yes">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.nl-af.t1x"/>
-        <file name="nl-af.t1x.bin"/>
-        <file name="nl-af.autobil.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t1x"/>
+        <file name="nld-afr.t1x.bin"/>
+        <file name="nld-afr.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.nl-af.t2x"/>
-        <file name="nl-af.t2x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t2x"/>
+        <file name="nld-afr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.nl-af.t3x"/>
-        <file name="nl-af.t3x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t3x"/>
+        <file name="nld-afr.t3x.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="nl-af.autogen.bin"/>
+        <file name="nld-afr.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="nl-af.autopgen.bin"/>
+        <file name="nld-afr.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nl-af-generador" install="no">
+  <mode name="nld-afr-generador" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.nl-af.t1x"/>
-        <file name="nl-af.t1x.bin"/>
-        <file name="nl-af.autobil.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t1x"/>
+        <file name="nld-afr.t1x.bin"/>
+        <file name="nld-afr.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.nl-af.t2x"/>
-        <file name="nl-af.t2x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t2x"/>
+        <file name="nld-afr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.nl-af.t3x"/>
-        <file name="nl-af.t3x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t3x"/>
+        <file name="nld-afr.t3x.bin"/>
       </program>
       <program name="lt-proc -g">
-        <file name="nl-af.autogen.bin"/>
+        <file name="nld-afr.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="af-nl-interchunk" install="no">
+  <mode name="afr-nld-interchunk" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="af-nl.prob"/>
+        <file name="afr-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.af-nl.t1x"/>
-        <file name="af-nl.t1x.bin"/>
-        <file name="af-nl.autobil.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t1x"/>
+        <file name="afr-nld.t1x.bin"/>
+        <file name="afr-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.af-nl.t2x"/>
-        <file name="af-nl.t2x.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t2x"/>
+        <file name="afr-nld.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
 
-  <mode name="af-nl-postchunk" install="no">
+  <mode name="afr-nld-postchunk" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="af-nl.automorf.bin"/>
+        <file name="afr-nld.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="af-nl.prob"/>
+        <file name="afr-nld.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.af-nl.t1x"/>
-        <file name="af-nl.t1x.bin"/>
-        <file name="af-nl.autobil.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t1x"/>
+        <file name="afr-nld.t1x.bin"/>
+        <file name="afr-nld.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.af-nl.t2x"/>
-        <file name="af-nl.t2x.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t2x"/>
+        <file name="afr-nld.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.af-nl.t3x"/>
-        <file name="af-nl.t3x.bin"/>
+        <file name="apertium-afr-nld.afr-nld.t3x"/>
+        <file name="afr-nld.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nl-af-morph" install="no">
+  <mode name="nld-afr-morph" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nl-af-tagger" install="no">
+  <mode name="nld-afr-tagger" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nl-af-chunker" install="no">
+  <mode name="nld-afr-chunker" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.nl-af.t1x"/>
-        <file name="nl-af.t1x.bin"/>
-        <file name="nl-af.autobil.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t1x"/>
+        <file name="nld-afr.t1x.bin"/>
+        <file name="nld-afr.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nl-af-postchunk" install="no">
+  <mode name="nld-afr-postchunk" install="no">
     <pipeline>
       <program name="lt-proc -e">
-        <file name="nl-af.automorf.bin"/>
+        <file name="nld-afr.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nl-af.prob"/>
+        <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-af-nl.nl-af.t1x"/>
-        <file name="nl-af.t1x.bin"/>
-        <file name="nl-af.autobil.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t1x"/>
+        <file name="nld-afr.t1x.bin"/>
+        <file name="nld-afr.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-af-nl.nl-af.t2x"/>
-        <file name="nl-af.t2x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t2x"/>
+        <file name="nld-afr.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-af-nl.nl-af.t3x"/>
-        <file name="nl-af.t3x.bin"/>
+        <file name="apertium-afr-nld.nld-afr.t3x"/>
+        <file name="nld-afr.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
