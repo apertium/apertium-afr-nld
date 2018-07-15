@@ -1,0 +1,17 @@
+dist: trusty
+before_install:
+    - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
+    - sudo apt-get install apertium lttoolbox apertium-dev lttoolbox-dev cg3 apertium-lex-tools
+    - wget https://github.com/apertium/apertium-afr/archive/master.zip
+    - unzip master.zip
+    - mv apertium-afr-master apertium-afr
+    - pushd apertium-afr && ./autogen.sh && ./configure && make && popd
+    - rm master.zip
+    - wget https://github.com/apertium/apertium-nld/archive/master.zip
+    - unzip master.zip
+    - mv apertium-nld-master apertium-nld
+    - pushd apertium-nld && ./autogen.sh && ./configure && make && popd
+    - rm master.zip
+script:
+    - ./autogen.sh --with-lang1=./apertium-afr --with-lang2=./apertium-nld
+    - make langs
