@@ -22,10 +22,6 @@
         <file name="apertium-afr-nld.afr-nld.t3x"/>
         <file name="afr-nld.t3x.bin"/>
       </program>
-      <program name="apertium-transfer -n">
-	<file name="apertium-afr-nld.post-nld.t1x"/>
-        <file name="afr-nld.post.t1x.bin"/>
-      </program>
       <program name="lt-proc -g">
         <file name="afr-nld.autogen.bin"/>
       </program>
