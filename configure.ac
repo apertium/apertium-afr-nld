@@ -13,6 +13,7 @@ AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
 m4_define([required_apertium_version], [3.4.0])
+
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.4 >= required_apertium_version)])
 
 AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
