@@ -76,8 +76,11 @@
 
   <mode name="nld-afr-nocmpd" install="no">
     <pipeline>
-      <program name="lt-proc -e">
+      <program name="lt-proc -e -w">
         <file name="nld-afr.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nld-afr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-afr.prob"/>
@@ -105,8 +108,11 @@
 
   <mode name="nld-afr" install="yes">
     <pipeline>
-      <program name="lt-proc -e">
+      <program name="lt-proc -e -w">
         <file name="nld-afr.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nld-afr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-afr.prob"/>
@@ -219,10 +225,26 @@
     </pipeline>
   </mode>
 
+  <mode name="nld-afr-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nld-afr.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="nld-afr.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="nld-afr-tagger" install="no">
     <pipeline>
-      <program name="lt-proc -e">
+      <program name="lt-proc -e -w">
         <file name="nld-afr.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nld-afr.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="nld-afr.prob"/>

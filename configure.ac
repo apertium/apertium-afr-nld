@@ -12,6 +12,17 @@ AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
 
+AC_PATH_PROG(CGCOMP, cg-comp, no)
+if test x$ac_cv_path_CGCOMP = x
+then
+  AC_MSG_ERROR([You don't have cg-comp installed.])
+fi
+if test x$ac_cv_path_CGPROC = xno
+then
+  AC_MSG_ERROR([You don't have cg-comp installed.])
+fi
+
+
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.4 >= required_apertium_version)])
 
 AC_OUTPUT([Makefile])

@@ -10,6 +10,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin \
      $(PREFIX2).autopgen.bin \
+     $(PREFIX2).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX1).post.t1x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin modes 
@@ -74,12 +75,15 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-validate-postchunk $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
+$(PREFIX2).rlx.bin: $(BASENAME).$(LANG2).rlx
+	cg-comp $< $@
 
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	   $(BASENAME).$(LANG2).dix \
 	   $(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG2).acx \
+	   $(BASENAME).$(LANG2).rlx \
 	   $(BASENAME).$(LANG1).acx \
 	   $(BASENAME).post-$(LANG1).dix \
 	   $(BASENAME).$(LANG2).dix \
@@ -118,6 +122,7 @@ apertium_afr_nld_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     $(PREFIX1).autopgen.bin \
                     $(PREFIX1).post.t1x.bin \
                     $(PREFIX2).autopgen.bin \
+                    $(PREFIX2).rlx.bin \
                     $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 		    $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
