@@ -5821,7 +5821,8 @@
     <e><p><l>vrees<s n="vblex"/></l><r>vrezen<s n="vblex"/></r></p></e>
     <e><p><l>verfyn<s n="vblex"/></l><r>verfijnen<s n="vblex"/></r></p></e>
     <e><p><l>belemmer<s n="vblex"/></l><r>belemmeren<s n="vblex"/></r></p></e>
-    <e><p><l>lig<s n="vblex"/></l><r>liggen<s n="vblex"/></r></p></e>
+    <!--<e><p><l>lig<s n="vblex"/></l><r>liggen<s n="vblex"/></r></p></e>-->
+    <e><p><l>lê<s n="vblex"/></l><r>liggen<s n="vblex"/></r></p></e>
     <e><p><l>las<s n="vblex"/></l><r>lassen<s n="vblex"/></r></p></e>
     <e><p><l>berokken<s n="vblex"/></l><r>berokkenen<s n="vblex"/></r></p></e>
     <e><p><l>herroep<s n="vblex"/></l><r>herroepen<s n="vblex"/></r></p></e>
