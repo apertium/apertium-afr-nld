@@ -468,9 +468,9 @@
 
     <!-- SECTION: Nouns -->
 	<e><p><l>duikdiensverskaffer<s n="n"/></l><r>duikoperator<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>nesplek<s n="n"/></l><r>nestplaats<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nesplek<s n="n"/></l><r>nestplaats<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>kaktus<s n="n"/></l><r>cactus<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>ontspanningsoord<s n="n"/></l><r>recreatieoord<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ontspanningsoord<s n="n"/></l><r>recreatieoord<s n="n"/><s n="nt"/></r></p></e>
 
 	<e><p><l>vriend<s n="n"/></l><r>vriend<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kardinaal<s n="n"/></l><r>kardinaal<s n="n"/><s n="m"/></r></p></e>
