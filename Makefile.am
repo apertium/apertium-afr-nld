@@ -25,6 +25,7 @@ TARGETS_COMMON =		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autogen.bin	\
+	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
@@ -103,6 +104,17 @@ $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
+
+###############################################################################
+## Lexical selection rules
+###############################################################################
+
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	lrx-comp $< $@
+
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	lrx-comp $< $@
+
 
 ###############################################################################
 ## Structural transfer rules

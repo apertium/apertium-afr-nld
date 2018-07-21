@@ -1,0 +1,8 @@
+<rules>
+  <rule>
+    <match lemma="link"><select lemma="skakel"/></match>
+  </rule>
+  <rule>
+    <match lemma="zich"><select lemma="hom"/></match>
+  </rule>
+</rules>

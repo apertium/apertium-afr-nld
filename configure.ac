@@ -22,6 +22,9 @@ AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed]
 AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
 AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
 
+AC_PATH_PROG([CGPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
+AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
+
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
 

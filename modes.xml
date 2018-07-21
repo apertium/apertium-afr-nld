@@ -114,10 +114,15 @@
         <file name="nld-afr.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="nld-afr.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nld-afr.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-afr-nld.nld-afr.t1x"/>
         <file name="nld-afr.t1x.bin"/>
-        <file name="nld-afr.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-afr-nld.nld-afr.t2x"/>
