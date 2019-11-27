@@ -2,7 +2,6 @@
 ## Makefile for Afrikaans--Dutch
 ###############################################################################
 
-VERSION=0.2.0
 LANG1=afr
 LANG2=nld
 PREFIX1=$(LANG1)-$(LANG2)
