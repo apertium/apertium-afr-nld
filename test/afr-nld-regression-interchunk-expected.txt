@@ -1,0 +1,88 @@
+[-0Si2cM9PdR8#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verbhaver<V><pres><p1><sg>{^hebben<vbhaver><pres><3><4>$}$ ^nie<ADV>{^niet<adv>$}$ ^nom<SN><sg>{^geweten<n><nt><sg>$}$ ^conj<conj>{^dat<cnjsub>$}$ ^prpers<PRN><SUBJ><p3><m><sg>{^prpers<prn><subj><p3><m><sg>$}$ ^verb<V><past><p3><sg>{^zullen<vaux><past><3><4>$}$ ^inf<V><inf>{^komen<vblex><inf>$}$ ^punt<sent>{^.<sent>$}$
+[/-0Si2cM9PdR8]
+[15ImTtz00AdT#0] ^default<default>{^1533ste<num><ord>$}$
+[/15ImTtz00AdT]
+[284CTineNrKe#0] ^default<default>{^8ste<num><ord>$}$
+[/284CTineNrKe]
+[2Y3sxxV1eOak#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^default<default>{^zullen<vaux><inf>$}$ ^nie<ADV>{^niet<adv>$}$ ^inf<V><inf>{^komen<vblex><inf>$}$ ^punt<sent>{^.<sent>$}$
+[/2Y3sxxV1eOak]
+[4jC2REjacQ2N#0] ^det_nom<SN><nt><sg>{^Onze<det><pos><nt><sg>$ ^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/4jC2REjacQ2N]
+[64y-wDxncSIs#0] ^prpers<PRN><SUBJ><p2><mf><sg>{^Prpers<prn><subj><p2><mf><sg>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/64y-wDxncSIs]
+[6ztF1XYsO0aY#0] ^prpers<PRN><SUBJ><p2><mf><pl>{^Prpers<prn><subj><p2><mf><pl>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/6ztF1XYsO0aY]
+[8PHI_t_UJMpO#0] ^prpers<PRN><SUBJ><p3><mf><pl>{^Prpers<prn><subj><p3><mf><pl>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/8PHI_t_UJMpO]
+[94of3Ownf11E#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^kennen<vblex><inf>$}$ ^prn<SN><mf><sg>{^niemand<prn><tn><mf><sg>$}$ ^punt<sent>{^.<sent>$}$
+[/94of3Ownf11E]
+[9VBBXMVXPJSR#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^inf<V><inf>{^komen<vblex><inf>$}$ ^nie<ADV>{^niet<adv>$}$^punt<sent>{^.<sent>$}$
+[/9VBBXMVXPJSR]
+[DoyqZmoXOJQo#0] ^nom_gen<SN><UNDET><nt><sg>{^Zuid-Afrika<np><top><nt><sg>+s<gen>$}$ ^nom<SN><sg>{^hoofdstad<n><f><sg>$}$^punt<sent>{^.<sent>$}$
+[/DoyqZmoXOJQo]
+[Ee9WeZjIM_m3#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^default<default>{^zullen<vaux><inf>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/Ee9WeZjIM_m3]
+[GBEgCNT5cHl8#0] ^prpers<PRN><SUBJ><p3><nt><sg>{^Prpers<prn><subj><p3><nt><sg>$}$ ^verb<V><pres><p3><sg>{^zijn<vbser><pres><3><4>$}$ ^nie<ADV>{^niet<adv>$}$ ^default<default>{^zo<preadv>$}$ ^adj<ADJ>{^moeilijk<adj><sint><pred>$}$ ^default<default>{^om<adv>$}$ ^adj<ADJ>{^Afrikaans<adj><sint><pred>$}$ ^pr<PR>{^te<pr>$}$ ^nom<SN><sg>{^leer<n><nt><sg>$}$ ^punt<sent>{^.<sent>$}$
+[/GBEgCNT5cHl8]
+[GOD1TNInSRmc#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^weten<vblex><inf>$}$ ^prn<SN><mf><sg>{^niks<prn><tn><mf><sg>$}$ ^punt<sent>{^.<sent>$}$
+[/GOD1TNInSRmc]
+[JmY84ujYeOnf#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb<V><pres><p1><sg>{^zijn<vbser><pres><3><4>$}$ ^meer_adj<SA>{^betrouwbaar<adj><sint><comp><pred>$}$ ^as<prep>{^dan<preadv>$}$ ^prpers<PRN><SUBJ><p2><mf><sg>{^prpers<prn><subj><p2><mf><sg>$}$^punt<sent>{^.<sent>$}$
+[/JmY84ujYeOnf]
+[Jvw7NO5W8gyd#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^kennen<vblex><inf>$}$ ^default<default>{^zich<prn><ref><p3><mf><sp>$}$ ^nie<ADV>{^niet<adv>$}$^punt<sent>{^.<sent>$}$
+[/Jvw7NO5W8gyd]
+[K45Rlqy6QOIv#0] ^det_nom_gen<SN><f><sg>{^De<det><def><mf><sg>$ ^vrouw<n><f><sg>+s<gen>$}$ ^nom<SN><sg>{^zoon<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/K45Rlqy6QOIv]
+[Lhn7aPjl6CbL#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^gaan<vblex><inf>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/Lhn7aPjl6CbL]
+[PIjUUwmXfggb#0] ^default<default>{^100ste<num><ord>$}$
+[/PIjUUwmXfggb]
+[QE_ztpzYdhLS#0] ^default<default>{^1ste<num><ord>$}$
+[/QE_ztpzYdhLS]
+[RqZAsxPE1iz_#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb<V><pres><p1><sg>{^zijn<vbser><pres><3><4>$}$ ^adj<ADJ>{^goed<adj><sint><comp><pred>$}$ ^conj<conj>{^als<cnjsub>$}$ ^prpers<PRN><SUBJ><p2><mf><sg>{^prpers<prn><subj><p2><mf><sg>$}$^punt<sent>{^.<sent>$}$
+[/RqZAsxPE1iz_]
+[S3Dei9yRI27d#0] ^default<default>{^21ste<num><ord>$}$
+[/S3Dei9yRI27d]
+[Sbm_4DhwdwDB#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^default<default>{^kunnen<vbmod><inf>$}$ ^nie<ADV>{^niet<adv>$}$ ^inf<V><inf>{^komen<vblex><inf>$}$  ^conj<conj>{^want<cnjadv>$}$ ^prpers<PRN><SUBJ><p3><m><sg>{^prpers<prn><subj><p3><m><sg>$}$ ^verb<V><pres><p3><sg>{^zijn<vbser><pres><3><4>$}$ ^adj<ADJ>{^ziek<adj><sint><pred>$}$^punt<sent>{^.<sent>$}$
+[/Sbm_4DhwdwDB]
+[W_IUobAAWr1u#0] ^nom_gen<SN><UNDET><nt><sg>{^Duitsland<np><top><nt><sg>+s<gen>$}$ ^adj_nom<SN>{^belangrijk<adj><sint><sup><attr>$ ^handelspartner<n><m><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^nom<SN><sg>{^Frankrijk<np><top><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/W_IUobAAWr1u]
+[Xz1lecUMeRta#0] ^default<default>{^20ste<num><ord>$}$
+[/Xz1lecUMeRta]
+[ZKPCYEarNcmK#0] ^nom<SN><sg>{^Werk<n><nt><sg>$}$^punt<sent>{^!<sent>$}$
+[/ZKPCYEarNcmK]
+[_usCy-k5h17W#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/_usCy-k5h17W]
+[aFSyOfh9eF_q#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^verb_pp<V><pres><p3><sg>{^zijn<vbser><pres><3><4>$ ^niet<adv>$ ^komen<vblex><pp>$}$^punt<sent>{^.<sent>$}$
+[/aFSyOfh9eF_q]
+[bynaRymZZi_I#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb_pp<V><pres><p1><sg>{^hebben<vbhaver><pres><3><4>$ ^werken<vblex><pp>$}$^punt<sent>{^.<sent>$}$
+[/bynaRymZZi_I]
+[dZJeyj1FkXOL#0] ^nom_gen<SN><UNDET><f><sg>{^Vrouw<n><f><sg>+s<gen>$}$ ^nom<SN><sg>{^zoon<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/dZJeyj1FkXOL]
+[gqP_hSLcUm0h#0] ^default<default>{^19de<num><ord>$}$
+[/gqP_hSLcUm0h]
+[iqxCpw_ZTSCh#0] ^default<default>{^7de<num><ord>$}$
+[/iqxCpw_ZTSCh]
+[l0MZ1SQuURtQ#0] ^conj<conj>{^Als<cnjsub>$}$ ^prpers<PRN><SUBJ><p2><mf><sg>{^prpers<prn><subj><p2><mf><sg>$}$ ^nie<ADV>{^niet<adv>$}$ ^default<default>{^zo<preadv>$}$ ^adj<ADJ>{^veel<adj><sint><pred>$}$ ^verb<V><past><PD><ND>{^zullen<vaux><past><3><4>$}$ ^nom<SN><sg>{^eten<n><nt><sg>$}$  ^punt<sent>{^.<sent>$}$^punt<sent>{^.<sent>$}$^punt<sent>{^.<sent>$}$
+[/l0MZ1SQuURtQ]
+[lZfQaiQlNGfE#0] ^prpers<PRN><SUBJ><p2><mf><sg>{^Prpers<prn><subj><p2><mf><sg>$}$ ^unknown<unknown>{^*let$}$ ^nie<ADV>{^niet<adv>$}$ ^pr<PR>{^op<pr>$}$ ^punt<sent>{^.<sent>$}$
+[/lZfQaiQlNGfE]
+[nKjM9f1Bg3pM#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb<V><pres><p1><sg>{^zijn<vbser><pres><3><4>$}$ ^adj<ADJ>{^bezig<adj><sint><pred>$}$ ^default<default>{^om<adv>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^pr<PR>{^te<pr>$}$ ^uns_inf<V><inf>{^versterken<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/nKjM9f1Bg3pM]
+[oQvB6A517MR-#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verbhaver<V><pres><p1><sg>{^hebben<vbhaver><pres><3><4>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^uns_inf<V><inf>{^versterken<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/oQvB6A517MR-]
+[tu_Czc1tN5_6#0] ^nom_gen<SN><UNDET><nt><sg>{^Johannesburg<np><top><nt><sg>+s<gen>$}$ ^adj_nom<SN>{^internationaal<adj><sint><attr>$ ^luchthaven<n><mf><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^det<SN><mf><sg>{^de<det><def><mf><sg>$}$ ^adj<ADJ>{^groot<adj><sint><sup><pred>$}$ ^pr<PR>{^op<pr>$}$ ^det_nom<SN><nt><sg>{^de<det><def><nt><sg>$ ^vasteland<n><nt><sg>$}$ ^default<default>{^van<adv>$}$ ^nom<SN><sg>{^Afrika<np><top><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/tu_Czc1tN5_6]
+[u8TrdHC9w84V#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb_pp<V><pres><p1><sg>{^hebben<vbhaver><pres><3><4>$ ^niet<adv>$ ^werken<vblex><pp>$}$^punt<sent>{^.<sent>$}$
+[/u8TrdHC9w84V]
+[vpDX7UyqAdsa#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verbhaver<V><pres><p1><sg>{^hebben<vbhaver><pres><3><4>$}$ ^nom<SN><sg>{^geweten<n><nt><sg>$}$ ^conj<conj>{^dat<cnjsub>$}$ ^prpers<PRN><SUBJ><p3><m><sg>{^prpers<prn><subj><p3><m><sg>$}$ ^nie<ADV>{^niet<adv>$}$ ^verb<V><past><PD><ND>{^zullen<vaux><past><3><4>$}$ ^inf<V><inf>{^komen<vblex><inf>$}$ ^punt<sent>{^.<sent>$}$
+[/vpDX7UyqAdsa]
+[x9xcgm4vK11m#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^inf<V><inf>{^bidden<vblex><inf>$}$ ^default<default>{^nooit<adv>$}$^punt<sent>{^.<sent>$}$
+[/x9xcgm4vK11m]
+[xayxtn9Omh74#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/xayxtn9Omh74]
+[yBUuGGTm-LNC#0] ^default<default>{^2de<num><ord>$}$
+[/yBUuGGTm-LNC]
+[zk8gm776_jBB#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^weten<vblex><inf>$}$ ^nie<ADV>{^niet<adv>$}$^punt<sent>{^.<sent>$}$
+[/zk8gm776_jBB]
+[zvzwMPcS4aE-#0] ^default<default>{^9de<num><ord>$}$
+[/zvzwMPcS4aE-]

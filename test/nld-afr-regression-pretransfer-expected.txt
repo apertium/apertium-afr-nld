@@ -1,0 +1,56 @@
+[-v5idhWkSbby#0] ^Rood<adj><sint><attr>$ ^huis<n><nt><pl>$^.<sent>$
+[/-v5idhWkSbby]
+[18c8ZDNmxYUx#0] ^Geven<vblex><imp><sg>$ ^prpers<prn><obj><p1><mf><sg>$ ^maar<cnjcoo>$ ^alles<prn><tn><nt><pl>$ ^wat<det><itg><sp>$ ^eetbaar<adj><sint><pred>$ ^zijn<vbser><pres><p3><sg>$^.<sent>$
+[/18c8ZDNmxYUx]
+[3E-aOs0HnIhi#0] ^Prpers<prn><subj><p3><nt><sg>$ ^openbaar<adj><sint><attr>$ ^vervoer<n><nt><sg>$ ^van<pr>$ ^Amsterdam<np><top><nt><sg>$^.<sent>$
+[/3E-aOs0HnIhi]
+[699i6SoD3aEx#0] ^Ontwikkeling<n><f><sg><cmp>$ ^plan<n><mf><sg>$^.<sent>$
+[/699i6SoD3aEx]
+[76c_NSWYspwj#0] ^Een<det><ind><mf><sg>$ ^huis<n><nt><sg>$^.<sent>$
+[/76c_NSWYspwj]
+[9RX6PF1PbdMo#0] ^Een<det><ind><mf><sg>$ ^rood<adj><sint><attr>$ ^appel<n><m><sg>$^.<sent>$
+[/9RX6PF1PbdMo]
+[BvbaelUq6IK2#0] ^Waar<rel><adv>$ ^zijn<vbser><pres><p3><sg>$ ^Jan<np><ant><m><sg>$^?<sent>$
+[/BvbaelUq6IK2]
+[F8u4gTdiFDzh#0] ^Prpers<prn><subj><p1><mf><sg>$ ^weten<vblex><pres><p3><sg>$ ^dat<cnjsub>$ ^prpers<prn><subj><p3><m><sg>$ ^ziek<adj><sint><pred>$ ^zijn<vbser><pres><p3><sg>$^.<sent>$
+[/F8u4gTdiFDzh]
+[FAprU_hkvfj4#0] ^Prpers<prn><subj><p3><nt><sg>$ ^openbaar<adj><sint><attr><uninfl>$ ^vervoer<n><nt><sg>$^.<sent>$
+[/FAprU_hkvfj4]
+[MybUWidzsufa#0] ^Wie<rel><an><mf><sp>$ ^mogen<vbmod><pres><p3><sg>$ ^prpers<prn><subj><p1><mf><sg>$ ^helpen<vblex><ger>$^?<sent>$
+[/MybUWidzsufa]
+[O0M4T4Y5WyAW#0] ^Prpers<prn><subj><p3><m><sg>$ ^hebben<vbhaver><pres><p3><sg>$ ^een<det><ind><mf><sg>$ ^huis<n><nt><sg>$ ^kopen<vblex><pp>$^.<sent>$
+[/O0M4T4Y5WyAW]
+[TvhE9C9A93IX#0] ^Land<n><nt><pl>$ ^zoals<pr>$ ^Engeland<np><top><nt><sg>$ ^en<cnjcoo>$ ^Frankrijk<np><top><nt><sg>$^.<sent>$
+[/TvhE9C9A93IX]
+[UhCoCfQe7JvQ#0] ^Prpers<prn><subj><p1><mf><sg>$ ^hebben<vbhaver><pres><p2><sg>$ ^de<det><def><mf><sg>$ ^boter<n><mf><sg>$ ^smelten<vblex><pp>$^.<sent>$
+[/UhCoCfQe7JvQ]
+[WIA0sSNRLu3i#0] ^Prpers<prn><subj><p3><m><sg>$ ^moeten<vbmod><pres><p3><sg>$ ^gaan<vblex><inf>$^.<sent>$
+[/WIA0sSNRLu3i]
+[WIq5sKIJa_zO#0] ^Prpers<prn><subj><p3><nt><sg>$ ^rood<adj><sint><attr>$ ^huis<n><nt><sg>$^.<sent>$
+[/WIq5sKIJa_zO]
+[Xnq2NKsPWeeu#0] ^Een<det><ind><mf><sg>$ ^rood<n><nt><sg>$ ^huis<n><nt><sg>$^.<sent>$
+[/Xnq2NKsPWeeu]
+[a5Y2fNjB0nO3#0] ^Openbaar<adj><sint><attr><uninfl>$ ^vervoer<n><nt><sg>$^.<sent>$
+[/a5Y2fNjB0nO3]
+[bt121z0PiMWM#0] ^Huis<n><nt><pl>$^.<sent>$
+[/bt121z0PiMWM]
+[cWnmApPzWZbp#0] ^De<det><def><mf><sg>$ ^rood<adj><sint><attr>$ ^appel<n><m><sg>$^.<sent>$
+[/cWnmApPzWZbp]
+[dxZpjVVdYV4b#0] ^Prpers<prn><subj><p3><m><sg>$ ^zijn<vbser><pres><p3><sg>$ ^ziek<adj><sint><pred>$^.<sent>$
+[/dxZpjVVdYV4b]
+[gsGmyPaFhJvF#0] ^De<det><def><mf><sg>$ ^trein<n><m><sg>$ ^vertrekken<vblex><pres><p3><sg>$ ^om<pr>$ ^elf<num><sp>$ ^uur<n><nt><sg>$^.<sent>$
+[/gsGmyPaFhJvF]
+[hMNPOOXyXxf0#0] ^Prpers<prn><subj><p3><mf><pl>$ ^wonen<vblex><ger>$ ^hier<adv>$^.<sent>$
+[/hMNPOOXyXxf0]
+[i3FkInQiE2K_#0] ^Deze<det><dem><nt><sg>$ ^boek<n><nt><sg>$ ^zijn<vbser><pres><p3><sg>$ ^voor<pr>$ ^prpers<prn><obj><p2><mf><sg>$^.<sent>$
+[/i3FkInQiE2K_]
+[kIrXyEwsFcmT#0] ^De<det><def><mf><sg>$ ^gebouw<n><nt><pl>$ ^van<pr>$ ^een<det><ind><mf><sg>$ ^stad<n><f><sg>$^.<sent>$
+[/kIrXyEwsFcmT]
+[kpgKcQiPrD8K#0] ^Een<det><ind><mf><sg>$ ^talentvol<adj><sint><attr><uninfl>$ ^schrijver<n><m><sg>$^.<sent>$
+[/kpgKcQiPrD8K]
+[mbh2XdCkd3SR#0] ^Infrastructuur<n><f><sg><cmp>$ ^ontwikkeling<n><f><sg><cmp>$ ^plan<n><mf><sg>$^.<sent>$
+[/mbh2XdCkd3SR]
+[nQDbVpRUCI-i#0] ^Prpers<prn><subj><p1><mf><sg>$ ^hebben<vbhaver><pres><p2><sg>$ ^al<adv>$ ^eten<vblex><pp>$^.<sent>$
+[/nQDbVpRUCI-i]
+[yJY2mK_GKAWU#0] ^De<det><def><mf><sg>$ ^boter<n><mf><sg>$ ^zijn<vbser><pres><p3><sg>$ ^smelten<vblex><pp>$^.<sent>$
+[/yJY2mK_GKAWU]

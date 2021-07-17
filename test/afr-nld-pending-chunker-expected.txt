@@ -1,0 +1,44 @@
+[0RpfojoFKo_P#0] ^default<default>{^Geen<adv>$}$ ^nom<SN><sg>{^mens<n><m><sg>$}$ ^inf<V><inf>{^weten<vblex><inf>$}$ ^nie<ADV>{^niet<adv>$}$^punt<sent>{^.<sent>$}$
+[/0RpfojoFKo_P]
+[18CH6esARw1d#0] ^nom<SN><sg>{^De Beauvoir<np><cog><mf><sg>$}$ ^inf<V><inf>{^zeggen<vblex><inf>$}$ ^conj<conj>{^dat<cnjsub>$}$ ^det_nom<SN><f><sg>{^deze<det><dem><mf><sg>$ ^houding<n><f><sg>$}$ ^nom_gen<SN><UNDET><f><pl>{^vrouw<n><f><pl>+s<gen>$}$ ^nom<SN><sg>{^succes<n><nt><sg>$}$ ^adj<ADJ>{^beperkt<adj><sint><pred>$}$^punt<sent>{^.<sent>$}$
+[/18CH6esARw1d]
+[2HdXnG4NqrrH#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb_pp<V><pres><PD><ND>{^hebben<vbhaver><pres><3><4>$ ^zetten<vblex><pp>$}$ ^conj<conj>{^en<cnjcoo>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/2HdXnG4NqrrH]
+[2QuLjR7yCQkb#0] ^inf<V><inf>{^Weten<vblex><inf>$}$ ^prpers<PRN><SUBJ><p2><mf><sg>{^prpers<prn><subj><p2><mf><sg>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^nie<ADV>{^niet<adv>$}$^punt<sent>{^?<sent>$}$
+[/2QuLjR7yCQkb]
+[8zgVCe7MAHX-#0] ^inf<V><inf>{^Verbinden<vblex><inf>$}$ ^default<default>{^alstublieft<adv>$}$ ^det_nom<SN><m><pl>{^de<det><def><mfn><pl>$ ^kabel<n><m><pl>$}$^punt<sent>{^.<sent>$}$
+[/8zgVCe7MAHX-]
+[AT4knEgfRrs8#0] ^det_nom_gen<SN><m><pl>{^Onze<det><pos><mfn><pl>$ ^buur<n><m><pl>+s<gen>$}$ ^unknown<unknown>{^*vrienden$}$ ^default<default>{^s<gen>$}$ ^nom<SN><sg>{^zoon<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/AT4knEgfRrs8]
+[HEACiuWkT-UL#0] ^det<SN><mf><sg>{^een<det><ind><mf><sg>$}$ ^unknown<unknown>{^*Autochtoon$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^det_nom<SN><m><sg>{^een<det><ind><mf><sg>$ ^persoon<n><m><sg>$}$ ^rel<REL><PRN>{^wie<rel><an><mf><sp>$}$ ^default<default>{^s<gen>$}$ ^nom<SN><pl>{^ouder<n><m><pl>$}$ ^prn<SN><mf><pl>{^beide<prn><tn><mf><pl>$}$ ^pr<PR>{^in<pr>$}$ ^nom<SN><sg>{^Nederland<np><top><nt><sg>$}$ ^adj<ADJ>{^geboren<adj><pred>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^conj<conj>{^en<cnjcoo>$}$ ^default<default>{^wat<det><itg><sp>$}$ ^default<default>{^zelf<prn><ref><p3><mf><sp>$}$ ^default<default>{^ook<adv>$}$ ^pr<PR>{^in<pr>$}$ ^nom<SN><sg>{^Nederland<np><top><nt><sg>$}$ ^adj<ADJ>{^geboren<adj><pred>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$^punt<sent>{^.<sent>$}$
+[/HEACiuWkT-UL]
+[IUt0xAEsKPWv#0] ^det_nom_gen<SN><f><sg>{^De<det><def><mf><sg>$ ^stad<n><f><sg>+s<gen>$}$ ^nom<SN><pl>{^eeuw<n><mf><pl>$}$^default<default>{^-<guio>$}$^adj_nom<SN>{^oud<adj><sint><attr>$ ^multicultureel<adj><sint><attr>$ ^samenleving<n><f><sg>$}$ ^inf<V><inf>{^genieten<vblex><inf>$}$ ^adj<ADJ>{^wereldwijd<adj><sint><pred>$}$ ^inf<V><inf>{^aanzien<vblex><sep><inf>$}$^punt<sent>{^.<sent>$}$
+[/IUt0xAEsKPWv]
+[MeQ4m1OkBJhO#0] ^det<SN><mf><sg>{^De<det><def><mf><sg>$}$ ^adj_nom<SN>{^enigst<adj><attr>$ ^officieel<adj><sint><attr>$ ^taal<n><mf><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^adj<ADJ>{^Spaans<adj><sint><pred>$}$^default<default>{^,<cm>$}$ ^default<default>{^hoewel<adv>$}$ ^det_nom_gen<SN><m><pl>{^de<det><def><mfn><pl>$ ^immigrant<n><m><pl>+s<gen>$}$ ^nom<SN><pl>{^nazaat<n><m><pl>$}$ ^default<default>{^wat<det><itg><sp>$}$ ^adj<ADJ>{^oud<adj><sint><comp><pred>$}$ ^conj<conj>{^als<cnjsub>$}$ ^default<default>{^40<num>$}$ ^nom<SN><sg>{^jaar<n><nt><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$^default<default>{^,<cm>$}$ ^prpers<PRN><SUBJ><p3><mf><pl>{^prpers<prn><subj><p3><mf><pl>$}$ ^adj_nom<SN>{^eigen<adj><attr>$ ^taal<n><mf><sg>$}$ ^inf<V><inf>{^behouden<vblex><inf>$}$ ^verbhaver<V><pres><PD><ND>{^hebben<vbhaver><pres><3><4>$}$^punt<sent>{^.<sent>$}$
+[/MeQ4m1OkBJhO]
+[R9u5IlO6muwf#0] ^default<default>{^Zullen<vaux><inf>$}$ ^prpers<PRN><SUBJ><p2><mf><sg>{^prpers<prn><subj><p2><mf><sg>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^uns_inf<V><inf>{^versterken<vblex><inf>$}$^punt<sent>{^?<sent>$}$
+[/R9u5IlO6muwf]
+[RIf5Fmew9MGj#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^verb<V><past><PD><ND>{^moeten<vbmod><past><3><4>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^verbpp<V><pp>{^doen<vblex><pp>$}$ ^verbhaver<V><pres><PD><ND>{^hebben<vbhaver><pres><3><4>$}$^punt<sent>{^.<sent>$}$
+[/RIf5Fmew9MGj]
+[RJQDTo8zNEqn#0] ^det_adj_nom<SN><m><sg>{^De<det><def><mf><sg>$ ^uiteindelijk<adj><sint><attr>$ ^baby<n><m><sg>$}$ ^default<default>{^s<gen>$}$ ^nom<SN><sg>{^geslacht<n><nt><sg>$}$^default<default>{^,<cm>$}$ ^prn<SN><mf><sp>{^alle<prn><tn><mf><sp>$}$ ^adj_nom<SN>{^uiterlijk<adj><sint><attr>$ ^attribuut<n><nt><pl>$}$ ^conj<conj>{^en<cnjcoo>$}$ ^det_adj_nom<SN><nt><sg>{^een<det><ind><nt><sg>$ ^groot<adj><sint><attr>$ ^deel<n><nt><sg>$}$ ^default<default>{^van<adv>$}$ ^det_nom<SN><nt><sg>{^zijn<det><pos><mfn><sp>$ ^karakter<n><nt><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^default<default>{^nou<adv>$}$ ^default<default>{^reeds<adv>$}$ ^verbpp<V><pp>{^vaststellen<vblex><sep><pp>$}$^punt<sent>{^.<sent>$}$
+[/RJQDTo8zNEqn]
+[Y9pGOS9q4eWt#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verbhaver<V><pres><PD><ND>{^hebben<vbhaver><pres><3><4>$}$ ^det_nom<SN><m><pl>{^de<det><def><mfn><pl>$ ^kabel<n><m><pl>$}$ ^uns_inf<V><inf>{^verbinden<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/Y9pGOS9q4eWt]
+[YXASmpMcbAIv#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb<V><past><PD><ND>{^zijn<vbser><past><3><4>$}$ ^default<default>{^aan<adv>$}$ ^det_nom<SN><nt><sg>{^de<det><def><nt><sg>$ ^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/YXASmpMcbAIv]
+[ZoyQYPpbaubD#0] ^prpers<PRN><SUBJ><p3><m><sg>{^Prpers<prn><subj><p3><m><sg>$}$ ^default<default>{^zullen<vaux><inf>$}$ ^det<SN><mf><sg>{^die<det><dem><mf><sg>$}$ ^verbpp<V><pp>{^doen<vblex><pp>$}$ ^verbhaver<V><pres><PD><ND>{^hebben<vbhaver><pres><3><4>$}$^punt<sent>{^.<sent>$}$
+[/ZoyQYPpbaubD]
+[a7gttX-G9N8D#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^default<default>{^aan<adv>$}$ ^det_nom<SN><nt><sg>{^de<det><def><nt><sg>$ ^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/a7gttX-G9N8D]
+[aiEcaKy-7sAx#0] ^det_nom<SN><nt><sg>{^Zijn<det><pos><mfn><sp>$ ^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/aiEcaKy-7sAx]
+[erZdasXaPd8j#0] ^default<default>{^Moeten<vbmod><inf>$}$ ^nie<ADV>{^niet<adv>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$ ^punt<sent>{^!<sent>$}$
+[/erZdasXaPd8j]
+[grcx8dO4CIyh#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^zetten<vblex><inf>$}$ ^conj<conj>{^en<cnjcoo>$}$ ^nom<SN><sg>{^werk<n><nt><sg>$}$^punt<sent>{^.<sent>$}$
+[/grcx8dO4CIyh]
+[t4PdGjPKySGk#0] ^nom_gen<SN><UNDET><nt><sg>{^Zuid-Afrika<np><top><nt><sg>+s<gen>$}$ ^adj_nom<SN>{^bezig<adj><sint><sup><attr>$ ^haven<n><f><sg>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$ ^pr<PR>{^bij<pr>$}$ ^nom<SN><sg>{^Durban<np><top><nt><sg>$}$ ^default<default>{^wat<det><itg><sp>$}$ ^default<default>{^één<num><sg>$}$ ^default<default>{^van<adv>$}$ ^det_nom_gen<SN><mf><sg>{^de<det><def><mf><sg>$ ^wereld<n><mf><sg>+s<gen>$}$ ^adj_nom<SN>{^diep<adj><sint><sup><attr>$ ^natuurlijk<adj><sint><attr>$ ^haven<n><f><pl>$}$ ^verb<V><pres><PD><ND>{^zijn<vbser><pres><3><4>$}$^punt<sent>{^.<sent>$}$
+[/t4PdGjPKySGk]
+[x6xMniubulJA#0] ^prpers<PRN><SUBJ><p1><mf><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^inf<V><inf>{^kennen<vblex><inf>$}$ ^nie<ADV>{^niet<adv>$}$ ^det_nom<SN><m><sg>{^die<det><dem><mf><sg>$ ^man<n><m><sg>$}$ ^punt<sent>{^.<sent>$}$
+[/x6xMniubulJA]
+[zkQi8CefaOMw#0] ^unknown<unknown>{^*Mensen$}$ ^default<default>{^wat<det><itg><sp>$}$ ^nie<ADV>{^niet<adv>$}$ ^nom<SN><sg>{^rook<n><m><sg>$}$  ^nom<SN><sg>{^leven<n><nt><sg>$}$ ^unknown<unknown>{^*lange$}$^punt<sent>{^.<sent>$}$
+[/zkQi8CefaOMw]

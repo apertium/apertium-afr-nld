@@ -1,0 +1,18 @@
+{
+    "afr-nld-pending": {
+        "input": "afr-nld-pending-input.txt",
+        "mode": "afr-nld"
+    },
+    "afr-nld-regression": {
+        "input": "afr-nld-regression-input.txt",
+        "mode": "afr-nld"
+    },
+    "nld-afr-pending": {
+        "input": "nld-afr-pending-input.txt",
+        "mode": "nld-afr"
+    },
+    "nld-afr-regression": {
+        "input": "nld-afr-regression-input.txt",
+        "mode": "nld-afr"
+    }
+}
